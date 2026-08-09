@@ -1,0 +1,110 @@
+<%- include('partials/head') %>
+<%- include('partials/nav') %>
+
+<main class="page">
+  <nav class="breadcrumb">
+    <a href="/archive"><%= t('nav_problems') %></a>
+    <span>/</span>
+    <span>#<%= problem.id %></span>
+  </nav>
+
+  <section class="problem-header card">
+    <div class="problem-title-row">
+      <div>
+        <span class="problem-id-large">#<%= problem.id %></span>
+        <h1 class="problem-title"><%= problem.titles.ro %></h1>
+        <% if (problem.titles.en) { %>
+          <p class="problem-en muted"><%= problem.titles.en %></p>
+        <% } %>
+      </div>
+      <span class="diff-badge diff-<%= problem.difficulty %>"><%= difficultyLabel %></span>
+    </div>
+    <div class="problem-meta">
+      <span class="meta-item">
+        <strong><%= t('problem_grade') %>:</strong> <%= gradeLabel %>
+      </span>
+      <span class="meta-item">
+        <strong><%= t('problem_difficulty') %>:</strong> <%= difficultyLabel %>
+      </span>
+      <div class="meta-tags">
+        <% (problem.tags || []).forEach(function(tag) { %>
+          <a href="/archive?tag=<%= tag %>" class="tag"><%= tag %></a>
+        <% }) %>
+      </div>
+    </div>
+    <% if (problem.notes && problem.notes.ro) { %>
+      <div class="problem-notes">
+        <strong><%= t('problem_notes') %>:</strong> <%= problem.notes.ro %>
+      </div>
+    <% } %>
+  </section>
+
+  <div class="problem-layout">
+    <div class="problem-main">
+      <% if (statement && statement.length > 0) { %>
+        <section class="card panel">
+          <h2 class="panel-title"><%= t('problem_statement') %></h2>
+          <% statement.forEach(function(sec) { %>
+            <% if (sec.heading) { %>
+              <h3 class="stmt-heading"><%= sec.heading %></h3>
+            <% } %>
+            <% sec.content.split('\n').forEach(function(line) { %>
+              <p class="stmt-line"><%= line %></p>
+            <% }) %>
+          <% }) %>
+        </section>
+      <% } else { %>
+        <section class="card panel empty-panel">
+          <p class="muted"><%= t('problem_no_statement') %></p>
+        </section>
+      <% } %>
+
+      <% if (hasSolution) { %>
+        <section class="card panel">
+          <div class="code-head">
+            <h2 class="panel-title"><%= t('problem_solutions') %></h2>
+            <button class="btn btn-ghost btn-sm copy-btn" data-copy-target="solutionCode"><%= t('problem_copy') %></button>
+          </div>
+          <pre class="code-block"><code id="solutionCode" class="language-cpp"><%= solution %></code></pre>
+        </section>
+      <% } else { %>
+        <section class="card panel empty-panel">
+          <p class="muted"><%= t('problem_no_solution') %></p>
+        </section>
+      <% } %>
+    </div>
+
+    <aside class="problem-side">
+      <div class="card panel nav-panel">
+<h3 class="panel-title"><%= t('nav_problems') %></h3>
+        <div class="prev-next">
+          <% if (prev) { %>
+            <a href="/problema/<%= prev.id %>" class="nav-item prev">
+              <span class="nav-dir">&larr; <%= t('problem_prev') %></span>
+              <span class="nav-title">#<%= prev.id %> · <%= prev.titles.ro %></span>
+            </a>
+          <% } else { %>
+            <span class="nav-item disabled">&larr; <%= t('problem_prev') %></span>
+          <% } %>
+          <% if (next) { %>
+            <a href="/problema/<%= next.id %>" class="nav-item next">
+              <span class="nav-dir"><%= t('problem_next') %> &rarr;</span>
+              <span class="nav-title">#<%= next.id %> · <%= next.titles.ro %></span>
+            </a>
+          <% } else { %>
+            <span class="nav-item disabled"><%= t('problem_next') %> &rarr;</span>
+          <% } %>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <div class="view-badge" title="<%= t('problem_views') %>">
+    &#128065; <%= views %> <%= t('problem_views') %>
+  </div>
+</main>
+
+<%- include('partials/footer') %>
+<script src="/js/main.js"></script>
+</body>
+</html>

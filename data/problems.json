@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "title": "Arhiva PBInfo",
+    "description": "Soluții și enunțuri C++ pentru pbinfo.ro",
+    "total_problems": 0,
+    "total_solutions": 0
+  },
+  "problems": [
+    {
+      "id": 1000,
+      "titles": { "ro": "Suma a două numere", "en": "Sum of two numbers" },
+      "grade": 9,
+      "difficulty": 1,
+      "tags": ["aritmetică", "bază"],
+      "notes": { "ro": "Citirea a două numere și afișarea sumei.", "en": "Read two numbers and print their sum." }
+    },
+    {
+      "id": 1001,
+      "titles": { "ro": "Produsul a două numere", "en": "Product of two numbers" },
+      "grade": 9,
+      "difficulty": 1,
+      "tags": ["aritmetică", "bază"],
+      "notes": { "ro": "Citirea a două numere și afișarea produsului.", "en": "Read two numbers and print their product." }
+    },
+    {
+      "id": 23,
+      "titles": { "ro": "Suma cifrelor", "en": "Sum of digits" },
+      "grade": 9,
+      "difficulty": 1,
+      "tags": ["cifre", "iterație"],
+      "notes": { "ro": "Calculează suma cifrelor unui număr natural.", "en": "Compute the sum of digits of a natural number." }
+    },
+    {
+      "id": 1234,
+      "titles": { "ro": "Număr de divizori", "en": "Number of divisors" },
+      "grade": 10,
+      "difficulty": 2,
+      "tags": ["divizori", "matematică"],
+      "notes": { "ro": "Determină numărul de divizori ai unui număr.", "en": "Determine the number of divisors of a number." }
+    },
+    {
+      "id": 96,
+      "titles": { "ro": "Pătrat perfect", "en": "Perfect square" },
+      "grade": 9,
+      "difficulty": 1,
+      "tags": ["matematică", "pătrat perfect"],
+      "notes": { "ro": "Verifică dacă un număr este pătrat perfect.", "en": "Check if a number is a perfect square." }
+    },
+    {
+      "id": 2000,
+      "titles": { "ro": "Numere prime", "en": "Prime numbers" },
+      "grade": 10,
+      "difficulty": 2,
+      "tags": ["prime", "matematică"],
+      "notes": { "ro": "Verifică dacă un număr este prim.", "en": "Check if a number is prime." }
+    },
+    {
+      "id": 3000,
+      "titles": { "ro": "Fibonacci", "en": "Fibonacci" },
+      "grade": 10,
+      "difficulty": 2,
+      "tags": ["recursivitate", "șiruri"],
+      "notes": { "ro": "Calculează termenii șirului Fibonacci.", "en": "Compute Fibonacci sequence terms." }
+    },
+    {
+      "id": 45,
+      "titles": { "ro": "Cifre impare", "en": "Odd digits" },
+      "grade": 9,
+      "difficulty": 1,
+      "tags": ["cifre", "iterație"],
+      "notes": { "ro": "Numără cifrele impare ale unui număr.", "en": "Count the odd digits of a number." }
+    },
+    {
+      "id": 4000,
+      "titles": { "ro": "Sortare", "en": "Sorting" },
+      "grade": 11,
+      "difficulty": 3,
+      "tags": ["sortare", "algoritmi"],
+      "notes": { "ro": "Sortează un vector de numere.", "en": "Sort an array of numbers." }
+    },
+    {
+      "id": 5000,
+      "titles": { "ro": "Căutare binară", "en": "Binary search" },
+      "grade": 11,
+      "difficulty": 3,
+      "tags": ["căutare", "algoritmi"],
+      "notes": { "ro": "Caută o valoare într-un vector sortat.", "en": "Search a value in a sorted array." }
+    },
+    {
+      "id": 6000,
+      "titles": { "ro": "Grafuri - DFS", "en": "Graphs - DFS" },
+      "grade": 12,
+      "difficulty": 4,
+      "tags": ["grafuri", "DFS"],
+      "notes": { "ro": "Parcurgerea în adâncime a unui graf.", "en": "Depth-first traversal of a graph." }
+    },
+    {
+      "id": 6001,
+      "titles": { "ro": "Grafuri - BFS", "en": "Graphs - BFS" },
+      "grade": 12,
+      "difficulty": 4,
+      "tags": ["grafuri", "BFS"],
+      "notes": { "ro": "Parcurgerea în lățime a unui graf.", "en": "Breadth-first traversal of a graph." }
+    }
+  ]
+}

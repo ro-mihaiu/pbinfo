@@ -1,0 +1,72 @@
+<%- include('partials/head') %>
+<%- include('partials/nav') %>
+
+<main class="page">
+  <div class="page-head">
+    <h1 class="page-title"><%= t('archive_title') %></h1>
+    <p class="page-sub"><%= t('archive_subtitle') %></p>
+  </div>
+
+  <form class="archive-controls" method="get" action="/archive" id="archiveForm">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input type="text" name="q" id="searchInput" value="<%= query %>" placeholder="<%= t('archive_search_ph') %>" autocomplete="off">
+    </div>
+    <div class="filter-row">
+      <select name="grade" id="gradeFilter">
+        <option value=""><%= t('archive_all_grades') %></option>
+        <% grades.GRADES.forEach(function(g) { %>
+          <option value="<%= g %>" <%= String(selectedGrade) === String(g) ? 'selected' : '' %>><%= grades.getGradeLabel(g) %></option>
+        <% }) %>
+      </select>
+      <select name="tag" id="tagFilter">
+        <option value=""><%= t('archive_all_tags') %></option>
+        <% allTags.forEach(function(t) { %>
+          <option value="<%= t %>" <%= selectedTag === t ? 'selected' : '' %>><%= t %></option>
+        <% }) %>
+      </select>
+      <button type="submit" class="btn btn-primary btn-sm"><%= t('archive_title') %></button>
+    </div>
+  </form>
+
+  <div class="results-head">
+    <span class="results-count"><%= totalResults %> <%= totalResults === 1 ? t('archive_result') : t('archive_results') %></span>
+  </div>
+
+  <% if (totalResults === 0) { %>
+    <div class="empty-state">
+      <span class="empty-icon">&#128269;</span>
+      <h3><%= t('archive_empty_title') %></h3>
+      <p><%= t('archive_empty_text') %></p>
+      <a href="/archive" class="btn btn-ghost"><%= t('archive_reset') %></a>
+    </div>
+  <% } else { %>
+    <div class="problem-grid" id="problemGrid">
+      <% problems.forEach(function(p) { %>
+<a href="/problema/<%= p.id %>" class="card problem-card">
+          <div class="card-top">
+            <span class="problem-id">#<%= p.id %></span>
+            <span class="diff-badge diff-<%= p.difficulty %>"><%= grades.getDifficultyLabel(p.difficulty) %></span>
+          </div>
+          <h3 class="card-title"><%= p.titles.ro %></h3>
+          <div class="card-tags">
+            <% (p.tags || []).slice(0, 4).forEach(function(tag) { %>
+              <span class="tag"><%= tag %></span>
+            <% }) %>
+          </div>
+          <div class="card-foot">
+            <span class="grade-chip"><%= grades.getGradeLabel(p.grade) %></span>
+            <% if (hasSolution(p.id)) { %>
+              <span class="sol-badge">&#128221; Soluție</span>
+            <% } %>
+          </div>
+        </a>
+      <% }) %>
+    </div>
+  <% } %>
+</main>
+
+<%- include('partials/footer') %>
+<script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+Se dă un număr natural n. Să se calculeze suma cifrelor sale.
+
+Cerința
+Să se afișeze suma cifrelor numărului n.
+
+Date de intrare
+Programul citește de la tastatură numărul n.
+
+Date de ieșire
+Programul va afișa pe ecran suma cifrelor lui n.
+
+Restricții și precizări
+0 ≤ n ≤ 2.000.000.000
+
+Exemplu
+Input:
+1234
+Output:
+10
+
+Explicație
+1 + 2 + 3 + 4 = 10.

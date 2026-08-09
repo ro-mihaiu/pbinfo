@@ -1,0 +1,16 @@
+<%- include('partials/head') %>
+<%- include('partials/nav') %>
+
+<main class="page error-page">
+  <div class="error-card">
+    <span class="error-code"><%= code %></span>
+    <h1 class="error-title"><%= title %></h1>
+    <p class="error-text"><%= text %></p>
+    <a href="/" class="btn btn-primary"><%= t('error_404_home') %></a>
+  </div>
+</main>
+
+<%- include('partials/footer') %>
+<script src="/js/main.js"></script>
+</body>
+</html>

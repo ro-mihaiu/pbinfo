@@ -1,0 +1,23 @@
+{
+  "name": "pbinfo-archive",
+  "version": "1.0.0",
+  "description": "Romanian-language archive website for PBInfo C++ solutions - Discord-inspired premium UI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "pbinfo",
+    "c++",
+    "archive",
+    "solutions",
+    "romanian"
+  ],
+  "author": "Mihaiu",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}

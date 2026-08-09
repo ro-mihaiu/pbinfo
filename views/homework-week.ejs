@@ -1,0 +1,44 @@
+<%- include('partials/head') %>
+<%- include('partials/nav') %>
+
+<main class="page">
+  <nav class="breadcrumb">
+    <a href="/tema"><%= t('homework_title') %></a>
+    <span>/</span>
+    <span><%= week %></span>
+  </nav>
+
+  <div class="homework-layout">
+    <aside class="homework-side">
+      <div class="card panel">
+        <h3 class="panel-title"><%= t('homework_weeks') %></h3>
+        <div class="homework-list">
+          <a href="/tema" class="homework-link active"><%= t('homework_back') %></a>
+          <% allHomeworks.forEach(function(h) { %>
+            <a href="/tema/<%= h.week %>" class="homework-link <%= h.week === week ? 'active' : '' %>">
+              <span class="hw-week"><%= h.week %></span>
+              <% if (h.grade) { %>
+                <span class="hw-grade"><%= grades.getGradeLabel(h.grade) %></span>
+              <% } %>
+            </a>
+          <% }) %>
+        </div>
+      </div>
+    </aside>
+
+    <div class="homework-main">
+      <div class="card panel homework-content">
+        <% if (html && html.trim()) { %>
+          <%- html %>
+        <% } else { %>
+          <p class="muted"><%= t('homework_no_content') %></p>
+        <% } %>
+      </div>
+    </div>
+  </div>
+</main>
+
+<%- include('partials/footer') %>
+<script src="/js/main.js"></script>
+</body>
+</html>

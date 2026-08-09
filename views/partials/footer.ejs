@@ -1,0 +1,28 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-col footer-brand">
+      <span class="brand-name"><%= t('brand') %></span>
+      <p><%= t('footer_tagline') %></p>
+    </div>
+    <div class="footer-col">
+      <h4><%= t('footer_quick_links') %></h4>
+      <a href="/"><%= t('nav_home') %></a>
+      <a href="/archive"><%= t('nav_problems') %></a>
+      <a href="/tema"><%= t('nav_homework') %></a>
+    </div>
+    <div class="footer-col">
+      <h4><%= t('footer_social') %></h4>
+      <a href="<%= social.discord %>" target="_blank" rel="noopener">Discord</a>
+      <a href="<%= social.instagram %>" target="_blank" rel="noopener">Instagram</a>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <a href="/privacy"><%= t('legal_privacy') %></a>
+      <a href="/terms"><%= t('legal_terms') %></a>
+      <a href="/cookies"><%= t('legal_cookies') %></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© <%= currentYear %> <%= t('brand') %> · <%= t('footer_rights') %></span>
+  </div>
+</footer>

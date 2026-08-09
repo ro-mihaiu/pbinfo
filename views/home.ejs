@@ -1,0 +1,81 @@
+<%- include('partials/head') %>
+<%- include('partials/nav') %>
+
+<main class="page">
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-content">
+      <span class="hero-badge">&#128218; Arhivă C++</span>
+      <h1 class="hero-title"><%= t('hero_title') %></h1>
+      <p class="hero-subtitle"><%= t('hero_subtitle') %></p>
+      <div class="hero-cta">
+        <a href="/archive" class="btn btn-primary"><%= t('hero_cta_archive') %></a>
+        <a href="/tema" class="btn btn-ghost"><%= t('hero_cta_homework') %></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="stat-card">
+      <span class="stat-num"><%= totalProblems %></span>
+      <span class="stat-label"><%= t('stats_problems') %></span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-num"><%= totalSolutions %></span>
+      <span class="stat-label"><%= t('stats_solutions') %></span>
+    </div>
+    <div class="stat-card">
+      <span class="stat-num"><%= totalViews %></span>
+      <span class="stat-label"><%= t('stats_viewers') %></span>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2 class="section-title"><%= t('grades_title') %></h2>
+      <p class="section-sub"><%= t('grades_subtitle') %></p>
+    </div>
+    <div class="grade-grid">
+      <% grades.GRADES.forEach(function(g) { %>
+        <a href="/archive?grade=<%= g %>" class="grade-card">
+          <span class="grade-num"><%= g %></span>
+          <span class="grade-label"><%= grades.getGradeLabel(g) %></span>
+        </a>
+      <% }) %>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head row">
+      <div>
+        <h2 class="section-title"><%= t('recent_title') %></h2>
+        <p class="section-sub"><%= t('recent_subtitle') %></p>
+      </div>
+      <a href="/archive" class="btn btn-ghost btn-sm"><%= t('view_all') %> &rarr;</a>
+    </div>
+    <div class="problem-grid">
+      <% recent.forEach(function(p) { %>
+<a href="/problema/<%= p.id %>" class="card problem-card">
+          <div class="card-top">
+            <span class="problem-id">#<%= p.id %></span>
+            <span class="diff-badge diff-<%= p.difficulty %>"><%= grades.getDifficultyLabel(p.difficulty) %></span>
+          </div>
+          <h3 class="card-title"><%= p.titles.ro %></h3>
+          <div class="card-tags">
+            <% (p.tags || []).slice(0, 3).forEach(function(tag) { %>
+              <span class="tag"><%= tag %></span>
+            <% }) %>
+          </div>
+          <div class="card-foot">
+            <span class="grade-chip"><%= grades.getGradeLabel(p.grade) %></span>
+          </div>
+        </a>
+      <% }) %>
+    </div>
+  </section>
+</main>
+
+<%- include('partials/footer') %>
+<script src="/js/main.js"></script>
+</body>
+</html>

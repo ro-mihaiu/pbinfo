@@ -1,0 +1,22 @@
+Se citesc două numere naturale a și b. Să se afișeze suma lor.
+
+Cerința
+Să se afișeze suma celor două numere.
+
+Date de intrare
+Programul citește de la tastatură numerele a și b.
+
+Date de ieșire
+Programul va afișa pe ecran suma = a + b.
+
+Restricții și precizări
+0 ≤ a, b ≤ 1.000.000.000
+
+Exemplu
+Input:
+3 5
+Output:
+8
+
+Explicație
+3 + 5 = 8.

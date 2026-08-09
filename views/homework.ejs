@@ -1,0 +1,57 @@
+<%- include('partials/head') %>
+<%- include('partials/nav') %>
+
+<main class="page">
+  <div class="page-head">
+    <h1 class="page-title"><%= t('homework_title') %></h1>
+    <p class="page-sub"><%= t('homework_subtitle') %></p>
+  </div>
+
+  <div class="homework-layout">
+    <aside class="homework-side">
+      <div class="card panel">
+        <h3 class="panel-title"><%= t('homework_grades') %></h3>
+        <div class="homework-grades">
+          <% grades.GRADES.forEach(function(g) { %>
+            <a href="/tema/clasa-<%= g %>" class="grade-link <%= typeof activeGrade !== 'undefined' && activeGrade === g ? 'active' : '' %>">
+              <%= grades.getGradeLabel(g) %>
+            </a>
+          <% }) %>
+        </div>
+      </div>
+      <div class="card panel">
+        <h3 class="panel-title"><%= t('homework_weeks') %></h3>
+        <div class="homework-list">
+          <% homework.forEach(function(h) { %>
+            <a href="/tema/<%= h.week %>" class="homework-link">
+              <span class="hw-week"><%= h.week %></span>
+              <% if (h.grade) { %>
+                <span class="hw-grade"><%= grades.getGradeLabel(h.grade) %></span>
+              <% } %>
+            </a>
+          <% }) %>
+        </div>
+      </div>
+    </aside>
+
+    <div class="homework-main">
+      <div class="card panel">
+        <h2 class="panel-title"><%= t('homework_title') %></h2>
+        <p class="muted"><%= t('homework_subtitle') %></p>
+        <div class="homework-week-links">
+          <% homework.forEach(function(h) { %>
+            <a href="/tema/<%= h.week %>" class="week-card">
+              <span class="week-name"><%= h.week %></span>
+              <span class="week-grade"><%= h.grade ? grades.getGradeLabel(h.grade) : '' %></span>
+            </a>
+          <% }) %>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<%- include('partials/footer') %>
+<script src="/js/main.js"></script>
+</body>
+</html>

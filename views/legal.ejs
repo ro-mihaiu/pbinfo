@@ -1,0 +1,45 @@
+<%- include('partials/head') %>
+<%- include('partials/nav') %>
+
+<main class="page">
+  <div class="page-head">
+    <h1 class="page-title"><%= title %></h1>
+    <p class="page-sub muted"><%= t('legal_last_updated') %>: 1 ianuarie <%= currentYear %></p>
+  </div>
+
+  <div class="card panel legal-content">
+    <% if (pageKey === 'privacy') { %>
+      <h2>1. Colectarea datelor</h2>
+      <p>Această arhivă nu colectează date personale. Nu sunt necesare conturi sau autentificare pentru a accesa conținutul.</p>
+      <h2>2. Date anonime</h2>
+      <p>Utilizăm contoare anonime de vizualizare pentru a îmbunătăți experiența. Aceste date nu permit identificarea utilizatorului.</p>
+      <h2>3. Cookie-uri</h2>
+      <p>Singura stocare locală folosită este preferința de temă (dark/light), salvată în browser. Nu folosim cookie-uri de urmărire terțe.</p>
+      <h2>4. Contact</h2>
+      <p>Pentru întrebări legate de confidențialitate, ne puteți contacta prin intermediul canalelor de social media.</p>
+    <% } else if (pageKey === 'terms') { %>
+      <h2>1. Utilizarea conținutului</h2>
+      <p>Conținutul oferit are scop educațional. Vă încurajăm să înțelegeți soluțiile înainte de a le utiliza.</p>
+      <h2>2. Responsabilitate</h2>
+      <p>Arhiva este oferită „ca atare", fără garanții. Acuratețea soluțiilor nu este garantată.</p>
+      <h2>3. Drepturi de autor</h2>
+      <p>Enunțurile problemelor aparțin platformei pbinfo.ro. Soluțiile sunt oferite de comunitate.</p>
+      <h2>4. Modificări</h2>
+      <p>Ne rezervăm dreptul de a modifica acești termeni oricând.</p>
+    <% } else { %>
+      <h2>1. Ce sunt cookie-urile?</h2>
+      <p>Cookie-urile sunt fișiere mici stocate în browser. Această arhivă folosește exclusiv localStorage pentru preferința de temă.</p>
+      <h2>2. Preferința de temă</h2>
+      <p>Alegerea dumneavoastră de temă (dark/light) este salvată local în browser și folosită doar pentru afișarea paginii.</p>
+      <h2>3. Cookie-uri terțe</h2>
+      <p>Nu folosim cookie-uri de la terți pentru urmărire sau publicitate.</p>
+      <h2>4. Cum puteți controla preferințele</h2>
+      <p>Puteți șterge preferințele salvate din setările browserului în orice moment.</p>
+    <% } %>
+  </div>
+</main>
+
+<%- include('partials/footer') %>
+<script src="/js/main.js"></script>
+</body>
+</html>
