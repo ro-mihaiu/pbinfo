@@ -1,3 +1,5 @@
 node_modules/
+data/views.json
+pbinfo
 pbinfo/
 w.md
