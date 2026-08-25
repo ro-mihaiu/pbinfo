@@ -35,12 +35,28 @@
           <span><%= t('archive_grade_12_short') %></span>
         </label>
       </div>
-      <select name="tag" id="tagFilter">
-        <option value=""><%= t('archive_all_tags') %></option>
-        <% allTags.forEach(function(tagOption) { %>
-          <option value="<%= tagOption.value %>" <%= selectedTag === tagOption.value ? 'selected' : '' %>><%= tagOption.label %></option>
-        <% }) %>
-      </select>
+      <div class="difficulty-radios" role="radiogroup" aria-label="<%= t('archive_filter_difficulty') %>">
+        <label class="difficulty-radio difficulty-radio-all">
+          <input type="radio" name="difficulty" value="" <%= !selectedDifficulty ? 'checked' : '' %>>
+          <span><%= t('archive_difficulty_all') %></span>
+        </label>
+        <label class="difficulty-radio difficulty-radio-1">
+          <input type="radio" name="difficulty" value="1" <%= String(selectedDifficulty) === '1' ? 'checked' : '' %>>
+          <span><%= t('archive_difficulty_easy') %></span>
+        </label>
+        <label class="difficulty-radio difficulty-radio-2">
+          <input type="radio" name="difficulty" value="2" <%= String(selectedDifficulty) === '2' ? 'checked' : '' %>>
+          <span><%= t('archive_difficulty_medium') %></span>
+        </label>
+        <label class="difficulty-radio difficulty-radio-3">
+          <input type="radio" name="difficulty" value="3" <%= String(selectedDifficulty) === '3' ? 'checked' : '' %>>
+          <span><%= t('archive_difficulty_hard') %></span>
+        </label>
+        <label class="difficulty-radio difficulty-radio-4">
+          <input type="radio" name="difficulty" value="4" <%= String(selectedDifficulty) === '4' ? 'checked' : '' %>>
+          <span><%= t('archive_difficulty_competition') %></span>
+        </label>
+      </div>
       <button type="submit" class="btn btn-primary btn-sm"><%= t('archive_title') %></button>
     </div>
   </form>
@@ -66,11 +82,13 @@
             <span class="diff-badge diff-<%= p.difficulty %>"><%= grades.getDifficultyLabel(p.difficulty) %></span>
           </div>
           <h3 class="card-title"><%= p.titles.ro %></h3>
-          <div class="card-tags">
-            <% (p.tags || []).slice(0, 4).forEach(function(tag) { %>
-              <span class="tag"><%= tag %></span>
-            <% }) %>
-          </div>
+          <% if ((p.tags || []).length > 0) { %>
+            <div class="card-tags">
+              <% (p.tags || []).slice(0, 4).forEach(function(tag) { %>
+                <span class="tag"><%= tag %></span>
+              <% }) %>
+            </div>
+          <% } %>
           <div class="card-foot">
             <% const archiveGradeLabel = grades.getGradeLabel(p.grade); %>
             <% if (archiveGradeLabel) { %>

@@ -70,22 +70,8 @@ function renderArchive(req, res) {
   const problems = store.getProblems();
   const q = (req.query.q || '').toString().toLowerCase().trim();
   const grade = req.query.grade || '';
-  const tag = req.query.tag || '';
+  const difficulty = req.query.difficulty || '';
   const perPage = 12;
-  const tagDifficultyMap = {
-    'dificultate:easy': 1,
-    'dificultate:medium': 2,
-    'dificultate:hard': 3,
-    'dificultate:competition': 4
-  };
-  const allTags = [
-    { value: 'crescator', label: i18n.t('archive_tag_asc') },
-    { value: 'descrescator', label: i18n.t('archive_tag_desc') },
-    { value: 'dificultate:easy', label: i18n.t('archive_tag_diff_easy') },
-    { value: 'dificultate:medium', label: i18n.t('archive_tag_diff_medium') },
-    { value: 'dificultate:hard', label: i18n.t('archive_tag_diff_hard') },
-    { value: 'dificultate:competition', label: i18n.t('archive_tag_diff_competition') }
-  ];
 
   let filtered = problems;
 
@@ -102,15 +88,12 @@ function renderArchive(req, res) {
     filtered = filtered.filter((p) => String(p.grade) === String(grade));
   }
 
-  if (tag) {
-    if (tag === 'crescator') {
-      filtered = [...filtered].sort((a, b) => a.id - b.id);
-    } else if (tag === 'descrescator') {
-      filtered = [...filtered].sort((a, b) => b.id - a.id);
-    } else if (Object.prototype.hasOwnProperty.call(tagDifficultyMap, tag)) {
-      filtered = filtered.filter((p) => p.difficulty === tagDifficultyMap[tag]);
-    }
+  if (difficulty) {
+    filtered = filtered.filter((p) => String(p.difficulty) === String(difficulty));
   }
+
+  // Default sort: newest uploaded first.
+  filtered = [...filtered].sort((a, b) => b.id - a.id);
 
   const totalResults = filtered.length;
   const totalPages = Math.max(1, Math.ceil(totalResults / perPage));
@@ -124,7 +107,7 @@ function renderArchive(req, res) {
   const baseQuery = new URLSearchParams();
   if (req.query.q) baseQuery.set('q', req.query.q);
   if (grade) baseQuery.set('grade', grade);
-  if (tag) baseQuery.set('tag', tag);
+  if (difficulty) baseQuery.set('difficulty', difficulty);
 
   const makePageUrl = (page) => {
     const params = new URLSearchParams(baseQuery);
@@ -159,8 +142,7 @@ function renderArchive(req, res) {
     totalResults,
     query: req.query.q || '',
     selectedGrade: grade,
-    selectedTag: tag,
-    allTags,
+    selectedDifficulty: difficulty,
     hasSolution: (id) => store.hasSolution(id),
     currentPage,
     totalPages,
