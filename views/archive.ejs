@@ -1,28 +1,44 @@
 <%- include('partials/head') %>
 <%- include('partials/nav') %>
 
-<main class="page">
+<main class="page archive-page">
   <div class="page-head">
     <h1 class="page-title"><%= t('archive_title') %></h1>
     <p class="page-sub"><%= t('archive_subtitle') %></p>
   </div>
 
-  <form class="archive-controls" method="get" action="/archive" id="archiveForm">
+  <form class="archive-controls" method="get" action="/p" id="archiveForm">
     <div class="search-box">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
       <input type="text" name="q" id="searchInput" value="<%= query %>" placeholder="<%= t('archive_search_ph') %>" autocomplete="off">
     </div>
     <div class="filter-row">
-      <select name="grade" id="gradeFilter">
-        <option value=""><%= t('archive_all_grades') %></option>
-        <% grades.GRADES.forEach(function(g) { %>
-          <option value="<%= g %>" <%= String(selectedGrade) === String(g) ? 'selected' : '' %>><%= grades.getGradeLabel(g) %></option>
-        <% }) %>
-      </select>
+      <div class="grade-radios" role="radiogroup" aria-label="<%= t('archive_filter_grade') %>">
+        <label class="grade-radio">
+          <input type="radio" name="grade" value="" <%= !selectedGrade ? 'checked' : '' %>>
+          <span><%= t('archive_grade_all_short') %></span>
+        </label>
+        <label class="grade-radio">
+          <input type="radio" name="grade" value="9" <%= String(selectedGrade) === '9' ? 'checked' : '' %>>
+          <span><%= t('archive_grade_9_short') %></span>
+        </label>
+        <label class="grade-radio">
+          <input type="radio" name="grade" value="10" <%= String(selectedGrade) === '10' ? 'checked' : '' %>>
+          <span><%= t('archive_grade_10_short') %></span>
+        </label>
+        <label class="grade-radio">
+          <input type="radio" name="grade" value="11" <%= String(selectedGrade) === '11' ? 'checked' : '' %>>
+          <span><%= t('archive_grade_11_short') %></span>
+        </label>
+        <label class="grade-radio">
+          <input type="radio" name="grade" value="12" <%= String(selectedGrade) === '12' ? 'checked' : '' %>>
+          <span><%= t('archive_grade_12_short') %></span>
+        </label>
+      </div>
       <select name="tag" id="tagFilter">
         <option value=""><%= t('archive_all_tags') %></option>
-        <% allTags.forEach(function(t) { %>
-          <option value="<%= t %>" <%= selectedTag === t ? 'selected' : '' %>><%= t %></option>
+        <% allTags.forEach(function(tagOption) { %>
+          <option value="<%= tagOption.value %>" <%= selectedTag === tagOption.value ? 'selected' : '' %>><%= tagOption.label %></option>
         <% }) %>
       </select>
       <button type="submit" class="btn btn-primary btn-sm"><%= t('archive_title') %></button>
@@ -31,6 +47,7 @@
 
   <div class="results-head">
     <span class="results-count"><%= totalResults %> <%= totalResults === 1 ? t('archive_result') : t('archive_results') %></span>
+    <span class="results-count">Pagina <%= currentPage %> din <%= totalPages %></span>
   </div>
 
   <% if (totalResults === 0) { %>
@@ -38,12 +55,12 @@
       <span class="empty-icon">&#128269;</span>
       <h3><%= t('archive_empty_title') %></h3>
       <p><%= t('archive_empty_text') %></p>
-      <a href="/archive" class="btn btn-ghost"><%= t('archive_reset') %></a>
+      <a href="/p" class="btn btn-ghost"><%= t('archive_reset') %></a>
     </div>
   <% } else { %>
     <div class="problem-grid" id="problemGrid">
       <% problems.forEach(function(p) { %>
-<a href="/problema/<%= p.id %>" class="card problem-card">
+<a href="/p/<%= p.id %>" class="card problem-card">
           <div class="card-top">
             <span class="problem-id">#<%= p.id %></span>
             <span class="diff-badge diff-<%= p.difficulty %>"><%= grades.getDifficultyLabel(p.difficulty) %></span>
@@ -55,7 +72,10 @@
             <% }) %>
           </div>
           <div class="card-foot">
-            <span class="grade-chip"><%= grades.getGradeLabel(p.grade) %></span>
+            <% const archiveGradeLabel = grades.getGradeLabel(p.grade); %>
+            <% if (archiveGradeLabel) { %>
+              <span class="grade-chip"><%= archiveGradeLabel %></span>
+            <% } %>
             <% if (hasSolution(p.id)) { %>
               <span class="sol-badge">&#128221; Soluție</span>
             <% } %>
@@ -63,6 +83,30 @@
         </a>
       <% }) %>
     </div>
+
+    <% if (totalPages > 1) { %>
+      <nav class="archive-pagination" aria-label="Pagination">
+        <% if (prevPageUrl) { %>
+          <a href="<%= prevPageUrl %>" class="pager-link pager-arrow" aria-label="Pagina anterioară">&lt;</a>
+        <% } else { %>
+          <span class="pager-link pager-arrow disabled" aria-hidden="true">&lt;</span>
+        <% } %>
+
+        <% pageItems.forEach(function(item) { %>
+          <% if (item.type === 'ellipsis') { %>
+            <span class="pager-ellipsis">..</span>
+          <% } else { %>
+            <a href="<%= item.url %>" class="pager-link <%= item.current ? 'active' : '' %>"><%= item.page %></a>
+          <% } %>
+        <% }) %>
+
+        <% if (nextPageUrl) { %>
+          <a href="<%= nextPageUrl %>" class="pager-link pager-arrow" aria-label="Pagina următoare">&gt;</a>
+        <% } else { %>
+          <span class="pager-link pager-arrow disabled" aria-hidden="true">&gt;</span>
+        <% } %>
+      </nav>
+    <% } %>
   <% } %>
 </main>
 

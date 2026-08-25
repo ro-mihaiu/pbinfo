@@ -9,8 +9,8 @@
       <h1 class="hero-title"><%= t('hero_title') %></h1>
       <p class="hero-subtitle"><%= t('hero_subtitle') %></p>
       <div class="hero-cta">
-        <a href="/archive" class="btn btn-primary"><%= t('hero_cta_archive') %></a>
-        <a href="/tema" class="btn btn-ghost"><%= t('hero_cta_homework') %></a>
+        <a href="/p" class="btn btn-primary"><%= t('hero_cta_archive') %></a>
+        <a href="/h" class="btn btn-ghost"><%= t('hero_cta_homework') %></a>
       </div>
     </div>
   </section>
@@ -37,7 +37,7 @@
     </div>
     <div class="grade-grid">
       <% grades.GRADES.forEach(function(g) { %>
-        <a href="/archive?grade=<%= g %>" class="grade-card">
+        <a href="/p?grade=<%= g %>" class="grade-card">
           <span class="grade-num"><%= g %></span>
           <span class="grade-label"><%= grades.getGradeLabel(g) %></span>
         </a>
@@ -51,11 +51,11 @@
         <h2 class="section-title"><%= t('recent_title') %></h2>
         <p class="section-sub"><%= t('recent_subtitle') %></p>
       </div>
-      <a href="/archive" class="btn btn-ghost btn-sm"><%= t('view_all') %> &rarr;</a>
+      <a href="/p" class="btn btn-ghost btn-sm"><%= t('view_all') %> &rarr;</a>
     </div>
     <div class="problem-grid">
       <% recent.forEach(function(p) { %>
-<a href="/problema/<%= p.id %>" class="card problem-card">
+<a href="/p/<%= p.id %>" class="card problem-card">
           <div class="card-top">
             <span class="problem-id">#<%= p.id %></span>
             <span class="diff-badge diff-<%= p.difficulty %>"><%= grades.getDifficultyLabel(p.difficulty) %></span>
@@ -67,7 +67,10 @@
             <% }) %>
           </div>
           <div class="card-foot">
-            <span class="grade-chip"><%= grades.getGradeLabel(p.grade) %></span>
+            <% const homeGradeLabel = grades.getGradeLabel(p.grade); %>
+            <% if (homeGradeLabel) { %>
+              <span class="grade-chip"><%= homeGradeLabel %></span>
+            <% } %>
           </div>
         </a>
       <% }) %>

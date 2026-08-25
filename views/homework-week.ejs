@@ -3,7 +3,7 @@
 
 <main class="page">
   <nav class="breadcrumb">
-    <a href="/tema"><%= t('homework_title') %></a>
+    <a href="/h"><%= t('homework_title') %></a>
     <span>/</span>
     <span><%= week %></span>
   </nav>
@@ -13,9 +13,9 @@
       <div class="card panel">
         <h3 class="panel-title"><%= t('homework_weeks') %></h3>
         <div class="homework-list">
-          <a href="/tema" class="homework-link active"><%= t('homework_back') %></a>
+          <a href="/h" class="homework-link active"><%= t('homework_back') %></a>
           <% allHomeworks.forEach(function(h) { %>
-            <a href="/tema/<%= h.week %>" class="homework-link <%= h.week === week ? 'active' : '' %>">
+            <a href="/h/<%= h.week %>" class="homework-link <%= h.week === week ? 'active' : '' %>">
               <span class="hw-week"><%= h.week %></span>
               <% if (h.grade) { %>
                 <span class="hw-grade"><%= grades.getGradeLabel(h.grade) %></span>

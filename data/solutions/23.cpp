@@ -1,13 +1,7 @@
-#include <iostream>
-using namespace std;
-
-int main() {
-    int n, s = 0;
-    cin >> n;
-    while (n > 0) {
-        s += n % 10;
-        n /= 10;
+void oglindit(int n, int& oglindit) {
+    oglindit = 0;
+    while (n) {
+    	oglindit = oglindit * 10 + n % 10;
+    	n = n / 10;
     }
-    cout << s << '\n';
-    return 0;
 }

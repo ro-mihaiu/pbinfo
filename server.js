@@ -39,7 +39,7 @@ app.use((req, res, next) => {
 function makeLinkResolver() {
   const problems = store.getProblems();
   const idSet = new Set(problems.map((p) => p.id));
-  return (id) => (idSet.has(id) ? `/problema/${id}` : null);
+  return (id) => (idSet.has(id) ? `/p/${id}` : null);
 }
 
 // Count solutions for stats
@@ -65,12 +65,27 @@ app.get('/', (req, res) => {
   });
 });
 
-// Archive
-app.get('/archive', (req, res) => {
+// Archive listing
+function renderArchive(req, res) {
   const problems = store.getProblems();
   const q = (req.query.q || '').toString().toLowerCase().trim();
   const grade = req.query.grade || '';
   const tag = req.query.tag || '';
+  const perPage = 12;
+  const tagDifficultyMap = {
+    'dificultate:easy': 1,
+    'dificultate:medium': 2,
+    'dificultate:hard': 3,
+    'dificultate:competition': 4
+  };
+  const allTags = [
+    { value: 'crescator', label: i18n.t('archive_tag_asc') },
+    { value: 'descrescator', label: i18n.t('archive_tag_desc') },
+    { value: 'dificultate:easy', label: i18n.t('archive_tag_diff_easy') },
+    { value: 'dificultate:medium', label: i18n.t('archive_tag_diff_medium') },
+    { value: 'dificultate:hard', label: i18n.t('archive_tag_diff_hard') },
+    { value: 'dificultate:competition', label: i18n.t('archive_tag_diff_competition') }
+  ];
 
   let filtered = problems;
 
@@ -88,26 +103,85 @@ app.get('/archive', (req, res) => {
   }
 
   if (tag) {
-    filtered = filtered.filter((p) => (p.tags || []).includes(tag));
+    if (tag === 'crescator') {
+      filtered = [...filtered].sort((a, b) => a.id - b.id);
+    } else if (tag === 'descrescator') {
+      filtered = [...filtered].sort((a, b) => b.id - a.id);
+    } else if (Object.prototype.hasOwnProperty.call(tagDifficultyMap, tag)) {
+      filtered = filtered.filter((p) => p.difficulty === tagDifficultyMap[tag]);
+    }
   }
 
-  // Collect all unique tags for the filter dropdown
-  const allTags = [...new Set(problems.flatMap((p) => (p.tags || []).map((t) => t.toLowerCase())))].sort();
+  const totalResults = filtered.length;
+  const totalPages = Math.max(1, Math.ceil(totalResults / perPage));
+  let currentPage = parseInt(req.query.page, 10);
+  if (isNaN(currentPage) || currentPage < 1) currentPage = 1;
+  if (currentPage > totalPages) currentPage = totalPages;
+
+  const start = (currentPage - 1) * perPage;
+  const pagedProblems = filtered.slice(start, start + perPage);
+
+  const baseQuery = new URLSearchParams();
+  if (req.query.q) baseQuery.set('q', req.query.q);
+  if (grade) baseQuery.set('grade', grade);
+  if (tag) baseQuery.set('tag', tag);
+
+  const makePageUrl = (page) => {
+    const params = new URLSearchParams(baseQuery);
+    if (page > 1) params.set('page', String(page));
+    const qs = params.toString();
+    return qs ? `/p?${qs}` : '/p';
+  };
+
+  const selectedPages = new Set([1, 2, currentPage, totalPages - 1, totalPages]);
+  const sortedPages = [...selectedPages]
+    .filter((n) => n >= 1 && n <= totalPages)
+    .sort((a, b) => a - b);
+
+  const pageItems = [];
+  for (let i = 0; i < sortedPages.length; i++) {
+    const n = sortedPages[i];
+    const prev = i > 0 ? sortedPages[i - 1] : null;
+    if (prev !== null && n - prev > 1) {
+      pageItems.push({ type: 'ellipsis' });
+    }
+    pageItems.push({
+      type: 'page',
+      page: n,
+      url: makePageUrl(n),
+      current: n === currentPage
+    });
+  }
 
   res.render('archive', {
     title: i18n.t('archive_title'),
-    problems: filtered,
-    totalResults: filtered.length,
+    problems: pagedProblems,
+    totalResults,
     query: req.query.q || '',
     selectedGrade: grade,
     selectedTag: tag,
     allTags,
-    hasSolution: (id) => store.hasSolution(id)
+    hasSolution: (id) => store.hasSolution(id),
+    currentPage,
+    totalPages,
+    pageItems,
+    prevPageUrl: currentPage > 1 ? makePageUrl(currentPage - 1) : null,
+    nextPageUrl: currentPage < totalPages ? makePageUrl(currentPage + 1) : null
   });
+}
+
+app.get('/p', (req, res) => {
+  renderArchive(req, res);
+});
+
+// Backward-compatible redirect: /archive -> /p
+app.get('/archive', (req, res) => {
+  const qs = new URLSearchParams(req.query || {}).toString();
+  res.redirect(301, qs ? `/p?${qs}` : '/p');
 });
 
 // Homework index
-app.get('/tema', (req, res) => {
+app.get('/h', (req, res) => {
   const homework = store.getAllHomework();
   res.render('homework', {
     title: i18n.t('homework_title'),
@@ -115,8 +189,8 @@ app.get('/tema', (req, res) => {
   });
 });
 
-// Homework by grade: /tema/clasa-9
-app.get('/tema/clasa-:grade', (req, res) => {
+// Homework by grade: /h/clasa-9
+app.get('/h/clasa-:grade', (req, res) => {
   const grade = parseInt(req.params.grade, 10);
   const homework = store.getAllHomework().filter((h) => h.grade === grade);
   res.render('homework', {
@@ -126,20 +200,37 @@ app.get('/tema/clasa-:grade', (req, res) => {
   });
 });
 
-// Homework by grade/week: /tema/clasa-9/s1
-app.get('/tema/clasa-:grade/s:week', (req, res) => {
+// Homework by grade/week: /h/clasa-9/s1
+app.get('/h/clasa-:grade/s:week', (req, res) => {
   const grade = parseInt(req.params.grade, 10);
   const week = `s${req.params.week}`;
   renderHomeworkWeek(res, week, grade);
 });
 
-// Homework by week: /tema/s1 or /tema/2
-app.get('/tema/:week', (req, res) => {
+// Homework by week: /h/s1 or /h/2
+app.get('/h/:week', (req, res) => {
   let week = req.params.week;
   if (/^\d+$/.test(week)) {
     week = `s${week}`;
   }
   renderHomeworkWeek(res, week);
+});
+
+// Backward-compatible redirects for old homework paths
+app.get('/tema', (req, res) => {
+  res.redirect(301, '/h');
+});
+
+app.get('/tema/clasa-:grade', (req, res) => {
+  res.redirect(301, `/h/clasa-${req.params.grade}`);
+});
+
+app.get('/tema/clasa-:grade/s:week', (req, res) => {
+  res.redirect(301, `/h/clasa-${req.params.grade}/s${req.params.week}`);
+});
+
+app.get('/tema/:week', (req, res) => {
+  res.redirect(301, `/h/${req.params.week}`);
 });
 
 function renderHomeworkWeek(res, week, gradeFilter) {
@@ -199,8 +290,8 @@ app.post('/client-log', (req, res) => {
   res.status(200).json({ ok: true });
 });
 
-// Problem detail: GET /problema/:id (numeric only)
-app.get('/problema/:id', (req, res) => {
+// Problem detail renderer
+function renderProblemById(req, res) {
   const idParam = req.params.id;
   if (!/^\d+(\.\d+)?$/.test(idParam)) {
     return nextNotFound(req, res);
@@ -233,9 +324,19 @@ app.get('/problema/:id', (req, res) => {
     difficultyLabel: grades.getDifficultyLabel(problem.difficulty),
     gradeLabel: grades.getGradeLabel(problem.grade)
   });
+}
+
+// Primary problem route
+app.get('/p/:id', (req, res) => {
+  renderProblemById(req, res);
 });
 
-// Backward-compatible redirect: old /:id problem links -> /problema/:id
+// Backward-compatible redirect: /problema/:id -> /p/:id
+app.get('/problema/:id', (req, res) => {
+  res.redirect(301, `/p/${req.params.id}`);
+});
+
+// Backward-compatible redirect: old /:id problem links -> /p/:id
 app.get('/:id', (req, res) => {
   const idParam = req.params.id;
   if (!/^\d+(\.\d+)?$/.test(idParam)) {
@@ -246,7 +347,7 @@ app.get('/:id', (req, res) => {
   if (!problem) {
     return nextNotFound(req, res);
   }
-  res.redirect(301, `/problema/${id}`);
+  res.redirect(301, `/p/${id}`);
 });
 
 // 404 handler

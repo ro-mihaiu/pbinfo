@@ -3,7 +3,7 @@
 
 <main class="page">
   <nav class="breadcrumb">
-    <a href="/archive"><%= t('nav_problems') %></a>
+    <a href="/p"><%= t('nav_problems') %></a>
     <span>/</span>
     <span>#<%= problem.id %></span>
   </nav>
@@ -20,15 +20,17 @@
       <span class="diff-badge diff-<%= problem.difficulty %>"><%= difficultyLabel %></span>
     </div>
     <div class="problem-meta">
-      <span class="meta-item">
-        <strong><%= t('problem_grade') %>:</strong> <%= gradeLabel %>
-      </span>
+      <% if (gradeLabel) { %>
+        <span class="meta-item">
+          <strong><%= t('problem_grade') %>:</strong> <%= gradeLabel %>
+        </span>
+      <% } %>
       <span class="meta-item">
         <strong><%= t('problem_difficulty') %>:</strong> <%= difficultyLabel %>
       </span>
       <div class="meta-tags">
         <% (problem.tags || []).forEach(function(tag) { %>
-          <a href="/archive?tag=<%= tag %>" class="tag"><%= tag %></a>
+          <a href="/p?tag=<%= tag %>" class="tag"><%= tag %></a>
         <% }) %>
       </div>
     </div>
@@ -79,7 +81,7 @@
 <h3 class="panel-title"><%= t('nav_problems') %></h3>
         <div class="prev-next">
           <% if (prev) { %>
-            <a href="/problema/<%= prev.id %>" class="nav-item prev">
+            <a href="/p/<%= prev.id %>" class="nav-item prev">
               <span class="nav-dir">&larr; <%= t('problem_prev') %></span>
               <span class="nav-title">#<%= prev.id %> · <%= prev.titles.ro %></span>
             </a>
@@ -87,7 +89,7 @@
             <span class="nav-item disabled">&larr; <%= t('problem_prev') %></span>
           <% } %>
           <% if (next) { %>
-            <a href="/problema/<%= next.id %>" class="nav-item next">
+            <a href="/p/<%= next.id %>" class="nav-item next">
               <span class="nav-dir"><%= t('problem_next') %> &rarr;</span>
               <span class="nav-title">#<%= next.id %> · <%= next.titles.ro %></span>
             </a>

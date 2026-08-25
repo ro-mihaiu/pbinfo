@@ -13,7 +13,7 @@
         <h3 class="panel-title"><%= t('homework_grades') %></h3>
         <div class="homework-grades">
           <% grades.GRADES.forEach(function(g) { %>
-            <a href="/tema/clasa-<%= g %>" class="grade-link <%= typeof activeGrade !== 'undefined' && activeGrade === g ? 'active' : '' %>">
+            <a href="/h/clasa-<%= g %>" class="grade-link <%= typeof activeGrade !== 'undefined' && activeGrade === g ? 'active' : '' %>">
               <%= grades.getGradeLabel(g) %>
             </a>
           <% }) %>
@@ -23,7 +23,7 @@
         <h3 class="panel-title"><%= t('homework_weeks') %></h3>
         <div class="homework-list">
           <% homework.forEach(function(h) { %>
-            <a href="/tema/<%= h.week %>" class="homework-link">
+            <a href="/h/<%= h.week %>" class="homework-link">
               <span class="hw-week"><%= h.week %></span>
               <% if (h.grade) { %>
                 <span class="hw-grade"><%= grades.getGradeLabel(h.grade) %></span>
@@ -40,7 +40,7 @@
         <p class="muted"><%= t('homework_subtitle') %></p>
         <div class="homework-week-links">
           <% homework.forEach(function(h) { %>
-            <a href="/tema/<%= h.week %>" class="week-card">
+            <a href="/h/<%= h.week %>" class="week-card">
               <span class="week-name"><%= h.week %></span>
               <span class="week-grade"><%= h.grade ? grades.getGradeLabel(h.grade) : '' %></span>
             </a>

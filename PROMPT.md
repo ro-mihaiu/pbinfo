@@ -34,10 +34,10 @@ Prefer a simple, maintainable structure rather than a framework-heavy setup.
 The app should provide these pages and routes:
 
 - Home page: /
-- Archive/search page: /archive
+- Archive/search page: /p
 - Problem detail page: /:id (numeric problem ID)
-- Homework index: /tema
-- Homework by week: /tema/s1, /tema/2, /tema/clasa-9/s1, etc.
+- Homework index: /h
+- Homework by week: /h/s1, /h/2, /h/clasa-9/s1, etc.
 - Legal pages: /privacy, /terms, /cookies
 - Error page for 404/500
 

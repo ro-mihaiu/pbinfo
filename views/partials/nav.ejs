@@ -14,8 +14,8 @@
 
     <nav class="nav-links">
       <a href="/" class="<%= path === '/' ? 'active' : '' %>"><%= t('nav_home') %></a>
-      <a href="/archive" class="<%= path.startsWith('/archive') ? 'active' : '' %>"><%= t('nav_problems') %></a>
-      <a href="/tema" class="<%= path.startsWith('/tema') ? 'active' : '' %>"><%= t('nav_homework') %></a>
+      <a href="/p" class="<%= path.startsWith('/p') || path.startsWith('/archive') ? 'active' : '' %>"><%= t('nav_problems') %></a>
+      <a href="/h" class="<%= path.startsWith('/h') || path.startsWith('/tema') ? 'active' : '' %>"><%= t('nav_homework') %></a>
     </nav>
 
     <div class="nav-actions">
@@ -42,8 +42,8 @@
     <button class="dropdown-close" id="dropdownClose" aria-label="<%= t('close') %>">&times;</button>
   </div>
   <a href="/" class="<%= path === '/' ? 'active' : '' %>"><%= t('nav_home') %></a>
-  <a href="/archive" class="<%= path.startsWith('/archive') ? 'active' : '' %>"><%= t('nav_problems') %></a>
-  <a href="/tema" class="<%= path.startsWith('/tema') ? 'active' : '' %>"><%= t('nav_homework') %></a>
+  <a href="/p" class="<%= path.startsWith('/p') || path.startsWith('/archive') ? 'active' : '' %>"><%= t('nav_problems') %></a>
+  <a href="/h" class="<%= path.startsWith('/h') || path.startsWith('/tema') ? 'active' : '' %>"><%= t('nav_homework') %></a>
   <div class="dropdown-divider"></div>
   <span class="dropdown-label"><%= t('footer_social') %></span>
   <a href="<%= social.discord %>" target="_blank" rel="noopener">Discord</a>
