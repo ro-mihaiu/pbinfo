@@ -69,7 +69,8 @@ app.get('/', (req, res) => {
 function renderArchive(req, res) {
   const problems = store.getProblems();
   const q = (req.query.q || '').toString().toLowerCase().trim();
-  const grade = req.query.grade || '';
+  const requestedGrade = req.query.grade || '';
+  const grade = grades.GRADES.includes(Number(requestedGrade)) ? String(requestedGrade) : '';
   const difficulty = req.query.difficulty || '';
   const perPage = 12;
 
@@ -174,6 +175,9 @@ app.get('/h', (req, res) => {
 // Homework by grade: /h/clasa-9
 app.get('/h/clasa-:grade', (req, res) => {
   const grade = parseInt(req.params.grade, 10);
+  if (!grades.GRADES.includes(grade)) {
+    return nextNotFound(req, res);
+  }
   const homework = store.getAllHomework().filter((h) => h.grade === grade);
   res.render('homework', {
     title: i18n.t('homework_title'),
@@ -185,6 +189,9 @@ app.get('/h/clasa-:grade', (req, res) => {
 // Homework by grade/week: /h/clasa-9/s1
 app.get('/h/clasa-:grade/s:week', (req, res) => {
   const grade = parseInt(req.params.grade, 10);
+  if (!grades.GRADES.includes(grade)) {
+    return nextNotFound(req, res);
+  }
   const week = `s${req.params.week}`;
   renderHomeworkWeek(res, week, grade);
 });

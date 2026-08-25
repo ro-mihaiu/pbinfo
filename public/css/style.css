@@ -300,8 +300,9 @@ html[data-theme='light'] .icon-moon { display: block; }
 /* ---------- Cards & Grids ---------- */
 .grade-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
+  width: 100%;
 }
 .grade-card {
   background: var(--bg-secondary);
