@@ -1,0 +1,18 @@
+<%- include('partials/head') %>
+<%- include('partials/nav') %>
+
+<main class="page">
+  <section class="section">
+    <div class="section-head">
+      <h1 class="page-title">Embed Arhiva PBInfo</h1>
+      <p class="page-sub">Folosește codul de mai jos pentru a încorpora arhiva pe un alt site.</p>
+    </div>
+    <div class="card panel">
+      <pre class="code-block"><code class="language-html">&lt;iframe src="<%= req.protocol %>://<%= req.get('host') %>" width="100%" height="600" frameborder="0" style="border-radius:12px;"&gt;&lt;/iframe&gt;</code></pre>
+      <button class="btn btn-primary btn-sm copy-btn" data-copy-target="embedCode"><%= t('problem_copy') %></button>
+    </div>
+  </section>
+</main>
+
+<%- include('partials/footer') %>
+<script src="/js/main.js"></script>

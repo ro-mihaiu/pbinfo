@@ -73,7 +73,7 @@
       const targetId = btn.getAttribute('data-copy-target');
       const target = document.getElementById(targetId);
       if (!target) return;
-      const text = target.textContent;
+      const text = 'value' in target ? target.value : target.textContent;
       const done = function () {
         const original = btn.textContent;
         btn.textContent = 'Copiat!';

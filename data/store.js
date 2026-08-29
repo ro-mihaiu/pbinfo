@@ -6,20 +6,54 @@ const { parseStatement, parseHomework, parseMarkdownBlocks, parseIdFromFilename 
 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const PROBLEMS_FILE = path.join(DATA_DIR, 'problems.json');
+const PROBLEMS_JSONL_FILE = path.join(DATA_DIR, 'problems.jsonl');
+const ISSUES_FILE = path.join(DATA_DIR, 'issues.jsonl');
 const VIEWS_FILE = path.join(DATA_DIR, 'views.json');
 const SOLUTIONS_DIR = path.join(DATA_DIR, 'solutions');
 const EXERCISES_DIR = path.join(DATA_DIR, 'exercises');
 const HOMEWORK_DIR = path.join(DATA_DIR, 'homework');
+const VIEWS_KEY = 'pbinfo:views';
+
+// Vercel's filesystem is read-only between invocations. When Redis credentials
+// are present, keep counters in Upstash Redis; otherwise retain local behavior.
+const redisUrl = process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL;
+const redisToken = process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN;
+let redis = null;
+if (redisUrl && redisToken) {
+  try {
+    const { Redis } = require('@upstash/redis');
+    redis = new Redis({ url: redisUrl, token: redisToken });
+  } catch (err) {
+    console.error('Failed to load Upstash Redis:', err.message);
+  }
+}
 
 // --- Problems ---
 
 function getProblems() {
   try {
-    const raw = fs.readFileSync(PROBLEMS_FILE, 'utf-8');
-    const data = JSON.parse(raw);
-    return Array.isArray(data.problems) ? data.problems : [];
+    const raw = fs.readFileSync(PROBLEMS_JSONL_FILE, 'utf-8');
+    const difficultyMap = { usoara: 1, ușoară: 1, usoară: 1, medie: 2, dificil: 3, dificila: 3, dificilă: 3, concurs: 4 };
+    const problems = raw.split(/\r?\n/).filter(Boolean).map((line) => {
+      try {
+        const row = JSON.parse(line);
+        return {
+          id: Number(row.id),
+          titles: { ro: row.title || `Problema ${row.id}`, en: '' },
+          difficulty: typeof row.dificultate === 'number' ? row.dificultate : (difficultyMap[String(row.dificultate || '').toLowerCase()] || null),
+          grade: row.clasa ?? null,
+          tags: Array.isArray(row.tags) ? row.tags : [], notes: {},
+          details: { enunt: row.enunt || '', cerinta: row.cerinta || '', date_intrare: row.date_intrare || '', date_iesire: row.date_iesire || '', restrictii: row.restrictii || '', exemple: Array.isArray(row.exemple) ? row.exemple : [] }
+        };
+      } catch (err) { return null; }
+    }).filter((problem) => problem && Number.isInteger(problem.id));
+    const byId = new Map(problems.map((problem) => [problem.id, problem]));
+    for (let id = 1; id <= 4776; id += 1) {
+      if (!byId.has(id)) byId.set(id, { id, titles: { ro: `Problema ${id}`, en: '' }, difficulty: null, grade: null, tags: [], notes: {}, details: { enunt: '', cerinta: '', date_intrare: '', date_iesire: '', restrictii: '', exemple: [] } });
+    }
+    return [...byId.values()].sort((a, b) => a.id - b.id);
   } catch (err) {
-    console.error('Failed to read problems.json:', err.message);
+    console.error('Failed to read problems.jsonl:', err.message);
     return [];
   }
 }
@@ -36,8 +70,18 @@ function getProblemMeta() {
 
 function getProblemById(id) {
   const idNum = parseInt(id, 10);
-  if (isNaN(idNum)) return null;
+  if (isNaN(idNum) || idNum < 1 || idNum > 4776) return null;
   return getProblems().find((p) => p.id === idNum) || null;
+}
+
+function saveIssue(issue) {
+  try {
+    fs.appendFileSync(ISSUES_FILE, `${JSON.stringify({ ...issue, createdAt: new Date().toISOString() })}\n`, 'utf-8');
+    return true;
+  } catch (err) {
+    console.error('Failed to save issue:', err.message);
+    return false;
+  }
 }
 
 function getProblemsByIds(ids) {
@@ -144,7 +188,15 @@ function getGradeOfHomework(week) {
 
 // --- Views ---
 
-function getViews() {
+async function getViews() {
+  if (redis) {
+    try {
+      return (await redis.hgetall(VIEWS_KEY)) || {};
+    } catch (err) {
+      console.error('Failed to read views from Redis:', err.message);
+    }
+  }
+
   try {
     if (!fs.existsSync(VIEWS_FILE)) return {};
     return JSON.parse(fs.readFileSync(VIEWS_FILE, 'utf-8'));
@@ -153,16 +205,32 @@ function getViews() {
   }
 }
 
-function getViewCount(id) {
-  const views = getViews();
+async function getViewCount(id) {
   const key = String(id);
-  return views[key] || 0;
+  if (redis) {
+    try {
+      return Number(await redis.hget(VIEWS_KEY, key)) || 0;
+    } catch (err) {
+      console.error('Failed to read view count from Redis:', err.message);
+    }
+  }
+  const views = await getViews();
+  return Number(views[key]) || 0;
 }
 
-function incrementView(id) {
-  const views = getViews();
+async function incrementView(id) {
   const key = String(id);
-  views[key] = (views[key] || 0) + 1;
+  if (redis) {
+    try {
+      // Atomic increment prevents simultaneous serverless requests losing views.
+      return await redis.hincrby(VIEWS_KEY, key, 1);
+    } catch (err) {
+      console.error('Failed to write view count to Redis:', err.message);
+    }
+  }
+
+  const views = await getViews();
+  views[key] = (Number(views[key]) || 0) + 1;
   try {
     fs.writeFileSync(VIEWS_FILE, JSON.stringify(views, null, 2), 'utf-8');
   } catch (err) {
@@ -171,8 +239,8 @@ function incrementView(id) {
   return views[key];
 }
 
-function getTotalViews() {
-  const views = getViews();
+async function getTotalViews() {
+  const views = await getViews();
   return Object.values(views).reduce((sum, v) => sum + (parseInt(v, 10) || 0), 0);
 }
 
@@ -181,6 +249,7 @@ module.exports = {
   getProblemMeta,
   getProblemById,
   getProblemsByIds,
+  saveIssue,
   getSolution,
   getSolutionPath,
   hasSolution,

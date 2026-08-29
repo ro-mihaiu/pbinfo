@@ -50,19 +50,22 @@ function countSolutions() {
 // --- Routes ---
 
 // Home
-app.get('/', (req, res) => {
-  const problems = store.getProblems();
-  const totalSolutions = countSolutions();
-  const totalViews = store.getTotalViews();
-  const recent = [...problems].sort((a, b) => b.id - a.id).slice(0, 6);
+app.get('/', async (req, res, next) => {
+  try {
+    const problems = store.getProblems();
+    const totalSolutions = countSolutions();
+    const totalViews = await store.getTotalViews();
+    const recent = [...problems].sort((a, b) => b.id - a.id).slice(0, 6);
 
-  res.render('home', {
-    title: i18n.t('brand'),
-    totalProblems: problems.length,
-    totalSolutions,
-    totalViews,
-    recent
-  });
+    res.render('home', {
+      totalProblems: problems.length,
+      totalSolutions,
+      totalViews,
+      recent
+    });
+  } catch (err) {
+    next(err);
+  }
 });
 
 // Archive listing
@@ -272,6 +275,12 @@ app.get('/cookies', (req, res) => {
   });
 });
 
+app.get('/embed', (req, res) => {
+  res.render('embed', {
+    title: 'Embed'
+  });
+});
+
 // Client-side log endpoint
 app.post('/client-log', (req, res) => {
   const payload = req.body || {};
@@ -279,8 +288,24 @@ app.post('/client-log', (req, res) => {
   res.status(200).json({ ok: true });
 });
 
+// Problem issue reports
+app.post('/p/:id/issues', (req, res) => {
+  const id = parseInt(req.params.id, 10);
+  const problem = store.getProblemById(id);
+  if (!problem) return nextNotFound(req, res);
+
+  const issue = String(req.body.issue || '').trim();
+  const email = String(req.body.email || '').trim();
+  const whatsapp = String(req.body.whatsapp || '').trim();
+  if (!issue || (!email && !whatsapp) || issue.length > 5000 || email.length > 254 || whatsapp.length > 100) {
+    return res.status(400).redirect(`/p/${id}?issue=invalid#issue-form`);
+  }
+  const saved = store.saveIssue({ problemId: id, issue, email: email || null, whatsapp: whatsapp || null });
+  return res.redirect(`/p/${id}?issue=${saved ? 'sent' : 'error'}#issue-form`);
+});
+
 // Problem detail renderer
-function renderProblemById(req, res) {
+async function renderProblemById(req, res) {
   const idParam = req.params.id;
   if (!/^\d+(\.\d+)?$/.test(idParam)) {
     return nextNotFound(req, res);
@@ -298,11 +323,19 @@ function renderProblemById(req, res) {
   const next = idx < all.length - 1 ? all[idx + 1] : null;
 
   const solution = store.getSolution(id);
-  const statement = store.getParsedStatement(id);
-  const views = store.incrementView(id);
+  const parsedStatement = store.getParsedStatement(id);
+  const statement = (parsedStatement && parsedStatement.length > 0) ? parsedStatement : Object.entries({
+    'Enunț': problem.details?.enunt,
+    'Cerință': problem.details?.cerinta,
+    'Date de intrare': problem.details?.date_intrare,
+    'Date de ieșire': problem.details?.date_iesire,
+    'Restricții și precizări': problem.details?.restrictii
+  }).filter(([, content]) => content).map(([heading, content]) => ({ heading, content }));
+  const examples = problem.details?.exemple || [];
+  const views = await store.incrementView(id);
 
   res.render('problem', {
-    title: problem.titles?.ro || String(id),
+    title: `#${problem.id} · ${problem.titles?.ro || String(id)}`,
     problem,
     solution,
     hasSolution: !!solution,
@@ -311,13 +344,15 @@ function renderProblemById(req, res) {
     prev,
     next,
     difficultyLabel: grades.getDifficultyLabel(problem.difficulty),
-    gradeLabel: grades.getGradeLabel(problem.grade)
+    gradeLabel: grades.getGradeLabel(problem.grade),
+    examples,
+    issueStatus: req.query.issue || ''
   });
 }
 
 // Primary problem route
-app.get('/p/:id', (req, res) => {
-  renderProblemById(req, res);
+app.get('/p/:id', (req, res, next) => {
+  renderProblemById(req, res).catch(next);
 });
 
 // Backward-compatible redirect: /problema/:id -> /p/:id
