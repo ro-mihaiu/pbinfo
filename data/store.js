@@ -222,21 +222,19 @@ async function incrementView(id) {
   const key = String(id);
   if (redis) {
     try {
-      // Atomic increment prevents simultaneous serverless requests losing views.
-      return await redis.hincrby(VIEWS_KEY, key, 1);
+      const count = await redis.get(`views:p:${key}`);
+      if (count !== null) {
+        return Number(count);
+      }
+      const hashCount = await redis.hget(VIEWS_KEY, key);
+      return Number(hashCount) || 0;
     } catch (err) {
-      console.error('Failed to write view count to Redis:', err.message);
+      console.error('Failed to read view count from Redis:', err.message);
     }
   }
 
   const views = await getViews();
-  views[key] = (Number(views[key]) || 0) + 1;
-  try {
-    fs.writeFileSync(VIEWS_FILE, JSON.stringify(views, null, 2), 'utf-8');
-  } catch (err) {
-    console.error('Failed to write views.json:', err.message);
-  }
-  return views[key];
+  return Number(views[key]) || 0;
 }
 
 async function getTotalViews() {
