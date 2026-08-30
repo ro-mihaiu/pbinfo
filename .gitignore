@@ -3,3 +3,4 @@ data/views.json
 w.md
 .vercel
 TODO-supabase.md
+.env*
