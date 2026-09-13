@@ -157,13 +157,74 @@ function listHomeworkFiles() {
   }
 }
 
-function getHomeworkFile(week) {
-  const file = path.join(HOMEWORK_DIR, `${week}.md`);
+/**
+ * Parse a homework filename like "9-1.md" or "9-s1.md" (grade-week)
+ * or plain "s1.md". Returns { grade, week } or null.
+ * @param {string} file
+ */
+function parseHomeworkFilename(file) {
+  const base = path.basename(file, '.md');
+  const m = base.match(/^(\d+)-s?(\d+)$/);
+  if (m) return { grade: parseInt(m[1], 10), week: `s${m[2]}` };
+  const plain = base.match(/^s(\d+)$/);
+  if (plain) return { grade: null, week: `s${plain[1]}` };
+  return null;
+}
+
+/**
+ * Find the actual file for a week, optionally scoped to a grade.
+ * Supports files named "9-1.md" / "9-s1.md" (grade 9, week 1)
+ * as well as the plain "s1.md" format.
+ * @param {string} week e.g. "s1"
+ * @param {number|null} grade
+ * @returns {string|null} filename
+ */
+function findHomeworkFile(week, grade) {
+  const n = String(week).replace(/^s/i, '');
+  let files;
   try {
-    return fs.readFileSync(file, 'utf-8');
+    files = fs.readdirSync(HOMEWORK_DIR).filter((f) => /\.md$/.test(f)).sort();
   } catch (err) {
     return null;
   }
+  const candidates = [];
+  if (grade) candidates.push(`${grade}-${n}.md`, `${grade}-s${n}.md`);
+  candidates.push(`${week}.md`, `s${n}.md`);
+  for (const f of candidates) {
+    if (files.includes(f)) return f;
+  }
+  // No grade given: fall back to any grade-prefixed file for this week
+  const re = new RegExp(`^\\d+-s?${n}\\.md$`);
+  return files.find((f) => re.test(f)) || null;
+}
+
+function getHomeworkFile(week, grade) {
+  const name = findHomeworkFile(week, grade);
+  if (!name) return null;
+  try {
+    return fs.readFileSync(path.join(HOMEWORK_DIR, name), 'utf-8');
+  } catch (err) {
+    return null;
+  }
+}
+
+/**
+ * Get raw content + grade of a homework week, deriving the grade
+ * from the filename (e.g. "9-1.md") when frontmatter is missing.
+ * @returns {null|{raw: string, grade: number|null, file: string}}
+ */
+function getHomeworkMeta(week, grade) {
+  const name = findHomeworkFile(week, grade);
+  if (!name) return null;
+  let raw = null;
+  try {
+    raw = fs.readFileSync(path.join(HOMEWORK_DIR, name), 'utf-8');
+  } catch (err) {
+    return null;
+  }
+  const fm = parseHomeworkFilename(name);
+  const parsed = parseHomework(raw);
+  return { raw, grade: fm ? fm.grade : parsed.grade, file: name };
 }
 
 /**
@@ -172,11 +233,12 @@ function getHomeworkFile(week) {
  */
 function getAllHomework() {
   return listHomeworkFiles().map((file) => {
-    const week = path.basename(file, '.md');
-    const raw = getHomeworkFile(week);
-    if (!raw) return { week, grade: null, raw: '' };
+    const fm = parseHomeworkFilename(file);
+    const week = fm ? fm.week : path.basename(file, '.md');
+    const raw = getHomeworkFile(week, fm ? fm.grade : null);
+    if (!raw) return { week, grade: fm ? fm.grade : null, raw: '' };
     const parsed = parseHomework(raw);
-    return { week, grade: parsed.grade, raw };
+    return { week, grade: fm ? fm.grade : parsed.grade, raw };
   });
 }
 
@@ -256,7 +318,10 @@ module.exports = {
   getExercisePath,
   getParsedStatement,
   listHomeworkFiles,
+  parseHomeworkFilename,
+  findHomeworkFile,
   getHomeworkFile,
+  getHomeworkMeta,
   getAllHomework,
   getGradeOfHomework,
   getViews,

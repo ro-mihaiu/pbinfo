@@ -226,7 +226,8 @@ app.get('/tema/:week', (req, res) => {
 });
 
 function renderHomeworkWeek(res, week, gradeFilter) {
-  const raw = store.getHomeworkFile(week);
+  const meta = store.getHomeworkMeta(week, gradeFilter);
+  const raw = meta ? meta.raw : null;
   if (!raw) {
     return res.status(404).render('error', {
       code: 404,
@@ -236,6 +237,7 @@ function renderHomeworkWeek(res, week, gradeFilter) {
   }
 
   const parsed = parser.parseHomework(raw);
+  if (!parsed.grade && meta) parsed.grade = meta.grade;
   const blocks = parser.parseMarkdownBlocks(parsed.content);
   const html = parser.blocksToHtml(blocks, makeLinkResolver());
 
