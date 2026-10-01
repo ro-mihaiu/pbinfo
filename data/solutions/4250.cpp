@@ -31,18 +31,12 @@ int nr_div(int n)
 void afisare(int A[], int n)
 {
     for(int i=n;i>=1;i--)
-        cout<<A[i]<<" ";
-}
-void inlocuire(int A[], int n)
-{
-    for(int i=1;i<=n;i++)
-        A[i]=suma_div(A[i])*nr_div(A[i]);
+        cout<<suma_div(A[i])*nr_div(A[i])<<" ";
 }
 int main()
 {
     int A[1001],n;
     citire(A,n);
-    inlocuire(A,n);
     afisare(A,n);
     return 0;
 }
