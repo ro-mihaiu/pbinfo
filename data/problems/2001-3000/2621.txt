@@ -1,0 +1,14 @@
+#2621
+spower2
+
+Cerința
+Se consideră un șir A de n numere naturale. Pentru fiecare element al șirului A i să se determine cel mai apropiat număr spower2 mai mare sau egal cu A i , unde 1≤i≤n .
+
+Restricții
+1 ≤ n ≤ 100 000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 6
+14 8 5 19 1 6
+Output: 17 9 5 20 3 6

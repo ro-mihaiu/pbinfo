@@ -1,0 +1,13 @@
+#886
+SecvCons
+
+Cerința
+Se citește un șir format din cel mult 255 caractere, litere mici ale alfabetului englez. Să se determine ce mai lungă secvență din șir formată numai din consoane.
+
+Restricții
+dacă șirul dat conține mai multe subșiruri formate numai din consoane de lungime maximă se va afișa cea mai din dreapta.
+se garantează că în șirul dat există cel puțin o consoană
+
+Exemplu
+Input: ukdiaehldjasmfx
+Output: smfx

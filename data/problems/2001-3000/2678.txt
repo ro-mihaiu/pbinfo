@@ -1,0 +1,14 @@
+#2678
+FormNr
+
+Cerința
+Se dă un șir de caractere ce conține litere, cifre, semne de punctuație, spații și alte simboluri ASCII . Cifrele din șir formează numere, scrise în baza 10 . Să se determine suma acestor numere.
+
+Restricții
+șirul conține maxim 255 de caractere;
+cifrele sunt de la 0 la 9 .
+rezultatul sumei nu depășește 2.000.000.000
+
+Exemplu
+Input: an2a are 52 de creioane si cu 7 mai multe pixuri.
+Output: 61

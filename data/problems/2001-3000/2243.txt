@@ -1,0 +1,14 @@
+#2243
+Caracterul mediu
+
+Cerința
+Caracterul mediu a două sau al mai multor caractere este caracterul care are codul ASCII egal cu partea întreagă a mediei aritmetice a codurilor ASCII ale caracterelor date.
+Se citesc mai multe caractere, pană la apariția punctului ( . ). Să se determine caracterul mediu al lor .
+
+Restricții
+Numărul de caractere citite este mai mare sau egal cu 2 .
+Punctul nu se ia în considerare la calcularea mediei.
+
+Exemplu
+Input: FZ.
+Output: P

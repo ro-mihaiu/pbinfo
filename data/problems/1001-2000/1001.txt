@@ -1,0 +1,16 @@
+#1001
+Rotund
+
+Cerința
+Se dă un şir cu n elemente, numere naturale. câte elemente din șir sunt rotunde , și care sunt acestea.
+Se va defini şi apela subprogramul rotund care verifică dacă un număr natural, transmis ca parametru, este rotund.
+
+Restricții
+1 ≤ n ≤ 50
+elementele şirului vor avea cel mult 10 cifre
+
+Exemplu
+Input: 5
+12 3232 123 144144 77
+Output: 3
+3232 144144 77

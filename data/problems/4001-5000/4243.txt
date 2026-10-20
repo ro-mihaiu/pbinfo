@@ -1,0 +1,15 @@
+#4243
+mouse
+
+Cerința
+Stabiliţi care este cantitatea maximă de hrană pe care o poate mânca.
+
+Restricții
+1 ≤ n, m ≤ 100
+cantitatea de hrană din fiecare cămăruță este un număr natural cuprins între 1 și 100 .
+
+Exemplu
+Input: 2 4
+1 2 6 3
+3 4 1 2
+Output: 7 21

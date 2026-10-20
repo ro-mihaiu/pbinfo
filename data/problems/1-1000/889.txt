@@ -1,0 +1,17 @@
+#889
+CuvinteComune
+
+Cerința
+Se dau două propoziții formate din litere mari și mici ale alfabetului englez și spații. Să se afișeze în ordine alfabetică cuvintele care apar în ambele șiruri.
+
+Restricții
+șirurile date au cel mult 255 de caractere
+nu se face distincție între literele mari și cele mici
+dacă un cuvânt comun apare de mai multe ori, se va afișa o singură dată
+
+Exemplu
+Input: Ana si Maria au mere si nuci
+ana are MERE si Pere si prune
+Output: ana
+mere
+si

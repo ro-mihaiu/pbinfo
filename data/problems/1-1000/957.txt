@@ -1,0 +1,27 @@
+#957
+Zana
+
+Cerința
+Scrieţi un program care să citească din fişierul zana.in numerele naturale n, m, k şi cele k coordonatele ale camerelor în care spiriduşii au ascuns cadourile, şi care să determine:
+a) numărul n1 maxim de cadouri pe care le poate primi Zâna în urma respectării regulilor; b) numărului n2 al camerelor în care poate ajunge Zâna respectând regulile, camere ce conţin fiecare câte n1 cadouri.
+
+Restricții
+1 ≤ n ≤ 180 , 1 ≤ m ≤ 180 , 1 ≤ k ≤ 30.000
+1 ≤ i ≤ n , 1 ≤ j ≤ m
+toate valorile din fișierul de intrare sunt numere naturale
+
+Exemplu
+Input: 3 5 11
+1 5
+1 5
+1 3
+1 3
+1 4
+1 4
+1 4
+2 4
+2 4
+2 5
+3 2
+Output: 2
+2

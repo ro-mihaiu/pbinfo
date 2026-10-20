@@ -1,0 +1,14 @@
+#605
+CRB
+
+Cerința
+CRB are un șir cu n numere naturale diferite. Nu știe ce să facă cu ele și le aranjează în ordine descrescătoare. Apoi observă că anumite numere se află pe aceeași poziție ca în șirul inițial. Ajutați pe CRB să determine câte elemente din șir respectă această regulă.
+
+Restricții
+1 ≤ n ≤ 1000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 7
+1 8 2 6 4 7 9
+Output: 3

@@ -1,0 +1,21 @@
+#1952
+pattern1
+
+Cerința
+Se dă un număr natural n . Să se genereze o matrice pătratică de dimensiune 2 n -1 , după următoarele reguli:
+elementul din mijlocul matricii este egal cu n
+elementele de pe linia mediană și cele de pe coloana mediană (exceptând elementul din mijlocul matricii) sunt nule
+folosind linia mediană și coloana mediană, se împarte matricea în alte 4 matrici care se generează similar, dar au dimensiunea 2 n-1 -1 .
+
+Restricții
+1 ≤ n ≤ 9
+
+Exemplu
+Input: 3
+Output: 1 0 1 0 1 0 1 
+0 2 0 0 0 2 0 
+1 0 1 0 1 0 1 
+0 0 0 3 0 0 0 
+1 0 1 0 1 0 1 
+0 2 0 0 0 2 0 
+1 0 1 0 1 0 1

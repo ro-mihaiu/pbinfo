@@ -1,0 +1,15 @@
+#3856
+Scytale
+
+Cerința
+Dandu-se un numar c , mesajul si numarul m : pentru c=1 , sa se afiseze mesajul criptat pentru c=2 , sa se afiseze mesajul decriptat
+
+Restricții
+1 ≤ n*m ≤ 1000000
+mesajul va contine numai litere mari
+
+Exemplu
+Input: 1 WEAREDISCOVEREDFLEEATONCE 3
+Output: WOEEVEAEARRTEEODDNIFCSLEC
+Input: 2 WOEEVEAEARRTEEODDNIFCSLEC 3
+Output: WEAREDISCOVEREDFLEEATONCE

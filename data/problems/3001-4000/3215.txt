@@ -1,0 +1,19 @@
+#3215
+kth
+
+Cerința
+Scrieți funcția Kth care primește ca parametri:
+a – un vector de numere întregi
+n – un număr natural reprezentând numărul elementelor vectorului
+x – un număr întreg
+k – un număr natural
+Funcția va returna poziția din vector unde x apare pentru a k -a oară, sau -1 dacă x nu apare de cel puțin k ori
+
+Restricții
+1 ≤ n ≤ 1000
+elementele vectorului sunt indexate de la 0 la n-1 .
+-1000 ≤ a[i] ≤ 1000 , pentru orice i=0..n-1
+-1000 ≤ x ≤ 1000
+0 ≤ k ≤ 1000
+
+Exemplu

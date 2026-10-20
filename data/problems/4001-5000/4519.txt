@@ -1,0 +1,14 @@
+#4519
+saseCifre
+
+Cerința
+Se citesc numerele naturale x , y , z . Să se determine cate numere de exact șase cifre au cifra sutelor de mii mai mare sau egală cu x , cifra miilor și cifra zecilor de mii egale cu y , iar suma dintre cifra sutelor, cifra zecilor și cifra unităților este egală cu z .
+
+Restricții
+1 ≤ x ≤ 9
+0 ≤ y ≤ 9
+0 ≤ z ≤ 27
+
+Exemplu
+Input: 8 1 2
+Output: 12

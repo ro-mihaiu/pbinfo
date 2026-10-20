@@ -1,0 +1,12 @@
+#23
+oglindit1
+
+Cerința
+Să se scrie o funcție C++ care să determine oglinditul unui număr natural transmis ca parametru. Funcția va întoarce rezultatul prin intermediul unui parametru de ieşire.
+
+Restricții
+numele funcției va fi oglindit
+funcția va avea doi parametri: primul parametru reprezintă numărul pentru care se calculează oglinditul, iar la doilea parametru reprezintă valoarea calculată
+numărul pentru care se calculează oglinditul va fi mai mic decât 1.000.000.000
+
+Exemplu

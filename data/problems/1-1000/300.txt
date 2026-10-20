@@ -1,0 +1,16 @@
+#300
+sumainsecv
+
+Cerința
+Se dă un vector format din n elemente, numere naturale nenule, şi un număr natural S . Determinaţi, dacă există o secvenţă de elemente din şir cu suma elementelor egală cu S .
+
+Restricții
+1 ≤ n ≤ 100
+elementele vectorului vor avea cel mult 4 cifre şi sunt numerotate de la 1 la n
+dacă vectorul nu conţine nici o secvenţă cu suma elementelor S , se va afişa 0 0
+dacă şirul conţine mai multe secvenţe cu suma elementelor egală cu S , se va determina cea mai din stânga
+
+Exemplu
+Input: 8 32  
+12 10 15 7 17 13 19 14
+Output: 2 4

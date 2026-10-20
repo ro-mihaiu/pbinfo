@@ -1,0 +1,16 @@
+#4580
+progresii
+
+Cerința
+Se dau N progresii aritmetice. Pentru fiecare se cunoaşte valoarea primului element şi raţia. Se mai dă o valoare X . Determinaţi numărul de şiruri strict crescătoare care au următoarele proprietăţi: primul termen are valoarea 0 , ultimul termen are valoarea X , oricare doi termeni consecutivi sunt termeni consecutivi în cel puțin una dintre progresiile date.
+
+Restricții
+1 <= N, X <= 50000
+Pentru fiecare progresie, primul termen şi raţia sunt <= 50000 ;
+Raţiile tuturor progresiilor sunt numere distincte două câte două.
+
+Exemplu
+Input: 2 6
+0 2
+4 1
+Output: 2 5

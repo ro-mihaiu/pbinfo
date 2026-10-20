@@ -1,0 +1,12 @@
+#444
+AfisareCifre
+
+Cerința
+Se dă numărul natural n . Afișați în ordine strict crescătoare cifrele care apar în scrierea zecimală a lui n .
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 2082
+Output: 0 2 8

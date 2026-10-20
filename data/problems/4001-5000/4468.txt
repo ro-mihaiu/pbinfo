@@ -1,0 +1,22 @@
+#4468
+teatru1
+
+Cerința
+La repetiție, actorul și-a propus să recite, cu intonație, L replici alăturate din actul al N -lea, începând cu replica numărul P , până la replica cu numărul P+L-1 . Determinați secvența de caractere rostite de actor la repetiție.
+
+Restricții
+Fie S N numărul de replici din actul al N -lea. Se garantează că S N ≤ 10 18 .
+1 ≤ L ≤ 2.000.000
+1 ≤ P ≤ S N − L + 1 (cu alte cuvinte, există L replici în actul N începând cu replica numărul P ).
+Pentru 7 puncte, N ≤ 35 , L = 1
+Pentru 13 puncte, N ≤ 35 , L ≤ 200.000
+Pentru 17 puncte, N ≤ 40 , L ≤ 200.000
+Pentru 19 puncte, N ≤ 46 , L ≤ 200.000
+Pentru 21 puncte, L ≤ 200.000
+Pentru 23 puncte, nu există restricții suplimentare.
+
+Exemplu
+Input: 7 3 9
+Output: DADDADADD
+Input: 12 80 8
+Output: ADDADADD

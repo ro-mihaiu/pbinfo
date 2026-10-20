@@ -1,0 +1,13 @@
+#1353
+AparitiiCifra
+
+Cerința
+Determinaţi numărul de apariţii a unei cifre c în reprezentarea tuturor numerelor mai mici sau egale cu un n dat.
+
+Restricții
+0 < n < 2.000.000.000
+0 < c < 10
+
+Exemplu
+Input: 15 1
+Output: 8

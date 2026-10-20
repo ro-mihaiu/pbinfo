@@ -1,0 +1,21 @@
+#4309
+MosCraciun_X
+
+Cerința
+Moș Crăciun locuiește la polul nord și pregătește cadouri pentru copiii cuminți din clasa a X-a B, ajutat de mai mulți spiriduși. Datorită încălzirii globale, gheața se topește, formându-se mai multe banchize. Spiridușii care se află pe alte banchize decât Moș Crăciun nu-l mai pot ajuta pe acesta. Moș Crăciun trebuie să aleagă o banchiză pe care să împacheteze cadourile. Din motive tehnice, Moș Crăciun trebuie să aleagă o singură banchiză și o va alege astfel încât să îl poată ajuta cât mai mulți spiriduși.
+Harta polului nord seamănă cu o matrice cu n linii și m coloane în care elementele pot avea următoarele valori:
+0 – zonă cu apă, în care gheața s-a topit.
+1 – zonă cu gheață care face parte dintr-o banchiză. Două zone cu gheață fac parte din aceeași banchiză dacă se învecinează pe linie sau pe coloană.
+2 – zonă cu gheață în care se găsește un spiriduș.
+Scrieți un program care să determine numărul maxim de spiriduși se află pe aceeași banchiză, deoarece Moș Crăciun va alege acea banchiză pentru împachetarea cadourilor.
+
+Restricții
+1 ≤ n , m ≤ 100
+
+Exemplu
+Input: 4 6
+1 1 2 0 2 1
+0 0 1 0 2 2
+1 2 1 0 0 0
+0 1 0 1 2 1
+Output: 3

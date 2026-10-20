@@ -1,0 +1,17 @@
+#1504
+comori1
+
+Cerința
+Să se specifice numerele de ordine ale punctelor de control la care Mihai a obținut un punctaj mai mic decât cel obținut la punctul de control anterior. Dacă punctajele obținute de Mihai au fost în ordine crescătoare, se va afișa valoarea 0 .
+
+Restricții
+1 ≤ n ≤ 1000
+Numerele din şir nu depăşesc 100 .
+
+Exemplu
+Input: 6 
+50 60 65 70 70 80
+Output: 0
+Input: 9 
+66 70 20 35 50 34 69 80 12
+Output: 3 6 9

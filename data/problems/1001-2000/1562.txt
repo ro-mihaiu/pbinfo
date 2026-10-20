@@ -1,0 +1,13 @@
+#1562
+Abba
+
+Cerința
+Determinați numărul de etape de prelucrare necesare pentru codificarea mesajului și lungimea finală a mesajului.
+
+Restricții
+2 ≤ lungime șir s ≤ 50000
+Mesajul va suferi cel puțin o etapă de prelucrare.
+
+Exemplu
+Input: oli
+Output: 2 9

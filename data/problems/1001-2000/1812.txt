@@ -1,0 +1,14 @@
+#1812
+LitereGen1
+
+Cerința
+Scrieți un program care citeşte o valoare naturală impară pentru n şi apoi generează şi afişează în ordine crescătoare lexicografic toate combinaţiile formate din n litere mici care îndeplinesc următoarele proprietăţi:
+- încep şi se termină cu a ; - oricare două litere alăturate dintr-o combinaţie sunt consecutive în alfabet. Astfel, pentru n=5 , combinaţiile afişate sunt, în ordine, următoarele: ababa, abcba .
+
+Restricții
+3 ≤ n ≤ 25
+
+Exemplu
+Input: 5
+Output: ababa
+abcba

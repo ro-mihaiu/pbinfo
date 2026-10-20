@@ -1,0 +1,12 @@
+#2104
+Factorial3
+
+Cerința
+Fiind dat un număr natural n , scrieţi un program care determină suma exponenţilor factorilor primi corespunzători descompunerii în factori primi a lui n factorial.
+
+Restricții
+• 2 ≤ n ≤ 100.000
+
+Exemplu
+Input: 5
+Output: 5

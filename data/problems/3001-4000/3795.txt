@@ -1,0 +1,19 @@
+#3795
+Paranteze4
+
+Cerința
+Să se scrie un program care citește un șir de paranteze rotunde care se închid corect (corect parantezat) în care parantezele deschise sunt numerotate de la stânga la dreapta, începând de la 1 , și determină pentru fiecare paranteză închisă numărul de ordine al parantezei deschise corespunzătoare.
+Un șir de paranteze rodunde S este corect parantezat dacă:
+S este șirul vid, sau
+S = (T) și T este corect parantezat, sau
+S = AB , iar A și B sunt corect parantezate.
+
+Restricții
+șirul citit va conține cel mult 254 de caractere, numai ( și ) ;
+în șirul dat caracterele sunt numerotate de la 1 .
+
+Exemplu
+Input: ()((()())())
+Output: 1   2 3 4   5     6
+( ) ( ( ( ) ( ) ) ( ) )
+  1       4   5 3   6 2

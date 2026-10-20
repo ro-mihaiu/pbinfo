@@ -1,0 +1,16 @@
+#147
+expresie1
+
+Cerința
+Scrieţi un program, care pentru V , n , x 1 , x 2 , …, x n şi o 1 , o 2 date, determină indicii corespunzători termenilor din şirul x 1 , x 2 , …, x n ce corespund valorilor operanzilor A , B şi C pentru ca expresia dată să aibă valoarea V .
+
+Restricții
+0 < n < 10001
+0 ≤ x 1 , x 2 , …, x n < 1001
+0 ≤ V < 2000000001
+Se poate folosi acelaşi termen din şir pentru A , B şi C .
+
+Exemplu
+Input: 100 5 40 13 2 11 20
++*
+Output: 5 3 1

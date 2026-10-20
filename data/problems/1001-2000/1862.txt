@@ -1,0 +1,13 @@
+#1862
+CntCifKRec
+
+Cerința
+Să se scrie o funcție C++ recursivă cu trei parametri n , k , c , care primește prin parametrul n un număr natural, prin parametrul k o cifră și întoarce prin parametrul c numărul de cifre ale lui n care sunt mai mari sau egale decât k .
+
+Restricții
+numele funcției va fi cnt_cif
+funcția va avea trei parametri: n , k , c , cu semnificația de mai sus
+0 ≤ n ≤ 2.000.000.000
+0 ≤ k ≤ 9
+
+Exemplu

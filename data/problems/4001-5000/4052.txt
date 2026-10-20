@@ -1,0 +1,32 @@
+#4052
+emigrare
+
+Cerința
+Tărâmul emigranților se poate reprezenta printr-o matrice de dimensiuni \(n\times m\). O țară este formată din toate celulele care au o anumită valoare. În fiecare celulă locuiește un om. Pe tărâmul emigranților fiecare om este nemulțumit și vrea să ajungă în orice altă țară în cel mai scurt timp posibil.
+Calculați pentru fiecare celulă distanța minimă până la o celulă de valoare diferită.
+
+Restricții
+\(2 \le n,m \le 10^3\)
+Se garantează că există cel puțin două țări
+Celulele unei țări nu sunt neapărat conectate
+Pentru 20 de puncte, \(n,m \le 10\)
+Pentru 40 de puncte, \(n,m \le 40\)
+
+Exemplu
+Input: 8 9 
+1 1 1 1 1 1 1 1 1
+1 1 4 4 1 3 3 3 3
+1 4 4 4 3 3 3 3 3
+1 4 4 4 3 3 3 3 3
+1 2 1 1 3 3 3 3 3
+2 2 2 1 1 3 3 3 3
+4 2 2 2 2 2 2 3 3
+4 4 2 2 2 2 2 3 3
+Output: 2 1 0 0 1 0 0 0 0
+1 0 0 0 0 0 0 0 0
+0 0 1 0 0 1 1 1 1
+0 0 0 0 0 1 2 2 2
+0 0 0 0 0 1 1 2 3
+0 1 0 0 0 0 0 1 2
+0 0 1 0 0 0 0 0 1
+1 0 0 1 1 1 0 0 1

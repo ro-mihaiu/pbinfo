@@ -1,0 +1,12 @@
+#3623
+insule01
+
+Cerința
+Se dă n un număr natural. Într-un şir de lungime n , format cu cifrele 0 şi 1 , numim insulă o secvenţă maximă de cifre egale. Să se afle câte insule se află în toate şirurile de lungime n , formate cu cifrele 0 şi 1 .
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 2
+Output: 6

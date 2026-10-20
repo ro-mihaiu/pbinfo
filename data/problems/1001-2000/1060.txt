@@ -1,0 +1,21 @@
+#1060
+Porumb
+
+Cerința
+Pentru a-l ajuta pe Ionel să descopere secretul acestei metode, scrieţi un program care citeşte cele două numere naturale n şi x şi care determină:
+a) numărul de porumbi culeşi de primul agri; b) numărul de agri care culeg şirul de n porumbi; c) numărul trecerii la care este cules porumbul cu numărul x ; d) numărul ultimului porumb cules.
+
+Restricții
+1 ≤ x ≤ n ≤ 1.000.000.000
+Trecerile se numerotează în ordine, începând cu valoarea 1 .
+Pentru rezolvarea corectă a cerinţei a) se acordă 10% din punctaj.
+Pentru rezolvarea corectă a cerinţelor a) şi b) se acordă 40% din punctaj.
+Pentru rezolvarea corectă a cerinţelor a), b) şi c) se acordă 70% din punctaj.
+Pentru rezolvarea corectă a celor patru cerinţe se acordă 100% din punctaj.
+
+Exemplu
+Input: 14 4
+Output: 7
+4
+3 
+8

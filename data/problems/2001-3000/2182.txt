@@ -1,0 +1,23 @@
+#2182
+3cifre
+
+Cerința
+Fiind numărul un număr natural n și n numere naturale x ( 100 ≤ x ≤ 4294967295 ) să se determine: 1. Cel mai mic și cel mai mare număr din trei cifre consecutive care apar în cele n numere, de câte ori apar ele, în ce număr x[1] apar prima dată și în ce număr x[2] apar ultima dată. 2. Numerele din trei cifre consecutive care apar de cele mai multe ori în cele n numere.
+
+Restricții
+1 ≤ n ≤ 500000
+100 ≤ x[i] ≤ 4294967295
+
+Exemplu
+Input: 7 1
+415 5213 2017 666 12345678 10000013 13
+Output: 100 1 10000013 10000013
+678 1 12345678 12345678
+Input: 7 1
+415 521013 206678 666 12345678 10101013 13
+Output: 101 4 521013 10101013
+678 2 206678 12345678
+Input: 7 2
+1115 52113 2017 666 12345678 11101113 113
+Output: 3
+111 113

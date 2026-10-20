@@ -1,0 +1,14 @@
+#2943
+maru
+
+Cerința
+Să se determine numărul submatricelor care au suma mai mică sau egală cu T .
+
+Restricții
+1 ≤ n, A, B, C, D ≤ 400
+1 ≤ T ≤ 30.000
+O submatrice poate fi formată dintr-un singur element (este o submatrice cu o linie și o coloană).
+
+Exemplu
+Input: 10 2 1 1 1 43
+Output: 8

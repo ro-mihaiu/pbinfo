@@ -1,0 +1,12 @@
+#14
+primalitate
+
+Cerința
+Să se scrie o funcție C++ care verifică dacă un număr natural transmis ca parametru este prim.
+
+Restricții
+numele funcției scrise este prim
+funcția are un parametru, număr natural; valoarea sa va fi mai mică decât 1.000.000.000
+rezultatul funcției este 1 dacă valoarea parametrului este număr prim, respectiv 0 în caz contrar
+
+Exemplu

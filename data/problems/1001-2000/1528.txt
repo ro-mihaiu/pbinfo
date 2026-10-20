@@ -1,0 +1,19 @@
+#1528
+Operatii matematice
+
+Cerința
+1) Aflaţi care este numărul obţinut de Maria după adăugarea ultimei cifre. 2) Ajutaţi-l pe Alex să verifice dacă numărul format din cifrele alese de Maria este divizibil cu 7 .
+
+Restricții
+Numărul de cifre alese de Maria este maxim 100 .
+Pentru rezolvarea corectă a primei cerinţe se obţine 50% din punctajul unui test.
+
+Exemplu
+Input: 4
+2 3 4 5
+Output: 14
+DA
+Input: 3
+3 4 5
+Output: 23
+NU

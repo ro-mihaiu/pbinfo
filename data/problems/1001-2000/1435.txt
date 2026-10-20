@@ -1,0 +1,14 @@
+#1435
+Biti
+
+Cerința
+Zoli a primit de la doamna profesoară un șir cu n elemente, numere naturale. Lui Zoli i se cere să răspundă corect la întrebarea: “Câte numere din șir au în reprezentarea binară doar biți setați – adică au toți biții 1 ?
+
+Restricții
+1 ≤ n ≤ 3.000.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 2.000.000.000
+
+Exemplu
+Input: 7
+24 19 15 81 7 63 100
+Output: 3

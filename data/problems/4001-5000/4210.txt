@@ -1,0 +1,12 @@
+#4210
+FCrescRec
+
+Cerința
+Scrieți funcția recursivă FCrescRec care primind ca parametru un număr natural n , returnează 1 dacă cifrele sale, începând cu cifra unităţilor sunt dispuse în ordine crescătoare, sau returnează 0 dacă n nu are cifrele în ordine crescătoare.
+
+Restricții
+0 ≤ n ≤ 2.147.000.000
+Numele funcției este FCrescRec .
+Se recomandă utilizarea recursivității în rezolvarea problemei.
+
+Exemplu

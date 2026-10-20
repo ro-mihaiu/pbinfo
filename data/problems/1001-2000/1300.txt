@@ -1,0 +1,15 @@
+#1300
+hex
+
+Cerința
+Să se transforme numărul dat de profesoară în baza 16 .
+
+Restricții
+1 ≤ lungimea numărului dat ≤ 10000
+Cifrele în baza 16 sunt 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F
+Pentru 40% din teste, 1 ≤ lungimea numărului ≤ 20
+Dacă îl ajutaţi pe Andino să rezolve problema, el vă va răsplăti cu 100 de puncte.
+
+Exemplu
+Input: 1001010
+Output: 4A

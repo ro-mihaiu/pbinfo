@@ -1,0 +1,17 @@
+#2427
+sir10
+
+Cerința
+Dându-se numărul natural n ajutați-l pe Gigel să numere câte astfel de șiruri poate să construiască.
+
+Restricții
+3 ≤ n ≤ 20000
+3 ≤ k ≤ n
+
+Exemplu
+Input: 3
+Output: 1
+Input: 4
+Output: 3
+Input: 5
+Output: 7

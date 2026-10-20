@@ -1,0 +1,12 @@
+#29
+maxprime
+
+Cerința
+Să se scrie o funcție C++ care, pentru un număr natural n transmis ca parametru, determină și întoarce prin intermediul unor parametri de ieșire cele mai mari două numere naturale prime mai mici decât n .
+
+Restricții
+numele funcției va fi sub
+funcția va avea exact trei parametri, în această ordine: primul parametru, n , reprezintă un număr natural, 5 ≤ n < 1000000000 a și b sunt parametrii prin care funcția va întoarce cele două valori căutate
+parametrii a și b respectă relația a>b
+
+Exemplu

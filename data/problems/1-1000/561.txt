@@ -1,0 +1,16 @@
+#561
+rafaelo
+
+Cerința
+Cunoscând suma S de bani, numărul N de magazine și p1 , p2 , p3 ,… , pN prețul unei cutii de bomboane Rafaelo în fiecare magazin, stabiliți numărul maxim de cutii de bomboane ce poate fi cumpărat și magazinul din care pot fi cumpărate. Dacă sunt mai multe astfel de magazine se va afișa primul dintre ele în ordinea în care au fost date.
+
+Restricții
+1 ≤ N ≤ 100
+1 ≤ S ≤ 10000
+Prețul unei cutii cu bomboane este un număr natural nenul mai mic sau egal cu 1000 .
+Cel puțin un magazin are prețul unei cutii cu bomboane mai mic sau egal cu S .
+
+Exemplu
+Input: 20 5
+9 3 4 8 3
+Output: 6 2

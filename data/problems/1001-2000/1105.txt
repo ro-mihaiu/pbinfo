@@ -1,0 +1,12 @@
+#1105
+TG
+
+Cerința
+Să se determine numărul tripletelor geometrice limitate de numărul natural N .
+
+Restricții
+4 ≤ N ≤ 4.000.000
+
+Exemplu
+Input: 8
+Output: 2

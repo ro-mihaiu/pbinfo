@@ -1,0 +1,32 @@
+#2564
+Macara
+
+Cerința
+Calculați și afișați:
+a) S – Suma dalelor negre din containerele cu senzor special de pe fiecare linie. b) M – numărul maxim de dale pe care le poate transporta macaraua la terminal din cele k comenzi diferite. c) Comanda optimă de forma: i1 j1 i2 j2 din cele k , pentru care macaraua transportă un număr maxim de dale M aduse la terminal. Dacă sunt mai multe comenzi optime afișați-le pe fiecare în ordinea apariției lor, urmate de numărul de ordine al comenzii din cele k comenzi date.
+
+Restricții
+1 ≤ i1 ≤ i2 ≤ m, 1 ≤ j1 ≤ j2 ≤ n, 1 ≤ m ≤ 1000, 1 ≤ n ≤ 1000, 1 ≤ k ≤ 1000
+numărul de dale aflate într-un container ≤ 5000
+comenzile nu sunt unice, orice comandă se poate repeta
+se asigură 20% din punctaj pentru rezolvarea corectă a cerinței a)
+pentru 30% din teste 1 ≤ n ≤ 250, 1 ≤ m ≤ 250, 1 ≤ k ≤ 250
+
+Exemplu
+Input: 5 6
+6 2 5 7 12 13
+3 9 15 11 4 3
+18 7 9 3 31 9
+15 5 5 13 4 6
+8 6 11 10 23 7
+5
+1 2 4 4
+2 1 3 5
+2 2 4 5
+2 1 3 5 
+1 3 5 5
+Output: 28
+65
+2 1 3 5 2
+2 1 3 5 4
+1 3 5 5 5

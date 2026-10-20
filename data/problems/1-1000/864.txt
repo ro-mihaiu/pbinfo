@@ -1,0 +1,20 @@
+#864
+Roboti
+
+Cerința
+Se dă o matrice cu n linii și m coloane și elemente 0 sau 1 , reprezentând planul unui teren în care 0 reprezintă o zonă accesibilă, iar 1 reprezintă o zonă inaccesibilă. O zonă a terenului are ca și coordonate linia și coloana corespunzătoare din matrice. Într-o zonă cunoscută a matricei se află un robot, iar în altă zonă, de asemenea cunoscută, se află o roboțică. Determinați numărul minim de pași prin care robotul va ajunge la roboțică. Dacă nu este posibil ca robotul să ajungă la roboțică, rezultatul va fi -1 .
+
+Restricții
+1 ≤ n , m ≤ 1000
+zonele pe care se află inițial cei doi roboți sunt libere și sunt diferite
+un pas reprezintă trecerea robotului din zona curentă într-o zonă vecină cu aceasta pe linie sau pe coloană, fără a părăsi matricea.
+
+Exemplu
+Input: 4 5
+1 0 0 0 1
+0 0 1 0 0
+0 0 0 0 1
+1 1 0 0 1
+1 2
+2 5
+Output: 4

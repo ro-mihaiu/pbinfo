@@ -1,0 +1,14 @@
+#2821
+FactoriPrimi1
+
+Cerința
+Se citește un număr natural, n ( n≥2 ) și se cere să se scrie cel mai mic număr natural care are aceiași divizori primi ca n .
+
+Restricții
+2 ≤ n ≤ 2 30
+
+Exemplu
+Input: 75
+Output: 15
+Input: 7
+Output: 7

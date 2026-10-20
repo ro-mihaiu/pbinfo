@@ -1,0 +1,19 @@
+#1046
+Munte
+
+Cerința
+Scrieţi un program care citeşte numerele n , x 1 , x 2 , …, x n şi apoi determină: a) numărul de secvenţe munte din şirul iniţial; b) numărul total de secvenţe munte obţinute pornind de la şirul iniţial până la cel care nu mai conţine nicio secvenţă munte; c) numărul de elemente din şirul final care nu mai conţine secvenţe munte.
+
+Restricții
+3 ≤ n ≤ 100
+0 ≤ x i ≤ 100000 , 1 ≤ i ≤ n
+Pentru rezolvarea corectă a cerinţei a) se obţine 20% din punctaj.
+Pentru rezolvarea corectă a cerinţei b) se obţine 40% din punctaj.
+Pentru rezolvarea corectă a cerinţei c) se obţine 40% din punctaj. Pentru testele date se asigură că şirul de numere dat iniţial conţine cel puţin o secvenţă munte.
+
+Exemplu
+Input: 8
+1 2 5 0 6 9 3 4
+Output: 2
+4
+4

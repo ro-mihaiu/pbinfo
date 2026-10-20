@@ -1,0 +1,12 @@
+#369
+oglindit3
+
+Cerința
+Se dă un număr natural n . Calculaţi oglinditul sumei cifrelor sale.
+
+Restricții
+numărul citit va fi mai mic decât 2 31 .
+
+Exemplu
+Input: 2705
+Output: 41

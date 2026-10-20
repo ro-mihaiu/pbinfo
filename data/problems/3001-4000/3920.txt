@@ -1,0 +1,16 @@
+#3920
+CainiSiPisici1
+
+Cerința
+Într-o curte sunt c câini și p pisici. Să se genereze în ordine lexicografică șirurile formate cu toate animalele, care:
+încep cu câine și se termină cu pisică;
+nu conțin nicio pisică între doi câini.
+
+Restricții
+1 ≤ c , p ≤ 10
+
+Exemplu
+Input: 3 3
+Output: CCCPPP
+CCPPCP
+CPPCCP

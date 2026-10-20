@@ -1,0 +1,8 @@
+#2153
+mirror
+
+Cerința
+Dacă ultima secvenţă nu are exact K cifre binare, atunci aceasta nu se va mai lua în considerare. Să aplice K transformări asupra şirului iniţial, înlocuind la fiecare pas orice termen cu „oglinda” sa. Asupra termenilor care devin zero nu se vor mai efectua alte operații. După efectuarea celor K transformări, să se determine cea mai lungă secvență de numere care au cifra 1 pe aceeași poziție în reprezentarea lor în baza doi. Dacă sunt mai multe astfel de secvențe având lungimea maximă, se va afișa cea mai din stânga.
+
+Restricții
+și precizări 1 ≤ N ≤ 100000 0 ≤ K ≤ 30 Elementele șirului sunt mai mici decât 2000000001 ; Pentru 30% din teste cerinţa va fi C=1 .

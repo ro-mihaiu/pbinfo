@@ -1,0 +1,21 @@
+#1224
+Restaurare
+
+Cerința
+Pentru fiecare dintre cele Q valori alese pentru înălțimea H , se cere să se determine numărul minim de cărămizi necesare restaurării zidului, independent, pornind de la înălțimile inițiale ale pilonilor.
+
+Restricții
+1 ≤ N ≤ 100000 ;
+înălțimea fiecărui pilon este un număr natural din intervalul [1 , 100000] ;
+1 ≤ Q ≤ 100000 ;
+1 ≤ H ≤ valoarea maximă dintre înălțimile inițiale ale pilonilor;
+pentru 35% dintre teste N ≤ 1000 , iar pentru alte 40% dintre teste Q = 1 .
+
+Exemplu
+Input: 5
+4 3 2 4 2
+3
+1 4 3
+Output: 0
+4
+2

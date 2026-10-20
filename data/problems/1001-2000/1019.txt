@@ -1,0 +1,15 @@
+#1019
+Maxim6
+
+Cerința
+Se consideră un șir cu n elemente, numere naturale. Folosind metoda Divide et Impera , determinați cel mai mare element din acest șir.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele șirului vor fi mai mici decât 1.000.000
+se recomandă folosirea metodei Divide et Impera
+
+Exemplu
+Input: 6
+4 1 8 4 3 5
+Output: 8

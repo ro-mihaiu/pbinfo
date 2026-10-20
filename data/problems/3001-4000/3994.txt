@@ -1,0 +1,18 @@
+#3994
+PartitiiNumar5
+
+Cerința
+Se dă un număr natural n . Determinați, în ordine lexicografică, toate modalitățile de a-l scrie pe n ca sumă de numere naturale pare.
+
+Restricții
+1 ≤ n ≤ 40
+
+Exemplu
+Input: 10
+Output: 2 2 2 2 2 
+2 2 2 4 
+2 2 6 
+2 4 4 
+2 8 
+4 6 
+10

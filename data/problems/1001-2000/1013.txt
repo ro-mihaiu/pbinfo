@@ -1,0 +1,19 @@
+#1013
+Aniversari
+
+Cerința
+Se dau datele de naștere a n persoane, numerotate de la 1 la n , în forma an luna zi . Să se determine numărul de ordine al celei mai tinere și al celei mai în vârstă persoană dintre cele date.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n date calendaristice sunt corecte
+dacă există două sau mai multe persoane cele mai tinere (în vârstă) se va afișa numărul de ordine mai mic
+
+Exemplu
+Input: 5
+1998 5 26
+1987 12 18
+1987 9 25
+2015 1 16
+2015 1 8
+Output: 4 3

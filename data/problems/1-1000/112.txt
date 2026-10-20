@@ -1,0 +1,15 @@
+#112
+fractieminima
+
+Cerința
+Să se scrie un program care citește un șir de n numere naturale şi determină cea mai mică fracţie care poate fi scrisă cu numărătorul şi numitorul dintre cele n numere.
+
+Restricții
+0 < n < 1001
+cele n numere citite vor fi mai mici decât 2.000.000.000
+fracţia afişată va fi ireductibilă
+
+Exemplu
+Input: 5
+6 10 3 2 5
+Output: 1/5

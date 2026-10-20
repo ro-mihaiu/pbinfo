@@ -1,0 +1,20 @@
+#1044
+Piramide
+
+Cerința
+Scrieţi un program care să citească numerele naturale N (reprezentând numărul de cartonașe), X (reprezentând numărul unui cartonaș), K (reprezentând numărul de cartonașe albe), numerele celor K cartonașe albe c 1 , c 2 , …, c K și care să determine:
+a) numărul P al piramidei complete ce conține cartonașul numerotat cu X ; b) numărul M maxim de piramide complete construite de Rareș; c) numărul C de cartonașe nefolosite; d) numărul A al primei piramide complete care conține cele mai multe cartonașe albe.
+
+Restricții
+N , X , K , c 1 , c 2 ,…, c K , P , M , A sunt numere naturale nenule.
+3 ≤ N ≤ 100000 ; 1 ≤ X ≤ N ; 1 ≤ K ≤ N ; 1 ≤ c 1 < c 2 <...< c K ≤ N
+O piramidă completă cu baza formată din b cartonașe se construiește prin așezarea cartonașelor necesare pe b rânduri: b cartonașe pe primul rând (al bazei), apoi b-1 cartonașe pe rândul al doilea, b-2 pe rândul al treilea,…, două cartonașe pe rândul b-1 și un cartonaș (vârful piramidei) pe rândul b .
+Pentru rezolvarea cerinţei a) se acordă 20% din punctaj, pentru cerinţa b) 20% din punctaj, pentru cerinţa c) 20% din punctaj şi pentru cerinţa d) 40% din punctaj.
+
+Exemplu
+Input: 75 15 23
+5 9 11 18 20 21 25 27 28 30 35 37 45 46 51 55 60 65 68 69 70 71 72
+Output: 3
+5
+20
+4

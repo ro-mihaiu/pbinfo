@@ -1,0 +1,20 @@
+#4460
+BossFight
+
+Cerința
+Gimi se întreabă în câte moduri poate să aleagă 3 monștri cu care să se lupte. Două mulțimi de trei monștri se consideră diferite dacă există cel puțin un monstru în prima mulțime care nu aparține celei de-a doua mulțimi. Formal, se cere numărul de tripleți i < j < k pentru care P[i] < P[j] < P[k] și P[i] + P[j] + P[k] ≤ S .
+
+Restricții
+1 ≤ N ≤ 10.000
+1 ≤ P[i], S ≤ 1.000.000.000 , pentru oricare 1 ≤ i ≤ N
+Pentru 11 puncte, 1 ≤ N ≤ 100
+Pentru 27 puncte, 1 ≤ N ≤ 2.000
+Pentru 62 puncte, fără restricții
+
+Exemplu
+Input: 5 9
+1 2 3 4 3
+Output: 5
+Input: 8 16
+4 2 1 6 5 7 9 8
+Output: 13

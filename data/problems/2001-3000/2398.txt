@@ -1,0 +1,12 @@
+#2398
+Moka
+
+Cerința
+Ajutați-l pe Moca să calculeze durata postării celor a probleme de dificultate b .
+
+Restricții
+2 ≤ a,b ≤ 4294967296
+
+Exemplu
+Input: 2 4
+Output: 16

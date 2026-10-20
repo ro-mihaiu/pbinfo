@@ -1,0 +1,13 @@
+#3144
+Cifre_romane
+
+Cerința
+Alexandru a învățat azi despre numerele romane și cum se scriu acestea. Fiind distras de ce spuneau colegii a ajuns acasă și a realizat că nu știe cum să transforme un număr din cifre arabe în cifre romane. Deoarece a doua zi are un test numai din acest capitol, vă roagă să îl ajutați la transformarea unui număr N dat, scris cu cifre arabe în cifre romane.
+
+Restricții
+1≤N≤3999
+cifrele romane sunt: I=1 V=5 X=10 L=50 C=100 D=500 M=1000
+
+Exemplu
+Input: 4
+Output: IV

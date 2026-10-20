@@ -1,0 +1,32 @@
+#2733
+nrapp
+
+Cerința
+Se dă un număr natural N si un șir v de N numere naturale. Sa se răspundă la Q întrebări de tipul:
+D y : Care este cea mai mică poziție x , unde x > y , pentru care v[x] < v[y] ? Dacă nu există o astfel de poziție, răspunsul acestei întrebări va fi N + 1 .
+S y : Care este cea mai mare poziție x , unde x < y , pentru care v[x] < v[y] ? Dacă nu există o astfel de poziție, răspunsul acestei întrebări va fi 0 .
+
+Restricții
+1 ≤ N ≤ 100.000
+1 ≤ v[i] ≤ 1.000.000
+
+Exemplu
+Input: 8
+1 3 6 5 2 1 9 6
+8
+S 1
+D 2
+D 3
+S 4
+S 5
+D 6
+D 7
+D 8
+Output: 0
+5
+4
+2
+1
+9
+8
+9

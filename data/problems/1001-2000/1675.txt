@@ -1,0 +1,22 @@
+#1675
+Calc
+
+Cerința
+Cunoscând N , să se determine:
+Numărul de zile modulo 1000000007 în care se desfășoară concursul.
+Configurațiile laboratorului în ziua X-1 și ziua X+1 , cunoscând configurația zilei X .
+
+Restricții
+1 ≤ N ≤ 100000
+Pentru rezolvarea corectă a primei cerinţe se acordă 20 de puncte, iar pentru cerința a doua se acordă 80 de puncte.
+
+Exemplu
+Input: 1
+3
+001
+Output: 3
+Input: 2
+3
+001
+Output: -1
+100

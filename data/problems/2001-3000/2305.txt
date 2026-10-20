@@ -1,0 +1,20 @@
+#2305
+Numere21
+
+Cerința
+Se citesc perechi de numere naturale până la citirea a două valori nule. Să se calculeze suma numerelor din perechile pentru care atât valorile inițiale cât și oglinditele lor sunt prime între ele.
+
+Restricții
+se vor citi cel mult 40 de perechi de numere;
+toate numerele citite vor fi mai mici decât 1.000.000 ;
+toate numerele citite sunt nenule, cu excepția ultimelor două;
+
+Exemplu
+Input: 14 516
+14 416
+13 13
+123 321
+156 2651
+456 674
+0 0
+Output: 2807

@@ -1,0 +1,17 @@
+#1516
+Bosumflat
+
+Cerința
+Cunoscându-se N , numărul de numere precum și numerele efective, determinați gradul de bosumflare pentru fiecare număr în parte.
+
+Restricții
+2 ≤ N ≤ 5000
+Cele N numere sunt naturale și au exact 8 cifre
+Dacă un număr nu este bosumflat atunci acesta are gradul de bosumflare 0 .
+Se garantează că primele două cifre ale fiecărui număr sunt nenule.
+Nu încercați să înțelegeți sentimentele numerelor, deoarece sunt foarte dificile.
+
+Exemplu
+Input: 5
+15629013 29032000 19970808 33331111 86000000
+Output: 3 4 4 3 2

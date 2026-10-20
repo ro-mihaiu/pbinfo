@@ -1,0 +1,10 @@
+#4599
+Suma_divizorilor_neprimi
+
+Cerința
+Se citește de la tastatură un număr natural cu cel mult nouă cifre. Să se calculeze și să se afișeze suma divizorilor neprimi ai lui n.
+
+Restricții
+2 ≤ n < 1.000.000.000
+
+Exemplu

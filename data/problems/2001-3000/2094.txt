@@ -1,0 +1,22 @@
+#2094
+Actualizare Element, CMMDC Interval
+
+Cerința
+Afișați răspunsul la fiecare interogare.
+
+Restricții
+1 ≤ N ≤ 100000
+1 ≤ M ≤ 100000
+1 ≤ A ≤ B ≤ N
+elementele șirului dat sunt indexate de la 1
+elementele șirului dat, precum și cele de la operațiile de actualizare, sunt strict pozitive <= 2000000000
+
+Exemplu
+Input: 5
+2 12 6 9 8
+3
+1 2 4
+2 4 2
+1 2 4
+Output: 3
+2

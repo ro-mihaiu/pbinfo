@@ -1,0 +1,17 @@
+#4245
+sumaONI
+
+Cerința
+Pentru un S dat, găsiţi valoarea minimă N şi asocierea de semne numerelor de la 1 la N pentru a obţine S în condiţiile problemei.
+
+Restricții
+1 ≤ S ≤ 100.000
+Dacă există mai multe soluţii se cere doar una.
+
+Exemplu
+Input: 12
+Output: 7
+1
+7
+Input: 15
+Output: 5

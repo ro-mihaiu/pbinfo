@@ -1,0 +1,23 @@
+#1441
+Submatrix
+
+Cerința
+Fiind dată o matrice pătratică de dimensiune n cu valori 0 și 1 , să se determine dimensiunea maximă a unei submatrice ce conține numai valori 1 .
+
+Restricții
+1 ≤ n ≤ 1000
+Pentru 10% din teste n≤10
+
+Exemplu
+Input: 4
+1 1 0 1
+1 1 0 0
+1 0 1 1
+1 1 0 1
+Output: 2
+Input: 4
+1 1 1 1
+1 1 1 1
+1 1 1 0
+1 1 1 0
+Output: 3

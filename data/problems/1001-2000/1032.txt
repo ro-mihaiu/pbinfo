@@ -1,0 +1,26 @@
+#1032
+Compresie
+
+Cerința
+Dat fiind şirul de caractere C M ce se obţine în urma aplicării algoritmului de compresie asupra unei matrice M de dimensiune NxN să se determine:
+numărul de împărţiri care au fost necesare pentru obţinerea textului compresat;
+matricea iniţială din care provine textul compresat.
+
+Restricții
+2 ≤ N ≤ 1000
+0 ≤ nr ≤ 1000000
+2 ≤ lungimea şirului compresat ≤ 1000000
+Textul memorat iniţial în matricea M conţine numai caractere din mulţimea literelor mici {a...z} .
+
+Exemplu
+Input: *4b*bbab4a*abbb
+Output: 3 
+bbbb
+bbab
+aaab
+aabb
+Input: *4a*ab*aba
+Output: 3 
+aaa
+aab
+aba

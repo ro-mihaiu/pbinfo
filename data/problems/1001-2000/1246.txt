@@ -1,0 +1,21 @@
+#1246
+Dispozitiv
+
+Cerința
+Să se scrie un program care cunoscând numărul de insule N şi coordonatele carteziene ale vârfurilor acestora, determină coordonatele xD și yD cu proprietățile din enunţ.
+
+Restricții
+1 ≤ N ≤ 10 000
+Coordonatele vârfurilor insulelor sunt numere naturale ≤ 10 9
+Orice două insule nu au puncte comune
+Punctul de coordonate (x1, y1) este mai mic decât punctul de coordonate (x2, y2) , dacă x1 < x2 sau ( x1 = x2 și y1 < y2 )
+
+Exemplu
+Input: 6
+0 7 4 7 1 10
+5 1 6 1 6 2
+2 3 2 4 4 4
+2 0 1 2 4 2
+6 7 7 7 6 10
+5 0 7 0 7 1
+Output: 2 1

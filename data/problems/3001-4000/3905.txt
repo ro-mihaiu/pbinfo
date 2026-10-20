@@ -1,0 +1,12 @@
+#3905
+suma-perm-n9
+
+Cerința
+Scrieți un program care citește un număr natural n și care să calculeze și să afișeze suma S a tuturor numerelor obținute prin rearanjarea cifrelor lui n . Numărul n are toate cifrele distincte.
+
+Restricții
+n are cel mult 9 cifre și are cifrele distincte.
+
+Exemplu
+Input: 123
+Output: 1332

@@ -1,0 +1,14 @@
+#2410
+ProdusXXL
+
+Cerința
+Numim număr mare un număr care conține prea multe cifre pentru a fi memorat în tipurile existente. Se dau două numere mari, ambele ≥0 . Calculați produsul lor.
+
+Restricții
+ambele numere au cel mult 100 de cifre
+cifrele produsului nu vor fi separate prin spații
+
+Exemplu
+Input: 20 7 8 5 3 7 6 7 1 4 6 9 9 4 3 4 6 6 9 9 9
+25 7 6 3 9 6 3 1 3 6 5 9 5 8 9 1 6 7 9 5 4 5 3 6 5 3
+Output: 599998858371156857510752802116223611839497347

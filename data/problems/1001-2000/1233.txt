@@ -1,0 +1,17 @@
+#1233
+Paint
+
+Cerința
+Cunoscând lungimea zidului n , numărul de zile m şi porţiunile compacte pe care le zugrăveşte în fiecare zi, determinaţi suprafaţa totală a zidului care mai trebuie zugrăvită.
+
+Restricții
+1 ≤ n, m ≤ 250 000
+1 ≤ k ≤ min(100 000, m)
+0 ≤ d[i] < l[i] < n
+
+Exemplu
+Input: 5 2 3
+0 2
+1 3
+2 3
+Output: 2

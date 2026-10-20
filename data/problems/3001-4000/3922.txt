@@ -1,0 +1,22 @@
+#3922
+back_abc1
+
+Cerința
+Se citesc două numere naturale n și m . Afișați în ordine lexicografică toate cuvintele care sunt formate din m litere folosind primele n litere mari din alfabet și care au literele ordonate alfabetic strict crescător.
+
+Restricții
+1 ≤ n ≤ 26 , 0 ≤ m ≤ 10
+m ≤ n
+
+Exemplu
+Input: 5 3
+Output: ABC
+ABD
+ABE
+ACD
+ACE
+ADE
+BCD
+BCE
+BDE
+CDE

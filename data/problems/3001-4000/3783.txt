@@ -1,0 +1,15 @@
+#3783
+FStergeAfterQ
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+void StergeAfterQ(nod*&prim,nod*&ultim, nod*q);
+care sterge nodul de dupa nodul de adresa q al listei pentru care primul element are adresa memorată în pointerul prim si ultimul element are adresa memorata in pointerul ultim .
+
+Restricții
+numele funcției va fi StergeAfterQ ;
+pointerul q poate fi prim si ultim ;
+dacă lista nu conține niciun element, pointerul prim si ultim va avea valoarea NULL ;
+în toate cazurile, la ieșirea din apel prim va memora adresa primului element al listei, iar ultim va memora adresa ultimului element al listei.
+
+Exemplu

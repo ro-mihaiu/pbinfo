@@ -1,0 +1,15 @@
+#650
+kNivel
+
+Cerința
+Se dă vectorul de tați al unui arbore cu rădăcină cu n noduri și o valoare k . Determinați nodurile situate pe nivelul k în arbore.
+
+Restricții
+1 ≤ n ≤ 100
+în vectorul de tați rădăcina este marcată cu 0
+pe nivelul k va exista cel puțin un nod
+
+Exemplu
+Input: 8 3
+4 3 0 3 2 1 2 1
+Output: 1 5 7

@@ -1,0 +1,12 @@
+#48
+sumapatrate1
+
+Cerința
+Să se scrie un program care citește numărul natural n și determină suma pătratelor perfecte mai mici sau egale cu n .
+
+Restricții
+0 < n < 1000
+
+Exemplu
+Input: 20
+Output: Rezultatul este 30

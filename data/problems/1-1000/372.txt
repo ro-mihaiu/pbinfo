@@ -1,0 +1,14 @@
+#372
+Numarare1
+
+Cerința
+Se citesc n numere naturale. Determinați în câte perechi citite consecutiv numerele au sumele cifrelor de parități diferite.
+
+Restricții
+1 ≤ n ≤ 100
+cele n numere citite vor avea cel mult 9 cifre
+
+Exemplu
+Input: 5
+176 2943 52422 911 1975
+Output: 2

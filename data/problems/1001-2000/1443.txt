@@ -1,0 +1,35 @@
+#1443
+control2
+
+Cerința
+Citind greutăţile cutiilor, să se determine „numărul de control” şi să se verifice dacă este număr prim.
+
+Restricții
+1 ≤ n ≤ 100
+fiecare greutate este un număr natural, mai mic sau egal cu 200
+
+Exemplu
+Input: 21
+1 
+3 
+2 
+6 
+2 
+6 
+2 
+8 
+9 
+8 
+8 
+9 
+10 
+8 
+11 
+18 
+11 
+12 
+14 
+15 
+17
+Output: 31
+1

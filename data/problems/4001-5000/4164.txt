@@ -1,0 +1,9 @@
+#4164
+FAdaugaInainte
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+void FAdaugaInainte(Nod * &head);
+care, în lista pentru care primul element are adresa memorată în pointerul head , inserează inainte de fiecare nod cu informația impară dublul său. Lista are inițial cel puțin un element. Dacă lista nu are noduri cu informația impară, lista rămâne neschimbată. De exemplu, dacă lista conține inițial informațiile 1,7,3,4,13 , atunci la final lista va fi: 2,1,14,7,6,3,4,26,13 .
+
+Exemplu

@@ -1,0 +1,12 @@
+#2202
+extindere
+
+Cerința
+Să se scrie un program care pentru un n număr natural nenul cunoscut determină și afișează a n -a cifră a șirului s , astfel încât numărul de pași ai programului să fie proporțional cu log2(n) (complexitate timp logaritmică în funcție de n ).
+
+Restricții
+1 ≤ n ≤ 1.000.000
+
+Exemplu
+Input: 18
+Output: 1

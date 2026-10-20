@@ -1,0 +1,24 @@
+#1102
+Bile2
+
+Cerința
+Pe o masă cad n bile săltăreţe. Fiecare este lăsată să cadă liber de la o înălţime h , diferită pentru fiecare bilă. Toate bilele cad simultan, cu o viteză constantă (1m/s) .
+În momentul în care bila i atinge masa, tendinţa ei va fi să se ridice în aer până la înălţimea h - k , după care aceasta cade din nou. De fiecare dată când o bilă atinge masa, aceasta va tinde să urce la o înlăţime cu k mai mică decât cea la care a urcat anterior. Dupa multe sărituri, bilele pot obosi şi nu vor mai sări. Când bilele sar în sus, vor urca tot cu aceeaşi viteza constantă.
+Dându-se h şi k pentru fiecare dintre cele n bile, să se răspundă la m întrebări de forma: La ce înălţime faţă de masă se va afla bila x în momentul t ?
+
+Restricții
+1 ≤ n, m ≤ 100.000
+1 ≤ h, k ≤ 1.000.000.000
+1 ≤ t ≤ 2.000.000.000
+0 < x ≤ n
+
+Exemplu
+Input: 2 3
+5 1
+8 2
+1 4
+1 7
+2 16
+Output: 1
+2
+4

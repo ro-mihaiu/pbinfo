@@ -1,0 +1,12 @@
+#27
+cifre zero
+
+Cerința
+Să se scrie o funcție C++ care să returneze numărul de cifre egale cu zero ale unui număr natural transmis ca parametru.
+
+Restricții
+numele funcției va fi nr_cif_zero
+funcția va avea un parametru reprezentând numărul dat
+numărul pentru care se calculează numarul de cifre egale cu zero va fi mai mic decât 2.000.000.000
+
+Exemplu

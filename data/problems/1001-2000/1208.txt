@@ -1,0 +1,13 @@
+#1208
+Solitar
+
+Cerința
+Cunoscând valoarea lui N , precum şi valorile cărţilor de pe prima coloană, să se determine numărul minim de operaţii prin care se poate obţine secvenţa 1, 2, …, N pe una dintre coloane.
+
+Restricții
+2 ≤ n ≤ 100 000
+
+Exemplu
+Input: 6
+1 6 2 5 4 3
+Output: 5

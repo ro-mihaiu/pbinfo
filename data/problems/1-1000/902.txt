@@ -1,0 +1,13 @@
+#902
+Factorial2
+
+Cerința
+Să se scrie o funcție C++, cu un parametru, n , care returnează cel mai apropiat număr de n care este factorialul unei valori.
+
+Restricții
+numele funcției va fi det
+funcția va avea un singur parametru, n
+0 ≤ n ≤ 10.000.000
+dacă există mai multe numere care sunt factoriale ale unor valori și sunt la fel de apropiate de n , funcția îl va returna pe cel mai mic
+
+Exemplu

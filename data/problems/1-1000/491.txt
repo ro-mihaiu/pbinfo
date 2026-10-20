@@ -1,0 +1,14 @@
+#491
+suma2
+
+Cerința
+Se citește un vector cu n elemente, numere naturale. Să se determine suma valorilor elementelor cuprinse între primul și ultimul element par al vectorului, inclusiv acestea.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele vectorului vor fi mai mici decât 100.000
+
+Exemplu
+Input: 5
+7 6 1 2 8
+Output: 17

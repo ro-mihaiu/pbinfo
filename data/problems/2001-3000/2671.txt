@@ -1,0 +1,14 @@
+#2671
+elevisibanci
+
+Cerința
+Care este numărul de elevi, respectiv de bănci, din clasa respectivă?
+
+Restricții
+Numerele date, precum și rezultatele calculate nu vor depăși \( 10^{8} \) (este vorba de o școală intergalactică);
+Este posibil ca acea clasă să fie goală…
+
+Exemplu
+Input: 2 3 5 5
+Output: 45
+20

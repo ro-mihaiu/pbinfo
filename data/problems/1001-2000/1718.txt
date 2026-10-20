@@ -1,0 +1,14 @@
+#1718
+GenPascal
+
+Cerința
+Dându-se numerele naturale nenule n și m situate pe al doilea rând al Triunghiului lui Pascal Generalizat și un număr L , să se calculeze suma tuturor numerelor aflate pe linia L .
+
+Restricții
+n,m ≤ 100
+2 ≤ L ≤ 2000
+
+Exemplu
+Input: 1 2
+6
+Output: 48

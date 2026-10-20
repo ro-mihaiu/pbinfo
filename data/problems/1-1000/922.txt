@@ -1,0 +1,21 @@
+#922
+Puncte
+
+Cerința
+Se dau coordonatele carteziene a n puncte în plan. Să se determine distanța maximă dintre un punct dat și originea sistemului de coordonate și numărul de puncte situate la acea distanță față de origine.
+
+Restricții
+1 ≤ n ≤ 100
+coordonatele punctelor sunt numere întregi din intervalul [-1000,1000]
+distanța maximă se va afișa cu cel puțin trei zecimale exacte
+
+Exemplu
+Input: 7
+2 -1 
+-2 4 
+2 3 
+3 -1 
+-2 -4 
+2 -2 
+-4 2
+Output: 4.472 3

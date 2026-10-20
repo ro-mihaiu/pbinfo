@@ -1,0 +1,13 @@
+#4575
+divizibile_impar
+
+Cerința
+Se dau două numere naturale a și b . Calculați suma numerelor din intervalul [a,b] care au proprietatea că sunt divizibile cu numărul format din cifrele lor impare. De exemplu 165 este divizibil cu 15 , care este obținut din cifrele impare ale lui 165 (sau, altfel spus, prin eliminarea cifrelor pare). Dacă un număr nu are cifre impare, de exemplu numărul 36 , atunci numărul format cu cifre lui impare este 0 și nu se va verifica relația de divizibilitate!
+
+Restricții
+1 ≤ a ≤ b ≤ 1.000.000
+atenție la cazul în care un număr nu are cifre impare, deoarece numărul format cu cifre lui impare este 0 și nu se va verifica relația de divizibilitate! (Nu se poate împărți la 0!)
+
+Exemplu
+Input: 33 62
+Output: 652

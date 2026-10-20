@@ -1,0 +1,22 @@
+#3693
+binary_tree
+
+Cerința
+Se dau un arbore binar complet infinit cu rădăcina în nodul 1 în care pentru orice nod i copiii săi sunt nodurile 2*i , respectiv 2*i+1 și Q perechi de numere u v . Se cere să se afle pentru fiecare pereche lungimea cel mai scurt drum(ca număr de muchii) dintre nodurile u și v din arbore.
+
+Restricții
+1 ≤ Q ≤ 100.000
+1 ≤ u, v ≤ 2.000.000.000
+
+Exemplu
+Input: 5
+1 2
+4 5
+8 15
+11 3
+12 14
+Output: 1
+2
+6
+4
+4

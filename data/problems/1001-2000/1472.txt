@@ -1,0 +1,20 @@
+#1472
+Castel
+
+Cerința
+Scrieţi un program care determină cheia ce va deschide prima uşă, cunoscându-se numărul n , cele n coduri de acces, numărul de chei, notat cu k și valorile celor k chei primite.
+
+Restricții
+1 ≤ k ≤ 10
+1 ≤ n ≤ 1000
+Fiecare cod de acces este un număr cu cel mult 9 cifre
+Fiecare cheie este notată cu o cifră
+Cheile au valori distincte şi sunt date în ordine crescătoare
+O uşă poate fi deschisă de o singură cheie
+
+Exemplu
+Input: 5
+1243 527 89722 6232 678
+3
+2 5 7
+Output: 2 6

@@ -1,0 +1,16 @@
+#383
+inlocuireK
+
+Cerința
+Se dă un număr natural nenul k și vector cu n numere naturale. Să se înlocuiască fiecare element cu multiplul lui k cel mai apropiat de el și să se afișeze elementele astfel obținute în ordine inversă.
+
+Restricții
+1 ≤ n ≤ 200
+1 ≤ k ≤ 100
+elementele vectorului vor fi cuprinse între 1 și 1.000.000
+dacă pentru un element al vectorului există mai multi cei mai apropiați multipli ai lui k , elementul va fi înlocui cu cel mai mic dintre aceștia
+
+Exemplu
+Input: 5 4
+17 14 24 25
+Output: 25 25 15 15

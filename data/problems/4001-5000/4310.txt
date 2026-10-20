@@ -1,0 +1,16 @@
+#4310
+echilibrat1_rec
+
+Cerința
+Se dau două numere naturale a și b . Calculați suma numerelor echilibrate din intervalul [a,b] . Un număr este echilibrat dacă are număr par de cifre si are numărul de cifre pare egal cu numărul de cifre impare. De exemplu 3427 este echilibrat, iar 2333 nu este. Se vor scrie și apela următoarele funcții recursive :
+cif_pare care calculează numărul de cifre pare ale numărului primit ca parametru
+cif_impare care calculează numărul de cifre impare ale numărului primit ca parametru
+suma care primește ca parametri numerele a și b și calculează suma numerelor echilibrate din intervalul [a,b]
+
+Restricții
+1 ≤ a ≤ b ≤ 10.000
+în locul funcțiilor cif_pare și cif_impare se poate folosi o funcție recursivă cu doi parametri referință pentru a calcula numărul de cifre pare, respectiv numărul de cifre impare.
+
+Exemplu
+Input: 56 71
+Output: 509

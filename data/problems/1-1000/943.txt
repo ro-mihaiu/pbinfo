@@ -1,0 +1,12 @@
+#943
+suma4
+
+Cerința
+Se dă n un număr natural nenul. Să se afle ultima cifră a sumei: S=1 4 + 2 4 + 3 4 + ... + n 4 .
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 4
+Output: 4

@@ -1,0 +1,51 @@
+#2979
+cartele1
+
+Cerința
+Cunoscându-se toate cele N linii imprimate într-o zi determinați: 1. Câți băieți și câte fete sunt la școală după cele N acțiuni imprimate de sistem. 2. Care este numărul total de secunde în care, în școală, s-au aflat un număr egal, nenul, de fete și băieți, până în momentul utilizării ultimei cartele. Dacă nu există această situație se afișează 0 . 3. Care este numărul maxim de secunde în care, în școală, până în momentul utilizării ultimei cartele, s-au aflat neîntrerupt un număr impar de băieți. Dacă nu există o astfel de situație se afișează 0 .
+
+Restricții
+1 ≤ N ≤ 10.000
+La momentul utilizării primei cartele, în școală nu se află niciun elev
+Sistemul de acces nu permite folosirea simultană a două cartele
+Pentru orice linie imprimată de sistem 0 ≤ ora ≤ 23 , 0 ≤ minute ≤ 59 și 0 ≤ secunde ≤ 59
+Pe fiecare linie a fișierului de intrare, după ultimul număr, reprezentând secundele, nu există spațiu.
+Pentru rezolvarea corectă a primei cerințe se acordă 20 de puncte, pentru rezolvarea corectă a celei de-a doua cerințe se acordă 30 de puncte iar pentru rezolvarea corectă a celei de-a treia cerințe se acordă 40 de puncte.
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă pentru exemplele din enunț.
+
+Exemplu
+Input: 1
+3
+b i 0 0 24
+f i 0 0 26
+b e 0 0 29
+Output: 0 1
+Input: 2
+3
+b i 0 0 24
+f i 0 0 26
+b e 0 0 29
+Output: 3
+Input: 2
+8
+f i 8 19 10
+b i 8 19 12
+b e 8 19 15
+b i 8 20 0
+b e 8 20 4
+b i 8 20 10
+b i 8 20 50
+b i 8 20 51
+Output: 47
+Input: 3
+9
+f i 8 19 10
+b i 8 19 12
+f e 8 19 13
+b e 8 19 15
+b i 8 20 0
+b i 8 20 1
+b i 8 20 10
+b i 8 20 12
+b i 8 20 13
+Output: 3

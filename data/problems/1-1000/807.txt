@@ -1,0 +1,12 @@
+#807
+Inlocuire1
+
+Cerința
+Se dă un şir de caractere ce conţine cuvinte formate din litere mici ale alfabetului englez, separate prin unul sau mai multe spații. Înaintea primului cuvânt nu există spații, și nici după ultimul. Să se modifice șirul dat, astfel încât să se înlocuiască fiecare cuvânt cu exact trei litere din șir cu simbolul * .
+
+Restricții
+șirul dat va conține cel mult 255 caractere, litere mici ale alfabetului englez și spații
+
+Exemplu
+Input: bun este izvorul ce are apa rece
+Output: * este izvorul ce * * rece

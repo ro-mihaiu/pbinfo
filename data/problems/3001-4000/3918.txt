@@ -1,0 +1,16 @@
+#3918
+back_cp
+
+Cerința
+Se citesc două numere naturale n și m . Afișați în ordine lexicografică toate cuvintele care sunt formate din n litere C și m litere P cu proprietatea că nu există nicio literă P cuprinsă între două litere C .
+
+Restricții
+0 ≤ n ≤ 13 , 0 ≤ m ≤ 13
+
+Exemplu
+Input: 3 2
+Output: CCCPP
+CCPPC
+CPPCC
+PCCCP
+PPCCC

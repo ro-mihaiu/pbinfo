@@ -1,0 +1,13 @@
+#187
+ciffrecv
+
+Cerința
+Să se scrie un program care citeşte cel mult 1.000.000 de numere naturale din intervalul închis [0,9] şi determină cel mai mare număr prim citit şi numărul său de apariții.
+
+Restricții
+fişierul de intrare va conţine cel puţin un număr prim
+
+Exemplu
+Input: 5 8 9 1 9 5 
+1 1 2 2
+Output: 5 2

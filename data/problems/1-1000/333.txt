@@ -1,0 +1,14 @@
+#333
+triunghi1
+
+Cerința
+Să se scrie un program care citeşte trei numere reale şi verifică dacă aceste numere pot fi lungimile laturilor unui triunghi și în caz afirmativ determină daca triunghiul este ascuțitunghic, dreptunghic sau obtuzunghic.
+
+Restricții
+0 ≤ a,b,c ≤ 100
+
+Exemplu
+Input: 3 5 4
+Output: triunghi dreptunghic
+Input: 5 1 4
+Output: nu este triunghi

@@ -1,0 +1,13 @@
+#439
+FactZero
+
+Cerința
+Se citește un număr natural n . Să se determine numărul de zerouri de la sfârșitul scrierii zecimale a numărului n! .
+
+Restricții
+1 ≤ n ≤ 1000
+n! = 1 * 2 * ... * n
+
+Exemplu
+Input: 13
+Output: 2

@@ -1,0 +1,15 @@
+#3802
+MinLexSwap
+
+Cerința
+Scrieți funcția care are antetul:
+string MinLexSwap(string s)
+Funcția primește ca parametru un șir de litere mici s și va returna șirul minim lexicografic, diferit de s , obținut prin interschimbarea a exact două litere diferite din s .
+
+Restricții
+s conține numai litere mici
+s are cel puțin două litere și cel mult 100.000 de litere
+s are cel puțin două litere distincte
+Puteți utiliza în rezolvare orice structură de date
+
+Exemplu

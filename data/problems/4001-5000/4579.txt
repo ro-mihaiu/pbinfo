@@ -1,0 +1,13 @@
+#4579
+Descompunere prin reuniune
+
+Cerința
+Se consideră o mulţime A cu n elemente (distincte). Determinaţi numărul de posibilităţi de a scrie pe A ca reuniune de m mulţimi. Două moduri de scriere B1 U B2 U ... U Bm şi C1 U C2 U ... U Cm diferă dacă există cel puţin un indice i din mulțimea {1,2 … m} astfel încât mulţimile Bi şi Ci diferă prin cel puţin un element.
+
+Restricții
+1 ≤ n, m ≤ 1000000000
+Pentru 20% din punctaj 1 <= n, m <= 8
+
+Exemplu
+Input: 2 2
+Output: 9

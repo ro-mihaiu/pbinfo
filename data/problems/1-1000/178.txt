@@ -1,0 +1,12 @@
+#178
+patratperfect
+
+Cerința
+Să se scrie un program care verifică dacă un număr natural citit de la tastatură este pătrat perfect.
+
+Restricții
+n < 2.000.000.000
+
+Exemplu
+Input: 25
+Output: da

@@ -1,0 +1,26 @@
+#610
+Spion
+
+Cerința
+Aflați care sunt numerele de grupuri de soldați deduse de Bulbuka în fiecare moment.
+
+Restricții
+1 < N < 500000
+1 < x[i], s[i], d[i] < 50000000, i=1,2,3,....,N
+Soldaţii santinele sunt mereu prezenţi, nu se strigă singuri (dar pot fi strigaţi de către camarazii vecini) și nu fac parte din niciun grup.
+Numerele strigate sunt corespunzătoare unei ordini corecte.
+
+Exemplu
+Input: 6
+9 2 3
+8 5 4
+5 3 8
+7 1 2
+2 7 9
+3 9 5
+Output: 1
+2
+2
+3
+2
+1

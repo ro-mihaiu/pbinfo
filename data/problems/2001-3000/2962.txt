@@ -1,0 +1,23 @@
+#2962
+traseu3
+
+Cerința
+Se cere să se determine numărul maxim Z de zone pe care le poate avea un traseu atractiv.
+
+Restricții
+1 ≤ N ≤ 500
+1 ≤ M ≤ 500
+Pentru teste în valoare de 40 de puncte, N ≤ 50 .
+În concurs s-au acordat 10 puncte din oficiu. Aici s-au acordat pentru exemplele din enunț.
+
+Exemplu
+Input: 3 4
+12 11 10 6
+7 5 4 3
+9 2 8 1
+Output: 4
+Input: 3 3
+5 8 7
+9 6 4
+3 1 2
+Output: 3

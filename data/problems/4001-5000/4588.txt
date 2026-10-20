@@ -1,0 +1,30 @@
+#4588
+pin
+
+Cerința
+Cunoscând numărul R de rânduri și numerele de pe fiecare rând, scrieţi un program care să determine pin-ul lui Doc.
+
+Restricții
+R este un număr natural, 4 ≤ R ≤ 1000 .
+numerele din fiecare rând au maximum 9 cifre și sunt separate printr-un singur spațiu.
+se garantează existența cel puțin a unei cifre majoritare.
+cifrele pin-ului sunt alese în ordinea parcurgerii rândurilor de la rândul 1 la R .
+datorită dimensiunilor prea mari, nu au fost adăugate toate testele
+
+Exemplu
+Input: 5
+17 111 4112 1019 1 23
+45 3033 3 8 3033 48899
+45 3033 3 8 3033
+100 200 300
+77777
+Output: PIN CORECT 1307
+Input: 7
+17 123 4112 4049 8 23 6788
+45 3033 3 8 3033 48899
+45 3033 3 8 3033
+100 200 300
+7890
+1 2 3 4 5 6 7 8 9
+0 0 0 9 9 9 888 666
+Output: PIN INCORECT 30

@@ -1,0 +1,12 @@
+#69
+oglindit
+
+Cerința
+Să se scrie un program care să determine oglinditul unui număr natural citit de la tastatură. Oglinditul unui număr este numărul scris cu cifrele numărului dat în ordine inversă.
+
+Restricții
+numărul citit va fi mai mic decât 1.000.000.000
+
+Exemplu
+Input: 2705
+Output: 5072

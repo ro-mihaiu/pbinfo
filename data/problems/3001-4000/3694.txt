@@ -1,0 +1,17 @@
+#3694
+tomi
+
+Cerința
+Tomi este primarul ales în orașul Bittown. În oras sunt N locuitori și fiecare are un gard format din exact 60 de scânduri, fiecare dintre ele fiind vopsită în alb sau negru. Fiecare gard este codificat de Tomi printr-un număr natural a cărui reprezentare binară reproduce configurația gardului, de la stânga spre dreapta, scândurile negre fiind asimilate cu bitul 1 iar cele albe cu bitul 0 . Astfel, ca exemplu, gardul care are doar ultimele două scânduri vopsite în negru va fi codificat de Tomi cu numărul 3 . Tomi decide să-și construiască un gard care să fie reprezentativ pentru Bittown, adică să respecte toate regulile următoare:
+1. Gardul primarului Tomi trebuie să aibă exact 60 de scânduri; 2. Trebuie să existe cel puțin K locuitori în Bittown care constată că pentru toate scândurile negre din gardul propriu, scândurile situate pe aceeași poziție în gardul primarului Tomi sunt vopsite tot în negru; 3. Numărul reprezentând codul gardului primarului Tomi trebuie să fie minim posibil.
+
+Restricții
+1 ≤ N ≤ 100.000
+Fiecare cod este strict mai mic decât 2 60 .
+Pentru 19 puncte, toți copiii vor avea doar codurile 1 , 2 sau 3 .
+Pentru alte 38 puncte, codurile copiilor vor mai mici decât 60 .
+
+Exemplu
+Input: 6 3
+1 1 5 8 10 8
+Output: 5

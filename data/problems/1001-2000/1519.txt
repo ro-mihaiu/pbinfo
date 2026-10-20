@@ -1,0 +1,25 @@
+#1519
+Dans
+
+Cerința
+Cunoscând n , numărul de trupe înscrise, cele n perechi (t,c) unde t reprezintă timpul în minute şi c numărul de copii din trupa scrieţi un program care:
+a) Verifică dacă toate cele n echipe înscrise în spectacol se încadrează în timpul alocat spectacolului şi afişează mesajul NU dacă timpul este mai mare decât cel programat, în caz contrar afişează mesajul DA . b) Calculează cu câte minute este programul incomplet sau depăşit. c) Calculează câţi copii au fost implicaţi în realizarea spectacolului. d) Calculează care este cel mai mare şi cel mai mic timp alocat unui dans.
+
+Restricții
+1 ≤ n ≤ 100
+5 ≤ t ≤ 15
+
+Exemplu
+Input: 8
+10 6
+8 5
+9 6
+12 10
+10 12
+5 6
+7 8
+9 8
+Output: DA
+20
+61
+12 5

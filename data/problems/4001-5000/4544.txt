@@ -1,0 +1,21 @@
+#4544
+MosCraciun5
+
+Cerința
+Moș Crăciun locuiește la polul nord și pregătește cadouri pentru copii cuminți din clasa a X-a B. Datorită încălzirii globale, gheața se topește, formându-se mai multe banchize. Harta polului nord seamănă cu o matrice cu n linii și m coloane în care elementele pot avea următoarele valori:
+0 – zonă cu apă, în care gheața s-a topit;
+număr natural nenul; o zonă care contine gheață. În fiecare asemenea zonă se află un cadou, iar numărul din matrice reprezintă valoarea acestui cadou;
+Scrieți un program care să determine care este suma valorilor cadourilor aflate pe banchiza lui Moș Crăciun. Acesta se află pe banchiza care conține elementul aflat pe linia 1 și coloana 1 .
+
+Restricții
+1 ≤ n , m ≤ 100
+valorile cadourilor sunt numere naturale mai mici sau egale cu 10
+Moș Crăciun vă asigură că elementul aflat pe linia 1 și coloana 1 nu conține apă.
+
+Exemplu
+Input: 4 6
+4 2 1 0 3 0
+0 0 1 0 9 9
+1 3 5 0 0 0
+0 3 0 1 3 7
+Output: 20

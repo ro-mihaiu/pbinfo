@@ -1,0 +1,14 @@
+#3198
+Optimize
+
+Cerința
+Rolul vostru este acela de a optimiza programul, astfel încât acesta să se execute în limita de timp indicată în enunț, pentru un vector de cel mult 1 milion de elemente. Limita de memorie trebuie, de asemenea, respectată. În acest sens, este permisă modificarea (oricât de radicală) a funcției nule . Orice modificare în afara corpului acestei funcții va conduce la respingerea soluței.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+
+Exemplu
+Input: 10
+0 3 8 0 0 3 8 7 0 10
+Output: 10
+3 8 3 8 7 10 0 0 0 0

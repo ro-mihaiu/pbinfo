@@ -1,0 +1,14 @@
+#427
+bazaminima
+
+Cerința
+Se dau n numere naturale. Determinați cea mai mică bază de numerație b în care ar putea fi considerate aceste numere.
+
+Restricții
+1 ≤ n ≤ 100
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+1524 300024 10001 2034 543201
+Output: 6

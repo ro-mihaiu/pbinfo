@@ -1,0 +1,13 @@
+#348
+afisareputeri
+
+Cerința
+Se dau două numere naturale nenule n și p . Afișați în ordine crescătoare puterile lui n mai mici sau egale cu p .
+
+Restricții
+2 ≤ n ≤ 10
+1 ≤ p < 1.000.000.000
+
+Exemplu
+Input: 3 100
+Output: 1 3 9 27 81

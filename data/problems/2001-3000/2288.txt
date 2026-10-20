@@ -1,0 +1,15 @@
+#2288
+cifraimparamaxima
+
+Cerința
+Să se scrie un program care să determine cea mai mare cifră impară a unui număr natural citit de la tastatură.
+
+Restricții
+numărul citit va fi mai mic decât 2.000.000.000
+dacă numărul citit nu conține cifre impare se va afișa mesajul nu exista
+
+Exemplu
+Input: 2785
+Output: 7
+Input: 2064
+Output: nu exista

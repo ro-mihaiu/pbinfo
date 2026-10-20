@@ -1,0 +1,14 @@
+#497
+Majoritar
+
+Cerința
+Se dă un vector cu n elemente, numere naturale. Verificați dacă vectorul are un element majoritar . Numim element majoritar o valoare pentru care numărul de apariții în vector este mai mare decât n/2 .
+
+Restricții
+1 ≤ n ≤ 100.000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 10
+5 2 1 5 3 5 5 1 5 5
+Output: DA 5

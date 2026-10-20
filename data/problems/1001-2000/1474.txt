@@ -1,0 +1,14 @@
+#1474
+exponent
+
+Cerința
+Dându-se două numere naturale n şi a , nenule, se cere să se determine exponentul numărului natural a în descompunerea lui n! .
+
+Restricții
+2 ≤ n,a ≤ 1000
+pentru 30% dintre teste, 2 ≤ n,a ≤ 200
+exponentul unui număr natural nenul x , nu neapărat prim, în descompunerea unui număr natural nenul y este cel mai mare număr natural e cu proprietatea că x e este divizor al lui y .
+
+Exemplu
+Input: 6 4
+Output: 2

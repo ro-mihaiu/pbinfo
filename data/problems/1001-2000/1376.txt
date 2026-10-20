@@ -1,0 +1,16 @@
+#1376
+laturitriunghi
+
+Cerința
+Se dă n . Afișați un triunghi cu latura de n steluțe gol înăuntru.
+
+Restricții
+1 ≤ n ≤ 10
+
+Exemplu
+Input: 5
+Output: *
+   * *
+  *   *
+ *     *
+* * * * *

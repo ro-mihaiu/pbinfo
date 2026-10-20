@@ -1,0 +1,18 @@
+#2041
+camelot
+
+Cerința
+Regele Arthur – Inimă de Leu , vrea să adune la castel toţi cavalerii Mesei Rotunde pentru a hotărî împreună soarta regatului. Dar cavalerii nu se află toţi în Camelot şi durează un timp până vor ajunge la castel din pădurea care înconjoară castelul.
+Harta pădurii are forma unei matrici, cu m linii şi n coloane. Pentru fiecare cavaler care nu este în Camelot se cunosc coordonatele x y , reprezentând linia şi coloana din matrice în care se află iniţial cavalerul. Toţi cavalerii pornesc simultan spre castel, iar fiecare cavaler se deplasează după regula de deplasare a calului de la jocul de şah.
+Cunoscând dimensiunile mxn ale matricei, coordonatele castelului şi cele ale cavalerilor, se cere să se determine:
+1. numărul minim de mutări după care va ajunge la castel unul dintre cavaleri 2. numărul minim de mutări după care toţi cavalerii se vor afla la castel.
+De exemplu, în imaginea de mai sus este reprezentată harta sub forma unei matrici de tip 8x8 , iar castelul are coordonatele 4 5 (linia 4 şi coloana 5 ), primul cavaler se află iniţial în punctul de coordonate 1 2 iar cel de al doilea în punctul 8 1 . Primul cavaler va ajunge la castel din minim 2 deplasări, iar al doilea după minim 4 mutări Pentru prima întrebare răspunsul este 2 , iar pentru a doua întrebare răspunsul este 4 .
+
+Restricții
+5 ≤ m,n ≤ 1000
+1 ≤ k ≤ 1000
+1 ≤ x[i] , xc ≤ m , 1 ≤ y[i] , yc ≤ n , pentru orice 1 ≤ i ≤ k
+Eventualele intersecţii ale drumurilor cavalerilor nu influenţează rezultatele
+Pentru datele de test se garantează existenţa unei soluţii
+
+Exemplu

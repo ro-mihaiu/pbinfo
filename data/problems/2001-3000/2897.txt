@@ -1,0 +1,18 @@
+#2897
+numere26
+
+Cerința
+Cunoscând numerele naturale n și c , și un șir de n numere naturale, se cere să se rezolve următoarele cerințe: 1. dacă c = 1 , atunci se cere să se afișeze lungimea maximă a unei secvențe neuniforme. 2. dacă c = 2 , atunci se cere să se afișeze numărul total de secvențe neuniforme din șir.
+
+Restricții
+0 < n < 10.000
+1 < valoare din șir < 10.000
+lungimea unei secvențe ≥ 2
+
+Exemplu
+Input: 6  1
+14 2 49 3 35 1024
+Output: 5
+Input: 10 2
+14 8 3 25 6 24 20 1024 100 2
+Output: 9

@@ -1,0 +1,14 @@
+#3251
+asociat-par
+
+Cerința
+Se dau n numere naturale. Se numește număr par asociat unui număr x numărul obținut din cifrele pare ale lui x luate în ordinea în care apar ele în x . De exemplu, numărul 3246456 are ca număr par asociat pe 24646 , iar 37030 pe 0 . Dacă numărul nu are cifre pare, atunci el nu are număr par asociat. Numărul 3731 nu are număr par asociat. Se cere să se determine câte dintre cele n numere citite au numărul par asociat palindrom. Se numește palindom un număr care citit de la dreapta la stânga are aceeași valoare.
+
+Restricții
+1 ≤ n ≤ 100
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+45456 474 201102 2352345 234
+Output: 2

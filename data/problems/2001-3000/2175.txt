@@ -1,0 +1,19 @@
+#2175
+Factori
+
+Cerința
+Scrieţi un program care să citească o secvenţă de numere naturale nenule şi care să afişeze în modul descris în enunţ factorialele numerelor citite.
+
+Restricții
+Numerele naturale din fişierul de intrare (exceptând ultimul) sunt din intervalul [2, 60000] . Fişierul de intrare conţine maxim 10 numere naturale nenule.
+
+Exemplu
+Input: 2
+8
+15
+10
+0
+Output: 1
+7 2 1 1
+11 6 3 2 1 1
+8 4 2 1

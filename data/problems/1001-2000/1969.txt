@@ -1,0 +1,24 @@
+#1969
+pdigit
+
+Cerința
+Se consideră un interval închis [x,y] . Să se determine:
+a – primul număr prim mai mare sau egal ca x
+b – baza minimă în care poate fi scris numărul prim a
+c – cifra de control a numărului prim a
+n – numărul de numere prime din intervalul [x,y] ce pot fi scrise în baza b și au cifra de control egală cu c .
+
+Restricții
+1 ≤ x ≤ y ≤ 5000000
+intervalul [x,y] conține cel puțin un număr prim
+rezolvarea primei cerințe asigură 10% din punctaj
+rezolvarea cerinței a doua asigură 10% din punctaj
+rezolvarea cerinței a treia asigură 20% din punctaj
+Rezolvarea ultimei cerințe asigură 60% din punctaj
+
+Exemplu
+Input: 15 75
+Output: 17
+8
+1
+3

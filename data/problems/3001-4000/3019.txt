@@ -1,0 +1,16 @@
+#3019
+joc10
+
+Cerința
+Să se determine: 1) punctajul maxim pmax pe care îl poate obţine un concurent la finalul jocului; 2) valoarea cercului iniţial vcerc al concurentului care va obţine punctajul maxim.
+
+Restricții
+2 ≤ N ≤ 135
+1 ≤ x 1 , x 2 ,…, x (n+1)*(n+2)/2 ≤ 215
+Dacă există mai multe variante de alegere a cercului iniţial, se va scrie în fişier cea mai mică dintre valorile acestor cercuri iniţiale din care se obţine punctajul maxim.
+
+Exemplu
+Input: 3
+10 4 3 11 14 2 9 6 5 7
+Output: 37
+7

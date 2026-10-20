@@ -1,0 +1,18 @@
+#2109
+Dineu
+
+Cerința
+Cunoscând N – numărul de reprezentanţi, identificăm fiecare reprezentant cu un număr natural cuprins între 1 şi N , L – numărul limbilor străine care se vorbesc la dineu (acestea sunt codificate prin numerele naturale de la 1 la L ), numărul de limbi vorbite de fiecare reprezentant şi codurile acestora să se determine numărul maxim de persoane care pot sta la o masa fără translator.
+
+Restricții
+• 1 ≤ N ≤ 20 • 1 ≤ L ≤ 10 • 1 ≤ nri, l1, l2, ..., lnri ≤ 10 • Dacă există mai multe soluţii se va afişa cea mai mică din punct de vedere lexicografic
+
+Exemplu
+Input: 5 5
+3 1 3 5 
+2 3 4
+3 1 2 4
+2 4 5
+2 2 3
+Output: 4
+1 2 3 4

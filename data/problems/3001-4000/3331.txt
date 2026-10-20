@@ -1,0 +1,14 @@
+#3331
+NumarPermutari
+
+Cerința
+Într-o clasă sunt n elevi. În fiecare zi elevii sunt așezați în bănci în alt mod. Câte modalități de așezare a elevilor în bănci există?
+
+Restricții
+0 ≤ n ≤ 1000
+
+Exemplu
+Input: 3
+Output: 6
+Input: 25
+Output: 15511210043330985984000000

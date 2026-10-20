@@ -1,0 +1,14 @@
+#3871
+Xor Pyramid
+
+Cerința
+Considerăm o piramida xor unde fiecare valoare este egală cu xorul valorilor din stânga jos și dreapta jos. Dându-se cel mai de jos nivel, care este valoarea din vârf?
+
+Restricții
+1 ≤ n ≤ 200.000 .
+cele n numere citite vor fi mai mici sau egale cu 1.000.000.000 .
+
+Exemplu
+Input: 8
+2 10 5 12 9 5 1 5
+Output: 9

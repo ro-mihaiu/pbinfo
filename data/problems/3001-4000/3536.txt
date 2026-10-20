@@ -1,0 +1,18 @@
+#3536
+EvaluareExpresie
+
+Cerința
+Se consideră o expresie aritmetică formată din numere naturale și operatorii binari + (adunare), - (scădere), * (înmulțire), ^ (ridicare la putere). Să se determine forma postfixată corespunzătoare și să se calculeze valoarea expresiei. Spunem că expresia este în formă infixată dacă fiecare operator binar este încadrat de cei doi operanzi ai săi. Aceasta este de fapt forma uzuală a expresiilor aritmetice. Spunem că expresia este în formă postfixată dacă fiecare operator este poziționat după operanzii săi, respectând prioritatea și regula de asociere a operatorilor. De exemplu, expresia aritmetică în formă infixată: 1*2+3^4 poate fi rescrisă în forma postfixată astfel: 1*2+3^4 → (parantezare) → ((1*2)+(3^4)) → (postfixare +) → ((1*2)(3^4)+) → (postfixare * și ^) → ((1 2 *)(3 4 ^) +) → (eliminare paranteze) → 1 2 * 3 4 ^ + Valoarea expresiei date este 83 .
+
+Restricții
+Lungimea expresiei din fișierul de intrare va fi de cel mult 50 de caractere
+Rezultatul final precum și rezultatele intermediare se vor încadra în tipul de date long long
+Expresia este corectă și nu conține alte caractere în afară de cifre și operatorii + , - , * , ^
+
+Exemplu
+Input: 100-2*3^2
+Output: 100 2 3 2 ^ * -
+82
+Input: 1+2+2^3^2
+Output: 1 2 + 2 3 ^ 2 ^ +
+67

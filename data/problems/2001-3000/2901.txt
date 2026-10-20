@@ -1,0 +1,21 @@
+#2901
+datapal
+
+Cerința
+Pentru cele n date calendaristice din agenda Adelinei numărați și afișați câte date palindromice au fost găsite iar apoi precizați secolele cu cele mai multe date palindromice.
+
+Restricții
+0< n ≤ 1000
+toate datele calendaristice sunt valide;
+în colecția de date de test există întotdeauna cel puțin o dată palindromică
+anii aparțin perioadei 10-9999 și sunt d.Hr.
+
+Exemplu
+Input: 5
+01122110
+11111111
+19111111
+09122190
+12111121
+Output: 4 
+12 22

@@ -1,0 +1,17 @@
+#2099
+UnuPatru
+
+Cerința
+Dat un set de numere naturale, să se determine pentru fiecare dintre ele, numărul de repetări ale calculului sumei pătratelor cifrelor până la obţinerea rezultatului 1 sau 4 .
+
+Restricții
+1 ≤ n ≤ 10
+1 ≤ numerele testate ≤ 10 18
+
+Exemplu
+Input: 2
+89 68
+Output: 4 2
+Input: 3
+33 17 638
+Output: 10 9 5

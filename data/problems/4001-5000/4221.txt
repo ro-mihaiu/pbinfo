@@ -1,0 +1,14 @@
+#4221
+Bune
+
+Cerința
+Se dau două numere a și b numere naturale. Verificați dacă cele două numere sunt “bune” și afișați cifra comună. Dacă cele două numere nu sunt bune, afișați NU .
+
+Restricții
+cele doua numere a si b vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 123 3456
+Output: 3
+Input: 123 67
+Output: NU

@@ -1,0 +1,30 @@
+#4161
+Picard
+
+Cerința
+În galaxia noastră sunt n planete, numerotate de la 1 la n . Între unele dintre ele sunt calculate și cunoscute salturi warp bidirecționale de durate cunoscute, existând în total m astfel de salturi warp. Prin aceste salturi warp se asigură posibilitatea de navigare între oricare două planete, direct sau prin intermediul mai multor salturi warp intermediare. Flota stelară folosește foarte eficient aceste salturi pentru a naviga între planete, adică folosește trasee formate din unul sau mai multe salturi warp astfel încât durata obținută ca sumă a duratelor salturilor warp componente să fie întotdeauna minimă pentru oricare pereche de planete.
+Proaspăt pensionat din Flota stelară, sătul de ferenghi și romulani, Jean Luc Picard dorește să se retragă pe o planetă cât mai izolată, adică o planetă pentru care suma duratelor salturilor warp folosite de Flota stelară de la ea la toate celelaltele planete din galaxie să fie maximă. Determinați planetele pe care se poate retrage Picard pentru a obține liniștea dorită. Dacă sunt mai multe planete care pot fi alese, acestea se vor afișa în ordine crescătoare a numerotării și separate prin câte un spațiu.
+
+Restricții
+1 ≤ n ≤ 100
+durata oricărui salt este număr întreg din intervalul [1,1000]
+
+Exemplu
+Input: 6 9
+1 3 5
+1 4 5
+1 5 4
+2 3 5
+2 4 1
+2 5 2
+3 6 2
+4 6 4
+5 6 4
+Output: Sumele duratelor minime de la fiecare planetă la toate celelale sunt:
+De la planeta 1 la toate celelalte: 27 
+De la planeta 2 la toate celelalte: 19 
+De la planeta 3 la toate celelalte: 24 
+De la planeta 4 la toate celelalte: 19 
+De la planeta 5 la toate celelalte: 19 
+De la planeta 6 la toate celelalte: 22
+Prin urmare, Jean Luc Picard alege planeta 1.

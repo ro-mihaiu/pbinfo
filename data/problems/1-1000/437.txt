@@ -1,0 +1,17 @@
+#437
+Conex
+
+Cerința
+Se dă lista muchiilor unui graf neorientat. Să se verifice dacă graful este sau nu conex.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ i , j ≤ n
+în fișierul de intrare muchiile se pot repeta
+
+Exemplu
+Input: 5
+1 4 
+3 5
+2 4
+Output: NU

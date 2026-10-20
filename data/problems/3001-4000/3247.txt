@@ -1,0 +1,19 @@
+#3247
+subimp1
+
+Cerința
+Se citește un număr natural n . Afișați în ordine lexicografică toate submulțimile mulțimii {1, 2, ..., n} care sunt formate dintr-un număr impar de elemente.
+
+Restricții
+1 ≤ n ≤ 19
+
+Exemplu
+Input: 4
+Output: 1 
+1 2 3 
+1 2 4 
+1 3 4 
+2 
+2 3 4 
+3 
+4

@@ -1,0 +1,13 @@
+#1574
+prietene
+
+Cerința
+Se dau două numere naturale. Să se afle dacă aceste numere sunt prietene. Numerele prietene sunt perechile de numere în care fiecare număr în parte este suma tuturor divizorilor celuilalt număr, mai puțin acesta.
+
+Restricții
+1 ≤ a ≤ 100.000
+1 ≤ b ≤ 100.000
+
+Exemplu
+Input: 220 284
+Output: PRIETENE

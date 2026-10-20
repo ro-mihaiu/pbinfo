@@ -1,0 +1,16 @@
+#2803
+ElimP
+
+Cerința
+Se citește un număr p și un șir de caractere s , șirul conține cel mult 255 de litere mici ale alfabetului englez. Să se afișeze toate șirurile rezultate din eliminarea, pe rând, a fiecărei secvențe de p caractere din s .
+
+Restricții
+1 ≤ p ≤ 255
+eliminările se fac de la stânga la dreapta
+
+Exemplu
+Input: 3
+adina
+Output: na
+aa
+ad

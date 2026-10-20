@@ -1,0 +1,10 @@
+#1539
+apartenenta
+
+Cerința
+Scrieţi în limbajul C/C++ definiţia completă a subprogramului apartenenta , care primeşte ca argument un număr natural nenul n şi returnează valoarea 1 dacă n aparţine mulţimii \(\scriptsize H = \{ 2^x \cdot 3^y \cdot 5^z \, | \, x, y, z \in N \}\), respectiv 0 în caz contrar.
+
+Restricții
+1 ≤ n ≤ 10 9
+
+Exemplu

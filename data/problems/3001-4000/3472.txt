@@ -1,0 +1,22 @@
+#3472
+TerenCasa
+
+Cerința
+Gigel, un personaj cunoscut, vrea de data aceasta să își construiască o casă. Astfel, el cumpără un teren, reprezentat sub forma unei matrice binare cu n linii și m coloane, dar datorită lipsei de experiență în tranzacții imobiliare este păcălit, deoarece există pe teren zone afectate în care nu se poate construi, marcate în matrice cu 0 . Celelalte zone în care se poate construi sunt marcate cu 1 .
+Gigel acceptă că a greșit și nu are altceva de făcut decât să își construiască casa unde este posibil. Acesta caută pe terenul achiziționat o bucată de teren pătrată de dimensiune cât mai mare, pentru care toate zonele ce o alcătuiesc să fie utilizabile(marcate cu 1 în matricea binară a reprezentării terenului), în care își va construi casa.
+Acesta nu se descurcă singur și vă roagă pe voi să îl ajutați să își rezolve această problemă.
+
+Restricții
+1 ≤ n , m ≤ 1000
+dacă există mai multe submatrice de dimensiune maximă, Gigel o va alege pe cea care are coordonatele colțului stânga sus(implicit și ale celui dreapta jos) mai mici.
+Prin bucată de teren cât mai mare se înțelege o submatrice care respectă proprietatea din enunț(este alcătuită exclusiv din elemente cu valoarea 1 ) și are număr maxim de elemente.
+
+Exemplu
+Input: 5 5
+0 1 1 0 1
+1 1 0 1 0
+0 1 1 1 0
+1 1 1 1 0
+1 1 1 1 1
+Output: 3
+3 2 5 4

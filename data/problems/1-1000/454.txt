@@ -1,0 +1,13 @@
+#454
+calendar
+
+Cerința
+Se citesc 3 numere naturale z l a . Să se decidă dacă reprezintă o dată calendaristică corectă, în format zi luna an .
+
+Restricții
+1850 ≤ a ≤ 2500
+0 ≤ z,l ≤ 100
+
+Exemplu
+Input: 29 2 2000
+Output: DA

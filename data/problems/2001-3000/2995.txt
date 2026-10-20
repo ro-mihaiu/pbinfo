@@ -1,0 +1,11 @@
+#2995
+Finserare
+
+Cerința
+Scrieți funcția inserare care primește ca parametru un număr natural n și furnizează prin intermediul aceluiași parametru numărul obținut din n prin inserarea, între oricare două cifre alăturate ale sale, a valorii absolute a diferenței acestora.
+
+Restricții
+10 ≤ n ≤ 99999
+Puteți apela funcția matematică abs .
+
+Exemplu

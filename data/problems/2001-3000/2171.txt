@@ -1,0 +1,23 @@
+#2171
+pluricex1
+
+Cerința
+Scrieți un program care să determine toate echipele ce pot fi formate din k dintre cei n elevi de pe lista directorului, cu condiția ca pentru fiecare disciplină să existe în echipă cel puțin un membru care să studieze la CEX disciplina respectivă.
+
+Restricții
+0 < n ≤ 22
+0 < k ≤ 8
+0 < D ≤ 10
+Pentru datele de test problema admite întotdeauna soluţie, numărul de soluţii fiind mai mic de 20000 .
+Spunem că vectorul (x1, x2, ..., xn) precedă lexicografic vectorul (y1, y2, ..., yn) dacă există un indice i astfel încât xj=yj , pentru orice 1 ≤ j < i , iar xi < yi .
+
+Exemplu
+Input: 6 3 5
+1 2
+2 1 4
+3 2 4 3
+1 5
+2 3 1
+1 3
+Output: 2 3 4
+3 4 5

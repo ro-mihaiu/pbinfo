@@ -1,0 +1,21 @@
+#550
+Mere
+
+Cerința
+Țăranul Ion are în livada sa N pomi, fiecare cu v[i] mere. Între pomi există N-1 cărări, astfel încât între oricare doi pomi să existe un singur drum, alcătuit eventual din mai multe cărări. Pentru că nu și-a plătit ratele la bancă, el este nevoit să vândă o parte dintre pomi. El vrea să adune merele din livadă, dar pentru că nu are foarte mult timp, el va aduna merele doar dintr-o parte din pomi.
+Ion pornește din pomul lui preferat, pomul 1 , și se deplasează spre unul din vecinii lui. Pentru că nu este foarte inteligent, atunci când Ion se află la un pom, el se va deplasa către pomul vecin care are cele mai multe mere, fără să ia în calcul ceilalți meri din livadă. Dacă doi pomi au același număr de mere, atunci Ion se va deplasa spre pomul cu numărul de ordine mai mic.
+Ajutați-l pe Ion să afle câte mere va aduna folosind metoda sa!
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ v[i] ≤ 10000
+
+Exemplu
+Input: 6
+3 1 2 3 2 1
+1 2
+1 3
+2 4
+2 5
+2 6
+Output: 5

@@ -1,0 +1,12 @@
+#1858
+restmare
+
+Cerința
+Pentru un număr natural m numim rest mare cel mai mare rest pe care îl obţinem împărţind numărul m la toate numerele naturale de la 1 la m . Fiind dat un număr natural n , se determină pentru fiecare număr de la 1 la n numărul rest mare , iar aceste resturi mari se însumează. Se cere aflarea acestei sume.
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+
+Exemplu
+Input: 3
+Output: 1

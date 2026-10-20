@@ -1,0 +1,13 @@
+#4277
+UpperLower
+
+Cerința
+Scrieți funcția cu următorul antet:
+void UpperLower(const char a[], char U[], char L[])
+Funcția primește ca parametri trei șiruri de caractere a , U și L . Șirul U trebuie să memoreze caracterele din a , dar în care literele mici au fost convertite la majuscule, iar șirul L trebuie să memoreze caracterele din a , dar în care literele mari au fost convertite la litere mici.
+
+Restricții
+Șirul a poate conține și alte caractere în afară de litere, dar acestea rămân nemodificate.
+Indexarea șirurilor începe de la 0
+
+Exemplu

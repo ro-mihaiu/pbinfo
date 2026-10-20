@@ -1,0 +1,22 @@
+#4773
+Specialmax
+
+Cerința
+Determinați care este cel mai mare număr special format în timpul jocului.
+
+Restricții
+n este număr natural nenul par de maximum 6 cifre
+numerele scrise pe cartonașe sunt numere naturale nenule cu cel puțin două cifre și maximum 6 cifre
+se garantează că se va forma cel puțin un număr special pe baza numerelor din fișier
+
+Exemplu
+Input: 8
+98
+312
+7125
+4048
+403
+26
+31987
+25673
+Output: 2540

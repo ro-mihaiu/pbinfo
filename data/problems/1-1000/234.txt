@@ -1,0 +1,18 @@
+#234
+medpoz
+
+Cerința
+Să se determine media aritmetică a elementelor strict pozitive din matrice, care sunt situate sub diagonala principală.
+
+Restricții
+2 ≤ n ≤ 20 ;
+dacă în matrice nu există elemente strict pozitive, situate sub diagonala principală, se va afișa mesajul NU EXISTA ;
+media se va afişa cu exact trei zecimale, fără rotunjire;
+
+Exemplu
+Input: 4
+-1 2 4 5
+0 6 3 1
+2 4 2 0
+3 -5 1 -3
+Output: 2.500

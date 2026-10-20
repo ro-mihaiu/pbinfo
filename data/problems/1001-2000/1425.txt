@@ -1,0 +1,31 @@
+#1425
+Ghirlande
+
+Cerința
+1) Pentru cerinţa 1 copiii vor să afle suma codurilor culorilor aflate la cele două capete ale lanţului format prin legarea ghirlandelor cumpărate, respectând regulile de îmbinare de mai sus. 2) Pentru cerinţa 2 ajutaţi-i să lege ghirlandele pentru a decora laboratorul P1 respectând regulile menţionate. Trebuie sa afisati numerele de ordine ale ghirlandelor în ordinea în care vor fi legate. La cele doua capete se vor afla cele doua ghirlande care conțin o culoare ce apare o singura data. Dintre acestea prima va fi cea care are codul culorii mai mic
+
+Restricții
+2 ≤ N ≤ 900.000
+1 ≤ a i , b i ≤ 2*10 6 (pentru 1≤i≤N )
+
+Exemplu
+Input: 1
+3
+400 3
+5 10
+3 5
+Output: 410
+Input: 2
+3
+400 3
+5 10
+3 5
+Output: 2 3 1
+Input: 2
+5
+3 5
+6 12
+5 12
+7 8
+6 8
+Output: 1 3 2 5 4

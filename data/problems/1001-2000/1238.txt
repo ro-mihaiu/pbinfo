@@ -1,0 +1,20 @@
+#1238
+Labirint
+
+Cerința
+Zoli și D’Umbră s-au pierdut într-un labirint cu n x n camere dispuse pe cate n linii și n coloane. D’umbră se află în camera (1, 1) , iar Zoli se află în camera (n, n) . Aceștia vor trebui să parcurgă labirintul pentru a se regăsi. Dacă unul dintre ei se aflâ în camera (i, j) , acesta se poate deplasa spre una din camerele aflate la pozițiile (i + 1, j) , (i, j + 1) , (i - 1, j) sau (i, j - 1) , fără a părăsi labirintul.
+Camerele nu pot fi accesate ușor. La fiecare cameră se află câte o ușă având o rezistență R care poate fi spartă cu un baros cu o putere P ≥ R . Unul dintre cei doi (nu contează care) va avea acces la un arsenal de barosuri cu puteri între 0 și 100.000 .
+Determinați puterea minimă pe care o poate avea barosul ce trebuie folosit astfel încât Zoli și D’Umbră să se poată întâlni.
+
+Restricții
+1 ≤ n ≤ 1.000
+0 ≤ rezistența unei uși ≤ 100.000
+pentru 50% din punctaj, Pmin ≤ 600 și n ≤ 500
+
+Exemplu
+Input: 4
+1 2 3 4 
+2 3 1 4 
+2 1 2 3
+3 3 1 1
+Output: 2

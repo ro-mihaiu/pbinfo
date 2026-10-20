@@ -1,0 +1,14 @@
+#127
+prima-cifra
+
+Cerința
+Se dă un număr natural n , apoi n numere naturale. Să se calculeze suma obținută prin adunarea primei cifre a celor n numere citite.
+
+Restricții
+0 < n < 1000
+cele n numere citite vor fi mai mici decât 2.000.000
+
+Exemplu
+Input: 5
+100 212 3 45 5021
+Output: 15

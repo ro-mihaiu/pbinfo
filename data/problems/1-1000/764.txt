@@ -1,0 +1,23 @@
+#764
+Cirese
+
+Cerința
+Gigel are o livadă împărțită în n*m sectoare, dispuse pe n linii, numeroate de la 1 la n și m coloane, numerotate de la 1 la m . În fiecare sector se află un cireș, care conține o cantitate de cireșe cunoscută. Gigel va culege toate cireșele din cireșii dispuși într-o zonă dreptunghiulară din livadă. El poate să aleagă între k zone și dorește să culeagă cât mai multe cireșe.
+Scrieți un program care determină cantitatea maximă de cireșe pe care o poate culege Gigel din una dintre cele k zone date.
+
+Restricții
+1 ≤ n , m , k ≤ 100
+cantitatea de cireșe din fiecare sector este un număr natural mai mic decât 1000
+1 ≤ i1 ≤ i2 ≤ n
+1 ≤ j1 ≤ j2 ≤ m
+
+Exemplu
+Input: 4 6 3
+3 1 10 7 5 2 
+1 5 3 8 6 3 
+10 1 3 8 10 8 
+6 1 8 3 9 1 
+2 2 3 5
+1 2 4 6
+2 1 4 3
+Output: 102

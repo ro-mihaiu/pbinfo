@@ -1,0 +1,14 @@
+#4383
+Inlocuire6
+
+Cerința
+Se citește un vector cu n elemente, numere naturale. Să se înlocuiască ultimul element prim din vector cu 0 , apoi să se afișeze vectorul.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele vectorului vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 5
+7 4 9 6 2
+Output: 7 4 9 6 0

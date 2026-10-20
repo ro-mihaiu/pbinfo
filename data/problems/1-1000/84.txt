@@ -1,0 +1,14 @@
+#84
+interschimbarelitere
+
+Cerința
+Să se scrie un program care citește un cuvânt și îl afișează după interschimbarea primei vocale cu ultima consoană.
+
+Restricții
+şirul de caractere citit va conţine cel mult 10 caractere, litere mari și mici ale alfabetului englez
+se consideră vocale următoarele caractere: a e i o u A E I O U .
+dacă cuvântul conține doar vocale sau doar consoane se va afișa IMPOSIBIL
+
+Exemplu
+Input: PrograM
+Output: PrMgrao

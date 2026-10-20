@@ -1,0 +1,22 @@
+#3721
+Cochilie
+
+Cerința
+Cunoscând valorile numerelor naturale N și P , va trebui să răspundeți la următoarele întrebări:
+Ce dimensiuni are cochilia de ordin N ?
+Ce elemente se află pe linia P a cochiliei de ordin N ?
+
+Restricții
+1 < N < 30
+Linia P întotdeauna se referă la o linie validă a cochiliei.
+Pentru teste în valoare de 8 puncte avem C = 1 .
+Pentru alte teste în valoare de 36 de puncte avem C = 2 și N ≤ 17 .
+Pentru alte teste în valoare de 20 de puncte avem C = 2 și P se referă la prima sau ultima linie a cochiliei.
+Pentru alte teste în valoare de 36 de puncte avem C = 2 fără alte restricții.
+
+Exemplu
+Input: 1 5
+Output: 8 5
+Input: 2
+5 6
+Output: 4 4 4 1 2

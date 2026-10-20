@@ -1,0 +1,22 @@
+#4035
+NrSecvS
+
+Cerința
+Scrieţi definiția completă a subprogramului C++ cu antetul:
+long long NrSecvS(int a[], int n, int S)
+care are trei parametri:
+a , prin care primeşte un tablou unidimensional de numere naturale nenule
+n , numărul efectiv de elemente ale tabloului
+S , un număr natural nenul
+Subprogramul returnează numărul de secvențe din vector care au suma strict mai mare decât S .
+
+Restricții
+1 ≤ a[i] ≤ 1.000
+1 ≤ S ≤ 10.000
+2 ≤ n ≤ 1.000.000
+numele subprogramului cerut este NrSecvS
+parametrii sunt, în această ordine: a , n , S
+elementele vectorului a sunt indexate de la 1
+O secvență este formată din elemente aflate pe poziții consecutive în vector.
+
+Exemplu

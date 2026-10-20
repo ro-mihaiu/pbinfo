@@ -1,0 +1,15 @@
+#1944
+suma6
+
+Cerința
+Se citește numărul natural n și apoi se citesc n numere naturale având fiecare număr impar de cifre. Să se calculeze suma cifrelor din mijlocul numerelor speciale din șirul dat.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere au cel mult nouă cifre
+pentru 30% dintre teste cele n numere au exact trei cifre
+
+Exemplu
+Input: 5
+122 13501 407 212 49974
+Output: 15

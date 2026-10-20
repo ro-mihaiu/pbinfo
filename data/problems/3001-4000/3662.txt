@@ -1,0 +1,12 @@
+#3662
+sumcifnrcif
+
+Cerința
+Se dă un număr natural n . Determinaţi câte cifre are suma cifrelor sale.
+
+Restricții
+1 ≤ n ≤ 1000 000 000 000 000
+
+Exemplu
+Input: 99
+Output: 2

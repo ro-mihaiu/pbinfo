@@ -1,0 +1,13 @@
+#302
+CautaPrim
+
+Cerința
+Se dau n numere naturale cu cel mult două cifre fiecare. Determinaţi cel mai mare număr prim de două cifre care nu apare printre numerele date.
+
+Restricții
+1 ≤ n ≤ 100000
+
+Exemplu
+Input: 8
+3 19 3 65 3 97 14 3
+Output: 89

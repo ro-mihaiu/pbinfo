@@ -1,0 +1,25 @@
+#4137
+rgb
+
+Cerința
+Scrieţi un program care, cunoscând culorile şi puterile extratereştrilor, rezolvă următoarele două cerinţe: 1) determină puterea extraterestrului care câştigă cele mai multe lupte; dacă există mai mulţi astfel de extratereştri, se va afişa puterea minimă; 2) determină pentru fiecare extraterestru numărul de lupte câştigate de acesta.
+
+Restricții
+N = R + G + B , N ≤ 500.000
+1 ≤ R, G, B ≤ N-2
+1 ≤ puterea oricărui extraterestru ≤ 2 • N - 1
+Datorită dimensiunilor mari, unele teste nu au fost adăugate
+
+Exemplu
+Input: 1 1 2 2
+3
+1 7
+5 9
+Output: 7
+Input: 2 1 2 2
+3
+1 7
+5 9
+Output: 1
+0 4
+2 3

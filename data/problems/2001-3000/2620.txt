@@ -1,0 +1,13 @@
+#2620
+FNextNumber
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+long long NextNumber(long long n)
+care primește ca parametru un număr natural nenul n și returnează cel mai mic număr natural, strict mai mare decât n , care are în reprezentarea în baza 2 același număr de biți de 1 ca și n .
+
+Restricții
+Numele funcției va fi NextNumber
+Se garantează că va numărul natural returnat se încadrează în tipul de date long long
+
+Exemplu

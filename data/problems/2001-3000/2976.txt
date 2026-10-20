@@ -1,0 +1,31 @@
+#2976
+maxim7
+
+Cerința
+Cunoscând N , M și cele N cifre din șir, să se determine: 1) cel mai mare număr care se poate obține din primele M dintre cele N cifre date; 2) de unde va lua Ionel M cifre aflate pe poziții consecutive pentru a obține un număr maxim; dacă sunt mai multe poziții corespunzătoare unui număr maxim, alegerea se va face astfel încât numărul format din cifrele rămase, în ordinea în care erau, să fie cât mai mare posibil; dacă și în acest caz există mai multe soluții, se alege poziția maximă.
+
+Restricții
+M , N numere naturale, 1 ≤ N ≤ 500000 , 1 ≤ M ≤ 1000 , M < N
+Cele N valori de pe linia a treia sunt numere naturale între 0 și 9
+Secvența de N cifre poate să înceapă cu cel mult M - 1 cifre nule.
+30 de puncte se vor obține cu rezolvarea cerinței 1 , iar 60 de puncte se vor obține cu rezolvarea cerinței 2 .
+Pentru 50% dintre teste, N < 1000 și M < 10 .
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă pentru exemplele din enunț.
+
+Exemplu
+Input: 1
+10 3
+7 2 8 1 0 0 4 7 8 1
+Output: 872
+Input: 2
+10 3
+7 2 8 1 0 0 4 7 8 1
+Output: 7
+Input: 2
+10 2
+0 7 2 8 4 8 7 1 7 8
+Output: 9
+Input: 2
+10 2
+5 9 6 9 6 8 2 6 6 8
+Output: 4

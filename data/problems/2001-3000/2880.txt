@@ -1,0 +1,20 @@
+#2880
+Gradinita
+
+Cerința
+La grădinița Prichindel sunt copii cuminți și copii obraznici. Moș Crăciun a adus cadouri doar pentru câțiva copii cuminți. Problema este că nu se știe exact care copil e obraznic și care este cuminte. Ajutați-o pe doamna educatoare să afle care copil primește cadou și care nu. Se cunoaște faptul că la grădiniță sunt exact n copii și fiecare copil are inscripționat pe uniformă un număr natural nenul, distinct.
+În prima etapă, sunt scoși din lista Moșului copiii obraznici care sunt cei ce au inscripționate pe uniformă numere prime. În a două etapă, din copiii rămași, sunt scoși și cei care au suma cifrelor de pe pozițiile impare egală cu un număr prim (cifrele se numerotează de la stânga la dreapta, începând cu poziția 1 , corespunzătoare cifrei cea mai semnificative).
+În a treia etapă (ultima), se elimină din lista copiilor cuminți rămași după primele două etape, din k în k până când se ajunge la capătul listei.
+Să se determine copiii care au rămas pe lista copiilor cuminți după toate cele trei etape eliminatorii, sau mesajul Toti copiii sunt obraznici! , dacă toți copiii au fost eliminați.
+
+Restricții
+1 ≤ n ≤ 100000
+1 ≤ x ≤ 100000 (unde x reprezintă numărul inscripționat pe uniforma unui copil)
+
+Exemplu
+Input: 9 4
+3 102 31 333 46 1022 10 4848 21
+Output: 333 46 10
+Input: 8 4 
+3 102 31 334 43 1022 13  21
+Output: Toti copiii sunt obraznici!

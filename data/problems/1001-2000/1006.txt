@@ -1,0 +1,22 @@
+#1006
+PalMunte
+
+Cerința
+Să se afișeze pe ecran, în ordine crescătoare, toate palindromurile de tip munte cu exact 9 cifre.
+Un palindrom este de tip munte dacă cifrele sale sunt în ordine strict crescătoare până la jumătatea numărului.
+
+Exemplu
+Input: 123454321
+123464321
+123474321
+...
+457898754
+467898764
+567898765
+Output: 123454321
+123464321
+123474321
+...
+457898754
+467898764
+567898765

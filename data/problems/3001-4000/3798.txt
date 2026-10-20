@@ -1,0 +1,13 @@
+#3798
+NrMinMaxAp
+
+Cerința
+Scrieți funcția care are antetul:
+int NrMinMaxAp(vector<int> &a)
+Funcția va returna numărul care apare de cele mai multe ori în a . Dacă există mai multe numere care apar de număr maxim de ori, se va returna minimul dintre ele.
+
+Restricții
+a conține cel puțin un element
+Puteți utiliza în rezolvare orice structură de date
+
+Exemplu

@@ -1,0 +1,23 @@
+#853
+Cadouri
+
+Cerința
+Elevii clasei a X-a s-au implicat în strângerea de cadouri pentru Crăciun. Fiecare elev a adus mai multe cadouri, și a trimis prin email șefului clasei o urare, însoțită de lista cadourilor. Fiecare email are forma: urare lista_cadouri urare este un text care nu conţine cifre. Lista cadourilor constă într-o enumerare a cadourilor: numar_cadouri denumire_cadou ( numar_cadouri este un număr natural, iar denumire_cadou este un cuvânt scris cu litere mici ale alfabetului englez; numar_cadouri şi denumire_cadou sunt separate prin cel puţin un spaţiu), cadourile din listă fiind separate prin spaţii şi/sau diverse semne de punctuaţie
+Şeful clasei trebuie să centralizeze listele primite. Ajutaţi-l să construiască o listă a care să conţină denumirea fiecărui cadou şi numărul total de cadouri de acel tip (cantitatea). Lista va fi ordonată descrescător după cantitate.
+
+Restricții
+1 ≤ n ≤ 100
+fiecare linie a fişierului de intrare conţine cel mult 255 caractere
+sunt cel mult 500 de cadouri diferite cu denumirea de cel mult 20 de litere ale afabetului englez
+cantitatea din fiecare cadou este cel mult 100.000
+
+Exemplu
+Input: 3
+La multi ani! 4 papusi, 15 ciocolate , 20 sosete.
+Sarbatori fericite :) ! 3 ciocolate , 10 biscuiti, 5 papusi
+Salut. 2 ciocolate , 1 papusi. 1 ciocolate!
+Output: 4
+ciocolate 21
+sosete 20
+biscuiti 10
+papusi 10

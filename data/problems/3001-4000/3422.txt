@@ -1,0 +1,24 @@
+#3422
+dmink
+
+Cerința
+Se dă un graf orientat cu n vârfuri și m arce prin lista arcelor și un număr natural k . Afișați vârfurile din graf care se află la distanță k față de vârful 1 . Distanța dintre două vârfuri x și y este egală cu k dacă cel mai scurt drum care are ca extremitate inițială pe x și ca extremitate finală pe y are lungimea k sau cel mai scurt drum care are ca extremitate inițială pe y și ca extremitate finală pe x are lungimea k .
+
+Restricții
+1 ≤ k ≤ n ≤ 100
+
+Exemplu
+Input: 8 12 2
+1 3
+3 5
+5 7
+7 1
+2 6
+6 8
+8 2
+1 4
+4 6
+4 8
+4 2
+1 8
+Output: 2 5 6

@@ -1,0 +1,12 @@
+#70
+fmultiplu
+
+Cerința
+Scrieți definiția completă a subprogramului multipli , cu trei parametri a , b , c ( a≤b ), numere naturale, ce returnează numărul multiplilor lui c din intervalul [a;b] .
+
+Restricții
+numele funcției va fi multipli
+funcția va avea 3 parametri, în această ordine: a , b , c .
+1 ≤ a , b , c ≤ 1.000.000.000
+
+Exemplu

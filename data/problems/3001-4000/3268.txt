@@ -1,0 +1,12 @@
+#3268
+cmmdc-cmmmc
+
+Cerința
+Se dau două numere naturale nenule. Determinați cel mai mare divizor comun și cel mai mic multiplu comun al lor.
+
+Restricții
+cele două numere citite vor fi mai mici decât \( 2^{31} \)
+
+Exemplu
+Input: 24 42
+Output: 6 168

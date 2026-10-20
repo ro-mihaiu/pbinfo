@@ -48,7 +48,7 @@ function getProblems() {
       } catch (err) { return null; }
     }).filter((problem) => problem && Number.isInteger(problem.id));
     const byId = new Map(problems.map((problem) => [problem.id, problem]));
-    for (let id = 1; id <= 4776; id += 1) {
+    for (let id = 1; id <= 5040; id += 1) {
       if (!byId.has(id)) byId.set(id, { id, titles: { ro: `Problema ${id}`, en: '' }, difficulty: null, grade: null, tags: [], notes: {}, details: { enunt: '', cerinta: '', date_intrare: '', date_iesire: '', restrictii: '', exemple: [] } });
     }
     return [...byId.values()].sort((a, b) => a.id - b.id);
@@ -70,7 +70,7 @@ function getProblemMeta() {
 
 function getProblemById(id) {
   const idNum = parseInt(id, 10);
-  if (isNaN(idNum) || idNum < 1 || idNum > 4776) return null;
+  if (isNaN(idNum) || idNum < 1 || idNum > 5040) return null;
   return getProblems().find((p) => p.id === idNum) || null;
 }
 

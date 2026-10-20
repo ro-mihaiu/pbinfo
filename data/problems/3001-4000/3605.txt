@@ -1,0 +1,13 @@
+#3605
+descprime
+
+Cerința
+Se dă un număr natural nenul S . Să se determine numărul de moduri de a-l scrie pe S ca sumă de numere prime distincte, precum și o modalitate de a-l scrie pe S ca sumă de cât mai multe numere prime distincte.
+
+Restricții
+1 ≤ S ≤ 100
+
+Exemplu
+Input: 20
+Output: 4
+2 5 13

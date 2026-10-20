@@ -1,0 +1,19 @@
+#3468
+weekend
+
+Cerința
+Fiind dat șirul inițial de observații ale oamenilor care stau la coadă, să se reconstruiască șirul minim lexicografic care poate reprezenta înălțimile acestora.
+
+Restricții
+Se garantează că setul de date este corect și va exista mereu cel puțin o soluție.
+Două sau mai multe persoane NU pot avea aceeași înălțime.
+1 ≤ N ≤ 200.000
+Pentru 40% din teste, N <= 5.000
+
+Exemplu
+Input: 4
+0 1 1 0
+Output: 2
+4
+3
+1

@@ -1,0 +1,13 @@
+#382
+aproapek
+
+Cerința
+Se dau două numere naturale nenule n și k . Să se determine multiplul lui k cel mai apropiat de n .
+
+Restricții
+1 ≤ k ≤ n ≤ 1.000.000
+dacă există mai mulți multipli ai lui k la fel de apropiați de n , se va afișa cel mai mic.
+
+Exemplu
+Input: 18 5
+Output: 20

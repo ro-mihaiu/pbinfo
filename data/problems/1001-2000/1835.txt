@@ -1,0 +1,20 @@
+#1835
+twoop
+
+Cerința
+Dându-se șirul de elemente și operațiile, începand cu cele de tipul 1 , aplicați operațiile pe șir.
+
+Restricții
+1 ≤ N ≤ 100.000 -1.000.000.000 ≤ a[i], val ≤ 1.000.000.000 1 ≤ st ≤ dr ≤ N 1 ≤ poz ≤ N
+
+Exemplu
+Input: 4 4 2
+5 0 -1 2
+1 2 -2
+2 3 10
+1 4 2
+2 3 3
+2
+3
+Output: 13
+14

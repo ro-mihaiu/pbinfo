@@ -1,0 +1,19 @@
+#4266
+MITM
+
+Cerința
+Fie un număr natural s și un șir de n numere naturale nenule. Să se determine suma maximă posibilă, mai mică sau egală cu s ce se poate obține dintr-un subșir al șirului.
+
+Restricții
+3 ≤ n ≤ 40
+1 ≤ s ≤ 2.000.000.000
+Șirul va conține numere naturale nenule mai mici decât 50.000.001 .
+Toate elementele șirului vor fi mici sau egale decât s .
+
+Exemplu
+Input: 5 20
+5 10 6 8 3
+Output: 19
+Input: 5 20
+17 16 10 12 14
+Output: 17

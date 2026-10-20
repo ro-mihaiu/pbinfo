@@ -1,0 +1,12 @@
+#4538
+CifDiferiteRec
+
+Cerința
+Scrieți funcția recursivă CifDiferiteRec care primește ca parametri un numerele naturale n și k și returnează numărul cifrelor lui n care sunt diferite de k .
+
+Restricții
+0 ≤ n ≤ 2.147.000.000
+Numele funcției este CifDiferiteRec .
+Se recomandă utilizarea recursivității în rezolvarea problemei.
+
+Exemplu

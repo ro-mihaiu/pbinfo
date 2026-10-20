@@ -1,0 +1,13 @@
+#3063
+luna
+
+Cerința
+Scrieți un program care citește un număr natural nenul n și care afișează numele lunii calendaristice corespunzătoare numărului n .
+
+Restricții
+1 ≤ n ≤ 12
+numele lunilor se vor scrie cu litere mici
+
+Exemplu
+Input: 3
+Output: martie

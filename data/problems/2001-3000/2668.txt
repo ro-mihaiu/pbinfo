@@ -1,0 +1,17 @@
+#2668
+comun
+
+Cerința
+Să se determine un număr care apare în cele trei șiruri. Dacă există mai multe astfel de numere, să se determine cel mai mic. Dacă nu există un număr comun celor trei șiruri, afișați valoarea -1 .
+
+Restricții
+1 ≤ n ≤ 100.000
+numere din cele trei șiruri vor fi mai mici decât 100.000.000
+cele trei șiruri sunt ordonate crescător
+
+Exemplu
+Input: 5
+3 6 6 8 10
+8 8 8 10 10
+1 1 8 10 30
+Output: 8

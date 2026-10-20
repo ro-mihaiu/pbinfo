@@ -1,0 +1,20 @@
+#1651
+Graf
+
+Cerința
+Se dă lista muchiilor unui graf neorientat ponderat. Să se determine vârful pentru care media aritmetică a ponderilor muchiilor incidente este minimă. Dacă există mai multe vârfuri cu aceeași medie minimă, se va afișa vârful numerotat cu o valoare mai mică.
+
+Restricții
+1 ≤ n ≤ 100
+ponderile muchiilor sunt numere naturale nenule mai mici decât 1000
+graful dat nu conține noduri izolate
+
+Exemplu
+Input: 5 6
+1 2 10
+2 3 2
+2 5 2
+3 5 12
+3 4 1
+4 5 5
+Output: 4

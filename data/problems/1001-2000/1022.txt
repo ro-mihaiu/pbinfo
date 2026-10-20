@@ -1,0 +1,16 @@
+#1022
+Fractii2
+
+Cerința
+Pentru N – număr natural nenul să se determine: a) O modalitate de scriere a numărului 1 ca sumă de exact N fracţii cu numărătorul 1 şi numitorul o putere a lui 2 . b) Numărul de scrieri distincte a numărului 1 ca sumă de exact N fracţii cu numărătorul 1 şi numitorul o putere a lui 2 . Deoarece acest număr poate fi foarte mare acest număr trebuie calculat modulo 100003 .
+
+Restricții
+2 ≤ N ≤ 2000
+Pentru prima cerinţă se acordă 20% din punctaj.
+Pentru a doua cerinţă de acordă 80% din punctaj.
+Rezultatul pentru a doua cerinţă trebuie afişat modulo 100003
+
+Exemplu
+Input: 2 
+4
+Output: 2

@@ -1,0 +1,14 @@
+#460
+timp
+
+Cerința
+Se dau 2 numere naturale h m , reprezentând un ora curentă exprimată în ore şi minute. Să se determine care va fi ora peste x minute.
+
+Restricții
+0 ≤ h1, h2 ≤ 23
+0 ≤ m1, m2 ≤ 59
+0 ≤ x ≤ 10000
+
+Exemplu
+Input: 7 11 90
+Output: 8 41

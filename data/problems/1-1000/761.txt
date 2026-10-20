@@ -1,0 +1,13 @@
+#761
+Inaltime1
+
+Cerința
+Se consideră un arbore binar în care nodurile memorează numere naturale nenule. Să se determine înălțimea arborelui.
+Înălțimea unui arbore este egală cu numărul de noduri de pe cel mai lung lanț elementar care unește rădăcina cu un nod terminal.
+
+Restricții
+se recomandă folosirea arborilor alocați dinamic.
+
+Exemplu
+Input: 67 51 18 0 0 24 0 0 48 0 11 0 0
+Output: 3

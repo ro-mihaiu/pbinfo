@@ -1,0 +1,21 @@
+#566
+mese
+
+Cerința
+Gigel este patronul unui fast-food destul de cunoscut. Restaurantul are formă dreptunghiulară, și conține mai multe mese de formă de asemenea dreptunghiulară dar de dimensiuni neregulate. Gigel vă pune la dispoziție planul restaurantului, sub forma unei matrice cu n linii și m coloane, în care elementele care corespund unor spații libere sunt egale cu 0 , iar elementele care fac parte din mese sunt egale cu 1 . Mai precis, mesele sunt zone dreptunghiulare maximale din matrice care au toate elementele 1 .
+Rugămintea lui Gigel este să aflați câte mese sunt în local și care este suprafața maximă unei mese.
+
+Restricții
+1 ≤ n, m ≤ 250
+mesele nu au laturi comune
+nici o masă nu va conține spații libere
+suprafața unei mese este egală cu numărul de elemente din matrice din care este alcătuită
+
+Exemplu
+Input: 5 6
+0 0 1 1 1 0
+0 0 1 1 1 0
+1 0 0 0 0 1
+1 0 1 1 0 1
+1 0 1 1 0 0
+Output: 4 6

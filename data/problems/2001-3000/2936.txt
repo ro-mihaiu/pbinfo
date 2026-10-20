@@ -1,0 +1,21 @@
+#2936
+Amprenta
+
+Cerința
+Pentru orice număr natural N se asociază o cifră din mulțimea {0,1,2,3,4,5} , numită amprentă, astfel: se calculează diferența pozitivă a sumelor cifrelor de pe pozițiile pare, respectiv impare; dacă această diferență este mai mică decât 10 atunci algoritmul se oprește, în caz contrar algoritmul se aplică în continuare, repetat, asupra diferenței pozitive, până când se va obține o cifră mai mică decât 10 , iar dacă cifra este mai mare decât 5 , atunci cifrele 6,7,8,9 se vor înlocui respectiv cu 5,4,3,2 . De exemplu pentru numărul N = 90 amprenta este 2 , iar pentru N = 91909091 amprenta este 1 .
+1) Se dă un număr natural N şi se cere determinarea amprentei acestuia. 2) Se dau două numere naturale P, Q şi o cifră C din {0,1,2,3,4,5} şi se cere determinarea numărului de valori dintre P şi Q , inclusiv, care au amprenta egală cu C .
+
+Restricții
+0 ≤ N ≤ 10^18
+0 ≤ P ≤ 10^18
+0 ≤ Q ≤ 10^18
+Pentru 30% din teste diferența pozitivă dintre P și Q va fi mai mică decât 10.000
+Pentru alte 20% din teste diferența pozitivă dintre P și Q va fi mai mică decât 100.000
+
+Exemplu
+Input: 1
+29
+Output: 4
+Input: 2
+1 9 2
+Output: 2

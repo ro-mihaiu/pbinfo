@@ -1,0 +1,12 @@
+#1126
+Betisoare
+
+Cerința
+Scrieţi un program care evaluează astfel de expresii.
+
+Restricții
+1 ≤ n ≤ 10
+O expresie poate avea cel puţin 1 caracter şi cel mult 1.000.010 de caractere.
+Valorile calculate pe parcurs şi valoarea finală au maximum 18 cifre. Dintre teste, 26% conţin numai operaţii de adunare, 22% numai operaţii de înmulţire, iar restul de 52% conţin ambele operaţii.
+
+Exemplu

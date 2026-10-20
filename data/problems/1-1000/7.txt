@@ -1,0 +1,12 @@
+#7
+maxim2
+
+Cerința
+Calculaţi maximul celor 2 numere date.
+
+Restricții
+valoare absolută a numerelor din fişierul de intrare va fi mai mică decât 1.000.000.000
+
+Exemplu
+Input: 125 68
+Output: 125

@@ -1,0 +1,14 @@
+#3278
+AproapePrime
+
+Cerința
+Dat un număr natural N , să se determine al N -lea număr aproape prim.
+
+Restricții
+1 ≤ N ≤ 23.378
+
+Exemplu
+Input: 4
+Output: 10
+Input: 300
+Output: 1003

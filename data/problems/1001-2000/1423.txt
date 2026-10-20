@@ -1,0 +1,17 @@
+#1423
+VocaleVector
+
+Cerința
+Se citesc de la tastatura n elemente ale unui vector alcatuit exclusiv din litere mici ale alfabetului englez. Rearanjati vectorul astfel incat vocalele sa fie plasate pe primele pozitii. Vocalele (si consoanele) isi vor pastra ordinea initiala, de la stanga la dreapta.
+
+Restricții
+1 ≤ n ≤ 4000
+Codurile ASCII ale vocalelor sunt: a: 97 e: 101 i: 105 o: 111 u: 117
+
+Exemplu
+Input: 12
+b a e d x y p i m f i c
+Output: a e i i b d x y p m f c
+Input: 5
+h t a k e
+Output: a e h t k

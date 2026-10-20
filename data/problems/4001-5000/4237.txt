@@ -1,0 +1,16 @@
+#4237
+araci
+
+Cerința
+Să se determine lungimea maximă L pe care o poate obține pentru cel puțin A araci tăind bambușii.
+
+Restricții
+3 ≤ n ≤ 100.000
+1 ≤ d i ≤ 30.000
+d 1 , d 2 , …, d n , L și A sunt numere naturale nenule.
+Este garantat că se pot obține araci de lungime cel puțin 1 .
+
+Exemplu
+Input: 5 7
+10 12 4 2 16
+Output: 5

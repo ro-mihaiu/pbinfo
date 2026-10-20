@@ -1,0 +1,15 @@
+#3358
+gama
+
+Cerința
+Se dă o permutare a mulțimii {1, 2, ..., n} adică un șir cu n numere distincte cuprinse între 1 și n . Se mai dă și o valoare k . Fiind permise maximum k interschimbări de elemente aflate pe poziții consecutive, se cere determinarea permutării minime din punct de vedere lexicografic.
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ k ≤ n•(n-1)/2
+Rezultatul comparării lexicografice a două șiruri de numere este dat de rezultatul comparării elementelor aflate pe cea mai mică poziție unde nu sunt valori egale.
+
+Exemplu
+Input: 4 2
+3 2 1 4
+Output: 1 3 2 4

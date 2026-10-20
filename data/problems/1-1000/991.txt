@@ -1,0 +1,23 @@
+#991
+matrice5
+
+Cerința
+Se dă o matrice pătratică cu n linii și n coloane, numerotate de la 1 la n și elemente numere naturale. Să se determine suma elementelor aflate strict deasupra diagonalei secundare a matricei.
+Se va defini și folosi subprogramul sub , cu 3 parametri:
+n – dimensiunea matricei
+x – matricea
+k – un număr natural, 1 < k ≤ 2*n
+care va returna suma tuturor elementelor a ij din matrice pentru care i + j = k .
+
+Restricții
+1 ≤ n ≤ 100
+elementele matricei sunt numere naturale mai mici decât 1000
+liniile matricei sunt numerotate de la 1 la n .
+
+Exemplu
+Input: 4 
+1 6 3 1
+6 1 3 1
+1 3 1 6
+3 1 6 1
+Output: 18

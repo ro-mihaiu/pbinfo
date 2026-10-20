@@ -1,0 +1,15 @@
+#1921
+Ceas
+
+Cerința
+Săturat de ținut uși, Hodor s-a hotărât să devină ceasornicar. Maestrul ceasornicar îi spune lui Hodor că îl va învăța, doar dacă va trece un test. Maestrul îi da lui Hodor un sistem de coordonate xOy , și un ceas cu raza r , al cărui centru se află în centrul sistemului de coordonate O(0,0) . Ceasul contine doar limba care indica orele, de lungime r . Inițial limba indică ora 12:00 , cu vârful în punctul de coordonate A(0,r) . Hodor trebuie să afle coordonatele vârfului limbii, după h ore și m minute.
+
+Restricții
+1 ≤ r ≤ 100
+0 ≤ h ≤ 11
+0 ≤ m ≤ 59
+coordonatele vor fi punctate dacă diferența dintre cele afișate de program și cele corecte este mai mică decât 0.01 .
+
+Exemplu
+Input: 33 6 0
+Output: 0.000 -33.000

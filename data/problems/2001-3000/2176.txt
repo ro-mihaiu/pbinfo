@@ -1,0 +1,14 @@
+#2176
+Ruleta
+
+Cerința
+Scrieţi un program care să determine, pentru un şir de n numere naturale care indică starea iniţială a ruletei, numărul r de rotaţii complete efectuate respectând regulile jocului până la încheierea acestuia şi numărul t al elementelor nenule aflate în şir la încheierea jocului.
+
+Restricții
+2 ≤ n ≤ 10000 ;
+numerele de pe ruletă sunt numere naturale mai mici sau cel mult egale cu 30000 ;
+
+Exemplu
+Input: 8
+1 2 3 4 3 2 3 1
+Output: 4 3

@@ -1,0 +1,12 @@
+#465
+OglPP
+
+Cerința
+Se dau 2 numere naturale a b , a < b . Determinați câte numere din intervalul [a,b] sunt pătrate perfecte și au proprietatea că oglinditul lor este pătrat perfect.
+
+Restricții
+1 ≤ a < b ≤ 1.000.000.000
+
+Exemplu
+Input: 100 500
+Output: 7

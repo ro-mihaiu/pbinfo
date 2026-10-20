@@ -1,0 +1,40 @@
+#1492
+Bunicul
+
+Cerința
+Cunoscând dimensiunea memoriei M , numărul de zone ocupate N , numărul R de variabile declarate, cele N intervalele de memorie ocupate, precum și spațiul ocupat de fiecare din cele R variabile, să se determine:
+a) Dimensiunea totală disponibilă pentru variabilele folosite. b) Adresele de memorie pentru fiecare variabilă în parte în cazul în care alocarea memoriei este posibilă, respectând cerința problemei, sau numărul de variabile ce au putut fi alocate și adresa maximă la care este salvată o variabilă de memorie.
+
+Restricții
+1 ≤ M ≤ 2.000.000.000 , 1 ≤ N ≤ 10.000 , 1 ≤ R ≤ 10.000
+Variabilele ocupă cel mult 1000 bytes.
+Prima adresă la care pot fi încărcate datele este 0 .
+Toate variabilele sunt declarate în așa fel încât să nu depășească memoria disponibilă.
+Intervalele de memorie ocupată nu sunt date obligatoriu în ordinea adreselor lor.
+Intervalele ale memorie ocupată nu se suprapun.
+Dimensiunea M a memoriei este exprimată în bytes. Dimensiunile variabilelor sunt exprimate de asemenea în bytes. Toate aceste valori sunt numere naturale.
+Pentru rezolvarea corectă a primei cerințe, se acordă 20% din punctaj, iar pentru rezolvarea corectă a celei de-a doua cerințe, se acordă 80% din punctaj.
+
+Exemplu
+Input: 1300 9 7
+46 100
+130 180
+200 300
+349 450
+501 607
+670 750
+800 802
+900 902
+1010 1050
+30 20 50 35 60 100 100
+Output: 757
+0 29 101 120 451 500 608 642 803 862 903 1002 1051 1150
+Input: 500 5 4
+461 480
+101 200
+11 80
+280 399
+411 450
+70 20 50 100
+Output: 151
+2 500

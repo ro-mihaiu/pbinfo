@@ -1,0 +1,14 @@
+#3273
+cmmdcsecv
+
+Cerința
+Să se determine o secvență de lungime maximă din șir cu proprietatea că cel mai mare divizor comun al numerelor din secvență este strict mai mare decât 1 .
+
+Restricții
+3 ≤ n ≤ 100.000
+1 ≤ a i ≤ 1000 , pentru orice 1 ≤ i ≤ n
+
+Exemplu
+Input: 6
+15 28 14 56 42 5
+Output: 4

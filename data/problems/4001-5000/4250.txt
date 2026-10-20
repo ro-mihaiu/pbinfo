@@ -1,0 +1,20 @@
+#4250
+Inlocuire_10
+
+Cerința
+Se dă un tablou cu n elemente, numere naturale mai mari decât 1 . Să se înlocuiască fiecare element din tablou cu produsul dintre suma divizorilor săi și numărul său de divizori și apoi să afișeze elementele tabloului de la dreapta la stânga.
+Se vor defini și apela următoarele subprograme:
+citire , care citește de la tastatură valoarea lui n și cele n elemente ale tabloului
+afisare , care afișează pe ecran elementele tabloului printr-o parcurgere de la dreapta la stânga, separate prin exact un spațiu
+suma_div , care determină suma divizorilor unui număr dat
+nr_div , care determină numărul divizorilor unui număr dat
+În programele C/C++ nu se vor folosi variabile globale .
+
+Restricții
+1 ≤ n ≤ 1000
+elementele tabloului vor fi mai mici decât 10.000
+
+Exemplu
+Input: 7
+7 18 18 5 14 20 4
+Output: 21 252 96 12 234 234 16

@@ -1,0 +1,14 @@
+#640
+NrFii
+
+Cerința
+Se dă vectorul de tați al unui arbore cu rădăcină cu n noduri. Determinați nodul din arbore cu număr maxim de fii. Dacă în arbore sunt mai multe noduri cu număr maxim de fii, afișați-le pe toate, în ordine crescătoare.
+
+Restricții
+1 ≤ n ≤ 100
+în vectorul de tați rădăcina este marcată cu 0
+
+Exemplu
+Input: 7
+4 1 7 0 7 7 1
+Output: 7

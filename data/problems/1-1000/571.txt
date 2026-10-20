@@ -1,0 +1,20 @@
+#571
+sah
+
+Cerința
+O tablă de șah generalizată de tip n m k este o matrice cu n linii (numerotate de la 1 la n ) și m coloane (numerotate de la 1 la m ) cu elemente 0 și 1 grupate în pătrate alternante de dimensiune k , pătratul din care face parte elementul (1 1) fiind format din 0 .
+Construiți o tablă de șah generalizată de tip n m k .
+
+Restricții
+1 ≤ n, m ≤ 1000
+1 ≤ k ≤ min(n,m)
+k este divizor pentru n și pentru m
+
+Exemplu
+Input: 6 8 2
+Output: 00110011
+00110011
+11001100
+11001100
+00110011
+00110011

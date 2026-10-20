@@ -1,0 +1,16 @@
+#3124
+patratmagic0
+
+Cerința
+Se dă un număr natural n , urmat de o matrice pătratică cu n * n elemente, numere naturale. Să se verifice dacă matricea dată este un pătrat magic.
+
+Restricții
+3 ≤ n ≤ 500
+cele n numere citite vor fi mai mici sau egale decât 250.000
+
+Exemplu
+Input: 3
+4 9 2 
+3 5 7 
+8 1 6
+Output: true

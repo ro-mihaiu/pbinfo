@@ -1,0 +1,19 @@
+#1133
+Charlie
+
+Cerința
+Fiind dat un șir de caractere să se determine:
+a) Lungimea maximă a unei secvențe de litere alternante, adică o secvență pentru care literele aflate pe poziții consecutive sunt de forma: L i > L i+1 < L i+2 > L i+3 < L i+4 > … < L j . b) Suma maximă pe care o poate obține Charlie aplicând în mod repetat procedeul de eliminare a literelor, precum și șirul obținut în final.
+
+Restricții
+3 ≤ numărul de litere ale șirului inițial ≤ 100000
+Pentru rezolvarea corectă a primei cerinţe se acordă 25 de puncte, iar pentru cerința a doua se acordă 75 de puncte. Pentru 30% dintre teste numărul de litere ale șirului ≤ 1000
+
+Exemplu
+Input: 1
+cadgfacbda
+Output: 5
+Input: 2
+cbcabadbac
+Output: ccdc
+21

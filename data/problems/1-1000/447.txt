@@ -1,0 +1,12 @@
+#447
+cifmid
+
+Cerința
+Se citește de la tastatură un număr natural de 3 cifre, distincte. Să se afișeze pe ecran cifra din mijloc, ca valoare.
+
+Restricții
+Numărul citit de la tastatură este natural, de 3 cifre
+
+Exemplu
+Input: 397
+Output: 7

@@ -1,0 +1,43 @@
+#4133
+microbuz
+
+Cerința
+Scrieţi un program care să rezolve următoarele cerințe:
+determină preţul minim al unui set de bilete ce poate fi achiziționat pentru parcurgerea a exact N kilometri;
+determină distanţele alese de Gigel, astfel încât preţul total al călătoriei să fie minim;
+determină două seturi distincte de bilete pentru care prețul total al biletelor este același și este cel mai mare posibil. Pentru fiecare set nu este permisă alegerea mai multor bilete cu același preț și nu există două bilete cu același preț în ambele seturi.
+
+Restricții
+C ∈ {1, 2, 3}
+1 ≤ N ≤ 165
+cele 10 prețuri sunt numere naturale din intervalul [10, 99]
+răspunsul la cerința 3 nu depinde de valoarea lui N
+Pentru 28 de puncte, C = 1
+Pentru 38 de puncte, C = 2
+Pentru 34 de puncte, C = 3
+
+Exemplu
+Input: 1
+11 14 18 23 29 36 44 45 53 64
+15
+Output: 86
+Input: 2
+11 14 18 23 29 36 44 45 53 64
+15
+Output: 3 18
+4 23
+8 45
+Input: 2
+13 17 18 19 21 22 25 28 31 37
+39
+Output: 7 25
+7 25
+8 28
+8 28
+9 31
+Input: 3
+11 14 18 23 29 36 44 45 53 64
+15
+Output: 163
+2 3 4 7 10 
+5 6 8 9

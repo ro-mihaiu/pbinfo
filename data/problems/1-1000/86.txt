@@ -1,0 +1,14 @@
+#86
+halfsort
+
+Cerința
+Să se ordoneze crescător elementele din prima jumătate a vectorului și descrescător elementele din a doua jumătate.
+
+Restricții
+1 ≤ n ≤ 100 , n număr par
+valoarea absolută a numerelor de pe a doua linie a fişierului de intrare va fi mai mică decât 1.000.000.000
+
+Exemplu
+Input: 6
+8 2 9 4 5 7
+Output: 2 8 9 7 5 4

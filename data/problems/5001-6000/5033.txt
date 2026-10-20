@@ -1,0 +1,12 @@
+#5033
+depozit
+
+Cerința
+Subprogramul depozit are trei parametri, x, y și z, prin care primește trei numere naturale din intervalul [10, 100], reprezentând lățimile celor trei polițe, exprimate în centimetri. Subprogramul returnează un număr natural, reprezentând lungimea minimă, exprimată în centimetri, a unei polițe a raftului echilibrat. Scrieți definiția completă a subprogramului C/C++.
+
+Restricții
+10 ≤ x, y, z ≤ 100
+
+Exemplu
+Input: 40 20 30
+Output: 120

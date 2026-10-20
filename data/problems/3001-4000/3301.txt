@@ -1,0 +1,15 @@
+#3301
+nrdiv9
+
+Cerința
+Se dă un număr natural n . Să se scrie un program care determină și afișează pe ecran numărul de numere mai mici sau egale cu n care au exact 9 divizori.
+
+Restricții
+1 ≤ n ≤ 1.000.000.000 ;
+dacă nu există numere mai mici sau egale cu n care au exact 9 divizori se va afișa valoarea 0 .
+
+Exemplu
+Input: 100
+Output: 2
+Input: 1000
+Output: 8

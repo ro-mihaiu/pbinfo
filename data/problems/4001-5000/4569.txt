@@ -1,0 +1,15 @@
+#4569
+Veverita_XI
+
+Cerința
+Aflați numărul M de modalități în care se poate deplasa veverița, respectând regulile de mai sus.
+
+Restricții
+1 ≤ n ≤ 50
+1 ≤ k ≤ 26
+
+Exemplu
+Input: 3 3
+Output: 6
+Input: 3 4
+Output: 10

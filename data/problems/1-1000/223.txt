@@ -1,0 +1,17 @@
+#223
+MinCols1
+
+Cerința
+Să se determine ultima cifră a produsului elementelor de pe diagonala secundară cu proprietatea că sunt minime pe coloanele lor.
+
+Restricții
+2 ≤ n ≤ 30
+dacă în matrice nu există asemenea elemente, se va afișa mesajul NU EXISTA
+
+Exemplu
+Input: 4
+3 4 90 10
+25 2 7 9
+18 3 10 4
+3 7 20 3
+Output: 1

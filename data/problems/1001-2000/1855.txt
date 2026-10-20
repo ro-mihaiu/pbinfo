@@ -1,0 +1,8 @@
+#1855
+heap
+
+Cerința
+Se consideră o colecție de numere naturale, inițial vidă. Asupra ei se fac două tipuri de operații: 1 x – valoarea x se adaugă în colecție; 2 – cea mai mare valoare din colecție se afișează, apoi se elimină din colecție. Dându-se un șir de m operații, să se afișeze în ordine rezultatele operațiilor de tip 2 .
+
+Restricții
+și precizări 1 ≤ m ≤ 250.000 1 ≤ x ≤ 1.000.000.000

@@ -1,0 +1,13 @@
+#4270
+FConcat
+
+Cerința
+Scrieți funcția cu următorul antet:
+void FConcat(char s[], char d[])
+Funcția primește ca parametri două șiruri de caractere și adaugă caracterele din d la sfârșitul lui s .
+
+Restricții
+Este garantat că vor încăpea în s toate caracterele din d .
+Nu puteți utiliza funcțiile pentru șirurile de caractere din biblioteca cstring
+
+Exemplu

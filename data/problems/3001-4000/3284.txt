@@ -1,0 +1,14 @@
+#3284
+calcparimpar
+
+Cerința
+Se dau n numere naturale. Considerăm poziţiile lor numerotate de la 1 la n . Să se determine cea mai mare valoare memorată pe o poziţie pară şi cea mai mică valoare de două cifre aflată pe o poziţie impară.
+
+Restricții
+2 ≤ n ≤ 20
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+1 3 3 4 8
+Output: 4 -1

@@ -1,0 +1,18 @@
+#4518
+HarapAlb2
+
+Cerința
+Scrieți un program care citește de la tastatură două numere naturale N r (unde r poate fi doar 1 sau 2 ) și afișează pe ecran valoarea lui N , rotunjită la zeci, dacă r = 1 , sau rotunjită la sute, dacă r = 2 .
+Rotunjirea la zeci se face în felul următor: dacă ultima cifră a numărului este mai mică decât 5 , aceasta devine zero; în caz contrar devine zero și penultima cifră se mărește. De exemplu, 20 23 24 se rotunjesc la 20 , iar 6275 6278 6279 se rotunjesc la 6280 , iar 4197 se rotunjește la 4200 .
+Similar se face și rotunjirea la sute. De exemplu, 520 523 524 se rotunjesc la 500 , iar 1750 1782 1799 se rotunjesc la 1800 , iar 1970 se rotunjește la 2000 .
+
+Restricții
+0 ≤ N ≤ 1.000.000.000
+1 ≤ r ≤ 2
+deoarece în UE este interzisă vânarea urșilor, blana trebuie să fi fost ecologică…
+
+Exemplu
+Input: 2015 1
+Output: 2020
+Input: 2015 2
+Output: 2000

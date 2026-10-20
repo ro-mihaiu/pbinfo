@@ -1,0 +1,14 @@
+#1656
+UnuZero
+
+Cerința
+Scrieţi un program care să determine un număr natural K , egal cu restul împărţirii la 666013 a numărului de şiruri distincte, de tipul celui construit de Corina.
+
+Restricții
+1 ≤ p ≤ q < N < 1.000.000
+Pentru 20% din teste N ≤ 25 , iar pentru alte 40% din teste 25 < N ≤ 1000 .
+
+Exemplu
+Input: 5
+2 3
+Output: 8

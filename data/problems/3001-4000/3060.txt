@@ -1,0 +1,13 @@
+#3060
+melc
+
+Cerința
+Un melc se deplasează cu viteza de v km/h . El trebuie să parcurgă distanța de d metri . Să se determine în câte minute va parcurge melcul această distanță.
+
+Restricții
+v este număr real;
+0 < d < 1.000.000.000
+
+Exemplu
+Input: 0.3 20
+Output: 4

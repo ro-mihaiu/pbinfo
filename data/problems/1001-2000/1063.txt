@@ -1,0 +1,15 @@
+#1063
+Arme
+
+Cerința
+Scrieţi un program care să determine suma maximă a puterilor armelor pe care le va avea la brâu Vasile după efectuarea înlocuirilor.
+
+Restricții
+1 ≤ N, M ≤ 1000
+Puterile armelor sunt numere naturale ≤ 10.000 .
+
+Exemplu
+Input: 3 2
+3 1 7
+4 5
+Output: 16

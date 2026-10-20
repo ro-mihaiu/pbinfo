@@ -1,0 +1,27 @@
+#4443
+biom
+
+Cerința
+Începând de la cubul 1 , Steve dorește să ajungă la cubul N cu cost minim, așa că vă roagă pe voi să aflați care este acest cost.
+
+Restricții
+1 ≤ N ≤ 1.000.000
+0 ≤ A, B, C, D ≤ 1.000.000.000
+Pentru 12 puncte, N ≤ 10
+Pentru 8 puncte, pentru orice i < j < k , dacă S[i] = S[k] , atunci S[i] = S[j]
+Pentru 11 puncte, B = D = 1.000.000.000 , iar A, C ≤ 1000
+Pentru 19 puncte, A = 1 , iar fiecare dintre B , C și D poate să fie 1 sau 1.000.000.000
+Pentru 10 puncte, A ≤ 1 , iar fiecare dintre B , C și D poate să fie 0 , 1 sau 1.000.000.000
+Pentru 11 puncte, N <= 500
+Pentru 8 puncte, N ≤ 100.000
+Pentru 21 puncte, restricții inițiale.
+
+Exemplu
+Input: 6
+3 5 4 2
+abccbc
+Output: 10
+Input: 15
+1 2 3 4
+abccabcbacbabcb
+Output: 11

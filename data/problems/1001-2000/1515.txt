@@ -1,0 +1,25 @@
+#1515
+gradina
+
+Cerința
+Cunoscând dimensiunile livezii și grădinii, numărul pomilor din livadă și poziția fiecăruia, determinați numărul maxim de pomi dintr-o grădină pătrată de latură K și numărul modurilor în care poate fi amplasată grădina cu numărul maxim de pomi.
+
+Restricții
+2 ≤ N ≤ 1000
+1 ≤ P ≤ N*N
+1 ≤ K ≤ N
+
+Exemplu
+Input: 12 10 5 
+4 3 
+5 5 
+6 8 
+7 3 
+7 7 
+8 8 
+9 3 
+9 6 
+10 10 
+11 5
+Output: 5
+5

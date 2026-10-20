@@ -1,0 +1,12 @@
+#754
+Inordine1
+
+Cerința
+Se consideră un arbore binar în care nodurile memorează numere naturale nenule. Să se afișeze valorile memorate în arbore în urma parcurgerii în inordine.
+
+Restricții
+se recomandă folosirea arborilor alocați dinamic.
+
+Exemplu
+Input: 67 51 18 0 0 24 0 0 48 0 11 0 0
+Output: 18 51 24 67 48 11

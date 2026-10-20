@@ -1,0 +1,14 @@
+#4517
+treiDiv
+
+Cerința
+Se dau n numere naturale. Să se determine câte dintre ele au exact trei divizori.
+
+Restricții
+2 ≤ n ≤ 10
+cele n numere citite vor fi mai mici decât 10 12
+
+Exemplu
+Input: 5
+15 9 44 121 100
+Output: 2

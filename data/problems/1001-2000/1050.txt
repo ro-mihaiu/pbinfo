@@ -1,0 +1,21 @@
+#1050
+TCIF
+
+Cerința
+Să se determine numărul natural minim, strict mai mare decât N , care are exact A cifre c1 , B cifre c2 , C cifre c3 şi nu conţine alte cifre.
+
+Restricții
+N va avea cel puţin o cifră şi cel mult 1000 de cifre.
+Pentru 10% dintre teste, N ≤ 30 000
+Pentru alte 40% dintre teste, N va avea cel mult 14 cifre
+0 ≤ c1, c2, c3 ≤ 9 ; c1 , c2 şi c3 sunt distincte două câte două
+1 ≤ A , 1 ≤ B , 1 ≤ C , A+B+C ≤ 1000
+Datele de intrare sunt alese astfel încât va exista o soluţie.
+
+Exemplu
+Input: 2 2 2 3 2 4
+293187
+Output: 322344
+Input: 2 3 1 1 0 6
+44589
+Output: 100016

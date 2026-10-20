@@ -1,0 +1,12 @@
+#1319
+descompunere_factori
+
+Cerința
+Se citeşte un număr natural n . Să se determine descompunerea în factori primi a lui n .
+
+Restricții
+2 ≤ n ≤ 2.000.000.000
+
+Exemplu
+Input: 1100
+Output: 2 2 5 5 11

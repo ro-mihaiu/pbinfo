@@ -1,0 +1,21 @@
+#2935
+Robot5
+
+Cerința
+Pe un cerc se află N poziții, consecutiv așezate și notate cu 1,2,3,...,N . Distanțele între oricare două poziții vecine sunt egale cu un pas. Un robot se află inițial la poziția 1 . În una dintre poziții se află un depozit cu cantitatea X de energie, de la care robotul se poate alimenta. Robotul se poate deplasa pe cerc numai în sensul acelor de ceas. Robotul poate păstra o cantitate maximă W de energie, iar inițial este alimentat la capacitate maximă. Pentru fiecare pas robotul cheltuiește o unitate de energie.
+1) Precizându-se numărul de poziții N , energia inițială a robotului W , poziția P a depozitului și cantitatea X de energie existentă inițial în depozit, se cere să se precizeze numărul de pași pe care îi poate efectua robotul. 2) Precizându-se numărul de poziții N , energia inițială a robotului W și cantitatea X de energie existentă inițial în depozit, se vor determina și afișa numărul maxim de pași pe care îi poate efectua robotul și cea mai mică poziție, convenabil aleasă, unde se poate instala depozitul pentru obținerea numărului maxim de pași.
+
+Restricții
+Când ajunge la depozit robotul se alimentează cu maximul de energie posibil, iar cantitatea de energie din depozit scade corespunzător.
+2 ≤ N ≤ 10.000
+1 ≤ W ≤ 1.000.000.000
+1 ≤ X ≤ 1.000.000.000
+1 ≤ P ≤ N
+
+Exemplu
+Input: 1
+6 3 3 3
+Output: 5
+Input: 2
+6 3 3
+Output: 6 4

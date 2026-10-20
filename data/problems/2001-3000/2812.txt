@@ -1,0 +1,14 @@
+#2812
+Progresie3
+
+Cerința
+Un șir de numere este o progresie aritmetică de rație r dacă oricare termen al său, cu excepția primului, se obține din cel care îl precede, prin adunarea la acesta a numărului r . Exemplu : șirul 12, 14, 16, 18, 20 este o progresie de rație 2 .
+Se dă un șir de cel mult 10 6 numere naturale din intervalul [0,10 3 ] . Se cere să se verifice dacă există un număr natural r , astfel încât toate numerele distincte din șir să poată fi rearanjate, pentru a forma o progresie aritmetică de rație r . Se afișează numărul r , sau mesajul NU , dacă nu există un astfel de număr.
+
+Restricții
+în șirul dat există cel puțin două valori distincte
+proiectați un algoritm eficient din punctul de vedere al timpului de executare.
+
+Exemplu
+Input: 180 30 80 280 130 330 230 30 30 330 80
+Output: 50

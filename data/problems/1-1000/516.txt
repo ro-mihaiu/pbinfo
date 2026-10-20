@@ -1,0 +1,15 @@
+#516
+sumsec1
+
+Cerința
+Se dă un vector format din n elemente, numere naturale. Calculați suma elementelor din secvența determinată de primul și ultimul element impar.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele vectorului vor fi mai mici decât 1.000.000
+vectorul va conţine cel puțin un element impar
+
+Exemplu
+Input: 8
+12 10 15 6 7 10 19 14
+Output: 57

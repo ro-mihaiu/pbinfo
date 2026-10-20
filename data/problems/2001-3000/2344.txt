@@ -1,0 +1,22 @@
+#2344
+dvorak
+
+Cerința
+Cunoscându-se permutarea dată, parola lui R. precum și o succesiune de Q operații de tipul 1 sau 2 , găsiți răspunsurile la întrebările toate lui H.
+
+Restricții
+• 1 ≤ Q ≤ 500 • Fiecare al i -lea element al permutării date reprezintă litera în care se transformă cel de-al i -lea caracter din alfabetul englez într-o transformare dvorak • Se garantează că fiecare literă din permutarea dată apare o singură dată, iar permutarea are fix 26 de caractere • Parola este un șir de cel mult 500 de litere mici ale alfabetului englez. • Pozițiile caracterelor din parolă sunt numerotate incepând de la 1 • 1 ≤ S i ≤ D i ≤ lungimea parolei • Intervalele [S i , D i ] corespunzătoare operației 1 se pot suprapune • Șirul SIR pentru operația 2 are cel mult 500 de caractere
+
+Exemplu
+Input: 6
+ifynmlbkpduogahqzsjxcervwt
+olimpiadadeinformatica
+1 1 6
+2 info
+2 olimpiada
+1 8 15
+1 9 14
+2 olimpiadadeinformaticaecool5
+Output: Da
+Nu
+Nu

@@ -1,0 +1,12 @@
+#137
+afisarelitere
+
+Cerința
+Să se scrie un program care citește un șir de caractere și afișează o singură dată literele mici din șir în ordinea în care apar în șir.
+
+Restricții
+șirul va conține cel puțin o literă mică
+
+Exemplu
+Input: Ana are mere
+Output: n a r e m

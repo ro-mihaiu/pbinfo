@@ -1,0 +1,12 @@
+#753
+Preordine1
+
+Cerința
+Se consideră un arbore binar în care nodurile memorează numere naturale nenule. Să se afișeze valorile memorate în subarborele stâng al rădăcinii în urma parcurgerii în preordine.
+
+Restricții
+se recomandă folosirea arborilor alocați dinamic.
+
+Exemplu
+Input: 67 51 18 0 0 24 0 0 48 0 11 0 0
+Output: 51 18 24

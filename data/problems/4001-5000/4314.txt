@@ -1,0 +1,12 @@
+#4314
+Cifre16
+
+Cerința
+Să se scrie un program care citește un număr natural și determină câte cifre ale numărului sunt mai mici decât prima sa cifră.
+
+Restricții
+numărul citit va fi mai mic decât 2.000.000.000
+
+Exemplu
+Input: 32615
+Output: 2

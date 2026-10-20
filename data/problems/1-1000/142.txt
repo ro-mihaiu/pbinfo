@@ -1,0 +1,16 @@
+#142
+n3579
+
+Cerința
+Cunoscând numărul natural n , să se tipărească şirul de operaţii prin care se poate ajunge de la numărul iniţial 1 la numărul final n .
+
+Restricții
+1 < n <= 2 000 000 000 ;
+Pot exista mai multe soluţii, se acceptă oricare, dacă se încadrează în timpul de execuţie;
+Nu este obligatorie folosirea tuturor tipurilor de operaţii.
+
+Exemplu
+Input: 13
+Output: 7 3 3 9 5
+Input: 11
+Output: 5 5

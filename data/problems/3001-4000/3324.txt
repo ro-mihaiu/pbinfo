@@ -1,0 +1,20 @@
+#3324
+eratostene0
+
+Cerința
+Vi se dau n perechi de numere naturale (i, j) , cu i ≤ j . Pentru fiecare pereche trebuie să aflați suma divizorilor tuturor numerelor din șirul i, i + 1, ..., j .
+
+Restricții
+1 ≤ n ≤ 200.000
+1 ≤ i ≤ j ≤ 1.000.000
+
+Exemplu
+Input: 4
+1 6
+3 7
+2 5
+8 8
+Output: 33
+37
+20
+15

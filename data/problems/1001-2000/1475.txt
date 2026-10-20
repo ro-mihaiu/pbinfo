@@ -1,0 +1,14 @@
+#1475
+Numere14
+
+Cerința
+Cunoscând numărul n de numere, precum şi cele n numere naturale pe care le primeşte Victor, ajutaţi-l să calculeze corect suma cifrelor impare din mijlocul fiecărui număr citit.
+
+Restricții
+1 < n < 1000000
+cele n numere din joc au cel mult 9 cifre fiecare
+
+Exemplu
+Input: 5
+123 34567 222 271 1523412
+Output: 15

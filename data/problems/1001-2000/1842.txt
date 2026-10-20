@@ -1,0 +1,16 @@
+#1842
+CreareNumarRec
+
+Cerința
+Scrieți definiția completă a subprogramului recursiv F , care primește prin intermediul parametrului n un număr natural nenul ( 1≤n≤9 ), iar prin intermediul parametrului a , un tablou unidimensional care conţine n valori naturale, fiecare dintre acestea reprezentând câte o cifră a unui număr. Astfel, a0 reprezintă prima cifră a numărului, a1 a doua cifră, etc.
+Subprogramul furnizează prin parametrul k o valoare naturală egală cu numărul obţinut din cifrele pare memorate în tabloul a sau valoarea -1 dacă în tablou nu există nicio cifră pară.
+
+Restricții
+0 < n < 10
+numele subprogramului cerut este F
+parametrii sunt, în această ordine: n , a , k
+elementele vectorului a sunt indexate de la zero
+valoarea lui k nu va depăși 2000000000
+se recomandă realizarea unei soluții recursive
+
+Exemplu

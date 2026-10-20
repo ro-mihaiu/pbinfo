@@ -1,0 +1,12 @@
+#253
+u2pare
+
+Cerința
+Se dă un număr natural n . Să se determine cele mai mici două numere pare, mai mari decât n .
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 8
+Output: 10 12

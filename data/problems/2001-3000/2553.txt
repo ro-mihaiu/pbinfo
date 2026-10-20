@@ -1,0 +1,13 @@
+#2553
+Josephus
+
+Cerința
+Josephus ar fi preferat să se predea. Pe ce poziție ar fi trebuit să se afle soldatul pentru a putea realiza acest lucru?
+
+Restricții
+1 ≤ n ≤ 10 18 ;
+Se garantează că există o soluție pentru oricare n ;
+
+Exemplu
+Input: 41
+Output: 19

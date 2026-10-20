@@ -1,0 +1,21 @@
+#4100
+bipatrat
+
+Cerința
+Fiind dată o secvență de numere naturale, să se verifice dacă numerele respective sunt bipătrate, iar pentru cele ce îndeplinesc condiția să se afișeze în ordine crescătoare toate pătratele perfecte care se pot obține prin inserarea unei cifre.
+
+Restricții
+În fişierul de intrare sunt maximum 2000 de numere de cel mult 13 cifre.
+Inserarea la începutul numărului se poate realiza doar dacă cifra inserată este diferită de 0 .
+
+Exemplu
+Input: 225
+144
+34
+49
+16
+Output: 1225 2025 4225 7225
+1444
+0
+0
+169 196

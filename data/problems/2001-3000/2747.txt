@@ -1,0 +1,14 @@
+#2747
+log
+
+Cerința
+Se dau numerele n și m . Să se determine exponentul la care se ridică n pentru a obține m .
+
+Restricții
+1 ≤ n , m ≤ 1.000.000
+n ≠ 1
+se garantează ca m este putere a lui n .
+
+Exemplu
+Input: 2 4
+Output: 2

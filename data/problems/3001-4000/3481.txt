@@ -1,0 +1,15 @@
+#3481
+sort_div
+
+Cerința
+Se dau n numere naturale. Să se afișeze acestea în ordinea crescătoare a numărului de divizori ai fiecăruia, la același număr de divizori crescător după cifra de control, la aceeași cifră de control crescător după prima cifră, iar dacă și prima cifră este aceeași atunci numerele se vor afișa în ordinea crescătoare a valorii lor.
+
+Restricții
+1 ≤ n ≤ 10000
+numerele de pe a doua linie a fișierului de intrare vor fi distincte și mai mici decât 1.000.000
+cifra de control a unui număr se obţine efectuând suma cifrelor sale, apoi suma cifrelor acestei sume etc. până se obţine o sumă formată dintr-o singură cifră. De exemplu, cifra de control a numărului 645 este 6 . ( 6+4+5=15, 1+5=6 )
+
+Exemplu
+Input: 5
+6 8 3 10 5
+Output: 3 5 10 6 8

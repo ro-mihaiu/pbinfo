@@ -1,0 +1,21 @@
+#3319
+Eratostene8
+
+Cerința
+Se dau n numere naturale prime. Pentru t perechi de numere naturale s şi d să se afle câte numere naturale din intervalul [s,d] sunt divizibile prin cel puţin unul dintre cele n numere prime.
+
+Restricții
+1 ≤ n ≤ 10.000
+1 ≤ t ≤ 100.000
+1 ≤ s ≤ d ≤ 10.000.000
+numerele prime sunt mai mici sau egale cu 1.000.000
+
+Exemplu
+Input: 2 3
+2 3
+1 5
+4 6
+5 20
+Output: 3
+2
+10

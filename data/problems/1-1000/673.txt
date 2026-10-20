@@ -1,0 +1,19 @@
+#673
+DifSub
+
+Cerința
+Considerăm un arbore binar cu n noduri în care fiecare nod este numerotat de la 1 la n și conține o valoare număr natural. Să se determine diferența în valoare absolută a sumei valorilor memorate în subarborele stâng al rădăcinii și suma valorilor memorate în subarborele drept al rădăcinii.
+
+Restricții
+1 ≤ n ≤ 1000
+valorile din nodurile arborelui vor fi mai mici sau egale cu 1.000.000
+
+Exemplu
+Input: 6
+2 3 5
+6 0 6
+1 0 0
+7 1 2
+4 0 0
+10 0 0
+Output: 9

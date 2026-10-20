@@ -1,0 +1,14 @@
+#986
+numarare7
+
+Cerința
+Se dă un șir cu n elemente, numere reale . Să se determine câte dintre elemente se află în afara intervalului închis determinat de primul și ultimul element.
+
+Restricții
+1 ≤ n ≤ 200
+elementele vectorului vor fi cuprinse între -1000 și 1000
+
+Exemplu
+Input: 6
+2 0.5 4 -1 -8 -3
+Output: 2

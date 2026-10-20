@@ -1,0 +1,18 @@
+#3411
+Gaseste Permutarea
+
+Cerința
+Se dau două valori: \(P\) și \(N\) cu proprietatea că \(N <= P!\) ( adică \(N <= 1*2*3*…*P\) ). Construindu-se toate permutările valorilor \(1,2,… P\), în ordine lexicografică, să se afișeze a \(N\)-a permutare.
+Permutările în ordine lexicografică sunt:
+1,2,3,.... P-1, P
+1,2,3,.... P, P-1
+................
+P, P-1,... 3,2,1
+
+Restricții
+\(2 ≤ P ≤ 19\)
+\(1<= N <= P!\)
+
+Exemplu
+Input: 3 4
+Output: 2 3 1

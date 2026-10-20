@@ -1,0 +1,13 @@
+#1031
+Culori2
+
+Cerința
+Ajutați-o pe Miruna să găsească răspunsul la întrebarea sa.
+
+Restricții
+1 ≤ N ≤ 5000
+Pentru 25% dintre teste N≤45 .
+
+Exemplu
+Input: 4
+Output: 24

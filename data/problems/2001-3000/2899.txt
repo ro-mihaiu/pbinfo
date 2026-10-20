@@ -1,0 +1,50 @@
+#2899
+timbre
+
+Cerința
+Cunoscând lista timbrelor primite, scrieți un program care să rezolve următoarele cerințe: 1. determină numărul de serii distincte din care fac parte timbrele primite; 2. determină numărul de timbre unicat (care nu au dublură); 3. determină seriile cu cea mai mare valoare.
+
+Restricții
+1 ≤ N ≤ 100
+Valorile timbrelor sunt numere naturale nenule mai mici sau egale cu 1000 .
+Denumirile seriilor sunt formate din cel mult 50 de caractere (litere, cifre, spațiu, cratimă).
+Pentru fiecare cerință se acordă 30% din punctajul obținut pe teste.
+
+Exemplu
+Input: 1
+9
+Cap-de-bour 4
+Romania 100 10
+Cap-de-bour 7
+Cap-de-bour 4
+Romania 100 5
+Romania 100 5
+Romania 100 5
+CRACIUN 2018 15
+Romania 100 10
+Output: 3
+Input: 2
+9
+Cap-de-bour 4
+Romania 100 10
+Cap-de-bour 7
+Cap-de-bour 4
+Romania 100 5
+Romania 100 5
+Romania 100 5
+CRACIUN 2018 15
+Romania 100 10
+Output: 2
+Input: 3
+9
+Cap-de-bour 4
+Romania 100 10
+Cap-de-bour 7
+Cap-de-bour 4
+Romania 100 5
+Romania 100 5
+Romania 100 5
+CRACIUN 2018 15
+Romania 100 10
+Output: CRACIUN 2018
+Romania 100

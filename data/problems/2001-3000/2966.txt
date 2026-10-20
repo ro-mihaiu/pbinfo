@@ -1,0 +1,17 @@
+#2966
+yinyang
+
+Cerința
+Să se determine numărul minim de operații necesare pentru a transforma matricea dată într-o matrice yin-yang .
+
+Restricții
+1 ≤ N, M ≤ 100
+Pentru teste în valoare de 9 puncte: 1 ≤ N, M ≤ 5
+Pentru alte teste în valoare de 18 puncte: N = 1
+Pentru alte teste în valoare de 36 de puncte elementele din matrice sunt DISTINCTE
+
+Exemplu
+Input: 2 3
+1 2 4
+3 5 6
+Output: 0

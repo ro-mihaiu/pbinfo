@@ -1,0 +1,14 @@
+#3804
+RazaCercInscris
+
+Cerința
+Se dau lungimile laturilor unui triunghi. Aflați raza cercului înscris triunghiului.
+
+Restricții
+1 ≤ a, b, c ≤ 1000
+
+Exemplu
+Input: 3 4 5
+Output: 1.00
+Input: 4 5 10
+Output: Imposibil

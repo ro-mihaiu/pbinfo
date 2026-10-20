@@ -1,0 +1,23 @@
+#531
+Concurs
+
+Cerința
+La un concurs participă n concurenți, numerotați de la 1 la n . Pentru jurizare s-a format o echipă din m arbitri, fiecare acordând fiecărui concurent un anumit punctaj. Pentru fiecare concurent se calculează media punctajelor, după eliminarea celui mai mare și celui mai mic punctaj acordat.
+Afișați clasamentul concursului în ordinea descrescătoare a mediilor calculate. La medii egale se va afișa mai întâi concurentul cu numărul de ordine mai mic.
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ m ≤ 50
+punctajele acordate de cei m arbitri sunt numere naturale mai mici decât 1000
+la calculul mediei se exclud toate punctajele minime și toate punctajele maxime
+pentru fiecare concurent există cel puțin trei punctaje diferite
+
+Exemplu
+Input: 6 5
+6 3 5 6 4 
+1 7 4 6 2 
+3 3 7 9 8 
+6 3 7 5 9 
+6 8 1 4 9 
+3 5 2 1 8
+Output: 3 4 5 1 2 6

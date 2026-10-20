@@ -1,0 +1,32 @@
+#549
+Epidemie
+
+Cerința
+Într-o țară locuiesc n persoane. Anumite perechi de persoane se cunosc între ele și se cunosc aceste perechi. Relația de cunoaștere între două persoane este reciprocă.
+În țară izbucnește o epidemie (nu este mortală, doar foarte contagioasă). Dacă persoana A este bolnavă și cunoaște persoana B , se va îmbolnăvi și aceasta, după o perioadă de incubație a bolii de 1 zi. Inițial sunt bolnave k persoane cunoscute. Se cere să se determine după câte zile sunt bolnave toate cele n persoane.
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ m ≤ n*(n-1)/2
+1 ≤ i , j ≤ n
+1 ≤ k ≤ n
+ziua inițială va fi luată în considerare
+graful asociat acestei populații este conex
+
+Exemplu
+Input: 10 12
+1 2
+1 7
+1 10
+2 4
+2 5
+2 6
+3 4
+4 5
+5 6
+7 8
+8 10
+9 10
+2
+4 8
+Output: 3

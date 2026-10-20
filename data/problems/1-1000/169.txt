@@ -1,0 +1,9 @@
+#169
+sumcif
+
+Cerința
+Să se scrie un program care citeşte de la tastatură un număr natural cu exact trei cifre și determină suma cifrelor sale.
+
+Exemplu
+Input: 752
+Output: 14

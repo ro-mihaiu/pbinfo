@@ -1,0 +1,12 @@
+#4537
+CifEgaleRec
+
+Cerința
+Scrieți funcția recursivă CifEgaleRec care primește ca parametri un numerele naturale n și k și returnează 1 dacă toate cifrele lui n sunt egale cu k sau returnează 0 în caz contrar.
+
+Restricții
+0 ≤ n ≤ 2.147.000.000
+Numele funcției este CifEgaleRec .
+Se recomandă utilizarea recursivității în rezolvarea problemei.
+
+Exemplu

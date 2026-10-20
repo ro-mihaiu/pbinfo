@@ -1,0 +1,12 @@
+#4211
+ElimZTRec
+
+Cerința
+Scrieți funcția recursivă ElimZTRec care primind ca parametru un număr natural nenul n , returnează numărul obținut prin eliminarea eventualelor cifre de 0 de la sfârșitul lui n .
+
+Restricții
+1 ≤ n ≤ 2.147.000.000
+Numele funcției este ElimZTRec .
+Se recomandă utilizarea recursivității în rezolvarea problemei.
+
+Exemplu

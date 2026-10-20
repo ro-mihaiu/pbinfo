@@ -1,0 +1,12 @@
+#2600
+expatr
+
+Cerința
+Scrieți un program care citește de la tastatură un număr natural a și care afișează partea întreagă a valorii expresiei \( {{3 \cdot \left(a^2+a^4 \right)} \over {a^2+a^4 + \sqrt {a^2+a^4} }} + \sqrt {a^2+a^4} \).
+
+Restricții
+1 ≤ a ≤ 100
+
+Exemplu
+Input: 2
+Output: 6

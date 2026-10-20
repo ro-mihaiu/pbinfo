@@ -1,0 +1,23 @@
+#2707
+matad
+
+Cerința
+Dându-se o matrice de numere întregi cu n linii și n coloane, să se verifice dacă este sau nu matrice de adiacență asociată unui graf neorientat.
+
+Restricții
+3 ≤ n ≤ 100
+Un graf neorientat nu admite nici bucle (deci nu există muchie de la un nod la el însuși) și nici muchii multiple între aceleași două noduri.
+
+Exemplu
+Input: 4
+0 1 1 0
+1 0 0 0
+1 0 0 1
+0 0 1 0
+Output: 1
+Input: 4
+0 1 1 0
+1 0 0 0
+0 0 0 1
+0 0 0 0
+Output: 0

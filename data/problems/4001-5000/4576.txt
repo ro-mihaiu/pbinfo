@@ -1,0 +1,17 @@
+#4576
+BilboB
+
+Cerința
+Să se scrie un program care citește două numere naturale n și m și apoi de pe n linii căte m numere naturale reprezentând cantitatea de aur din fiecare cameră din Muntele Singuratic și care calculează și afișează cantitatea maximă de aur pe care o poate colecta Bilbo.
+
+Restricții
+2 ≤ n,m ≤ 200
+cantitatea de aur din fiecare cameră este mai mică decât 1000
+
+Exemplu
+Input: 4 5
+5 8 3 1 7
+1 1 4 5 1
+5 8 9 1 7
+5 8 6 6 9
+Output: 29

@@ -1,0 +1,22 @@
+#3311
+nrreg
+
+Cerința
+Fișierul de intrare nrreg.in conține pe prima linie numărul natural n (n<=10000) . Scrieți un program care determină:
+cel de-al n -lea număr regulat, x ;
+cel mai mic divizor d al lui x cu proprietatea că p = x / d este pătrat perfect;
+valoarea p .
+Programul va scrie în fișierul nrreg.out valorile x d p , separate prin câte spațiu.
+Exemplu: dacă n=10 , al zecelea număr regulat este x=12 ; d=3 , iar p=4 .
+
+Restricții
+1 ≤ n ≤ 10000
+prin convenție s-a stabilit că numărul 1 face parte din șirul numerelor regulate.
+
+Exemplu
+Input: 10
+Output: 12 3 4
+Input: 5
+Output: 5 5 1
+Input: 20
+Output: 36 1 36

@@ -1,0 +1,12 @@
+#4271
+Intercalate
+
+Cerința
+Scrieți funcția cu următorul antet:
+void Intercalate(char a[], char b[], char c[])
+Funcția primește ca parametri trei șiruri de caractere a , b și c . Inițial c este vid și se vor depune în el caracterele din a și b astfel: întâi primul caracter din a , apoi primul caracter din b , apoi al doilea caracter din a , al doilea din b și procedeul continuă până când fie se termină caracterele din a , fie caracterele din b , fie ambele. Dacă au mai rămas caractere nedepuse din a sau din b , acestea se adaugă la final în c .
+
+Restricții
+Este garantat că vor încăpea în c toate caracterele din a și b .
+
+Exemplu

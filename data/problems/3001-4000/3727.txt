@@ -1,0 +1,61 @@
+#3727
+Polihroniade
+
+Cerința
+Dorind s-o impresioneze pe Elisabeta, Victor apelează la voi, programatori renumiți, să-l ajutați în a transforma matricea A într-o tablă de șah. Pentru aceasta, Victor are nevoie de următoarele informații: 1. Poate fi transformată matricea A în tablă de șah? 2. Care este numărul minim de operații necesare pentru a duce la îndeplinire acest scop? 3. Care ar fi o succesiune de operații care transformă matricea A într-o tablă de șah?
+În cazul ultimei cerințe, pentru a intra în grațiile lui Victor va trebui ca numărul de operații efectuate să fie minim. Totuși, chiar și un număr neminim de operații va fi răsplătit, însă nu într-atât de mult.
+Vi se dau două numere P , T și T matrice A , reprezentând mai multe instanțe ale problemei. Pentru fiecare matrice A dintre cele T va trebui să rezolvați cerința cu numărul P∊{1,2,3} dintre cele listate mai sus.
+
+Restricții
+1 ≤ T ≤ 350
+1 ≤ N ≤ 1 000
+N este par.
+Pentru cerințele de tip P = 2 și P = 3 se garantează că matricea A poate fi transformată în tablă de șah folosind interschimbări de linii și/sau coloane.
+Suma valorilor N pentru cele T scenarii nu depășește 2.000 .
+Pentru 40 de puncte, P = 1
+Pentru alte 34 de puncte, P = 2
+Pentru alte 26 de puncte, P = 3
+Dacă există mai multe soluții, oricare este considerată corectă.
+Dacă numărul X de operații folosite nu este minim, atunci se acordă 50% din punctajul pe test.
+
+Exemplu
+Input: 1 3
+2
+11
+11
+4
+1100
+1100
+0011
+0011
+2
+10
+01
+Output: 0
+1
+1
+Input: 2 2
+4
+1100
+1100
+0011
+0011
+2
+10
+01
+Output: 2
+0
+Input: 3 2
+4
+1100
+1100
+0011
+0011
+2
+10
+01
+Output: 3
+L 2 4
+C 2 3
+L 1 2
+0

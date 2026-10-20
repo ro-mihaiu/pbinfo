@@ -1,0 +1,18 @@
+#1979
+rbtree
+
+Cerința
+Sa se determine numărul minim de furnici pentru ca Gigel să cucerească graful.
+
+Restricții
+2 ≤ N ≤ 100.000
+1 ≤ R < N
+1 ≤ B < N
+1 ≤ ri ≤ N , pentru oricare i , 1 ≤ i ≤ R
+1 ≤ bi ≤ N , pentru oricare i , 1 ≤ i ≤ B
+0 ≤ P ≤ 10
+1 ≤ ni ≤ N , pentru oricare 1 ≤ i ≤ P
+Se garantează că un nod are o singură culoare. Dacă un nod nu este roșu sau negru, atunci este alb.
+Gigel rămâne tot timpul în nodul 1 , deci nodul 1 este ocupat.
+
+Exemplu

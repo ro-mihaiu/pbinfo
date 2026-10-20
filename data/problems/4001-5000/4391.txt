@@ -1,0 +1,21 @@
+#4391
+Nirvana
+
+Cerința
+Se dau două șiruri de numere întregi \(a\) și \(b\) de lungime \(n\). Găsește un șir crescător de numere întregi \(c\), tot de lungime \(n\) astfel încât \(a_i \le c_i \le b_i\) pentru orice \(1 \le i \le n\). Dacă un astfel de șir nu există, afișează \(-1\).
+
+Restricții
+Pentru toate testele, se respectă \(2 \le n \le 10^5\) și \(1 \le a_i \le b_i \le n\) pentru orice \(1 \le i \le n\)
+Subtask 1, 30p : Șirul \(a\) este crescător
+Subtask 2, 30p : \(b_i=n\) pentru orice \(1 \le i \le n\)
+Subtask 3, 40p : restricțiile inițiale
+
+Exemplu
+Input: 3
+1 4 2
+2 5 6
+Output: 2 4 4
+Input: 2
+2 1
+2 1
+Output: -1

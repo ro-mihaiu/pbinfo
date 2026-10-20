@@ -1,0 +1,12 @@
+#4029
+Depozit
+
+Cerința
+Proprietarul depozitului vă cere să aflați numărul maxim de stive care pot construi respectând regulile date și numărul de cutii care pot fi aranjate astfel. Pentru că numerele pot fi foarte mari rezultatele se vor afișa modulo 1.000.000.007 .
+
+Restricții
+1 ≤ N ≤ 1.000.000.000
+
+Exemplu
+Input: 3
+Output: 7 11

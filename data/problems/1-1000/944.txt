@@ -1,0 +1,13 @@
+#944
+rest
+
+Cerința
+Se dă n un număr natural. Aflați restul maxim care se poate obține dacă împărțim numărul n la orice număr care se obține prin eliminarea unei cifre ale sale.
+
+Restricții
+10 ≤ n ≤ 2.000.000.000
+dacă prin eliminarea unei cifre se obține numărul 0 , atunci n nu se va împărți la 0 .
+
+Exemplu
+Input: 217
+Output: 13

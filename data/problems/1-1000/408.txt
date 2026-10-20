@@ -1,0 +1,12 @@
+#408
+divizorii-oglinditului
+
+Cerința
+Se citește un număr natural n . Să se determine numărul de divizori ai oglinditului lui n .
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 63
+Output: 9

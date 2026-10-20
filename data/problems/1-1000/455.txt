@@ -1,0 +1,12 @@
+#455
+calendar1
+
+Cerința
+Se citesc 3 numere naturale z1 l1 a1 , reprezentând o dată calendaristică corectă, în format zi luna an . Să se afişeze data zilei următoare.
+
+Restricții
+data calendaristică citită este corectă
+
+Exemplu
+Input: 28 2 2000
+Output: 29 2 2000

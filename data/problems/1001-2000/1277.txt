@@ -1,0 +1,20 @@
+#1277
+produscartezian1
+
+Cerința
+Se dau două numere naturale nenule n și m . Considerăm mulțimea A={1,2,..,n} . Să se genereze în ordine lexicografică elementele produsului cartezian \( A^m=A \times A \times \cdots \times A \).
+
+Restricții
+1 ≤ n ≤ 7
+1 ≤ m ≤ 6
+
+Exemplu
+Input: 2 3
+Output: 1 1 1 
+1 1 2 
+1 2 1 
+1 2 2 
+2 1 1 
+2 1 2 
+2 2 1 
+2 2 2

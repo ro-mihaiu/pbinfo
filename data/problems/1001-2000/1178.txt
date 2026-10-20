@@ -1,0 +1,12 @@
+#1178
+FListaStergere2
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+void sterge(nod * & p);
+care elimină, dacă există, din lista pentru care primul element are adresa memorată în pointerul p toate elementele pare.
+
+Restricții
+la ieșirea din apel p va memora adresa primului element din listă sau NULL daca lista nu mai conține niciun element.
+
+Exemplu

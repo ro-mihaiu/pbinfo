@@ -1,0 +1,16 @@
+#4679
+MatrixLH
+
+Cerința
+Trebuie să determinați câte submatrice k x k au suma elementelor cuprinsă între L și H .
+
+Restricții
+1 ≤ k < n ≤ 500 , 0 ≤ L ≤ H ≤ 250.000.000
+numerele din matrice vor fi mai mici decât 1000
+
+Exemplu
+Input: 3 2 15 20
+2 3 4
+5 4 7
+1 8 9
+Output: 2

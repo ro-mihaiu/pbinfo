@@ -1,0 +1,12 @@
+#2120
+Concurs4
+
+Cerința
+Cunoscând numărul n de concurenţi precum şi numărul k folosit la repartizarea concurenţilor în concurs, se cere să se determine şirul codurilor asociate concurenţilor, astfel încât intrarea lor în concurs să se facă conform regulamentului.
+
+Restricții
+• 2 ≤ k ≤ n ≤ 30000
+
+Exemplu
+Input: 10 4
+Output: 2 29 23 7 3 17 13 19 5 11

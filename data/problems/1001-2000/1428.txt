@@ -1,0 +1,14 @@
+#1428
+Sume1
+
+Cerința
+Se dă un număr natural N . Să se calculeze expresia:
+\( E = (2^0 +2^1 + 2^2 + 2^3 + … + 2^N ) \% 1 000 000 007 \)
+unde x % y reprezintă restul împărţirii lui x la y .
+
+Restricții
+1 ≤ N ≤ 10 17
+1000000007 este număr prim.
+Pentru 30% din teste, N ≤ 10 6
+
+Exemplu

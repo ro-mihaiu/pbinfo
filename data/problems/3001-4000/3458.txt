@@ -1,0 +1,13 @@
+#3458
+sin-cos
+
+Cerința
+Se dă un număr natural x , reprezentând mărimea în grade sexagesimale a unui unghi. Să se afișeze sin(x) și cos(x) .
+
+Restricții
+1 ≤ x ≤ 180 ;
+se recomandă afișarea rezultatelor cu cel puțin trei zecimale;
+
+Exemplu
+Input: 30
+Output: 0.499 0.866

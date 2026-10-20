@@ -1,0 +1,12 @@
+#2750
+GenNr
+
+Cerința
+Se citesc 2 numere naturale, cu cel mult 12 cifre fiecare. Să se afișeze cel mai mic și cel mai mare număr având exact două cifre, format cu o cifră din primul număr și cu o cifră din al doilea.
+
+Restricții
+cele două numere citite vor fi mai mici decât 1.000.000.000.000
+
+Exemplu
+Input: 293 412
+Output: 12 94

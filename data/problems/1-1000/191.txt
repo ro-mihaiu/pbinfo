@@ -1,0 +1,22 @@
+#191
+maxmat
+
+Cerința
+Să se determine, pentru fiecare linie a matricei, valoarea maximă și indicele coloanei pe care se află valoarea maximă.
+
+Restricții
+1 ≤ n,m ≤ 25
+elementele matricei aparțin intervalului [-1000,1000]
+dacă pe o linie a matricei, elementul maxim apare de mai multe ori, se va afișa indicele de coloană minim
+liniile și coloanele matricei sunt numerotate de la 1
+
+Exemplu
+Input: 4 5
+-2 -9 7 -7 -7 
+1 -7 -8 -1 4 
+8 2 5 -7 2 
+8 -9 -7 10 -9
+Output: 7 3
+4 5
+8 1
+10 4

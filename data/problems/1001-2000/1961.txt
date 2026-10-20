@@ -1,0 +1,16 @@
+#1961
+Cosmin
+
+Cerința
+Cosmin e pasionat de matematică. Acesta spune despre numărul x că e un număr special și că de acum încolo îl va numi “numărul lui Cosmin” .
+Numărul x este un număr real cu proprietatea că:
+\( x = 5 \cdot \sqrt {2} – 7 \)
+Profesorul de informatică îi dă ca temă lui Cosmin să creeze un program care citește numărul natural n și afișează pe ecran primele n zecimale ale lui x n , în ordinea în care apar.
+Ajutați-l pe Cosmin!
+
+Restricții
+1 ≤ n ≤ 100.000
+
+Exemplu
+Input: 1
+Output: 0

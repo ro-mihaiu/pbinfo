@@ -1,0 +1,23 @@
+#1411
+Numere13
+
+Cerința
+Se citesc perechi de numere naturale până la citirea a două valori nule. Să se determine câte dintre perechi încep cu aceeași cifră.
+
+Restricții
+se vor citi cel mult 1000 de perechi de numere;
+ultima pereche citită nu se va lua în considerare;
+toate numerele citite vor fi mai mici decât 1.000.000 ;
+toate numerele citite sunt nenule, cu excepția ultimelor două;
+
+Exemplu
+Input: 329 39780 
+2643 1589 
+9686 6659 
+6121 846 
+7938 73173 
+5352 5129 
+7243 3765 
+3750 3779 
+0 0
+Output: 4

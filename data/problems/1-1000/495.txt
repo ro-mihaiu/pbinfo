@@ -1,0 +1,14 @@
+#495
+Constr2
+
+Cerința
+Se dă un vector x cu n elemente, numere naturale. Să se construiască un alt vector, y , care să conțină elementele prime din x , în ordine inversă.
+
+Restricții
+1 ≤ n ≤ 200
+elementele vectorului vor fi cuprinse între 0 și 1.000.000.000
+
+Exemplu
+Input: 6
+50 5 15 29 13 40
+Output: 13 29 5

@@ -1,0 +1,9 @@
+#3938
+generatoare
+
+Cerința
+Scrieți definiția completă a subprogramului generatoare .
+
+Exemplu
+Input: 2-1010 4-505 10-202 20-101 96-21 200-10 606-3 808-2 1010-1
+Output: None

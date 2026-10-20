@@ -1,0 +1,14 @@
+#3664
+cifparcifimp
+
+Cerința
+Se dau n numere naturale. Determinaţi câte cifre pare şi câte cifre impare se află în total în cele n numere.
+
+Restricții
+1 ≤ n ≤ 10
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 3
+11 30 3
+Output: 1 4

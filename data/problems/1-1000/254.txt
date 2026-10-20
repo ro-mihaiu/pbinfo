@@ -1,0 +1,19 @@
+#254
+Puteri
+
+Cerința
+Se dau n perechi de numere naturale a , b . Să se determine pentru fiecare pereche, dacă există, cea mai mare putere a lui 2 din intervalul închis determinat de a şi b .
+
+Restricții
+1 ≤ n ≤ 10000
+fiecare dintre numerele a şi b au cel mult 9 cifre.
+intervalele sunt închise
+
+Exemplu
+Input: 3
+2 69
+20 10
+19 25
+Output: 64
+16
+0

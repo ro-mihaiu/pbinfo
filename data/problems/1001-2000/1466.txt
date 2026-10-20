@@ -1,0 +1,13 @@
+#1466
+Placare1
+
+Cerința
+Cunoscând lățimea L a peretelui și dimensiunile A și B ale plăcilor de faianță, stabiliți înălțimea maximă placată care se poate obține după metoda descrisă mai sus.
+
+Restricții
+1 ≤ A, B ≤ 20.000
+1 ≤ L ≤ 1.000.000.000
+
+Exemplu
+Input: 10 3 4
+Output: 12

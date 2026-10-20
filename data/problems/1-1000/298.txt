@@ -1,0 +1,15 @@
+#298
+SumSec
+
+Cerința
+Se dă un şir format din n elemente, numere naturale. Calculaţi suma elementelor din secvenţa determinată de primul şi ultimul element prim.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele şirului vor avea cel mult 9 cifre
+şirul va conţine cel puţin un element prim
+
+Exemplu
+Input: 8
+12 10 15 7 17 10 19 14
+Output: 53

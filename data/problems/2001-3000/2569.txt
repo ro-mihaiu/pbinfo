@@ -1,0 +1,20 @@
+#2569
+Alo
+
+Cerința
+Scrieți un program care, știind E , valoarea inițială a creditului de pe cartela primită cadou, cele N numere corespunzătoare convorbirilor pe care le-a avut Dora și duratele acestora exprimate în minute, să determine valoarea creditului rămas pe cartelă la terminarea convorbirilor.
+
+Restricții
+5 ≤ E ≤ 100
+2 ≤ N ≤ 500
+1 ≤ D ≤ 50
+Convorbirile în care sună Dora se încadrează în limita creditului de pe cartelă de la momentul respectiv.
+
+Exemplu
+Input: 10 5
+12345 4
+12439 15
+21335 30
+18375 10
+22359 20
+Output: 12

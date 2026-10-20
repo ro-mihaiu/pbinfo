@@ -1,0 +1,14 @@
+#3805
+RazaCercCircumscris
+
+Cerința
+Se dau lungimile laturilor unui triunghi. Aflați raza cercului circumscris triunghiului.
+
+Restricții
+1 ≤ a, b, c ≤ 1000
+
+Exemplu
+Input: 3 4 5
+Output: 2.50
+Input: 4 5 10
+Output: Imposibil

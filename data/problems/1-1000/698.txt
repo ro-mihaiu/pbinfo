@@ -1,0 +1,15 @@
+#698
+nrpits
+
+Cerința
+Scrieţi un program care va determina numărul “gropilor” din șirul dat.
+
+Restricții
+2 ≤ N ≤ 1.000.000
+1 ≤ a[i] ≤ 1.000.000 , pentru fiecare 1 ≤ i ≤ N
+orice “groapă” are cel puțin trei elemente
+
+Exemplu
+Input: 12
+12 1 10 3 4 11 5 8 7 9 2 6
+Output: 8

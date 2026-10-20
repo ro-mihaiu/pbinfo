@@ -1,0 +1,13 @@
+#4231
+mingx
+
+Cerința
+Se citește numărul natural nenul n și o cifră x . Să se determine cifra minimă a lui n , strict mai mare decât x .
+
+Restricții
+1 ≤ n ≤ 10 18
+0 ≤ x ≤ 9
+
+Exemplu
+Input: 395445271 4
+Output: 5

@@ -1,0 +1,21 @@
+#1053
+Cladiri
+
+Cerința
+a) Care este înălţimea celui mai înalt turn şi care este numărul clădirilor care au în construcţia lor un astfel de turn? b) Care este numărul clădirilor pe care cei doi copii au lipit bileţele cu numere identice? c) Care este cel mai mic număr de cuburi necesar pentru a completa clădirile astfel încât, pe fiecare clădire, bileţelul pe care îl va lipi Crina să conţină acelaşi număr cu cel pe care îl va lipi Rareş? Cuburile din care a fost construită iniţial clădirea nu se pot muta.
+
+Restricții
+1 ≤ n ≤ 10000
+Fiecare clădire este alcătuită din cel mult 9 turnuri, iar înălţimea fiecărui turn este exprimată printr-o cifră nenulă.
+
+Exemplu
+Input: 6
+3112 
+2772
+42422
+1741
+27372
+1212
+Output: 7 3
+2
+8

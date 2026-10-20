@@ -1,0 +1,20 @@
+#2357
+escape
+
+Cerința
+Fiind dat numărul natural n , reprezentând numărul de elevi și cele n coduri primite de doamna dirigintă, să se determine: (1) Punctajul maxim obținut de o cameră în prima serie și punctajul maxim obținut de o cameră în a doua serie (punctajul camerei este egal cu suma punctajelor elevilor care au fost în camera respectivă în aceeași serie). (2) Indicii camerelor vizitate, în ordinea descrescătoare a numărului de elevi care le-au vizitat, din ambele serii, la un loc.
+
+Restricții
+1 < n ≤ 1.000.000
+100 ≤ codurile ≤ 1.000.000
+pot intra mai mulți elevi în aceeași cameră
+pentru c = 1 se va rezolva doar cerința 1 și se acordă 40 de puncte; pentru c = 2 se va rezolva doar cerința 2 și se acordă 50 de puncte;
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă 10 puncte pentru exemple.
+
+Exemplu
+Input: 1 6
+10190  1450  100450  1120350  22020 13017
+Output: 90 100
+Input: 2  6
+10190  1450  100450  1120350  22020 13017
+Output: 4 5 2 7

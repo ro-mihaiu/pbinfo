@@ -1,0 +1,28 @@
+#4581
+kpower
+
+Cerința
+Fiind dat un un număr natural k și un şir de n numere naturale, scrieți un program care rezolvă următoarele cerințe: 1. Determină cel mai mare număr kpower dintre cele n numere date. 2. Determină lungimea maximă a unei secvențe kpower. 3. Determină cea mai mare sumă ce se poate obține adunând numerele dintr-o secvență kpower de lungime maximă.
+
+Restricții
+0 < k ≤ 9
+1 ≤ n ≤ 1.000.000
+cele n numere citite sunt din intervalul [0, 10 12 ]
+pentru toate datele de test, există cel puțin un număr kpower printre cele n numere
+pentru teste valorând 20 de puncte cerinţa va fi C = 1
+pentru teste valorând 30 de puncte cerinţa va fi C = 2
+pentru teste valorând 40 de puncte cerinţa va fi C = 3
+
+Exemplu
+Input: 1
+3 19
+1 27 9 17 21 3 1 27 3 9 81 78 56 1 3 9 1 81 9
+Output: 81
+Input: 2
+3 19
+1 27 9 17 21 3 1 27 3 9 81 78 56 1 3 9 1 81 9
+Output: 6
+Input: 3
+3 19
+1 27 9 17 21 3 1 27 3 9 81 78 56 1 3 9 1 81 9
+Output: 124

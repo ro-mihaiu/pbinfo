@@ -1,0 +1,16 @@
+#1507
+grupuri
+
+Cerința
+Scrieţi un program care citeşte din fişierul de intrare un număr natural n şi o matrice pătratică A de dimensiune n x n , elementele acesteia putând avea doar valorile 0 sau 1 . Două elemente A[i1][j1] şi A[i2][j2] sunt adiacente dacă sunt “vecine” pe o aceeaşi linie sau coloană: ( i1 = i2 şi |j1-j2|=1 ) sau ( j1=j2 şi |i1-i2|=1 ). Un grup reprezintă fie un singur element al matricii având valoarea 1 , neadiacent cu niciun alt element cu valoarea 1 , fie o mulţime de elemente având valoarea 1 , fiecare dintre ele fiind adiacent cu cel puţin un alt element din mulţimea respectivă şi neadiacent cu niciun alt element din alt grup. Programul afişează în fişierul de ieşire numărul de grupuri conţinute de matrice.
+
+Restricții
+2 ≤ n ≤ 100
+
+Exemplu
+Input: 4
+1 0 0 1
+0 0 1 1
+0 1 0 1
+1 1 0 0
+Output: 3

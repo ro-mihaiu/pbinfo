@@ -1,0 +1,19 @@
+#4524
+Acces3
+
+Cerința
+Se consideră o clădire de formă dreptunghiulară, împărțită în n*m camere, dispuse sub forma unei matrice cu n linii și m coloane. Dintr-o cameră se poate trece în oricare dintre cele 4 camere vecine pe linie sau pe coloană. Unele camere sunt închise, și în ele nu se poate intra deloc. Trecerea dintr-o cameră în altă cameră durează un minut.
+Accesul în clădire se realizează prin una dintre camerele de pe linia 1 și coloana 1 sau linia 1 și coloana m . Ieșirea din clădire durează un minut.
+În una dintre camere se află proprietarul clădirii, care dorește să afle care este numărul de variante în care poate să părăsească clădirea și care este durata maximă exprimată în minute a unui traseu de ieșire fără ca să treacă de două ori prin aceeași cameră.
+
+Restricții
+1 ≤ n, m ≤ 10
+Se garantează faptul că proprietarul poate părăsi clădirea.
+
+Exemplu
+Input: 4 6
+--#-#-
+--##--
+--P---
+-----#
+Output: 54 16

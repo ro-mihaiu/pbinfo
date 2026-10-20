@@ -1,0 +1,19 @@
+#1340
+Rucsac
+
+Cerința
+Într-un magazin sunt n obiecte; pentru fiecare se cunoaște greutatea G și valoarea V . Un hoț intră în magazin având un rucsac ce poate transporta o greutate maximă GMax . El va fura anumite obiecte, sau porțiuni de obiecte, astfel încât suma greutăților obiectelor furate să nu depășească GMax .
+Să se stabilească câștigul maxim pe care îl poate obține hoțul. Câștigul este egal cu suma valorilor obiectelor furate. Câștigul adus de o fracțiune de obiect este direct proporțional cu greutatea fracțiunii.
+
+Restricții
+1 ≤ n ≤ 1000 ;
+1 ≤ GMax, G, V ≤ 10000 ;
+rezultatul va fi punctat dacă diferența dintre cel afișat de program și cel corect este mai mică decât 0.01 .
+
+Exemplu
+Input: 4 30
+10 60
+5 50
+12 60
+20 140
+Output: 220

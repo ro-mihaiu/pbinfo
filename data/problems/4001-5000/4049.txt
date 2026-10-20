@@ -1,0 +1,16 @@
+#4049
+ndivnlen
+
+Cerința
+Se dă un număr natural \(n\). Găsiți orice număr \(k\) de exact \(n\) cifre care este divizibil cu \(n\).
+
+Restricții
+\(1 \le n \le 10^5\)
+Dacă există mai multe soluții posibile, se acceptă oricare.
+Pentru 20 de puncte, \(n \le 6\)
+Pentru 40 de puncte, \(n \le 9\)
+Pentru 50 de puncte, \(n \le 18\)
+
+Exemplu
+Input: 3
+Output: 123

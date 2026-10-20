@@ -1,0 +1,28 @@
+#4344
+smallworld
+
+Cerința
+Cunoscând numărul de persoane N precum și cele N - 1 relații de prietenie, determinaţi pentru fiecare persoană distanţa socială maximă a persoanei respective.
+
+Restricții
+2 ≤ N ≤ 100.000
+Pentru teste în valoare de 52 de puncte, N ≤ 1000 .
+10 puncte se acordă pentru exemplele din enunț.
+
+Exemplu
+Input: 3
+1 2
+1 3
+Output: 1
+2
+2
+Input: 5
+2 3
+4 2
+5 1
+1 2
+Output: 2
+2
+3
+3
+3

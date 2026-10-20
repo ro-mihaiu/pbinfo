@@ -1,0 +1,14 @@
+#2612
+Fibo_SumaCifre
+
+Cerința
+Numim suma cifrelor până la o cifră a unui număr X , o valoare mai mică decât 10 obținută prin adunarea cifrelor numărului X și repetarea procedurii dacă suma obținută este mai mare decât 10 , de această dată având drept X suma obținută la pasul precedent.
+Se dă un număr n reprezentând poziția unui număr F n din șirul lui Fibonacci. Să se calculeze suma cifrelor până la o cifră a lui F n .
+Reamintim că primele două numere din șirul lui Fibonacci au valoarea 1 , iar restul se obțin ca fiind suma precedentelor două (pentru orice poziție n mai mare strict decât 2 , F n = F n-1 + F n-2 ).
+
+Restricții
+1 ≤ n ≤ 10 19
+
+Exemplu
+Input: 11
+Output: 8

@@ -1,0 +1,14 @@
+#2638
+eval_exp
+
+Cerința
+Să se evalueze expresia.
+
+Restricții
+Lungimea expresiei va fi de cel mult 50 de caractere
+Rezultatul final precum și rezultatele intermediare se vor încadra în tipul de date long long
+Expresia este corectă și nu conține alte caractere în afară de cifre și operatorii + , - , * .
+
+Exemplu
+Input: 234-10+21*12
+Output: 476

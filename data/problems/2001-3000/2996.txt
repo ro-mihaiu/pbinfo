@@ -1,0 +1,23 @@
+#2996
+paritar
+
+Cerința
+Dându-se un șir de 2•n numere naturale, să se afișeze mesajul DA , în cazul în care șirul aflat în fișier este paritar, sau mesajul NU , în caz contrar. Proiectați un algoritm eficient din punctul de vedere al timpului de executare și al memoriei utilizate.
+
+Restricții
+1 ≤ n ≤ 250.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 5
+20 3 11 4 15 25 49 18 53 16
+Output: DA
+Input: 3
+8 16 4 10 10 6
+Output: DA
+Input: 3
+8 6 4 10 7 6
+Output: NU
+Input: 3
+20 30 5 8 18 6
+Output: DA

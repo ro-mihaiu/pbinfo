@@ -1,0 +1,31 @@
+#3944
+turn_1
+
+Cerința
+n
+1
+n
+H
+n
+orice cub se așează peste un altul ce are latura mai mare sau egală cu a lui;
+să nu existe două cuburi consecutive de aceeași culoare;
+
+Restricții
+1 ≤ n < 15
+1 ≤ H ≤ 50
+1 ≤ latura ≤ 10
+culorile sunt șiruri de caractere cu cel mult 20 de litere și sunt scrise cu litere mici
+nu există cuburi identice
+pentru datele de intrare există întotdeauna soluție
+
+Exemplu
+Input: 5 5
+1 alb
+2 alb
+1 roz
+2 roz
+3 alb
+Output: 2 4 1 
+4 2 3 
+5 3 1 
+5 4

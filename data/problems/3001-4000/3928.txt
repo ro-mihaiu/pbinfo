@@ -1,0 +1,12 @@
+#3928
+abcd
+
+Cerința
+Se dau numerele naturale a , b , c și d cu proprietatea că a < b < c < d . Să se determine câte numere naturale divizibile cu 3 sunt în reuniunea de intervale [a,b] ∪ [c,d] .
+
+Restricții
+2 ≤ a < b < c < d ≤ 2.000.000.000
+
+Exemplu
+Input: 2 7 10 18
+Output: 5

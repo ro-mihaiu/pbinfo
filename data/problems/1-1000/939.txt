@@ -1,0 +1,12 @@
+#939
+sum00
+
+Cerința
+Se dau 2 numere naturale. Calculaţi suma celor 2 numere date.
+
+Restricții
+cele două numere vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 12 23
+Output: 35

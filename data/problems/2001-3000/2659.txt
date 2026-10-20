@@ -1,0 +1,23 @@
+#2659
+SplitText
+
+Cerința
+Să se scrie funcția cu următorul antet:
+void SplitText(const char s[], char cuv[100][30], int &n)
+Funcția primește ca parametri:
+un șir de caractere s de lungime maximă 200 .
+o matrice de caractere cuv
+un număr natural n
+Șirul s memorează un text format din cuvinte și separatori. Cuvintele sunt formate din litere, iar restul caracterelor din text sunt separatori. Funcția trebuie să memoreze cuvintele din s în matricea cuv astfel: Primul cuvânt în cuv[0] , al doilea cuvânt în cuv[1] , etc. Numărul de cuvinte va fi memorat în n .
+
+Restricții
+Lungimea maximă a șirului s este 200
+Șirul s este indexat de la 0
+Șirul va conține cel puțin un cuvânt
+Numărul maxim de cuvinte din text este 100
+Cuvintele textului au lungimea maximă 29
+Utilizarea funcțiilor predefinite pentru șiruri de caractere poate conduce la erori de compilare
+
+Exemplu
+Input: SplitText("O suta de ani ... de Romania!", cuv, n);
+Output: None

@@ -1,0 +1,14 @@
+#3412
+IIF
+
+Cerința
+Folosind doar directive #define , construiți o funcție CHECK , asemenea funcției IIF din SQL , care are 3 parametrii:
+Primul parametru poate fi 0 sau 1 .
+Al doilea parametru poate fi de orice tip. Funcția va returna acest parametru dacă primul parametru este 1 .
+Al treilea parametru poate fi de orice tip. Funcția va returna acest parametru dacă primul parametru este 0 .
+Funcția va fi folosită astfel: (în acest caz funcția returnează “but this will”)
+std::cout<<CHECK(0, "this will not be returned", "but this will");
+
+Exemplu
+Input: CHECK(0, "this is ONE", 10)
+Output: 10

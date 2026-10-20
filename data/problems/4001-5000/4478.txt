@@ -1,0 +1,14 @@
+#4478
+Nr max de zerouri
+
+Cerința
+Fie un șir de n valori 0 și 1 și un număr k . Afișați lungimea maximă a unei secvențe din șir care conține doar valori de 1 după ce s-au modificat cel mult k valori de 0 în valori de 1 .
+
+Restricții
+1 ≤ n ≤ 100.000
+1 ≤ k < n
+
+Exemplu
+Input: 5 2
+1 0 1 0 1
+Output: 5

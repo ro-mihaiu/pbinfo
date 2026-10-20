@@ -1,0 +1,17 @@
+#3154
+anagrame_pfv
+
+Cerința
+Se citește de la tastatură un cuvânt s format din cel mult 11 litere mici distincte. Să se genereze în ordine alfabetică și să se afișeze toate anagramele cuvântului s în care vocalele sunt puncte fixe.
+
+Restricții
+cuvântul s are cel mult 11 caractere și este format din litere mici distincte
+
+Exemplu
+Input: dorel
+Output: doler
+dorel
+loder
+lored
+rodel
+roled

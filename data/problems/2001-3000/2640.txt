@@ -1,0 +1,14 @@
+#2640
+ExtrageCuvant
+
+Cerința
+Să se scrie o funcţie denumită extrageCuvant care să primească ca parametri trei şiruri de caractere în această ordine: destinatie, sursa, separatori şi un număr întreg prin intermediul căruia se va specifica numărul cuvântului ce se doreşte a fi preluat din şirul de caractere sursă şi pus în şirul destinaţie.
+În şirul separatori se vor găsi o serie de simboluri ce sunt utilizate pentru a despărţi cuvintele (de exemplu virgulă sau spaţiu, etc.).
+Dacă funcţia a copiat cu succes cuvântul căutat în şirul destinaţie, va returna valoarea 1 . Altfel va returna valoarea 0 (de exemplu dacă textul conţine doar trei cuvinte şi se doreşte găsirea cuvântului al patrulea).
+
+Restricții
+Nu se va folosi nici o funcţie de prelucrare a şirurilor de caractere (nu se va include cstring ).
+
+Exemplu
+Input: extrageCuvant(dest, "Un mar, doua mere, trei mere, toata livada !", ", !", 0);
+Output: extrageCuvant(dest, "Un mar, doua mere, trei mere, toata livada !", ", !", 4);

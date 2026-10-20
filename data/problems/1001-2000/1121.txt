@@ -1,0 +1,17 @@
+#1121
+p2048
+
+Cerința
+Scrieţi un program care să citească numerele naturale N (numărul inițial de piese) și M (numărul maxim de mutări), un șir de N numere reprezentând, în ordine, numerele înscrise pe cele N piese și cel mult M caractere din mulțimea {S, D} ce reprezintă mutările fixate de către Ada și Ben, și care determină: a) numărul X de mutări efectuate până la încheierea jocului; b) numărul maxim Y înscris pe una dintre piese la încheierea jocului; c) numărul maxim Z de fuzionări efectuate la o mutare.
+
+Restricții
+2 ≤ N,M ≤ 10000 ;
+caracterul D indică o mutare la dreapta, iar caracterul S indică o mutare la stânga; pentru rezolvarea cerinţei a) se acordă 40% din punctaj, pentru cerinţa b) 40% din punctaj și pentru cerinţa c) 20% din punctaj.
+
+Exemplu
+Input: 7 10 
+16 4 4 2 2 4 8
+D D S D S D S S D D
+Output: 4
+32
+2

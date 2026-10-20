@@ -1,0 +1,16 @@
+#3010
+bst
+
+Cerința
+Dându-se un șir de n numere naturale, să se ordoneze crescător utilizând un BST .
+
+Restricții
+1 ≤ n ≤ 100.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000.000
+Această problemă este destinată învățării arborilor de căutare, deci recomandarea este să memorați mai întâi numerele într-un BST , apoi, cu o parcurgere în inordine să afișați șirul de numere ordonat crescător
+Se știe că există cazuri când un BST poate avea multe nivele și în consecință complexitatea sortării să fie chiar O(n x n) . Un exemplu este atunci când șirul inițial este ordonat descrescător. Dar este garantat că testele au fost generate aleator, deci numărul de nivele din arbore va fi aproximativ egal cu log 2 n .
+
+Exemplu
+Input: 10
+20 7 13 200 15 100 25 3 17 39
+Output: 3 7 13 15 17 20 25 39 100 200

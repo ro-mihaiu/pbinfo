@@ -1,0 +1,12 @@
+#1882
+calcul3
+
+Cerința
+Se consideră o expresie aritmetică fără paranteze, în care operanzii sunt cifre, iar operatorii sunt + sau − . Să se evalueze expresia dată.
+
+Restricții
+Expresia are cel mult 30 de operanzi şi este corectă (primul şi ultimul caracter din expresie sunt cifre, între două cifre există exact un operator, nu există două cifre una lângă alta şi nu conţine alte caractere)
+
+Exemplu
+Input: 2+3–4+6+8-5=
+Output: 2+3–4+6+8-5=10

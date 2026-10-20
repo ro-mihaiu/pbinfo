@@ -1,0 +1,14 @@
+#3659
+SumMaxSecv
+
+Cerința
+Să se calculeze suma totală a costurilor tuturor secvențelor.
+
+Restricții
+2 ≤ n ≤ 100.000
+șirul de numere este o permutare a mulțimii {1,2,...,n}
+
+Exemplu
+Input: 4
+2 3 4 1
+Output: 33

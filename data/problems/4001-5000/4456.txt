@@ -1,0 +1,14 @@
+#4456
+Prime4
+
+Cerința
+Se dă o listă cu n numere naturale cu trei cifre fiecare. Determinați numărul prim care apare în lista de cele mai multe ori.
+
+Restricții
+1 ≤ n ≤ 10.000
+dacă sunt mai multe numere prime care apar de număr maxim de ori se va afișa cel mai mic dintre ele.
+
+Exemplu
+Input: 7 
+500 101 103 997 500 103 500
+Output: 103

@@ -1,0 +1,19 @@
+#931
+SortareUnghi
+
+Cerința
+Se dau puncte distincte în plan. Asociem fiecărui punct semidreapta care pornește din originea sistemului de coordonate și trece prin acel punct. Să se afișeze punctele în ordine crescătoare a unghiului pe care semidreapta asociată îl face cu semidreapta spre plus infinit a axei OX . Dacă două unghiuri sunt egale se va afișa punctul cel mai apropiat de origine.
+
+Restricții
+1 ≤ n ≤ 100
+Numerele din fișierul de intrare sunt întregi cuprinse între -1001 și 1001 .
+Unghiurile sunt în intervalul [0,360) . Punctul (0,0)@ nu se găsește în fișierele de intrare
+
+Exemplu
+Input: 3
+1 1 
+-1 -1 
+-1 1
+Output: 1 1
+-1 1
+-1 -1

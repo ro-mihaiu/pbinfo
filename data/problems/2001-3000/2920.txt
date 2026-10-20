@@ -1,0 +1,13 @@
+#2920
+hidden-number
+
+Cerința
+Se citesc din fișier numere naturale. Determinați un număr natural x astfel încât dacă scădem din x pe rând fiecare număr citit atunci suma diferențelor să fie 0 . Se va afișa numărul determinat sau -1 , dacă un astfel de număr nu există.
+
+Restricții
+numerele vor fi mai mici decât 1.000.000
+numărul de numere citite este maximum 1.000
+
+Exemplu
+Input: 1 2 3
+Output: 2

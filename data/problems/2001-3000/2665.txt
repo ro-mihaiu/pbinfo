@@ -1,0 +1,22 @@
+#2665
+Dreptunghi1
+
+Cerința
+Dată fiind o matrice dreptunghiulară cu elemente 0 şi 1 , care este aria maximă a unui dreptunghi format numai din elemente egale cu 1 ?
+
+Restricții
+1 ≤ m, n, z ≤ 10.000 ;
+Perechile lin şi col sunt coordonate corecte în matrice, nu neapărat unice.
+
+Exemplu
+Input: 6 6 3
+4 1
+4 5
+3 3
+Output: 12
+Input: 5 8 4
+5 2
+1 5
+2 5
+5 7
+Output: 16

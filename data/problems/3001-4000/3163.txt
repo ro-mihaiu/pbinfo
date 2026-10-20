@@ -1,0 +1,15 @@
+#3163
+SecvMaxVal
+
+Cerința
+Se dă un șir de n numere naturale și un număr natural val . Determinați lungimea maximă a unei secvențe cu proprietatea că suma numerelor din aceasta este mai mică sau egală cu val .
+
+Restricții
+1 ≤ n ≤ 200.000
+numerele de pe a două linie a fișierului de intrare vor fi mai mici decât 1.000.000.000
+1 ≤ val ≤ 2 63
+
+Exemplu
+Input: 5 11
+4 5 2 3 9
+Output: 3

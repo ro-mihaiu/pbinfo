@@ -1,0 +1,24 @@
+#1462
+Gasti
+
+Cerința
+Arpsod, știe exact cine este prieten cu cine și, fiind singurul băiat bun din oraș, și-a pus următoarele întrebări: 1. Câte găști există în oraș. 2. Dacă ar mai exista O SINGURĂ relație de prietenie pe lângă cele date, în câte moduri ar putea apărea aceasta, astfel încât să se obțină o gașcă cu număr maxim de membri. Pentru că numărul de moduri poate fi foarte mare, Arpsod se mulțumește cu restul împărțirii rezultatului la 666013 .
+Pentru că e prea ocupat să se baricadeze în casă de frica băieților răi, Arpsod vă roagă pe voi să aflați cele două răspunsuri
+
+Restricții
+1 ≤ N ≤ 100.000
+0 ≤ M ≤ 300.000
+Dacă x este prieten cu y atunci și y este prieten cu x
+Toate relațiile de prietenie sunt unice
+La numărarea modurilor de adaugare a unei prietenii, prietenia x y si prietenia y x coincid
+Se garanteaza ca pentru 30% din teste 1 ≤ N ≤ 1000
+Pentru rezolvarea corectă a primei cerințe se acordă 40% din punctajul pe testul respectiv iar pentru rezolvarea corectă a celei de-a doua cerințe se acordă 60% din punctajul pe testul respectiv
+Fișierul de ieșire TREBUIE să conțină DOUĂ valori chiar dacă doriți să rezolvați o singură cerință din cele două
+Arpsod înțelege cel mai bine hit-ul lui Bob Marley: “Bad Boys”
+
+Exemplu
+Input: 5 3
+1 2
+2 3
+3 1
+Output: 3 6

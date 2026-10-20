@@ -1,0 +1,19 @@
+#4326
+Lac_X
+
+Cerința
+Se dă harta unui lac de formă dreptunghiulară, împărțit în n*m zone dispuse sub forma unei matrice cu n linii și m coloane. Zonele pot fi acoperite cu apă, sau pot fi zone de uscat. Zonele de uscat care sunt învecinate pe linie sau pe coloană formează insule sau peninsule. Peninsule conțin cel puțin o zonă de uscat pe marginea lacului (matricei), în timp ce insulele sunt situate în întregime în interiorul lacului. Aria unei zone (fie ea insulă sau peninsulă) este egală cu numărul de valori de 1 din care este formată.
+Cunoscând harta lacului, determinați aria maximă a unei insule și aria maximă a unei peninsule.
+
+Restricții
+1 ≤ n , m ≤ 1000
+
+Exemplu
+Input: 6 9
+1 1 0 0 1 1 1 0 0 
+0 0 1 0 1 0 1 0 0 
+1 1 0 0 0 0 0 0 0 
+1 0 0 0 1 1 1 0 0 
+1 1 1 1 0 1 0 0 0 
+1 0 0 0 0 0 1 1 0
+Output: 4 8

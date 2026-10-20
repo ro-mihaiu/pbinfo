@@ -1,0 +1,14 @@
+#1883
+UEMM
+
+Cerința
+Se dă un șir cu n elemente, numere naturale. Să se afișeze, pentru fiecare element din șir, valoarea din șir aflată după acesta și mai mare decât acesta (Următorul Element Mai Mare). Dacă o asemenea valoare nu există, se va afișa -1 .
+
+Restricții
+1 ≤ n ≤ 1000
+elementele șirului vor fi mai mai mici decât 1.000.000
+
+Exemplu
+Input: 5
+3 4 3 5 1
+Output: 4 5 5 -1 -1

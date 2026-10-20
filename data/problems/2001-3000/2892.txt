@@ -1,0 +1,18 @@
+#2892
+camioane1
+
+Cerința
+Determinați numărul maxim de camioane care pot circula în același timp pe trasee și afișați o modalitate de a distribui camioanele pe trasee pentru a obține acest maxim.
+
+Restricții
+1 ≤ N, M ≤ 100.000
+1 ≤ a i ≤ 10 30 pentru 1 ≤ i ≤ N
+1 ≤ b i ≤ 10 30 pentru 1 ≤ i ≤ M
+Pentru teste în valoare de 70 de puncte 1 ≤ a i , b i ≤ 10 18 dintre care: pentru 10 puncte N = M = 2 și pentru alte 20 puncte N = M și N, M ≤ 10 .
+
+Exemplu
+Input: 6 9
+105 15 6 8 24 77
+79 5 200 66 180 7 101 108 85
+Output: 4
+7 6 0 2 0 4

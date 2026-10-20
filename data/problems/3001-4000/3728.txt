@@ -1,0 +1,31 @@
+#3728
+Campionat2
+
+Cerința
+Avem de răspuns la întrebări de două tipuri: 1. Care echipe ar fi pe locul I dacă toate meciurile restante s-ar termina la egalitate? O echipă este pe locul I dacă are număr maxim de puncte. 2. Care echipe depind strict de propriile rezultate pentru a deveni campioane? O echipă devine campioană (câștigă campionatul) dacă termină cu număr de puncte strict mai mare decât oricare dintre celelalte echipe. Spunem că o echipă depinde strict de propriile rezultate pentru a deveni campioană dacă ea devine campioană câștigând toate meciurile pe care trebuie să le mai joace, indiferent de rezultatele celorlalte meciuri.
+
+Restricții
+2 ≤ N ≤ 1000
+1 ≤ D ≤ 500.000
+Punctajele inițiale ale echipelor sunt numere naturale cel mult egale cu 1000 .
+Regulile de desfășurare a campionatului sunt mai ciudate, nu trebuie să vă puneți problema dacă este posibil ca echipele să aibă șirul dat al punctajelor în urma meciurilor disputate deja (considerăm că până la momentul de față federația a acordat diverse bonusuri și depunctări).
+Dacă între meciurile rămase de jucat este vreunul care apare de mai multe ori (fie sub forma (i, j) fie sub forma (j, i) ), el se va disputa o singură dată.
+Programarea meciurilor s-a făcut în mod indisciplinat, deci este posibil ca unele echipe să mai aibă de jucat mai multe meciuri decât altele, iar unele chiar să nu mai aibă de jucat niciun meci.
+
+Exemplu
+Input: 1
+4
+2 3 2 1
+3
+1 3
+1 2
+3 1
+Output: 1 2
+Input: 2
+4
+1 3 2 1
+3
+1 3
+1 2
+3 1
+Output: 1 2

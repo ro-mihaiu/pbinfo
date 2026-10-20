@@ -1,0 +1,17 @@
+#2999
+submultimi_2
+
+Cerința
+Scrieți un program care citește de la tastatură trei numere naturale n , k și r și afișează:
+câte submulțimi sunt formate dintr-un număr de elemente pare(cardinalul submulțimilor este un număr par)
+media aritmetică a elementelor din submulțimile cu număr de ordine k și r ( 0 < k ≤ r ≤ 100 )
+elementele submulțimii r sub forma: primul, al doilea, ultimul, al treilea, al patrulea, penultimul, etc.
+
+Restricții
+1 ≤ k ≤ r ≤ n ≤ 100
+
+Exemplu
+Input: 10 5 7
+Output: 5
+19
+21 22 27 23 24 26 25

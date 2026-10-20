@@ -1,0 +1,29 @@
+#4405
+unificare
+
+Cerința
+Determinați și afișați: 1. cel mai mare număr de exact k cifre din șirul dat; 2. cel mai mare număr care poate fi obținut prin unificarea a două valori aflate pe poziții alăturate în șirul dat; 3. cel mai mare număr care se poate obține prin unificarea a k valori aflate pe poziții consecutive în șirul dat.
+
+Restricții
+C ∈ {1, 2, 3} ; 1 ≤ n ≤ 100.000 ; 1 ≤ k ≤ n / 2
+0 ≤ a[i] ≤ 100.000.000 , pentru oricare 1 ≤ i ≤ n
+Pentru 20 de puncte, C = 1 și k ≤ 8
+Pentru 5 de puncte, C = 2 și n = 2
+Pentru 10 de puncte, C = 2 și 0 ≤ a[i] ≤ 9 , pentru oricare 1 ≤ i ≤ n
+Pentru 35 de puncte, C = 2 , fără restricții suplimentare
+Pentru 15 de puncte, C = 3 și k ≤ 8
+Pentru 15 de puncte, C = 3 și k ≤ n / 2
+
+Exemplu
+Input: 1
+5 3
+112 223 12334 561 289
+Output: 561
+Input: 2
+5 3
+112 223 12334 561 289
+Output: 6543211
+Input: 3
+5 3
+112 223 12334 561 289
+Output: 9865432211

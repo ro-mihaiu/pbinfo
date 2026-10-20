@@ -1,0 +1,22 @@
+#1266
+cautanrinmatrice
+
+Cerința
+Se dă o matrice cu n linii şi m coloane ce conţine numere naturale astfel încât parcurgând matricea pe prima linie de la stânga la dreapta, pe a doua linie de la dreapta la stânga, pe a treia linie de la stânga la drepta, ş.a.m.d., toate elementele matricei vor forma un şir strict crescător. Fiind date p numere naturale ordonate strict crescător, să se afişeze pentru fiecare numărul liniei şi coloanei unde acesta se găseşte în matrice, respectiv 0 dacă acesta nu se găseşte în matrice.
+
+Restricții
+1 ≤ n , m ≤ 1000
+elementele matricei sunt numere naturale mai mici decât 2.000.000.000
+1 ≤ p ≤ 1.000.000
+cele p numere vor fi mai mici decât 2.000.000.000
+
+Exemplu
+Input: 3 4
+2 5 11 14
+29 27 23 19
+32 38 44 59
+3
+11 24 38
+Output: 1 3
+0
+3 2

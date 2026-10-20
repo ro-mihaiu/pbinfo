@@ -1,0 +1,14 @@
+#1487
+decodificare
+
+Cerința
+Un text s de lungime 2•n , unde n este un număr natural par, este codificat în felul următor: se construieşte o matrice pătratică de dimensiune n•n în care primele n caractere ale lui s se găsesc în ordine, de sus în jos, pe diagonala secundară a matricei, iar următoarele n caractere, în ordine, de sus în jos, pe diagonala principală. Restul caracterelor matricei sunt generate aleator. Matricea este transformată într-un şir de caractere cod(s) prin concatenarea şirurilor de caractere reprezentate de liniile acesteia (în ordine, de sus în jos). Scrieţi un program care, citind din fişierul de intrare şirul de caractere cod(s) , execută operaţia de decodificare descrisă mai sus şi afişează textul iniţial s (care a fost codificat) în fişierul de ieşire.
+
+Restricții
+1 ≤ n ≤ 3000
+Recomandare: pentru tablourile de dimensiuni mari, folosiţi variabile globale.
+
+Exemplu
+Input: 8
+TPQAREDSXMRYIUVE
+Output: ADMITERE

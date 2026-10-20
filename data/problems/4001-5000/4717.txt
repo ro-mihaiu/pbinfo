@@ -1,0 +1,15 @@
+#4717
+vesel3
+
+Cerința
+Un număr se numește vesel dacă este format numai din cifre pare. Un număr se numește trist dacă este format numai din cifre impare. Un număr se numește indiferent dacă nu este nici vesel, nici trist. Dat un număr n indiferent, să se verifice câte cifre trebuie modificate pentru a deveni vesel sau trist. Dacă cerința este 1 se va afișa numărul de cifre ce trebuie modificate pentru a deveni vesel, iar dacă cerința este 2 se va afișa numărul de cifre ce trebuie modificate pentru a deveni trist.
+
+Restricții
+1 ≤ n ≤ 1 000 000 000
+1 ≤ c ≤ 2
+
+Exemplu
+Input: 1 123
+Output: 2
+Input: 2 123
+Output: 1

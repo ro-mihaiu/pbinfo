@@ -1,0 +1,19 @@
+#4263
+ifelse
+
+Cerința
+Studiind instrucțiunea if , Alinutza a aflat că ramura else se asociază celui mai apropiat if neasociat încă. Aprofundând studiul, a extras din fiecare program scris cuvintele if și else . Din neatenție a transcris greșit, pierzând asocierea corectă if else . Ajutați-o voi să aibă scrierea corectă, folosind un număr minim de modificări. O modificare înseamnă să înlocuim un cuvânt if cu else sau un cuvânt else cu if .
+
+Restricții
+în scrierea corectă fiecare if va avea asociat un else ;
+n este un număr natural mai mic sau egal cu 10 ;
+fiecare linie poate avea cel mult 10000 de cuvinte if sau else separate prin cîte un spațiu;
+
+Exemplu
+Input: 3
+if else if if else if
+if else if else
+if else if
+Output: 1
+0
+-1

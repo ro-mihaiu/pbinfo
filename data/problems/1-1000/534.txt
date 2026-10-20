@@ -1,0 +1,15 @@
+#534
+Factorial1
+
+Cerința
+Să se scrie un program care citește numărul natural n și determină valoarea lui n!=1*2*3*...*n .
+
+Restricții
+0 ≤ n ≤ 1000
+prin definiție, 0! = 1
+
+Exemplu
+Input: 4
+Output: 24
+Input: 25
+Output: 15511210043330985984000000

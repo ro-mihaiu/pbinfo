@@ -1,0 +1,28 @@
+#421
+Graf Partial 1
+
+Cerința
+Se dă lista muchiilor unui graf neorientat cu n vârfuri, etichetate de la 1 la n . Din acest graf se elimină toate muchiile cu o extremitate de grad maxim și cealaltă extremitate de grad minim. Să se determine numărul de muchii eliminate și să se afișeze matricea de adiacență a grafului parțial obținut.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ i , j ≤ n
+muchiile se pot repeta în fișierul de intrare
+
+Exemplu
+Input: 6
+1 3
+2 3
+2 4
+4 3
+5 3
+4 5
+3 1
+6 4
+Output: 2
+0 0 0 0 0 0 
+0 0 1 1 0 0 
+0 1 0 1 1 0 
+0 1 1 0 1 0 
+0 0 1 1 0 0 
+0 0 0 0 0 0

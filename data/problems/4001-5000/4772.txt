@@ -1,0 +1,14 @@
+#4772
+catshow
+
+Cerința
+La CatShow sunt înscrise n pisici, iar fiecare trebuie să defileze pe unul din culoarele 1 , 2 , 3 …, în funcție de numărul decadelor complete în ani umani pe care îl are vârsta sa (decadă = grup de 10 ). Pisicile defilează toate odată, la ora anunțată în program, pe unele culoare putând intra mai multe pisici iar alte culoare putând rămâne libere.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+vârstele pisicilor sunt conform realității, exprimate prin numere naturale nenule cu maximum două cifre
+
+Exemplu
+Input: 3
+7 2 4
+Output: 2

@@ -1,0 +1,33 @@
+#1089
+Cladiri1
+
+Cerința
+Scrieţi un program care să citească coordonatele centrului seismului şi intensitatea sa în acel punct, precum şi coordonatele clădirilor şi gradul lor de rezistenţă la cutremur, şi apoi să determine:
+a) numărul N total de clădiri afectate; b) numărul M maxim de clădiri afectate pe un nivel; c) numerele nivelelor cu M clădiri afectate, în ordinea crescătoare a numerelor acestor nivele.
+
+Restricții
+0 ≤ Long, Lat, Grad, Intensitate ≤ 10000
+0 < număr clădiri ≤ 100000
+în centrul seismului se pot afla clădiri;
+nu există mai multe clădiri cu aceleaşi coordonate;
+
+Exemplu
+Input: 12 7 11
+10 9 2
+10 7 3
+13 5 1
+8 11 4
+8 7 6
+15 4 3
+15 9 10
+13 10 1
+16 8 4
+Output: 8
+3
+2 4
+Input: 3 3 3
+1 3 5
+2 4 7
+3 2 9
+Output: 0
+0

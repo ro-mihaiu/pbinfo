@@ -1,0 +1,15 @@
+#3357
+beta
+
+Cerința
+Se dă un număr natural n despre care se cunoaște că este putere de 2 . Considerăm inițial șirul numerelor naturale de la 1 la n așezate în ordine crescătoare. Notăm cu A acest șir. Pornind de la acesta, se construiește un nou șir (să îl notăm cu B ) astfel: Primele n elemente ale lui B sunt chiar elementele șirului A în aceeași ordine. Următoarele n/2 elemente ale lui B sunt ultimele n/2 elemente ale lui A dar scrise în ordine inversă (descrescător). Următoarele n/4 elemente ale lui B sunt ultimele n/4 elemente ale lui A scrise în ordine crescătoare, următoarele n/8 elemente ale lui B sunt ultimele n/8 elemente ale lui A scrise în ordine descrescătoare, și tot așa, cu fiecare putere de 2 (notată p ) ce apare la numitor, luăm ultimele n/p elemente din A și le adăugăm la finalul lui B alternând ordinea de parcurgere, de la o putere la alta conform modului descris mai sus. Se mai să un număr poz . Se cere determinarea numărului de pe poziția poz din șirul B .
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+n se dă putere de 2
+1 ≤ poz ≤ 2.000.000.000
+Pentru 55 de puncte avem n ≤ 100.000
+
+Exemplu
+Input: 8 13
+Output: 7

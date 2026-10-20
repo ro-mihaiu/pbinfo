@@ -1,0 +1,14 @@
+#4385
+stergere2
+
+Cerința
+Se dă un vector cu n elemente numere naturale. Să se șteargă din vector toate elementele egale cu cea mai mică valoare din vector.
+
+Restricții
+0 < n ≤ 1000
+elementele vectorului vor fi mai mici decât 2 30
+
+Exemplu
+Input: 7
+7 1 4 2 1 6 1
+Output: 7 4 2 6

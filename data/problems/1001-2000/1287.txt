@@ -1,0 +1,39 @@
+#1287
+cifregen
+
+Cerința
+Se dau două cifre a b și un număr n . Să se genereze toate numerele cu exact n cifre cuprinse între a și b .
+
+Restricții
+1 ≤ n ≤ 8
+0 < a < b < 10
+
+Exemplu
+Input: 3 5 3
+Output: 333
+334
+335
+343
+344
+345
+353
+354
+355
+433
+434
+435
+443
+444
+445
+453
+454
+455
+533
+534
+535
+543
+544
+545
+553
+554
+555

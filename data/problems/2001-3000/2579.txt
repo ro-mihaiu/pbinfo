@@ -1,0 +1,13 @@
+#2579
+Putere2Interval
+
+Cerința
+Se citesc 3 numere naturale n , a și b . Afișați primele n puteri ale lui 2 , în ordine crescătoare, din intervalul [a,b] . Dacă nu există cel puțin n puteri ale lui 2 în interval, atunci se vor afișa cele care există.
+
+Restricții
+1 ≤ n ≤ 60
+1 ≤ a ≤ b < 2^64
+
+Exemplu
+Input: 2 6 35
+Output: 8 16

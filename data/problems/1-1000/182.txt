@@ -1,0 +1,12 @@
+#182
+cub
+
+Cerința
+Să se scrie un program care determină aria totală şi volumul unui cub pentru care se cunoaşte lungimea laturii.
+
+Restricții
+1 ≤ L ≤ 1000
+
+Exemplu
+Input: 5
+Output: 150 125

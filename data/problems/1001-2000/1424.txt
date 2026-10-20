@@ -1,0 +1,21 @@
+#1424
+Smartphone
+
+Cerința
+Dându-se numărul n de smatphone-uri și performanța fiecăruia, să se determine:
+1. Numărul cu care este inscripționat telefonul dorit de Andrei; 2. Numărul cu care este inscripționat telefonul pe care l-a primit Andrei.
+
+Restricții
+1 ≤ n ≤ 10000
+1 ≤ x ≤ 2000000000 ( x = numărul inscripționat pe telefon)
+Pentru c = 1 se va rezolva doar cerința 1. Pentru c = 2 se va rezolva doar cerința 2.
+
+Exemplu
+Input: 1
+5
+12 345 231 29 100
+Output: 345
+Input: 2
+5
+12 345 231 29 100
+Output: 231

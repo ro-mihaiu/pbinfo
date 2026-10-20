@@ -1,0 +1,31 @@
+#3736
+sir15
+
+Cerința
+Scrieți un program care să determine răspunsul pentru întrebări de următoarele tipuri: 1. Care este cea mai din stânga poziție care conține o valoare strict mai mare decât toate cele din dreapta sa? – întrebare de tipul 1 2. Care sunt pozițiile care conțin valori strict mai mari decât toate cele din stânga lor? – întrebare de tipul 2 3. Dacă fiecărui element aflat între prima și ultima apariție a maximului i-am mări valoarea pentru a ajunge egal cu maximul, care este suma totală a valorilor adăugate? – întrebare de tipul 3
+
+Restricții
+1 ≤ C ≤ 3
+1 ≤ N ≤ 100.000
+Numerele din șirul dat sunt cuprinse între 1 și 10.000 , inclusiv.
+Pentru teste în valoare de 24 de puncte avem C = 1 .
+Pentru teste în valoare de 32 de puncte avem C = 2 .
+Pentru teste în valoare de 44 de puncte avem C = 3 .
+
+Exemplu
+Input: 1
+7
+3 2 2 5 3 5 4
+Output: 6
+Input: 2
+7
+3 2 2 5 3 5 4
+Output: 1 4
+Input: 3
+8
+3 2 2 5 3 1 5 4
+Output: 6
+Input: 3
+5
+3 2 7 5 3
+Output: 0

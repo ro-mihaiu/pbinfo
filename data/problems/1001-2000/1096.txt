@@ -1,0 +1,18 @@
+#1096
+Expresie8
+
+Cerința
+Scrieţi un program care să aşeze două operaţii de înmulţire şi N-3 operaţii de adunare între cele N valori date astfel încât valoarea expresiei obţinute să fie maximă.
+
+Restricții
+4 <= N <= 1000
+Numerele date sunt numere naturale între 1 şi 10000
+
+Exemplu
+Input: 5
+4
+7
+1
+5
+3
+Output: 44

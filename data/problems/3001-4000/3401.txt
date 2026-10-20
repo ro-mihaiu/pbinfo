@@ -1,0 +1,18 @@
+#3401
+spp
+
+Cerința
+Să se calculeze pentru fiecare întrebare p minimum, pentru care relația este satisfăcută.
+
+Restricții
+Q ≤ 100.000
+1 ≤ x ≤ 100.000
+1 ≤ p ≤ 1.000.000.000
+Pentru 30% din teste, Q ≤ 100 sau p ≤ 1000
+
+Exemplu
+Input: 2
+1 5
+10 19
+Output: 4
+12

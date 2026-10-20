@@ -1,0 +1,15 @@
+#2441
+pereche descentrata
+
+Cerința
+O pereche de cuvinte, unul cu număr par de litere, iar celălalt cu număr impar de litere, se numește descentrată dacă se poate obține cuvântul cu număr par de litere din celălalt, prin duplicarea caracterului din mijlocul acestuia.
+Exemplu: perechile crezi și creezi , respectiv a și aa sunt descentrate .
+
+Restricții
+textul are cel mult 100 de caractere
+cuvintele sunt formate din litere mici ale alfabetului englez
+cuvintele sunt separate prin câte un spațiu
+
+Exemplu
+Input: crezi ca poti sa creezi ceva original
+Output: DA

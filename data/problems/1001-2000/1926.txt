@@ -1,0 +1,19 @@
+#1926
+NumarSpecial
+
+Cerința
+Se dă un şir format din n numere naturale . Un număr din şir se numeşte special de ordin k dacă suma cifrelor sale este divizibilă cu 9 , iar cele k numere situate înaintea sa în şir şi cele k numere situate după el în şir sunt prime. Se cere să se afle câte numere speciale de ordin 0 şi câte numere speciale de ordin 1 sunt în şir, precum şi ordinul maxim al unui număr special din şir.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+numerele din şir sunt mai mici decât 1.000.000
+dacă un număr este special de ordin k , atunci el este şi special de ordin k-1 , k-2 ,…, 1 , 0
+prima cerinţă se notează cu 40p , a doua cu 40p şi a treia cu 20p
+pentru a obţine punctaje parţiale trebuie ca în fişierul numarspecial.out să afişaţi trei numere
+
+Exemplu
+Input: 13
+3 72 5 7 2 2 891 2 13 29 5 27 1
+Output: 3
+2
+4

@@ -1,0 +1,13 @@
+#2222
+p10-10
+
+Cerința
+Se dau două numere naturale n , care este putere a lui 10 și k . Să se afișeze n k .
+
+Restricții
+1 ≤ n ≤ 1.000.000.000 , n este putere a lui 10
+0 ≤ k ≤ 1.000
+
+Exemplu
+Input: 100 3
+Output: 1000000

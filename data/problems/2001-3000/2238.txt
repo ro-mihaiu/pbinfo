@@ -1,0 +1,15 @@
+#2238
+cifre005
+
+Cerința
+Se dau n numere naturale. Să se afle pentru câte dintre numere, suma cifrelor împărţită la 9 dă restul r .
+
+Restricții
+1 ≤ n ≤ 200.000
+0 ≤ r ≤ 8
+cele n numere citite vor fi mai mici decât 10 18
+
+Exemplu
+Input: 3 2
+11 200 3310
+Output: 2

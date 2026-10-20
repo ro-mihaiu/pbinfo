@@ -1,0 +1,43 @@
+#4085
+Patratele
+
+Cerința
+Fiind date dimensiunile n şi m ale foii de matematică, precum şi tabloul bidimensional de dimensiune n x m care conține codificarea foii, să se determine:
+numărul total de pătrate existente pe foaia de matematică în desenul realizat conform codificării
+distribuția numărului de pătrate în ordinea strict crescătoare a lungimii laturilor
+unde poate fi trasată încă o linie astfel încât numărul total de pătrate să crească și să devină maxim posibil
+
+Restricții
+Numerotarea liniilor și coloanelor foii de matematică începe de la 1
+Dacă la cerința t=3 se obțin mai multe poziții de trasare a liniei, se va afișa soluția cu indicele liniei minim, iar în caz de egalitate după linii, se va afișa soluția cu indicele coloanei minim. În cazul în care există mai multe posibilități de trasare a unei linii în același pătrat, pozițiile vor fi luate în ordinea SUS , DREAPTA , JOS , STANGA
+1 ≤ n, m ≤ 60
+Pentru 30 de puncte, t = 1
+Pentru 30 de puncte, t = 2
+Pentru 10 puncte, t = 3 și 1 ≤ n, m ≤ 20
+Pentru 30 de puncte, t = 3
+
+Exemplu
+Input: 3 5 1
+9 7 15 13 7
+14 15 11 15 11
+1 3 12 7 14
+Output: 6
+Input: 3 5 2
+9 7 15 13 7
+14 15 11 15 11
+1 3 12 7 14
+Output: 1 3
+2 2
+3 1
+Input: 3 5 3
+9 7 15 13 7
+14 15 11 15 11
+1 3 12 7 14
+Output: 9
+2 5 JOS
+Input: 3 3 3
+9 1 3
+8 0 2
+12 0 0
+Output: 0
+0 0 NU

@@ -1,0 +1,16 @@
+#849
+Paranteze2
+
+Cerința
+Se dă un șir de paranteze rotunde care se închid corect (corect parantezat). Să se determine adâncimea parantezării.
+Pentru un șir de paranteze închise corect S , adâncimea parantezării, D(S) este definită astfel:
+dacă șirul S este vid, D(S)=0
+dacă S=(T) , unde T este un șir de paranteze corect, D(S)=1+D(T)
+dacă S=AB , unde A și B sunt șiruri de paranteze corecte, D(S)=max{D(A),D(B)}
+
+Restricții
+șirul va conține cel mult 254 de paranteze
+
+Exemplu
+Input: ()((()())())
+Output: 3

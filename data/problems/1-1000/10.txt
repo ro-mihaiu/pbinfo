@@ -1,0 +1,12 @@
+#10
+suma-cifrelor
+
+Cerința
+Calculaţi suma cifrelor numărului dat.
+
+Restricții
+numărul citit va fi mai mic decât 2.000.000.000
+
+Exemplu
+Input: 2705
+Output: 14

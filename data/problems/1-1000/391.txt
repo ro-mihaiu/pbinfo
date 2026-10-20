@@ -1,0 +1,17 @@
+#391
+Fractii
+
+Cerința
+Se dau n perechi de numere naturale nenule, fiecare reprezentând câte o fracţie. Calculaţi suma celor n fracţii, aducând rezultatul la forma ireductibilă.
+
+Restricții
+1 ≤ n ≤ 10
+numărătorul şi numitorul fiecărei fracţii sunt numere naturale cu cel mult două cifre
+
+Exemplu
+Input: 4
+1 3
+5 6
+1 2
+4 2
+Output: 11 3

@@ -1,0 +1,18 @@
+#3486
+FactorulX
+
+Cerința
+Numim factorul-x a 2 numere produsul tuturor factorilor primi comuni și diferiți ai celor 2 numere.
+Se dau n numere naturale distincte. Se cere să se afle câți factori-x diferiți pot fi obținuți din toate perechile diferite de numere din șir și să se afișeze aceștia.
+
+Restricții
+1 ≤ n ≤ 1000
+numerele de pe a doua linie a fișierului de intrare vor fi distincte și mai mici decât 2.000.000.000
+dacă 2 numere nu au niciun factor prim comun, atunci, prin convenție se alege ca factorul-x al celor 2 numere să fie 1
+punctajul pe test va fi acordat doar dacă ambele numere afișate sunt corecte
+
+Exemplu
+Input: 9
+2 4 6 7 9 15 18 20 21
+Output: 6
+1 2 3 5 6 7

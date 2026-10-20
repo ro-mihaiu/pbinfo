@@ -1,0 +1,14 @@
+#3568
+maxcadou
+
+Cerința
+Spiridușii lui Moș Crăciun au făcut un număr N de cadouri. Totuși, Moșul este nemulțumit de munca lor, așa că, prin interschimbarea cifrelor numărului N , el poate modifica numărul de cadouri existente. Fiind foarte bătrân și greșind mult la calcule, vă roagă să îl ajutați să determine numărul maxim de cadouri ce se pot obține.
+
+Restricții
+1 ≤ n ≤ 10 17
+interschimbarea cifrelor = schimbarea cifrelor între ele
+Pentru 60% din punctaj n ≤ 10 3
+
+Exemplu
+Input: 1729
+Output: 9721

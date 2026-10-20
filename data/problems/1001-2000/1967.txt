@@ -1,0 +1,18 @@
+#1967
+cmmdc0
+
+Cerința
+Andreea a primit de ziua ei un joc cu cifre de plastic, din fiecare cifră nenulă având 30 de exemplare. Cifrele se aflau într-un săculeţ, iar Andreea s-a gândit să scoată la întâmplare un număr oarecare de cifre din săculeţ, să efectueze produsul lor, şi dacă obţinea un număr mai mic decât 1.000.000.001 pe care nu-l mai obţinuse până atunci, îl scria pe un cartonaş, punând apoi cifrele înapoi în săculeţ. Astfel, după o muncă asiduă, a scris toate numerele posibile pe cartonaşe. Prietena ei, Ana, făcându-i o vizită, a văzut cartonaşele, a luat la întâmplare unul dintre ele şi a calculat cel mai mare divizor comun al numărului de pe cartonaşul luat cu fiecare număr de pe cartonaşele rămase, scriind pe fiecare dintre cartonaşele rămase rezultatul obţinut. Dacă se cunosc numerele aflate pe N cartonaşe dintre cele scrise de Andreea şi Ana, aflaţi numărul de pe cartonaşul luat de Ana.
+
+Restricții
+1 ≤ N ≤ 5.000
+1 ≤ d ≤ x ≤ 1.000.000.000
+Valorile lui x de pe cartonaşe sunt distincte
+Pentru orice test există soluţie
+
+Exemplu
+Input: 3
+8 2
+45 3
+14 2
+Output: 6

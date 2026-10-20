@@ -1,0 +1,8 @@
+#4699
+moderat
+
+Cerința
+Un număr natural nenul n se numește moderat dacă este egal cu produsul a două numere prime, iar acestea sunt consecutive în șirul numerelor prime ( 2 , 3 , 5 , 7 , 11 , 13 , 17 …).
+Subprogramul Moderat are un singur parametru, n , prin care primește un număr natural ( n ∈ [1, 1.000.000.000] ). Subprogramul returnează valoarea 1 dacă n este un număr moderat, sau valoarea 0 în caz contrar. Scrieți definiția completă a subprogramului.
+
+Exemplu

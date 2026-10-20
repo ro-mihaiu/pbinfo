@@ -1,0 +1,14 @@
+#2179
+Max3
+
+Cerința
+Scrieţi un program care să citească numărul natural nenul n şi cele n numere naturale nenule din şir şi care să determine: a) cel mai mare număr m din şirul de numere obţinut în urma aplicării transformării T1 ; b) numărul x obţinut prin alipirea numerele din şirul „maximizat” rezultat în urma aplicării transformării T2 .
+
+Restricții
+• Numărul n este număr natural 2 ≤ n ≤ 3500 ; • Cele n numere din şirul citit sunt numere naturale nenule, fiecare număr din şir având cel mult 3 cifre • Dacă un număr din şir are cel puţin o cifră nulă iar prin aranjarea cifrelor acestui număr se obţine un alt număr care are prima cifră 0 , atunci această cifră se ignoră • Numărul natural x determinat poate avea cel mult 10500 de cifre • Se acordă punctaje parţiale: cerinţa a) 20% din punctaj, cerinţa b) 80% din punctaj
+
+Exemplu
+Input: 9
+34 23 9 43 21 67 121 79 213
+Output: 321
+9977643433232121211

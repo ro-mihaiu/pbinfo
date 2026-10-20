@@ -1,0 +1,12 @@
+#4307
+Monede_X
+
+Cerința
+Scrieți un program care citește de la tastatură un număr natural n și care calculează numărul maxim de turnuri care se pot construi respectând regulile date.
+
+Restricții
+1 ≤ n ≤ 20
+
+Exemplu
+Input: 3
+Output: 7

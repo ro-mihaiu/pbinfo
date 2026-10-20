@@ -1,0 +1,56 @@
+#3550
+liceu
+
+Cerința
+Fiind dat numărul n de linii și de coloane, coordonatele celulelor ocupate de zid și coordonatele scurtăturilor, se cere să se afișeze numărul minim de secunde în care Marciuc reușește să ajungă în clasă, trecând și pe la magazin. Dacă magazinul nu este accesibil sau daca va ajunge în clasă in mai mult de T secunde, atunci el nu va mai merge la magazin și se va afișa numărul minim de secunde în care acesta ajunge de la poziția lui la clasă. De asemenea, se va afișa și traseul folosit.
+
+Restricții
+1 ≤ n ≤ 400
+5 ≤ z ≤ 100000
+0 ≤ s ≤ 15500
+Poziția inițială a lui Marciuc este 1 1 , iar poziția clasei este n n
+Orice traseu de durată minimă este corect. Dacă băiatul poate merge pe la magazin, în traseu trebuie să apară obligatoriu coordonatele magazinului.
+Daca numărul minim de secunde este corect dar traseul nu este curect se acordă 40% din punctaj.
+Pentru teste în valoare de 20 de puncte, s = 0 .
+Pentru teste în valoare de 40 de puncte, n ≤ 100 .
+Marciuc poate trece de mai multe ori prin același loc.
+O celula surtătură poate fi folosită și ca o celula libera.
+Fiecare celulă are un singur tip. Nu există scurtături spre celule blocate; celulele 1 1 , n n și celula pe care este situat magazinul nu sunt blocate.
+O scurtatură poate fi traversată prin ambele sensuri.
+
+Exemplu
+Input: 5 5 2 10
+1 5
+3 3
+4 5
+5 2
+2 2
+3 1 5 4
+4 3 1 2
+4 4
+Output: 6
+1 1
+1 2
+4 3
+4 4
+5 4
+5 5
+Input: 5 5 2 10
+2 1
+3 3
+4 5
+5 2
+2 2
+1 4 4 1
+2 3 3 2
+1 5
+Output: 9
+1 1
+1 2
+1 3
+1 4
+2 4
+3 4
+4 4
+5 4
+5 5

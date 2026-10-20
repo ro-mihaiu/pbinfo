@@ -1,0 +1,36 @@
+#4346
+autoruz
+
+Cerința
+Scrieţi un program care să determine: 1) numărul de mașini din județul Iași, având codul IS . 2) marca mașinii cu prețul maxim. 3) valoarea parcului de autoturisme.
+
+Restricții
+n este număr natural, 1 ≤ n ≤ 1024 ;
+m , șir de maximum 11 caractere alfabetice (litere mari și mici);
+nr , șir de caractere de forma JJCCLLL , unde JJ sunt două litere mari reprezentând județul, CC sunt două cifre, LLL reprezintă o combinație de litere mari.
+p , număr natural cu cel mult 55 de cifre;
+pentru cerința 2, dacă sunt mai multe mărci de autoturisme cu aceeași valoare maximă, atunci se va afișa prima din ordinea lexicografică a mărcii.
+pentru 30% din teste numărul natural p va fi: 0 ≤ p ≤ 1024 .
+
+Exemplu
+Input: 1
+4
+Chevrolet IS88ALN 700
+Volvo VS11QQQ 22222
+BMW IS01ABC 3210
+BMW BT33AAA 22222
+Output: 2
+Input: 2
+4
+Chevrolet IS88ALN 700
+Volvo VS11QQQ 22222
+BMW IS01ABC 3210
+BMW BT33AAA 22222
+Output: BMW
+Input: 3
+4
+Chevrolet IS88ALN 700
+Volvo VS11QQQ 22222
+BMW IS01ABC 3210
+BMW BT33AAA 22222
+Output: 48354

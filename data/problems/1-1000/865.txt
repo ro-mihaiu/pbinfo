@@ -1,0 +1,21 @@
+#865
+Palat
+
+Cerința
+Ileana Cosânzeana se mărită. În consecință a dat sfară-n țară și au venit mai mulți Feți-Frumoși, dornici să primească mâna fetei, împreună cu palatul în care locuiește. Acesta este alcătuit din n*m camere, dispuse sub forma unei matrice cu n linii și m coloane.
+În anumite camere nu se poate intra, deoarece acolo se află zmei răi. În celelalte se poate intra; mai precis se poate trece dintr-o cameră în altă cameră dacă se învecinează pe linie sau pe coloană. În una dintre camere se află Ileana Cosânzeana, iar în alte camere se afla câte un Făt-Frumos. Aceștia pot trece dintr-o cameră în alta, cu condiția să nu intre într-o cameră care conține un zmeu. Trecerea dintr-o cameră în alta a unui Făt-Frumos durează un minut.
+Alegerea celui care va primi mâna Ilenei se face pe principiul primul venit, primul servit (suntem la capitolul Coada ). Mai precis, se va căsători cu Ileana Cosânzeana acel Făt Frumos care ajunge primul la ea. Dacă ajung la Ileana Cosânzeana mai mulți Feți-Frumoși în același timp, deoarece este interzisă poligamia, Ileana se va căsători cu Făt-Frumos care la început era situat cât mai jos (pe o linie cu indice cât mai mare). Dacă mai mulți Feți-Frumoși situați pe aceeași linie ajung în timp minim la Ileana, aceasta se va căsători cu cel care era cât mai la dreapta (pe o coloană cu indice cât mai mare).
+Aflați poziția inițială a lui Făt-Frumos care va primi mâna fetei.
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ m ≤ 1000
+liniile și coloanele sunt numerotate de la 1
+
+Exemplu
+Input: 4 5
+ZF_ZF
+_Z_Z_
+_I___
+_Z_ZF
+Output: 4 5

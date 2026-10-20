@@ -1,0 +1,8 @@
+#1195
+nmult
+
+Cerința
+Să se scrie un program care determină numărul m al mulțimilor de forma {x[1], x[2], … ,x[k]} având ca elemente numere naturale nenule, ce satisfac simultan condițiile: 1 ≤ x[1] < x[2] < ... < x[k] ≤ n x[i+1] - x[i] ≥ w , 1 ≤ i ≤ k - 1
+
+Restricții
+și precizări 1 ≤ n, k, w ≤ 1.000.000 ;

@@ -1,0 +1,14 @@
+#4497
+sume_egale
+
+Cerința
+Se citește un număr natural n ( n<31 ). Determinați în câte moduri se poate partiționa mulțimea {1,2,…,n} în două submulțimi disjuncte A și B astfel încât suma elementelor din submulțimea A să fie egală cu suma elementelor din submulțimea B .
+
+Restricții
+1 < n < 31
+O partiționare de forma {1,2,4,7} U {3,5,6} este identică cu {3,5,6} U {1,2,4,7} și se număra doar una dintre ele.
+Dacă mulțimea nu se poate partiționa conform cerinței, atunci se va afișa 0 . De exemplu, mulțimea {1,2,3,4,5} nu poate fi partiționată conform cerinței.
+
+Exemplu
+Input: 7
+Output: 4

@@ -1,0 +1,15 @@
+#661
+Triunghiuri1
+
+Cerința
+Se dau n numere naturale distincte. Determinaţi câte triunghiuri distincte pot avea lungimile laturilor printre aceste numere.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000
+dacă ați rezolvat probleme #Triunghiuri , ați văzut deja că aici n este mai mare
+
+Exemplu
+Input: 5
+3 5 10 7 6
+Output: 7

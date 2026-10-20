@@ -1,0 +1,18 @@
+#3218
+nrdiv1
+
+Cerința
+Determinați numărul de divizori pentru fiecare număr din secvența dată.
+
+Restricții
+1 ≤ N ≤ 50
+1 ≤ numerele din secvență ≤ 10 13
+
+Exemplu
+Input: 3
+13
+1
+24
+Output: 2
+1
+8

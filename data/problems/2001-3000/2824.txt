@@ -1,0 +1,15 @@
+#2824
+Numere25
+
+Cerința
+Se dă un număr natural n și un șir de numere naturale din intervalul [1,n] ordonate crescător. Să se afișeze în ordine strict crescătoare toate numerele din intervalul [1,n] care nu se găsesc în șirul dat. Dacă nu există asemenea numere se afișează Nu exista .
+
+Restricții
+1 ≤ n ≤ 10 7 ;
+în enunțul original, 1 ≤ n ≤ 10 9 ; aici limitele au fost micșorate, datorită dimensiunilor prea mari ale fișierelor de intrare/ieșire;
+proiectați un algoritm eficient din punctul de vedere al memoriei şi al timpului de executare: se recomandă evitarea utilizării tablourilor sau a altor structuri de date similare.
+
+Exemplu
+Input: 10
+3 4 4 8
+Output: 1 2 5 6 7 9 10

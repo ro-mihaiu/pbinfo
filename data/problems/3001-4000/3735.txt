@@ -1,0 +1,37 @@
+#3735
+concurs3
+
+Cerința
+Cunoscând numărul N de concurenți, echipele din care fac parte precum și punctajele obținute de fiecare dintre ei, să se determine: 1. punctajul maxim obținut de un concurent și numărul de concurenți care au obținut acest punctaj; 2. numărul sau numerele de concurs ale echipelor declarate campioane, în ordine crescătoare, și punctajul obținut de acestea. Dacă toate echipele au punctajul final 0 , se va afișa textul FARA CAMPION .
+
+Restricții
+Se garantează că datele din fișier respectă formatul precizat.
+1 ≤ N ≤ 100.000
+Pentru teste în valoare de 35 de puncte avem C = 1 .
+Pentru teste în valoare de 65 de puncte avem C = 2 .
+
+Exemplu
+Input: 1
+7
+1 1111973
+2 3101971
+1 1999
+2 1010101
+3 1010101
+3 0
+3 1371910
+Output: 31 4
+Input: 2
+5
+1 1111973
+2 3101971
+1 1999
+3 1010101
+3 1371910
+Output: 3 62
+Input: 2
+3
+2 1111973
+3 31019
+1 1010111
+Output: 1 2 3 23

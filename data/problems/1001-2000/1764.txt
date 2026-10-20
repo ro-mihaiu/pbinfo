@@ -1,0 +1,14 @@
+#1764
+Bomboane2
+
+Cerința
+Cunoscându-se numărul N de punguțe și numărul de bomboane din fiecare punguță, să se stabilească numărul de bomboane pe care le va aduna Georgel.
+
+Restricții
+1 ≤ N ≤ 100000
+Numărul bomboane din fiecare punguță este un număr natural nenul mai mic decât 10 12 .
+
+Exemplu
+Input: 6
+180 90 141 55 63 120
+Output: 300

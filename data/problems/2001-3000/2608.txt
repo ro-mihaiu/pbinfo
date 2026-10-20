@@ -1,0 +1,12 @@
+#2608
+biprime
+
+Cerința
+Se dă n un număr natural care este produsul a două numere prime distincte, şi m reprezentând numărul numerelor mai mici sau egale cu n , prime cu n . Aflaţi cele două numere prime din descompunerea lui n .
+
+Restricții
+1 ≤ m ≤ n ≤ 10 25
+
+Exemplu
+Input: 8777 8580
+Output: 67 131

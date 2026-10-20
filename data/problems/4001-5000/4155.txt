@@ -1,0 +1,22 @@
+#4155
+Harta3
+
+Cerința
+Harta unei regiuni este reprezentată într-un sistem de coordonate cartezian și sunt cunoscute coordonatele a n orașe, numerotate de la 1 la n .
+Se dorește construirea unor drumuri bidirecționale între anumite perechi de orașe, astfel încât:
+să se poate ajunge din orice oraș în oricare altul folosind unul sau mai multe dintre drumurile construite;
+suma lungimilor drumurilor construite să fie minimă.
+Să se determine suma lungimilor drumurilor construite.
+
+Restricții
+1 ≤ n ≤ 100 ;
+coordonatele orașelor sunt din intervalul [-200, 200] ;
+lungimea drumului dintre două orașe se determină cu formula \(\sqrt { \left(x_1-x_2\right)^2 + \left( y_1-y_2 \right)^2 } \), unde \( \left( x_1, y1 \right) \) și \( \left( x_2, y_2 \right) \) sunt coordonatele acestora.
+
+Exemplu
+Input: 4
+1 2
+2 -1
+6 5
+4 2
+Output: 9.7678

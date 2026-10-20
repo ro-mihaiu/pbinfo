@@ -1,0 +1,15 @@
+#1844
+Inlocuire0Rec
+
+Cerința
+Scrieţi definiția completă a subprogramului C++ recursiv num care are 2 parametri: n – prin care primește un număr natural și v , prin care primeşte un tablou unidimensional cu n elemente, numere întregi cu cel mult 4 cifre.
+Subprogramul înlocuieşte cu 0 fiecare valoare mai mică sau egală cu prima valoare din tablou. Tabloul modificat este furnizat tot prin parametrul v .
+
+Restricții
+2<n<50
+numele subprogramului cerut este num
+parametrii sunt, în această ordine: n , v
+elementele tabloului v sunt indexate de la zero
+se recomandă realizarea unui subprogram recursiv
+
+Exemplu

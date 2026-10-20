@@ -1,0 +1,30 @@
+#2857
+LOL
+
+Cerința
+Dându-se lista luptelor, să se determine câți bani va avea fiecare jucător la finalul meciului.
+
+Restricții
+1 ≤ n ≤ 200.000
+jucătorii vor fi afișați în ordine alfabetică – vezi exemplul
+primii jucători afișați vor fi cei din echipa A,B,C,D,E – vezi exemplul
+Succes în noul sezon!
+
+Exemplu
+Input: 6
+A b
+A c
+A a
+d A
+e C
+e C
+Output: A 900
+B 0
+C 0
+D 0
+E 0
+a 0
+b 0
+c 0
+d 450
+e 550

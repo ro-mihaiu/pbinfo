@@ -1,0 +1,12 @@
+#2872
+easypow
+
+Cerința
+Se dă numărul natural n . Calculați 2 n , apoi afișați rezultatul în baza 2 .
+
+Restricții
+0 ≤ n ≤ 1000
+
+Exemplu
+Input: 1
+Output: 10

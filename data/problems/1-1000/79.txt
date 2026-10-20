@@ -1,0 +1,15 @@
+#79
+fafisarematrice
+
+Cerința
+Scrieți definiția completă subprogramului C++ afismat care afișează pe ecran elementele unui tablou bidimensional.
+Subprogramul afismat va avea trei parametri: a , un tablou bidimensional cu elemente întregi, n , m , reprezenând numărul de linii, respectiv de coloane ale tabloului a .
+
+Restricții
+0 < n,m ≤ 100
+numele subprogramului cerut este afismat
+parametrii sunt, în această ordine: a , n , m
+indicii de linie și de coloana ai tabloului a încep de la 0 și sunt de tip int ;
+fiecare linie a tabloului se va afișa pe câte o linie a ecranului, elementele de pe o linie fiind separate printr-un spațiu
+
+Exemplu

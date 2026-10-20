@@ -1,0 +1,17 @@
+#4388
+Maremic
+
+Cerința
+Se dă un număr natural \(n\). Afișează cel mai mare număr format din \(n\) cifre nenule care este strict mai mic decât oglinditul său.
+
+Restricții
+Pentru toate testele, se respectă \(2 \le n \le 10^6\)
+Subtask 1, 30p : \(2 \le n \le 6\)
+Subtask 2, 10p : \(2 \le n \le 9\)
+Subtask 3, 30p : \(2 \le n \le 18\)
+Subtask 4, 30p : \(19 \le n \le 10^6\)
+Spre deosebire de concurs, nu se acordă punctaj parțial pentru numere care respectă condiția dar nu sunt maximale
+
+Exemplu
+Input: 2
+Output: 89

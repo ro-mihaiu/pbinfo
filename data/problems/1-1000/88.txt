@@ -1,0 +1,20 @@
+#88
+palindrom
+
+Cerința
+Să se scrie un program care citește mai multe cuvinte și determină despre fiecare dacă este palindrom.
+
+Restricții
+0 < n < 100
+fiecare cuvânt va conține cel mult 20 de caractere.
+
+Exemplu
+Input: 4
+capac
+copil
+aerisirea
+aerare
+Output: 1
+0
+1
+0

@@ -1,0 +1,15 @@
+#1922
+Nmod25
+
+Cerința
+Se dau numerele naturale N și X . Aflați dacă N este divizibil cu 2 X și dacă N este divizibil cu 5 X .
+
+Restricții
+N are cel mult 100.001 cifre
+0 < X < 5
+
+Exemplu
+Input: 3
+50008
+Output: DA
+NU

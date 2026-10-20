@@ -1,0 +1,29 @@
+#4614
+3secv1
+
+Cerința
+Dându-se t șiruri a de n numere, să se găsească lungimea celei mai lungi secvențe care conține maximum 3 numere distincte.
+
+Restricții
+1 ≤ t ≤ 1000
+1 ≤ n ≤ 1.000.000
+Suma lungimilor celor t șiruri nu depășește 1.000.000 .
+1 ≤ a[i] ≤ 1.000.000.000
+
+Exemplu
+Input: 5
+10
+1 4 7 4 2 4 7 3 2 3
+8
+1 2 4 1 5 3 1 2
+10
+6 8 9 1 8 5 4 6 3 2 
+6
+1 1 1 2 2 2
+12
+1 5 8 3 2 5 7 4 9 5 7 4
+Output: 6
+4
+4
+6
+3

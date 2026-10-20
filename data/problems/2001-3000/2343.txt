@@ -1,0 +1,25 @@
+#2343
+bec
+
+Cerința
+Să se scrie un program care să determine: 1. numărul maxim X de copaci ce pot fi luminați de unul dintre cele K becuri 2. poziția (rândul R şi coloana C ) becului cel mai util păstrat de pădurar.
+
+Restricții
+2 ≤ N ≤ 150 ; 2 ≤ M ≤ 150
+1 ≤ K ≤ N ; 1 ≤ K ≤ M ; 1 ≤ K ≤ 100
+1 ≤ A ≤ N ; 1 ≤ B ≤ M ; 1 ≤ C ≤ 10000 pentru fiecare bec
+nu există două becuri asezate pe același rând și aceeași coloanâ
+nu există două becuri cu același consum de energie electrică
+se acordă 50% din punctaj pentru rezolvarea corectă a cerinței 1 și 50% din punctaj pentru rezolvarea corectă a cerinței 2 .
+
+Exemplu
+Input: 1 5 4 3
+2 3 80
+4 2 100
+4 3 70
+Output: 14
+Input: 2 5 4 3
+2 3 80
+4 2 100
+4 3 70
+Output: 4 3

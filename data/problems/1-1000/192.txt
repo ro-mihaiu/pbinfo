@@ -1,0 +1,19 @@
+#192
+sumcolmax
+
+Cerința
+Să se afișeze elementele de pe coloana din matrice cu suma elementelor maximă
+
+Restricții
+1 ≤ n,m ≤ 25
+elementele matricei aparțin intervalului [-1000,1000]
+dacă sunt mai multe coloane cu suma elementelor maximă, se va considera coloana cu indicele mai mic
+elementele coloanei rezultat se afișează de sus în jos
+
+Exemplu
+Input: 4 5
+-2 -9 7 9 -7
+1 -7 -8 -1 4
+8 2 5 7 2
+8 -9 -7 10 -9
+Output: 9 -1 7 10

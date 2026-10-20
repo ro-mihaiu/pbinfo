@@ -1,0 +1,19 @@
+#859
+Rime
+
+Cerința
+Se dă o mulțime cu n cuvinte distincte. Să se împartă în submulțimi de cuvinte cu proprietatea că oricare două cuvinte din aceeași submulțime rimează și oricare două cuvinte care rimează sunt în aceeași submulțime.
+
+Restricții
+1 ≤ n ≤ 500 ;
+cuvintele sunt format din cel mult 20 de litere din alfabetul englez;
+toate liniile din fișierul de intrare conțin cel mult 255 caractere.
+
+Exemplu
+Input: 6
+lopata, baiat parchet 
+concret , bucata; apret
+Output: 3
+apret concret parchet 
+baiat 
+bucata lopata

@@ -1,0 +1,32 @@
+#3755
+SaseG
+
+Cerința
+Acum William își pune următoarele întrebări: 1. Pentru fiecare om, poate acesta să fie unul dintre cei infectați inițial? 2. Pentru fiecare om, poate acesta să fie unul dintre cei neinfectați inițial?
+
+Restricții
+1 ≤ C ≤ 2
+1 ≤ N ≤ 100.000
+0 ≤ M ≤ 100.000
+Se garantează că pentru fiecare test există un scenariu posibil inițial care să ducă la scenariul final.
+Persoanele nu se pot infecta spontan. Acestea pot fi infectate la final doar dacă au fost infectate inițial sau au fost infectate de o altă persoană în urma unei întâlniri.
+
+Exemplu
+Input: 1
+6 5
+1 1 0 0 1 1
+4 3
+3 6
+1 2
+5 6
+3 4
+Output: 110010
+Input: 2
+6 5
+1 1 0 0 1 1
+4 3
+3 6
+1 2
+5 6
+3 4
+Output: 111101

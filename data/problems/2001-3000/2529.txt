@@ -1,0 +1,14 @@
+#2529
+SubsirComunMaximal
+
+Cerința
+Se dau două șiruri de caractere, litere mici ale alfabetului englez. Să se afișeze cel mai lung subșir comun al lor.
+
+Restricții
+1 ≤ lungimea unui șir ≤ 1000
+dacă există mai multe subșiruri comune de lungime maximă, se poate afișa oricare dintre acestea.
+
+Exemplu
+Input: aaabcd
+agahbdert
+Output: aabd

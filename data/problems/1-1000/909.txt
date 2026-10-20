@@ -1,0 +1,12 @@
+#909
+PermCircCif
+
+Cerința
+Să se scrie o funcție C++ care să realizează permutarea circulară spre stânga a cifrelor unui număr natural. Numărul este transmis prin intermediul unui parametru care se întoarce din funcție modificat.
+
+Restricții
+numele funcției va fi perm
+funcția va avea un singur parametru, n
+parametrul n va fi un număr natural nenul mai mic decât 1.000.000.000
+
+Exemplu

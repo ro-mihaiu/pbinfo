@@ -1,0 +1,17 @@
+#3170
+Plata3
+
+Cerința
+Se consideră n tipuri de bancnote, cu valorile v[1] v[2] ... v[n] , ordonate strict crescător. Se cere să se determine o modalitate de a plăti integral o sumă dată S cu bancnotele disponibile, știind că se pot folosi oricâte bancnote de orice tip.
+
+Restricții
+1 ≤ n ≤ 6
+1 ≤ S ≤ 1000
+1 ≤ v[i] ≤ 100
+oricare variantă corectă de plată a sumei S va fi luată în considerare
+pentru toate seturile de date există soluție
+
+Exemplu
+Input: 5 375
+1 5 10 50 100
+Output: 5 2 1 1 3

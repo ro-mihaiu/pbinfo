@@ -1,0 +1,14 @@
+#3335
+caramele
+
+Cerința
+Toffeeman vrea să împartă c caramele la p prichindei astfel încât primul să ia k caramele, al doilea k+1 caramele, al treilea k+2 caramele, şi aşa mai departe. De asemenea, Toffeeman vrea să rămână cu cât mai puţine caramele. Aflaţi cu câte caramele rămâne Toffeeman.
+
+Restricții
+1 ≤ c ≤ 10 18
+1 ≤ p ≤ 10 9
+1 ≤ k ≤ c
+
+Exemplu
+Input: 23 5
+Output: 3

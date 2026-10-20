@@ -1,0 +1,19 @@
+#734
+Miere
+
+Cerința
+Dându-se N , numărul de stupi, cantitatea de miere existentă în fiecare la finalul primei zile, numărul M de zile în care se face colectarea mierii şi capacitatea camionului care trece în fiecare zi, se cere numărul de stupi din care se recoltează miere în fiecare dintre cele M zile.
+
+Restricții
+cantităţile de miere produse de fiecare stup şi capacităţile camioanelor sunt precizate în kilograme.
+1 <= N, M <=50000
+e posibil ca un camion sa nu poată colecta miere din niciun stup sau sa poată colecta mierea din toţi stupii
+suma cantităţilor de miere din toţi stupii din fiecare moment şi capacităţile camioanelor sunt numere naturale strict pozitive şi mai mici decât 2 63 .
+
+Exemplu
+Input: 4
+2 3 1 7
+2
+5 6
+Output: 2
+1

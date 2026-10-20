@@ -1,0 +1,15 @@
+#1863
+NumarareRec
+
+Cerința
+Scrieţi definiția completă a subprogramului recursiv numarare , care primeşte prin parametrul v un tablou unidimensional cu cel mult 100 de elemente întregi, iar prin parametrul n numărul efectiv de elemente din v .
+Subprogramul returnează numărul de perechi de elemente vecine din tabloul v care sunt egale.
+
+Restricții
+0 < n ≤ 100
+numele subprogramului cerut este numarare
+parametrii sunt, în această ordine: v , n
+indicii elementelor tabloului v sunt 0 , 1 ,… , n-1 .
+se recomandă realizarea unui subprogram recursiv
+
+Exemplu

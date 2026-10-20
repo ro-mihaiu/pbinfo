@@ -1,0 +1,17 @@
+#3227
+tramvaie
+
+Cerința
+Știindu-se numărul de zile si numărul de mașini numărate în fiecare zi, calculați pentru fiecare zi numărul de tramvaie numărate de Cebîșev .
+
+Restricții
+0 < x, y, t < 1 000 006
+Se consideră că orice număr este prim cu 1 .
+
+Exemplu
+Input: 2
+2 3
+Output: 1 2
+Input: 3
+102 898 1243
+Output: 32 448 1120

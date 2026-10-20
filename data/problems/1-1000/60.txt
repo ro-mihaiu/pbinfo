@@ -1,0 +1,15 @@
+#60
+primeintreele
+
+Cerința
+Să se scrie un program care să verificе dacă două numere naturale citite de la tastatură sunt prime între ele.
+
+Restricții
+0 < a, b < 1.000.000.000
+două numere naturale sunt prime între ele dacă cel mai mare divizor comun al lor este 1
+
+Exemplu
+Input: 24 36
+Output: NOPIE
+Input: 24 35
+Output: PIE

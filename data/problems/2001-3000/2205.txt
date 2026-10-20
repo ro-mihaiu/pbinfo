@@ -1,0 +1,17 @@
+#2205
+permrep
+
+Cerința
+Să se afișeze în ordine lexicografică toate cuvintele distincte formate cu exact aceleași caractere ca și C .
+
+Restricții
+Cuvântul C va avea lungimea de cel mult 9
+
+Exemplu
+Input: mama
+Output: aamm
+amam
+amma
+maam
+mama
+mmaa

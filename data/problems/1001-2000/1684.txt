@@ -1,0 +1,12 @@
+#1684
+numerepiramidale
+
+Cerința
+Amicul nostru, Zoli, a învățat la scoală despre pătrate perfecte și numere piramidale. Al n -lea număr piramidal înseamnă suma primelor n pătrate perfecte, începând de la 1 . Ajutați-l pe Zoli sa afle primele n numere piramidale.
+
+Restricții
+1 ≤ n ≤ 400
+
+Exemplu
+Input: 3
+Output: 1 5 14

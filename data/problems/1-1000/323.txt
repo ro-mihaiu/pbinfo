@@ -1,0 +1,16 @@
+#323
+PartitiiNumar3
+
+Cerința
+Se dă un număr natural n şi un interval [a,b] . Determinaţi, în ordine lexicografică, toate modalităţile de a-l scrie pe n ca sumă de numere naturale din intervalul [a,b] .
+
+Restricții
+1 ≤ a < b < n ≤ 40
+
+Exemplu
+Input: 10 2 4
+Output: 2 2 2 2 2 
+2 2 2 4 
+2 2 3 3 
+2 4 4 
+3 3 4

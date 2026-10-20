@@ -1,0 +1,26 @@
+#3748
+Secvente5
+
+Cerința
+Scrieți un program care să citească numărul natural N și apoi șirul de N elemente. Programul determină:
+numărul de N-secvențe nebanale , din șir;
+cea mai mare lungime a unei N-secvențe din șir;
+cea mai mare sumă a unei N-secvențe din șir.
+
+Restricții
+2 ≤ N ≤ 100.000
+elementele șirului sunt numere întregi din interval închis [-10 9 , 10 9 ]
+în șirul de numere dat există cel puțin o N-secvență a cărei sumă este un număr natural
+numărul întreg negativ X este divizibil cu numărul natural nenul N dacă restul împărțirii modulului lui X la N este 0 (de exemplu, X=-30 este divizibil cu N=6 , iar X=-45 nu este divizibil cu N=6 )
+Pentru cerințele 1 și 2 se acordă câte 30p , iar pentru cerința 3 se acordă 40p .
+
+Exemplu
+Input: 1 10
+-9 -3 4 -10 -1 -16 18 18 -10 50
+Output: 8
+Input: 2 10
+-9 -3 4 -10 -1 -16 18 18 -10 50
+Output: 9
+Input: 3 10
+-9 -3 4 -10 -1 -16 18 18 -10 50
+Output: 60

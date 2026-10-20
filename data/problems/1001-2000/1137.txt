@@ -1,0 +1,25 @@
+#1137
+Cuart
+
+Cerința
+Scrieţi un program care să citească numărul N reprezentând numărul de cartonașe ale unui copil şi cele 2*N numere de pe cartonașe, în ordine de la stânga la dreapta și care să determine:
+1) Cel mai mare număr de pe cele 2*N catonașe, pentru care nu s-a scris niciun număr pe primul rând (a fost omis), nici pe hârtia Ginei, nici pe hârtia lui Mihai; dacă nu a fost omis niciun număr, se va scrie 0 ; 2) Câștigătorul jocului și afișează numărul 1 dacă a câștigat Gina, 2 pentru Mihai sau 0 în caz de egalitate. 3) Valoarea de câștig a jocului, sau 0 , în caz de egalitate.
+
+Restricții
+1 ≤ N ≤ 1000
+1 ≤ numerele de pe cartonașe < 100.000.000
+Pentru rezolvarea corectă a primei cerinţe se acordă 20 de puncte, pentru rezolvarea corectă a celei de a doua cerințe se acordă 30 de puncte, pentru rezolvarea corectă a celei de a treia cerințe se acordă 50 de puncte.
+
+Exemplu
+Input: 1
+4
+1234 48 284260 75 756 1232515 153 98
+Output: 284260
+Input: 2
+4
+1234 48 284260 75 756 1232515 153 98
+Output: 2
+Input: 3
+1
+154 2181
+Output: 28

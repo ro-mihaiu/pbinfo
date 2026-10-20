@@ -1,0 +1,32 @@
+#4408
+aeriana
+
+Cerința
+Cunoscându-se numărul de zboruri N și datele fiecăruia, înainte de intervenția virusului , să se determine:
+Care este durata maximă a unui zbor, înainte de intervenția virusului.
+Care este durata maximă a unui zbor, după intervenția virusului. Se iau în calcul atât duratele zborurilor inversate (speciale), cât și duratele zborurilor neinversate (nespeciale).
+
+Restricții
+1 ≤ N ≤ 1000
+0 ≤ H1, H2 ≤ 23
+0 ≤ M1, M2 ≤ 59
+0 ≤ A1, A2 ≤ 1.000.000.000
+Un zbor va dura cel puțin un minut și cel mult 23 de ore și 59 de minute
+Pentru 19 puncte, C=1 și toate zborurile se desfășoară în aceeași zi
+Pentru 17 puncte, C=1 , M1=0 , M2=0 pentru toate zborurile
+Pentru 17 puncte, C=1 , fără alte precizări
+Pentru 47 puncte, C=2
+
+Exemplu
+Input: 1
+3
+47 55 0 0 23 59
+1 437 23 43 10 34
+11 457 10 43 10 23
+Output: 23 59
+Input: 2
+3
+47 55 0 0 23 59
+1 437 23 43 10 34
+11 457 10 43 10 23
+Output: 23 40

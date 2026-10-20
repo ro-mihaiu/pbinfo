@@ -1,0 +1,15 @@
+#1408
+Numere10
+
+Cerința
+Se dau n numere naturale. Calculați câte dintre ele sunt prime, cel mai mare și cel mai mic număr prim.
+
+Restricții
+1 ≤ n ≤ 10000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+în fiecare test va exista cel puțin un număr prim
+
+Exemplu
+Input: 9
+7 3 10 17 14 1 9 3 13
+Output: 5 3 17

@@ -1,0 +1,19 @@
+#231
+exista
+
+Cerința
+Scrieţi un program care citeşte un tablou bidimensional cu m linii şi n coloane şi un număr k şi determină suma indicilor coloanelor care conţin valoarea k .
+
+Restricții
+2≤m,n≤10 ;
+valoarea lui k şi elementele matricei sunt numere întregi cu cel mult 4 cifre;
+liniile sunt numerotate de la 1 la m , iar coloanele de la 1 la n .
+
+Exemplu
+Input: 3 5 4
+2 4 5 -8
+1 3 7 9
+4 -2 3 10
+5 4 2 37
+6 7 3 13
+Output: 5

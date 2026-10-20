@@ -1,0 +1,17 @@
+#72
+fsumvec
+
+Cerința
+Scrieţi definiția completă a subprogramului suma , care primeşte prin cei 4 parametri v , n , i , j :
+v , un tablou unidimensional cu maximum 100 de elemente întregi din intervalul [-1000,1000]
+n , un număr natural reprezentând numărul de elemente din tabloul v
+i și j două valori naturale cu 1≤i≤j≤n
+Subprogramul returnează suma elementelor v[1] , v[2] , … , v[i-1] , v[j+1] , … , v[n] .
+
+Restricții
+0 < n ≤ 100
+numele subprogramului cerut este suma
+parametrii sunt, în această ordine: v , n , i , j
+indicii elementelor vectorului v sunt 1 , 2 ,… , n .
+
+Exemplu

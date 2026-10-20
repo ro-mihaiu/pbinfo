@@ -1,0 +1,19 @@
+#1471
+maxdiv
+
+Cerința
+Scrieţi un program care afişează, pentru un şir dat format din n numere naturale numărul de secvenţe maxdiv şi cea mai lungă secvenţă maxdiv.
+
+Restricții
+2 ≤ n ≤ 1000
+2 ≤ x[i] ≤ 1.000.000 , unde x[i] reprezintă un număr din şirul dat
+Şirul de numere conţine cel puţin o secvenţă care începe şi se încheie cu un număr maxdiv
+Pentru cerința 1 se acordă 40% din punctaj, iar pentru cerința 2 se acordă 60% din punctaj.
+
+Exemplu
+Input: 7 1
+22 60 64 125 315 24 150
+Output: 2
+Input: 7 2
+22 60 64 125 315 24 150
+Output: 60 64 125 315

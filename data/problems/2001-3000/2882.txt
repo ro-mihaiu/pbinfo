@@ -1,0 +1,14 @@
+#2882
+No_pals
+
+Cerința
+Gioni este un elev foarte pasionat de informatică și îndrăgește în special problemele care se rezolvă cu tehnica programării dinamice. El are un număr natural n și vrea să știe pentru fiecare numar i de la 1 la n câte numere cu i cifre nu sunt palindromuri. Fiindcă acest număr poate să fie foarte mare, se cere afișarea lui modulo 666013 .
+
+Restricții
+1 ≤ n ≤ 100000
+
+Exemplu
+Input: 3
+Output: 0
+81
+810

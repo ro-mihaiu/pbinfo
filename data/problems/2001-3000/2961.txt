@@ -1,0 +1,42 @@
+#2961
+deminare
+
+Cerința
+Cunoscând numărul de linii L și de coloane C ale terenului minat, numărul de mine M , precum și poziția fiecărei mine, să se scrie un program care determină: 1. linia sau liniile pe care se găsesc cele mai multe mine; 2. numărul minim de mine mutate, pentru ca toate minele de pe teren să fie așezate într-o zonă compactă cu formă dreptunghiulară.
+
+Restricții
+1 ≤ L, C ≤ 500
+1 ≤ M ≤ L • C
+O zonă în care se află mine așezate pe coloane consecutive, pe aceeași linie sau așezate pe linii consecutive, pe aceeași coloană se consideră că formează o zonă compactă de formă dreptunghiulară.
+O zonă compactă de formă dreptunghiulară poate avea numărul de linii ocupate egal cu numărul de coloane ocupate.
+Pentru teste valorând 20 de puncte, avem V = 1
+Pentru teste valorând 70 de puncte, avem V = 2
+Pentru teste valorând 20 de puncte, avem V = 2 și L • C ≤ 10.000
+Pentru teste valorând 32 de puncte, avem V = 2 și L • C ≤ 100.000
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă pentru exemplele din enunț.
+
+Exemplu
+Input: 1
+4 5
+8
+1 2
+1 5
+2 1
+3 2
+3 5
+4 3
+4 4
+4 5
+Output: 4
+Input: 2
+4 5
+8
+1 2
+1 5
+2 1
+3 2
+3 5
+4 3
+4 4
+4 5
+Output: 3

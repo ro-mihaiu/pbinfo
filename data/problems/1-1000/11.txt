@@ -1,0 +1,12 @@
+#11
+vocale
+
+Cerința
+Să se afişeze şirul obţinut prin înlocuirea fiecărei vocale cu litera mare corespunzătoare.
+
+Restricții
+se consideră vocale literele din multimea {a,e,i,o,u}
+
+Exemplu
+Input: romancier
+Output: rOmAncIEr

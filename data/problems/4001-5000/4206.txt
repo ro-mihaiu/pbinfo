@@ -1,0 +1,12 @@
+#4206
+CifDiv3Rec
+
+Cerința
+Să se scrie o funcție C++ recursivă care să returneze numărul cifrelor divizibile cu 3 ale unui număr natural n transmis ca parametru.
+
+Restricții
+numele funcției va fi CifDiv3Rec
+funcția va avea un parametru reprezentând numărul dat n
+0 ≤ n ≤ 2.000.000.000
+
+Exemplu

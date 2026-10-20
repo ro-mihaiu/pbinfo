@@ -1,0 +1,15 @@
+#3116
+cifrab
+
+Cerința
+Dându-se un număr printr-un șir de caractere format doar din litere mari și cifre, să se determine cea mai mică bază de numerație posibilă, precum și cifra de control a acestui număr în acea bază.
+
+Restricții
+numărul are maximum 100 000 de cifre
+baza este cuprinsă între 2 și 36
+20% din teste va avea baza mai mică sau egală cu 10
+
+Exemplu
+Input: 349
+Output: 10
+7

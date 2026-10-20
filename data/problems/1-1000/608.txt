@@ -1,0 +1,28 @@
+#608
+nkx
+
+Cerința
+Se dau două numere naturale n și k , cu proprietatea că 2*k < n . Să se afişeze pe ecran elementele unei matrice pătratice de dimensiune n , formată din valorile 1 şi 2 , construită astfel:
+valorile de pe diagonala principală sunt 1 ;
+valorile de pe k pseudodiagonale paralele cu diagonala principală şi situate imediat deasupra acesteia sunt 1 ;
+valorile de pe k pseudodiagonale paralele cu diagonala principală şi situate imediat sub aceasta sunt 1 ;
+valorile de pe diagonala secundară sunt 1 ;
+valorile de pe k pseudodiagonale paralele cu diagonala secundară şi situate imediat deasupra acesteia sunt 1 ;
+valorile de pe k pseudodiagonale paralele cu diagonala secundară şi situate imediat sub aceasta sunt 1 ;
+restul valorilor din matrice sunt 2 .
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 10 1
+Output: 1 1 2 2 2 2 2 2 1 1 
+1 1 1 2 2 2 2 1 1 1 
+2 1 1 1 2 2 1 1 1 2 
+2 2 1 1 1 1 1 1 2 2 
+2 2 2 1 1 1 1 2 2 2 
+2 2 2 1 1 1 1 2 2 2 
+2 2 1 1 1 1 1 1 2 2 
+2 1 1 1 2 2 1 1 1 2 
+1 1 1 2 2 2 2 1 1 1 
+1 1 2 2 2 2 2 2 1 1

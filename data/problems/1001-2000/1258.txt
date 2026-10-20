@@ -1,0 +1,11 @@
+#1258
+scadere2
+
+Cerința
+Se dau două numere naturale. Calculați diferenţa lor.
+
+Restricții
+cele două numere sunt mai mici decât 2.000.000.000
+se va scădea al doilea număr din primul
+
+Exemplu

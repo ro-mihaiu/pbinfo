@@ -1,0 +1,16 @@
+#564
+Succes
+
+Cerința
+Gigel a aflat care este este secretul succesului în afacerile cu pinguini: să cumperi ieftin și să vinzi scump . El a reușit să afle care vor fi prețurile de vânzare a pinguinilor pe o perioadă de n zile. În plus, Gigel dispune de o sumă de bani S , și este hotărât să procedeze astfel: într-o zi va cumpăra numărul maxim posibil de pinguini la prețul din ziua respectivă, iar în altă zi îi va vinde pe toți pe prețul din acea zi. Determinați suma maximă pe care o poate deține Gigel după efectuarea acestor tranzacții.
+
+Restricții
+1 ≤ n ≤ 1000
+atât S , cât și cele n numere citite vor fi nenule și mai mici decât 10.000 ;
+toate prețurile sunt exprimate în aceleași unități monetare;
+dacă Gigel nu poate obține profit, interesul său este să minimizeze paguba.
+
+Exemplu
+Input: 5 11
+3 2 3 5 1
+Output: 26

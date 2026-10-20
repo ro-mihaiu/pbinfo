@@ -1,0 +1,12 @@
+#3070
+dreptunghi
+
+Cerința
+Se citesc două numere a și b reprezentând lungimile laturilor unui dreptunghi. Pentru dreptunghiul dat, să se calculeze: perimetrul P , aria A și pătratul lungimii diagonalei D .
+
+Restricții
+numerele a , b , P , A și D sunt numere naturale nenule
+
+Exemplu
+Input: 3 4
+Output: 14 12 25

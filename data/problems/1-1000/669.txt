@@ -1,0 +1,31 @@
+#669
+lincol
+
+Cerința
+Se dă o matrice cu n linii și m coloane și elemente numere naturale. Se cere să se determine suma elementelor de pe anumite linii și coloane, precizate.
+
+Restricții
+1 ≤ n , m ≤ 100
+elementele matricei sunt numere naturale mai mici decât 1.000.000
+1 ≤ p ≤ 100
+liniile sunt numerotate de la 1 la n , iar coloanele de la 1 la m
+
+Exemplu
+Input: 4 5
+4 7 5 4 2
+1 1 2 3 4
+2 2 0 0 3
+4 8 2 6 1
+6
+C 2
+L 1
+C 3
+C 5
+L 4
+C 3
+Output: 18
+22
+9
+10
+21
+9

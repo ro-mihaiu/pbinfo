@@ -1,0 +1,15 @@
+#1824
+Pitic
+
+Cerința
+Sa se afișeze în câte moduri poate Carmen sa ajungă la Tulosba.
+
+Restricții
+Carmen nu poate sa coboare sub nivelul 1
+Carmen nu poate sa urce mai sus de nivelul n pentru ca o sa fie spart de copii
+1 ≤ n ≤ 43
+1 ≤ m ≤ 43
+
+Exemplu
+Input: 4 4
+Output: 4

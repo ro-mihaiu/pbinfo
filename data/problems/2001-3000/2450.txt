@@ -1,0 +1,35 @@
+#2450
+ramen
+
+Cerința
+Pentru a evalua impactul acestui obicei asupra timpilor de așteptare, ai obținut date despre toate comenzile date în ziua curentă. Îți propui să afli, pentru fiecare comandă următoarea valoare: dacă respectiva comandă este a NR -a făcută de clientul respectiv, care este secunda la care clientul în cauză va mânca pentru a NR -a oară?
+
+Restricții
+1 ≤ N ≤ 100.000
+0 ≤ D, T[i] ≤ 500.000.000 , pentru orice 1 ≤ i ≤ N
+1 ≤ P[i] ≤ 500.000.000 , pentru orice 1 ≤ i ≤ N
+Se garantează că T[i] < T[i+1] , pentru orice 1 ≤ i < N
+Pentru teste în valoare totală de 22 de puncte, se garantează în plus faţă de restricţiile generale că N ≤ 2000 şi D, T[i], P[i] ≤ 5000
+Pentru alte teste în valoare totală de 25 de puncte, se garantează în plus faţă de restricţiile generale că N ≤ 2000 .
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă 10 puncte pentru exemplele din enunț.
+
+Exemplu
+Input: 2 2
+10 8
+16 6
+Output: 26
+18
+Input: 3 2
+5 4
+6 4
+7 3
+Output: 12
+13
+10
+Input: 3 0
+0 6
+3 3
+4 5
+Output: 10
+3
+8

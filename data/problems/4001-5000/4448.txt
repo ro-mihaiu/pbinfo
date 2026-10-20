@@ -1,0 +1,21 @@
+#4448
+legos
+
+Cerința
+Cunoscându-se numărul de piese P pe care le are, Dorel vrea să știe: 1) Numărul de piese din care poate să construiască cea mai mare fundație. O fundație are forma unui pătrat și are latura formată din cel puțin 3 piese (ca în figura 1). 2) Numărul de piese din cel mai înalt turn care se poate construi. Un turn din piese de lego Dorel îl construiește astfel: la început va face un pătrat pe care îl numește parter (sau etajul 0). Peste acesta va pune 4 piese în colțuri pe care le numește piloni. Apoi, peste piloni, va pune un nou pătrat pe care îl numește etaj 1. Peste acesta va pune din nou piloni, peste care va pune etajul 2. Și va continua, până la ultimul etaj. Peste ultimul etaj nu pune piloni. Toate etajele construite au același număr de piese și au forma de pătrat cu latura de cel puțin 3 piese. Înălțimea unui turn este dată de numărul de etaje. Pilonii nu sunt considerați etaje, aceștia fac parte din structura turnului. Dacă se pot construi mai multe turnuri având aceeași înălțime, atunci Dorel vrea să știe numărul de piese al turnului cu cele mai multe piese.(Vezi figura 2). 3) Numărul de terenuri de legoball care se pot construi folosind toate piesele de lego. Un teren de legoball are forma unui dreptunghi în care fiecare latură este formată din cel puțin 3 piese (ca în figura 3).
+
+Restricții
+1 ≤ C ≤ 3
+1 ≤ P ≤ 1.000.000.000
+Pentru cerința 2 un turn poate fi format doar din parter, dar nu poate fi format din parter și piloni (deoarece ar avea piloni peste ultimul etaj).
+Pentru 31 de puncte, C = 1
+Pentru 33 de puncte, C = 2
+Pentru 36 de puncte, C = 3
+
+Exemplu
+Input: 1 29
+Output: 25
+Input: 2 19
+Output: 16
+Input: 3 18
+Output: 2

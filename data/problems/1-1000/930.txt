@@ -1,0 +1,13 @@
+#930
+IntersectieSegmente
+
+Cerința
+Se dau două segmente în plan, specificate prin coordonatele capetelor. Să se verifice dacă au cel puțin un punct comun.
+
+Restricții
+Numerele din fișierul de intrare sunt întregi cuprinse între -1001 și 1001 .
+Ambele segmente au lungimea nenulă.
+
+Exemplu
+Input: -1 -1 1 1 -1 1 1 -1
+Output: DA

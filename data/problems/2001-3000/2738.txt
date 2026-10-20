@@ -1,0 +1,13 @@
+#2738
+DistLungMax
+
+Cerința
+Se dă un șir de caractere care conține cuvinte formate din litere mici ale alfabetului englez și separate printr-un singur spațiu. Să se determine cel mai lung cuvânt care are toate literele distincte. Dacă nu există niciun cuvânt cu toate literele distincte se va afișa -1 .
+
+Restricții
+șirul dat conține maximum 255 de caractere
+dacă există mai multe cuvinte cu toate literele distincte de lungime maximă se va afișa cel mai din stânga
+
+Exemplu
+Input: abcabcd abcdef ab
+Output: abcdef

@@ -1,0 +1,12 @@
+#3665
+cmmcp
+
+Cerința
+Se dă un număr natural n . Determinaţi cea mai mare cifră pară a sa. Dacă numărul nu are cifre pare se va afişa numărul 10 .
+
+Restricții
+0 ≤ n ≤ 1.000.000.000.000
+
+Exemplu
+Input: 1440
+Output: 4

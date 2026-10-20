@@ -1,0 +1,21 @@
+#978
+coliniare
+
+Cerința
+Se dau n puncte distincte în plan prin coordonatele lor. Determinați numărul maxim de puncte coliniare.
+
+Restricții
+3 ≤ n ≤ 1000
+coordonatele celor n puncte sunt numere naturale mai mici decât 50 .
+nu există două puncte identice printre cele date.
+
+Exemplu
+Input: 7
+1 2
+2 4
+3 6
+1 4
+2 5
+4 7
+6 1
+Output: 4

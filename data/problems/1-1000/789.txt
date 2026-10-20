@@ -1,0 +1,18 @@
+#789
+max2ap
+
+Cerința
+Se dă o matrice cu n linii şi m coloane şi elemente numere naturale. Să se determine cea mai mare valoare care apare în matrice de cel puțin două ori.
+
+Restricții
+1 ≤ m,n ≤ 100
+elementele matricei vor fi mai mici decât 1.000.000
+dacă în matrice nu se repeta nici o valoare se va afișa IMPOSIBIL
+
+Exemplu
+Input: 4 6
+4 70 15 23 38 9 
+1 8 23 23 14 18 
+17 15 13 38 12 15 
+3 18 8 23 12 5
+Output: 38

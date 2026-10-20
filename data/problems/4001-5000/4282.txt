@@ -1,0 +1,18 @@
+#4282
+NrCompConexe1
+
+Cerința
+Dându-se un graf neorientat cu n noduri și m muchii, să se determine numărul componentelor conexe.
+
+Restricții
+3 ≤ n ≤ 30.000
+1 ≤ m ≤ min(n * (n - 1) / 2, 100.000)
+
+Exemplu
+Input: 7 5
+3 1
+4 5
+5 6
+3 2
+1 2
+Output: 3

@@ -1,0 +1,20 @@
+#3140
+a1z26
+
+Cerința
+Se dă un număr p : 1. Dacă p = 1 , se dă un șir de caractere s format din litere mari. Să se afișeze numărul de ordine al caracterelor separate printr-un spațiu. 2. Dacă p = 2 , se dă un număr n și n numere cuprinse între 1 și 26 . Să se afișeze șirul corespunzător numerelor.
+
+Restricții
+1 ≤ p ≤ 2
+1 ≤ lungimea șirului s ≤ 1.000.000
+1 ≤ n ≤ 1.000.000
+1 ≤ numerele de pe a doua linie ≤ 26
+
+Exemplu
+Input: 1
+ANAAREMERE
+Output: 1 14 1 1 18 5 13 5 18 5
+Input: 2
+10
+1 14 1 1 18 5 13 5 18 5
+Output: ANAAREMERE

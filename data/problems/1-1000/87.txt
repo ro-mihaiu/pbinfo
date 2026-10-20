@@ -1,0 +1,17 @@
+#87
+lungimemaxima
+
+Cerința
+Să se scrie un program care citește mai multe propoziții și determină propoziția de lungime maximă.
+
+Restricții
+0<n<100
+fiecare propoziție va conține cel mult 255 de caractere
+
+Exemplu
+Input: 4
+somnoroase pasarele
+pe la cuiburi se aduna
+se ascund in ramurele
+noapte buna
+Output: pe la cuiburi se aduna

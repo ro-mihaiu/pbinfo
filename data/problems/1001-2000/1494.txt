@@ -1,0 +1,21 @@
+#1494
+s_p_c
+
+Cerința
+Scrieţi un program care citeşte din fişierul de intrare şiruri de caractere de forma cuvânt#tip , unde cuvânt este un şir oarecare de litere iar tip poate fi una din literele S , P sau C , semnificaţia fiind subiect , predicat sau complement . Programul va afişa, în ordine lexicografică (după subiect, predicat, complement), toate propoziţiile având structura subiect predicat complement ce pot fi formate cu ajutorul cuvintelor citite.
+
+Restricții
+sunt cel mult 100 de subiecte, 100 de predicate şi 100 de complemente
+fiecare cuvânt are cel mult 40 de caractere, litere mari şi mici ale alfabetului englez
+în fişier există cel puţin un subiect, cel puţin un predicat şi cel puţin un complement.
+
+Exemplu
+Input: Ion#S Vasile#S alearga#P repede#C scrie#P incet#C
+Output: Ion alearga incet
+Ion alearga repede
+Ion scrie incet
+Ion scrie repede
+Vasile alearga incet
+Vasile alearga repede
+Vasile scrie incet
+Vasile scrie repede

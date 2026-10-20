@@ -1,0 +1,11 @@
+#2611
+raza
+
+Cerința
+Avem la dispoziție un chenar dreptunghiular format din oglinzi. O rază de lumină pornește din colțul stânga jos al dreptunghiului sub un unghi de 45 de grade față de latura de jos a dreptunghiului și lovește latura de sus sau latura din dreapta. Aici se reflectă (pornește spre o altă latură tot sub un unghi de 45 de grade față de latura de care s-a lovit). Își continuă drumul până când ajunge într-un colț al dreptunghiului.
+
+Restricții
+1 ≤ a ≤ 2000000000
+1 ≤ b ≤ 2000000000
+
+Exemplu

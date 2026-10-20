@@ -1,0 +1,38 @@
+#3386
+serbare3
+
+Cerința
+Scrieţi un program care să determine: 1. Numărul maxim de copii cu aceeași înălțime. 2. O posibilă distribuire a înălțimilor sub forma unui brad. 3. Lista cu prenumele copiilor conform distribuirii înălțimilor determinată anterior.
+
+Restricții
+0 < N, X, Y < 101 ; X ≥ Y
+0 < înălțime < 151 , numere naturale.
+prenumele este un cuvânt cu cel mult 50 de caractere alfabetice.
+NU există doi copii cu același prenume.
+Dacă sunt mai multe soluții se va afișa prima din punct de vedere lexicografic.
+
+Exemplu
+Input: 1
+5
+Ionel 96
+Vasile 88
+Gigel 66
+Mara 77
+Ana 77
+Output: 2
+Input: 2
+5
+Ionel 96
+Vasile 88
+Gigel 66
+Mara 77
+Ana 77
+Output: 66 77 77 96 88
+Input: 3
+5
+Ionel 96
+Vasile 88
+Gigel 66
+Mara 77
+Ana 77
+Output: Gigel Ana Mara Ionel Vasile

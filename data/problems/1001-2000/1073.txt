@@ -1,0 +1,17 @@
+#1073
+Numerus
+
+Cerința
+Deduceţi regula după care se completează linia k a grilei şi scrieţi un program care să citească numerele naturale k şi n şi care să determine:
+a) numerele naturale de pe linia k , vizualizate de la stânga la dreapta; b) linia pe care se află în grilă numărul natural n ; c) coloana sau coloanele pe care se află în grilă numărul natural n .
+
+Restricții
+Numerele k şi n sunt naturale nenule
+5 ≤ k < 200000000
+1 ≤ n ≤ 999999999
+
+Exemplu
+Input: 10 40
+Output: 50 50 49 48 47 46
+8
+A B

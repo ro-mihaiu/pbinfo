@@ -1,0 +1,26 @@
+#2845
+Wildfire1
+
+Cerința
+Știind x și y , coordonatele inițiale ale focului și n și m , dimensiunile pădurii, ajutați pădurarii să determine numărul de zile după care va fi afectat fiecare copac al pădurii.
+
+Restricții
+1 ≤ x ≤ n ≤ 1.000
+1 ≤ y ≤ m ≤ 1.000
+
+Exemplu
+Input: 2 2 4 5
+Output: 3 2 3 4 5
+2 1 2 3 4
+3 2 3 4 5
+4 3 4 5 6
+Input: 3 3 9 9
+Output: 5 4 3 4 5 6 7 8 9
+4 3 2 3 4 5 6 7 8
+3 2 1 2 3 4 5 6 7
+4 3 2 3 4 5 6 7 8
+5 4 3 4 5 6 7 8 9
+6 5 4 5 6 7 8 9 10
+7 6 5 6 7 8 9 10 11
+8 7 6 7 8 9 10 11 12
+9 8 7 8 9 10 11 12 13

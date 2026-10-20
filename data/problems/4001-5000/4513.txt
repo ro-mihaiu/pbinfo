@@ -1,0 +1,17 @@
+#4513
+HarapAlb1
+
+Cerința
+Scrieți un program care citește de la tastatură numărul N dat de Sfânta Miercuri și afișează pe ecran numărul calului cu care va pleca Harap Alb!
+Cerința – versiunea scurtă Se citește de la tastatură un număr natural cu cel mult trei cifre. Să se afișeze pe ecran o valoare, astfel: dacă numărul are o cifră se va afișa pătratul său, dacă numărul are două cifre se va afișa suma cifrelor, iar dacă are trei cifre se va afișa cifra din mijloc.
+
+Restricții
+Numărul citit este cuprins între 0 și 999 , inclusiv.
+
+Exemplu
+Input: 7
+Output: 49
+Input: 75
+Output: 12
+Input: 475
+Output: 7

@@ -1,0 +1,12 @@
+#32
+eliminarecifre
+
+Cerința
+Să se scrie definiția completă a funcției C++ P care primește prin intermediul parametrului n un număr natural cu cel mult 9 cifre, iar prin intermediul parametrului c o cifră. Funcția întoarce tot prin intermediul parametrului n numărul obținut prin eliminarea tuturor aparițiilor cifrei c .
+
+Restricții
+numele funcției va fi P
+funcția va avea doi parametri: primul parametru este n , iar al doilea este c
+dacă după eliminare numărul obținut nu mai conține nici o cifră sau conține doar cifre 0 , rezultatul va fi 0
+
+Exemplu

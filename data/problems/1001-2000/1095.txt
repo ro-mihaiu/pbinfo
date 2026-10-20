@@ -1,0 +1,13 @@
+#1095
+Joc4
+
+Cerința
+Cunoscând valorile asociate celulelor tabloului, scrieţi un program care determină punctajul maxim care poate fi obţinut în acest joc.
+
+Restricții
+2 ≤ n ≤ 5000
+2 ≤ k ≤ 10 , k ≤ n
+-1000 ≤ v ≤ 1000
+Pentru 40% dintre cazurile de test n ≤ 40
+
+Exemplu

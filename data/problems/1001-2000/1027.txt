@@ -1,0 +1,14 @@
+#1027
+Cool
+
+Cerința
+Fiind dat un şir de N numere naturale nenule se cer următoarele: 1. Pentru o valoare dată K să se verifice dacă secvența A 1 , A 2 ,…, A K este secvență cool. Dacă secvența este cool, atunci se va afișa cea mai mare valoare ce aparține secvenței. Dacă secvența nu este cool, atunci se va afișa numărul elementelor distincte din secvența A 1 , A 2 ,…, A K , adică numărul elementelor care apar o singură dată. 2. Lungimea maximă a unei secvențe cool și numărul secvențelor cool de lungime maximă.
+
+Restricții
+1 ≤ N ≤ 5000
+2 ≤ K ≤ 1000
+1 ≤ A[i] ≤ 1000, 1 ≤ i ≤ N
+Pentru 30% dintre teste N ≤ 1000
+Pentru rezolvarea primei cerinţe se acordă 20% din punctaj, iar pentru cerința a doua se acordă 80% din punctaj.
+
+Exemplu

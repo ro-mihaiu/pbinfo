@@ -1,0 +1,12 @@
+#1308
+cifrecomune
+
+Cerința
+Se citesc două numere naturale n m cu exact două cifre fiecare. Să se decidă dacă cele două numere au cifre comune.
+
+Restricții
+10 ≤ n,m ≤ 99
+
+Exemplu
+Input: 27 62
+Output: da

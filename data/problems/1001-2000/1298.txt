@@ -1,0 +1,12 @@
+#1298
+Suma34
+
+Cerința
+Fiind dat un număr natural n , se cere să se calculeze suma cifrelor numărului care reprezintă numărul de numere de n cifre formate cu cifrele 3 şi 4 .
+
+Restricții
+1 ≤ n ≤ 100.000
+
+Exemplu
+Input: 4
+Output: 7

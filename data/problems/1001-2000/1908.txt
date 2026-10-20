@@ -1,0 +1,12 @@
+#1908
+Fractii_Ired
+
+Cerința
+Dându-se şirul de fracţii 1/N, 2/N, 3/N, ...,N/N , să se afle câte fracţii sunt ireductibile.
+
+Restricții
+1 ≤ n ≤ 2.000.000.022
+
+Exemplu
+Input: 4
+Output: 2

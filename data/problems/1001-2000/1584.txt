@@ -1,0 +1,24 @@
+#1584
+spirala2
+
+Cerința
+Se consideră un tablou bidimensional format din n linii și n coloane, completat cu elemente de la 1 la n 2 . Completarea acestuia se face pornind din colțul din stânga sus la cel din dreapta sus, de la cel din dreapta sus la cel din dreapta jos ș.a. (exemplu mai jos).
+Scrieți un program care citește un număr natural n și determină:
+Suma resturilor împărțirii la 100003 a elementelor de pe linia k și de pe coloana k ; elementul care se află la intersecția acestora nu se va adăuga în sumă.
+Matricea formată prin inversarea coloanei k cu linia k .
+
+Restricții
+2 ≤ n ≤ 500
+1 ≤ k ≤ n
+Pentru rezolvarea corectă a primei cerinţe se acordă 30 de puncte, iar pentru cerința a doua se acordă 70 de puncte.
+
+Exemplu
+Input: 1
+3 2
+Output: 20
+Input: 2
+4 2
+Output: 1 12 3 4
+2 13 16 9
+11 14 15 6
+10 5 8 7

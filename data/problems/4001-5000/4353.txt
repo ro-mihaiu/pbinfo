@@ -1,0 +1,17 @@
+#4353
+CB_par_impar
+
+Cerința
+Se dă un vector x cu n elemente numere naturale, ordonate crescător, și un vector y cu m elemente, de asemenea numere naturale. Determinați câte dintre elementele pare ale vectorului y apar în prima jumătate a vectorului x și câte dintre elementele impare ale vectorului y apar în cea de-a doua jumătate a vectorului x . Vectorul x are număr par de elemente.
+
+Restricții
+1 ≤ n ≤ 100000 și este par
+1 ≤ m ≤ 200000
+elementele celor 2 vectori vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 8
+1 2 5 6 9 10 14 15
+8
+8 14 9 14 16 15 4 2
+Output: 1 2

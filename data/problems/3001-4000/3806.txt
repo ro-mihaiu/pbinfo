@@ -1,0 +1,14 @@
+#3806
+Mediane
+
+Cerința
+Se dau lungimile laturilor unui triunghi ABC . Aflați lungimile medianelor duse din A,B si C .
+
+Restricții
+1 ≤ a,b,c ≤ 1000
+
+Exemplu
+Input: 3 4 5
+Output: 4.27 3.60 2.50
+Input: 4 5 10
+Output: Imposibil

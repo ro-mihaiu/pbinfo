@@ -1,0 +1,15 @@
+#173
+medie1
+
+Cerința
+Să se scrie un program care citeşte de la tastatură cele trei note ale unui elev și determină media lor.
+
+Restricții
+cele trei numere citite sunt mai mari decât 0 și mai mici sau egale cu 10
+media se va afișa cu exact două zecimale, fără rotunjire
+
+Exemplu
+Input: 9 9 7
+Output: 8.33
+Input: 9 8 7
+Output: 8.00

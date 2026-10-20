@@ -1,0 +1,24 @@
+#602
+Regine
+
+Cerința
+Pe o tablă de șah de dimensiune n se află m regine. O regină atacă o altă regină dacă cele două se află pe aceeași linie, coloană sau diagonală și între ele nu se află alte regine. Determinați numărul maxim p de regine care sunt atacate de o aceeași regină și numărul q de regine care atacă p alte regine.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ m ≤ 500
+1 ≤ i,j ≤ n
+pe tablă nu există două regine suprapuse
+
+Exemplu
+Input: 8 9
+1 7
+2 2 
+2 8
+4 1
+5 2
+5 5
+5 8
+7 2
+7 7
+Output: 5 1

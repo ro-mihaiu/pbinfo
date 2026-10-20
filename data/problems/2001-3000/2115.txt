@@ -1,0 +1,27 @@
+#2115
+Prajituri
+
+Cerința
+Scrieţi un program care să citească numerele naturale N şi M (reprezentând numărul de straturi din prăjitura Ilincăi respectiv Dariei) şi a1,a2,...,aN şi b1,b2,...,bM (reprezentând culorile straturilor din prăjitura Ilincăi respectiv din prăjitura Dariei) şi care să determine:
+a) numărul de straturi pe care le taie Ilinca din capătul din stânga şi numărul de straturi pe care le taie din capătul din dreapta la prima extragere; b) numărul de prăjituri identice cu prăjitura Dariei care se vor afla pe farfurie, după efectuarea tuturor extragerilor; c) numărul maxim de prăjituri la fel ca prăjitura Dariei care pot fi obţinute din prăjitura Ilincăi dacă aceasta ar rearanja straturile prăjiturii ei într-o ordine convenabilă.
+
+Restricții
+1 ≤ M ≤ N ≤ 10.000
+1 ≤ ai ≤ 100, (1 ≤ i ≤ N)
+1 ≤ bi ≤ 100, (1 ≤ i ≤ M)
+N, M, a1, a2, ..., aN, b1, b2, ..., bM sunt numere naturale;
+Întotdeauna se poate obţine din prăjitura Ilincăi cel puţin o prăjitură la fel ca prăjitura Dariei
+
+Exemplu
+Input: 5 3
+6 2 2 2 2
+6 2 2
+Output: 0 2
+1
+1
+Input: 10 2
+5 6 8 8 6 8 6 8 6 6
+6 8
+Output: 1 7
+3
+4

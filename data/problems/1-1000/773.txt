@@ -1,0 +1,17 @@
+#773
+maxap1
+
+Cerința
+Se dă o matrice cu n linii şi m coloane şi elemente numere naturale. Să se determine elementul cu număr maxim de apariții în matrice. Dacă există mai multe elemente cu număr maxim de apariții se va afișa cel mai mare dintre ele.
+
+Restricții
+1 ≤ m, n ≤ 100
+elementele matricei vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 4 6
+4 20 15 23 18 9 
+15 8 23 23 14 18 
+17 15 13 18 12 1 
+3 18 8 23 12 15
+Output: 23

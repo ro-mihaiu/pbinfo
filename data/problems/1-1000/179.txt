@@ -1,0 +1,15 @@
+#179
+triunghi
+
+Cerința
+Să se scrie un program care citeşte trei numere reale şi verifică dacă aceste numere pot fi lungimile laturilor unui triunghi.
+
+Restricții
+0 ≤ a,b,c ≤ 1000
+trei numere reale pot fi lungimile laturilor unui triunghi dacă sunt strict pozitive şi suma oricăror două este mai mare decât al treilea.
+
+Exemplu
+Input: 3 4 5
+Output: da
+Input: 1 4 5
+Output: nu

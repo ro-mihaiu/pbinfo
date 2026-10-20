@@ -1,0 +1,12 @@
+#3210
+cumparaturi
+
+Cerința
+O cutie cu bomboane costă B lei. Gigel are S lei. Determinați câte cutii cu bomboane poate cumpăra Gigel și câți lei trebuie să mai primească pentru a cumpăra încă o cutie.
+
+Restricții
+1 ≤ B,S ≤ 1.000.000.000
+
+Exemplu
+Input: 4 9
+Output: 2 3

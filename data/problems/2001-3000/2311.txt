@@ -1,0 +1,17 @@
+#2311
+rapunzel
+
+Cerința
+Rapunzel s-a născut într-un ţinut îndepărtat într-un regat necunoscut. Mama vitregă a închis-o pe Rapunzel într-un turn foarte înalt ce avea N metri. Aici Rapunzel urma să-şi petreacă toată copilăria.
+Pentru a-i trece timpul mai uşor, Rapunzel cânta din zori şi până în seară, cântecul ei auzindu-se în tot ţinutul. Atras de vocea de privighetoare a fetei, Flynn Rider şi-a propus să se caţere pe pereţii exterior ai turnului şi în fiecare zi să procedeze astfel: de la răsăritul până la asfinţitul soarelui să parcurgă M1 metri iar apoi, de la asfinţit până la miezul nopţii încă M2 metri.
+Scrieţi un program care determină după câte zile ajunge Flynn Rider la Rapunzel.
+
+Restricții
+1 ≤ n ≤ 5 000 000 000
+1 ≤ M1, M2 ≤ 2 500
+
+Exemplu
+Input: 7 3 4
+Output: 1
+Input: 10 1 3
+Output: 3

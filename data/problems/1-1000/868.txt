@@ -1,0 +1,20 @@
+#868
+Acces1
+
+Cerința
+Se consideră o clădire de formă dreptunghiulară, împărțită în n*m camere, dispuse sub forma unei matrice cu n linii și m coloane. Dintr-o cameră se poate trece în oricare dintre cele 4 camere vecine pe linie sau pe coloană. Unele camere sunt închise, și în ele nu se poate intra deloc. Trecerea dintr-o cameră în altă cameră durează un minut.
+În anumite camere se află echipe de pompieri. Pentru o intervenție cât mai rapidă în cazul unui eventual incendiu apărut în una dintre camerele clădirii, este necesar să se știe, pentru fiecare cameră care este timpul minim în care o echipă de pompieri ajunge în acea cameră.
+
+Restricții
+1 ≤ n,m ≤ 1000
+
+Exemplu
+Input: 4 6
+P-#-#P
+--##--
+--P---
+-----#
+Output: 0 1 # - # 0 
+1 2 # # 2 1 
+2 1 0 1 2 2 
+3 2 1 2 3 #

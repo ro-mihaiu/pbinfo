@@ -1,0 +1,13 @@
+#2177
+cod3
+
+Cerința
+Scrieţi un program care să furnizeze codul de acces la seif.
+
+Restricții
+1 ≤ n ≤ 90000
+
+Exemplu
+Input: 10
+11 3 11 11 12 2 11 12 3 11
+Output: 211

@@ -1,0 +1,23 @@
+#1413
+ConstructPalindrom
+
+Cerința
+Find dat un string S , se poate obține un palindrom din șirul inițial ștergând doar un singur caracter ?
+
+Restricții
+1 <= T <= 100
+Dimensiunea stringului <= 100000
+Pentru 10% din punctaj dimensiunea stringului <= 1000
+String-ul conține caractere de la a la z .
+Dimensiunea string-ului după ștergerea unui caracter va fi mai mică decât a fost înainte.
+
+Exemplu
+Input: 4
+aaa
+abc
+abdbca
+abba
+Output: YES
+NO
+YES
+YES

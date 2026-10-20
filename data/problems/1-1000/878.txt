@@ -1,0 +1,19 @@
+#878
+Intervale4
+
+Cerința
+Se consideră un șir de n intervale închise întregi. Două intervale consecutive în șir care au intersecția nevidă se reunesc și se înlocuiesc în șir cu intervalul reuniune. Operația se repetă până când nu mai sunt în șir două intervale consecutive cu intersecția nevidă.
+Să se determine câte intervale există în șir după realizarea acestor operații.
+
+Restricții
+1 ≤ n ≤ 100.000 ;
+pentru fiecare interval dat, x ≤ y , valori întregi care se pot reprezenta pe patru octeți.
+
+Exemplu
+Input: 5
+2 3
+4 6
+3 5
+8 10
+7 11
+Output: 2

@@ -1,0 +1,21 @@
+#2893
+modernizare
+
+Cerința
+Cunoscând: N – numărul de intersecții din oraș codificate prin numere naturale din mulțimea 1..N , M – numărul de șosele și șoselele împreună cu costul de modernizare, și F – fondurile de care dispune primăria, să se afle K – numărul maxim de șosele care pot fi modernizate.
+
+Restricții
+1 ≤ N, M ≤ 100000
+1 ≤ a, b ≤ N
+1 ≤ F, c ≤ 2.000.000.000
+N ≤ 1000 , pentru teste în valoare de 50 puncte.
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă pentru exemplul din enunț.
+
+Exemplu
+Input: 4 5 9
+1 2 4
+2 4 1
+3 1 2
+3 4 3
+3 2 3
+Output: 3

@@ -1,0 +1,13 @@
+#4173
+FLdiCauta
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+int FLdiCauta(nod *prim, nod *ultim, int k)
+Primul nod are adresa memorată în pointerul prim si ultimul nod are adresa memorata in pointerul ultim . Numărul k este întreg și nenul . Dacă k > 0 , atunci funcția va returna informația reținută în al k -lea nod, parcurgând lista de la stânga la dreapta. În cazul, în care k este mai mare sau egal cu numărul de noduri, atunci funcția va returna informația din nodul ultim . Dacă k < 0 , atunci, notând cu p = -k , funcția va returna informația reținută în al p -lea nod, parcurgând lista de la dreapta la stânga. În cazul, în care p este mai mare sau egal cu numărul de noduri, atunci funcția va returna informația din nodul prim . De exemplu, dacă lista reține valorile 5,3,6,2,8 , atunci FLdiCauta(prim, ultim, 4) = 2 , FLdiCauta(prim, ultim, 20) = 8 , iar FLdiCauta(prim, ultim, -4) = 3 .
+
+Restricții
+numele funcției va fi FLdiCauta
+lista inițială conține cel puțin un nod
+
+Exemplu

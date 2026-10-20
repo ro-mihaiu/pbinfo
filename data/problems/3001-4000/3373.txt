@@ -1,0 +1,25 @@
+#3373
+culori4
+
+Cerința
+Scrieţi un program care determină și afișează: 1. Lungimea maximă a unei bucăți de pânză de aceeași culoare după vopsirea inițială; 2. Cum va arăta pânza în urma modificărilor prietenei mele.
+
+Restricții
+0 < N < 10.001
+0 < C < 1.000.001
+0 < M < 200.001
+în urma tuturor modificărilor nuanțele rămân în mulțimea {1, 2, ..., C}
+
+Exemplu
+Input: 1
+3 8 2
+1 1 2 2 2 2 3 3 
+2 5 1
+5 8 -1
+Output: 4
+Input: 2
+3 8 2
+1 1 2 2 2 2 3 3
+2 5 1
+5 8 -1
+Output: 1 2 3 3 2 1 2 2

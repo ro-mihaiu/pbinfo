@@ -1,0 +1,15 @@
+#246
+UltimeleImpare
+
+Cerința
+Se dau n numere naturale. Să se determine ultimele două numere impare, nu neapărat distincte, dintre cele date.
+
+Restricții
+0 < n <= 10.000
+cele n numere citite vor avea cel mult 9 cifre
+
+Exemplu
+Input: 8
+12 15 68 13 17
+90 31 42
+Output: 17 31

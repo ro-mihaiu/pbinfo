@@ -1,0 +1,17 @@
+#2346
+ParitateSiruri
+
+Cerința
+Se dau mai multe șiruri de caractere. Pentru fiecare șir, afișați șirul format doar din caracterele aflate pe poziții impare și șirul format din caracterele aflate pe poziții pare. Cele două șiruri vor fi separate printr-un singur spațiu, pe câte o linie.
+
+Restricții
+1 ≤ K ≤ 100
+șirurile care se prelucrează au cel mult 10000 caractere;
+numerotarea caracterelor din șir începe de la 0
+
+Exemplu
+Input: 2
+PbInfo
+Informatica
+Output: bno PIf
+nomtc Ifraia

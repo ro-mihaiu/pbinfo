@@ -1,0 +1,17 @@
+#4251
+numereOJI
+
+Cerința
+Date 10 numere distincte de câte două cifre, determinaţi numărul de perechi de submulţimi disjuncte de sumă egală care se pot forma cu numere din cele date, precum şi una dintre aceste perechi pentru care suma numerelor din fiecare dintre cele două submulţimi este maximă.
+
+Restricții
+10 ≤ xi, yi ≤ 99 , pentru 1 ≤ i ≤ 10
+1 ≤ k, p ≤ 9
+Ordinea submulţimilor în perechi nu contează.
+Perechea de submulţimi determinată nu este obligatoriu unică.
+
+Exemplu
+Input: 60 49 86 78 23 97 69 71 32 10
+Output: 65 276
+78 97 69 32
+60 49 86 71 10

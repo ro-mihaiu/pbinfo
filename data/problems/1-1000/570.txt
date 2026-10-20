@@ -1,0 +1,15 @@
+#570
+Divizori
+
+Cerința
+Se dă un număr natural nenul n . Să se construiască un șir strict crescător de lungime maximă a[i] cu proprietatea că:
+fiecare element al șirului este divizor al lui n
+a[i] este divizor al lui a[i+1]
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+dacă există mai multe șiruri de lungime maximă care respectă condițiile, se poate afișa oricare
+
+Exemplu
+Input: 12
+Output: 1 2 6 12

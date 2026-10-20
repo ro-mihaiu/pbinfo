@@ -1,0 +1,14 @@
+#1365
+aceeasi-paritate
+
+Cerința
+Se dau n numere întregi. Să se insereze între oricare două numere de aceeași paritate media lor aritmetică.
+
+Restricții
+1 ≤ n ≤ 100
+-1.000.000.000 ≤ elementele șirului ≤ 1.000.000.000
+
+Exemplu
+Input: 5
+1 21 3 4 8
+Output: 1 11 21 12 3 4 6 8

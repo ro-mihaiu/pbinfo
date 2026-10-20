@@ -1,0 +1,22 @@
+#4677
+MatrixChess
+
+Cerința
+Verificați dacă matricea dată este de tip MatrixChess și puteți veți primi o bursă de studiu în interiorul cartelului!
+
+Restricții
+2 ≤ n ≤ 100
+Un element a[i][j] din matrice are vecini elementele a[i-1][j] , a[i+1][j] , a[i][j-1] și a[i][j+1] , condiția fiind ca acești vecini să nu se afle în afara matricei.
+Be kind, people!
+
+Exemplu
+Input: 3
+1 0 1
+0 1 0
+1 0 1
+Output: DA
+Input: 3
+0 1 0
+1 0 1
+0 1 1
+Output: NU

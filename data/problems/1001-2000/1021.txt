@@ -1,0 +1,58 @@
+#1021
+Cartite
+
+Cerința
+Determinați:
+1. cel mai apropiat pătrățel de poziția inițială a cârtitei prin care ea poate să intre în galerie pentru a se plimba, precum și lungimea traseului parcurs la suprafață astfel încât fiecare pătrățel de pe traseu sa nu fie atacat de nicio vulpe; 2. traseul de plimbare numai prin galerii, specificat prin coordonatele pătrățelelor care constituie capetelor acestora.
+
+Restricții
+1 ≤ M,N ≤ 200
+1 ≤ G ≤ 100
+0 ≤ K ≤ 50
+Lungimea traseului parcurs la suprafață este egală cu numărul de pătrățele prin care aceasta trece, dar diferite de cel din care pleacă.
+Fiecare dintre cerințe reprezinta 50% din punctaj.
+Cârtita nu poate intra în galerii printr-un pătrățel din raza de acțiune a unei vulpi.
+Pentru toate testele exista soluție la cerința a), adică exista un traseu sigur de la cârtiță la o intrare într-o galerie.
+Soluția, nu este unica, însa, orice soluție corecta va obține punctajul maxim pe test.
+Inițial, cârtita se găsește pe o poziție în care nu este atacata de nicio vulpe.
+
+Exemplu
+Input: 1
+6 4
+6 3
+3
+5 1 0
+3 4 1
+4 3 0
+7
+1 1 3 2
+1 3 1 4
+1 1 3 3
+1 4 4 2
+4 2 3 3
+4 2 1 3
+4 2 3 2
+Output: 4 2 3
+Input: 2
+6 4
+6 3
+3
+5 1 0
+3 4 1
+4 3 0
+7
+1 1 3 2
+1 3 1 4
+1 1 3 3
+1 4 4 2
+4 2 3 3
+4 2 1 3
+4 2 3 2
+Output: 1 1
+3 2
+4 2
+1 3
+1 4
+4 2
+3 3
+1 1

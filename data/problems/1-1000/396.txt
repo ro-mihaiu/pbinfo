@@ -1,0 +1,16 @@
+#396
+SCLM
+
+Cerința
+Se dă un șir cu n elemente, numere naturale. Determinați un cel mai lung subșir crescător (nu neapărat strict) al șirului.
+
+Restricții
+1 ≤ n ≤ 1000
+numerele de pe a doua linie a fişierului de intrare vor fi cel mult egali cu 1.000.000
+orice șir de indici care duce la subșir crescător de lungime maximă este corect
+
+Exemplu
+Input: 10
+5 10 7 4 5 8 9 8 10 2
+Output: 5
+1 3 6 7 9

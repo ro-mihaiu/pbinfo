@@ -1,0 +1,20 @@
+#4089
+phil
+
+Cerința
+Cum sarcinile sunt destul de dificile pentru perseverentul Phil, acesta apelează la voi pentru ajutor. El vă roagă să scrieți un program care să citească numerele naturale n m și matricea ce reprezintă harta și care să determine:
+partea întreagă r a raportului dintre suprafața palatului regal și cea a casei lui Phil;
+valoarea absolută d a diferenței dintre numărul de zone verzi și numărul de case de vacanță ale regelui.
+
+Restricții
+1 ≤ n, m ≤ 100
+Atenție! : Elementele învecinate pe linie sau coloană (nu și pe diagonală) și care au aceeași valoare alcătuiesc o zonă.
+În fișierul de intrare se garantează că va exista exact o zonă ce reprezintă casa lui Phil și exact o zonă pentru palatul regal.
+Suprafața unei zone este egală cu numărul de elemente pe care le conține.
+Pentru 20% din teste, c=1 . Pentru 80% din teste, c=2 .
+
+Exemplu
+Input: 2
+Output: 2
+Input: 4
+Output: 4

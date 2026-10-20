@@ -1,0 +1,23 @@
+#1394
+devt
+
+Cerința
+Ajutați-l pe Gigel să răspundă corect la toate cele k întrebări.
+
+Restricții
+0 ≤ a ≤ b ≤ n ≤ 100.000
+1 ≤ k ≤ 5000
+n aparține șirului devt
+
+Exemplu
+Input: 25 5
+3 7
+12 20
+3 4
+16 24
+12 24
+Output: 2
+6
+1
+6
+9

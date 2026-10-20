@@ -1,0 +1,16 @@
+#4225
+AdCif
+
+Cerința
+Se dă un număr natural nenul n . Trebuie să determinați suma anumitor cifre din n . O cifră poate fi adunată la sumă numai dacă ea este strict mai mare decât toate celelalte din dreapta sa. De exemplu, dacă n = 3712531 , atunci suma va fi 7+5+3+1 . De exemplu, 7 se adaugă la sumă pentru că în dreapta sa se află cifrele 1,2,5,3,1 , toate strict mai mici. La fel, la sumă s-a adunat 3 deoarece în dreapta sa se află doar cifra 1 . S-a adunat și 1 pentru că în dreapta sa nu se află nicio cifră.
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+
+Exemplu
+Input: 4713
+Output: 10
+Input: 12345
+Output: 5
+Input: 987654321
+Output: 45

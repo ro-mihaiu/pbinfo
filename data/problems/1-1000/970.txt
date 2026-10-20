@@ -1,0 +1,12 @@
+#970
+gen
+
+Cerința
+Scrieţi un program care citeşte numerele naturale nenule n şi k şi care afişează numărul binar obţinut în urma aplicării succesive a regulilor cerute de marţieni.
+
+Restricții
+0<n,k<=1000000 , numere naturale
+
+Exemplu
+Input: 5 4
+Output: 1111101000010

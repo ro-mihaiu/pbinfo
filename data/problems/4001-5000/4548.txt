@@ -1,0 +1,24 @@
+#4548
+Sageata1
+
+Cerința
+Se dă un număr natural n . Să se afișeze o săgeată de dimensiune n , ca în exemplu.
+
+Restricții
+1 ≤ n ≤ 50 ;
+valoarea lui n precizează lungimea săgeții;
+indiferent de valoarea lui n , săgeata ocupă pe ecran cinci linii.
+
+Exemplu
+Input: 5
+Output: *
+*******
+********
+*******
+     *
+Input: 15
+Output: *
+*****************
+******************
+*****************
+               *

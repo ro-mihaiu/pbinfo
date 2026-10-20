@@ -1,0 +1,27 @@
+#3919
+back_ME
+
+Cerința
+Se citesc două numere naturale n și m . Afișați în ordine lexicografică toate cuvintele care sunt formate din n litere E și m litere M cu proprietatea că nu există mai mult de două litere M alăturate și nici mai mult de două litere E alăturate.
+
+Restricții
+0 ≤ n ≤ 17 , 0 ≤ m ≤ 17
+0 ≤ n + m ≤ 28
+Dacă nu există cuvinte care să respecte condițiile, atunci se va afișa IMPOSIBIL .
+
+Exemplu
+Input: 3  3
+Output: EEMEMM
+EEMMEM
+EMEEMM
+EMEMEM
+EMEMME
+EMMEEM
+EMMEME
+MEEMEM
+MEEMME
+MEMEEM
+MEMEME
+MEMMEE
+MMEEME
+MMEMEE

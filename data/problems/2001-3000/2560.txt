@@ -1,0 +1,17 @@
+#2560
+bits
+
+Cerința
+Determinați valoarea unor anumiți biți din reprezentarea sa în baza 2.
+
+Restricții
+0 ≤ N ≤ 2 63 -1
+1 ≤ Q ≤ 63
+valorile de pe a doua linie a fișierului de intrare sunt distincte și cuprinse între 0 și 62 (inclusiv)
+biții se numerotează începând cu poziția 0 (cel mai puțin semnificativ)
+numărul N este reprezentat pe 64 de biți
+
+Exemplu
+Input: 12 4
+2 0 3 20
+Output: 1010

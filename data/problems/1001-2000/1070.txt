@@ -1,0 +1,15 @@
+#1070
+Deal
+
+Cerința
+Scrieţi un program care, cunoscând înălţimile celor N turnuri, va determina suma înălţimilor dealurilor ce se pot forma aşezând în linie cele N turnuri, maximă posibil.
+
+Restricții
+2 ≤ N ≤ 100 000
+1 ≤ Înălţimile turnurilor ≤ 100 000
+Dacă după aranjarea turnurilor h i ≤ h i+1 atunci turnurile i şi i+1 fac parte din acelaşi deal.
+
+Exemplu
+Input: 7
+10 2 2 2 7 5 2
+Output: 22

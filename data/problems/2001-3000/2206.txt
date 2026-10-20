@@ -1,0 +1,12 @@
+#2206
+minimpar
+
+Cerința
+Se dă un număr X . Să se afle cel mai mic număr Y ≥ X cu proprietatea că Y are doar cifre impare.
+
+Restricții
+1 ≤ X ≤ 10^18
+
+Exemplu
+Input: 22
+Output: 31

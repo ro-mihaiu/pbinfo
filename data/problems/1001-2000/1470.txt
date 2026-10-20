@@ -1,0 +1,26 @@
+#1470
+parcare
+
+Cerința
+Cunoscându-se data și ora intrării în parcare, data și ora plecării din parcare și tariful orar, să se determine timpul cât a stat mașina în parcare și suma de plată.
+
+Restricții
+Mașina stă în parcare cel puţin 1 minut dar nu poate sta mai mult de 7 zile.
+Dacă timpul de staţionare nu depăşeşte 15 minute, nu se percepe taxă.
+Cele două date sunt din același an, care nu este bisect.
+Minutul de plecare din parcare nu se contorizează.
+Minutele unei ore sunt numerotate de la 0 la 59 .
+1 <= t <= 100
+Pentru cerinţa 1 se acordă 50% din punctaj, iar pentru cerinţa 2 se acordă încă 50% din punctaj.
+
+Exemplu
+Input: 30 01 17 33
+30 01 21 01
+3
+1
+Output: 208
+Input: 30 01 17 33
+30 01 21 01
+3
+2
+Output: 12

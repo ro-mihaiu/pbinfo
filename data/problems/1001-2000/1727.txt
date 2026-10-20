@@ -1,0 +1,24 @@
+#1727
+Culori3
+
+Cerința
+Scrieţi un program care citeşte două numere naturale N şi K şi determină pentru Andrei: a) numărul copiilor din cerc care au cartonaşe de aceeaşi culoare cu cartonaşele vecinilor; b) numărul maxim de cartonaşe de aceeaşi culoare ce sunt deţinute de copiii aşezaţi pe K poziţii consecutive în cercul format.
+
+Restricții
+2 < N ≤ 1000
+2 < K ≤ N
+codurile culorilor sunt numere naturale nenule, consecutive, mai mici sau egale cu 100
+dacă C este codul maxim asociat unei culori ( 1 ≤ C ≤ 100 ) atunci există cel puţin C cartonaşe care au codurile distincte: 1,2,3,…,C .
+
+Exemplu
+Input: 8 5
+3
+1
+2
+1
+1
+1
+3
+3
+Output: 2
+4

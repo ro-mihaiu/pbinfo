@@ -1,0 +1,37 @@
+#4244
+urgenta
+
+Cerința
+Autorităţile estimează gravitatea unei calamităţi ca fiind suma priorităţilor căilor de acces distruse de aceasta şi doresc să determine un scenariu de gravitate maximă, în care punctele de interes strategic să fie împărţite într-un număr de K grupuri.
+
+Restricții
+0 < N < 256
+N - 2 < M < 32385
+0 < K < N + 1
+Priorităţile căilor de acces sunt întregi strict pozitivi mai mici decât 256 .
+Un grup de puncte poate conţine între 1 şi N puncte inclusiv.
+Dacă există mai multe soluţii, programul va determina una singură.
+
+Exemplu
+Input: 7 11 4
+1 2 1
+1 3 2
+1 7 3
+2 4 3
+3 4 2
+3 5 1
+3 6 1
+3 7 5
+4 5 5
+5 6 4
+6 7 3
+Output: 27
+8
+1 3
+1 7
+2 4
+3 4
+3 7
+4 5
+5 6
+6 7

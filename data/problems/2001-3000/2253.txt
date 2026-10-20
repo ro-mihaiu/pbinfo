@@ -1,0 +1,15 @@
+#2253
+VacantaDeVara
+
+Cerința
+Gigel este acum în clasa a XII -a și nu dorește să dea examenul de Bacalaureat, ci să ajungă direct la vacanța de vară. Pentru a se teleporta în timp și a ajunge la o zi după examen, acesta se folosește de o aplicație pentru mobil. Însă doar elevii foarte inteligenți au dreptul să călătorească în timp, motiv pentru care Gigel trebuie să dovedească că face parte din acea categorie. Aplicația îi generează un număr natural aleatoriu, N și N cifre aleatorii. Pentru a intra în aplicație, Gigel trebuie să introducă codul de securitate, care este cel mai mic număr care se poate forma din toate cele N cifre.
+Gigel nu poate face singur acest lucru, dar își dorește mult să vină vacanța de vară și vă roagă pe voi să-i generați codul de securitate.
+
+Restricții
+1 ≤ N ≤ 1000
+Se garantează faptul că există cel puțin o cifră nenulă.
+
+Exemplu
+Input: 10
+6 0 0 7 4 1 0 1 0 8
+Output: 1000014678

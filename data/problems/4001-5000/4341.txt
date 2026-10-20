@@ -1,0 +1,29 @@
+#4341
+tablou2
+
+Cerința
+Cunoscând N , M numărul de linii respectiv numărul de coloane din matrice și elementele matricei care reprezintă afișul, scrieţi un program care să rezolve următoarele cerinţe: 1. Determină aria minimă a unui tablou care conține obiectul de suprafață maximă care poate fi încadrat într-un tablou; 2. Determină numărul maxim de tablouri care pot fi decupate știind că elevii caută începând de sus în jos și de la stânga la dreapta obiectele care pot fi încadrate într-un tablou și decupează tabloul.
+
+Restricții
+1 ≤ N, M ≤ 100
+Elementele matricei sunt cifre zecimale
+Pentru teste valorând 45 de puncte C = 1 . Pentru teste valorând alte 45 de puncte C = 2 .
+10 puncte se acordă pentru testele din enunț.
+
+Exemplu
+Input: 1
+5 6
+0 0 1 1 0 0
+1 1 1 0 2 2
+0 0 0 2 2 0
+0 0 2 2 0 3
+0 0 0 0 3 3
+Output: 8
+Input: 2
+5 6
+0 0 1 1 0 0
+1 1 1 0 2 2
+0 0 0 2 2 0
+0 0 2 2 0 3
+0 0 0 0 3 3
+Output: 2

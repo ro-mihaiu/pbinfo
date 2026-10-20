@@ -1,0 +1,39 @@
+#4374
+Axel
+
+Cerința
+Deoarece colegii lui Axel sunt totuși prea mici pentru a ști să rezolve astfel de probleme, aceștia vă cer ajutorul și vă roagă să rezolvați problema, oferindu-vă în schimb 100 de puncte.
+
+Restricții
+1 ≤ N ≤ 1500
+Elementele matricei sunt numere naturale nenule ≤ 8000 .
+
+Exemplu
+Input: 4
+6 2 2 2
+3 6 5 6
+2 7 3 7
+5 3 6 3
+Output: DA
+3
+Input: 5
+17 18 15 16 15
+11 14 11 15 11
+14 12 12 11 13
+15 13 14 13 12
+12 15 13 14 14
+Output: DA
+10
+Input: 4
+1 2 3 4
+3 4 1 2
+4 1 2 3
+5 6 7 8
+Output: NU
+Input: 4
+1 1 1 1
+3 4 5 6
+7 8 9 2
+3 9 7 5
+Output: DA
+-5

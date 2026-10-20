@@ -1,0 +1,13 @@
+#3260
+Invers
+
+Cerința
+Veșnicul Gigel vrea să dea la Facultatea de Informatică din Iași pentru că e #ceaMaiTare . De asta s-a apucat de probleme pe pbinfo și a dat peste următoarea problema ce i-a plăcut atât de mult încât vă provoacă și pe voi să o rezolvați:
+Se dă funcția \(f(x) = sin(x) + sin(2*x) + x\) și o valoare \(y\). Știind că funcția este strict crescătoare pe intervalul \([0,1)\), se cere să se gasească pentru ce \( x \in [0,1) \) avem că \(f(x)≈y\) (aproximare cu 8 zecimale).
+
+Restricții
+pentru orice \( y \in [0, 2.7] \) vom avea ca \( x \in [0, 1) \)
+
+Exemplu
+Input: 1.34
+Output: 0.35083179

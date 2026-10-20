@@ -1,0 +1,34 @@
+#2873
+SortMatrixLin
+
+Cerința
+Se dă o matrice cu n linii și m coloane și un caracter c care poate fi + sau - . Să se sorteze, după linii, matricea crescător dacă semnul este + sau descrescător dacă semnul este - .
+Sortarea matricei după linii este rearanjarea elementelor astfel încât, parcurgând matricea pe linii, de sus în jos și de la stânga la dreapta, elementele sunt în ordine crescătoare/descrescătoare.
+
+Restricții
+1 ≤ n ≤ m ≤ 100
+elementele matricei vor fi mai mici sau egale cu 1.000
+
+Exemplu
+Input: 5 4 +
+2 4 1 3
+9 8 7 6
+20 19 18 16
+30 29 124 12
+59 21 0 3
+Output: 0 1 2 3
+3 4 6 7
+8 9 12 16
+18 19 20 21
+29 30 59 124
+Input: 5 4 -
+2 4 1 3
+9 8 7 6
+20 19 18 16
+30 29 124 12
+59 21 0 3
+Output: 124 59 30 29 
+21 20 19 18 
+16 12 9 8 
+7 6 4 3 
+3 2 1 0

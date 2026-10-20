@@ -1,0 +1,19 @@
+#4770
+pase
+
+Cerința
+Să se scrie un program care determină și afișează lungimea maximă a unei secvențe de pase precise, precum și indicele de început al acestei secvențe. Lungimea celei mai lungi pase se stabilește după corectarea a cel mult două pase greșite.
+
+Restricții
+2 ≤ N ≤ 1000
+Șirul din fișierul de intrare este format doar din literele P și G
+Indicii literelor din șir încep de la 1
+Fiecare șir de pase conține cel puțin două pase greșite
+
+Exemplu
+Input: 9
+PPGPGPPPG
+Output: 8 1
+Input: 10
+PGPGGPPPPG
+Output: 7 3

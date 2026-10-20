@@ -1,0 +1,20 @@
+#4423
+secv2
+
+Cerința
+Scrieți un program care să determine cea mai lungă secvență de elemente din șir care conține cel mult K numere neprime.
+
+Restricții
+1 ≤ N ≤ 200.000
+0 ≤ K ≤ N
+elementele șirului sunt mai mici decât 1.000.000
+dacă există mai multe secvențe pentru care lungimea este maximă, se va afișa aceea pentru care P este minim
+pentru teste în valoare de 20 de puncte, K = 0
+pentru teste în valoare de alte 20 de puncte N ≤ 1000
+pentru teste în valoare de alte 20 de puncte N ≤ 200.000 și K = 1
+șirul conține cel puțin un număr prim
+
+Exemplu
+Input: 8 2
+10 3 7 6 11 4 9 7
+Output: 5 1

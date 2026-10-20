@@ -1,0 +1,12 @@
+#3348
+sumaputeri2
+
+Cerința
+Se dă un număr natural n . Descompuneți numărul n ca sumă de puteri ale lui 2 .
+
+Restricții
+1 ≤ n < 2 31
+
+Exemplu
+Input: 43
+Output: 1 2 8 32

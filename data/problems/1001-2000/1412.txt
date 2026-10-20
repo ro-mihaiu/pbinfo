@@ -1,0 +1,42 @@
+#1412
+desen
+
+Cerința
+Se dau 2 numere naturale c și n , de o singură cifră. În funcție de valoarea lui c construiți o figură geometrică formată din cifre de la 1 la n , ca în exemple. Dacă c are valoarea:
+1 : se va construi un pătrat ( latura va fi egală cu n );
+2 : se va construi un romb ( latura va fi egală cu n );
+3 : se va construi un dreptunghi ( lungimea lui va fi egală cu n iar lățimea cu dublul lui n ;
+4 : se va construi un triunghi isoscel ( laturile egale vor avea valoarea lui n );
+
+Restricții
+• 1 ≤ n ≤ 9 • 1 ≤ c ≤ 4
+
+Exemplu
+Input: 1 5
+Output: 11111
+22222 
+33333
+44444
+55555
+Input: 2 5
+Output: 1
+   222
+  33333
+ 4444444
+555555555
+ 4444444
+  33333
+   222
+    1
+Input: 3 5
+Output: 1111111111
+2222222222
+3333333333
+4444444444
+5555555555
+Input: 4 5
+Output: 1
+   222
+  33333
+ 4444444
+555555555

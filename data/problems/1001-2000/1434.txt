@@ -1,0 +1,14 @@
+#1434
+Mutare2
+
+Cerința
+Scrieţi definiţia completă a subprogramului C/C++ modificare , care are doi parametri, v şi n , prin care primeşte un tablou unidimensional cu maximum 10000 de numere naturale nenule şi, respectiv, numărul de elemente din tablou. Subprogramul rearanjează elementele tabloului astfel încât toate valorile prime să se afle pe primele poziţii, iar valorile care nu sunt prime, în continuarea celor prime. Ordinea în cadrul ambelor secvenţe (numerele prime şi cele care nu sunt prime), poate fi oricare.
+
+Restricții
+1 ≤ n ≤ 10000
+numele subprogramului este modificare
+parametrii sunt, în această ordine: v , n
+fiecare element al vectorului este un număr natural din intervalul \([1,2 \cdot 10^9]\)
+elementele vectorului v sunt indexate de la 0
+
+Exemplu

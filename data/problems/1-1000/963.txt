@@ -1,0 +1,27 @@
+#963
+Bazine
+
+Cerința
+La ştrandul Junior din oraşul nostru s-au construit n bazine pentru înot. Fiecare bazin a fost dotat cu câte un robinet pentru umplerea acestuia cu apă. Între m perechi distincte de bazine, a fost instalată câte o ţeavă prin care apa din cele două bazine din fiecare pereche să poată circula. Astfel, cele două bazine din pereche pot fi umplute prin deschiderea unui singur robinet.
+Administratorul bazei a numerotat bazinele cu numerele distincte de la 1 la n şi a notat în registrul lui cele m perechi de numere (x 1 ,y 1 ) , (x 2 ,y 2 ) ,…., (x m ,y m ) corespunzând perechilor de bazine între care a fost instalată câte o ţeavă. Pentru a umple toate bazinele cu apă, administratorul doreşte să deschidă un număr minim de robinete.
+Cerinţă.
+Scrieţi un program care să citească numerele naturale n şi m , şi cele 2*m numere naturale x 1 , y 1 , x 2 , y 2 ,…., x m , y m , cu semnificația din enunț, şi care să afişeze cel mai mic număr k de robinete pe care trebuie să le deschidă administratorul astfel încât să fie umplute cu apă toate bazinele.
+
+Restricții
+10 ≤ n ≤ 100
+8 ≤ m ≤ 400
+nu există două perechi de numere (x,y) , (x’,y’) astfel încât x=x’ şi y=y’ sau x=y’ şi y=x’ printre cele m perechi citite din fişier
+1 ≤ x i ≤ n , 1 ≤ y i ≤ n , x i ≠ y i
+fiecare bazin poate fi cuplat la unul sau mai multe bazine prin câte o ţeavă, sau la nici un bazin
+
+Exemplu
+Input: 10 8
+1 6
+4 5
+8 6
+3 7
+9 4
+1 8
+10 6
+1 10
+Output: 4

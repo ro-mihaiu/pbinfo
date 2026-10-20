@@ -1,0 +1,16 @@
+#2248
+coordonate
+
+Cerința
+Pentru valorile n , x , y , val date, trebuie să determinați:
+ce valoare V se află în pătratul n x n la poziția (x, y) .
+la ce poziție (i, j) se află valoarea val în pătratul n x n .
+
+Restricții
+1 ≤ n ≤ 20000
+1 ≤ x, y ≤ n
+1 ≤ val ≤ n 2
+
+Exemplu
+Input: 4 2 3 12
+Output: 7 3 4

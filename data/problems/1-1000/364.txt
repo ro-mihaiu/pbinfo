@@ -1,0 +1,15 @@
+#364
+cifre1
+
+Cerința
+Se dau n numere naturale. Determinați numărul pentru care prima cifră este maximă.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor avea cel mult 9 cifre
+dacă există mai multe numere pentru care prima cifră este maximă, se va determina cel mai mare dintre acestea
+
+Exemplu
+Input: 5
+2467 645 687 59878 125
+Output: 687

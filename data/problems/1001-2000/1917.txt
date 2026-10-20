@@ -1,0 +1,32 @@
+#1917
+Catalin si prietenii
+
+Cerința
+Cătălin avea un singur prieten dar, fiind foarte sociabil, el se împrietenește automat cu toți prietenii prietenului său și cu prietenii prietenilor acestuia ș.a.m.d. (s-a inspirat din modelul Facebook).
+Inițial, în grupul de persoane, nimeni nu are prieteni dar, pe parcursul timpului, se leagă noi relații de prietenie.
+Definim două tipuri de operații:
+1 x y – ce reprezintă faptul că x se împrietenește cu y .
+2 p – Cătălin vă întreabă care este numărul de prieteni pe care îi poate avea, dacă inițial ar fi prieten doar cu p . Se va ține cont doar de relațiile de prietenie stabilite până în acel moment.
+
+Restricții
+1 < N < 1.000.000
+1 < K < 1.000.000
+Relația de prietenie este reciprocă.
+
+Exemplu
+Input: 10 10
+1 6 7
+1 4 5
+1 10 8
+2 2
+1 4 8
+2 9
+2 4
+1 8 3
+2 10
+2 9
+Output: 1
+1
+4
+5
+1

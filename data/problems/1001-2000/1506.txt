@@ -1,0 +1,23 @@
+#1506
+Serbare1
+
+Cerința
+Scrieţi un program care să citească numărul natural N (reprezentând numărul de elevi), apoi în ordine de pe linii diferite numele și înălțimea fiecărui elev și care să determine:
+Numărul de rânduri pe care vor fi așezați elevii;
+Numărul de elevi de pe fiecare rând, urmat de elevii de pe rândul respectiv în ordinea lexicografică a numelor.
+
+Restricții
+1 ≤ N ≤ 100
+Înălţimile elevilor sunt numere naturale nenule ≤150.
+Numele elevilor sunt șiruri cu cel mult 50 de caractere, care pot fi litere mari și mici ale alfabetului englez sau spații.
+
+Exemplu
+Input: 5
+Leia Organa 123
+Han Solo 145
+Aayla Secura 145
+Mace Windu 123
+Kylo Ren 145
+Output: 2
+3 Aayla Secura Han Solo Kylo Ren
+2 Leia Organa Mace Windu

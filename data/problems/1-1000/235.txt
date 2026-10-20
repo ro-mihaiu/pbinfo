@@ -1,0 +1,15 @@
+#235
+genmat18
+
+Cerința
+Scrieţi un program care citeşte de la tastatură un număr natural n şi construieşte în memorie o matrice cu n linii şi n coloane, astfel încât parcurgând liniile matricei de sus în jos şi de la stânga la dreapta se obţin, în prima linie primele n numere ale şirului Fibonacci în ordine crescătoare , în linia a doua următoarele n numere ale şirului Fibonacci în ordine descrescătoare , în linia a treia următoarele n numere ale acestui şir în ordine crescătoare , şi aşa mai departe.
+
+Restricții
+1≤n≤6
+
+Exemplu
+Input: 4
+Output: 1 1 2 3 
+21 13 8 5 
+34 55 89 144 
+987 610 377 233

@@ -1,0 +1,13 @@
+#3381
+ksir1
+
+Cerința
+Scrieţi un program care citeşte o valoare k şi afişează al k -lea termen al şirului de mai sus.
+
+Restricții
+1 ≤ k ≤ 20.000.000.000
+Poziţiile termenilor din şir sunt numerotate începând cu 1 .
+
+Exemplu
+Input: 8
+Output: 3

@@ -1,0 +1,28 @@
+#4729
+Matrice20
+
+Cerința
+Se consideră o matrice pătratică cu n linii şi n coloane şi elemente numere naturale distincte. Cele două diagonale delimitează în matrice 4 zone:
+NORD – elementele situate deasupra diagonalei principale şi deasupra celei secundare
+EST – elementele situate deasupra diagonalei principale şi sub cea secundară
+SUD – elementele situate sub diagonala principală şi sub cea secundară
+VEST – elementele situate sub diagonala principală şi deasupra celei secundare
+Să se determine cele 4 maxime din zonele determinate de cele două diagonale și să se calculeze cel mai mare divizor comun al lor.
+Se vor defini și apela următoarele subprograme:
+citire , care citește de la tastatură valoarea lui n și elementele matricei
+cmmdc , care calculează cel mai mare divizor comun al două numere
+maxime , care determină cele 4 maxime din zonele determinate de cele două diagonale și le furnizează prin parametri referință. Această funcție poate fi înlocuită cu 4 funcții, câte una pentru fiecare maxim din cele 4 zone din matrice
+În programele C/C++ nu se vor folosi variabile globale .
+
+Restricții
+1 ≤ n ≤ 50
+elementele matricei sunt mai mici decât 100000 și sunt distincte
+
+Exemplu
+Input: 5
+22 10 11 16 17 
+4 19 1 8 20  
+29 12 3 5 6 
+36 7 9 24 15 
+13 23 28 14 2
+Output: 4

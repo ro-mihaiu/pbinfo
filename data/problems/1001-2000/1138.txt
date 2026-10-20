@@ -1,0 +1,23 @@
+#1138
+Speciale
+
+Cerința
+Scrieţi un program care citind patru numere naturale K , N , A şi B determină:
+1) cel mai mare număr special situat în tabel pe linia K ; 2) numărul special obţinut din numărul N prin ştergerea unei cifre; 3) numărul de numere speciale din mulțimea {A , A +1, A+2, A+3…,B-1,B} .
+
+Restricții
+1 ≤ K ≤ 9
+1 ≤ N ≤ 999999999
+1 ≤ A ≤ B ≤ 999999999
+Pentru rezolvarea corectă a primei cerinţe se acordă 20 de puncte, pentru rezolvarea corectă a celei de a doua cerințe se acordă 40 de puncte, pentru rezolvarea corectă a celei de a treia cerințe se acordă 40 de puncte.
+
+Exemplu
+Input: 1
+3 125345 320 888888
+Output: 987
+Input: 2
+3 125345 320 888888
+Output: 12345
+Input: 3
+3 125345 320 888888
+Output: 6

@@ -1,0 +1,23 @@
+#1728
+KSumDif
+
+Cerința
+Se dă un vector cu n elemente și un număr k .
+Se construiește un nou vector, cu n-1 elemente, ale cărui elemente vor fi diferenţa dintre suma și modulul diferenţei a două elemente alăturate din primul vector.
+Apoi se construiește un alt vector, după aceeași regulă, ș. a. m. d.
+Afișați suma elementelor celui de-al k-1 -lea vector construit prin această metodă.
+
+Restricții
+1 ≤ n ≤ 10000
+cele n elemente ale vectorului vor fi mai mici decât 1000
+k≤50
+
+Exemplu
+Input: 6 3
+5
+2
+4
+9
+3
+1
+Output: 32

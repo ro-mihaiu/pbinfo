@@ -1,0 +1,19 @@
+#1295
+CifPagini
+
+Cerința
+Într-o bibliotecă se află o carte cu o proprietate mai ciudată. Este alcătuită din n volume, și pentru fiecare fiecare volum numărul de pagini este număr prim. Mai mult, numerele paginilor volumelor sunt numere prime consecutive.
+Se dau numerele n p v reprezentând numărul de volume ale cărții, numărul de pagini ale primului volum și numărul cerinței care trebuie rezolvate. Să se afle:
+a) numărul total de pagini; b) numărul total de cifre folosite pentru numerotarea paginilor celor n volume.
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ p < 50.000
+v poate fi doar 1 sau 2 ;
+Paginile volumelor se numerotează de la 1 la numărul total de pagini; dacă primul volum are k pagini, atunci volumul al doilea se va numerota cu k+1 , ș.a.m.d.
+
+Exemplu
+Input: 3 103 1
+Output: 319
+Input: 3 103 2
+Output: 849

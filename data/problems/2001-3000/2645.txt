@@ -1,0 +1,15 @@
+#2645
+minlex
+
+Cerința
+Să se determine cuvântul minim lexicografic obținut prin eliminarea a exact K litere din cuvântul inițial.
+
+Restricții
+3 ≤ lungimea cuvântului ≤ 1.000.000
+Cuvântul este format numai din litere mici ale alfabetului englez.
+1 ≤ K < lungimea cuvântului
+Literele rămase după eliminare nu-și pot schimba ordinea în cuvânt.
+
+Exemplu
+Input: 5 zyizxtnfo
+Output: info

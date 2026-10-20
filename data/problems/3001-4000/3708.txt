@@ -1,0 +1,24 @@
+#3708
+selectare
+
+Cerința
+Trebuie să determinăm valoarea cu număr maxim de apariții pe care o obținem cu acest procedeu. Dacă sunt mai multe valori care apar de număr maxim de ori o vom alege pe cea mai mică. Două posibilități se consideră distincte dacă diferă prin indicele în șirul dat inițial al cel puțin uneia dintre cifrele de același rang în numerele asociate.
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ L ≤ 6
+L ≤ n
+0 ≤ K ≤ 2
+K ≤ L - 1
+1 ≤ V i ≤ 9
+
+Exemplu
+Input: 8 4 0
+2 1 2 1 2 1 2 3
+Output: 1212
+Input: 4 3 1
+1 2 3 2
+Output: 12
+Input: 5 4 2
+1 1 1 1 1
+Output: 11

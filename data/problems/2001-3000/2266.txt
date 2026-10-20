@@ -1,0 +1,17 @@
+#2266
+CalcMare
+
+Cerința
+Se dau 2 numere naturale. Calculați suma / diferenţa lor.
+
+Restricții
+1 ≤ nr. cifre număr ≤ 2000 .
+Pentru 50% din punctaj semnul va fi + , iar pentru restul de 50% , semnul - .
+Pentru 20% din punctaj nr. cifre număr ≤ 15 .
+Se garantează că a≥b pentru scăderi.
+
+Exemplu
+Input: 123
+321
++
+Output: 444

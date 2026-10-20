@@ -1,0 +1,16 @@
+#1927
+Bitsort
+
+Cerința
+Se dă un vector cu n elemente, numere naturale nenule. Afișați termenii în ordine crescătoare.
+Termenii care apar de mai multe ori se vor afișa o singură dată.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+cele n numere citite vor fi mai mici sau egale cu 300.000
+Atenție la limita de memorie!
+
+Exemplu
+Input: 7 
+9 8 8 8 1 2 8
+Output: 1 2 8 9

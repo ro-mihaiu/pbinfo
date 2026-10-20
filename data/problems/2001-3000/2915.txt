@@ -1,0 +1,13 @@
+#2915
+SumSquare
+
+Cerința
+Se dă numărul natural n . Determinați dacă numărul se poate scrie ca sumă de două pătrate perfecte. Dacă da, afișați două pătrate perfecte a căror sumă este n , în ordine crescătoare, sau mesajul NU în caz contrar.
+
+Restricții
+\(1 ≤ n ≤ {10}^{15} \)
+dacă există mai multe perechi de pătrate perfecte a căror sumă este n , poate fi afișată oricare
+
+Exemplu
+Input: 169
+Output: 25 144

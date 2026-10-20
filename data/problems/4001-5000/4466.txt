@@ -1,0 +1,23 @@
+#4466
+CountAll
+
+Cerința
+Se cere suma count(V) pentru toate șirurile distincte V care se pot obține din șirul A , înlocuind toate valorile de 0 cu numere cuprinse între 1 și M . Deoarece acest număr poate să fie foarte mare, se cere restul împărțirii sale la 1.000.000.009 .
+
+Restricții
+1 ≤ N, M ≤ 100.000
+0 ≤ A[i] ≤ M , pentru orice i de la 1 la N
+Pentru 13 puncte, 1 ≤ N,M ≤ 7
+Pentru 8 puncte, M = 2
+Pentru 21 puncte, șirul A nu conține nicio valoare de 0
+Pentru 23 puncte, șirul A conține doar valori de 0
+Pentru 17 puncte, 1 ≤ N, M ≤ 1.000
+Pentru 18 puncte, fără restricții suplimentare
+
+Exemplu
+Input: 3 4
+2 0 3
+Output: 9
+Input: 3 2
+0 0 2
+Output: 7

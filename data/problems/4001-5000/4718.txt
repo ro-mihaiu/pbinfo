@@ -1,0 +1,14 @@
+#4718
+TriunghiCif
+
+Cerința
+Dându-se L şi C două numere naturale, să se determine a C -a cifră care se află pe linia L din acest triunghi, considerând că liniile se numerotează de la 1 .
+
+Restricții
+1 ≤ C ≤ L ≤ 30.000
+
+Exemplu
+Input: 3 1
+Output: 4
+Input: 6 3
+Output: 9

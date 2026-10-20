@@ -1,0 +1,24 @@
+#3602
+reinvent
+
+Cerința
+Determinaţi distanţa minimă dintre două case distincte din cele X din cartier.
+
+Restricții
+1 ≤ N, M ≤ 100.000
+2 ≤ X ≤ N
+Pentru 30% din teste N ≤ 1024
+Distanţa între două case se măsoară prin numărul minim de străzi necesare pentru a ajunge de la o casă la cealaltă
+Între oricare două case există cel mult o stradă bidirecţională.
+Există cel puţin două case din cartier astfel încât să existe drum între ele
+
+Exemplu
+Input: 5 6 2
+1 2
+2 3
+2 4
+3 4
+1 4
+3 5
+1 5
+Output: 3

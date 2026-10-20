@@ -1,0 +1,24 @@
+#2135
+Roua
+
+Cerința
+Cunoscând N , numărul de ouă vopsite, și numărul natural R , scrieți un program care determină și afișează:
+numărul de secvențe “roua” de lungime R existente în colorarea celor N ouă;
+numărul total al colorărilor R -frumoase pentru cele N ouă.
+
+Restricții
+3 ≤ N ≤ 10000
+2 ≤ R < N
+Pentru rezolvarea corectă a cerinței 1 se acordă 40 puncte, pentru rezolvarea corectă a cerinței 2 se acordă 60 de puncte.
+Pentru 60% dintre testele pentru cerința 2 , 3 ≤ N ≤ 70
+Pentru 40% dintre testele pentru cerința 2 , N > 70
+Rezultatul la cerința 2 poate avea cel mult 2400 de cifre.
+
+Exemplu
+Input: 1
+7 3
+vrrrgrr
+Output: 4
+Input: 2
+4 3
+Output: 15

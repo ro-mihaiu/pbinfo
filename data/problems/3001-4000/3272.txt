@@ -1,0 +1,14 @@
+#3272
+sumdivogl
+
+Cerința
+Se dau n numere naturale. Determinați suma divizorilor oglinditelor celor n numere.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 3
+12 23 30
+Output: 99

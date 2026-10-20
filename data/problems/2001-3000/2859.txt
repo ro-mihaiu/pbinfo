@@ -1,0 +1,12 @@
+#2859
+TreiCifImp
+
+Cerința
+Să se scrie o funcție C++ care primește ca parametru un număr natural n și returnează 1 dacă n conține cel puțin trei cifre alăturate impare, sau returnează 0 în caz contrar.
+
+Restricții
+numele funcției va fi TreiCifImp
+funcția va avea un singur parametru, n , unde 0 ≤ n ≤ 2.000.000.000
+valoarea returnată va fi 0 sau 1
+
+Exemplu

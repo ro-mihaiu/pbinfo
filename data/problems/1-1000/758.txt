@@ -1,0 +1,13 @@
+#758
+BiMinPrim
+
+Cerința
+Se consideră un arbore binar în care nodurile memorează numere naturale nenule. Să se determine cele mai mici valori număr prim din subarborii stâng și drept ai rădăcinii.
+
+Restricții
+se recomandă folosirea arborilor alocați dinamic.
+se garantează că rădăcina are doi descendenți direcți
+
+Exemplu
+Input: 67 53 17 0 0 24 0 0 48 0 12 0 0
+Output: 17 -1

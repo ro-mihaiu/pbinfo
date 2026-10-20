@@ -1,0 +1,19 @@
+#831
+Generare3
+
+Cerința
+Se dă un număr natural n . Să se genereze, în ordine lexicografică, toate șirurile de cifre binare de lungime n .
+
+Restricții
+1 ≤ n ≤ 10
+
+Exemplu
+Input: 3
+Output: 000
+001
+010
+011
+100
+101
+110
+111

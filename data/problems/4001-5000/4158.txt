@@ -1,0 +1,21 @@
+#4158
+Grade11
+
+Cerința
+Se dă lista arcelor unui graf orientat. Să se determine nodurile care au gradul exterior divizibil cu gradul interior sau gradul interior divizibil cu gradul exterior. Un nod care are gradul exterior sau gradul interior egal cu 0 nu respectă condiția cerută.
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 6 9
+1 2
+1 3
+1 5
+3 5
+4 1
+3 4
+5 1
+6 1
+6 3
+Output: 1 3 4 5

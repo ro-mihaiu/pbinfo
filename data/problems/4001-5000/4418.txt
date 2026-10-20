@@ -1,0 +1,26 @@
+#4418
+planor
+
+Cerința
+Date fiind numărul N de parcele, K – numărul maxim de parcele pe care le poate parcurge planorul ce pornește de la înălțime zero, precum și diferențele de nivel corespunzătoare fiecăreia dintre cele N parcele să se rezolve următoarele 3 cerințe: 1) înălțimea maximă la care ajunge planorul dacă pleacă din prima parcelă și parcurge cel mult K parcele (dar cel puțin una); 2) înălțimea maximă la care ajunge planorul, dacă alege convenabil o parcelă X de lansare și după ce parcurge exact K parcele ; 3) înălțimea maximă la care ajunge planorul, dacă alege convenabil o parcelă X de lansare și parcurge cel mult K parcele (dar cel puțin una).
+
+Restricții
+1 ≤ K ≤ N ≤ 200.000
+−200.000 ≤ diferențele de nivel ≤ 200.000
+Planorul poate ajunge la înălțime negativă în orice moment al zborului.
+Pentru 12 puncte, C = 1
+Pentru 4 puncte, C = 2 și 1 ≤ N ≤ 5.000
+Pentru 16 puncte, C = 2 și 10.000 ≤ N ≤ 200.000
+Pentru 20 puncte, C = 3 și 1 ≤ N ≤ 5.000
+Pentru 48 puncte, C = 3 și 10.000 ≤ N ≤ 200.000
+
+Exemplu
+Input: 1 14 4
+4 -5 3 -2 6 3 -2 -1 4 3 6 -4 2 3
+Output: 4
+Input: 2 14 4
+4 -5 3 -2 6 3 -2 -1 4 3 6 -4 2 3
+Output: 12
+Input: 3 14 4
+4 -5 3 -2 6 3 -2 -1 4 3 6 -4 2 3
+Output: 13

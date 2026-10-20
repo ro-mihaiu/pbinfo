@@ -1,0 +1,31 @@
+#2130
+Robot4
+
+Cerința
+Scrieţi un program care citeşte numărul N de standuri, timpul (ora h , minutul m , secunda s ) când robotul ajunge la primul stand, timpii t , v și r cu semnificaţia din enunţ şi etichetele standurilor și care rezolvă următoarele cerințe:
+calculează şi afişează timpul (ora, minutul şi secunda) când robotul a încheiat verificarea tuturor celor N standuri şi repararea etichetelor incorecte;
+repară (unde este necesar) etichetele standurilor şi afişează etichetele celor N standuri la final.
+
+Restricții
+2 ≤ N ≤ 500
+Etichetele standurilor au cel puțin două și cel mult nouă cifre.
+Robotul începe și încheie repararea în aceeaşi zi; 0 ≤ h, hf < 24 ; 0 ≤ m, mf, s, sf < 60
+Pentru rezolvarea corectă a cerinţei 1 se acordă 40 de puncte; pentru rezolvarea corectă a cerinţei 2 se acordă 60 de puncte.
+
+Exemplu
+Input: 1
+3 11 20 50
+7 5 15
+376572
+3564
+123
+Output: 11 21 49
+Input: 2
+3 11 20 50
+7 5 15
+376572
+3564
+113
+Output: 357762
+3564
+130

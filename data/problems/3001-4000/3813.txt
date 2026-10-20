@@ -1,0 +1,14 @@
+#3813
+Unghiuri
+
+Cerința
+Se dau lungimile laturilor unui triunghi ABC . Aflati masurile unghiurilor A, B, C .
+
+Restricții
+1 ≤ AB,BC,AC ≤ 1000
+
+Exemplu
+Input: 7 8 6
+Output: 75.52 46.56 57.91
+Input: 4 5 10
+Output: Imposibil

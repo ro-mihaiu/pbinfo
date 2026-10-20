@@ -1,0 +1,26 @@
+#4301
+gustare
+
+Cerința
+A venit ora mesei pentru Por Costel (masa dintre prânz și cină). Scormonind printr-o grădină, el descoperă un număr de N coceni de porumb și M mere. Masa lui Por Costel va consta în exact un cocean și un măr. Însă, mai nou, fanii săi l-au atenționat că trebuie să aibă grijă ce mănâncă. Fiecare cocean și fiecare măr are o valoare nutritivă. Valoarea nutritivă a mesei va fi valoarea nutritivă a coceanului ales + valoarea nutritiva a mărului ales. Dându-se valorile nutritive ale cocenilor și ale merelor, Por Costel vă întreabă dacă există o masă pe care o poate lua cu valoare nutritivă X . Pentru că Por Costel vrea sa mănânce de mai multe ori între prânz și cină, el va vă pune T întrebări de forma aceasta. (Întrebările sunt independente între ele, a nu se considera că după o întrebare se elimină perechea cocean-mar aleasă).
+
+Restricții
+N, M ≤ 500.000
+T ≤ 100
+0 ≤ valoare nutritiva a unui aliment ≤ 1.000.000.000
+0 ≤ valoarea X a unei intrebari ≤ 2.000.000.000
+Pentru 20 de puncte, N, M ≤ 1000
+Pentru alte 50 de puncte, T ≤ 20
+
+Exemplu
+Input: 4
+2 2 3 5
+3
+2 4 6
+5
+6 20 10 11 7
+Output: DA
+NU
+NU
+DA
+DA

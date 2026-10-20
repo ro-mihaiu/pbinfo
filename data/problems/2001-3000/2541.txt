@@ -1,0 +1,18 @@
+#2541
+genmat
+
+Cerința
+Scrieți un program care citește de la tastatură un număr natural n și construiește în memorie o matrice cu n linii și n coloane, numerotate de la 1 la n , în care fiecare element aflat pe chenarul exterior al matricei este egal cu suma dintre indicele liniei și indicele coloanei pe care se află, iar fiecare dintre celelalte elemente este egal cu suma celor trei “vecini” situați pe coloana următoare.
+
+Restricții
+2 ≤ n ≤ 15
+două elemente din matrice se numesc vecine dacă se găsesc alături pe linie, coloană sau diagonală;
+chenarul exterior al unei matrice este format din prima linie, ultima linie, prima coloană și ultima coloană;
+
+Exemplu
+Input: 5
+Output: 2 3 4 5 6 
+3 126 50 21 7 
+4 182 72 24 8 
+5 140 60 27 9 
+6 7 8 9 10

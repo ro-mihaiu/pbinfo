@@ -1,0 +1,14 @@
+#425
+Viete
+
+Cerința
+Se consideră ecuația de gradul al doilea $$ax^2+bx+c=0$$ cu coeficienți întregi și un număr natural n . Să se determine $$S_n=x_1^n+x_2^n$$ unde \(x_1\) și \(x_2\) sunt rădăcinile ecuației, folosind relațiile lui Viete.
+
+Restricții
+1 ≤ n ≤ 10
+-10 ≤ b,c ≤ 10, a = 1
+rezultatul se va înscrie pe 32 de biți cu semn
+
+Exemplu
+Input: 1 -3 2 4
+Output: 17

@@ -1,0 +1,14 @@
+#890
+nrvocale
+
+Cerința
+Se dă o propoziție formată din litere mari și mici ale alfabetului englez, cifre, spații și semne de punctuație, în care literele mari și mici se consideră identice. Determinați vocala din șir cu număr maxim de apariții.
+
+Restricții
+șirul citit va avea cel mult 255 caractere
+dacă în șir există mai multe vocale cu număr maxim de apariții, se va afișa prima în ordine alfabetică
+vocalele sunt AEIOUaeiou
+
+Exemplu
+Input: Ana are 5 mere si trei nuci
+Output: E

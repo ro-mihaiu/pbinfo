@@ -1,0 +1,13 @@
+#949
+Calendar3
+
+Cerința
+Dându-se o dată calendaristică și un număr nr de zile, să se determine care este data aflată la o diferență de nr de zile.
+
+Restricții
+-100.000 ≤ nr ≤ 100000
+Datele calendaristice din fișierul de intrare sunt între 1 ianuarie 1900 și 31 decembrie 2100
+Nu se vor fi date calendaristice invalide precum 29 februarie 2015 sau 31 noiembrie 1980
+Dacă nr este negativ, data cerută se afla înaintea cele curente.
+
+Exemplu

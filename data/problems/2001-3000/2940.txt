@@ -1,0 +1,22 @@
+#2940
+Cifra4
+
+Cerința
+Pentru reprezentarea numerelor s-a decis să nu se mai folosească cifra C . Astfel din șirul numerelor naturale se vor elimina toate numerele care conțin cifra C . Notăm noul șir cu S .
+1) Să se determine al N -lea număr din șirul S . 2) Se dau Y și Z , două numere naturale din șirul S . Să se determine numărul de numere naturale eliminate dintre Y și Z .
+
+Restricții
+1 ≤ N ≤ 10^13
+0 ≤ C ≤ 9
+1 ≤ Y ≤ 10^13
+1 ≤ Z ≤ 10^13
+pentru 20% din teste N va avea cel mult 5 cifre
+pentru 20% din teste Y și Z vor avea cel mult 6 cifre
+
+Exemplu
+Input: 1
+0 11
+Output: 12
+Input: 2
+1 3 20
+Output: 10

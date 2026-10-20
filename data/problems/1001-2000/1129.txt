@@ -1,0 +1,25 @@
+#1129
+Tinta
+
+Cerința
+Cunoscând n numărul de linii și de coloane ale țintei:
+a. Ajutați-l pe Alex să construiască ținta visată. b. Câte punctaje distincte poate să obțină Alex dacă are o singură săgeată? c. Afișați punctajele distincte găsite.
+
+Restricții
+3 ≤ n ≤ 1000
+Pentru prima cerinţă afişată corect se va acorda 40% din punctaj; pentru a doua cerință se va acorda 20% din punctaj; pentru cea de-a treia cerință se va acorda 40% din punctaj.
+
+Exemplu
+Input: 3
+Output: 1  2  6  
+3  5  7  
+4  8  9
+1
+40
+Input: 4
+Output: 1 2 6 7
+3 5 8 13
+4 9 12 14
+10 11 15 16
+3
+45 68 91

@@ -1,0 +1,12 @@
+#423
+fibonacci1
+
+Cerința
+Se dă un număr natural n . Să se afişeze în ordine crescătoare, termenii şirului lui Fibonacci mai mici sau egali cu n .
+
+Restricții
+1 ≤ n ≤ 500.000.000
+
+Exemplu
+Input: 40
+Output: 1 1 2 3 5 8 13 21 34

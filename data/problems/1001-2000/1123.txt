@@ -1,0 +1,18 @@
+#1123
+Iepurasi
+
+Cerința
+Scrieţi un program care să citească numerele naturale N (reprezentând numărul de iepuraşi) şi a 1 , a 2 ,…, a N (reprezentând, în ordine, numerele inscripţionate pe feţele gri) și care să determine:
+a) Numărul minim de operaţii TAP necesare rearanjării iepuraşilor; b) Cel mai mic număr aflat pe o faţă albă care nu se vede, în cazul în care au rămas cartonaşe neîntoarse. Dacă toate cartonaşele au fost întoarse (la toate fiind vizibilă faţa albă) se va afişa cel mai mare număr aflat pe o faţă albă a unui cartonaş.
+
+Restricții
+2 ≤ N ≤ 10000 ;
+1 ≤ a i ≤ 10000 ( 1≤i≤N );
+N, a 1 , a 2 , …, a N sunt numere naturale;
+pentru rezolvarea cerinţei a) se acordă 50% din punctaj, iar pentru cerinţa b) se acordă 50% din punctaj.
+
+Exemplu
+Input: 5 
+14 5 8 9 10
+Output: 1
+999

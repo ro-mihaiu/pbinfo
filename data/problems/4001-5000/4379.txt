@@ -1,0 +1,22 @@
+#4379
+moara
+
+Cerința
+Cunoscându-se N și M , dimensiunile satului, C numărul cailor, forțele inițiale ale cailor și matricile a și p , să se determine numărul de cai pe care Lică îi poate utiliza astfel încât el să reușească să traverseze satul, de la casa lui până la ieșirea din sat.
+
+Restricții
+1 ≤ N, M ≤ 700
+1 ≤ C ≤ 1.000.000
+Elementele matricelor a și p sunt numere naturale nenule ≤ 100.000
+Forțele cailor sunt numere naturale nenule ≤ 1.000.000.000
+
+Exemplu
+Input: 3 3 4
+91 2 3 54
+3 2 1
+1 2 3
+2 2 2
+1 1 1
+2 2 1
+1 2 1
+Output: 2

@@ -1,0 +1,12 @@
+#331
+afisarenumereimpare
+
+Cerința
+Se dă un număr natural n . Afișați în ordine descrescătoare primele n numere naturale impare.
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 5
+Output: 9 7 5 3 1

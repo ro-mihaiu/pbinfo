@@ -1,0 +1,13 @@
+#56
+numarareperechi
+
+Cerința
+Se citesc numere de la tastatură până la apariția lui zero. Să se determine câte perechi de elemente citite consecutiv se termină cu aceeași cifră.
+
+Restricții
+numerele citite aparțin intervalului (-1.000.000;1.000.000)
+valoarea zero, care încheie citirile, nu se va prelucra
+
+Exemplu
+Input: 15 63 403 123 55 15 4 0
+Output: 3

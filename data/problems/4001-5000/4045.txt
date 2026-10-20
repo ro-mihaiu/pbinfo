@@ -1,0 +1,26 @@
+#4045
+wl
+
+Cerința
+Kida a descoperit un nou joc, prin care pornind de la un număr oarecare poate ajunge la alte numere prin niște pași simpli: dacă la un moment de timp, T , Kida are numărul W, atunci la momentul de timp T + 1 ea poate să ajungă la orice alt număr L dacă: L < W L este divizibil cu W - L W este divizibil cu W - L 2 * L ≥ W
+Kida are o mulțime de N numere, notată cu D . Acum, ea își pune Q întrebări de tipul: Dacă aș porni la momentul de timp T = 0 și aș avea numărul x , care este momentul de timp minim la care aș putea sa ajung la un număr din mulțimea D folosind regulile jocului descris mai sus? Dacă nu se poate ajunge la niciun număr din mulțimea D , atunci Kida va considera că răspunsul este -1 .
+
+Restricții
+1 ≤ N ≤ 10 000
+1 ≤ D[i] ≤ 100 000
+0 ≤ x ≤ 100 000
+1 ≤ Q ≤ 100 000
+Subtask #1 : Răspunsul pentru fiecare întrebare este cel mult 1 – 10 puncte
+Subtask #2 : Răspunsul pentru fiecare întrebare este cel mult 2 – alte 20 de puncte
+Subtask #3 : Fără restricții – alte 70 de puncte
+
+Exemplu
+Input: 2
+3 4
+5
+7 8 10 3 64
+Output: 2
+1
+2
+0
+4

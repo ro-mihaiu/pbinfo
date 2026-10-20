@@ -1,0 +1,15 @@
+#4504
+dinamica07
+
+Cerința
+Se dau numerele naturale n , p și q . Să se determine numărul șirurilor de n biți în care numărul biților de 1 este cuprins între p și q . Pentru că acest număr poate fi foarte mare, se va determina modulo 1.000.000.007 .
+
+Restricții
+3 ≤ n ≤ 1.000.000
+0 ≤ p < q ≤ n
+q - p ≤ 5
+1.000.000.007 este număr prim
+
+Exemplu
+Input: 4 2 3
+Output: 10

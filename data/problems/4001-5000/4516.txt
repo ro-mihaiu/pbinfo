@@ -1,0 +1,12 @@
+#4516
+max3cif
+
+Cerința
+Dat numărul natural n , să se determine cel mai mare număr de trei cifre conținut în n .
+
+Restricții
+100 ≤ n ≤ 1.000.000.000.000.000.000
+
+Exemplu
+Input: 200013866700095
+Output: 866

@@ -1,0 +1,24 @@
+#1122
+Babilon
+
+Cerința
+Dându-se un număr natural n și un șir de n cifre din mulțimea {1, 2, 3} , reprezentând codificarea scrierii babiloniene a unui număr natural, să se determine: a) numărul maxim de cifre 1 aflate pe poziții consecutive în codificarea scrierii babiloniene date; b) numărul natural din sistemul zecimal corespunzător scrierii babiloniene date.
+
+Restricții
+2 ≤ n ≤ 109 ;
+se garantează faptul că numărul de cifre al rezultatului de la punctul b) (numărul zecimal) este mai mic decât 20 ;
+30% din teste vor avea pe prima linie valoarea 1 , iar restul de 70% din teste vor avea pe prima linie valoarea 2 .
+
+Exemplu
+Input: 1
+8
+1 1 3 2 1 1 1 2
+Output: 3
+Input: 2
+7
+1 1 3 2 1 1 1
+Output: 7213
+Input: 2
+9
+1 1 1 2 1 1 2 2 1
+Output: 11541

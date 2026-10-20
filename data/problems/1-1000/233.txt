@@ -1,0 +1,15 @@
+#233
+genmat17
+
+Cerința
+Scrieţi un program care citeşte de la tastatură un număr natural n şi construieşte în memorie o matrice cu 2*n linii şi 2*n coloane, numerotate de la 1 la 2*n , astfel încât parcurgând doar liniile impare ale matricei de sus în jos şi fiecare linie impară de la stânga la dreapta se obţin în ordine strict crescătoare toate numerele impare cuprinse în intervalul [1,4*n 2 ] , iar parcurgând doar liniile pare ale matricei de sus în jos şi fiecare linie pară de la dreapta la stânga se obţin în ordine strict crescătoare toate numerele pare cuprinse în intervalul [1,4*n 2 ] .
+
+Restricții
+2 ≤ n ≤ 10
+
+Exemplu
+Input: 2
+Output: 1 3 5 7
+8 6 4 2
+9 11 13 15
+16 14 12 10

@@ -1,0 +1,30 @@
+#1461
+Meteoriti
+
+Cerința
+Deoarece Arpsod şi arhitectul său, Ierdnac, sunt prea ocupaţi să pregătească schița viitorului laborator, vă roagă pe voi să determinați aria maximă a unei suprafețe cu celule învecinate, de înălțime maximă precum și numărul de fire de ‘noledge rămase neatinse după căderea meteoriților ( poate au ratat vreunu’ ! ).
+
+Restricții
+4 ≤ N, M ≤ 2.000
+1 ≤ R ≤ 100.000
+1 ≤ r1 ≤ r2 ≤ N
+1 ≤ c1 ≤ c2 ≤ M
+1 ≤ C ≤ 20.000
+Două celule se consideră vecine dacă au cel puțin o latură comună.
+Înălțimea inițială a celulelor se consideră 0 .
+Se garantează că pentru 30% din teste 4 ≤ N, M ≤ 300 și 1 ≤ R ≤ 300
+Pentru rezolvarea corectă a primei cerinţe se acordă 80% din punctajul pe testul respectiv iar pentru rezolvarea corectă a celei de-a doua cerinţe se acordă 20% din punctajul pe testul respectiv
+Fișierul de ieșire TREBUIE să conțină exact DOUĂ valori chiar dacă doriți să rezolvați o singură cerință din cele două
+Dacă îi veți da răspunsul corect vrăjitorului, acesta vă va primi și pe voi prin laboratorul său.
+NU este bine să îl supărați pe vrăjitor!
+
+Exemplu
+Input: 5 6 7
+2 2 4 3 1
+4 4 4 6 2
+1 5 4 6 1
+2 5 3 6 1
+2 3 4 3 1
+5 1 5 3 3
+4 2 4 2 1
+Output: 3 12

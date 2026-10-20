@@ -1,0 +1,16 @@
+#1617
+ks
+
+Cerința
+Cunoscând numărul de jetoane de pe tabla de joc, valorile înscrise pe acestea, precum şi valoarea k , scrieţi un program care să determine care este cel mai bun punctaj pe care Bogdan îl poate obţine, ştiind că ambii jucători joacă optim.
+
+Restricții
+3 ≤ n ≤ 100 000
+1 ≤ k ≤ n/3
+Valorile înscrise pe jetoane sunt numere naturale nenule ≤10 9 .
+După ce Ana extrage jetoanele sale, jetoanele rămase pe tablă îşi vor păstra poziţiile iniţiale.
+
+Exemplu
+Input: 10 3
+1 2 5 4 15 2 4 5 1 6
+Output: 12

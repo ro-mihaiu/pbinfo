@@ -1,0 +1,37 @@
+#3915
+anagrame_cv
+
+Cerința
+Se citește de la tastatură un cuvânt s format din cel mult 11 litere mici distincte. Să se genereze în ordine alfabetică și să se afișeze toate anagramele cuvântului s în care nu există două vocale alăturate și nici două consoane alăturate.
+
+Restricții
+cuvântul s are cel mult 11 caractere și este format din litere mici distincte
+dacă nu există soluții, atunci se va afișa mesajul IMPOSIBIL .
+
+Exemplu
+Input: cosmina
+Output: caminos
+camison
+camonis
+camosin
+canimos
+canisom
+canomis
+canosim
+casimon
+casinom
+casomin
+casonim
+cimanos
+cimason
+cimonas
+cimosan
+cinamos
+cinasom
+cinomas
+cinosam
+...
+sonimac
+(în total 144 de anagrame)
+Input: cosmin
+Output: IMPOSIBIL

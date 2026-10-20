@@ -1,0 +1,14 @@
+#3610
+urm00
+
+Cerința
+Se dă un număr natural nenul n . Să se determine cel mai mic număr natural, mai mare sau egal decât n , care are ultimele două cifre egale cu 0 .
+
+Restricții
+1 ≤ n ≤ 999.999.999
+
+Exemplu
+Input: 3476
+Output: 3500
+Input: 4500
+Output: 4500

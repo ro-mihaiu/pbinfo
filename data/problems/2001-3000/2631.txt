@@ -1,0 +1,14 @@
+#2631
+h4
+
+Cerința
+Să se determine numărul maxim de cuvinte dintr-un grup.
+
+Restricții
+Cuvintele au lungimea cel mult 14 și conțin numai litere mici.
+Vor exista cel mult 100.000 de cuvinte în șir.
+
+Exemplu
+Input: alee leee   elea car   rac
+eela eeel  elee  elee
+Output: 4

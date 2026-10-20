@@ -1,0 +1,49 @@
+#1622
+Elicoptere
+
+Cerința
+Să se scrie un program care pentru n , k şi coordonatele vârfurilor insulelor cunoscute, determină:
+numărul minim de elicoptere ce vor fi cumpărate de administraţie;
+numărul perechilor neordonate de insule între care se poate realiza transportul prin elicoptere direct sau indirect;
+suma distantelor parcurse de toate elicopterele cumpărate (distanța parcursă de un elicopter se consideră distanța dintre insulele între care acesta asigură transportul).
+
+Restricții
+1 ≤ n ≤ 100;
+1 ≤ k ≤ 1000;
+coordonatele vârfurilor insulelor sunt numere naturale 0 ≤ xi , yi ≤ 10 6 ;
+orice două insule nu au puncte comune;
+la cerința 2, dacă se poate ajunge din insula A în insula B atunci evident că se poate ajunge și din B în A, deci perechea formată din A și B se numără o singură dată;
+distanța dintre două insule poate fi şi număr real. La cerința 3 rezultatul se cere cu o aproximație de 0.001 , adică rezultatul notat cu R se consideră corect, dacă faţă de rezultatul comisiei C îndeplineşte condiţia |R-C|<0.001 .
+pentru a calcula şi afișa un număr real x cu o precizie cât mai mare vă recomandăm folosirea tipului double
+pentru rezolvarea corectă a cerinței 1 se acordă 20% din punctaj;
+pentru rezolvarea corectă a cerinței 2 se acordă 40% din punctaj;
+pentru rezolvarea corectă a cerinței 3 se acordă 40% din punctaj.
+
+Exemplu
+Input: 1
+6 11
+100 20 100 30 105 30
+20 20 30 30 20 30
+200 20 200 30 205 30
+100 40 100 50 105 40
+10 40 5 40 10 50
+10 20 5 30 10 30
+Output: 3
+Input: 2
+6 11
+100 20 100 30 105 30
+20 20 30 30 20 30
+200 20 200 30 205 30
+100 40 100 50 105 40
+10 40 5 40 10 50
+10 20 5 30 10 30
+Output: 4
+Input: 3
+6 11
+100 20 100 30 105 30
+20 20 30 30 20 30
+200 20 200 30 205 30
+100 40 100 50 105 40
+10 40 5 40 10 50
+10 20 5 30 10 30
+Output: 30

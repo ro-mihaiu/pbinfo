@@ -1,0 +1,12 @@
+#97
+anagrame
+
+Cerința
+Să se scrie un program care verifică dacă două cuvinte date sunt anagrame.
+
+Restricții
+fiecare cuvânt va conține cel mult 20 de caractere.
+
+Exemplu
+Input: rutina unitar
+Output: 1

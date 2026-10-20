@@ -1,0 +1,20 @@
+#1000
+CNP
+
+Cerința
+Se consideră un fişier care conţine informaţii despre mai multe persoane, sub o formă nestructurată. Informaţiile sunt dispuse pe linii de maxim 200 de caractere şi pot conţine CNP -uri valide. Ştiind că CNP -ul unei persoane este un şir de exact 13 cifre consecutive, scrieţi un program care determină şi scrie în fişierul de ieșire, pe linii distincte, toate CNP -urile extrase din text. Dacă în fișierul de intrare nu se află niciun CNP , în fișierul de ieșire se va afișa numai valoarea 0 .
+
+Exemplu
+Input: Popescu Grigore, 14 ani, 1991212122334;
+Gigel  Banu - 1031102453435, Bujorului 7;
+Dana Marin: 2690405358687, fara viza, 2450609987654  -
+Jane Doe
+Output: 1991212122334
+1031102453435
+2690405358687
+2450609987654
+Input: Popescu Grigore, 14 ani, 1991212134;
+Gigel  Banu - 103110245Bujorului 7;
+Dana Marin: 269-04-05-358687, fara viza, 2+450609+987654 -
+Jane Doe
+Output: 0

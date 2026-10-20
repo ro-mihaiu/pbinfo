@@ -1,0 +1,12 @@
+#1661
+Fotbal1
+
+Cerința
+Se dau 2 numere reprezentând scorul la fotbalul extraterestru. Să se afișeze în câte moduri poți ajunge la acel scor.
+
+Restricții
+numărul de moduri nu va depăși 2 64
+
+Exemplu
+Input: 3 0
+Output: 1

@@ -1,0 +1,19 @@
+#762
+identice2
+
+Cerința
+Se dă o matrice cu n linii și m coloane și elemente numere naturale. Să se determine câte perechi de linii din matrice sunt identice.
+
+Restricții
+1 ≤ n , m ≤ 100
+elementele matricei sunt numere naturale mai mici decât 1.000.000
+
+Exemplu
+Input: 6 3
+10 2 5
+2 1 4
+10 2 5
+7 10 9
+10 2 5
+2 1 4
+Output: 4

@@ -1,0 +1,15 @@
+#4279
+SumCnt2
+
+Cerința
+Se citesc de la tastatură numerele n k , apoi n numere naturale. Să se determine suma celor impare și câte dintre ele se divid cu k .
+
+Restricții
+n ≤ 50
+numerele citite vor fi mai mici decât 10000
+k > 0
+
+Exemplu
+Input: 4 3
+104 63 22 5
+Output: 68 1

@@ -1,0 +1,17 @@
+#1347
+kcifra
+
+Cerința
+Se construiește un număr natural N ale cărui prime 51 cifre sunt: N = 112233445566778899100111122133144155166177188199200......
+Deduceți regula prin care se construiește numărul N și stabiliți care este cea de a K -a cifră din scrierea acestui număr.
+Scrieţi un program care citeşte numărul K şi care determină cea de a K -a cifră din scrierea lui N .
+
+Restricții
+1 ≤ K ≤ 588888
+K număr natural
+
+Exemplu
+Input: 10
+Output: 5
+Input: 51
+Output: 0

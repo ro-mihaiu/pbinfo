@@ -1,0 +1,13 @@
+#4317
+Cifre19
+
+Cerința
+Să se scrie un program care citește un număr natural n cu cifrele distincte și schimbă între ele cea mai mare și cea mai mică cifră a lui n .
+
+Restricții
+10 ≤ n < 1.000.000.000
+cifrele lui n sunt distincte
+
+Exemplu
+Input: 31526
+Output: 36521

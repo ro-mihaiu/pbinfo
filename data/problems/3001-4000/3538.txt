@@ -1,0 +1,15 @@
+#3538
+SiruriPrietene
+
+Cerința
+Se dau două șiruri de caractere formate din litere mici ale alfabetului englez. Să se afle dacă aceste șiruri sunt prietene. Un șir de caractere este prieten cu un alt șir de caractere dacă se poate obține din acesta prin inversarea, ori de câte ori, a caracterelor sale, cu mențiunea că nu se pot inversa între ele decât caractere de pe poziții cu aceeași paritate.
+
+Restricții
+cele două șiruri au maxim 100 de caractere fiecare;
+pozițiile caracterelor în șir sunt numerotate începând cu 0 .
+
+Exemplu
+Input: rutina	naturi
+Output: PRIETENE
+Input: rutina	unitar
+Output: NU SUNT PRIETENE

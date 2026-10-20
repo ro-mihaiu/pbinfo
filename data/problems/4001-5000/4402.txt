@@ -1,0 +1,27 @@
+#4402
+ciocolata1
+
+Cerința
+Determinați și afișați: 1. cel mai des întâlnit gramaj în șirul de tablete așezate inițial pe poliță, iar dacă sunt mai multe gramaje care apar de un număr maxim de ori, se alege cel mai mic dintre acestea; 2. diferența minimă dintre cantitatea totală de ciocolată consumată de Irina și cantitatea totală de ciocolată consumată de Mihaela.
+
+Restricții
+C ∈ {1, 2}
+1 ≤ N ≤ 100.000
+gramajul fiecărei tablete este un număr natural nenul mai mic sau egal cu 10.000
+se garantează că există întodeauna soluție.
+Pentru 30 de puncte, C = 1
+Pentru 5 de puncte, C = 2 și N = 2
+Pentru 10 de puncte, C = 2 și 1 ≤ N ≤ 100
+Pentru 25 de puncte, C = 2 și 1 ≤ N ≤ 1000
+Pentru 30 de puncte, C = 2 , fără restricții suplimentare
+
+Exemplu
+Input: 1 6
+1 4 3 3 5 4
+Output: 3
+Input: 2 5
+14 4 25 2 9
+Output: 3
+Input: 2 11
+3 7 3 12 4 9 4 2 6 5 17
+Output: 1

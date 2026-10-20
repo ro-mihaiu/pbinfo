@@ -1,0 +1,15 @@
+#1653
+Proportionale1
+
+Cerința
+Se dau două şiruri cu câte n elemente, numere naturale nenule. Să se verifice dacă este posibilă rearanjarea elementelor celor două şiruri astfel încât acestea să fie invers proporţionale.
+
+Restricții
+1 ≤ n ≤ 100
+elementele şirurilor vor avea cel mult 4 cifre
+
+Exemplu
+Input: 4
+2 8 4 1
+4 2 8 16
+Output: DA

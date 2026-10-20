@@ -1,0 +1,13 @@
+#4502
+Steiner_1
+
+Cerința
+Fie n un număr natural. Determinați numărul maxim de suprafețe din plan care se pot obține prin intersecțiile a n drepte.
+Definim o suprafață ca fiind o porțiune bidimensională (din plan) delimitată de una sau mai multe drepte (de exemplu, o dreaptă împarte planul în două suprafețe).
+
+Restricții
+1 ≤ n ≤ 10006
+
+Exemplu
+Input: 3
+Output: 7

@@ -1,0 +1,25 @@
+#1385
+Joc6
+
+Cerința
+Dom’ Profesor Unu și Dom’ Profesor Doi au găsit o matrice cu n linii numerotate de la 1 la n și n coloane numerotate de la 1 la n și elemente numere naturale. Semnificativ marcați de algoritmul de determinare a celui mai lung subșir crescător, au inventat pe loc un joc:
+liniile cu indice impar aparțin lui Dom’ Profesor Unu, cele cu indice par aparțin lui Dom’ Profesor Doi;
+pentru fiecare linie a sa, Dom’ Profesor Unu determină lungimea maximă a unui subșir crescător;
+pentru fiecare linie a sa, Dom’ Profesor Doi determină lungimea maximă a unui subșir descrescător;
+scorul fiecărei linii este lungimea determinată;
+scorul total al fiecărui Dom’ Profesor este egal cu suma scorurilor liniilor corespunzătoare;
+jocul este câștigat de Dom’ Profesor cu scorul total mai mare.
+Determinați scorului fiecărui Dom’ Profesor și stabiliți câștigătorul.
+
+Restricții
+1 ≤ n ≤ 150
+elementele matricei vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 4
+1 4 2 3
+2 9 8 7
+3 6 3 8
+1 2 3 3
+Output: 6 5
+UNU

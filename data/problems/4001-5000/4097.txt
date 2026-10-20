@@ -1,0 +1,33 @@
+#4097
+circular1
+
+Cerința
+Fiind date un șir de litere albastre nu neapărat distincte și mulțimea literelor roșii ale imprimantei, să se calculeze:
+Să se insereze între oricare două litere albastre aflate pe poziții consecutive câte o literă roșie astfel încât să se obțină timpul minim pentru tipărire și să se afișeze: timpul minim, numărul de șiruri distincte care sunt tipărite cu timp minim, șirul minim lexicografic dintre toate șirurile ce sunt tipărite în acest timp
+
+Restricții
+Cele două șiruri conțin doar litere mari ale alfabetului englez
+Lungimea șirului de litere albastre nu depășește 50.000 de litere
+Mulțimea literelor roșii nu depășește 25 de litere, care sunt distincte și afișate în ordine alfabetică
+Toate celelalte litere care nu se regăsesc în mulțimea literelor roșii, sunt albastre
+Pentru obținerea punctajului la cerința a doua, pentru orice test, în fișierul de ieșire trebuie să existe exact trei linii care respectă formatul cerut.
+pentru 24 de puncte c = 1
+pentru 76 de puncte c = 2
+
+Exemplu
+Input: 1
+BBTH
+AEIOU
+Output: 21
+Input: 2
+BBTH
+AEIOU
+Output: 23
+4
+BABATIH
+Input: 2
+AMYMAMAMY
+BCDEFGHIJKLNOPQRSTUVWX
+Output: 96
+568708
+ABMNYNMBABMBABMNY

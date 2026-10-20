@@ -1,0 +1,13 @@
+#239
+NrLipsa
+
+Cerința
+Se dau mai multe numere naturale cu cel mult 9 cifre fiecare. Să se determine cele mai mari două numere de 3 cifre care nu se găsesc printre numerele date.
+
+Restricții
+dacă nu există două numere de trei cifre care să nu se afle în fişierul de intrare atunci se va afişa mesajul NU .
+
+Exemplu
+Input: 12 2345 123 67 989 6 999
+123 67 989 999
+Output: 998 997

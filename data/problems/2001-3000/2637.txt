@@ -1,0 +1,23 @@
+#2637
+ZOO
+
+Cerința
+Într-o grădină zoologică reprezentată printr-o matrice A cu n linii și m coloane, fiecare cușcă se află într-o poziție din matrice și conține x animale. De exemplu, dacă A[2][6] = 5 înseamnă că în cușcă de pe linia 2 și coloana 6 se află 5 animale. Să se răspundă la Q întrebări de forma i1, j1, i2, j2 unde răspunsul va fi numărul de animale din dreptunghiul din matrice cu cordonatele colțului din stânga sus i1 și j1 și cordonatele colțului din dreapta jos i2 și j2 , unde i reprezintă linia și j coloana.
+
+Restricții
+1 ≤ n, m ≤ 100
+1 ≤ Q ≤ 100.000
+numărul maxim de animale dintr-o cușcă este de 1.000.000.000
+numerotarea liniilor și a coloanelor din matrice începe de la 1
+
+Exemplu
+Input: 4 4
+1 2 4 1
+8 1 3 2
+3 1 2 2
+8 1 3 1
+2
+2 2 4 4
+3 1 4 3
+Output: 16
+18

@@ -1,0 +1,11 @@
+#37
+zerofact
+
+Cerința
+Scrieți definiția completă a unui subprogram C++, nz , cu un parametru întreg n , care returnează numărul zerourilor de la sfârşitul numărului n!
+
+Restricții
+numele subprogramului va fi nz
+0 < n < 1.000.000.000
+
+Exemplu

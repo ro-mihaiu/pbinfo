@@ -1,0 +1,42 @@
+#4078
+Distanta
+
+Cerința
+Matei, care locuiește in orașul p , vrea să ajungă in orașul q să il viziteze. El are o hartă pe care se află n orașe și m drumuri prin care poate să treacă pentru a ajunge la destinație. Pe hartă apare și durata de timp td pentru fiecare drum, care reprezintă numărul de minute în care este parcurs drumul și to pentru traversarea orașelor (unele orașe sunt mai aglomerate, iar altele nu). Matei vrea să ajungă cat mai rapid la destinație, dar dacă există mai multe trasee de timp minim, il va alege pe acela care trece prin mai multe orașe. Nu vor exista trasee de timp minim cu același număr de orașe. Ajutati-l pe Matei să gasească drumul cerut.
+
+Restricții
+1 < n < 21
+0 ≤ m ≤ 190
+0 < numele orașelor (număr caractere) < 21
+0 ≤ numărul de drumuri dintre oricare 2 orașe ≤ 1
+0 ≤ S ≤ 2.000.000.001
+Nu există drum de la un oraș la el însuși
+Dacă nu există nici un traseu se va afișa NU EXISTA TRASEU .
+
+Exemplu
+Input: 7 
+Bistrita 14
+Oradea 80
+Beius 7
+Galatii-Bistritei 1
+Reghin 3
+Sibiu 15
+Cluj-Napoca 30
+10
+Bistrita Oradea 223
+Cluj-Napoca Sibiu 119
+Bistrita Cluj-Napoca 100
+Beius Oradea 50
+Bistrita Galatii-Bistritei 15
+Reghin Galatii-Bistritei 35
+Oradea Cluj-Napoca 100
+Sibiu Reghin 154
+Beius Sibiu 130
+Reghin Cluj-Napoca 133
+Bistrita Beius
+Output: 374
+Bistrita
+Galatii-Bistritei
+Reghin
+Sibiu
+Beius

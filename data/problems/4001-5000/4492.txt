@@ -1,0 +1,22 @@
+#4492
+back_abn
+
+Cerința
+Se citesc două litere mici a și b și un număr natural n . Afișați în ordine lexicografică toate cuvintele care sunt formate din n litere folosind literele mici din alfabet care sunt cuprinse între litera a și litera b inclusiv, și care au literele ordonate alfabetic.
+
+Restricții
+a ≤ b
+1 ≤ n ≤ 20
+
+Exemplu
+Input: d h 3
+Output: def
+deg
+deh
+dfg
+dfh
+dgh
+efg
+efh
+egh
+fgh

@@ -1,0 +1,16 @@
+#2302
+Memory009
+
+Cerința
+Se dau două șiruri de numere A și B .Calculati A ∩ B .
+
+Restricții
+1 ≤ n ≤ m ≤ 1.000.000
+numerele de pe a doua linie și a treia a fișierului de intrare vor fi mai mici sau egale cu 30
+în fișierul de ieșire nu se repetă elementele !
+
+Exemplu
+Input: 3 2
+2 5 3
+5 9
+Output: 5

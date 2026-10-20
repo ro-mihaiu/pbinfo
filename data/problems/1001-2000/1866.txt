@@ -1,0 +1,13 @@
+#1866
+prosir
+
+Cerința
+Se consideră fișierul prosir.in care conține pe primul rând un text format din cel mult 200 de caractere litere mici și spații. Cuvintele din text sunt separate prin unul sau mai multe spații. Să se modifice textul citit din fișier prin înlocuirea ultimei litere a fiecărui cuvânt cu cifra 5 .
+
+Restricții
+lugimea șirului citit este maximum 200
+ultimul cuvânt din text se termină cu caracterul '.'
+
+Exemplu
+Input: ana are   multe   mare si o gutuie.
+Output: an5 ar5   mult5   mar5 s5 5 gutui5.

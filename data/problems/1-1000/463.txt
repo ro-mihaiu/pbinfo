@@ -1,0 +1,15 @@
+#463
+Factor
+
+Cerința
+Se dau n numere naturale nenule. Determinați cel mai mare număr prim care apare în descompunerea în factori a produsului celor n numere, precum și exponentul său în descompunere.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+pentru toate datele de test va exista cel puțin un număr dintre cele n care are factori primi
+
+Exemplu
+Input: 5
+72 56 70 9 100
+Output: 7 2

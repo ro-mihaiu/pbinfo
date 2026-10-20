@@ -1,0 +1,15 @@
+#3243
+Path
+
+Cerința
+Scrieți funcția cu următorul antet:
+int Path(const char cale[], char d[101][101])
+Parametrul cale memorează un șir de caractere format din litere mici și semnul \ și reprezintă o succesiune de foldere incluse unul în altul. Funcția trebuie să memoreze fiecare folder pe câte o linie a matricei d și să returneze numărul de foldere conținute în cale .
+
+Restricții
+Lungimea șirului cale nu va depăși 100
+cale este nevid, deci va exista cel puțin un folder
+Cei doi parametri sunt indexați de la 0
+Nu vor exista alte caractere în afară de cele menționate în enunț
+
+Exemplu

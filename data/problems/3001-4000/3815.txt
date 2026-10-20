@@ -1,0 +1,17 @@
+#3815
+Poligon
+
+Cerința
+Se dau n numere naturale. Aflati daca acestea pot fi laturile unui poligon cu n laturi.
+
+Restricții
+1 ≤ n ≤ 1000000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+1 2 3 4 5
+Output: DA
+Input: 4
+4 5 10 19
+Output: NU

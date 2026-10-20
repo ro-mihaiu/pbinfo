@@ -1,0 +1,22 @@
+#4060
+GradK
+
+Cerința
+Se dă un graf neorientat cu n vârfuri și un număr natural k . Să se afișeze vârfurile din graf care au gradul egal cu k .
+
+Restricții
+1 ≤ n ≤ 100
+0 ≤ k ≤ n
+1 ≤ i , j ≤ n
+muchiile se pot repeta în fișierul de intrare
+
+Exemplu
+Input: 5 3
+1 4
+2 5
+2 3
+2 1
+4 5
+3 2
+4 3
+Output: 2 2 4

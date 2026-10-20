@@ -1,0 +1,9 @@
+#2200
+uppercase
+
+Cerința
+Să se scrie un program care citește o literă mică și afișează litera mare corespunzătoare.
+
+Exemplu
+Input: t
+Output: T

@@ -1,0 +1,17 @@
+#1373
+reactivi
+
+Cerința
+Scrieţi un program care să determine numărul minim de frigidere necesare pentru stocarea reactivilor chimici.
+
+Restricții
+1 ≤ N ≤ 8000
+-100 ≤ minx ≤ maxx ≤ 100 (numere întregi, reprezentând grade Celsius), pentru orice x de la 1 la N
+un frigider poate conţine un număr nelimitat de reactivi
+
+Exemplu
+Input: 3
+-10 10
+-2 5
+20 50
+Output: 2

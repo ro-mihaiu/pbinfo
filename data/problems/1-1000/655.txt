@@ -1,0 +1,17 @@
+#655
+Transf
+
+Cerința
+Se dau două șiruri a și b cu câte n elemente, numere naturale din mulțimea {1,2} . Se dorește transformarea șirului a în șirul b , având la dispoziție următoarele operații:
+interschimbarea a două elemente
+înlocuirea unui element 1 cu 2 sau a unui element 2 cu 1 .
+Determinați pentru cele două șiruri numărul minim de operații prin care se transformă șirul a în șirul b .
+
+Restricții
+1 ≤ n ≤ 1000
+
+Exemplu
+Input: 5
+2 2 1 1 2 
+2 2 2 1 1
+Output: 1

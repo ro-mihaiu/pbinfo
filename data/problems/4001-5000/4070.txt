@@ -1,0 +1,19 @@
+#4070
+Subgraf2
+
+Cerința
+Se dă lista muchiilor unui graf neorientat cu n noduri, etichetate de la 1 la n , m muchii și un număr k . Din acest graf se elimină toate nodurile etichetate cu multipli ai lui k . Să se determine câte muchii va avea subgraful obținut.
+
+Restricții
+1 < k < n ≤ 100
+1 ≤ i , j ≤ n
+
+Exemplu
+Input: 5 6 2
+1 5
+2 5
+2 3
+2 4
+4 5
+4 3
+Output: 1

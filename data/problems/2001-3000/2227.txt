@@ -1,0 +1,27 @@
+#2227
+gradina1
+
+Cerința
+Determinaţi valoarea ariei pentru zona de arie maximă cultivată cu plante din aceeaşi specie, obţinută în urma reamenajării grădinii.
+
+Restricții
+4 ≤ n, m ≤ 50
+2 ≤ s ≤ 100
+Coeficienţii de umiditate ai speciilor şi a solului sunt numere naturale nenule mai mici decât 1000
+
+Exemplu
+Input: 6 6 5
+2 0 0 1 4 4
+0 0 1 1 0 0
+0 0 0 0 3 0
+0 1 5 5 0 0
+1 2 2 0 5 4
+5 2 0 0 3 0
+10 6 4 9 8
+10 20 3 10 5 10
+2 12 20 8 7 9
+14 5 9 8 10 2
+2 16 15 14 7 2
+12 14 12 15 14 12
+11 14 11 9 11 12
+Output: 10

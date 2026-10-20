@@ -1,0 +1,14 @@
+#3285
+moscraciun
+
+Cerința
+Cei n copii de la grădiniță stau cuminți în șir și așteaptă cadourile de la Moș Crăciun. Ei sunt numerotați de la 1 la n (se consideră că n este par) și în prima jumătate sunt copiii de la grupa mare iar în a doua jumătate sunt cei de la grupa mică (numărul de copii din fiecare grupă este același, n/2 ). După ce trece Moș Crăciun se știe câte cadouri a primit fiecare copil și noi dorim să aflăm câți copii din grupa mică au primit mai multe cadouri decât orice copil din grupa mare.
+
+Restricții
+2 ≤ n ≤ 20 , par
+cele n numere citite vor fi naturale nenule mai mici decât 1.000.000.000
+
+Exemplu
+Input: 6
+1 6 3 6 8 2
+Output: 1

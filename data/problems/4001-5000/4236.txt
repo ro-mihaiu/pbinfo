@@ -1,0 +1,13 @@
+#4236
+Bacterie1
+
+Cerința
+Scrieţi un program care să determine numărul de comitate rămase neinfectate după oprirea expansiunii bacteriei.
+
+Restricții
+1 ≤ n ≤ 1.000.000.000 , 1 ≤ m ≤ 1.000.000.000 , numere naturale;
+aceasta este problema #Bacterie , dar opeațiile de intrare/ieșire se fac cu consola.
+
+Exemplu
+Input: 3 5
+Output: 9

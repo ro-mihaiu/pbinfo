@@ -1,0 +1,15 @@
+#277
+varfuri
+
+Cerința
+Într-un şir de numere naturale se numeşte vârf un element care are doi vecini şi este strict mai mare decât aceştia.
+Se dă un şir cu n elemente, numere naturale. Calculaţi suma elementelor din şir care sunt vârfuri.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor avea cel mult 4 cifre
+
+Exemplu
+Input: 7
+3 8 4 4 1 9 1
+Output: 17

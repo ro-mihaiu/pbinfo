@@ -1,0 +1,17 @@
+#482
+Auto
+
+Cerința
+Gigel se plimbă cu mașina. El parcurge n etape, despre fiecare etapă cunoscându-se durata și viteza constantă de deplasare. Să se determine distanța totală parcursă și viteza medie de deplasare.
+
+Restricții
+1 ≤ n ≤ 100
+pentru fiecare etapă, durata și viteza sunt numere naturale mai mici sau egale cu 100
+durata se exprimă în ore, distanța în kilometri, iar viteza în km/h
+
+Exemplu
+Input: 3
+2 65
+3 70
+1 55
+Output: 395 65.83

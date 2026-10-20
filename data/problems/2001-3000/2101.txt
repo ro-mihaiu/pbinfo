@@ -1,0 +1,26 @@
+#2101
+Traseu2
+
+Cerința
+Dată fiind configuraţia labirintului, poziţia iniţială a roboţelului şi traseul pe care se deplasează acesta, să se determine poziţia finală a robotului.
+
+Restricții
+• 1 ≤ n ≤ 100 • Traseul are lungimea ≤ 250 • Valorile numerice scrise pe aceeaşi linie în fişierul de intrare şi în fişierul de ieşire vor fi separate prin câte un spaţiu. • Poziţia iniţială a roboţelului se află pe culoar.
+
+Exemplu
+Input: 5
+2 1
+1 0 0 0 1
+0 0 1 0 1
+1 0 0 0 0
+1 0 0 1 1
+1 1 0 0 0
+ENESES
+Output: 2 4
+Input: 3
+2 2
+1 0 0
+0 0 1
+1 0 0
+VVV
+Output: 2 1

@@ -1,0 +1,14 @@
+#906
+SumaCifre
+
+Cerința
+Să se scrie o funcție C++ care să determine suma cifrelor pare și suma cifrelor impare pentru un număr natural transmis ca parametru. Funcția va întoarce rezultatele prin intermediul unor parametri de ieşire.
+
+Restricții
+numele funcției va fi sumcif
+funcția va avea trei parametri: primul parametru reprezintă numărul n pentru care se calculează cifrele cerute;al doilea parametru va reprezenta suma cifrelor pare ale lui n , iar al treilea va reprezenta suma cifrelor impare ale lui n
+n va fi număr natural mai mic decât 2.000.000.000
+
+Exemplu
+Input: sumcif(274 , s , t);
+Output: None

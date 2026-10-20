@@ -1,0 +1,22 @@
+#458
+patrat1
+
+Cerința
+Se citește numărul natural impar n , şi două caractere c şi d . Să se afișeze următorul pătrat, format din n linii şi n coloane, în care cele două caractere alternează:
+cdc...dc
+dcd...cd
+....
+dcd...cd
+cdc...dc
+
+Restricții
+1 ≤ n ≤ 19
+c şi d sunt caractere cu codul ASCII cuprins între 33 şi 126 , inclusiv.
+
+Exemplu
+Input: 5 * #
+Output: *#*#*
+#*#*#
+*#*#*
+#*#*#
+*#*#*

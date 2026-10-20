@@ -1,0 +1,19 @@
+#3644
+joc12
+
+Cerința
+Cunoscând numerele alese de cele două fete precum și numerele care determină intervalele date, să se determine cine câștigă jocul și care este numărul care conduce la câștigarea jocului.
+
+Restricții
+1 ≤ x, y ≤ 1.000.000
+1 ≤ a, b ≤ 1.000.000.000
+1 ≤ c, d ≤ 1.000.000.000
+
+Exemplu
+Input: 7
+9
+30
+9
+60
+20
+Output: Maria 4

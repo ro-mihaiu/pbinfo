@@ -1,0 +1,12 @@
+#20
+suma-divizorilor-primi
+
+Cerința
+Să se scrie o funcție C++ care să determine suma divizorilor primi ai unui număr natural transmis ca parametru. Funcția întoarce rezultatul prin intermediul unui parametru de ieşire.
+
+Restricții
+numele funcției va fi sum_div_prim
+funcția va avea doi parametri, reprezentând numărul pentru care se calculează suma divizorilor, respectiv valoarea calculată
+numărul pentru care se calculează suma divizorilor primi va fi mai mare decât 1 și mai mic decât 2.000.000.000
+
+Exemplu

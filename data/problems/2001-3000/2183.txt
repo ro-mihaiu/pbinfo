@@ -1,0 +1,19 @@
+#2183
+betisoare1
+
+Cerința
+Scrieți un program care să citească numărul natural N și mărcile bețișoarelor, iar apoi să determine secvențele ce conțin un număr maxim de bețișoare de același tip.
+
+Restricții
+1 ≤ N ≤ 1000
+0 ≤ b[i] ≤ 1 , ( 1 ≤ i ≤ N )
+
+Exemplu
+Input: 10
+0100011000
+Output: 0 3
+2
+Input: 17
+101111000011110000
+Output: 1 4
+2

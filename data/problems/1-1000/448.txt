@@ -1,0 +1,12 @@
+#448
+ciford
+
+Cerința
+Se citește de la tastatură un număr natural de 3 cifre. Să se afișeze cifrele sale în ordine crescătoare.
+
+Restricții
+Numărul citit de la tastatură este natural, de 3 cifre
+
+Exemplu
+Input: 101
+Output: 0 1 1

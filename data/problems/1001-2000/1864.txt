@@ -1,0 +1,22 @@
+#1864
+MosCraciun
+
+Cerința
+Moș Crăciun locuiește la polul nord și pregătește cadouri pentru copii cuminți din clasele a X-a B și A, ajutat de mai mulți spiriduși. Datorită încălzirii globale, gheața se topește, formându-se mai multe banchize. Spiridușii care se află pe alte banchize decât Moș Crăciun nu-l mai pot ajuta pe acesta, spre disperarea generală.
+Harta polului nord seamănă cu o matrice cu n linii și m coloane în care elementele pot avea următoarele valori:
+0 – zonă cu apă, în care gheața s-a topit.
+1 – zonă cu gheață care face parte dintr-o banchiză. Două zone cu gheață fac parte din aceeași banchiză dacă se învecinează pe linie sau pe coloană.
+2 – zonă cu gheață în care se găsește Moș Crăciun.
+3 – zonă cu gheață în care se găsește un spiriduș
+Scrieți un program care să determine câți spiriduși se află pe aceeași banchiză cu Moș Crăciun și îl pot ajuta în continuare să pregătească cadouri pentru copii cuminți din clasele a X-a B și A.
+
+Restricții
+1 ≤ n , m ≤ 100
+
+Exemplu
+Input: 4 6
+1 1 3 0 3 0
+0 0 1 0 1 1
+1 3 2 0 0 0
+0 3 0 1 3 1
+Output: 3

@@ -1,0 +1,18 @@
+#2510
+vsecvente
+
+Cerința
+Pentru un șir de numere dat, trebuie să răspundeți la Q întrebări notate V[1] , V[2] ,…, V[Q] . Pentru fiecare întrebare i , dată prin numărul natural V[i] , trebuie să aflați câte V[i]-secvențe sunt în șir.
+
+Restricții
+1 ≤ toate numerele din fișierul de intrare ≤ 1 100 000
+Pentru teste totalizând 75 puncte, 1 ≤ toate numerele din fișierul de intrare ≤ 550 000
+
+Exemplu
+Input: 10
+2 2 6 4 3 14 7 4 3 36
+3
+7 1 4
+Output: 2
+0
+3

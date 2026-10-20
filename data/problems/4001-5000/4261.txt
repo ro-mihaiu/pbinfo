@@ -1,0 +1,15 @@
+#4261
+AlternDivImp
+
+Cerința
+Folosind metoda Divide et Impera, scrieți funcția recursivă cu antetul
+int AlternDivImp(int a[], int st, int dr)
+care primind ca parametri un vector a de numere naturale și două numere întregi st și dr , returnează 1 dacă în secvența a[st], a[st+1], ..., a[dr] numerele impare alternează cu cele pare, sau returnează 0 dacă există cel puțin două numere alăturate de aceeași paritate.
+
+Restricții
+st ≤ dr
+Numele funcției este AlternDivImp .
+Vectorul a este indexat de la 1
+Se recomandă utilizarea metodei Divide et Impera în rezolvarea problemei.
+
+Exemplu

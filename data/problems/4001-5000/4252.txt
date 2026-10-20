@@ -1,0 +1,30 @@
+#4252
+Matrice11
+
+Cerința
+Scrieți un program care citește de la tastatură două numere naturale din intervalul [2,50] , n și m , și elementele unei matrici cu n linii și m coloane, numere naturale distincte din intervalul [0,10 4 ] .
+Programul interschimbă elementele de pe linia pe care se află valoarea minimă cu elementele de pe linia pe care se află valoarea maximă din matrice, apoi afișează pe ecran matricea modificată, câte o linie a matricii pe câte o linie a ecranului, elementele fiecărei linii fiind separate prin câte un spațiu.
+Se vor defini și apela următoarele subprograme:
+citire , care citește de la tastatură valorile lui n și m și apoi elementele matricei
+afisare , care afișează pe ecran elementele matricei conform cerinței
+lin_min , care determină indicele liniei pe care se află elementul minim din matrice
+lin_max , care determină indicele liniei pe care se află elementul maxim din matrice
+interschimbare , care interschimbă în matricea dată elementele de pe două linii date
+În programele C/C++ nu se vor folosi variabile globale .
+
+Restricții
+2 ≤ n,m ≤ 50
+indexarea liniilor și a coloanelor se face începând de la 1
+elementele tabloului aparțin intervalului [0,10 4 ]
+dacă atât elementul minim cât și cel maxim se află pe aceeași linie, atunci matricea se va afișa nemodificată.
+
+Exemplu
+Input: 4 3
+7 5 39
+3 8 4
+23 6 1
+10 2 9
+Output: 23 6 1 
+3 8 4 
+7 5 39 
+10 2 9

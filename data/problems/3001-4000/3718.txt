@@ -1,0 +1,21 @@
+#3718
+Tort2
+
+Cerința
+Dându-se N și șirul a , să se afle numărul de moduri în care Alexandra ar putea să împartă tortul în secvențe continue astfel încât să se respecte condițiile din enunț. Două moduri de a împărți tortul se consideră a fi distincte dacă și numai dacă există în unul o secvență care nu există în celălalt (dacă am reprezenta un mod de împărțire în secvențe prin intermediul șirului crescător al indicilor de început pentru fiecare secvență din acea împărțire, două moduri de împărțire sunt distincte dacă șirurile de indici asociate lor sunt diferite).
+Formal, dându-se un șir de numere, se vrea să aflăm numărul de moduri de a împărți șirul în cel puțin două subsecvențe, astfel încât sumele elementelor tuturor subsecvențelor să fie egale, prima putând să aibă suma elementelor diferită de a celorlalte.
+
+Restricții
+1 ≤ N ≤ 200.000
+1 ≤ a i ≤ 400.000
+a 1 + ... + a N ≤ 400.000
+Pentru 12 puncte, N ≤ 12
+Pentru alte 12 puncte, 1 ≤ N ≤ 100 și a 1 = ... = a N = 1
+Pentru alte 20 puncte, 1 ≤ N ≤ 100
+Pentru alte 28 puncte, 1 ≤ N ≤ 1000 și a 1 + ... + a N ≤ 2000
+Pentru alte 28 puncte, fără alte restricții
+
+Exemplu
+Input: 5
+1 1 2 1 1
+Output: 6

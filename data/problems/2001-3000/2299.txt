@@ -1,0 +1,15 @@
+#2299
+media-geometrica
+
+Cerința
+Se dau n numere naturale. Calculați media lor geometrică.
+
+Restricții
+1 < n ≤ 10
+numerele citite vor fi cuprinse între 0 și 50
+rezultatul va fi punctat dacă diferența dintre cel afișat de program și cel corect este mai mică decât 0.01
+
+Exemplu
+Input: 4 
+2 4 2 1
+Output: 2

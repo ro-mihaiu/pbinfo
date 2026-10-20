@@ -1,0 +1,13 @@
+#80
+numarareperechiprime
+
+Cerința
+Se citesc numere naturale de la tastatură până la apariția lui zero. Să se determine câte perechi de numere citite consecutiv sunt prime între ele.
+
+Restricții
+numerele citite aparțin intervalului [0 ; 1.000.000.000)
+valoarea zero, care încheie citirile, nu se va prelucra
+
+Exemplu
+Input: 15 63 43 129 55 15 4 0
+Output: 3

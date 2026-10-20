@@ -1,0 +1,29 @@
+#3793
+cort
+
+Cerința
+Scrieți un program care rezolvă următoarele două cerințe: 1. Afișează numărul maxim de dale negre care s-ar putea obține pe o coloană după rearanjare; 2. Afișează aria maximă a cortului ce poate fi amplasat doar pe dale negre.
+
+Restricții
+1 ≤ N ≤ M ≤ 1000
+Există cel puțin o dală neagră
+
+Exemplu
+Input: 1
+6 5
+1 0 1 0 1
+1 1 1 1 0
+1 0 0 0 0
+0 0 0 0 0
+0 1 1 1 0
+0 0 0 0 0
+Output: 4
+Input: 2
+6 5
+1 0 1 0 1
+1 1 1 1 0
+1 0 0 0 0
+0 0 0 0 0
+0 1 1 1 1
+0 0 0 0 0
+Output: 9

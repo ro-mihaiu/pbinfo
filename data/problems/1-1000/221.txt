@@ -1,0 +1,15 @@
+#221
+genmat11
+
+Cerința
+Scrieţi un program care citeşte de la tastatură un număr natural n şi construieşte în memorie o matrice cu n linii şi n coloane, numerotate de la 1 la n , în care se vor memora în ordinea crescătoare a valorii, pe linii şi coloane, primele n*n numere naturale nenule, pare, care nu sunt divizibile cu 3 .
+
+Restricții
+2≤n≤20
+
+Exemplu
+Input: 4
+Output: 2 4 8 10
+14 16 20 22
+26 28 32 34
+38 40 44 46

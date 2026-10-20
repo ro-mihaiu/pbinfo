@@ -1,0 +1,17 @@
+#3825
+Radius
+
+Cerința
+Se da un poligon regulat cu n laturi si a lungimea unei laturi. Aflati distanta de la centrul poligonului la oricare varf.
+
+Restricții
+3 ≤ n ≤ 360
+1 ≤ a ≤ 1000
+
+Exemplu
+Input: 3 2
+Output: 1.15
+Input: 4 2
+Output: 1.41
+Input: 6 3
+Output: 3.00

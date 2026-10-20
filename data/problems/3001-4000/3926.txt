@@ -1,0 +1,14 @@
+#3926
+alternant1
+
+Cerința
+Se dă un număr natural n . Să se verifice dacă este sau nu alternant.
+
+Restricții
+0 ≤ n ≤ 1.000.000.000.000.000
+
+Exemplu
+Input: 265
+Output: nu
+Input: 8183
+Output: da

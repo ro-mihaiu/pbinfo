@@ -1,0 +1,20 @@
+#1500
+Nuclee
+
+Cerința
+Cunoscând N , numărul de cursanţi, precum și prietenii fiecărui cursant, scrieţi un program care să determine numărul de nuclee de comunicare existente.
+
+Restricții
+1 < N < 201
+Pot exista persoane care nu au prieteni apropiați.
+O persoană poate face parte dintr-un singur nucleu.
+Un nucleu poate fi format dintr-o singură persoană.
+
+Exemplu
+Input: 5
+2 3 4
+2 1 3
+1 2
+0
+2 1 4
+Output: 3

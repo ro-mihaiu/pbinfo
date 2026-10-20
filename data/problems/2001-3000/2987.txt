@@ -1,0 +1,15 @@
+#2987
+buletin
+
+Cerința
+Se dă un număr natural n cu exact 13 cifre reprezentând un cod numeric personal. Să se afișeze anul, luna și ziua nașterii deținătorului.
+
+Restricții
+n este un număr natural cu exact 13 cifre;
+A , L , Z , vor fi afișate sub forma AA LL ZZ .
+Dacă unul dintre numere x este de o cifră, se va afișa sub forma 0x .
+Structura și definiția codului numeric personal poate fi gasita aici .
+
+Exemplu
+Input: 2961103042367
+Output: 96 11 03

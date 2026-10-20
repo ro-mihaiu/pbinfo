@@ -1,0 +1,31 @@
+#4017
+Skip
+
+Cerința
+Gigel a găsit pe o foaie criptări ale unor cuvinte în cifrul Skip . Criptarea funcționează astfel:
+n
+[n/2]
+[(n+1)]/2
+2-a
+2-a
+3-a
+3-a
+AMONG -> AOMNG
+SUSPICIOUS -> SCUISOPUIS
+SECRET -> SREECT
+CIPHER -> CHIEPR
+Criptarea unui text constă în criptarea succesivă a fiecărui cuvânt.
+Se dă un numar c care poate fi doar 1 sau 2 și un text în care cuvintele sunt separate printr-un spațiu.
+Pentru c=1 , textul reprezintă un mesaj necriptat și se cere să-l afișați în urma criptării.
+Pentru c=2 , textul reprezintă un mesaj criptat și se cere să-l afișați în urma decriptării.
+
+Restricții
+1≤ lungimea mesajului ≤1000000
+
+Exemplu
+Input: 1
+THERE IS ONE IMPOSTOR AMONG US
+Output: TEHRE IS ONE ISMTPOOR AOMNG US
+Input: 2
+TEHRE IS ONE ISMTPOOR AOMNG US
+Output: THERE IS ONE IMPOSTOR AMONG US

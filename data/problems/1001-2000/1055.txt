@@ -1,0 +1,15 @@
+#1055
+Compar
+
+Cerința
+Cunoscând şirul semnelor construit de Ana, scrieţi un program care să îl ajute pe Bogdan să reconstituie secvenţa de numere naturale distincte scrisă iniţial pe tablă.
+
+Restricții
+1 < N ≤ 100000
+Dacă există mai multe soluţii, afişaţi oricare dintre acestea.
+Pentru determinarea corectă a lungimii secvenţei se acordă 10% din punctajul pe test.
+
+Exemplu
+Input: >>><<
+Output: 6
+6 4 2 1 3 5

@@ -1,0 +1,13 @@
+#835
+AfisareVectorRec
+
+Cerința
+Să se scrie o funcție C++ recursivă care afișează pe ecran elementele unui vector transmis ca parametru.
+
+Restricții
+numele funcției va fi afisvec ;
+funcția va avea doi parametri, în această ordine: vectorul v și numărul de elemente din vector, n . Funcția nu va returna nimic;
+indicii elementelor vectorului sunt 0, 1, ..., n-1 ;
+elementele vor fi afișate în ordinea din vector, separate prin câte un spațiu.
+
+Exemplu

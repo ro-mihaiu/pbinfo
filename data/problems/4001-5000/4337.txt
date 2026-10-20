@@ -1,0 +1,14 @@
+#4337
+normalizare
+
+Cerința
+Se dă un șir de n numere întregi a = (a[1], a[2], ..., a[n]) . Trebuie să construiți un nou vector b de lungime n în care valorile sunt cuprinse între 1 și n astfel: toate elementele a[i] care memorează valoarea minimă se înlocuiesc în b[i] cu 1 , toate elementele a[j] imediat mai mari decât minimele se înlocuiesc în b[j] cu 2 , ș.a.m.d. De exemplu, dacă a = (7,-3,1,-55,20,7,-3,1) , atunci b = (4,2,3,1,5,4,2,3) . Se observă că valoarea minimă -55 apare o singură dată la poziția 4 , deci b[4] = 1 , valoarea imediat mai mare decât minimul este -3 deci b[2] = 2 și b[7] = 2 , următoarea valoare este 1 , deci b[4] = 3 și b[8] = 3 . Urmează valoarea 7 , deci b[1] = 4 și b[6] = 4 . În fine, cea mai mare valoare este 20 și va fi marcată în b cu 5 .
+
+Restricții
+1 ≤ n ≤ 100.000
+cele n elemente ale șirului a vor fi întregi din intervalul [-2.000.000.000, 2.000.000.000]
+
+Exemplu
+Input: 8
+7 -3 1 -55 20 7 -3 1
+Output: 4 2 3 1 5 4 2 3

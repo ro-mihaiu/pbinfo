@@ -1,0 +1,15 @@
+#3901
+LaturaTriunghi
+
+Cerința
+Se dau două laturi ale unui triunghi oarecare și măsura unghiului dintre ele. Aflați lungimea celeilalte laturi.
+
+Restricții
+1 ≤ a, b, c ≤ 1000
+1 ≤ u ≤ 179
+punctajul se acordă dacă diferența dintre rezultatul afișat de program și cel corect este mai mică decât 0.01.
+rezultatul va avea cel puțin 2 zecimale exacte
+
+Exemplu
+Input: 22 29 40
+Output: 18.64

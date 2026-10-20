@@ -1,0 +1,14 @@
+#443
+DivizoriPrimi
+
+Cerința
+Se dau n numere naturale. Calculaţi suma obținută prin adunarea primului divizor prim al fiecărui număr citit.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mari decât 1 și mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+15 13 39 49 25
+Output: 31

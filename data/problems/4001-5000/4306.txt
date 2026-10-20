@@ -1,0 +1,12 @@
+#4306
+nr_div_fact
+
+Cerința
+Se citește un număr natural n . Calculați și afișați numărul de divizori pozitivi ai numărului n! .
+
+Restricții
+n ≤ 100.000 .
+
+Exemplu
+Input: 4
+Output: 8

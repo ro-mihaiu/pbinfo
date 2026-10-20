@@ -1,0 +1,19 @@
+#3627
+FAB
+
+Cerința
+Scrieţi definiția completă a subprogramului FAB , care primeşte prin cei 4 parametri a , n , b , m :
+a , un tablou unidimensional cu maximum 5000 de elemente întregi
+n , un număr natural reprezentând numărul de elemente din tabloul a
+b , un tablou unidimensional cu maximum 5000 de elemente întregi
+m , un număr natural reprezentând numărul de elemente din tabloul b
+Subprogramul returnează 1 dacă orice număr din vectorul b se poate scrie ca sumă a două numere aflate pe poziții diferite în a , sau 0 în caz că există cel puțin un număr din b care nu se poate scrie ca sumă de două numere aflate pe poziții diferite în a .
+
+Restricții
+-1.000.000.000 < a[i] ≤ 1.000.000.000 , pentru orice i=0..n-1
+-1.000.000.000 < b[i] ≤ 1.000.000.000 , pentru orice i=0..m-1
+numele subprogramului cerut este FAB
+tablourile sunt indexate de la 0
+se pot folosi orice funcții și orice structuri de date în rezolvare
+
+Exemplu

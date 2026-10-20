@@ -1,0 +1,13 @@
+#168
+semn1
+
+Cerința
+Să se scrie un program care citeşte de la tastatură două numere întregi a şi b şi verifică dacă cele doua numere au acelaşi semn.
+
+Restricții
+-1.000.000.000 < a,b < 1.000.000.000
+a şi b sunt nenule
+
+Exemplu
+Input: -3 14
+Output: nu

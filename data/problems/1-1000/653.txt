@@ -1,0 +1,17 @@
+#653
+Firma1
+
+Cerința
+Într-o firmă sunt n angajați, numerotați de la 1 la n , organizați ierarhic, astfel că fiecare angajat are un șef direct, cu excepția directorului general, care nu are șef. Fiecare angajat al firmei are un salariu cunoscut, exprimat printr-un număr natural. În firmă funcționează un sistem de recompensare a angajaților astfel încât câștigul fiecărui salariat este egal cu salariul său la care se adaugă media aritmetică a câștigurilor subordonaților săi direcți. Excepție fac angajații care nu au subordonați direcți, pentru care câștigul este egal cu salariul.
+Determinați care este câștigul directorului general al firmei.
+
+Restricții
+1 ≤ n ≤ 100
+salariul fiecărui angajat este un număr natural nenul cel mult egal cu 1000
+media aritmetică a câștigurilor subordonaților fiecărui angajat se aproximează prin adaos, astfel încât să fie număr natural
+
+Exemplu
+Input: 8
+4 3 0 3 2 1 2 1
+2 6 4 3 7 3 1 5
+Output: 14

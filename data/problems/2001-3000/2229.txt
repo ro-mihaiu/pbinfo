@@ -1,0 +1,12 @@
+#2229
+numere20
+
+Cerința
+Scrieţi un program care citeşte un număr natural n şi două numere prime u şi v mai mici decât 10 şi determină câte numere naturale mai mici sau egale cu n au proprietatea că nu sunt divizibile nici cu u , nici cu v .
+
+Restricții
+Numărul natural n are cel mult 100 de cifre
+
+Exemplu
+Input: 30  3  7
+Output: 17

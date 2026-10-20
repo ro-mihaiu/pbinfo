@@ -1,0 +1,17 @@
+#4138
+proeminenta
+
+Cerința
+Scrieţi un program care, cunoscând configuraţia unui profil, rezolvă următoarele două cerinţe: 1) determină numărul de vârfuri existente pe profilul respectiv; 2) determină proeminenţa fiecărui vârf de pe profil.
+
+Restricții
+3 ≤ N ≤ 1.000.000
+0 ≤ a[i] < 2 31 , pentru 1 ≤ i ≤ N
+a[1] < a[2] și a[N-1] > a[N]
+Datorită dimensiunii testelor, unele nu au fost incluse
+
+Exemplu
+Input: 1 19 1387 1890 2306 2535 2030 2391 2079 2544 2213 2470 2305 2433 2160 2473 2473 1511 1735 1621 1367
+Output: 7
+Input: 2 19 1387 1890 2306 2535 2030 2391 2079 2544 2213 2470 2305 2433 2160 2473 2473 1511 1735 1621 1367
+Output: 505 312 2544 257 128 313 224

@@ -1,0 +1,15 @@
+#2777
+Bomboane4
+
+Cerința
+Se dau p și q , numere naturale. Aflați cel mai mic n , număr natural care satisface condițiile de mai sus.
+
+Restricții
+1 ≤ p ≤ 10 18
+1 ≤ q ≤ 10 18
+
+Exemplu
+Input: 4 7
+Output: 27
+Input: 10 20
+Output: 19

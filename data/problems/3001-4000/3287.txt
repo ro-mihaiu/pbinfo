@@ -1,0 +1,15 @@
+#3287
+cifrazecmax
+
+Cerința
+Se consideră un şir de cel puțin 11 şi cel mult un 10.000 de numere naturale, despărțite prin câte un spațiu. Fiecare număr are cel puțin două şi cel mult nouă cifre. Primul termen al şirului are numărul de ordine 1 , al doilea are numărul de ordine 2 etc. Se citeşte şirul din fişier şi se cere să se determine numărul de ordine al unui termen al şirului care este precedat în fişier de un număr maxim de valori care au cifra zecilor egală cu a sa. Dacă sunt mai mulți termeni cu această proprietate se afişează numărul de ordine al primului.
+
+Restricții
+numerele din fișierul de intrare au cel puțin 2 cifre și sunt mai mici decât 1.000.000.000
+în fișier sunt cel mult 10000 de numere
+
+Exemplu
+Input: 12 36 265 18 139 19 32 34 112 14 68
+Output: 10
+Input: 12 63 265 88 139 19 32 34 68 112 74
+Output: 8

@@ -1,0 +1,28 @@
+#969
+Culori1
+
+Cerința
+Scrieţi un program care să citească numerele naturale n , m , t şi cele n*m coduri ale culorilor peştilor (cele de la momentul iniţial t=0 ) şi care să determine şi să afişeze codurile culorilor peştilor de la momentul t .
+
+Restricții
+2 ≤ n < 50 , 2 ≤ m < 50 ,
+1 ≤ t ≤ 2300000
+Se garantează că există soluție pentru toate datele de test.
+
+Exemplu
+Input: 3 3 1      
+rar
+rra   
+arr
+Output: rra
+rrr
+rrr
+Input: 4 5 3
+rrara
+aarra
+aarrr
+rrraa
+Output: aarrr
+aarrr
+rrrrr
+rrrrr

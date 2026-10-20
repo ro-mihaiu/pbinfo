@@ -1,0 +1,18 @@
+#1366
+aceeasi-paritate-2
+
+Cerința
+Se dau n numere întregi. Să se insereze între oricare două numere de aceeași paritate media lor aritmetică. Algoritmul se va relua în mod repetat până când nu se mai poate adăuga șirului niciun nou element.
+
+Restricții
+în cazul în care șirul conține două elemente consecutive egale, între acestea nu se va insera media aritmetică
+1 ≤ n ≤ 100
+-1.000.000.000 ≤ elementele șirului ≤ 1.000.000.000
+
+Exemplu
+Input: 6
+1 41 3 3 4 8
+Output: 1 41 3 3 4 8
+1 21 41 22 3 3 4 6 8
+1 11 21 31 41 22 3 3 4 5 6 7 8
+1 6 11 16 21 26 31 36 41 22 3 3 4 5 6 7 8

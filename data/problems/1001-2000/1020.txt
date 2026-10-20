@@ -1,0 +1,16 @@
+#1020
+MaxPrim
+
+Cerința
+Se consideră un șir cu n elemente, numere naturale. Folosind metoda Divide et Impera , determinați cel mai mare element prim din acest șir.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele șirului vor fi mai mici decât 1.000.000
+se garantează că în șir apare cel puțin un element prim
+se recomandă folosirea metodei Divide et Impera
+
+Exemplu
+Input: 6
+4 1 8 4 3 5
+Output: 5

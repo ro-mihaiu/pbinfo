@@ -1,0 +1,17 @@
+#313
+diagonale
+
+Cerința
+Se dă o matrice cu n linii și n coloane și elemente numere naturale. Calculați diferența în valoare absolută dintre sumele elementelor de pe cele două diagonale.
+
+Restricții
+1 ≤ n ≤ 20
+elementele matricei vor fi mai mici decât 10000
+
+Exemplu
+Input: 4
+8 3 3 7 
+1 1 6 5 
+8 7 1 1 
+9 8 7 1
+Output: 18

@@ -1,0 +1,13 @@
+#2260
+dinamica02
+
+Cerința
+Să se determine numărul de cuvinte de lungime N formate doar din litere mici și cu proprietatea că nu pot exista trei litere alăturate identice. Pentru că acest număr poate fi foarte mare, se va determina modulo 777013 .
+
+Restricții
+1 ≤ N ≤ 1 000 000
+Cuvintele baaad și deeeeef au trei litere alăturate egale, pe când abbaa și xxyyxx nu au.
+
+Exemplu
+Input: 2
+Output: 676

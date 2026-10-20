@@ -1,0 +1,14 @@
+#267
+unice
+
+Cerința
+Se dau n numere numere naturale cu cel mult două cifre fiecare. Să se determine acele numere care apar o singură dată.
+
+Restricții
+1 ≤ n ≤ 100.000
+
+Exemplu
+Input: 7
+3 5 2 1
+5 23 1
+Output: 2 3 23

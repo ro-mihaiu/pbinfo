@@ -1,0 +1,19 @@
+#157
+doarvocale
+
+Cerința
+Să se determine numărul cuvintelor care conțin doar vocale.
+
+Restricții
+0 < n ≤ 1000
+cuvintele vor conține doar litere mici ale alfabetului englez
+se consideră vocale caracterele din mulțimea {a,e,i,o,u}
+
+Exemplu
+Input: 5
+creion
+lemn
+ou
+ea
+voce
+Output: 2

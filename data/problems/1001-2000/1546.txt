@@ -1,0 +1,12 @@
+#1546
+mincifre
+
+Cerința
+Se dă numărul natural n și se cere să se afișeze cel mai mic număr natural format din cifrele sale.
+
+Restricții
+Numerele citite vor avea cel mult 10.000 de cifre
+
+Exemplu
+Input: 321
+Output: 123

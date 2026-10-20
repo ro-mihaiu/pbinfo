@@ -1,0 +1,41 @@
+#4666
+apgreid
+
+Cerința
+Ajutați-l pe Yamada să determine: 1. Dintre toate obiectele avute la dispoziție, care este cea mai puternică carte de vrăji, care este cea mai puternică poțiune și care este cea mai puternică nestemată. 2. În ce ordine ar trebui să se folosească de obiectele magice astfel încât, la final, puterea personajului său să fie maximă. 3. Care este puterea maximă pe care o poate atinge personajul său. Fiindcă acest număr poate fi foarte mare, Yamada vrea doar să afle care ar fi restul împărțirii acestui număr la 1.000.000.007 .
+
+Restricții
+1 ≤ T ≤ 3
+1 ≤ M ≤ 100.000
+1 ≤ P 0 ≤ 100.000
+l i ∊ {c, n, p} pentru orice 1 ≤ i ≤ M și 1 ≤ x i ≤ 1.000.000.000 pentru orice 1 ≤ i ≤ M
+Dacă T = 1 , atunci Yamada are cel puțin un obiect magic din fiecare din cele trei tipuri.
+Pentru 19 puncte, T = 1
+Pentru 13 puncte, T = 2 , 1 ≤ M ≤ 1000
+Pentru 17 puncte, T = 2
+Pentru 9 puncte, T = 3 , 1 ≤ M ≤ 1000 , 1 ≤ x i ≤ 1000
+Pentru 11 puncte, T = 3 , 1 ≤ x i ≤ 1000
+Pentru 12 puncte, T = 3 , 1 ≤ M ≤ 1000
+Pentru 19 puncte, T = 3
+
+Exemplu
+Input: 1
+6 3
+p 1
+n 3
+c 10
+n 2
+p 12
+p 8
+Output: 10 12 3
+Input: 2
+2 3
+c 3
+p 2
+Output: p 2
+c 3
+Input: 3 
+2 3
+p 2
+c 3
+Output: 125

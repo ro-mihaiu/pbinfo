@@ -1,0 +1,16 @@
+#951
+cifre7
+
+Cerința
+Deduceţi regula după care sunt generaţi termenii şirului şi scrieţi un program care să citească numerele naturale n , k şi p şi care să determine:
+a) numărul de apariţii ale cifrei k printre primii n termeni ai şirului din enunţ; b) cel de-al p -lea termen al şirului din enunţ.
+
+Restricții
+Numerele n k p sunt naturale
+17 ≤ n ≤100; 0 ≤ k ≤ 9; 1≤ p ≤ 2000000000
+Pentru rezolvarea corectă a cerinţei a) se acordă 30% din punctaj iar pentru cerinţa b) 70% din punctaj.
+
+Exemplu
+Input: 19 4 26
+Output: 5
+7

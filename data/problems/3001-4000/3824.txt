@@ -1,0 +1,14 @@
+#3824
+Perechi6
+
+Cerința
+Se dau două șiruri de numere întregi, ordonate crescător. Șirul x[] contine n numere întregi ordonate crescător, șirul y[] conține m numere întregi ordonate crescător. Să se calculeze numărul de perechi de forma (x[i], y[j]) unde x[i] = y[j] și x[i] ∊ X , respectiv y[j] ∊ Y .
+
+Restricții
+1 ≤ n, m ≤ 100.000
+-1.000.000.000 ≤ x[i], y[j] ≤ 1.000.000.000
+
+Exemplu
+Input: 5 1 2 3 4 5
+6 1 2 2 3 3 4
+Output: 6

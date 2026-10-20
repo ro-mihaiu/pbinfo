@@ -1,0 +1,25 @@
+#3760
+Intergalactic
+
+Cerința
+Știind că pe piața intergalactică există N reactanți, să se răspundă la T întrebări de tipul: care este prețul celui de-al K -lea cel mai ieftin tip de combustibil care poate fi creat folosind doar reactanții disponibili pe piață.
+
+Restricții
+1 ≤ T ≤ 10
+1 ≤ N ≤ 200.000
+1 ≤ K ≤ 1.000.000.000
+Mereu se vor putea crea cel putin K tipuri de combustibil.
+Nu vor exista 2 reactanți cu aceeași valoare.
+Pe piață vor exista cel puțin un reactant stabil și unul instabil.
+Valoarea unui reactant este mai mică sau egală cu 2.000.000 .
+Două tipuri de combustibili cu acelasi preț sunt diferiți dacă provin din perechi de reactanți diferite.
+
+Exemplu
+Input: 8 3
+3 7 2 1 11 8 10 4
+15
+7
+11
+Output: 19
+11
+13

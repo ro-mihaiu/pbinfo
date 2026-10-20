@@ -1,0 +1,26 @@
+#3543
+StringPushPop
+
+Cerința
+Se dă un string s . Asupra acestuia, se aplică 5 tipuri de operații:
+(1, c) – se adaugă caracterul c la începutul string-ului
+(2, c) – se adaugă caracterul c la finalul string-ului
+(3) – se șterge primul caracter al string-ului
+(4) – se șterge ultimul caracter al string-ului
+(5) – string-ul se va transforma în răsturnatul său
+Să se afișeze string-ul rezultat după cele q operații.
+
+Restricții
+q si lungimea inițială a lui s sunt mai mici sau egale decat 100.000
+
+Exemplu
+Input: fnic
+7
+1 a
+3
+4
+1 o
+2 b
+5
+1 p
+Output: pbinfo

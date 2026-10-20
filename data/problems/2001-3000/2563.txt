@@ -1,0 +1,13 @@
+#2563
+FAdCresc
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+void ins_cresc(nod *&p, int x);
+care inserează în listă un nou nod care memorează valoarea x astfel încât informațiile din lista să fie în continuare ordonate crescător; pointerul p are ca valoare adresa primului element din listă.
+
+Restricții
+numele funcției va fi ins_cresc .
+lista conține inițial cel puțin un nod.
+
+Exemplu

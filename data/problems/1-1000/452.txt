@@ -1,0 +1,12 @@
+#452
+cifimp
+
+Cerința
+Se citește de la tastatură un număr natural de 3 cifre. Să se determine câte cifre impare conține.
+
+Restricții
+Numărul citit este cuprins între 100 și 999 , inclusiv.
+
+Exemplu
+Input: 323
+Output: 2

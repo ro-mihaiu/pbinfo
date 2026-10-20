@@ -1,0 +1,44 @@
+#4098
+pulsar
+
+Cerința
+Vouă vă revine rolul de a îl ajuta pe Jean-Luc Picard și să îi răspundeți la una din următoarele întrebări știind harta galaxiei:
+Care este numărul maxim de sectoare ale galaxiei Smax afectate la orice moment de timp de către cel puțin un pulsar.
+Care este timpul minim Tmin de care are nevoie Jean-Luc Picard pentru a ajunge pe planeta Qo’noS.
+
+Restricții
+Distanța Manhattan dintre două coordonate (x1, y1) și (x2, y2) este definită ca: |x1 - x2| + |y1 - y2|
+Nava nu va putea părăsi la niciun moment de timp harta galaxiei
+Undele pulsarilor pot părăsi harta galaxiei, dar acele sectoare nu reprezintă interes pentru problema noastră
+Se garantează că la momentul plecării, nava nu este aflată în pericol
+Se garantează că există soluție
+Pot exista mai mulți pulsari în același sector
+C ∈ {1, 2}
+3 ≤ N ≤ 500
+1 ≤ P ≤ 15.000
+0 ≤ ti < ri ≤ 6 pentru orice 1 ≤ i ≤ P
+1 ≤ xs, ys, xf, yf ≤ N
+1 ≤ xi, yi ≤ N pentru orice 1 ≤ i ≤ P
+Pentru 19 puncte, C = 1
+Pentru 22 de puncte, C = 2 și ri = 1 pentru orice 1 ≤ i ≤ P
+Pentru 9 puncte, C = 2 , N ≤ 7 și ri ≤ 3 pentru orice 1 ≤ i ≤ P
+Pentru 13 puncte, C = 2 , ti = 0 pentru orice 1 ≤ i ≤ P
+Pentru 37 puncte, C = 2
+
+Exemplu
+Input: 1 5 4
+3 1 2 1
+1 5 3 1
+5 3 2 0
+3 4 2 1
+1 1
+5 5
+Output: 14
+Input: 2 5 4
+3 1 2 1
+1 5 3 1
+5 3 2 0
+3 4 2 1
+1 1
+5 5
+Output: 9

@@ -1,0 +1,16 @@
+#1288
+cifregen1
+
+Cerința
+Se dau două numere n m . Să se genereze toate numerele cu exact n cifre mai mici decât m .
+
+Restricții
+1 ≤ n ≤ 7
+0 < m < 6
+
+Exemplu
+Input: 3 2
+Output: 100
+101
+110
+111

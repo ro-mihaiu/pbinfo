@@ -1,0 +1,12 @@
+#1665
+pozitieSir
+
+Cerința
+Considerăm şirul a cu n numere naturale nenule distincte două câte două şi un număr x . Scrieţi un program care determină poziţia pe care se va găsi numărul x în şirul a , dacă acesta ar fi ordonat descrescător.
+
+Restricții
+1 ≤ n < 200.000
+cele n numere citite vor fi mai mici decât 10 9
+considerăm elementele şirului a numerotate de la 1 la n
+
+Exemplu

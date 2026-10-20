@@ -1,0 +1,7 @@
+#4191
+bac-spectacole
+
+Cerința
+Scrieți o secvență de instrucțiuni în urma executării căreia variabila s să memoreze suma totală obținută în urma vânzării biletelor pentru un festival de teatru care s-ar desfășura simultan în toate sălile, iar acestea ar fi ocupate complet.
+
+Exemplu

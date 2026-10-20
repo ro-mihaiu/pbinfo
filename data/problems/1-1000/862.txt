@@ -1,0 +1,14 @@
+#862
+NrSecvente
+
+Cerința
+Se dă un vector cu n elemente, numere naturale și două numere t și k . Să se determine câte secvențe din șir au lungimea k și sunt formate din valori mai mici sau egale cu t .
+
+Restricții
+1 ≤ k ≤ n ≤ 100.000
+t și elementele vectorului vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 8 5 3
+1 4 3 5 7 3 4 2
+Output: 3

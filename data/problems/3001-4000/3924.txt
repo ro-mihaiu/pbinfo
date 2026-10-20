@@ -1,0 +1,18 @@
+#3924
+cripto1
+
+Cerința
+Să se determine șirul cel mai bun de decriptare, dintre cele date. În cazul în care există mai multe astfel de șiruri, se va afișa cel cu indicele cel mai mic.
+
+Restricții
+N, M, Q ≤ \({10}^{5}\), M * Q ≤ \({10}^{7}\). Valorile din șiruri sunt strict mai mici decât 26 .
+Pentru 30% din tese N, M, Q ≤ 100 .
+K ≤ 12 . Pentru alte 20% din teste K ≤ 3 .
+
+Exemplu
+Input: 6 3 4 2 
+info olte niaa este inva lcea 
+hlck njqa hlcj 
+1 2 3 5  
+1 2 3 4
+Output: 2 2

@@ -1,0 +1,17 @@
+#617
+piese
+
+Cerința
+Considerăm o tablă de șah pătratică formată din 2 n linii și 2 n coloane, unde n este un număr natural nenul, formată din 2 n *2 n zone. Aceasta poate fi acoperită, cu excepția unei singure zone, cu piese în formă de L , fiecare piesă acoperind 3 zone. De exemplu, pentru n=2 , o acoperire este următoarea, în care zona neagră este cea neacoperită de piese:
+Pentru n dat, determinați o modalitate de acoperire a tablei cu piese, astfel încât să nu se suprapună piesele și să rămână o singură zonă neacoperită.
+
+Restricții
+1 ≤ n ≤ 10
+orice aranjare corectă a pieselor se ia în considerare
+
+Exemplu
+Input: 2
+Output: 2 2 5 5
+2 1 1 5
+3 0 1 4
+3 3 4 4

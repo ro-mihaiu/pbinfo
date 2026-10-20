@@ -1,0 +1,32 @@
+#3645
+cuburi4
+
+Cerința
+Ştiind că un turn poate fi format din cel puţin un cub, scrieţi un program care să determine: 1. cel mai mare număr de cuburi alăturate care au laturile exprimate printr-un număr par de centimetri; 2. înălţimea (exprimată în centimetri) celui mai înalt turn construit de robot.
+
+Restricții
+1 ≤ N ≤ 10.000 și 1 ≤ latura unui cub ≤ 500.000 ;
+există cel puțin un cub care are latura exprimată printr-un număr par de centimetri;
+pentru rezolvarea corectă a primei cerințe se acordă 30 de puncte, pentru rezolvarea corectă a celei de-a doua cerințe se acordă 70 de puncte.
+
+Exemplu
+Input: 1
+7
+18
+12
+10
+17
+8
+2
+7
+Output: 3
+Input: 2
+7
+18
+12
+10
+17
+8
+2
+7
+Output: 40

@@ -1,0 +1,21 @@
+#2105
+Moretime
+
+Cerința
+Cunoscând n , numărul de clienţi, conturile şi valorile fondurilor de siguranţă ale acestora, să se determine:
+a. numărul clienţilor premium; b. numărul clienţilor premium ce pot fi aleşi de bancă astfel încât suma fondurilor de siguranţă colectată de la aceştia să poată fi distribuită în mod egal fiecărui client premium; c. numerelor de cont ale celor selectaţi la punctul b).
+
+Restricții
+• 1 ≤ p ≤ cp ≤ n ≤ 10000 • Moneda Time nu este divizibilă. • Numerele de cont sunt numere naturale cu cel puţin două şi cel mult cinci cifre. • Fondurile de siguranţă sunt numere naturale nenule mai mici decât 100000 . • Pentru răspunsuri corecte se acordă punctaje parţiale astfel: a) 30%; a)+b)+c) 100%
+
+Exemplu
+Input: 6
+112 100
+217 50
+1231 200
+3000 500
+2902 200
+44 100
+Output: 3
+2
+2902 44

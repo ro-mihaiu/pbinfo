@@ -1,0 +1,16 @@
+#488
+afisare
+
+Cerința
+Se citește un vector cu n elemente, numere naturale. Să se afișeze elementele cu indici pari în ordinea crescătoare a indicilor, iar elementele cu indici impari în ordinea descrescătoare a indicilor.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele vectorului vor fi mai mici decât 1000
+numerotarea indicilor începe de la 1
+
+Exemplu
+Input: 5
+7 9 2 6 8
+Output: 9 6
+8 2 7

@@ -1,0 +1,14 @@
+#3391
+sirmaxim
+
+Cerința
+Se citește un număr n și apoi n numere naturale cu maxim 9 cifre. Știind că n este dat par, să se determine de câte ori maximul din prima jumătate apare în șir în a doua jumătate.
+
+Restricții
+1 ≤ n ≤ 20
+n par
+
+Exemplu
+Input: 6
+1 5 2 13 5 5
+Output: 2

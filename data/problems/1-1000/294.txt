@@ -1,0 +1,14 @@
+#294
+egaleoglindit
+
+Cerința
+Se dă un şir cu n elemente, numere naturale. Să se verifice dacă oglinditul primului element apare printre celelalte elemente ale șirului.
+
+Restricții
+1 ≤ n ≤ 100
+elementele şirului vor avea cel mult 9 cifre
+
+Exemplu
+Input: 5
+804 60 102 408 6
+Output: DA

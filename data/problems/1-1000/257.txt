@@ -1,0 +1,12 @@
+#257
+fibosum
+
+Cerința
+Se dă un număr natural n . Să se descompună în sumă cu număr minim de termeni ai şirului lui Fibonacci.
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 30
+Output: 21 8 1

@@ -1,0 +1,25 @@
+#1989
+Teatru
+
+Cerința
+Cunoscând costumul asociat fiecărei zile a stagiunii, ajutați-o pe Alina să-și aleagă cele C costume diferite, în așa fel încât să poată juca într-un număr cât mai mare de piese consecutive.
+
+Restricții
+1 ≤ Z ≤ 55000
+1 ≤ C ≤ 26
+C ≤ Z
+Pentru 20% dintre teste Z ≤ 350
+
+Exemplu
+Input: 10 3
+XKUFKFEGXG
+Output: 5
+KUFKF
+Input: 15 4
+IAJRAMRCZJJCDNS
+Output: 6
+AJRAMR
+Input: 25 5
+LDSDGIFAURLPTZLDLPNLEGFRN
+Output: 8
+LPTZLDLP

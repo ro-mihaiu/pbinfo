@@ -1,0 +1,13 @@
+#1565
+nzero
+
+Cerința
+Se dă un număr n . Afișați numărul n * 10 a .
+
+Restricții
+1 ≤ n ≤ 1000
+0 ≤ a ≤ 5
+
+Exemplu
+Input: 5 4
+Output: 50000

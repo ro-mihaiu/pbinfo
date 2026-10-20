@@ -1,0 +1,22 @@
+#845
+Pattern
+
+Cerința
+Se dă un număr natural n . Să se genereze o matrice pătratică de dimensiune 2 n , după următoarele reguli:
+împărțim matricea în 4 submatrice
+cea din stânga-sus are toate elementele 1
+celelalte trei se generează similar, dar au dimensiunea 2 n-1 .
+
+Restricții
+1 ≤ n ≤ 10
+
+Exemplu
+Input: 3
+Output: 1 1 1 1 1 1 1 0 
+1 1 1 1 1 1 0 0 
+1 1 1 1 1 0 1 0 
+1 1 1 1 0 0 0 0 
+1 1 1 0 1 1 1 0 
+1 1 0 0 1 1 0 0 
+1 0 1 0 1 0 1 0 
+0 0 0 0 0 0 0 0

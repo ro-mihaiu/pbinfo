@@ -1,0 +1,13 @@
+#3934
+parale
+
+Cerința
+Dorel a primit de ziua lui o tablă cu n linii şi n coloane, numerotate de la 1 la n , şi m numere naturale cuprinse între 2 şi 2•n . Pentru fiecare număr natural x dintre cele m , el colorează pătrăţelele tablei care au suma indicilor multipli de x . Aflaţi câte pătrăţele rămân necolorate.
+
+Restricții
+2 ≤ n,m ≤ 100.000
+
+Exemplu
+Input: 8 3
+2 3 4
+Output: 20

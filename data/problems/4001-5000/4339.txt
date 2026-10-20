@@ -1,0 +1,14 @@
+#4339
+pare_impare
+
+Cerința
+Stabiliți dacă dintre cele trei numere citite sunt mai multe numere pare sau mai multe impare.
+
+Restricții
+Numerele citite sunt mai mic decât 1.000.000.000
+
+Exemplu
+Input: 125 68 200
+Output: pare
+Input: 125 681 2001
+Output: impare

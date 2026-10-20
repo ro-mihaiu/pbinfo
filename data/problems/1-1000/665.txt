@@ -1,0 +1,13 @@
+#665
+DivCif
+
+Cerința
+Se dau două numere naturale a b . Determinați câte numere naturale din intervalul [a,b] se divid cu toate cifrele lor nenule.
+
+Restricții
+1 ≤ a < b ≤ 1.000.000.000
+b-a ≤ 1.000
+
+Exemplu
+Input: 11 25
+Output: 6

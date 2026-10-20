@@ -1,0 +1,28 @@
+#3432
+Tai
+
+Cerința
+Se consideră un șir format din N numere naturale.
+1) Determinați cel mai mare număr prim din șirul celor N numere. 2) Determinați cel mai mare număr prim dintre cele obținute prin tăierea în două părți a fiecărui număr din șirul celor N . 3) Determinați cel mai mare număr prim dintre cele obținute prin tăierea în trei părți a fiecărui număr din șirul celor N .
+
+Restricții
+1 ≤ N ≤ 100
+0 ≤ orice număr din șir ≤ 1000000000
+Pentru cerințele 2 și 3 se garantează că pentru toate numerele din șir se poate efectua tăierea
+Pentru cerința 1 dacă șirul nu conține numere prime se va afișa 0
+Pentru cerințele 2 și 3 dacă în urma tăierilor nu se obține niciun număr prim, se va afișa 0
+În concurs, pentru rezolvarea fiecărei cerințe s-au obținut 30 de puncte. Pe site se acordă 10 puncte pentru exemple.
+
+Exemplu
+Input: 1
+5
+2 13 21 17 1
+Output: 17
+Input: 2
+3
+23 196 27
+Output: 19
+Input: 3
+3
+1234 17119 5678
+Output: 71

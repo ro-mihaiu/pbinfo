@@ -1,0 +1,13 @@
+#842
+Dinti
+
+Cerința
+Pentru o serie de activități foarte sofisticate, Gigel are nevoie de un fierăstrău special, alcătuit din mai mulţi dinţi. Un fierăstrău de gradul n este format din două fierăstraie de gradul n-1 , între care se află un dinte de mărime n . Un fierăstrău de gradul 1 are un singur dinte, de mărime 1 .
+Afișați un fierăstrău de grad n .
+
+Restricții
+1 ≤ n ≤ 10
+
+Exemplu
+Input: 3
+Output: 1 2 1 3 1 2 1

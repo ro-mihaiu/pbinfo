@@ -1,0 +1,14 @@
+#2702
+PerechiSosete
+
+Cerința
+Andrei lucrează într-un magazin de șosete, iar fiecare șosetă are asociat un numar întreg pentru a o identifica mai ușor din ce model face parte. Dându-se un vector neordonat de astfel de coduri, aflați câte perechi de șosete se pot forma.
+
+Restricții
+1 ≤ n ≤ 100
+Codurile șosetelor sunt cuprinse în intervalul [1, 100]
+
+Exemplu
+Input: 10
+1 3 2 1 2 2 1 2 1 2
+Output: 4

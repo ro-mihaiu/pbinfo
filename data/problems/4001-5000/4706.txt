@@ -1,0 +1,14 @@
+#4706
+Peak
+
+Cerința
+Un șir de numere întregi a1 , a2 , …, an este peak , dacă există o poziție p , cu 1 < p < n astfel încât șirul să fie strict crescător până la poziția p și strict descrescător de la poziția p până la final. De exemplu, a = 2,5,7,20,15,7,1,-1 este peak , pe când șirurile 1,2,3,4 sau 1,3,5,3,1,5,1 sau 5,3,1 nu sunt peak .
+Scrieţi definiția completă a subprogramului C++ Peak cu antetul:
+void Peak(int a[], int n, int &isPeak, int &poz)
+unde a este un tablou unidimensional cu maximum 1000 de numere întregi, n , numărul efectiv de elemente ale tabloului. Dacă vectorul a memorează un șir peak, atunci isPeak va fi egal cu 1 , iar poz va reține poziția numărului maxim din a . Dacă vectorul a nu este un șir peak, atunci isPeak va fi egal cu 0 , iar poz va reține valoarea 0 .
+
+Restricții
+3 ≤ n ≤ 1000
+elementele vectorului a sunt indexate de la 1 la n
+
+Exemplu

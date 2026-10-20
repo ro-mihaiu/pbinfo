@@ -1,0 +1,31 @@
+#3187
+RATC2
+
+Cerința
+Se dau două numere n p și o listă de n elemente cu urcările în autobuz a mai multor persoane a căror structura este prenume nume bilet_platit , fiecare intrare fiind plasată pe câte o linie. Câmpurile prenume și nume sunt șiruri de caractere, iar bilet_platit este un număr care poate fi 0 sau 1 ; 0 dacă persoana respectivă nu a plătit biletul sau 1 dacă a plătit biletul. Pentru fiecare bilet neplătit se va contoriza o penalizare persoanei.
+Se cere :
+a) Prenumele, numele și numărul de penalizări al persoanei care are număr maxim de penalizări. Dacă există mai multe persoane cu număr maxim de penalizări se cere afișarea persoanei care apare prima în ordine alfabetică. b) Ordonarea listei de persoane descrescător după numărul de penalizări, la număr de penalizări egale, crescător după prenume, la prenume identice, crescător după nume.
+
+Restricții
+1 ≤ n ≤ 100
+șirurile de caractere vor avea maximum 50 de caractere
+Atenție, persoanele care urcă în autobuz se pot repeta!
+
+Exemplu
+Input: 5 1
+Jotaro Kujo 1
+Dio Brando 0
+Joseph Joestar 1
+Dio Brando 1
+Andreescu Ionel 0
+Output: Andreescu Ionel 1
+Input: 5 2
+Jotaro Kujo 1
+Dio Brando 0
+Joseph Joestar 1
+Dio Brando 1
+Andreescu Ionel 0
+Output: Andreescu Ionel 1
+Dio Brando 1
+Joseph Joestar 0
+Jotaro Kujo 0

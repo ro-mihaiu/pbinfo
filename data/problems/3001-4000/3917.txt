@@ -1,0 +1,14 @@
+#3917
+numere1234
+
+Cerința
+Se citește n număr natural nenul. Afișați în ordine crescătoare toate numerele care au o cifră egală cu 1 , două cifre de 2 , …, n cifre egale cu n .
+
+Restricții
+1 ≤ n ≤ 4
+
+Exemplu
+Input: 2
+Output: 122
+212
+221

@@ -1,0 +1,17 @@
+#2340
+sumaMinMax
+
+Cerința
+Scrieți funcția sumaMinMax care primește ca parametri un tablou unidimensional v format din n elemente și un număr natural n . Funcția va returna un vector cu două elemente, primul element reprezentând cea mai mică sumă formată din exact n-1 elemente dintre cele n ale lui v , iar cel de-al doilea element reprezentând cea mai mare sumă formată din exact n-1 elemente dintre cele n ale lui v .
+
+Restricții
+sumaMinMax primește doi parametri, în această ordine, un tablou unidimensional v și un număr natural n reprezentând numărul de elemente ale lui v
+elementele lui v sunt indexate de la 0
+sumaMinMax returnează un pointer la int , reprezentând un tablou alocat dinamic în cadrul funcției, tablou cu două elemente cu semnificațiile din cerință
+1 ≤ n ≤ 100
+1 ≤ v[i] ≤ 50 , unde v[i] reprezintă al i -lea element din v
+
+Exemplu
+Input: 5
+1 2 3 4 5
+Output: 10 14

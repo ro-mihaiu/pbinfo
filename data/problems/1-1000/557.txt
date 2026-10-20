@@ -1,0 +1,17 @@
+#557
+Cartonase
+
+Cerința
+Gigel a învățat la școală despre progresii aritmetice – o progresie aritmetică este un șir de numere cu proprietatea că diferența dintre oricare două valori consecutive este aceeași. Astfel, Gigel a notat pe n cartonașe cei n termeni consecutivi ai unei progresii aritmetice și a plecat la joacă. Maleficul Costel a ascuns exact două dintre cartonașe și le-a amestecat pe celelalte.
+Determinaţi valorile scrise pe cele două cartonaşe ascunse de Costel.
+
+Restricții
+4 ≤ n ≤ 1000
+valorile scrise de Gigel pe cele n cartonașe sunt mai mici decât 1.000.000.000
+Costel nu va lua niciodată primul sau ultimul cartonaș
+x < y
+
+Exemplu
+Input: 6
+13 19 7 4
+Output: 10 16

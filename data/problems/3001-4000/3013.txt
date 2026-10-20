@@ -1,0 +1,36 @@
+#3013
+becuri1
+
+Cerința
+Gigel dorește să instaleze în grădină o ghirlandă cu N becuri colorate, numerotate de la 1 la N , care, din minut în minut, să se aprindă și să se stingă automat. Pentru a putea face aceasta el s-a gândit să asocieze fiecărui bec câte un număr, în felul următor: la fiecare minut, un bec se va aprinde dacă prima cifră a numărului asociat lui este număr prim, altfel becul va fi stins. Numerele asociate becurilor, au o proprietate specială, din minut în minut, acestea își mută circular cifrele spre stânga, la fiecare permutare prima cifra a fiecărui număr, devine ultima. Toată ghirlanda se va stinge, la momentul în care, numărul asociat, cu cele mai multe cifre, ajunge, din nou, la valoarea inițială (în acest timp, la fiecare minut, celelalte numere efectuează permutări).
+Scrieți un program care să determine: 1. Câte becuri aprinse sunt în starea inițială; 2. Care este numărul maxim de becuri care pot fi aprinse la un moment dat; 3. Care este becul/becurile care se aprind de cele mai multe ori.
+
+Restricții
+1 ≤ N ≤ 100
+numerele asociate becurilor sunt intre 0 și 1.000.000.000 . Pot exista mai multe becuri cu același număr asociat
+
+Exemplu
+Input: 1
+5
+12
+5
+378
+2015
+8
+Output: 3
+Input: 2
+5
+12
+5
+378
+2015
+8
+Output: 4
+Input: 3
+5
+12
+5
+378
+2015
+8
+Output: 2

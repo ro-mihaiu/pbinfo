@@ -1,0 +1,19 @@
+#840
+Croco
+
+Cerința
+Se dă o matrice cu n linii și m coloane și elemente 0 sau 1 , care reprezintă harta unui lac, în care 1 înseamnă uscat, iar 0 înseamnă apă.
+Să se plaseze pe fiecare zonă cu uscat un crocodil sau un elefant astfel încât să nu fie două animale din aceeași specie în zone învecinate.
+
+Restricții
+1 ≤ n , m ≤ 100
+se acceptă orice soluție corectă
+
+Exemplu
+Input: 3 5
+1 1 1 0 1
+1 1 0 1 1
+0 1 1 0 1
+Output: C E C A C
+E C A C E
+A E C A C

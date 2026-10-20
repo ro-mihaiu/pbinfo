@@ -1,0 +1,23 @@
+#1818
+Brain
+
+Cerința
+Programel a fost invitat să dea o proba de angajare la cea mai mare companie de jocuri din Catania – Brain Games. Sarcina pe ca a primit-o a fost următoarea:
+Scrie un program care identifică mulţimea numerelor bine aşezate dintr-un şir, apoi identifică cel mai mare număr care se poate obţine ca sumă de numere distincte din mulţimea determinată şi cel mai mic număr natural nenul, care nu se poate obţine ca sumă de numere distincte din mulţimea determinată. Un număr bine aşezat este un număr a cărui valoare coincide cu indicele poziţiei sale în ordinea citirii.
+
+Restricții
+1 < N < 1.000.000 ;
+Numerotarea poziţiilor din şir porneşte de la 1 .
+Se garanteaza existenţa cel puţin a unui număr şi a maximum 100.000 de numere “bine aşezate”.
+
+Exemplu
+Input: 10
+1 2 -5 1 3 6 7 -2 9 13
+Output: 1 2 6 7 9
+25
+4
+Input: 20
+1 2 3 0 0 3 7 8 5 7 11 7 7 7 2 3 4 5 1 20
+Output: 1 2 3 7 8 11 20
+52
+53

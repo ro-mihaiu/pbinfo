@@ -1,0 +1,13 @@
+#989
+sumperm
+
+Cerința
+Se dau n cifre zecimale: a 1 , a 2 , … , a n . Determinaţi suma: \( S = \overline{a_1 a_2 … a_n} + \overline{a_n a_1 … a_{n-1}} + \cdots + \overline{a_2 a_3 … a_n a_1} \), în care fiecare termen este obţinut prin permutarea circulară spre dreapta a cifrelor termenului precedent cu o poziţie.
+
+Restricții
+2 ≤ n ≤ 9
+
+Exemplu
+Input: 3
+2 5 4
+Output: 1221

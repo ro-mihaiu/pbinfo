@@ -1,0 +1,33 @@
+#2444
+eq4
+
+Cerința
+Fiind dată o expresie corectă, să se determine: 1. valoarea matematică a expresiei dacă x , y , z și t au valoarea 1 . 2. numărul de cvartete distincte (x,y,z,t) , de valori întregi care aparțin unui interval dat [a,b] , pentru care expresia matematică corespunzătoare expresiei date este egală cu o valoare dată E . Două cvartete sunt distincte dacă există cel puţin o poziţie pentru care valorile corespunzătoare sunt diferite.
+
+Restricții
+coeficienţii sunt numere naturale, având cel mult 4 cifre
+2 ≤ lungimea expresiei ≤ 100000
+-500 ≤ a ≤ b ≤ 500
+-10 15 ≤ E ≤ 10 15
+Testele care au C=1 totalizează 20 de puncte;
+Testele care au C=2 totalizează 70 de puncte;
+În cel puțin 30% dintre teste, în expresia dată apar cel mult trei dintre literele x , y , z sau t .
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă 10 puncte pentru exemplele din enunț.
+
+Exemplu
+Input: 1
++10x-7y+3x-7+5z-8t-z-x-y+3
+-1 1 0
+Output: -4
+Input: 1
+-x+1
+-1 1 0
+Output: 0
+Input: 2
++10x-7y+3x-7+5z-8t-z-x-y+3
+-1 1 0
+Output: 8
+Input: 2
+-x+1+0z
+-1 1 0
+Output: 27

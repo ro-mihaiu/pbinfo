@@ -1,0 +1,18 @@
+#1867
+cuvant2
+
+Cerința
+Se dă un cuvânt. Ajutați-l pe Alin să determine:
+a) numărul minim de secvențe de tip palindrom în care poate fi separat cuvântul dat;
+b) care este lungimea celei mai mari secvențe de tip palindrom.
+
+Restricții
+cuvântul citit are cel mult 255 de caractere litere mici ale alfabetului englez
+
+Exemplu
+Input: divid
+Output: 1 5
+Input: asffsaghjh
+Output: 3 6
+Input: fgfhtyuytqw
+Output: 5 5

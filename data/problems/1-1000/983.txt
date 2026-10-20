@@ -1,0 +1,20 @@
+#983
+ecuatie
+
+Cerința
+Se dau a și b numere naturale nenule, cu a < b . Să se determine soluțiile ecuației \({1 \over x} + {1 \over y} + {1 \over z} = {a \over b}\), unde x,y,z sunt numere naturale nenule .
+
+Restricții
+1 ≤ a < b ≤ 100
+Se vor afișa numai soluțiile cu x ≤ y ≤ z numere naturale
+
+Exemplu
+Input: 2 3
+Output: 2 7 42
+2 8 24
+2 9 18
+2 10 15
+2 12 12
+3 4 12
+3 6 6
+4 4 6

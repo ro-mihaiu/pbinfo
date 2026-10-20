@@ -1,0 +1,12 @@
+#8
+maxim3
+
+Cerința
+Calculaţi maximul celor 3 numere date.
+
+Restricții
+valoare absolută a numerelor din fişierul de intrare va fi mai mică decât 2.000.000.000
+
+Exemplu
+Input: 125 68 200
+Output: 200

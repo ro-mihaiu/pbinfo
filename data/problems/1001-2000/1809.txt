@@ -1,0 +1,15 @@
+#1809
+powerrec
+
+Cerința
+Prietenul nostru, Ionci, a învățat la scoală despre ridicarea la putere. Ajutați-l să calculeze \( a^b\), folosind o funcție recursivă.
+
+Restricții
+0 ≤ P ≤ 2.000.000.000 ;
+a + b > 0 ;
+se recomandă realizarea unui subprogram recursiv .
+
+Exemplu
+Input: 5
+4
+Output: 625

@@ -1,0 +1,11 @@
+#800
+Perfect
+
+Cerința
+Să se scrie o funcție C++ care, pentru doi parametri, a și b , afișează pe ecran, separate prin câte un spațiu, în ordine descrescătoare, toate numerele perfecte din intervalul [a,b] . Dacă în interval nu există astfel de numere, subprogramul afișează pe ecran mesajul nu exista .
+
+Restricții
+numele funcției va fi perfect și va avea exact doi parametri, a și b , cu semnificația de mai sus
+1 ≤ a ≤ b ≤10000
+
+Exemplu

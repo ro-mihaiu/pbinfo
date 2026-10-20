@@ -1,0 +1,24 @@
+#4365
+resolution
+
+Cerința
+Fiind o persoană analitică și realistă, Gosu își imaginează M scenarii de forma “După primele q cărți citite, care va fi suma maximă a scorurilor acestora, după un număr nelimitat de interschimbări între cărți din genul literar p ?”. Acestea sunt situații ipotetice, deci ordinea cărților pe raft nu este modificată în realitate pe parcursul interogărilor. Aflați răspunsurile în cazul acestor situații, reprezentate prin interogări independente de forma (p, q) .
+
+Restricții
+1 ≤ N, M ≤ 100.000
+1 ≤ A i ≤ 1.000.000 , 1 ≤ i ≤ N
+1 ≤ p ≤ 1.000.000 , p este număr prim
+1 ≤ q ≤ N
+
+Exemplu
+Input: 10
+5 3 33 2 9 8 10 11 10 7
+4
+5 4
+11 5
+2 6
+7 5
+Output: 48
+52
+70
+52

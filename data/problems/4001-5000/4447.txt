@@ -1,0 +1,21 @@
+#4447
+cadouri1
+
+Cerința
+1) Care este numărul maxim de copii care vor primi cadouri? 2) Care este numărul maxim posibil de bomboane pe care le poate primi un copil în condițiile descrise mai sus? Pentru ambele cerințe trebuie determinat și numărul de bomboane din cutia care eventual se păstrează.
+
+Restricții
+2 ≤ N ≤ 100.000
+Numerele de pe linia a treia sunt naturale, nenule, formate din cel mult 9 cifre.
+Pentru 23 de puncte, C = 1
+Pentru 77 de puncte, C = 2
+
+Exemplu
+Input: 1
+5
+2 7 4 1 2
+Output: 2 1
+Input: 2
+5
+2 7 4 1 2
+Output: 9 1

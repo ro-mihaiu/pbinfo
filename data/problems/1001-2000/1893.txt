@@ -1,0 +1,14 @@
+#1893
+MerryChristmas
+
+Cerința
+Moş Crăciun s-a dus la Polul Nord Shopping City să cumpere n cadouri pentru copiii din întreaga lume. Fiecare cadou avea un cod de bare pentru identificarea produsului, corespunzător unui număr format din nouă cifre, prima cifră fiind nenulă. La plecare şi-a amintit că-i promisese unui copil isteţ un cadou special, care să fie diferit de toate celelalte. Moş Crăciun vă roagă să găsiţi un cadou care să aibă codul de bare diferit de toate celelalte.
+
+Restricții
+1 ≤ n ≤ 500.000
+cele n numere citite vor avea câte nouă cifre
+
+Exemplu
+Input: 4
+123456789 987654321 112345567 200000001
+Output: 412345678

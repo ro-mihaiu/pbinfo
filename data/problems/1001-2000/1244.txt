@@ -1,0 +1,25 @@
+#1244
+Trapeze
+
+Cerința
+Să se determine :
+Câte trapeze dreptunghice, cu una dintre baze pe semidreapta a , cu cealaltă bază pe semidreapta b și cu vârfurile în cele două mulțimi de puncte date se pot forma?
+Care este cea mai mare arie a unuia dintre aceste trapeze?
+
+Restricții
+un trapez este un patrulater cu două laturi paralele denumite baze şi celelalte două laturi neparalele. Dreptunghiurile, pătratele, paralelogramele şi romburile NU sunt trapeze! un trapez dreptunghic este un trapez în care bazele sunt perpendiculare pe una dintre laturile neparalele.
+aria unui trapez dreptunghic este egală cu produsul dintre suma bazelor şi lungimea laturii perpendiculare împărțit la 2 ;
+2 ≤ n1, n2 ≤ 100.000 ;
+valorile de pe a doua linie și de pe a patra linie nu depășesc 1.000.000.000 ;
+valorile de pe a doua linie și de pe a patra linie sunt date în ordine crescătoare;
+se garantează că punctele date formează cel puțin un trapez dreptunghic;
+pentru rezolvarea corectă a primei cerințe se acordă 50% din punctajul unui test; pentru rezolvarea corectă a ambelor cerințe se acordă 100% din punctajul testului.
+50% din punctajul total se acordă pentru rezolvarea corectă a unor teste în care n1 și n2 ≤ 200
+
+Exemplu
+Input: 4
+1 3 6 9
+5
+2 3 4 6 10
+Output: 12
+13

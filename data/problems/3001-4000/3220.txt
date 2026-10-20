@@ -1,0 +1,19 @@
+#3220
+foto
+
+Cerința
+Ajutați-o pe Alina să găsească cea mai luminoasă zonă și determinați numărul de puncte luminoase ale acesteia.
+
+Restricții
+1 ≤ n ≤ 100 , 1 ≤ m ≤ 100 , numere naturale
+dacă nu există nicio zonă luminoasă, se va considera că cea mai luminoasă zonă are 0 elemente
+
+Exemplu
+Input: 6 6
+1 0 0 1 1 1
+1 1 0 1 0 1
+1 0 0 1 0 0
+1 1 1 0 1 1
+1 0 0 1 1 0
+1 0 0 1 1 1
+Output: 5

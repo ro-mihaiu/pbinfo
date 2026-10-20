@@ -1,0 +1,24 @@
+#597
+Poza
+
+Cerința
+Fie o poză dată sub forma unei matrice cu n linii și m coloane, în care elementele sunt 0 sau 1 : un element 0 reprezintă fundalul imaginii, iar un element 1 reprezintă obiect din prim plan. Este necesară tăierea unei bucăți din imagine astfel încât:
+laturile bucății tăiate sunt paralele cu laturile pozei inițiale și cât mai mici;
+toate obiectele din prim-plan în poza inițială apar în poza tăiată;
+Determinați dimensiunile pozei tăiate, precum și conținutul ei.
+
+Restricții
+1 ≤ n,m ≤ 100
+în poză va exista cel puțin un element de prim-plan
+
+Exemplu
+Input: 5 6
+0 0 0 0 0 0
+0 0 1 0 1 0
+0 1 1 1 1 1
+0 0 0 0 1 0
+0 0 0 0 0 0
+Output: 3 5
+0 1 0 1 0
+1 1 1 1 1
+0 0 0 1 0

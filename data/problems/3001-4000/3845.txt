@@ -1,0 +1,27 @@
+#3845
+Ciuruleț
+
+Cerința
+Popel, elev de liceu calificat la barajul pentru Lotul Național de Informatică, tocmai a învățat ciurul lui Eratostene, pentru aflarea numerelor prime, al cărui algoritm este descris astfel:
+prim[i]=1, oricare ar fi i de la 2 la N
+pentru i de la 2 la N:
+dacă prim[i] este 1:
+pentru j de la 2*i la N din i în i:
+prim[j] = 0
+Din cauza oboselii și a stresului, Popel a inițializat greșit șirul prim, punând pe unele poziții 0 în loc de 1 . După ce a executat algoritmul pe șirul prim greșit inițializat, a obținut un nou șir pe care l-a notat pe o foaie de hârtie. Mai târziu, nu își mai amintea șirul inițial prim, dar mai avea șirul final pe care l-a obținut. În plus, nu mai era sigur dacă unele valori din șirul final le-a notat corect, așa că le-a marcat cu caracterul "?" . Popel vă roagă să aflați un șir inițial cu proprietatea că dacă ar executa algoritmul de mai sus asupra lui, ar obține un șir care s-ar potrivi cu șirul final notat pe foaie. De asemenea, el își dorește ca șirul inițial să aibă un număr cât mai mare de cifre de 1 .
+
+Restricții
+2 ≤ N ≤ 1.000.000 .
+Pentru 30% din teste, șirul din fișierul de intrare nu conține caracterul ? .
+Pentru ca două șiruri A și B să se potrivească, trebuie ca A[i] și B[i] să fie egale, oricare ar fi i de la 2 la N cu B[i] diferit de ? . Cu alte cuvinte, peste 0 se potrivește 0 , peste 1 se potrivește 1 , iar peste ? se potrivesc atât 0 , cât și 1 .
+Se garantează faptul că șirul final obținut notat pe foaie este unul valid.
+
+Exemplu
+Input: 6
+10??0
+Output: 4
+10111
+Input: 9
+??10?00?
+Output: 5
+01101011

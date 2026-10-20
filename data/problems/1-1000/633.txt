@@ -1,0 +1,14 @@
+#633
+paritate1
+
+Cerința
+Se dă un șir cu n elemente, numere naturale. Determinați diferența în valoare absolută dintre numărul de valori pare din șir și numărul de valori impare din șir.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+15 245 28 33 11
+Output: 3

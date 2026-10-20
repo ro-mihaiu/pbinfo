@@ -1,0 +1,16 @@
+#4508
+Eratostene10
+
+Cerința
+Se dau două șiruri A și B , fiecare format din câte N numere naturale, și un număr natural R . Aflați numărul perechilor (i,j) pentru care restul împărțirii numărului A i la B j este R .
+
+Restricții
+1 ≤ N ≤ 100.000
+0 ≤ R ≤ 10
+1 ≤ A i , B j ≤ 1.000.000
+
+Exemplu
+Input: 5 3
+12 17 23 54 81
+9 7 2 10 17
+Output: 4

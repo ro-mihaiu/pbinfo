@@ -1,0 +1,12 @@
+#810
+nrA
+
+Cerința
+Se dă un şir de caractere ce conţine cuvinte formate din litere mici ale alfabetului englez, separate prin unul sau mai multe spații. Înaintea primului cuvânt nu există spații, și nici după ultimul. Să se determine numărul de cuvinte din șir în care apare litera a .
+
+Restricții
+șirul dat va conține cel mult 70 caractere, litere mici ale alfabetului englez și spații
+
+Exemplu
+Input: voi sustine      examenul la   informatica
+Output: 3

@@ -1,0 +1,16 @@
+#116
+MediePrime
+
+Cerința
+Să se scrie un program care citeşte de la tastatură un număr natural n şi apoi un şir de n numere naturale şi determină media aritmetică a celor prime.
+
+Restricții
+0 < n < 1000 ;
+cele n numere citite vor fi mai mici decât 10000 ;
+rezultatul se va afişa cu cel puțin două zecimale exacte;
+în toate testele, printre cele n numere va exista cel puțin un număr prim.
+
+Exemplu
+Input: 5
+8 7 5 9 11
+Output: 7.66

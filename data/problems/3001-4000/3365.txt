@@ -1,0 +1,26 @@
+#3365
+DigrafulCTC
+
+Cerința
+Să se afișeze listele de adiacență asociate noului digraf.
+
+Restricții
+1 ≤ n ≤ 100.000
+1 ≤ m ≤ 200.000
+în toate testele, digraful are cel puțin două componente tari conexe
+
+Exemplu
+Input: 8 10
+1 2
+2 3
+3 1
+4 5
+5 6
+6 7
+7 4
+6 4
+4 1
+4 8
+Output: 0
+1 3
+0

@@ -1,0 +1,19 @@
+#4299
+gravitatie
+
+Cerința
+Gigel era foarte plictisit așa că a început să se joace cu piese de lego. El a construit turnuleţe de diverse înalţimi pe care le-a aranjat unul lângă celalalt, în linie. Prietenul său, Gogu, intrând în cameră să vadă ce face, a călcat accidental pe turnuleţe, urlând de durere. Când şi-a dat seama Gigel că şi-a supărat prietenul acesta s-a hotărât să îşi rearanjeze turnurile în aşa fel încât gradul de durere, atunci când cineva va călca pe ele sa fie cat mai mic. Ca să calculeze acest grad de durere, Gigel, băiat deştept, a aruncat o placă de plastic peste toate turnuleţele, placă ce s-a rupt în locurile în care două turnuri adiacente au inaltimi diferite. Acesta a stabilit ca gradul de durere să fie egal cu numărul părților în care s-a rupt placa iniţială. Pentru a minimiza gradul de durere, Gigel poate interschimba (de câte ori vrea el) oricare două turnuleţe între ele. (ex: schimbă turnuleţul 1 cu turnuleţul 3 , apoi turnuleţul 4 cu turnuleţul 2 , etc…).
+
+Restricții
+1 ≤ N ≤ 100.000
+0 ≤ H i ≤ 4.000.000.000 (patru miliarde)
+Bucata de plastic aruncată are lungimea egală cu lungimea șirului de turnulețe.
+Pentru 40% din punctaj 0 ≤ H i ≤ 100.000
+
+Exemplu
+Input: 3
+7 3 3
+Output: 2
+Input: 4
+4 7 2 7
+Output: 3

@@ -1,0 +1,20 @@
+#3492
+PalPal
+
+Cerința
+Se dă un șir s care conține litere mici ale alfabetului englez, urmat de un număr natural k . Să se afișeze câte subsecvențe ale șirului s de lungime 1 , 2 , … k sunt palindromuri.
+
+Restricții
+1 ≤ k ≤ 1000
+șirul s are maxim 20000 de caractere
+Prin subsecvență a unui șir de caractere se înțelege o succesiune de unul sau mai multe caractere din șir aflate pe poziții consecutive.
+Un șir de caractere este palindrom dacă se citește la fel de la stânga la dreapta și de la dreapta la stânga.
+
+Exemplu
+Input: eaaebeadaebcc
+5
+Output: 13
+2
+2
+1
+2

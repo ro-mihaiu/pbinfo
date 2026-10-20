@@ -1,0 +1,23 @@
+#431
+Graf complet
+
+Cerința
+Se dau mai multe grafuri neorientate, prin matricea de adiacență. Să se verifice despre fiecare graf dacă este complet.
+
+Restricții
+1 ≤ G ≤ 5
+1 ≤ n ≤ 50
+
+Exemplu
+Input: 2
+3
+0 1 1
+1 0 1
+1 1 0
+4
+0 1 1 1
+1 0 0 1
+1 0 0 1
+1 1 1 0
+Output: DA
+NU

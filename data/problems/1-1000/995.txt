@@ -1,0 +1,12 @@
+#995
+numere6
+
+Cerința
+Se dau două numere naturale diferite. Afişaţi cel mai mare număr care poate fi scris folosind toate cifrele celor două numere date.
+
+Restricții
+cele două numere date vor fi mai mici decât 2.000.000.000
+
+Exemplu
+Input: 36321 4173
+Output: 764333211

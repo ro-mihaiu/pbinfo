@@ -1,0 +1,11 @@
+#1654
+NrVocRec
+
+Cerința
+Să se scrie o funcţie C/C++ recursivă care primeşte ca parametru un şir de caractere format din litere mari/mici ale alfabetului englez şi spaţii şi returnează numărul de vocale din şir.
+
+Restricții
+Numele funcţiei este nr_vocale
+Funcţia are un singur parametru (şirul format din maxim 10000 caractere).
+
+Exemplu

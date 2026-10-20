@@ -1,0 +1,19 @@
+#2350
+grup
+
+Cerința
+Scrieţi un program care, pentru un şir dat de n numere naturale, rezolvă următoarele cerințe:
+determină numărul minim dintre numerele aparținând celui mai numeros grup care se formează conform Criteriului 1 . Dacă sunt mai multe grupuri cu număr maxim de elemente, se va determina numărul minim din grupul pentru care prima cifra este cea mai mică.
+determină numărul de elemente ale celui mai numeros grup care se formează conform Criteriului 2 .
+
+Restricții
+0 < n ≤ 10000
+Valorile din șirul de intrare sunt numere naturale cu maxim 9 cifre.
+
+Exemplu
+Input: 7 1
+73532 344 739 34343 34 735 23757
+Output: 34
+Input: 7 2
+73532 344 739 34343 34 433 23757
+Output: 4

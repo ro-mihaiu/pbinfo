@@ -1,0 +1,19 @@
+#419
+Subgraf1
+
+Cerința
+Se dă lista muchiilor unui graf neorientat cu n vârfuri, etichetate de la 1 la n . Din acest graf se elimină toate vârfurile care au gradul minim. Să se determine câte muchii va avea subgraful obținut.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ i , j ≤ n
+muchiile se pot repeta în fișierul de intrare
+
+Exemplu
+Input: 5
+1 5
+2 5
+3 5
+2 3
+4 2
+Output: 3

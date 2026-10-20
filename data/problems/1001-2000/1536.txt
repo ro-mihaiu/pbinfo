@@ -1,0 +1,20 @@
+#1536
+Ecuatii
+
+Cerința
+Scrieţi un program care să rezolve ecuaţii de gradul I, în formatul specificat în enunţul problemei.
+
+Restricții
+1 ≤ n ≤ 10
+Lungimea unei ecuaţii nu depăşeşte 255 caractere.
+Ecuaţiile nu conţin spaţii.
+Numerele naturale care intervin în ecuaţii sunt ≤1000 .
+
+Exemplu
+Input: 3 
+2x-4+5x+300=98x
+x+2=2+x
+3x+5=3x+2
+Output: 3.2527
+infinit
+imposibil

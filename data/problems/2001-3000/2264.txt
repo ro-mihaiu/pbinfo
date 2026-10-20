@@ -1,0 +1,9 @@
+#2264
+sumacifre2
+
+Cerința
+Să se scrie un program care citeşte de la tastatură un număr natural cu exact două cifre și determină suma cifrelor sale.
+
+Exemplu
+Input: 75
+Output: 12

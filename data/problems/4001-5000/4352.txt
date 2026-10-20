@@ -1,0 +1,19 @@
+#4352
+Mozaic
+
+Cerința
+Rapunzel, plictisită de modul în care arată castelul ei, doreşte să facă nişte modificări. Astfel, ea a comandat un nou mozaic pentru a îl pune la intrare. Meşterii palatului, ştiind cât de nehotărâtă este prinţesa, au decis să vină cu cât mai multe modele posibile.
+Mozaicul comandat este unul simplu, alcătuit din două benzi suprapuse de lungime N . Pentru a-l realiza, meşterii dispun de un număr infinit de plăcuţe dreptunghiulare cu lungimi variabile si lăţimi egale cu lăţimea unei benzi. Oricare două plăcuţe de lungimi diferite au şi modele diferite.
+Pentru a nu încărca prea mult mozaicul, o bandă o să conţină acelaşi model de plăcuţă. Deoarece materialele sunt scumpe, meşterii doresc să folosească integral fiecare plăcuţă, fără sa depăseaşcă lungimea mozaicului.
+În timp ce lucrau la mozaic, prinţul Flynn a venit şi el cu o condiţie: numărul de plăcuţe pe care îl folosesc pentru prima bandă şi numărul de plăcuţe pentru a doua bandă să fie prime între ele.
+Speriaţi puţin de această condiţie, meşterii vă cer ajutorul pentru a calcula câte modele o să aducă în faţa prinţesei, la terminarea comenzii.
+Înainte să se apuce de treabă, meşterii doresc să ştie lungimea plăcuţelor ce ar putea fi utilizate în crearea mozaicului.
+Să se determine numărul de modele pe care prinţesa o să le primească de la meşteri.
+
+Restricții
+Plăcuţele au orice lungime număr natural nenul
+Există un număr infinit de plăcuţe de aceaşi lungime
+1 ≤ T ≤ 2
+1 ≤ N ≤ 2.000.000
+
+Exemplu

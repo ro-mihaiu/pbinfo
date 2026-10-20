@@ -1,0 +1,21 @@
+#4475
+Livada3
+
+Cerința
+Determinați în câte moduri se poate alege zona dorită de Ion, precum și o modalitate de alegere.
+
+Restricții
+1 ≤ N, M ≤ 500 ;
+1 ≤ S ≤ N*M ;
+liniie și coloanele livezii sunt numerotate de începând de la 1 ;
+dacă nu există nicio posibilitate de a alege zona dorită de Ion fișierul de ieșire va conține numai valoarea 0 ;
+valorile I J H L vor fi alese astfel încât I să fie minim. Dacă există mai multe modalități de alegere cu I minim, se va alege aceea cu J minim. Dacă în continuare există mai multe modalități de alegere, se va alege aceea cu H minim;
+pentru teste în valoare de 30 de puncte, N,M ≤ 50 .
+
+Exemplu
+Input: 3 5 6
+A A B A A
+D D D D A
+A B A D A
+Output: 1 2 3 2
+2

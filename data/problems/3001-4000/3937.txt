@@ -1,0 +1,14 @@
+#3937
+KSum3
+
+Cerința
+Se dă N și un vector de N elemente numere întregi, găsiți suma maximă a unei subsecvențe (elemente adiacente) cu lungimile cuprinse între K și W ( K ≤ lungime ≤ W ).
+
+Restricții
+1 ≤ K ≤ W ≤ N ≤ 1.000.000
+cele N numere citite vor fi din intervalul [-1.000.000.000, 1.000.000.000] .
+
+Exemplu
+Input: 6 3 4
+5 4 -10 1 2 3
+Output: 6

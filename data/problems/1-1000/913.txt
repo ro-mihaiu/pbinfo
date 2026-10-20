@@ -1,0 +1,21 @@
+#913
+Inlocuire3
+
+Cerința
+Se dă un tablou cu n elemente, numere naturale. Să se înlocuiască fiecare element din tablou care nu este număr prim cu cel mai mic număr prim, mai mare decât el.
+Se vor defini și apela următoarele subprograme:
+citire , care citește de la tastatură valoarea lui n și cele n elemente ale tabloului
+afisare , care afișează pe ecran elementele tabloului, separate prin exact un spațiu
+prim , care verifică dacă un număr natural este prim
+urmatorul_prim , care determină pentru un număr dat cel mai mic număr prim, mai mare decât acesta, folosind subprogramul prim
+inloc , care realizează înlocuirile cerute.
+În programele C/C++ nu se vor folosi variabile globale .
+
+Restricții
+1 ≤ n ≤ 1000
+elementele tabloului vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 7
+7 18 18 5 14 20 4
+Output: 7 19 19 5 17 23 5

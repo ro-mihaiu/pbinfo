@@ -1,0 +1,13 @@
+#1583
+2prim
+
+Cerința
+Se citesc de la tastatură n numere naturale. Să se determine numărul de numere prime formate din ultimele 2 cifre ale fiecărui număr.
+
+Restricții
+1 ≤ n ≤ 10000
+
+Exemplu
+Input: 4 
+218 433 417 513
+Output: 2

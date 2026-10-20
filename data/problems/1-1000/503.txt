@@ -1,0 +1,15 @@
+#503
+Alternanta
+
+Cerința
+Un vector cu elemente 0 sau 1 se numește alternativ dacă oricum am lua două elemente vecine în vector, cel puțin unul dintre ele este 0 .
+Se dă un vector cu n elemente, numere naturale. Verificați dacă vectorul este alternativ.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi 0 sau 1
+
+Exemplu
+Input: 5
+0 1 0 0 1
+Output: DA

@@ -1,0 +1,25 @@
+#4124
+colibri
+
+Cerința
+Găsiți un subșir nevid al șirului q 1 , q 2 , …, q N al cărui produs al valorilor să fie maxim posibil.
+
+Restricții
+1 ≤ N ≤ 50.000 ;
+0 ≤ a i , b i ≤ 1.000.000 , oricare ar fi 1 ≤ i ≤ N ;
+1 ≤ c i ≤ 1.000.000 , oricare ar fi 1 ≤ i ≤ N ;
+Dacă există mai multe soluții, atunci se acceptă orice soluție corectă;
+Spunem că un șir x este subșir al unui șir y dacă și numai dacă x se poate obține din y eliminând o parte din elementele lui y (inclusiv nici unul) fără a schimba ordinea relativă a elementelor rămase.
+Pentru 30 de puncte, N ≤ 19 și a i , c i , c i ≤ 9
+Pentru 20 de puncte, N ≤ 19
+Pentru 20 de puncte, a i , b i , c i ≤ 9
+Pentru 30 de puncte, fără restricții suplimentare
+
+Exemplu
+Input: 5
+0 0 1
+2 4 2
+4 7 7
+1 2 3
+0 3 2
+Output: 01001

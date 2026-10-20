@@ -1,0 +1,31 @@
+#1497
+Nunta
+
+Cerința
+Fiind date n , numărul de persoane, m , numărul de perechi de invitaţi care se cunosc între ei și cele m perechi, să se determine numărul K minim de grupuri formate din cel puțin doi invitați astfel încât, în fiecare grup, fiecare persoană să aibă cel puţin un cunoscut, precum şi numărul variantelor distincte în care se poate organiza masa cu cel puţin n/2+1 invitaţi din grupurile formate.
+
+Restricții
+0 < n <= 20000
+0 < m <= 100000
+
+Exemplu
+Input: 31 6
+5 7
+2 3
+10 14
+14 6
+9 15
+7 30
+Output: 4
+0
+Input: 12 8
+1 2
+6 5
+3 2
+10 8
+3 4
+7 8
+1 4
+12 9
+Output: 4
+3

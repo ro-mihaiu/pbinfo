@@ -1,0 +1,21 @@
+#1075
+Grad1
+
+Cerința
+Scrieţi un program care citeşte numerele n , k , x 1 , x 2 , …, x n , cu semnificaţia din enunţ, şi apoi determină:
+a) gradul întregului şir de numere; b) poziţia primului element din prima secvenţă de lungime k ce are gradul maxim, precum şi gradul acestei secvenţe.
+
+Restricții
+0 < n < 10001
+0 < k < n+1
+Numerele din şir sunt numere naturale strict mai mici decât 32000 .
+O secvenţă de numere din şir reprezintă o succesiune de numere din acel şir, aflate pe poziţii consecutive.
+Gradul întregului şir de numere este egal cu gradul secvenţei de n numere care începe cu numărul de pe poziţia 1 şi conţine toate cele n numere din şir.
+Pentru rezolvarea corectă a subpunctului a) se obţine 40% din punctaj.
+Pentru rezolvarea corectă a subpunctului b) se obţine 60% din punctaj.
+
+Exemplu
+Input: 7 4
+1 5 7 4 6 2 9
+Output: 3
+3 2

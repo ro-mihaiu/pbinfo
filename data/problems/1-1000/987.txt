@@ -1,0 +1,23 @@
+#987
+matrice4
+
+Cerința
+Se dă o matrice pătratică cu n linii și n coloane și elemente numere naturale. Să se afișeze indicii liniilor pentru care suma elementelor este număr par.
+Se va defini și folosi subprogramul suma , cu 3 parametri:
+x – matricea
+n – dimensiunea matricei
+p – un număr natural, 1 ≤ p ≤ n
+care va returna suma elementelor de pe linia p a matricei x .
+
+Restricții
+1 ≤ n ≤ 100
+elementele matricei sunt numere naturale mai mici decât 1 000 000
+liniile matricei sunt numerotate de la 1 la n .
+
+Exemplu
+Input: 4
+1 2 3 4
+1 1 1 2
+2 2 41 8
+3 3 10 2
+Output: 1 4

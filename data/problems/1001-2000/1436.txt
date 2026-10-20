@@ -1,0 +1,13 @@
+#1436
+distanta_maxima
+
+Cerința
+Fie \(\scriptsize\text{S} \) un şir cu numere naturale nenule. Considerând distanţa dintre elementele \(\scriptsize \text{S}_i \) şi \(\scriptsize \text{S}_j \) ca fiind egală cu \(\scriptsize|i-j|\), scrieţi un program care determină distanţa maximă dintre două valori egale din şir.
+
+Restricții
+Fiecare element al şirului este un număr natural din intervalul [1,1000]
+Elementele şirului sunt numerotate de la 1
+
+Exemplu
+Input: 30 33 16 33 37 16 72 65 16 46
+Output: 6

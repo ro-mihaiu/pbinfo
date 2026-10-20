@@ -1,0 +1,21 @@
+#456
+piramida1
+
+Cerința
+Se citește numărul natural n , şi un caracter c . Să se afișeze următoarea piramidă:
+c
+cc
+ccc
+....
+ccc...c
+
+Restricții
+1 ≤ n ≤ 20
+c este un caracter cu codul ASCII cuprins între 33 şi 126 , inclusiv.
+
+Exemplu
+Input: 4 *
+Output: *
+**
+***
+****

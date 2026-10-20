@@ -1,0 +1,31 @@
+#1101
+Project Management
+
+Cerința
+Să se scrie un program care să se determine:
+a) timpul minim t în care se poate finaliza executarea proiectului b) pentru fiecare fază k ( k din {1,2,…,n} ), momentul de timp c k la care poate începe faza k cel mai devreme, respectiv momentul de timp d k la care poate începe faza k cel mai târziu, fără a influenţa durata totală de executare a proiectului.
+
+Restricții
+0 ≤ n ≤ 100 ; n – număr natural
+Timpul necesar finalizării executării oricărei faze nu va depăşi 1.000.000
+Se consideră că executarea proiectului începe la momentul de timp 0
+Nu vor exista dependenţe circulare (proiectul întotdeauna se poate finaliza)
+
+Exemplu
+Input: 7
+2 3 5 3 3 3 2
+0
+0
+1 2
+1 1
+1 1
+3 3 4 5
+1 3
+Output: 11
+0 3
+0 0
+3 3 
+2 5
+2 5
+8 8
+8 9

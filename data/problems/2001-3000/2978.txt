@@ -1,0 +1,27 @@
+#2978
+aur
+
+Cerința
+Cunoscând cele N numere naturale dictate de Păcală, scrieți un program care să determine: 1. numărul cifrelor scrise pe tăbliță de Tândală; 2. ce-a de-a K -a cifră de pe tăbliță, în ordine de la stânga la dreapta; 3. cel mai mare număr ce se poate forma cu exact P cifre alăturate de pe tăbliță, considerate în ordine de la stânga la dreapta.
+
+Restricții
+1 ≤ N ≤ 100.000 și 1 ≤ K ≤ 900.000 ;
+Se garantează ca există cel puțin K cifre scrise pe tăbliță.
+1 ≤ P ≤ 18 ; Se garantează ca există cel puțin P cifre scrise pe tăbliță.
+toate numere dictate de Păcală sunt nenule și au cel mult 9 cifre fiecare;
+Pentru rezolvarea corectă a primei cerințe se acordă 20 de puncte, pentru rezolvarea corectă a celei de-a doua cerințe se acordă 30 de puncte, iar pentru rezolvarea corectă a celei de-a treia cerințe se acordă 40 de puncte.
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă pentru exemplele din enunț.
+
+Exemplu
+Input: 1
+7
+25 9 13 459 2 79 9
+Output: 12
+Input: 2
+7 10
+25 9 13 459 2 79 9
+Output: 7
+Input: 3
+7 4
+25 9 13 459 2 79 9
+Output: 9279

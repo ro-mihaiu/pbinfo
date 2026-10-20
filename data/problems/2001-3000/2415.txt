@@ -1,0 +1,16 @@
+#2415
+nr_pal
+
+Cerința
+Se dau n întrebări de forma: Câte palindromuri există în intervalul [a, b] ? , unde a și b sunt numere naturale date, cu a ≤ b .
+
+Restricții
+0 < n ≤ 100.000
+0 ≤ a ≤ b ≤ 1.000.000.000
+
+Exemplu
+Input: 2
+5 23
+1 255
+Output: 7
+34

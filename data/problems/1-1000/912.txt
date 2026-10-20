@@ -1,0 +1,11 @@
+#912
+PrimeVecine
+
+Cerința
+Să se scrie o funcție C++ care, pentru un număr natural n transmis ca parametru, determină și întoarce prin intermediul unor parametri de ieșire cel mai mare număr prim mai mic decât n și cel mai mic număr prim mai mare decât n .
+
+Restricții
+numele funcției va fi sub
+funcția va avea exact trei parametri, în această ordine: primul parametru, n , reprezintă un număr natural, 3 ≤ n < 1.000.000.000 a și b sunt parametrii prin care funcția va întoarce cele două valori cerute, astfel: a este cel mai mare număr prim mai mic decât n b este cel mai mic număr prim mai mare decât n
+
+Exemplu

@@ -1,0 +1,17 @@
+#3982
+descp2
+
+Cerința
+Se dă un număr natural par n . Determinaţi, în ordine lexicografică, toate modalităţile de a-l scrie pe n ca sumă de puteri ale lui 2 scrise în ordine crescătoare. Se vor folosi doar puterile mai mari sau egale cu 2 .
+
+Restricții
+2 ≤ n ≤ 250 și este număr par
+
+Exemplu
+Input: 12
+Output: 2 2 2 2 2 2 
+2 2 2 2 4 
+2 2 4 4 
+2 2 8 
+4 4 4 
+4 8

@@ -1,0 +1,12 @@
+#53
+cateimpare
+
+Cerința
+Se citesc numere de la tastatură până la apariția lui zero. Să se determine câte dintre ele erau impare.
+
+Restricții
+numerele citite aparțin intervalului [0; 1.000.000.000)
+
+Exemplu
+Input: 5 6 2 1 0
+Output: 2

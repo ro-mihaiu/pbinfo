@@ -1,0 +1,15 @@
+#4332
+PrimMaxMin
+
+Cerința
+Se dă un șir cu n elemente, numere naturale nenule. Să se determine suma dintre cel mai mic și cel mai mare element prim din șir.
+
+Restricții
+1 ≤ n ≤ 1.000
+elementele șirului vor fi mai mici decât 1.000.000.000
+șirul va conține cel puțin un element prim
+
+Exemplu
+Input: 5
+18 23 13 40 37
+Output: 50

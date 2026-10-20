@@ -1,0 +1,9 @@
+#609
+dublarevocale
+
+Cerința
+Se dă un şir format din cel mult 100 de caractere – litere mici ale alfabetului englez şi spaţii. Să se modifice acest şir prin dublarea fiecărei vocale.
+
+Exemplu
+Input: problema aceea frumoasa
+Output: proobleemaa aaceeeeaa fruumooaasaa

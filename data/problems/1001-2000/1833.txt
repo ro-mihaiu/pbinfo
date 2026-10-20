@@ -1,0 +1,15 @@
+#1833
+nconsecutive
+
+Cerința
+Să se determine cel mai mic număr natural care respectă condițiile lui Gigel.
+
+Restricții
+1 ≤ n ≤ 100
+Se garantează că soluţia e mai mică decât 1.000.000
+
+Exemplu
+Input: 2
+Output: 9
+2
+3

@@ -1,0 +1,14 @@
+#3812
+Inaltimi2
+
+Cerința
+Se dau lungimile laturilor unui triunghi ABC . Calculati lungimile inaltimilor duse din A, B, C .
+
+Restricții
+1 ≤ a, b, c ≤ 1000
+
+Exemplu
+Input: 3 4 5
+Output: 3.00 2.40 4.00
+Input: 4 5 10
+Output: Imposibil

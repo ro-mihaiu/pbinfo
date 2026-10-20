@@ -1,0 +1,14 @@
+#2318
+conversie-b-10
+
+Cerința
+Se dau două numere n și b , unde b este o bază de numerație, iar n un număr reprezentat în baza b . Să se afișeze numărul obținut prin transformarea lui n din baza b în baza 10 .
+
+Restricții
+n este un număr pozitiv cu cel mult 7 cifre
+2 ≤ b ≤ 10
+datele de intrare sunt corecte
+
+Exemplu
+Input: 1101 2
+Output: 13

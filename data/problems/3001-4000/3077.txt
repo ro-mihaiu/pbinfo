@@ -1,0 +1,12 @@
+#3077
+suma-prefixe
+
+Cerința
+Scrieți un program care citește un număr natural nenul n și care calculează suma S tuturor numerelor distincte prefixe pentru n .
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+
+Exemplu
+Input: 12345
+Output: 13715

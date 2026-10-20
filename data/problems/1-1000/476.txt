@@ -1,0 +1,29 @@
+#476
+Lanturi
+
+Cerința
+Se dă lista muchiilor unui graf neorientat cu n vârfuri și trei vârfuri p q r . Să se determine toate lanțurile elementare cu extremitățile în p și q care conțin vârful r .
+
+Restricții
+1 ≤ n ≤ 20
+1 ≤ i , j ≤n
+muchiile se pot repeta în fișierul de intrare
+1 ≤ p , q , r ≤ n
+p , q și r sunt diferite
+
+Exemplu
+Input: 5 8
+1 4 
+1 3 
+3 5 
+4 5 
+2 4 
+1 2 
+4 2 
+3 4
+2 5 3
+Output: 2 1 3 4 5 
+2 1 3 5 
+2 1 4 3 5 
+2 4 1 3 5 
+2 4 3 5

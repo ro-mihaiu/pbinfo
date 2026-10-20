@@ -1,0 +1,29 @@
+#2051
+pp
+
+Cerința
+Se cere să se scrie un program care să citească un număr C reprezentând tipul cerinței, un șir de N numere naturale nenule ordonate crescător a[1]≤a[2]≤...≤a[N] și T perechi de numere naturale (p[k],q[k]) cu 1≤p[k]<q[k]≤N și 1≤k≤T și apoi:
+(1) Dacă C=1 , atunci trebuie să se determine pentru fiecare pereche dată de numere naturale (p,q) suma a[p]+a[p+1]+...+a[q] . (2) Dacă C=2 , atunci trebuie să se determine pentru fiecare pereche dată de numere naturale (p,q) numărul de perechi (i,j) care respectă simultan condițiile p≤i<j≤q și a[i]≠a[j] .
+
+Restricții
+1 ≤ p[i] < q[i] ≤ N ≤ 100 000
+1 ≤ a[1] ≤ a[2] ≤ ... ≤ a[N] ≤ 100 000
+1 ≤ T ≤ 1000
+
+Exemplu
+Input: 1
+5
+1 2 3 3 3
+2
+1 4
+2 5
+Output: 9
+11
+Input: 2
+5
+1 2 3 3 3
+2
+1 4
+2 5
+Output: 5
+3

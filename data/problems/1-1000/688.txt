@@ -1,0 +1,21 @@
+#688
+pixy
+
+Cerința
+Se cere să determinaţi:
+a) numărul minim de recolorări b) lungimea drumului minim de la Pixy la Pixela, parcurs pe zona obţinută în urma recolorărilor de la cerinţa a).
+
+Restricții
+2≤M,N≤500
+Pentru răspuns corect la prima cerinţă se acordă 40% din punctaj, pentru răspuns corect la cea de a doua cerinţă se acordă 60% din punctaj.
+Celulele vecine cu casa lui Pixy au iniţial culori diferite de culoarea casei.
+
+Exemplu
+Input: 5 6
+ADDBCD
+DCDCBE
+ACBAED
+CBDADE
+ABDCEE
+Output: 5
+9

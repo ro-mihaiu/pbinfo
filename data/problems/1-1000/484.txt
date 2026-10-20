@@ -1,0 +1,24 @@
+#484
+LantMinim
+
+Cerința
+Se dă lista muchiilor unui graf neorientat și două vârfuri p q . Să se determine cel mai scurt lanț cu extremitățile p q .
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ i , j ≤ n
+în fișierul de intrare muchiile se pot repeta;
+orice lanț de lungime minimă cu extremitățile p q este acceptat;
+pentru toate datele de test există cel puțin un lanț de la p la q ;
+
+Exemplu
+Input: 6 2 6
+1 2
+1 3
+1 4
+3 4
+4 5
+4 6
+5 6
+Output: 4
+2 1 4 6

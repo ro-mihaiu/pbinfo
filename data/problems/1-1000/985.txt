@@ -1,0 +1,20 @@
+#985
+cifre11
+
+Cerința
+Se dau n numere naturale. Se cer următoarele:
+a) Determinați cel mai mare dintre numerele date care are suma cifrelor minimă.
+b) Aflați cel mai mic număr dintre numerele date care are în scrierea sa un număr maxim de cifre consecutive (de exemplu 25613 are în scrierea sa un număr maxim de 3 cifre consecutive:1,2,3).
+c) Aflați cifra comună cât mai multor numere din șir. Dacă sunt mai multe asemenea cifre se vor afișa toate în ordine crescătoare.
+
+Restricții
+1 ≤ n ≤ 10000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 2.000.000.000
+cele 3 cerințe vor primi punctaje astfel: a) 40% b) 30% c) 30%.
+
+Exemplu
+Input: 5
+23 1047 531 100013 8729
+Output: 100013
+8279
+1 3

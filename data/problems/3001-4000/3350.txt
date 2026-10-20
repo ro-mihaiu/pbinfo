@@ -1,0 +1,14 @@
+#3350
+Prime2
+
+Cerința
+Se dau n numere naturale. Determinați câte dintre ele sunt prime.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+11 25 3 4 1
+Output: 2

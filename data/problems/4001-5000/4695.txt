@@ -1,0 +1,20 @@
+#4695
+max_patrat
+
+Cerința
+Se dă o matrice cu n linii şi n coloane şi elemente numere întregi. Pentru fiecare linie din matrice, calculaţi cea mai mare valoare care de află pe diagonala principală sau pe diagonala secundară.
+
+Restricții
+1 ≤ n ≤ 20
+elementele matricei vor din intervalul [-1.000.000.000,1.000.000.000] .
+
+Exemplu
+Input: 4
+8 3 3 7 
+1 1 -6 5 
+-8 7 -1 1 
+9 8 7 6
+Output: 8
+1
+7
+9

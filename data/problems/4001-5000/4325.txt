@@ -1,0 +1,19 @@
+#4325
+suma_sim_rec
+
+Cerința
+Se dă un vector cu n elemente, numere naturale, n fiind număr par. Să se calculeze suma elementelor din vector care formează perechi egal depărtate de capetele vectorului și care sunt prime între ele.
+Se vor defini și apela următoarele subprograme recursive :
+citire , care citește de la tastatură cele n elemente ale unui tablou
+cmmdc , care calculează cel mai mare divizor comun al celor două numere primite prin parametri
+suma_sim , care calculează suma elementelor din vector care formează perechi egal depărtate de capetele vectorului și care sunt prime între ele.
+În programele C/C++ nu se vor folosi variabile globale .
+
+Restricții
+2 ≤ n ≤ 1000 , n număr par
+cele n numere citite vor fi mai mici decât 1000
+
+Exemplu
+Input: 6
+50 18 15 28 35 40
+Output: 96

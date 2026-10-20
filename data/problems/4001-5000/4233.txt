@@ -1,0 +1,16 @@
+#4233
+SecvDeSumaS
+
+Cerința
+Se dă un șir a 1 , a 2 , …, a n de numere întregi și un număr întreg S . Să se determine numărul secvențelor nevide care au suma egală cu S .
+
+Restricții
+1 ≤ n ≤ 1.000.000
+-1000 ≤ a i ≤ 1000 pentru orice i=1..n
+-1.000.000.000 ≤ S ≤ 1.000.000.000
+O secvență nevidă este formată din unul sau mai multe elemente ale șirului aflate pe poziții consecutive.
+
+Exemplu
+Input: 13 -10
+2 3 -11 1 -11 4 -8 10 -14 10 -5 4 -17
+Output: 4

@@ -1,0 +1,14 @@
+#4571
+Cifre25
+
+Cerința
+Se dă un șir cu n elemente, numere naturale. Să se determine C – numărul de elemente ale șirului conțin cifra 2 și nu conțin cifra 5 și S – suma celor care nu conțin cifra 2 dar conțin cifra 5 .
+
+Restricții
+n ≤ 100
+elementele șirului sunt mai mici decât 10 9
+
+Exemplu
+Input: 7
+18 305 1270 15 1256 20 276
+Output: 3 320

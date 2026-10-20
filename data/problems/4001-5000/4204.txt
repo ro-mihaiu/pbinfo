@@ -1,0 +1,20 @@
+#4204
+esteArbore
+
+Cerința
+Verificați dacă un graf este arbore sau nu.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ x, y ≤ n
+muchiile se pot repeta
+
+Exemplu
+Input: 5
+1 3
+2 4
+3 1
+3 5
+4 2
+4 5
+Output: DA

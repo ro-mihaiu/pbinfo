@@ -1,0 +1,12 @@
+#2660
+produsprimeledouacifre
+
+Cerința
+Se dă un număr natural n . Calculați produsul primelor două cifre ale sale.
+
+Restricții
+10 ≤ n ≤ 100.000.000.000.000.000
+
+Exemplu
+Input: 367
+Output: 18

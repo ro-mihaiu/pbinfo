@@ -1,0 +1,16 @@
+#2527
+hanoi
+
+Cerința
+Dacă se cunoaște numărul n de discuri aflate pe tija A , să se determine șirul mutărilor necesare pentru ca toate discurile să fie mutate pe tija C .
+
+Restricții
+1 ≤ n ≤ 15
+mutările vor fi scrise câte una pe linie, fără spații
+
+Exemplu
+Input: 2
+Output: 3
+A->B
+A->C
+B->C

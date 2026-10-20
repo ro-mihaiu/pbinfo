@@ -1,0 +1,13 @@
+#4015
+unique
+
+Cerința
+Dându-se un șir de numere naturale, să se determine câte dintre ele apar o singură dată.
+
+Restricții
+numerele citite vor fi mai mici decât 200.000
+în șir sunt cel puțin un număr și cel mult 1.000.000 de numere naturale
+
+Exemplu
+Input: 5 4 3 2 3 3 5 6 4 3 3
+Output: 2

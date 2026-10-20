@@ -1,0 +1,33 @@
+#2279
+ConcursPerf
+
+Cerința
+Chef vrea să organizeze un concurs. Previziunea nivelurilor de dificultate a problemelor poate fi o sarcină descurajantă. Chef vrea să echilibreze nivelurile de dificultate ale problemelor.
+Să presupunem că un concurs a avut P participanți în total. O problemă care a fost rezolvată de cel puțin jumătate dintre participanți (adică P/2 ) este considerată ușoară. O problemă rezolvată de participanții de cel mult P/10 este considerată dificilă.
+Chef vrea echilibru. Potrivit lui, un concurs echilibrat trebuie să aibă exact 1 problemă ușoară și exact 2 probleme grele. Vi se oferă descrierea problemelor N și numărul de participanți care rezolvă aceste probleme. Puteți spune dacă concursul a fost echilibrat sau nu?
+
+Restricții
+1 ≤ T, N ≤ 500
+1 ≤ P ≤ 10^8^
+1 ≤ numărul de participanți care rezolvă o problemă ≤ P
+
+Exemplu
+Input: 6
+3 100
+10 1 100
+3 100
+11 1 100
+3 100
+10 1 10
+3 100
+10 1 50
+4 100
+50 50 50 50
+4 100
+1 1 1 1
+Output: da
+nu
+nu
+da
+nu
+nu

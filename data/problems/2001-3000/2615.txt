@@ -1,0 +1,33 @@
+#2615
+CaesarCrypt
+
+Cerința
+Se citește un text de maxim 256 caractere. Să se afișeze textul după aplicarea Cifrului Caesar .
+Cifrul Caesar este o metodă de criptare în care fiecare literă este înlocuită cu o altă literă ce se află la un număr fix de poziții după aceasta în alfabet. Este numită după Julius Caesar, care o folosea în corespondența privată.
+
+Restricții
+1 ≤ n ≤ 100
+Se va folosi alfabetul englez. Literele își păstrează capitalizarea.
+Atenție la exemple!
+
+Exemplu
+Input: caesar
+1
+encrypt
+Output: dbftbs
+Input: dbftbs
+1
+decrypt
+Output: caesar
+Input: caeSaR
+10
+encrypt
+Output: mkoCkB
+Input: CAEsAr
+10
+decrypt
+Output: SQUiQh
+Input: If he had anything confidential to say, he wrote it in cipher, that is, by so changing the order of the 26 letters of the alphabet, that not a word could be made out.
+7
+encrypt
+Output: Pm ol ohk hufaopun jvumpkluaphs av zhf, ol dyval pa pu jpwoly, aoha pz, if zv johunpun aol vykly vm aol 26 slaalyz vm aol hswohila, aoha uva h dvyk jvbsk il thkl vba.

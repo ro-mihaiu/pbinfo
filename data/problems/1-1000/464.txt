@@ -1,0 +1,13 @@
+#464
+CifreK
+
+Cerința
+Se citește o cifră k și apoi se citesc numere până la apariția lui 0 . Să se determine de câte ori apare cifra k în numerele citite pare.
+
+Restricții
+numerele citite vor fi mai mici decât 1.000.000.000
+ultimul număr citit, 0 , nu se ia în considerare
+
+Exemplu
+Input: 5 145 52 354 525 0
+Output: 2

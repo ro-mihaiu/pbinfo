@@ -1,0 +1,14 @@
+#1191
+arhitectura
+
+Cerința
+Primăria dorește să realizeze un proiect de sistematizare a orașului și pentru aceasta îl angajează pe arhitectul Gigel. Orașul constă în n clădiri; pentru fiecare se cunoaște înălțimea, iar Gigel trebuie să ordoneze descrescător aceste înălțimi.
+
+Restricții
+1 ≤ n ≤ 1000
+înălțimile clădirilor vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+1 2 7 3 6
+Output: 7 6 3 2 1

@@ -1,0 +1,18 @@
+#3120
+simetrica-bac
+
+Cerința
+Un tablou bidimensional cu număr impar de coloane este numit simetric faţă de coloana din mijloc dacă, pe fiecare linie a tabloului, elementele dispuse simetric faţă de elementul din mijloc al liniei respective au valori egale.
+Scrieţi un program care citește de la tastatură două numere naturale, m și n ( n impar), și elementele unui tablou bidimensional cu m linii și n coloane, numere naturale. Programul afișează pe ecran mesajul DA , dacă tabloul este simetric față de coloana din mijloc, sau mesajul NU în caz contrar.
+
+Restricții
+3 ≤ n, m ≤ 21
+numerele citite din matrice vor fi mai mici decât 10.000
+
+Exemplu
+Input: 4 5
+1 2 4 2 1
+3 5 5 5 3
+2 4 1 4 2
+1 1 1 1 1
+Output: DA

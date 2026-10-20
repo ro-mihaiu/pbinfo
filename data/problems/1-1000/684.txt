@@ -1,0 +1,16 @@
+#684
+cifre5
+
+Cerința
+Determinaţi suma minimă care se poate obţine prin construirea a k numere care să utilizeze toate cele n cifre.
+
+Restricții
+2 ≤ n ≤ 100.000
+1 ≤ k ≤ 100
+k ≤ n
+cel puţin k cifre dintre cele n sunt nenule
+
+Exemplu
+Input: 7 3
+2 1 0 4 9 9 1
+Output: 152

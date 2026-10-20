@@ -1,0 +1,23 @@
+#2156
+Adlic
+
+Cerința
+Determinaţi:
+Punctajul primului elev care nu ar mai putea fi repartizat în prima clasă în condițiile în care toți elevii își doresc să fie repartizați în prima clasă(se aplică doar la cerința 1).
+Numărul claselor ce se vor forma respectând criteriile.
+
+Restricții
+Punctajele elevilor vor avea cel mult șase cifre
+1 ≤ N ≤ 1 000 000
+Pentru cerința 1 se garantează existența soluției
+Pentru 20% din punctaj cerinţa va fi C = 1
+Pentru alte 20% din punctaj cerinţa va fi C = 2 și N ≤ 1000
+Pentru restul testelor C = 2 și N ≤ 1 000 000
+
+Exemplu
+Input: 1 9
+4 2 4 2 7 10 9 11 8
+Output: 2
+Input: 2 9
+4 2 4 2 7 10 9 11 8
+Output: 3

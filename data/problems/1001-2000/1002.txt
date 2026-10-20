@@ -1,0 +1,16 @@
+#1002
+paginare
+
+Cerința
+Pentru numerotarea paginilor unei serii enciclopedice formate din unul sau mai multe volume se presupune că se folosesc n cifre. Fiecare volum are 300 de pagini, eventual cu excepţia ultimului volum care ar putea avea mai puţine.
+Pentru n dat, să se determine numărul de volume din serie V şi numărul de pagini P ale ultimului volum. Dacă nu este posibilă numerotarea paginilor folosind n cifre, se va afişa mesajul IMPOSIBIL .
+
+Restricții
+1 ≤ n ≤ 1 000 000 000
+numerotarea paginilor se face începând cu 1
+
+Exemplu
+Input: 999
+Output: 2 105
+Input: 900
+Output: IMPOSIBIL

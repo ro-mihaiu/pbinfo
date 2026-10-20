@@ -1,0 +1,14 @@
+#663
+lungime1
+
+Cerința
+Se dă un șir cu n elemente, numere naturale nenule, în care cel puţin un element se repetă. Să se determine lungimea maximă a unei secvenţe de elemente din şir, cu proprietatea că primul şi ultimul element din secvenţă au aceeaşi valoare.
+
+Restricții
+1 ≤ n ≤ 100.000
+elementele șirului sunt numere naturale nenule mai mici sau egale cu 100.000
+
+Exemplu
+Input: 12
+2 13 10 5 10 12 6 7 5 10 12 8
+Output: 8

@@ -1,0 +1,14 @@
+#1876
+SCLM2
+
+Cerința
+Vlad și Alex sunt doi prieteni foarte buni. Aceștia sunt pasionați de jocuri și vor să vă propună unul: Se dau n numere naturale sub forma unui șir. Un subșir se numește “corect” dacă este ordonat crescător. Pentru a câștiga, jucătorul trebuie să ghicească lungimea maxima a unui astfel de subșir. Deoarece nu le place sa piardă, cei doi vă cer ajutorul.
+
+Restricții
+1 ≤ n ≤ 100.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 7
+3 1 4 3 5 6 9
+Output: 5

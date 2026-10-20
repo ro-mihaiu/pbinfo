@@ -1,0 +1,12 @@
+#94
+eliminarevocale
+
+Cerința
+Să se afişeze şirul obţinut prin eliminarea din șir a fiecărei vocale.
+
+Restricții
+se consideră vocale literele din mulțimea {a,e,i,o,u}
+
+Exemplu
+Input: romancier
+Output: rmncr

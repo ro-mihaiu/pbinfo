@@ -1,0 +1,13 @@
+#972
+pozitii
+
+Cerința
+Se dă un șir de caractere. Să se determine câte vocale din șir sunt cuprinse între două consoane.
+
+Restricții
+șirul va avea cel mult 255 caractere
+șirul nu va conține litere mari
+
+Exemplu
+Input: oasele sunt fragile
+Output: 4

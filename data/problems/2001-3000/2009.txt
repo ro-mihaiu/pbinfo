@@ -1,0 +1,32 @@
+#2009
+Accesibil
+
+Cerința
+Scrieți un program care să citească numerele k , n și un șir de n numere naturale și să afișeze:
+a) cele mai mari 3 numere accesibile, nu neapărat distincte, din șirul de n numere; b) câte dintre numerele din șirul dat care nu sunt accesibile, devin accesibile prin eliminarea exact a unei cifre; c) cel mai mic și cel mai mare număr accesibil format din k cifre; d) numărul numerelor accesibile pare de k cifre și numărul numerelor accesibile impare de k cifre.
+
+Restricții
+2 ≤ k ≤ 9 și 3 ≤ n ≤ 100.000 ;
+0 ≤ numerele din șir ≤ 2.000.000.000 ;
+Din numărul 5073 , de exemplu, prin eliminarea unei cifre se obțin numerele 507 , 503 , 573 și 73 ;
+Pentru a rezolva cerințele a) și b) nu folosim valoarea lui k , iar pentru cerințele c) și d) nu folosim șirul de n numere;
+Se acordă: 40 de puncte pentru cerința a); 30 de puncte pentru cerința b); 10 puncte pentru cerința c); 10 puncte pentru cerința d);
+În concurs s-au acordat 10 puncte din oficiu. Pe site se acordă 10 puncte pentru exemple.
+
+Exemplu
+Input: 1
+3 8
+6 12 235 5678 90 987 234 5678
+Output: 234 5678 5678
+Input: 2
+3 9
+4 34 123 1238 301 689 4560 7023 1238
+Output: 5
+Input: 3
+4 3
+12 345 67
+Output: 1234 6789
+Input: 4
+9 3
+12 345 67
+Output: 0 1

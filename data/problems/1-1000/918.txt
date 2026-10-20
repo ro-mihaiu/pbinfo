@@ -1,0 +1,13 @@
+#918
+SumCifRec1
+
+Cerința
+Să se scrie o funcție C++ recursivă care determină suma cifrelor unui număr natural n transmis ca parametru și întoarce rezultatul prin intermediul unui parametru de ieșire.
+
+Restricții
+numele funcției va fi sumcif
+funcția are un doi parametri, n , număr natural, și s , prin intermediul căruia se întoarce rezultatul
+ordinea celor doi parametri este n, s
+numărul n pentru care se calculează suma cifrelor va fi mai mic decât 2.000.000.000
+
+Exemplu

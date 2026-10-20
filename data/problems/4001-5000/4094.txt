@@ -1,0 +1,33 @@
+#4094
+oneout
+
+Cerința
+1) Să se determine câte numere libere de pătrate conține șirul dat. 2) Să se determine cea mai lungă bisecvență din șir formată din numere libere de pătrate, obținută prin eliminarea unui număr care nu este liber de pătrate.
+
+Restricții
+3 ≤ N ≤ 1.000.000
+2 ≤ X[i] ≤ 1.000.000 , 1 ≤ i ≤ N
+Lungimea unei bisecvențe reprezintă numărul de numere din aceasta.
+Datorită dimensiunilor prea mari ale testelor, s-au adăugat doar o parte din ele
+
+Exemplu
+Input: 1
+6
+10 2 12 7 8 15
+Output: 4
+Input: 2
+6
+10 2 12 7 8 15
+Output: 3 1
+1 4
+Input: 2
+7
+5 28 17 24 15 20 18
+Output: 2 2
+1 3
+3 5
+Input: 2
+9
+3 10 5 8 9 11 4 15 21
+Output: 3 1
+6 9

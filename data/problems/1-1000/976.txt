@@ -1,0 +1,20 @@
+#976
+Sir3
+
+Cerința
+Deduceţi regula după care sunt generaţi termenii şirului şi scrieţi un program care să citească numerele naturale p , n şi k şi care să determine:
+a) termenul de pe poziţia p din şirul din enunţ; b) cel mai mare număr natural palindrom care poate fi obţinut folosindu-se cifrele tuturor numerelor din grupa a n -a a şirului dat, nu neapărat toate aceste cifre; c) numărul grupei ce conţine un număr maxim de termeni şi are proprietatea că suma acestor termeni este cel mult egală cu k .
+
+Restricții
+Numerele p , n şi k sunt naturale
+1 ≤ p ≤ 1000000000
+1 ≤ n ≤ 50
+1 ≤ k ≤ 2000000000
+un număr natural este palindrom dacă este egal cu numărul obţinut prin scrierea cifrelor sale în ordine inversă
+Pentru rezolvarea cerinţei a) se acordă 40% din punctaj, pentru cerinţa b) 30% din punctaj şi pentru cerinţa c) 30% din punctaj.
+
+Exemplu
+Input: 7 5 127
+Output: 19
+22922
+5

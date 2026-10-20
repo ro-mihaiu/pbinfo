@@ -1,0 +1,54 @@
+#4609
+opsir
+
+Cerința
+Pentru fiecare dintre perechile de șiruri de tipul 𝑆 și 𝑇 date:
+Să se afișeze literele distincte care apar în cel puțin unul dintre șiruri și, pentru fiecare dintre acestea, sim- bolul șirului (literele 𝑆 sau 𝑇 ) în care apare de mai multe ori. În caz de egalitate, se alege șirul 𝑇 .
+Să se determine o succesiune de operații de tipul 1 și/sau 2 ce pot fi aplicate șirului 𝑇 , care să îl transforme într-un șir egal cu 𝑆 . Să se afișeze DA în cazul în care există o astfel de succesiune de operații, sau NU în caz contrar.
+
+Restricții
+1 ≤ 𝑘 ≤ 100
+1 ≤ 𝑛 ≤ 𝑚 ≤ 200 000
+Suma lungimilor șirurilor de tip 𝑆 din cele 𝑘 teste nu depășește 200 000 .
+Suma lungimilor șirurilor de tip 𝑇 din cele 𝑘 teste nu depășește 200 000 .
+Punctaj: pentru 20 de puncte, 𝑐 = 1 pentru 15 puncte, 𝑐 = 2 șirurile de tip 𝑆 din fiecare test au literele sortate crescător/alfabetic. pentru 25 de puncte, 𝑐 = 2 șirurile de tip 𝑇 din fiecare test pot fi transformate în șirul corespunzător de tip 𝑆 aplicând doar operații de tip 1. pentru 40 de puncte, 𝑐 = 2 fără alte restricții.
+
+Exemplu
+Input: 1
+3
+2 4
+cc
+cbbd
+3 2
+aab
+aa
+2 2
+ac
+da
+Output: 3
+b T
+c S
+d T
+2
+a T
+b S
+3
+a T
+c S
+d T
+Input: 2
+1
+2 2
+zx
+zx
+Output: DA
+Input: 2
+2
+2 3
+ab
+bca
+4 4
+bacc
+cbac
+Output: DA
+NU

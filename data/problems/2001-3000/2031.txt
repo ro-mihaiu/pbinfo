@@ -1,0 +1,20 @@
+#2031
+MDiv
+
+Cerința
+Alexandru a rezolvat deja această problemă banală, așa că te provoacă și pe tine să o rezolvi!
+
+Restricții
+1 ≤ N, M ≤ 100.000
+fiecare valoare din vector, cât și fiecare întrebare ≤ 1.000.000 și sunt nenule.
+
+Exemplu
+Input: 8
+2 4 2 6 1 9 1 5
+3
+2
+5
+3
+Output: 4
+1
+2

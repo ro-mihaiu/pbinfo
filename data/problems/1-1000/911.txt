@@ -1,0 +1,15 @@
+#911
+Cifre6
+
+Cerința
+Să se scrie o funcție C++ care primește ca parametri două numere n și k și determină cel mai mare număr care poate fi scris cu k cifre ale lui n . Funcția va întoarce rezultatul prin intermediul unui parametru de ieşire.
+
+Restricții
+numele funcției va fi numar
+funcția va avea trei parametri: primul parametru reprezintă numărul n ; al doilea parametru reprezintă numărul k , iar al treilea va reprezenta valoarea determinată de funcție
+toți parametrii vor fi numere naturale nenule mai mici decât 2.000.000.000
+n va avea cel puțin k cifre
+
+Exemplu
+Input: numar(27594 , 3 , x);
+Output: None

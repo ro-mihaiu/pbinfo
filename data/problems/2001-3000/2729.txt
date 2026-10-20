@@ -1,0 +1,24 @@
+#2729
+SAO
+
+Cerința
+Știind n – numărul de monștri, rezistența și puterea fiecăruia și m – numărul de oferte, cu rezistența armurii, puterea sabiei și prețul, să se determine costul cel mai mic pentru a învinge toți cei n monștri.
+
+Restricții
+1 ≤ n,m ≤ 10.000
+cele 2*n+3*m numere citite vor fi mai mici sau egale cu 2 63 .
+în cazul în care nu poate învinge toți monștrii, se va afișa -1 .
+
+Exemplu
+Input: 1
+10 10
+2
+9 9 2
+11 11 7
+Output: 7
+Input: 1
+10 10
+2
+9 9 2
+5 5 7
+Output: -1

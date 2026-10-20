@@ -1,0 +1,14 @@
+#183
+sortpp
+
+Cerința
+Să se ordoneze crescător elementele pătrat perfect ale unui şir dat, fără a afecta elementele care nu sunt pătrat perfect.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 50.000
+
+Exemplu
+Input: 8
+9 15 16 4 5 1 7 9
+Output: 1 15 4 9 5 9 7 16

@@ -1,0 +1,14 @@
+#2348
+Caracterul mediu 1
+
+Cerința
+Se citeste un sir de caractere (care poate contine si spatii). Să se determine caracterul mediu al caracterelor bune din sir .
+
+Restricții
+2 ≤ numărul de caractere citite ≤ 200
+Caracterul mediu poate fi spatiu, litera mare sau vocala.
+Cel putin un caracter va fi bun
+
+Exemplu
+Input: fz
+Output: p

@@ -1,0 +1,13 @@
+#3990
+dinamica06
+
+Cerința
+Se dă un număr natural nenul n . Să se determine numărul de numere de n cifre din mulțimea {1, 2, 3, 4} care nu au două cifre alăturate egale și care au proprietatea că sunt divizibile cu 2 . Pentru că acest număr poate fi foarte mare, se va calcula modulo 123457 .
+
+Restricții
+Pentru 80 de puncte, 1 ≤ n ≤ 10.000
+Pentru alte 20 de puncte, 100.000.000 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 2
+Output: 6

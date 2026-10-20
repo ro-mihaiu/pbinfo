@@ -1,0 +1,13 @@
+#3925
+rest1
+
+Cerința
+Se dau numerele naturale n , c și r . Să se determine numărul minim m , strict mai mare decât n , care dă restul r prin împărțire la c .
+
+Restricții
+1 ≤ n ≤ 1.000.000.000.000
+0 ≤ r < c ≤ 1.000.000.000.000
+
+Exemplu
+Input: 30 7 1
+Output: 36

@@ -1,0 +1,12 @@
+#2096
+xyz
+
+Cerința
+Scrieţi un program care să determine “numărul xyz ” pentru x y z numere naturale date.
+
+Restricții
+• 1 ≤ x, y ≤ 9 • 0 ≤ z ≤ 9
+
+Exemplu
+Input: 5 4 3
+Output: 43333

@@ -1,0 +1,15 @@
+#1508
+element-sa
+
+Cerința
+Să se scrie o funcție C++ care are ca parametri două numere naturale n și m și o matrice A(n , m) avȃnd elemente numere întregi și returnează numărul de elemente „șa” din matrice. Un element A(i,j) din matrice se numește element „șa” dacă este maximul de pe coloana j si minimul de pe linia i sau invers.
+Subprogramul se va numi nr_sa va avea trei parametri: a , un tablou bidimensional cu elemente întregi, n , m , reprezentând numărul de linii, respectiv de coloane ale tabloului a .
+
+Restricții
+0 < n,m ≤ 100
+numele subprogramului cerut este nr_sa
+parametrii sunt, în această ordine: a , n , m
+indicii de linie și de coloana ai tabloului a încep de la 0 și sunt de tip int ;
+matricea folosită în apelul din funcția main va fi declarată int a[100][100]; și are elementele indexate de la 0 .
+
+Exemplu

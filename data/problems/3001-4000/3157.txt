@@ -1,0 +1,22 @@
+#3157
+cifre_c1c2
+
+Cerința
+Se citesc două cifre diferite c1 și c2 (nenule). Afișați în ordine crescătoare toate numerele care conțin exact c1 cifre egale cu c2 și c2 cifre egale cu c1 .
+
+Restricții
+1 ≤ c1, c2 ≤ 9
+c1 ≠ c2
+
+Exemplu
+Input: 2 3
+Output: 22233
+22323
+22332
+23223
+23232
+23322
+32223
+32232
+32322
+33222

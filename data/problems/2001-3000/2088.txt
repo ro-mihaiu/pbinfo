@@ -1,0 +1,14 @@
+#2088
+decodif
+
+Cerința
+Fiind dat un șir de caractere corect codificat să se afișeze decodificarea acestuia.
+
+Restricții
+3 ≤ lungimea șirului S ≤ 1000
+lungimea șirului decodificat ≤ 100000
+șirul S va conține doar caractere literă mică ale alfabetului englez
+
+Exemplu
+Input: 3[a2[c]]2[x3[y]]
+Output: accaccaccxyyyxyyy

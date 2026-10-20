@@ -1,0 +1,14 @@
+#2646
+impartire
+
+Cerința
+Se dau n numere naturale, unde n este un număr par. Se grupează cele n numere în perechi şi pentru fiecare pereche de numere se află restul împărţirii unui număr din pereche la celălalt. Se cere să se afle valoarea minimă a sumei acestor resturi.
+
+Restricții
+2 ≤ n ≤ 18
+cele n numere citite vor fi mai mici decât 1.000
+
+Exemplu
+Input: 4
+6 5 3 4
+Output: 1

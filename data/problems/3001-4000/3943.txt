@@ -1,0 +1,14 @@
+#3943
+Cerc5
+
+Cerința
+Se dă numărul natural n . Determinati o modalitate de așezare a numerelor din mulțimea \({1,2,…,n}\) pe un cerc astfel încât suma a oricare două nume învecinate să fie pătrat perfect.
+
+Restricții
+1 ≤ n ≤ 35
+dacă există mai multe modalități de aranjare a numerelor astfel încât să fie îndeplinită condiția, se poate afișa oricare;
+dacă nu există nicio modalitate de aranjare se va afișa mesajul nu exista
+
+Exemplu
+Input: 32
+Output: 29 7 18 31 5 11 25 24 12 13 3 6 30 19 17 32 4 21 28 8 1 15 10 26 23 2 14 22 27 9 16 20

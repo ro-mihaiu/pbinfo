@@ -1,0 +1,13 @@
+#975
+cuvinte2
+
+Cerința
+Se dă o propoziție formată din litere mici ale alfabetului englez, spații și semnele de punctuație ,. . Determinați un cuvânt palindrom din propoziție, primul în ordine alfabetică.
+
+Restricții
+propoziția citită va conține cel mult 255 de caractere
+cuvintele din propoziție vor avea maximum 10 litere
+
+Exemplu
+Input: ele deschid un capac, aerisirea este ok
+Output: aerisirea

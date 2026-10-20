@@ -1,0 +1,13 @@
+#1464
+sir7
+
+Cerința
+Scrieți un algoritm care determină, pornind de la cifra P , cel de-al K -lea termen al sirului S .
+
+Restricții
+1 ≤ P ≤ 9
+2 ≤ K ≤ 10 9
+
+Exemplu
+Input: 9 10
+Output: 139

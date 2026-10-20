@@ -1,0 +1,13 @@
+#1139
+Covor
+
+Cerința
+Cunoscându-se numerele n și k să se determine:
+1. numărul maxim de romburi complete care pot forma modelul unui covor, descris cu ajutorul unui șir format din maximum n numere naturale consecutive (primul număr din șir fiind 1 ); 2. cel mai mic indice al unui romb ce conține numărul k .
+
+Restricții
+4 ≤ n,k ≤ 999999999 ; 1≤k≤n
+Dacă numărul k nu se află pe niciunul dintre romburile complete ce pot fi construite folosind maximum n numere, atunci răspunsul de la cerința 2 este 0 .
+Pentru rezolvarea corectă a cerinţei 1 se acordă 30% din punctaj, iar pentru rezolvarea corectă a cerinţei 2 se acordă 70% din punctaj.
+
+Exemplu

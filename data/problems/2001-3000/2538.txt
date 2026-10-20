@@ -1,0 +1,18 @@
+#2538
+xOy
+
+Cerința
+Cunoscându-se coordonatele celor 3 puncte desenate de Laur, precum și pătratul distanțelor dintre punctul P și acestea, să se afle coordonatele în xOy ale punctului P .
+
+Restricții
+\( X_A,Y_A,X_B,Y_B,X_C,Y_C,X_P,Y_P \leq 10^6\);
+\( D_{PA}^2,D_{PB}^2,D_{PC}^2 \leq 10^6 \).
+
+Exemplu
+Input: -3 2
+-1 -3
+2 -2
+100
+89
+41
+Output: 7 2

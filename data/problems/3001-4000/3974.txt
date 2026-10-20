@@ -1,0 +1,18 @@
+#3974
+irdds
+
+Cerința
+Se dau 2 mulţimi de numere naturale \(A\) și \(B\). Să se afișeze mulţimea rezultată în urma efectuării unei operații.
+
+Restricții
+1 ≤ N, M ≤ 200.000
+elementele mulţimilor \(A\) și \(B\) vor fi mai mici decât 1.000.000.000
+nu există cazul ca în urma efectuării uneia dintre operatii rezultatul să fie egal cu mulţimea vidă .
+Intrare
+5 5 %
+4 5 6 7 8
+1 2 3 4 5
+Ieșire
+1 2 3 6 7 8
+
+Exemplu

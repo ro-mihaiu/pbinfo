@@ -1,0 +1,16 @@
+#536
+Fabrica1
+
+Cerința
+La secția de împachetare a produselor dintr-o fabrică lucrează n muncitori. Fiecare muncitor împachetează același tip de produs, și pentru fiecare se cunoaște timpul necesar pentru împachetarea unui obiect. Să se determine durata minimă de timp în care vor împacheta cei n muncitori cel puțin M obiecte.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1000
+1 ≤ M ≤ 1.000.000
+toate intervalele de timp sunt exprimate în aceeași unitate de măsură
+
+Exemplu
+Input: 6 60
+4 7 3 6 7 1
+Output: 30

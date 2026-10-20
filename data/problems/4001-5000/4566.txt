@@ -1,0 +1,86 @@
+#4566
+Turism1
+
+Cerința
+Alex, un mare entuziast al turismului, a decis să-și transforme pasiunea într-o afacere și să organizeze tururi ale orașului Bistrița. Orașul poate fi reprezentat ca un graf orientat al obiectivelor turistice, conectate direct de străzi. Totuși, dat fiind că abilitatea de a se orienta a lui Alex nu este comparabilă cu entuziasmul lui, organizarea traseelor este dificilă pentru el. În primul rând, el vrea să numere câte astfel de trasee există în oraș. Un traseu reprezintă o listă ordonată \(a\) de \(k\) obiective turistice, cu următoarele proprietăți:
+De la nodul \( {a}_{i} \) se poate ajunge în nodul \( {a}_{i+1} \)
+De la nodul \( {a}_{k} \) se poate ajunge în nodul \( {a}_{1} \)
+Spunem că se poate ajunge de la nodul x la nodul y dacă există un drum de 0 sau mai multe străzi care începe în nodul x și se termină în nodul y . Există 2 tipuri de trasee turistice:
+Tipul 1, în care obiectivele se pot repeta
+Tipul 2, în care obiectivele trebuie să fie distincte
+Graful obiectivelor turistice este un graf orientat în care o muchie de la x la y reprezintă un drum direct de la nodul x la nodul y . Alex are nevoie de ajutorul vostru, pentru a determina câte trasee de lungime k există pentru un tip dat de trasee turistice (Tipul 1 sau Tipul 2), pentru fiecare k de la 1 la Q .
+
+Restricții
+1 ≤ N ≤ 300 000
+1 ≤ M, Q ≤ 1 000 000
+
+Exemplu
+Input: 1
+3 2 3
+1 2
+2 1
+Output: 3
+5
+9
+Input: 2
+3 2 3
+1 2
+2 1
+Output: 3
+2
+0
+Input: 1
+5 4 10
+1 2
+2 3
+3 1
+3 4
+Output: 5
+11
+29
+83
+245
+731
+2189
+6563
+19685
+59051
+Input: 2
+6 7 4
+1 2
+2 3
+3 4
+4 5
+5 3
+3 1
+3 6
+Output: 6
+20
+60
+120
+Input: 1
+8 9 15
+1 2
+2 3
+3 4
+2 1
+4 5
+5 6
+6 7
+7 8
+8 2
+Output: 8
+64
+512
+4096
+32768
+262144
+2097152
+16777216
+134217728
+73741817
+589934536
+719476260
+755810045
+46480318
+371842544

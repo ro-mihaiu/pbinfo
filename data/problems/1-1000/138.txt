@@ -1,0 +1,13 @@
+#138
+Frecventa
+
+Cerința
+Să se scrie un program care citește un șir de caractere și afișează litera mică cel mai des întâlnită în șir.
+
+Restricții
+șirul conține litere mari și mici ale alfabetului englez, cifre și spații
+dacă șirul conține mai multe litere cu număr maxim de apariții, se va fișa prima în ordine alfabetică
+
+Exemplu
+Input: In 12 mergem la munte
+Output: e

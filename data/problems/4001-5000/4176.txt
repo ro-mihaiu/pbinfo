@@ -1,0 +1,13 @@
+#4176
+FLdiAdDupa
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+void FLdiAdDupa(nod *&prim, nod *&ultim, int x)
+Primul nod are adresa memorată în pointerul prim si ultimul nod are adresa memorata in pointerul ultim . Lista conține cel puțin un nod. Funcția va insera după nodul care memorează informația minimă un nou nod care va reține valoarea x . Informațiile din noduri sunt distincte, deci va exista un singur nod cu informația minimă. De exemplu, dacă lista reține valorile 5,3,6,2,8 , atunci după apelul FLdiAdDupa(prim, ultim, 100) , lista va fi 5,3,6,2,100,8 .
+
+Restricții
+numele funcției va fi FLdiAdDupa
+lista inițială conține cel puțin un nod
+
+Exemplu

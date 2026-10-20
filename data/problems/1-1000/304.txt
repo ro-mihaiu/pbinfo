@@ -1,0 +1,16 @@
+#304
+secvente
+
+Cerința
+Se dă un şir format din n elemente, numere naturale. Determinaţi câte secvenţe maximale cu elementele ordonate crescător conţine şirul.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele şirului vor avea cel mult 4 cifre
+o secvență cu elemente ordonate crescător este maximală dacă adăugând la secvență încă un element ea nu mai are elementele ordonate crescător
+
+Exemplu
+Input: 8
+12 10 15 17 17
+10 12 14
+Output: 3

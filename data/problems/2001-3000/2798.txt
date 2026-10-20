@@ -1,0 +1,9 @@
+#2798
+Echilibrat
+
+Cerința
+Un număr natural este numit echilibrat dacă suma cifrelor sale de pe poziții pare este un număr par, iar suma cifrelor sale de pe poziții impare este un număr impar. Pozițiile cifrelor sunt numerotate de la dreapta la stânga, astfel: cifra unităților este pe poziția 0 , cifra zecilor este pe poziția 1 ș.a.m.d.
+Subprogramul echilibrat are un singur parametru, n , prin care primește un număr natural ( n∈[10,10 9 ] ). Subprogramul returnează valoarea 1 dacă n este echilibrat sau valoarea 0 în caz contrar.
+Scrieți definiţia completă a subprogramului.
+
+Exemplu

@@ -1,0 +1,31 @@
+#4641
+drar
+
+Cerința
+Știind că scopul lui Stresu’ este să o prindă pe d-ra R, scrieți un program care să determine timpul minim în care Stresu’ poate ajunge în aceeași cameră cu d-ra R.
+
+Restricții
+1 ≤ N, M ≤ 200
+1 ≤ X ≤ N , 1 ≤ Y ≤ M
+0 ≤ Q ≤ 1000
+0 ≤ B ≤ N x M
+1 ≤ L1i, L2i ≤ N , 1 ≤ C1i, C2i ≤ M
+1 ≤ lungimea traseului ≤ 200
+Pentru 10 puncte, X = Y = 1
+Pentru 30 de puncte, 1 ≤ N, M ≤ 6 , 0 ≤ Q ≤ 3
+Pentru 30 de puncte, 7 ≤ N, M ≤ 50
+Pentru 30 de puncte, nu există restricții suplimentare.
+
+Exemplu
+Input: 6 6 4 5 2 5
+2 1
+4 4
+2 4
+3 2
+2 6
+6 4 2 2
+3 4 2 3
+5 1 2 5
+3 5 3 3
+RRRRDD
+Output: 6

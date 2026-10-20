@@ -1,0 +1,19 @@
+#977
+Numere5
+
+Cerința
+Deduceţi regula după care sunt generaţi termenii şirului şi scrieţi un program care să citească numerele naturale n , k şi p şi care să determine:
+a) suma tuturor numerelor prime aflate printre primii n termeni ai şirului din enunţ; b) numărul de apariţii ale cifrei k printre primii n termeni ai şirului din enunţ; c) cel de-al p -lea termen al şirului din enunţ.
+
+Restricții
+Numerele n , k şi p sunt naturale
+3 ≤ n ≤100
+0 ≤ k ≤ 9
+1≤ p ≤ 2000000000
+pentru rezolvarea cerinţei a) se acordă 40% din punctaj, pentru cerinţa b) 20% din punctaj şi pentru cerinţa c) 40% din punctaj.
+
+Exemplu
+Input: 19 5 26
+Output: 47
+3
+8

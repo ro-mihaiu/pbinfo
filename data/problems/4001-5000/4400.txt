@@ -1,0 +1,27 @@
+#4400
+primprim
+
+Cerința
+Cunoscând n și cele n elemente ale șirului, scrieți un program care să determine: 1. suma costurilor tuturor elementelor din șirul dat; 2. rezultatele afișate în urma aplicării fiecăreia dintre cele q operații, date în forma precizată.
+
+Restricții
+1 ≤ q ≤ 2 ∗ 100.000
+1 ≤ i, p ≤ n ≤ 1.000.000 ; 1 ≤ x ≤ 1.000.000
+Elementele șirului sunt numere naturale nenule mai mici sau egale cu 1.000.000 .
+Datorită dimensiunilor mari ale fișierelor, nu au putut fi adăugate toate.
+
+Exemplu
+Input: 1
+5
+8 1 3 5 9
+Output: 4
+Input: 2
+5
+8 1 3 5 9
+3
+2 6 4
+3 5 2
+5 12 5
+Output: 2
+0
+3

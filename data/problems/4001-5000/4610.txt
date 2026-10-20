@@ -1,0 +1,43 @@
+#4610
+poseidon
+
+Cerința
+Pentru început, căpitanul Poseidon își propune să rezolve următoarele cerințe:
+Câte comori se găsesc pe insula pe care se află căpitanul Poseidon?
+Câte soluții există pentru plasarea tuturor comorilor, astfel încât fiecare comoară să fie mutată în cadrul aceleiași insule, într-o zonă în care inițial a fost o altă comoară? Pentru că numărul de soluții poate fi foarte mare, răspunsul va fi afișat modulo 1 000 000 007 .
+
+Restricții
+1 ≤ 𝑐 ≤ 2
+1 ≤ 𝑛, 𝑚 ≤ 1000
+Elementele matricei au valori întregi din intervalul [−1, 𝑛 · 𝑚] . Matricea este indexată începând cu 1 .
+Oricare două zone distincte care conțin câte o comoară vor fi descrise prin numere distincte.
+Insulele sunt formate din zone compacte de pământ. Se garantează că nu conțin apă în interior.
+1 ≤ 𝑥𝑃 ≤ 𝑛 , 1 ≤ 𝑦𝑃 ≤ 𝑚 , zona dată de 𝑥𝑃 și 𝑦𝑃 conține pământ.
+Notăm cu 𝑛𝑐 numarul maxim de comori de pe o singură insulă.
+Subtaskuri: 𝑐 = 1 și există o singură insulă 𝑐 = 1 și 𝑛 = 1 𝑐 = 1 , fără alte restricții 𝑐 = 2 și 𝑛𝑐 ≤ 4 𝑐 = 2 și 𝑛𝑐 ≤ 8 𝑐 = 2 , fără alte restricții
+testele folosite pentru evaluare sunt o parte dintre testele folosite la OJI 2024
+
+Exemplu
+Input: 1
+8 6
+-1 -1 -1 -1 -1 -1
+-1 0 0 -1 -1 -1
+-1 9 1 0 -1 -1
+-1 3 4 0 -1 -1
+-1 0 0 -1 0 -1
+-1 -1 -1 5 10 -1
+-1 -1 0 6 7 -1
+-1 -1 -1 -1 -1 -1
+2 2
+Output: 4
+Input: 2
+8 6
+-1 -1 -1 -1 -1 -1
+-1 0 0 -1 -1 -1
+-1 9 1 0 -1 -1
+-1 3 4 0 -1 -1
+-1 0 0 -1 0 -1
+-1 -1 -1 5 0 -1
+-1 -1 0 6 8 -1
+-1 -1 -1 -1 -1 -1
+Output: 18

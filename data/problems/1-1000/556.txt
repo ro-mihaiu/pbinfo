@@ -1,0 +1,19 @@
+#556
+Flici
+
+Cerința
+Un flic este o creatură pufoasă de dimensiunea unui hamster, având trei ochi și o blană colorată. De la naștere, fiecărui flic îi place în mod deosebit un anumit număr.
+Hobby-ul lor este să intre în cutii, iar în lumea flicilor, pe fiecare cutie este inscripționat un număr. Flicii sunt pretențioși și nu vor alege orice cutie. În mod ideal, ar alege cutia pentru care numărul inscripționat este cel mai apropiat de numărul lor favorit, dar pentru că flicii sunt altruiști, vor alege cutiile astfel încât ceilalți flici să nu se supere prea tare.
+Astăzi s-a format un grup de n flici, fiecare cu un număr favorit, care au la dispoziție n cutii, fiecare având inscripționat un număr. Sarcina ta este să stabilești pentru fiecare flic în ce cutie va intra, astfel încât suma modulelor diferențelor dintre numărul favorit a flicului și cel inscripționat pe cutia în care intră acesta să fie minimă.
+
+Restricții
+1 ≤ n ≤ 100.000
+numerele favorite și cele inscripționate sunt numere naturale mai mici sau egale cu 10.000
+pentru 40% din punctaj, n < 10
+pentru 80% din punctaj, n ≤ 1.000
+
+Exemplu
+Input: 3
+1 1 3
+1 2 2
+Output: 2

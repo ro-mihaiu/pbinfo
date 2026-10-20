@@ -1,0 +1,12 @@
+#4034
+Canada
+
+Cerința
+În Canada a% din populație vorbește engleza, iar b% vorbește franceza. Să se afle cât la sută din populația Canadei vorbește cu siguranță și engleza și franceza.
+
+Restricții
+1 ≤ a, b, c ≤100
+
+Exemplu
+Input: 80 90
+Output: 70

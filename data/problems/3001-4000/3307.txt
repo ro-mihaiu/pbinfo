@@ -1,0 +1,22 @@
+#3307
+fractie6
+
+Cerința
+Se dă un numar n și n perechi de numere naturale a și b .Să se determine dacă a/b este fracție finită sau periodică, iar dacă este fracție periodică să se determine dacă este fracție periodică simplă sau mixtă.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ a , b ≤ 1.000.000.000 , numere naturale
+
+Exemplu
+Input: 5
+2 5
+7 90
+90 270
+50 81000
+9 3
+Output: fractie finita
+fractie periodica mixta
+fractie periodica simpla
+fractie periodica mixta
+fractie finita

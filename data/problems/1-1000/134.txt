@@ -1,0 +1,15 @@
+#134
+secvk
+
+Cerința
+Să se determine o secvență de elemente de lungime k cu suma elementelor maximă.
+
+Restricții
+1 ≤ k ≤ n ≤ 100.000
+numerele de pe a doua linie a fişierului de intrare vor fi mai mici decât 1000
+dacă există mai multe secvențe de lungime k cu suma maximă se va afișa prima
+
+Exemplu
+Input: 8 3
+5 6 1 2 6 6 4 3
+Output: 6 6 4

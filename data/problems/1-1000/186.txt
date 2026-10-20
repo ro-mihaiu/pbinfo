@@ -1,0 +1,14 @@
+#186
+cifmin
+
+Cerința
+Se citește de la tastatură un număr natural n , apoi n numere naturale. Să se afişeze cel mai mic număr care poate fi scris folosind cifra minimă a fiecărui număr citit.
+
+Restricții
+0 < n < 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+100 312 276 985 5021
+Output: 10025

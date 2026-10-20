@@ -1,0 +1,16 @@
+#3043
+cub3
+
+Cerința
+Ionel vrea să determine numărul subsecvențelor din șirul construit care au produsul elementelor o valoare ce este cubul unui număr natural.
+
+Restricții
+N și elemente șirului sunt numere naturale din intervalul [2, 1.000.000] .
+Prin subsecvenţă a unui șir se înțelege o succesiune de unul sau mai mulți termeni din șir aflați pe poziții consecutive.
+Pentru teste în valoare de 20 de puncte, N ≤ 1.000 .
+Pentru teste în valoare de 40 de puncte, N ≤ 10.000 .
+
+Exemplu
+Input: 8
+15 3 5 15 7 63 21 125
+Output: 6

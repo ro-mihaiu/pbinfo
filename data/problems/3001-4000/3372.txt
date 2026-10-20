@@ -1,0 +1,23 @@
+#3372
+bucati
+
+Cerința
+Scrieţi un program care citește un număr natural și determină: 1. costul maxim al unei tăieri 2. costul minim al unei tăieri speciale
+
+Restricții
+999 < n < 1.000.000.000
+Pentru datele de test se garantează existența soluției
+
+Exemplu
+Input: 1
+12353
+Output: 536
+Input: 2
+12533
+Output: 23
+Input: 2
+78409
+Output: 109
+Input: 2
+908834033
+Output: 857

@@ -1,0 +1,12 @@
+#43
+nreal
+
+Cerința
+Scrieţi definiția completă a subprogramului C++ nreal cu doi parametri x și y , numere naturale din intervalul [1;1000] ce returnează un număr real cu proprietatea că partea sa întreagă este egală cu x , iar numărul format din zecimalele sale, în aceeaşi ordine, este egal cu y .
+
+Restricții
+numele subprogramului va fi nreal
+funcția va avea doi parametri: x și y , în această ordine
+rezultatul calculat al funcției va fi de tip double . Folosirea altor tipuri reale va conduce la erori de compilare în programul suport.
+
+Exemplu

@@ -1,0 +1,17 @@
+#1856
+Taxe2
+
+Cerința
+Ştiind că el are în buzunar S euro şi că fiecare funcţionar îi ia taxa de cum intră în birou, se cere să se determine dacă el poate primi aprobările necesare şi, în caz afirmativ, care este suma maximă de bani care îi rămâne în buzunar la ieşirea din clădire.
+
+Restricții
+3 ≤ N ≤ 100
+1 ≤ S ≤ 10000
+Valorile reprezentând taxele cerute de funcţionarii din birouri sunt numere naturale, o taxă nedepășind valoarea de 200 de euro.
+
+Exemplu
+Input: 10 3
+1 2 5
+1 3 1
+0 8 1
+Output: 3

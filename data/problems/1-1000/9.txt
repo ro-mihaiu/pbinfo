@@ -1,0 +1,12 @@
+#9
+maxmin
+
+Cerința
+Calculaţi diferența dintre cel mai mare și cel mai mic dintre cele 3 numere date.
+
+Restricții
+numerele date vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 10 7 2
+Output: 8

@@ -1,0 +1,13 @@
+#3902
+SortSum
+
+Cerința
+Scrie un program care citind un șir de numere naturale afișează numerele citite ordonate crescător după suma cifrelor lor, iar dacă suma cifrelor este egală, descrescător după valoarea lor.
+
+Restricții
+în fișier vor fi mai puțin de 1.000.000 de numere
+numerele din fișierul de intrare vor fi mai mici decât 10.000.000
+
+Exemplu
+Input: 102 60 51 600 21 3
+Output: 102 21 3 600 60 51

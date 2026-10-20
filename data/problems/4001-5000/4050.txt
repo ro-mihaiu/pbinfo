@@ -1,0 +1,36 @@
+#4050
+amongus
+
+Cerința
+Cunoscând matricea codurilor, pentru a ajuta astronauții, vi se cere: 1) să determinați numărul total de cabine sigure, nu sunt neapărat accesibile, ce nu conțin portale 2) să marcați în matricea codurilor cu codul 3 fiecare cabină sigură (și accesibilă) 3) să determinați numărul portalelor situate în cabine accesibile.
+
+Restricții
+1 ≤ n, m ≤ 100
+astronauții pot intra în naveta doar prin cabina de coordonate (1,1) ceea ce înseamnă că accesul în unele cabine nu se poate realiza deși sunt sigure
+în cazul în care în prima cabină se află un impostor, pentru oricare dintre cerințe, se va scrie în fișier mesajul misiune esuata
+pentru cerința 1 , se va modifica în 3 codul fiecărei cabine sigure
+un portal poate fi situat doar într-o cabină sigură
+există și cabine sigure care nu conțin portale
+impostorii nu se deplasează în afara cabinei în care se află inițial
+
+Exemplu
+Input: 1
+3 4
+0 2 1 0
+2 0 1 0
+0 0 1 2
+Output: 6
+Input: 2
+3 4
+0 2 1 0
+2 0 1 0
+0 0 1 2
+Output: 3 3 1 0 
+3 3 1 0 
+3 3 1 2
+Input: 3
+3 4
+0 2 1 0
+2 0 1 0
+0 0 1 2
+Output: 2

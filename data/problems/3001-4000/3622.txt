@@ -1,0 +1,12 @@
+#3622
+perechipare
+
+Cerința
+Se dă un interval [l,r] . Aflaţi câte perechi de numere pare se pot forma alegând două numere din interval.
+
+Restricții
+1 ≤ l ≤ r ≤ 1.000.000
+
+Exemplu
+Input: 5 10
+Output: 9

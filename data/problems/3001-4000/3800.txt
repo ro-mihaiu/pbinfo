@@ -1,0 +1,15 @@
+#3800
+DistinctLetters
+
+Cerința
+Scrieți funcția care are antetul:
+int DistinctLetters(string s, int L, int U)
+Funcția va returna numărul de secvențe care au între L și U litere distincte. Într-o secvență fiecare literă se va număra o singură dată. De exemplu, s="capac" are 3 litere distincte.
+
+Restricții
+s va conține numai litere mici
+s conține cel puțin o literă și cel mult 30.000 de litere
+1 ≤ L < U ≤ 26
+Puteți utiliza în rezolvare orice structură de date
+
+Exemplu

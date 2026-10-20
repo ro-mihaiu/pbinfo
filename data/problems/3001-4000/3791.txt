@@ -1,0 +1,15 @@
+#3791
+InterclasNoMemory
+
+Cerința
+Se dau două șiruri de numere naturale, cu n , respectiv m elemente, ordonate crescător . Să se scrie definiția funcției interclasare care nu are parametri și nu întoarce niciun rezultat, și care să determine al treilea șir care să conţină, în ordine crescătoare, elementele din primele două şiruri.
+
+Restricții
+1 ≤ n, m ≤ 100.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000.000
+declarările variabilelor pentru citirea sau scrierea fișierelor trebuie realizată exclusiv în interiorul funcției cerute
+
+Exemplu
+Input: 7
+1 3 4 6 7 8 8
+Output: 1 2 3 4 4 5 6 6 7 8 8 8 9 9 12

@@ -1,0 +1,17 @@
+#1450
+Memory003
+
+Cerința
+Se dă o matrice cu m linii şi n coloane, având elementele numere naturale nenule. Aflaţi câte coloane ale matricei au produsul elementelor divizibil cu un număr dat p .
+
+Restricții
+1 ≤ m ≤ 1.000
+1 ≤ n ≤ 300
+1 ≤ p ≤ 1.000.000.000
+elementele matricei sunt mai mici sau egale cu 100
+
+Exemplu
+Input: 2 3 10
+4 7 5
+25 8 6
+Output: 2

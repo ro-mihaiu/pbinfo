@@ -1,0 +1,19 @@
+#607
+Asfalt
+
+Cerința
+S-a hotărât asfaltarea șoselei care unește orașul A de orașul B. Lungimea acestei șosele este de n kilometri. De-a lungul șoselei sunt instalate borne, distanța dintre ele fiind de un kilometru; prima bornă este numerotată cu 0 , iar ultima cu n . La asfaltarea șoselei participă m firme, fiecare firmă dorind să asfalteze o porțiune de șosea cuprinsă între doua borne date.
+Gigel, conducătorul operațiunilor de asfaltare, dorește să afle dacă cele m firme vor asfalta toată șoseaua și dacă există părți ale șoselei care ar urma să fie asfaltate de mai multe firme.
+
+Restricții
+1 ≤ n ≤ 10000
+1 ≤ m ≤ 1000
+0 ≤ x < y ≤ n
+
+Exemplu
+Input: 10 4
+5 8
+0 3
+1 4
+6 10
+Output: 1 4

@@ -1,0 +1,19 @@
+#956
+sir2
+
+Cerința
+Scrieţi un program care să citească numerele N și M şi care să determine: a) cel mai mare număr care poate să apară în șirul X cu proprietatea din enunț; b) numărul de șirurilor distincte X cu proprietatea din enunț, modulo 104729 .
+
+Restricții
+2 ≤ M ≤ N ≤ 300
+Două șiruri de numere naturale a 1 , a 2 , …, a M și b 1 , b 2 , …, b M sunt distincte dacă există cel puțin un indice k ( kϵ{1,2,…,M} ) astfel încât a k ≠ b k
+Dacă y este un număr natural atunci y modulo 104729 reprezintă restul împărţirii lui y la 104729 .
+Pentru rezolvarea corectă a cerinței a) se acordă 20% din punctaj iar pentru rezolvarea corectă a cerinței b) se acordă 80% din punctaj.
+
+Exemplu
+Input: 4 3
+Output: 2
+3
+Input: 6 3
+Output: 4
+10

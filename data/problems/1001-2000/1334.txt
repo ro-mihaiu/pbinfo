@@ -1,0 +1,13 @@
+#1334
+romb
+
+Cerința
+Cunoscând diagonalele unui romb, să se calculeze perimetrul și aria acestuia.
+
+Restricții
+0 < d1, d2 < 100
+rezultatul va fi punctat dacă diferența dintre cel afișat de program și cel corect este mai mică decât 0.01 .
+
+Exemplu
+Input: 2 4
+Output: 8.94427 4

@@ -1,0 +1,14 @@
+#1827
+VectorSumPrim
+
+Cerința
+Scrieți definiția completă a subprogramului P care primeşte prin intermediul parametrului n un număr natural nenul ( n≤100 ), iar prin intermediul parametrului x un tablou unidimensional cu n componente întregi, de maximum șase cifre fiecare.
+Subprogramul furnizează prin intermediul parametrului s suma elementelor din tabloul x care au valori numere prime.
+
+Restricții
+0 < n ≤ 100
+numele subprogramului cerut este P
+parametrii sunt, în această ordine: x , n , s
+elementele vectorului x sunt indexate de la zero
+
+Exemplu

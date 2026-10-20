@@ -1,0 +1,20 @@
+#888
+ChangeCase
+
+Cerința
+Cele mai multe editoare de text moderne oferă utilizatorilor o serie de opțiuni pentru modificarea textului grupate sub numele Change Case . Aceste opțiuni sunt:
+lowercase – toate literele din text sunt transformate în litere mici. Celelalte caractere rămân neschimbate;
+UPPERCASE – toate literele din text sunt transformate în litere mari. Celelalte caractere rămân neschimbate;
+TitleCase – primul caracter a fiecărui cuvânt se transformă în literă mare, dacă este literă; celelalte litere se transformă în litere mici;
+iNVERTcASE – primul caracter a fiecărui cuvânt se transformă în literă mică, dacă este literă; celelalte litere se transformă în litere mari;
+Sentencecase – prima literă a fiecărei propoziții este transformată în literă mare, celelalte în litere mici.
+Se dă un sir de caractere format din litere mari și mici ale alfabetului englez, cifre, spații și semnele de punctuație .,; , în care cuvintele sunt alcătuite din litere sau cifre, iar propozițiile sunt separate prin punct ( . ), precum și o transformare dintre cele date care trebuie aplicată.
+Aplicați asupra șirului dat transformarea precizată și afișați șirul.
+
+Restricții
+șirul dat va avea cel mult 255 de caractere.
+
+Exemplu
+Input: UPPERCASE
+Ana are   mere. Multe
+Output: ANA ARE   MERE. MULTE

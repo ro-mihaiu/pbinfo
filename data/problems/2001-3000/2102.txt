@@ -1,0 +1,19 @@
+#2102
+Robot3
+
+Cerința
+Să se scrie un program care rezolvă următoarele cerinţe: citeşte un roboprogram şi determină numărul de cifre afişate pe ecran după executarea roboprogramului; citeşte un roboprogram şi determină cifrele afişate pe ecran după executarea roboprogramului; citeşte un număr natural N şi construieşte un roboprogram de lungime minimă prin executarea căruia pe ecran se va obţine numărul N ; deoarece robotului îi place să se deplaseze în special spre dreapta, dacă există mai multe roboprograme de lungime minimă, se va afişa roboprogramul cu număr maxim de instrucţiuni D .
+
+Restricții
+• 0 ≤ N ≤ 1000000000 • Lungimea roboprogramului citit din fişierul de intrare sau scris în fişierul de ieşire este cel mult 1000 de caractere. • Dacă mânerul este plasat în dreptul butonului 0 şi se deplasează spre dreapta, se va îndrepta către butonul 1 ; dacă deplasarea este spre stânga, se va îndrepta către butonul 9 . • Pentru rezolvarea corectă a primei cerinţe se acordă 10 puncte, pentru rezolvarea corectă a celei de a doua cerințe se acordă 30 de puncte, iar pentru rezolvarea corectă a celei de a treia cerințe se acordă 50 de puncte. 10 puncte se acordă din oficiu.
+
+Exemplu
+Input: 1
+D1AD2AS1AT
+Output: 3
+Input: 2
+S0AD2AS1AT
+Output: 021
+Input: 3
+19332
+Output: D1AS2AD4AAS1AT

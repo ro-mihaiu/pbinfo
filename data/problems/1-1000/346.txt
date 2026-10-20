@@ -1,0 +1,14 @@
+#346
+maxandap
+
+Cerința
+Să se scrie un program care citește un șir de n numere naturale şi determină valoarea maximă din șir și de câte ori apare.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 2 31
+
+Exemplu
+Input: 5
+72 75 12 75 17
+Output: 75 2

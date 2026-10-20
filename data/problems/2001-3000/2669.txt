@@ -1,0 +1,14 @@
+#2669
+Count5
+
+Cerința
+Se dă un vector cu n numere naturale. Să se determine câte dintre perechile de elemente din vector sunt formate din valori cu aceeași sumă a cifrelor.
+
+Restricții
+1 ≤ n ≤ 100.000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 6
+51 842 15 28 77 132
+Output: 4

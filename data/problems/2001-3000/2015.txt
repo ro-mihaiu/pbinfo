@@ -1,0 +1,12 @@
+#2015
+SumaGauss1
+
+Cerința
+Cei n copii din clasa a V-a şi-au ales câte un număr natural dintre numerele de la 1 la n , neavând doi copii acelaşi număr. Fiecare copil a calculat suma numerelor naturale mai mici sau egale cu numărul ales, apoi doamna de mate a calculat suma pătratelor rezultatelor obţinute de copii. Voi trebuie să aflaţi rezultatul obţinut de doamna de mate.
+
+Restricții
+1 ≤ n ≤ 500.000.000
+
+Exemplu
+Input: 3
+Output: 46

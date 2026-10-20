@@ -1,0 +1,14 @@
+#4108
+VerifParitate2
+
+Cerința
+Se dă un vector cu n numere naturale, n fiind număr par. Să se verifice dacă toate perechile de elemente egal depărtate de capetele vectorului au elemente cu parități diferite.
+
+Restricții
+1 ≤ n ≤ 200
+elementele vectorului vor fi cuprinse între 0 și 1000
+
+Exemplu
+Input: 6
+51 10 18 21 35 40
+Output: DA

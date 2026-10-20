@@ -1,0 +1,13 @@
+#2111
+Centrale
+
+Cerința
+Având la dispoziţie un set de numere pe care le primeşte pentru verificare, Alina trebuie să spună câte dintre acestea sunt numere centrale.
+
+Restricții
+• 1 ≤ N ≤ 100 • Fiecare număr din setul dat are cel puţin 3 cifre şi cel mult 9 cifre
+
+Exemplu
+Input: 5 
+81318 71117 2258 933 21110
+Output: 3

@@ -1,0 +1,14 @@
+#1881
+platou4
+
+Cerința
+Se consideră un şir s format din numere întregi. Să se determine numărul de termeni ai şirului obţinut prin eliminarea din cele două extremităţi ale lui s a unui număr minim de termeni, astfel încât şirul rezultat să înceapă şi să se termine cu câte un număr par.
+
+Restricții
+fișierul de intrare conține cel mult 1000 de numere întregi
+numerele din fișier de intrare vor fi din intervalul [-99,99]
+fișierul de intrare conține cel puțin un număr par.
+
+Exemplu
+Input: 7 -22 -13 10 31 41 -6 2 101 83
+Output: 7

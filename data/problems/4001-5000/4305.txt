@@ -1,0 +1,15 @@
+#4305
+Chimie1
+
+Cerința
+Pentru a-l ajuta pe Mateo căutați într-un sir de n numere cel mai mare element care are maximum doi divizori factori primi d1 si d2 , reprezentând cele două substanțe standard și afișați de câte ori apare.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+1 < d1 < d2 < 33.000
+numerele de pe a doua linie a fișierului de intrare sunt naturale și vor fi mai mici decât 33000
+
+Exemplu
+Input: 6 5 7
+4 35 5 175 23 175
+Output: 175 2

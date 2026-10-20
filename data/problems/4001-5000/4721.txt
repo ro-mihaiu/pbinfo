@@ -1,0 +1,23 @@
+#4721
+veselTri
+
+Cerința
+Se consideră următorul triunghi de numere:
+1
+1 2 1
+1 2 3 2 1
+1 2 3 4 3 2 1
+1 2 3 4 5 4 3 2 1
+....................
+Să se determine:
+Câte numere sunt pe linia n ?
+De câte ori apare numărul k până la linia n ?
+
+Restricții
+1 ≤ cer ≤ 2
+1 ≤ n ≤ 10000
+1 ≤ n ≤ 10000
+
+Exemplu
+Input: 1 5 3
+Output: 9

@@ -1,0 +1,14 @@
+#4561
+SumNotMinMax
+
+Cerința
+Se citește un număr n , apoi un șir de n numere naturale. Să se determine suma numerelor din șir care sunt diferite atât de minimul cât și de maximul numerelor din șirul citit.
+
+Restricții
+n ≤ 100.000
+numerele din șir vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 9
+12 2 4 5 12 2 2 4 5
+Output: 18

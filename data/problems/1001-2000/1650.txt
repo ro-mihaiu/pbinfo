@@ -1,0 +1,15 @@
+#1650
+acelasinumar
+
+Cerința
+Se dă un număr întreg n și alte k numere întregi. Să se afle dacă, adunând toate cele k numere la n se obține o valoare egală cu valoarea inițială a lui n .
+
+Restricții
+-1000000 ≤ n ≤ 1000000
+2 ≤ k ≤ 10
+
+Exemplu
+Input: 25
+3
+16 -9 3
+Output: NU

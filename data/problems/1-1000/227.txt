@@ -1,0 +1,15 @@
+#227
+genmat14
+
+Cerința
+Scrieţi un program care citeşte de la tastatură un număr natural n şi construieşte în memorie o matrice cu n linii şi n coloane în care ultima linie conţine, în ordine, numerele 1 , 2 , 3 ,.., n , elementele situate deasupra diagonalei principale sunt nule şi oricare alt element este obţinut prin însumarea elementelor vecine cu el, aflate pe linia imediat următoare, pe aceeaşi coloană cu el sau pe una din coloanele alăturate.
+
+Restricții
+3≤n≤15
+
+Exemplu
+Input: 4
+Output: 27 0 0 0
+9 18 0 0
+3 6 9 0
+1 2 3 4

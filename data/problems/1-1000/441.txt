@@ -1,0 +1,18 @@
+#441
+ComponenteConexe1
+
+Cerința
+Se dă lista muchiilor unui graf neorientat. Să se determine numărul minim de muchii care trebuie adăugate pentru ca graful să devină conex, precum și un set de asemenea muchii.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ i , j ≤ n
+în fișierul de intrare muchiile se pot repeta
+
+Exemplu
+Input: 5
+1 4 
+3 5
+2 4
+Output: 1
+1 3

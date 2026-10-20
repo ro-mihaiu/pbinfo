@@ -1,0 +1,29 @@
+#2479
+pietre
+
+Cerința
+Să se determine numărul pietrei care efectuând sărituri în conformitate cu succesiunea dată, conduce la o configuraţie finală formată dintr-un număr minim de pietre pe tablă. Dacă există mai multe pietre care ar conduce la acelaşi număr minim de pietre în configuraţia finală, se va afişa valoarea cea mai mică dintre numerele de identificare ale pietrelor respective.
+
+Restricții
+2 ≤ n,m ≤ 100
+2 ≤ k ≤ n*m-1
+0 ≤ g ≤ n*m-1
+Se garantează că în fiecare test există cel puţin o piatră care efectuează cel puțin o săritură.
+
+Exemplu
+Input: 5 4 6 2
+1 1
+1 2
+2 2
+3 2
+3 3
+4 1
+3 4
+5 3
+VSE
+Output: 5
+4
+1 1
+1 2
+2 2
+5 1

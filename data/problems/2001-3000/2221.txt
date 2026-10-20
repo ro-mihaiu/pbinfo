@@ -1,0 +1,14 @@
+#2221
+cifre003
+
+Cerința
+Se dă un număr natural n . Să se afle câte dintre numerele obținute din n prin ștergerea unei cifre, sunt divizibile cu 3 .
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+dacă n are o cifră, prin ştergerea unei cifre el devine 0
+dacă prin ştergerea unei cifre numărul rămas începe cu 0 , zerourile de la început se elimină
+
+Exemplu
+Input: 23701
+Output: 2

@@ -1,0 +1,15 @@
+#1931
+fantastice
+
+Cerința
+Definim un număr ca fiind fantastic dacă numărul de numere la care acesta se împarte exact este un număr prim.
+Dându-se un șir cu n numere întregi strict pozitive, să se afișeze numărul de numere fantastice din șir.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici sau egale cu 1.000.000
+
+Exemplu
+Input: 6
+21 19 25 16 27 729
+Output: 4

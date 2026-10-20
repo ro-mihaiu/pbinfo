@@ -1,0 +1,15 @@
+#2628
+h2
+
+Cerința
+Să se determine cel mai mic număr care apare exact o dată în șir.
+
+Restricții
+10 ≤ n ≤ 1.000.000
+0 ≤ a[i] ≤ 2.000.000.000
+Se garantează că există cel puțin un număr care apare o singură dată.
+
+Exemplu
+Input: 10
+5 3 8 7 3 3 2 5 9 5
+Output: 2

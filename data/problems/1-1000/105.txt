@@ -1,0 +1,12 @@
+#105
+max2
+
+Cerința
+Să se scrie un program care determină maximul a două numere întregi citite de la tastatură.
+
+Restricții
+valorile absolute ale numerelor citite vor fi mai mici decât 2.000.000.000
+
+Exemplu
+Input: 125 68
+Output: 125

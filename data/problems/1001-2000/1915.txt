@@ -1,0 +1,15 @@
+#1915
+NumarMinim1
+
+Cerința
+Georgiana nu are clipă de răgaz. Profesorul de info îi cere acum să afle cel mai mic număr natural de n cifre care împărţit la b dă restul r . Poate o ajutaţi să treacă şi peste acest hop.
+
+Restricții
+1 ≤ n ≤ 100.000
+2 ≤ b ≤ 1.000.000.000
+0 ≤ r < b
+dacă numărul nu există se va afişa -1
+
+Exemplu
+Input: 5 97 14
+Output: 10005

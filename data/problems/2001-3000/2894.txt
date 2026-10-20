@@ -1,0 +1,33 @@
+#2894
+Barlog
+
+Cerința
+Scrieți un program care rezolvă următoarele două cerințe: 1. determină numărul de camere în care ar putea ajunge Făt-Frumos folosind cartela primită de la Ileana Cosânzeana; 2. determină numărul minim de camere prin care trece Făt-Frumos pentru a ieși din bârlogul zmeului (adică poate deschide ușa unei camere prin care ajunge în exteriorul bârlogului).
+
+Restricții
+2 ≤ n, m ≤ 100
+Codurile camerelor și cuvântul de pe cartelă sunt cuvinte nevide, formate din maximum 20 de litere mici ale alfabetului englez.
+Pentru datele de test, Făt-Frumos va putea ieși întotdeauna din bârlogul zmeului.
+Cuvântul a este un subșir al cuvântului b dacă literele din a se găsesc în b în aceeași ordine. De exemplu arma este un subșir al cuvântului marama , dar nu și al cuvântului tamara .
+Pentru teste valorând 40% din punctaj cerința este 1 .
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă pentru testele din exemple.
+
+Exemplu
+Input: 1
+5 4
+ana are mere bune
+dana cere pere multe
+cra ana vrea pere
+dar dan nu are
+sunt bune pe care
+3 2 caravana
+Output: 7
+Input: 2
+5 4
+ana are mere bune
+dana cere pere multe
+cra ana vrea pere
+dar dan nu are
+sunt bune pe care
+3 2 caravana
+Output: 2

@@ -1,0 +1,15 @@
+#1141
+ech
+
+Cerința
+Dat fiind un număr natural N să se determine cel mai mic număr echilibrat, strict mai mare decât N .
+
+Restricții
+Numărul N are cel mult 23 de cifre.
+Pentru teste valorând 40% din punctaj, N are cel mult 18 cifre.
+
+Exemplu
+Input: 99
+Output: 110
+Input: 123133
+Output: 123134

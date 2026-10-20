@@ -1,0 +1,15 @@
+#310
+SecvPal
+
+Cerința
+Se dă un vector cu n elemente, numere naturale. Determinaţi secvenţa palindromică de lungime maximă.
+
+Restricții
+1 ≤ n ≤ 1000 ;
+numerele de pe a doua linie a fişierului de intrare vor avea cel mult 4 cifre;
+dacă există mai multe secvenţe palindromice de lungime maximă, se va determina cea mai din stânga;
+
+Exemplu
+Input: 12
+1 2 10 9 8 5 8 9 10 5 5 10
+Output: 3 9

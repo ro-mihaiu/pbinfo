@@ -1,0 +1,14 @@
+#347
+summaxmin
+
+Cerința
+Se dau n numere naturale. Calculaţi suma dintre cel mai mare și cel mai mic număr dat.
+
+Restricții
+1 ≤ n ≤ 100
+cele n numere citite vor avea cel mult 6 cifre
+
+Exemplu
+Input: 5
+7 2 8 4 8
+Output: 10

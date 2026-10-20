@@ -1,0 +1,13 @@
+#4184
+BacNume
+
+Cerința
+Scrieți subprogramul FNume cu următorul antet:
+void FNume(char s[], char id[])
+Parametrii s și id permit accesul la câte un șir de maximum 50 de caractere, s memorând, separate printr-un singur spațiu, prenumele și numele unei persoane, fiecare fiind format numai din litere ale alfabetului englez. Funcția va memora în id numele persoanei menționate, urmat de 2022 .
+
+Restricții
+Numele funcției va fi FNume
+Puteți utiliza orice funcție pentru șiruri de caractere din biblioteca cstring
+
+Exemplu

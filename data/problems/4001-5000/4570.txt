@@ -1,0 +1,12 @@
+#4570
+NumarulDeCifre1
+
+Cerința
+Să se scrie un program care să determine numărul de cifre pare și numărul de cifre impare ale unui număr natural citit de la tastatură.
+
+Restricții
+numărul citit va fi mai mic decât 2 31
+
+Exemplu
+Input: 270425
+Output: 4 2

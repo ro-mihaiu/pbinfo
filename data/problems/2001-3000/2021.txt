@@ -1,0 +1,14 @@
+#2021
+sumagauss2
+
+Cerința
+Ana a calculat suma numerelor naturale mai mici sau egale cu n , iar Andreea suma numerelor naturale mai mici sau egale cu m . Doamna de mate a calculat apoi diferenţa celor două sume şi a obţinut rezultatul S .
+Pentru o valoare S dată, aflaţi toate perechile (n,m) , cu n>m , scriindu-le în ordine descrescătoare după n astfel încât doamna de mate să obţină rezultatul S .
+
+Restricții
+1 ≤ S ≤ 2.000.000.000
+
+Exemplu
+Input: 10
+Output: 10 9
+4 0

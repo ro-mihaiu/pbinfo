@@ -1,0 +1,17 @@
+#3340
+perfect1
+
+Cerința
+Se dau n numere naturale. Să se determine cel mai mare număr perfect mai mic sau egal cu 8128 care poate fi scris ca produs al unora dintre numerele date. Un număr natural este perfect dacă dublul său este egal cu suma divizorilor săi.
+
+Restricții
+1 ≤ n ≤ 100
+numerele de pe a doua linie a fișierului de intrare și numerele perfecte determinate vor fi mai mici decât 8128
+
+Exemplu
+Input: 7
+2 7 9 2 2 31 2
+Output: 496
+Input: 6
+2 31 127 2 2 5
+Output: NU

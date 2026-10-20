@@ -1,0 +1,21 @@
+#1820
+Binar
+
+Cerința
+Ionel a învăţat recent la Informatică reprezentarea numerelor în baza 2 . Pentru a-și aprofunda cunoştinţele, profesorul său a inventat următoarea problemă: Dintr-un fişier text se citeşte un şir de N valori de 1 , 0 şi -1 . Valoarea -1 are semnificaţia de terminare a unui număr, iar valorile de 0 şi 1 reprezintă cifrele în baza 2 a câte unui număr natural. Să se determine primele NR valori codificate, cu numerele de apariţii cât mai mari.
+
+Restricții
+10 ≤ N ≤ 100.000 .
+1 ≤ NR ≤ 3 .
+Înaintea fiecărei valori de -1 se găseşte cel putin o valoare de 0 sau 1 .
+Numerele codificate astfel sunt mai mici decat 10000 în baza 10 .
+Se poate ca la stânga unui număr codificat să fie doar valori de 0 .
+În şir sunt codificate cel puţin 3 valori distincte.
+Şirul de valori se incheie cu o valoare de -1 .
+
+Exemplu
+Input: 19 3
+1 0 -1 1 -1 1 0 -1 1 1 -1 1 0 1 -1 1 0 1 -1
+Output: 5 2
+2 2
+3 1

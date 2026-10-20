@@ -1,0 +1,15 @@
+#2020
+error
+
+Cerința
+Dorel trebuie să repare reţeaua de alimentare cu apă din oraşul lui. Pentru fiecare din cele n străzi Dorel şi-a notat două numere naturale, raportul lor fiind lungimea conductei care trebuie înlocuită pe acea stradă. Pentru a destrăma mitul “Dorel, instalatorul dezastru”, el vă roagă să aflaţi lungimea totală a conductei de care are nevoie pentru a repara toate străzile, cu 20 de zecimale exacte.
+
+Restricții
+1 ≤ n ≤ 100.000
+numerele notate de Dorel sunt naturale, nenule şi mai mici decât 1000
+pentru fiecare zecimală corectă, începând de la virgulă, se primeşte câte 1p ( dacă o zecimală e greşită, pentru următoarele după ea nu se mai acordă puncte)
+
+Exemplu
+Input: 1
+7 5
+Output: 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

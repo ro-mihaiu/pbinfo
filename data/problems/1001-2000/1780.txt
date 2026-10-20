@@ -1,0 +1,13 @@
+#1780
+Fractie
+
+Cerința
+Se dau două numere naturale n și m , m fiind prim. Să se afle cel mai mare număr natural x , astfel încât numărul \(\frac{n!}{m^{x}}\) să fie natural.
+
+Restricții
+2 ≤ m ≤ n ≤ 10000
+m este prim.
+
+Exemplu
+Input: 5 5
+Output: 1

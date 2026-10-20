@@ -1,0 +1,24 @@
+#384
+Saritura_Calului1
+
+Cerința
+Se consideră o tablă de şah cu n linii şi m coloane. La o poziţie dată se află un cal de şah, acesta putându-se deplasa pe tablă în modul specific acestei piese de şah (în L).
+Să se determine o modalitate de parcurgere a tablei de către calul dat, astfel încât acesta să nu treacă de două ori prin aceeaşi poziţie. Parcurgerea constă într-o matrice cu n linii și m coloane, fiecare element al matricei având valoarea pasului la care se ajunge în acel element, sau 0 , dacă nu s-a ajuns.
+
+Restricții
+1 ≤ n,m ≤ 100
+1 ≤ istart ≤ n
+1 ≤ jstart ≤ m
+scorul obținut pe fiecare test este proporțional cu gradul de acoperire a tablei. Astfel, dacă tabla este acoperită în întregime, se acordă 100% din punctaj. Dacă tabla este acoperită în proporție de 70%, se acordă 70% din punctaj, etc.
+
+Exemplu
+Input: 4 5 1 1
+Output: 1 12 7 16 3 
+6 17 2 11 8 
+13 10 19 4 15 
+18 5 14 9 20
+Input: 4 5 1 1
+Output: 1 12 7 16 3 
+6 0 2 11 8 
+13 10 0 4 15 
+0 5 14 9 0

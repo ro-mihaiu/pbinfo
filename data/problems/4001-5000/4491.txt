@@ -1,0 +1,13 @@
+#4491
+permutari_11
+
+Cerința
+Se citește un număr natural impar n ( n<10 ). Afișați în ordine lexicografică toate permutările mulțimii {1,2,…,n} în care n se află în mijlocul permutării.
+
+Restricții
+1 ≤ n < 10
+
+Exemplu
+Input: 3
+Output: 1 3 2  
+2 3 1

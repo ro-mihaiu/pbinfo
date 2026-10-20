@@ -1,0 +1,21 @@
+#2148
+ADN
+
+Cerința
+Realizați un program care, considerând mulțimea celor N marțieni, determină numărul de perechi de marțieni (Y, X) pentru care Y îl moștenește pe X , unde 1 ≤ X ≤ N și 1 ≤ Y ≤ N .
+
+Restricții
+1 ≤ N ≤ 5 000 000
+Pe planeta Marte orice marțian X îl moștenește pe X .
+Orice marțian îl moștenește pe marțianul 1 deoarece ADN(1)={} , adică mulțimea vidă, care se consideră inclusă în orice mulțime nevidă.
+Se garantează că numărul de perechi determinat are cel mult nouă cifre.
+
+Exemplu
+Input: 6
+Output: 16
+Input: 19
+Output: 88
+Input: 38
+Output: 251
+Input: 99
+Output: 961

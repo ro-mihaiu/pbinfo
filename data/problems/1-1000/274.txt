@@ -1,0 +1,14 @@
+#274
+3minime
+
+Cerința
+Se dau n numere naturale. Determinaţi cele mai mici trei numere dintre cele date.
+
+Restricții
+3 ≤ n ≤ 100
+cele n numere citite vor avea cel mult 4 cifre
+
+Exemplu
+Input: 5
+1017 48 310 5710 162
+Output: 310 162 48

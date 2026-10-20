@@ -1,0 +1,17 @@
+#3566
+Templu
+
+Cerința
+Copa ajunse în Orintia unde există un templu cu mai multe nivele, baza fiind un pătrat de lungime L . Primul nivel are înălţimea egală cu N , iar celelalte nivele au înălţimea mai mare cu o unitate faţă de cel anterior. Spre exemplu pentru L = 5 şi N = 3 din stâncă răsări templul (imagine din avion şi de la sol):
+3 3 3 3 3 3 4 4 4 3 3 4 5 4 3 3 4 4 4 3 3 3 3 3 3
+5 4 4 4 3 3 3 3 3 Copa deschise un document vechi şi citi: „Ca să afli cât aur este în templu, trebuie să însumezi numărul de metri de pe fiecare orizontală…”. Şi Copa socoti: 3 + 3 + 3 + 3 + 3 = 15 ; 3 + 4 + 4 + 4 + 3 = 18 ; 3 + 4 + 5 + 4 + 3 = 19 ; celelalte 18 şi 15 . „Apoi, trebuie să afli suma numerelor obţinute…”. Iar Copa îşi notă numărul 85 . „Toate numerele obţinute se lipesc pentru a forma cel mai mic număr posibil…”. Şi Copa obţinu numărul: 151518181985 . „Din numărul acesta se caută cel mai mare număr de două cifre alăturate. Aceasta este cantitatea de aur din templu.”. Şi Copa ţipă de bucurie: 98 !.
+Plecaţi în Orintia! Veţi primi cele două numere N şi L şi vi se cere să determinaţi numărul obţinut din sume şi cantitatea de aur.
+
+Restricții
+2≤L≤10
+1≤N≤50
+
+Exemplu
+Input: 3 5
+Output: 151518181985
+98

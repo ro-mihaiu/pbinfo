@@ -1,0 +1,19 @@
+#3758
+inno
+
+Cerința
+Să se determine în câte moduri se poate elimina o secvență astfel încât elementele rămase să formeze șir inno .
+
+Restricții
+3 ≤ n ≤ 200.000 ;
+1 ≤ k ≤ 29 ;
+0 ≤ a[i] ≤ 2 31 - 1 ;
+& este operatorul de conjuncție pe biți. Dacă x și y sunt valori binare, atunci expresia x & y este egală cu 1 dacă și numai dacă x = 1 și y = 1 . Deci 1 & 1 = 1 , 0 & 1 = 0 , 1 & 0 = 0 , 0 & 0 = 0 . Dacă a și b sunt numere naturale, atunci expresia a & b se efectuează la nivelul reprezentării în baza 2 . De exemplu, dacă a = 12 și b = 20 , atunci a & b = 12 & 20 = 01100 (2) & 10100 (2) = 00100 (2) = 4 (10) ;
+
+Exemplu
+Input: 4 2
+10 7 5 15
+Output: 5
+Input: 5 4
+7 7 6 1 62
+Output: 1

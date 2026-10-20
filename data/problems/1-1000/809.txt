@@ -1,0 +1,13 @@
+#809
+nrlipsa1
+
+Cerința
+Fișierul de intrare conține cel puțin 3 și cel mult 1.000.000 de numere naturale. Se cere să se afișeze în fișierul de ieșire, separate printr-un spaţiu, două numere distincte, anume cel mai mic număr par cu două cifre și cel mai mare număr par cu două cifre care NU fac parte din şir.
+Dacă nu există două astfel de valori, în fișierul de ieșire se afişează mesajul nu exista .
+
+Restricții
+numerele din fișierul de intrare vor fi din intervalul (0, 1.000.000.000)
+
+Exemplu
+Input: 7 2 40 5 10 15 11 12 18 350
+Output: 14 98

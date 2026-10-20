@@ -1,0 +1,12 @@
+#4563
+suma_prefixe_pare
+
+Cerința
+Scrieți un program care citește un număr natural nenul n și care calculează suma S tuturor prefixelor pare ale lui n .
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+
+Exemplu
+Input: 12345
+Output: 1246

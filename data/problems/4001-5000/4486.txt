@@ -1,0 +1,37 @@
+#4486
+genAB
+
+Cerința
+Pentru A și B date, să se afișeze în ordine crescătoare numerele pe drojdie .
+
+Restricții
+1 ≤ A ≤ B ≤ 1.000.000.000
+Pentru toate testele va exista cel puțin un număr pe drojdie
+
+Exemplu
+Input: 5 200
+Output: 5
+6
+7
+8
+9
+10
+12
+21
+23
+32
+34
+43
+45
+54
+56
+65
+67
+76
+78
+87
+89
+98
+101
+121
+123

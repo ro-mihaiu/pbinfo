@@ -1,0 +1,15 @@
+#644
+DetDrum2
+
+Cerința
+Se dă vectorul de tați al unui arbore cu rădăcină cu n noduri și doua noduri p q . Determinați drumul elementar de la nodul p la nodul q .
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ p, q ≤ n
+în vectorul de tați rădăcina este marcată cu 0
+
+Exemplu
+Input: 7 2 5
+4 1 7 0 7 7 1
+Output: 2 1 7 5

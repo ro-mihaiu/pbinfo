@@ -1,0 +1,20 @@
+#1438
+razboi
+
+Cerința
+Dându-se n , numărul de soldați, L , legea de recrutare, și identificatorii celor n soldați, să se afișeze numărul soldaților din primul, respectiv al doilea batalion.
+
+Restricții
+1 ≤ n ≤ 60 000
+Numerele din şir sunt mai mici decât 100 000
+
+Exemplu
+Input: 3 2
+6 17 2
+Output: 2 1
+Input: 10 1
+15 150 12 36 45 78 85 95 93 141
+Output: 4 6
+Input: 10 2
+15 150 12 36 45 78 85 95 93 14
+Output: 9 1

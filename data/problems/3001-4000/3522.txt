@@ -1,0 +1,16 @@
+#3522
+Nr_Div_Huge
+
+Cerința
+Se dau N perechi de numere n k . Pentru fiecare pereche să se calculeze numărul de divizori al lui \(P = {k}^{n} \cdot \left(1 + 2 + 3 + \cdots + k \right) \).
+
+Restricții
+1 ≤ N ≤ 15.000
+1 ≤ k, n ≤ 1.000.000.000
+
+Exemplu
+Input: 2
+2 3
+4 4
+Output: 8
+20

@@ -1,0 +1,14 @@
+#803
+NrSufix
+
+Cerința
+Se dă un număr natural x și un șir de numere naturale. Să se determine ultimul număr din șir care îl care ca sufix pe x .
+
+Restricții
+toate numerele din fișierul de intrare au cel puțin una și cel mult nouă cifre
+șirul dat va conține cel puțin două și cel mult 1.000.000 de elemente
+
+Exemplu
+Input: 12
+3445 89312 1245 12 67120 312 1234578
+Output: 312

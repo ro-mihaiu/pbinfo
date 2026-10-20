@@ -1,0 +1,13 @@
+#1566
+cifsort
+
+Cerința
+Se da numarul natural n . Afisati numarul, cu prima cifra inversata cu a 2 -a, a 3 -a cu a 4 -a, etc.
+
+Restricții
+10 ≤ n ≤ 99.999.999
+n are un numar par de cifre.
+
+Exemplu
+Input: 123456
+Output: 214365

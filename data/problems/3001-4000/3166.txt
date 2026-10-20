@@ -1,0 +1,13 @@
+#3166
+Vas1
+
+Cerința
+Într-un vas sunt x litri de apă ( x>0 ). După fiecare t minute, x/i din cantitatea de apă rămasă se evaporă. Să se determine după câte minute vor rămâne în vas cel mult y litri de apă.
+
+Restricții
+1≤ x,t,y ≤ 1.000.000.000
+2≤i≤100
+
+Exemplu
+Input: 100 15 20 5
+Output: 120

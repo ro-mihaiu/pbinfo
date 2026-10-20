@@ -1,0 +1,12 @@
+#102
+cifre
+
+Cerința
+Să se scrie un program care citeşte de la tastatură un număr natural cu cel puţin două cifre şi determină suma dintre cifra zecilor şi cifra unităţilor numărului citit.
+
+Restricții
+9 < n < 1.000.000.000
+
+Exemplu
+Input: 2012
+Output: 3

@@ -1,0 +1,12 @@
+#446
+cifmax3
+
+Cerința
+Se citește de la tastatură un număr natural de 3 cifre. Să se afișeze pe ecran cea mai mare cifră a sa.
+
+Restricții
+Numărul citit de la tastatură este natural, de 3 cifre
+
+Exemplu
+Input: 187
+Output: 8

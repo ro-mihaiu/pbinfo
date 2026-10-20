@@ -1,0 +1,12 @@
+#1563
+AlfaBet
+
+Cerința
+Se dă un cuvânt format din litere mici ale alfabetului englez. Sa se afișeze literele sale în ordine alfabetică.
+
+Restricții
+Cuvântul va avea maxim 1000 caractere.
+
+Exemplu
+Input: batman
+Output: aabmnt

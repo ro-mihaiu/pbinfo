@@ -1,0 +1,12 @@
+#258
+detPrim
+
+Cerința
+Se dau două numere naturale a şi b , a≤b . Să se determine, dacă există, un număr prim x care aparţine intervalului închis [a,b] pentru care valoarea expresiei |b+a-2*x| este minimă, unde |m| este valoarea absolută a numărului întreg m . Dacă nu există nici un astfel de număr, se va afişa mesajul NU EXISTA , iar dacă există mai multe se va afişa cel mai mic.
+
+Restricții
+1 ≤ a ≤ b ≤ 1.000.000.000
+
+Exemplu
+Input: 7 18
+Output: 13

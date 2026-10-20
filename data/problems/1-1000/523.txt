@@ -1,0 +1,15 @@
+#523
+secvegale
+
+Cerința
+Se dă un vector cu n elemente, numere naturale. Determinați cea mai lungă secvență de elemente egale din vector. Dacă în vector există mai multe secvențe de elemente egale de lungime maximă se va determina cea mai din dreapta.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1000
+indicii elementelor vectorului sunt cuprinși între 1 și n
+
+Exemplu
+Input: 10
+5 5 1 1 1 1 2 2 2 2
+Output: 7 10

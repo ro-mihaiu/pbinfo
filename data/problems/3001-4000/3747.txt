@@ -1,0 +1,23 @@
+#3747
+Bile4
+
+Cerința
+Scrieți un program care citește numerele N și K , apoi determină: dacă, înainte să fie mutate bile din cutia A în cutia B , există o bilă specială în cutia A ; în caz afirmativ, programul determină numărul X cu care este numerotată această bilă specială; cel mai mic (în sens lexicografic) șir strict crescător al numerelor celor K bile care pot fi mutate din cutia A în cutia B astfel încât bila cu numărul K să fie bila specială a cutiei B ; cel mai mare (în sens lexicografic) șir strict crescător al numerelor celor K bile care pot fi mutate din cutia A în cutia B astfel încât bila cu numărul K să fie bila specială a cutiei B .
+
+Restricții
+1 ≤ n ≤ 1000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000.000
+N număr natural, 4 ≤ N ≤ 100000
+K număr natural, 2 ≤ K ≤ N/2
+Șirul y 1 , y 2 , . . . , y k este mai mic în sens lexicografic decât șirul z 1 , z 2 , . . . , z k dacă există un indice p , 1 ≤ p ≤ K , astfel încât: y 1 = z 1 , y 2 = z 2 , . . . , y p-1 = z p-1 și y p = z p
+Pentru cerința 1 se acordă 20p , iar pentru fiecare dintre cerințele 2 și 3 se acordă câte 40p .
+
+Exemplu
+Input: 1 9 3
+Output: 4
+Input: 1 8 3
+Output: -1
+Input: 2 8 3
+Output: 0 2 7
+Input: 3 8 3
+Output: 1 2 6

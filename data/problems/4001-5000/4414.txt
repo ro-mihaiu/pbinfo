@@ -1,0 +1,47 @@
+#4414
+loto1
+
+Cerința
+Să se scrie un program care să determine:
+Numărul de jucători câștigători pentru o categorie specificată C de câștig. Categoriile sunt numerotate {1, 2, ..., 6, 7} . Categoria 7 este destinată necâștigătorilor.
+Numerele care sunt alese de numărul maxim de jucători, scrise în ordine crescătoare.
+
+Restricții
+1 ≤ M ≤ 49
+5 ≤ K ≤ M
+1 ≤ C ≤ 7
+1 ≤ J ≤ 1000
+Pentru cerința 1 se acordă 70 puncte, iar pentru cerința 2 se acordă 30 puncte
+Pentru 15 puncte, 1 ≤ J ≤ 10
+Pentru 30 puncte, 11 ≤ J ≤ 100
+Pentru 55 puncte, 101 ≤ J ≤ 1000
+
+Exemplu
+Input: 1
+6 5 1
+1 2 3 4 5 6
+1
+5 4 3 2 1
+Output: 1
+Input: 1
+6 5 4
+1 2 3 4 5 6
+2
+9 1 5 3 2
+3 1 5 2 4
+Output: 1
+Input: 1
+6 5 7
+1 2 3 4 5 6
+3
+2 33 7 8 19
+21 3 47 8 29
+12 32 17 8 39
+Output: 3
+Input: 2
+6 5 4
+1 2 3 4 5 6
+2
+9 1 5 3 2
+3 1 5 2 4
+Output: 1 2 3 5

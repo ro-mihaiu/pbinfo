@@ -1,0 +1,12 @@
+#797
+SubNumar
+
+Cerința
+Fișierul de intrare conține cel mult 1.000.000 de numere naturale. Se cere să se afișeze în fișierul de ieșire, în ordine descrescătoare, sub-numerele care apar de cele mai multe ori în scrierea numerelor date.
+
+Restricții
+numerele din fișierul de intrare vor fi din intervalul [10, 1.000.000.000]
+
+Exemplu
+Input: 393 17775787 72194942 12121774
+Output: 77 21

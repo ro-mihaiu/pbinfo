@@ -1,0 +1,21 @@
+#3113
+CountWords
+
+Cerința
+Se dă un șir de caractere care conține litere mici și mari ale alfabetului englez, spații și semne de punctuație. Să se afișeze fiecare cuvânt și frecvența de apariție a lui în șirul de caractere pe câte o linie fiecare pereche cuvânt-frecvență ordonate lexicografic.
+
+Restricții
+1 ≤ strlen(sir) ≤ 10000
+
+Exemplu
+Input: Ana are mere si prune si pere, insa Ana nu are masina si casa.
+Output: Ana 2
+are 2
+casa 1
+insa 1
+masina 1
+mere 1
+nu 1
+pere 1
+prune 1
+si 3

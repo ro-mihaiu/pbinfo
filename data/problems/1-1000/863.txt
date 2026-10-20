@@ -1,0 +1,18 @@
+#863
+Parole
+
+Cerința
+Se dă n o listă cu n parole. Să se determine câte dintre ele sunt parole tari .
+
+Restricții
+1 ≤ n ≤ 1000
+fiecare linie fișierului de intrare va avea cel mult 50 de caractere
+
+Exemplu
+Input: 5
+al!ABe1Ar
+alfabetar
+a:1A
+Alfabetar
+qHj5K#.1NN
+Output: 2

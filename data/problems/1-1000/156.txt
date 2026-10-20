@@ -1,0 +1,9 @@
+#156
+eliminare1
+
+Cerința
+Scrieţi un program care citeşte de la tastatură un şir de cel mult 50 de caractere (cifre, litere ale alfabetului englez şi spaţii; şirul conţine cel puţin o literă), apoi construieşte în memorie şi afişează pe ecran şirul de caractere obţinut din şirul citit prin eliminarea tuturor caracterelor care nu sunt litere.
+
+Exemplu
+Input: Pe 12 mergem la munte
+Output: Pemergemlamunte

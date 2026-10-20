@@ -1,0 +1,17 @@
+#3155
+anagrame4
+
+Cerința
+Se citește de la tastatură un cuvânt s format din cel mult 11 litere mici distincte. Să se genereze în ordine alfabetică și să se afișeze toate anagramele cuvântului s în care consoanele sunt puncte fixe.
+
+Restricții
+cuvântul s are cel mult 11 caractere și este format din litere mici distincte
+
+Exemplu
+Input: sorina
+Output: sarino
+saroni
+sirano
+sirona
+sorani
+sorina

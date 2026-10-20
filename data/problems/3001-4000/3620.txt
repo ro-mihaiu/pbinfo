@@ -1,0 +1,15 @@
+#3620
+cmmk
+
+Cerința
+Se dau numerele naturale n și k , unde k este o cifră. Să se verifice dacă toate cifrele lui n sunt mai mici sau egale decât k .
+
+Restricții
+0 ≤ n ≤ 2.000.000.000
+0 ≤ k ≤ 9
+
+Exemplu
+Input: 36125 7
+Output: DA
+Input: 819 5
+Output: NU

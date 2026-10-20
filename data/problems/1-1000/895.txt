@@ -1,0 +1,16 @@
+#895
+PermutarePF
+
+Cerința
+Se numește permutare a unei mulțimi o aranjare a elementelor mulțimii în altă ordine. De exemplu, permutările mulțimii {1,2,3} sunt: (1,2,3) , (1,3,2) , (2,1,3) , (2,3,1) , (3,1,2) , (3,2,1) .
+Fie (p 1 , p 2 , ..., p n ) o permutare a mulțimii {1,2,...,n} . Se numește punct fix al permutării o valoare k din mulțime cu proprietatea că p k = k .
+Scrieţi definiția completă a subprogramului C++ permutare care are 2 parametri: a , prin care primeşte un tablou unidimensional cu maximum 100 de numere naturale mai mici decât 1000 și n , numărul efectiv de elemente ale tabloului.
+Subprogramul verifică dacă elementele vectorului a reprezintă o permutare fără puncte fixe a mulțimii {1,2,...,n} și returnează valoarea 1 în caz afirmativ, respectiv 0 în caz negativ.
+
+Restricții
+0 < n <= 100
+numele subprogramului cerut este permutare
+parametrii sunt, în această ordine: a , n , cu semnificația de mai sus
+elementele vectorului a sunt indexate de la zero
+
+Exemplu

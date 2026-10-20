@@ -1,0 +1,16 @@
+#1145
+Extraprime
+
+Cerința
+Spunem că x este între a şi b dacă x≥a şi x≤b . Fiind date două valori naturale a şi b , să se determine câte numere extraprime există între a şi b , precum şi cel mai mic şi cel mai mare număr extraprim dintre a şi b .
+
+Restricții
+10 < a ≤ b < 10000000 ;
+Numărul 1 nu este prim;
+Pentru datele de test există întotdeauna soluţie;
+
+Exemplu
+Input: 10 100
+Output: 4
+23
+73

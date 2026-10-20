@@ -1,0 +1,14 @@
+#905
+DetCifre
+
+Cerința
+Să se scrie o funcție C++ care să determine prima și ultima cifră a unui număr natural transmis ca parametru. Funcția va întoarce rezultatele prin intermediul unor parametri de ieşire.
+
+Restricții
+numele funcției va fi detcifre
+funcția va avea trei parametri: primul parametru reprezintă numărul n pentru care se calculează cifrele cerute;al doilea parametru va reprezenta prima cifră a lui n , iar al treilea va reprezenta ultima cifră a lui n
+n va fi număr natural mai mic decât 2.000.000.000
+
+Exemplu
+Input: detcifre(170 , p ,u);
+Output: None

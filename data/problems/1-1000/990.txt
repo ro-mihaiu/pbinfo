@@ -1,0 +1,16 @@
+#990
+sortarecuvinte1
+
+Cerința
+Să se scrie un program care citește o listă de cuvinte şi le afişează în ordine alfabetică.
+
+Restricții
+în listă sunt cel mult 200 de cuvinte, fiecare având cel mult 30 litere
+
+Exemplu
+Input: Dana
+Are
+Bomboane
+Output: Are
+Bomboane
+Dana

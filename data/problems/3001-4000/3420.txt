@@ -1,0 +1,30 @@
+#3420
+arce_inutile
+
+Cerința
+Se dă un graf orientat cu n vârfuri și m arce prin lista arcelor. Se numește arc inutil un arc cu proprietatea că are extremitățile în componente tare conexe diferite. Afișați numărul de arce inutile și care sunt acestea.
+
+Restricții
+1 ≤ n ≤ 100
+Dacă nu există arce inutile, atunci se va afișa 0
+
+Exemplu
+Input: 8 12
+1 3
+3 5
+5 7
+7 1
+2 6
+6 8
+8 2
+1 4
+4 6
+4 8
+4 2
+1 8
+Output: 5
+1 4
+1 8
+4 2
+4 6
+4 8

@@ -1,0 +1,17 @@
+#2351
+numere23
+
+Cerința
+Cunoscând numerele n , k și c ( c = 1 sau c = 2 ), se cere: 1. dacă c = 1 , să se afișeze cel mai mare din cele n numere 3-prime. 2. dacă c = 2 , să se construiască șirul de n numere care îndeplinește condiția din enunț.
+
+Restricții
+0 < k < n ≤ 10000
+numerotarea elementelor în vector se face de la 1
+
+Exemplu
+Input: 5  3  2
+Output: 2 6 4 3 5
+Input: 10 4  2
+Output: 2 11 10 5 3 8 7 9 4 6
+Input: 5  3  1
+Output: 6

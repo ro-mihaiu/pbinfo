@@ -1,0 +1,26 @@
+#1307
+Siruri1
+
+Cerința
+Se citeşte un şir X de numere naturale cu n elemente. Scrieţi un program care determină şirul Y de numere prime distincte, care figurează la puterea întâi în cel puţin o descompunere ȋn factori primi a unui număr din șirul X . Dacă niciun element al şirului X nu are un factor prim la puterea întâi, atunci se va tipări mesajul Sirul Y este vid.
+Se vor scrie subprograme pentru:
+citirea unui şir de numere naturale
+tipărirea unui şir
+generarea tuturor numerelor prime mai mici sau egale decât un număr dat SAU verificarea dacă un număr este prim (ȋn funcție de modalitatea de rezolvare aleasă)
+verificarea dacă un număr figurează la puterea întâi în descompunerea unui număr dat
+construirea șirului Y
+
+Restricții
+1 ≤ n ≤ 500
+cele n numere citite vor fi mai mici decât 1000
+
+Exemplu
+Input: 4
+77 58 77 31
+Output: 2 7 11 29 31
+Input: 4
+64 36 100 125
+Output: Sirul Y este vid.
+Input: 4
+25 5 125 5
+Output: 5

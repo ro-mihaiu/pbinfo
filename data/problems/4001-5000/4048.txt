@@ -1,0 +1,21 @@
+#4048
+revector
+
+Cerința
+Se dă un șir de \(n\) numere naturale \(a_1,a_2,\dots,a_n\). Asupra șirului se aplică următoarele operații în această ordine:
+Se inversează prefixul \(a_1,a_2,\dots,a_{n-2},a_{n-1},a_n\);
+Se inversează prefixul \(a_1,a_2,\dots,a_{n-2},a_{n-1}\);
+Se inversează prefixul \(a_1,a_2,\dots,a_{n-2}\);
+…
+Se inversează prefixul \(a_1,a_2\).
+Să se determine șirul după finalizarea operațiilor.
+
+Restricții
+\(1 \le n \le 10^5\)
+\(-10^9 \le a_i \le 10^9\)
+Pentru 30 de puncte, \(n \le 10^3\)
+
+Exemplu
+Input: 5
+6 2 1 3 3
+Output: 1 3 2 3 6

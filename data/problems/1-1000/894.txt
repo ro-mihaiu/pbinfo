@@ -1,0 +1,12 @@
+#894
+CifMinMax
+
+Cerința
+Să se scrie o funcție C++ care să determine cea mai mare și cea mai mică cifră a unui număr natural transmis ca parametru. Funcția va întoarce rezultatele prin intermediul unor parametri de ieşire.
+
+Restricții
+numele funcției va fi cifminmax
+funcția va avea trei parametri: primul parametru reprezintă numărul pentru care se calculează valorile cerute;al doilea parametru va reprezenta cifra maximă, iar al treilea va reprezenta cifra minimă
+numărul pentru care se calculează cele doua valori va fi mai mic decât 2.000.000.000
+
+Exemplu

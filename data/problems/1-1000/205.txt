@@ -1,0 +1,15 @@
+#205
+Shuffle
+
+Cerința
+Se citeşte un număr natural nenul n şi o permutare a mulţimii M={1,2,..,n} . Să se afişeze, în ordine lexicografică, toate permutările mulţimii M care nu conţin elemente alăturate care au fost alăturate şi în permutarea dată.
+
+Restricții
+0 < n < 9
+dacă nu există soluţii se va afişa pe prima linie a fişierului de ieşire mesajul nu exista
+
+Exemplu
+Input: 4
+2 3 1 4
+Output: 1 2 4 3 
+3 4 2 1

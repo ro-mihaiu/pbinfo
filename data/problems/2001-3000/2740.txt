@@ -1,0 +1,17 @@
+#2740
+LungimeRandMax1
+
+Cerința
+În arta tipografică un râu este o înșiruire de spații care se întinde pe verticală, pe liniile consecutive ale unui text. Mai precis, un râu este definit ca o secvență de cel puțin 2 spații în care oricare 2 spații de pe linii consecutive sunt adiacente pe verticală sau diagonală.
+Să se scrie un program care citește numerele naturale L N și apoi un text formatat pe N linii de cel mult L caractere (vezi #LungimeRandMax ), și afișează lungimea celui mai lung râu din text, dacă acesta există sau mesajul NU , dacă nu există niciun râu.
+
+Restricții
+1 ≤ N ≤ L ≤ 100
+
+Exemplu
+Input: 22 4
+PROBLEMA DE LA EXAMEN
+NU MI SE PARE FOARTE 
+GREU DE REZOLVAT IN
+TIMPUL ACORDAT
+Output: 4

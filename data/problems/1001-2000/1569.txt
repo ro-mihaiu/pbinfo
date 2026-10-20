@@ -1,0 +1,17 @@
+#1569
+scaranumerelor
+
+Cerința
+Se citește un număr natural n . Să se afișeze o figură similară cu cea din exemplu.
+
+Restricții
+1 ≤ n ≤ 9
+
+Exemplu
+Input: 3
+Output: 1
+22
+22
+333
+333
+333

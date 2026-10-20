@@ -1,0 +1,18 @@
+#42
+stergeelemente
+
+Cerința
+Scrieţi definiția completă a subprogramului sterge , care primeşte prin cei 4 parametri v , n , i , j :
+v , un tablou unidimensional cu maximum 100 de elemente întregi din intervalul [-1000,1000]
+n , un număr natural reprezentând numărul de elemente din tabloul v
+i și j două valori naturale cu 1≤i≤j≤n
+Subprogramul elimină din tabloul v elementele v[i] , v[i+1] , … , v[j] actualizând valoarea parametrului n .
+Tabloul modificat este furnizat tot prin parametrul v .
+
+Restricții
+0 < n ≤ 100
+numele subprogramului cerut este sterge
+parametrii sunt, în această ordine: v , n , i , j
+indicii elementelor vectorului v sunt 1 , 2 ,… , n .
+
+Exemplu

@@ -1,0 +1,20 @@
+#527
+Preturi1
+
+Cerința
+Gigel trebuie să cumpere n produse, pentru fiecare produs cunoscându-se cantitate necesară. În oraș sunt m magazine, în fiecare magazin găsindu-se produsele dorite la anumite prețuri. Determinați suma totală minimă necesară pentru a cumpăra produsele dorite, știind că Gigel trebuie să cumpere toate produsele din același magazin.
+
+Restricții
+1 ≤ n , m ≤ 100
+cantitățile necesare sunt numere naturale nenule mai mici sau egale cu 1000
+prețurile produselor sunt numere naturale nenule mai mici sau egale cu 1000 , sau -1 , cu semnificația de mai sus
+trebuie cumpărate toate produsele, din același magazin
+
+Exemplu
+Input: 5
+4 4 5 1 2
+3
+ 5 8 6 2 6
+-1 4 1 1 5
+ 6 6 8 3 9
+Output: 96

@@ -1,0 +1,12 @@
+#2616
+paznici1
+
+Cerința
+Scrieți un program care citește n și m și determină numărul minim de paznici care trebuie angajați pentru a supraveghea parcul în aceste condiții.
+
+Restricții
+1 ≤ n, m ≤ 1 000 000
+
+Exemplu
+Input: 2 2
+Output: 1

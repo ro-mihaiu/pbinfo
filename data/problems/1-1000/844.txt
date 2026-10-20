@@ -1,0 +1,17 @@
+#844
+Croco1
+
+Cerința
+Se dă o matrice cu n linii și m coloane și elemente 0 sau 1 , care reprezintă harta unui lac, în care 0 înseamnă uscat, iar 1 înseamnă apă.
+Se dorește plasarea pe fiecare zonă cu uscat a unui crocodil sau a unui elefant astfel încât să nu fie două animale din aceeași specie în zone învecinate. În plus, se dorește ca numărul de crocodil să fie cât mai mare.
+Să se determine câți crocodili și câți elefanți se pot plasa pe lac, astfel încât numărul de crocodili să fie cât mai mare.
+
+Restricții
+1 ≤ n , m ≤ 100
+
+Exemplu
+Input: 3 5
+0 0 0 1 0
+0 0 1 0 0
+1 0 0 1 0
+Output: 7 4

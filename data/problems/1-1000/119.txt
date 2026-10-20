@@ -1,0 +1,15 @@
+#119
+2maxim
+
+Cerința
+Să se scrie un program care citește un șir de n numere naturale şi determină cele mai mari două numere din şir.
+
+Restricții
+2 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 2.000.000.000
+valorile afişate respectă relaţia x ≥ y
+
+Exemplu
+Input: 5
+72 30 12 75 17
+Output: 75 72

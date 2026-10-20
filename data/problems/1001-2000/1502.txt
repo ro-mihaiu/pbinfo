@@ -1,0 +1,18 @@
+#1502
+Virgule
+
+Cerința
+Scrieţi un program care să insereze virgule în şirul de cifre astfel încât să se obţină o secvenţă de numere strict crescătoare, iar ultimul număr din secvenţă să fie minim.
+
+Restricții
+0 < Lungimea secvenţei de cifre din fişierul de intrare < 95 .
+Numerele din secvenţa de numere obţinută pot începe cu cifra 0 .
+Dacă există mai multe soluţii în care ultimul număr din secvenţă este minim, se alege secvenţa în care primul număr este maxim. Dacă şi în acest caz există mai multe soluţii, se alege soluţia în care al doilea număr este maxim, ş.a.m.d.
+Fişierul de intrare şi fişierul de ieşire nu vor conţine spaţii.
+Pentru teste valorând 50% din punctajul acordat pe teste fişierul de intrare nu conţine cifra 0 .
+
+Exemplu
+Input: 6879
+Output: 68,79
+Input: 1000001010102
+Output: 100,000101,0102

@@ -1,0 +1,17 @@
+#433
+Cladire3
+
+Cerința
+Se consideră o clădire de formă dreptunghiulară formată din n*m camere, dispuse pe n linii și m coloane. Pentru a intra într-o cameră se plătește o sumă cunoscută. Intrarea în clădire este în camera de coordonate (n,1) , iar ieșirea în camera de coordonate (1,m) . Din orice cameră (i,j) se poate ajunge numai în camerele (i-1,j) sau (i,j+1) , fără a părăsi clădirea.
+O persoană intră în clădire, parcurge un șir de camere după regula precizată și iese din clădire, plătind în fiecare cameră taxa corespunzătoare. Determinați suma minimă care trebuie plătită.
+
+Restricții
+1 ≤ n , m ≤ 200 ;
+pentru fiecare cameră taxa este cel mult 100 .
+
+Exemplu
+Input: 3 4
+1 1 5 2  
+3 4 2 1
+1 1 8 2
+Output: 11

@@ -1,0 +1,36 @@
+#1189
+Lenes
+
+Cerința
+Cunoscând dimensiunile M , N ale terenului, numărul de popasuri k1 , k2 și efortul pentru traversarea fiecărei zone a terenului, să se determine:
+Efortul minim de parcurgere a terenului de la Nord la Sud, folosind k1 popasuri.
+Efortul minim de parcurgere a terenului de la Nord la Sud și înapoi de la Sud la Nord, folosind k1 popasuri la deplasarea Nord – Sud, respectiv k2 popasuri la deplasarea Sud – Nord.
+
+Restricții
+3 ≤ M, N ≤ 500
+0 ≤ k1, k2 ≤ M
+Valorile din matrice sunt numere naturale din intervalul [1, 1000] .
+Leneșul poate să facă popasuri pe aceeaşi linie în ambele celule din stânga şi din dreapta coloanei parcurse.
+Deplasarea între ultima zonă a drumului parcurs de la Nord la Sud şi prima zonă a drumului parcurs de la Sud la Nord la întoarcere se face cu efort 0 .
+
+Exemplu
+Input: 1
+4 7 2 3
+99 1 33 9 2 4 7
+99 1 44 8 1 2 3
+98 1 55 8 2 3 2
+97 1 66 4 3 2 1
+Output: 12
+Input: 2
+4 7 3 2
+99 1 33 9 2 4 7
+99 1 44 8 1 2 3
+98 1 55 8 2 2 2
+97 1 66 4 3 2 1
+Output: 35
+Input: 2
+3 7 2 2
+2 1 33 9 99 4 7
+1 1 44 9 99 2 3
+2 1 55 9 99 2 2
+Output: 19

@@ -1,0 +1,18 @@
+#4485
+divide
+
+Cerința
+Să se împartă elementele șirului în două submulțimi astfel încât diferența în modul dintre sumele elementelor din cele două submulțimi să fie minimă.
+
+Restricții
+2 ≤ n ≤ 20
+cele n numere din șir vor fi nenule și mai mici decât 1.000.000.000
+fiecare număr din șir trebuie să fie într-o singură submulțime
+
+Exemplu
+Input: 5
+4 2 7 6 5
+Output: 0
+Input: 5
+4 2 7 6 22
+Output: 3

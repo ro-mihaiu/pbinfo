@@ -1,0 +1,13 @@
+#2969
+cautafibo
+
+Cerința
+Se citesc pe rând numere naturale nenule. Să se determine câte din numerele citite sunt termeni ai șirului lui Fibonacci.
+
+Restricții
+numerele din fișierul de intrare vor avea cel mult 10 cifre
+fișierul de intrare va conține cel mult 100.000 de numere naturale nenule
+
+Exemplu
+Input: 5 10 89 1 7 9 8 1 6 55 19 13 55
+Output: 8

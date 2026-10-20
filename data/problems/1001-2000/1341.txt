@@ -1,0 +1,26 @@
+#1341
+Protest
+
+Cerința
+În țara lui Zoli trăiesc n persoane, numerotate de la 1 la n , iar Zoli are numărul de ordine 1 . Zoli s-a săturat de sistemul politic, așa că s-a decis să iasă în stradă. Deoarece Zoli este o persoană sociabilă, are prieteni din diverse cercuri pe care s-a gândit să îi cheme cu el. Zoli își va anunța prietenii, care la rândul lor își vor anunța prietenii și așa mai departe.
+Știm însă că unele persoane sunt scandalagii, iar Zoli este un om pașnic și preferă să nu trimită invitația acestora.
+Zoli vă cere să îi spuneți numărul de persoane cu care se va întâlni la protest.
+
+Restricții
+1 ≤ n ≤ 50000
+1 ≤ k ≤ 1000
+Numerele de ordine ale scandalagiilor vor fi mai mici decât n
+Fiecare persoană poate anunța doar prietenii cu care are o legătură directă, rămânând pe seama celor din urmă să transmită invitația mai departe, dacă e posibil.
+Relația de prietenie nu este reciprocă.
+
+Exemplu
+Input: 8 3
+4 8 3
+1 2
+8 5
+4 3
+1 6
+7 5
+2 4
+4 8
+Output: 2

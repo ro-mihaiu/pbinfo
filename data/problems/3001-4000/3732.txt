@@ -1,0 +1,32 @@
+#3732
+seism
+
+Cerința
+Cunoscând șirul celor N valori transmise în ordine de seismograf, scrieți un program care să determine: 1. Care a fost durata maximă, exprimată în secunde a unui seism; 2. Câte seisme au avut loc în perioada de timp analizată; 3. Din cauza unei erori tehnice, o perioadă continuă de timp seismograful a transmis eronat. Astfel, în șirul inițial format din cele N semnale, trebuie să înlocuim valoarea 0 cu valoarea 1 , într-o singură secvență, de lungime nevidă, de elemente nule alăturate. Analizând toate posibilitățile de a face această modificare, determinați durata maximă a unui seism care se obține după modificarea șirului inițial de semnale.
+
+Restricții
+5 ≤ N ≤ 100.000
+Un seism durează între 1 și N - 4 secunde
+Pentru cerințele 1 și 2 se garantează că seismograful a detectat cel puțin un seism.
+La cerința 3 se garantează că există cel puțin o secvență nevidă de elemente egale cu 0 ce pot fi schimbate în 1 pentru a avea cel puțin un seism în tot șirul.
+Pentru rezolvarea corectă a primei cerințe se obțin 40 de puncte, pentru rezolvarea corectă a celei de a doua cerințe se obțin 40 de puncte, iar pentru rezolvarea corectă a celei de a treia cerințe se obțin 20 de puncte.
+
+Exemplu
+Input: 1
+21
+0 0 1 1 1 1 0 0 0 0 0 1 0 1 0 0 1 1 0
+0 1
+Output: 4
+Input: 2
+21
+0 0 1 1 1 1 0 0 1 0 0 1 0 1 0 0 1 1 0
+0 1
+Output: 3
+Input: 3
+8
+0 0 1 1 0 1 0 0
+Output: 4
+Input: 3
+14
+0 1 1 0 0 0 0 0 0 0 0 0 1 0
+Output: 5

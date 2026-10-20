@@ -1,0 +1,21 @@
+#3746
+LeMans
+
+Cerința
+Ca semn de protest asupra noului regulament, echipele au hotărât să se așeze în grila de start astfel încât diferența maximă dintre distanțele parcurse de oricare două mașini să fie cât mai mică posibil.
+
+Restricții
+2 ≤ N, M ≤ 1000
+1 ≤ T ≤ 1000
+1 ≤ v[i] ≤ 1.000.000 pentru orice i ∈ {1,2,...,N}
+0 ≤ p[i] ≤ 1.000.000.000 ; pentru orice i,j ∈ {1,2,...,M}
+Două sau mai multe mașini pot porni de pe aceeași poziție din grila de start
+În grilă pot exista și poziții neocupate de o mașină
+Pot exista mai multe distribuții ale mașinilor pe grila de start ce oferă o soluție optimă. Se acceptă orice soluție corectă.
+
+Exemplu
+Input: 5 4 3
+2 3 4 5
+7 1 11
+Output: 5
+3 1 2 2

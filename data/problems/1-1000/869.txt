@@ -1,0 +1,22 @@
+#869
+Acces2
+
+Cerința
+Se consideră o clădire de formă dreptunghiulară, împărțită în n*m camere, dispuse sub forma unei matrice cu n linii și m coloane. Dintr-o cameră se poate trece în oricare dintre cele 4 camere vecine pe linie sau pe coloană. Unele camere sunt închise, și în ele nu se poate intra deloc. Trecerea dintr-o cameră în altă cameră durează un minut.
+Camerele formează zone . O zonă este alcătuită dintr-un număr maxim de camere cu proprietatea că oricum am alege două camere din zonă se poate ajunge dintr-o cameră în alta trecând doar prin camere libere.
+În anumite camere se află echipe de pompieri. Fiecare echipă deservește zona din care face parte camera echipei.
+S-a constatat că așezarea echipelor în camere nu este tocmai corectă. Mai precis, există zone care nu sunt deservite de nicio echipă de pompieri. Pentru corectarea acestei probleme există două operații posibile:
+mutarea unor echipe din camera curentă în altă cameră – operație care costă 1 leu
+crearea unor echipe noi și plasare lor în camere – operație care costă 2 lei
+Să se determine costul total minim al operațiilor necesare, astfel încât fiecare zonă din clădire să fie deservită de cel puțin o echipă de pompieri.
+
+Restricții
+1 ≤ n,m ≤ 1000
+
+Exemplu
+Input: 4 6
+P-#-#P
+--###-
+##P-P#
+--#--#
+Output: 3

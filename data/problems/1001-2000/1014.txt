@@ -1,0 +1,12 @@
+#1014
+NumarSubmultimi
+
+Cerința
+Se dă o mulțime cu n elemente. Determinați numărul submulțimilor cu câte k elemente ale acesteia.
+
+Restricții
+0 ≤ k ≤ n ≤ 20
+
+Exemplu
+Input: 4 2
+Output: 6

@@ -1,0 +1,27 @@
+#4767
+poza1
+
+Cerința
+Fiind dat numărul natural C reprezentând numărul cerinței, un număr natural n reprezentând numărul de extratereștri din fiecare navă și apoi trei șiruri de n numere naturale nenule cu maximum 9 cifre fiecare, scrieți un program care rezolvă următoarele cerințe: 1) Dacă C = 1 , atunci determină înălțimea maximă și minimă a extratereștrilor din toate cele 3 nave. 2) Dacă C = 2 , atunci determină ordinea extratereștrilor în poză, pe fiecare dintre cele trei rânduri, de la stânga la dreapta, ordonați descrescător după înălțime.
+
+Restricții
+1 ≤ n ≤ 100.000 , 1 ≤ c ≤ 2
+1 ≤ a[i] ≤ 1.000.000.000 (Se asigură că nu vor fi mai mult de n extratereștri cu aceeași înălțime)
+Pentru 20 de puncte cerinţa este 1.
+Pentru 20 de puncte cerinţa este 2 și n ≤ 1000
+Pentru alte 50 de puncte cerința va fi 2, iar n > 1000
+10 puncte se acordă pentru testele din enunț.
+
+Exemplu
+Input: 1 4
+13 20 24 3
+12 100 100 2
+17 18 98 23
+Output: 100 2
+Input: 2 4
+24 20 13 3
+100 100 12 2
+98 23 18 17
+Output: 13 12 3 2
+23 20 18 17
+100 100 98 24

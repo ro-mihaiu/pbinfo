@@ -1,0 +1,19 @@
+#395
+Comori
+
+Cerința
+Ali Baba și cei 40 de hoți stăpânesc un deșert de formă dreptunghiulară, împărțit în n linii și m coloane, care definesc n*m sectoare. În fiecare sector se află o comoară ascunsă de Ali Baba. Se cunoaște valoarea în galbeni a fiecărei comori.
+Un călător trebuie să traverseze deșertul de la Nord la Sud, trecând dintr-un sector în altul, astfel: din sectorul (i j) se poate ajunge în unul din sectoarele (i+1,j-1) , (i+1,j) sau (i+1,j+1) , dar fără a părăsi deșertul (ar fi omorât de oamenii lui Ali Baba). La trecerea printr-un sector, călătorul colectează comoara din acel sector.
+Determinați valoarea totală maximă a comorilor pe care le poate colecta călătorul la traversarea deșertului, știind că pleacă din orice sector al liniei 1 (Nord) și se oprește în orice sector al linei n (Sud), cu respectarea condițiilor de mai sus.
+
+Restricții
+1 ≤ n,m ≤ 200
+valoarea fiecărei comori este un număr natural mai mic decât 100
+
+Exemplu
+Input: 4 5
+5 8 3 7 7 
+1 1 4 5 1 
+5 8 9 1 7 
+5 8 6 6 9
+Output: 29

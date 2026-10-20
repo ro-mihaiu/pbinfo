@@ -1,0 +1,14 @@
+#500
+verificareordonat
+
+Cerința
+Se dă un vector cu n elemente numere naturale. Să se verifice dacă are elementele ordonate crescător.
+
+Restricții
+1 ≤ n ≤ 500
+fiecare element al vectorului va avea cel mult patru cifre
+
+Exemplu
+Input: 7
+4 5 7 9 9 10 12
+Output: DA

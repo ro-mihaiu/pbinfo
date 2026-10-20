@@ -1,0 +1,16 @@
+#3670
+Afin1
+
+Cerința
+Dându-se valoarea celor două chei și un mesaj criptat să se afișeze mesajul decriptat. Dacă a și b formează o pereche ineficientă atunci se afișează mesajul -1 .
+
+Restricții
+1 ≤ lungimea mesajului ≤ 10000
+
+Exemplu
+Input: 17 20
+fekhfmbabfkkh
+Output: twentyfifteen
+Input: 14 19
+jvphxbxnzrtrldjplnzffdtvhbvhbnrzxpjrpnzlltfthbvdf
+Output: -1

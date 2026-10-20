@@ -1,0 +1,12 @@
+#1273
+uciv
+
+Cerința
+Se dau două numere naturale x și y . Calculați ultima cifră a sumei lor.
+
+Restricții
+1 ≤ x,y < 1.000.000
+
+Exemplu
+Input: 25 78
+Output: 3

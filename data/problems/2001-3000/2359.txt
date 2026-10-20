@@ -1,0 +1,20 @@
+#2359
+cifre13
+
+Cerința
+Determinaţi numărul de pătrăţele negre de pe foaia de matematică după ce au fost desenate cele C cifre.
+
+Restricții
+1 ≤ N, M ≤ 1000
+1 ≤ C ≤ 100000
+Liniile de pe foaia de matematică sunt numerotate de la 1 la N , iar coloanele de la 1 la M .
+0 < lin , col ≤ 1000
+0 ≤ t ≤ 9
+Zonele pe care sunt desenate cifrele se pot suprapune.
+Cifrele pot să încapă parţial pe foaie.
+
+Exemplu
+Input: 10 10 2
+4 2 3
+6 4 6
+Output: 23

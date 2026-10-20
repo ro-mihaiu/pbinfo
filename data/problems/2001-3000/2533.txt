@@ -1,0 +1,15 @@
+#2533
+SecventaIncadrata
+
+Cerința
+Numim secvență încadrată a unui șir de numere naturale un subșir al acestuia, format din termeni aflați pe poziții consecutive în șirul dat, subșir care începe și se termină cu aceeași valoare. Lungimea secvenței este egală cu numărul de termeni ai acesteia.
+Să se determine secvențele încadrate dintr-un șir, care au lungimea maximă.
+
+Restricții
+în șir există ce puțin doi termeni egali
+proiectați un algoritm eficient din punctul de vedere al timpului de executare și a memoriei utilizate se recomandă o soluție care să evite stocarea tuturor valorilor citite într-un tablou sau într-o altă structură de date similară
+
+Exemplu
+Input: 3 1 5 2 4 5 5 2 5 9 5 7 4 6 8 0 8
+Output: 9
+4 5

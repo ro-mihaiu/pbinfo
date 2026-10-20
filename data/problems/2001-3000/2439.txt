@@ -1,0 +1,22 @@
+#2439
+tbile
+
+Cerința
+Se dau numerele naturale n și m și se cere să se determine: 1. Numărul de tuburi de culoare roșie necesare pentru a împacheta bilele din șirul Y și numărul total de bile conținute de acestea. 2. Pentru un nivel v dat, suma numerelor inscripționate pe bilele de pe nivelul v .
+
+Restricții
+5 ≤ n ≤ 2 000 000 000
+1 ≤ c ≤ m ≤ 311445015
+Se acordă 30 de puncte pentru rezolvarea corectă a cerinței 1 și 60 de puncte pentru rezolvarea corectă a cerinței 2.
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă punctele pentru exemplele din enunț.
+
+Exemplu
+Input: 1
+36
+5
+Output: 6 29
+Input: 2
+36
+5
+3
+Output: 126

@@ -1,0 +1,17 @@
+#3263
+SumMax_XI
+
+Cerința
+Se dă o matrice pătratică cu n lini şi n coloane şi elemente numere întregi. Determinaţi cea mai mare sumă a n elemente din matrice, obținută adunând câte un element de pe fiecare linie a matricei.
+
+Restricții
+1 ≤ n ≤ 100
+elementele matricei vor avea cel mult 4 cifre
+
+Exemplu
+Input: 4
+12 16 5 4
+11 14 6 7
+8 2 3 17
+10 9 13 15
+Output: 62

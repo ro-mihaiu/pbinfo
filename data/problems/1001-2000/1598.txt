@@ -1,0 +1,25 @@
+#1598
+Coada1
+
+Cerința
+Dându-se M , reprezentând numărul de operaţii şi cele M operaţii, să se răspundă la operaţiile de tip query .
+
+Restricții
+1 ≤ M ≤ 50.000
+1 ≤ X ≤ 1.000
+
+Exemplu
+Input: 10
+push 3
+push 6
+push 8
+push 2
+query 6
+push 6
+query 4
+push 6
+push 7
+query 6
+Output: 2
+-1
+1

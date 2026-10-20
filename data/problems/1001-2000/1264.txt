@@ -1,0 +1,14 @@
+#1264
+statisticiordine
+
+Cerința
+Se dau n numere naturale. Să se afișeze al k -lea cel mai mic element din șir.
+
+Restricții
+1 ≤ k ≤ n ≤ 4.000.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 4.000.000.000
+
+Exemplu
+Input: 6 4
+1 58 4 3 24 50
+Output: 24

@@ -1,0 +1,22 @@
+#2673
+SwapCuv
+
+Cerința
+Se dă un şir de caractere care conține cuvinte formate din litere mici și mari ale alfabetului englez. Cuvintele sunt separate prin orice caractere imprimabile care nu sunt litere (cu codurile ASCII mai mari sau egale cu 32 ). Să se afișeze cuvintele pe cate o linie în felul următor:
+Primul
+Ultimul
+Al Doilea
+Penultimul
+...
+
+Restricții
+propoziția va conține cel mult 255 de caractere.
+
+Exemplu
+Input: divide and conquer / devide et impera.
+Output: divide
+impera
+and
+et
+conquer
+devide

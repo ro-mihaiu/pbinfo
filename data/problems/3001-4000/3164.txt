@@ -1,0 +1,22 @@
+#3164
+qclasa
+
+Cerința
+Se dau n , reprezentând numărul de elevi apoi, pe câte un rând, datele fiecărui elev: codul (număr natural de maxim 4 cifre), media la informatică (număr natural de la 1 la 10 ) și numărul de absențe. Definiți un tip structură pentru a putea memora datele unui elev și rezolvați cerințele:
+a) memorați datele tuturor elevilor într-un vector de structuri de tipul definit; b) afișați numărul de elevi cu media 10 c) afișați media clasei (se va afișa doar partea întreagă a ei). d) afișați primii doi elevi după absențe (elevii cu cele mai multe absențe). Dacă sunt mai mulți elevi cu același număr de absențe se afișează în ordinea crescătoare a codului. Dacă sunt mai mult de doi elevi număr maxim de absențe se afișează doar doi.
+
+Restricții
+1 ≤ n ≤ 40
+codurile elevilor se garantează că sunt distincte
+mediile sunt numere naturale de la 1 la 10
+valorile pentru numărul de absențe sunt cuprinse între 0 și 100
+
+Exemplu
+Input: 3
+1 10 3
+2 8 1
+3 8 5
+Output: 1
+8
+3 8 5
+1 10 3

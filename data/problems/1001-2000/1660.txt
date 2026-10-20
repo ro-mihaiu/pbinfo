@@ -1,0 +1,12 @@
+#1660
+Fotbal
+
+Cerința
+Se dau 2 numere naturale reprezentând scorul în timpul actual. Să se determine în câte moduri se poate ajunge de la 0-0 la acel scor.
+
+Restricții
+cele 2 numere citite vor fi mai mici sau egale cu 10
+
+Exemplu
+Input: 3 0
+Output: 1

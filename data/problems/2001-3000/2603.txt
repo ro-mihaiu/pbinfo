@@ -1,0 +1,12 @@
+#2603
+primacifraapartitii
+
+Cerința
+Scrieți un program care cere de la tastatură un număr real (într-o variabilă de tip double) și care afișează prima cifră care se află după virgulă în valoarea citită.
+
+Restricții
+1 ≤ a ≤ 1000
+
+Exemplu
+Input: 123.45
+Output: 4

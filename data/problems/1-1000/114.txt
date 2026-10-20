@@ -1,0 +1,12 @@
+#114
+fnumardivizoriimpari
+
+Cerința
+Să se scrie o funcție C++ care să determine numărul divizorilor impari ai unui număr natural transmis ca parametru. Funcția întoarce rezultatul prin intermediul unui parametru de ieşire.
+
+Restricții
+numele funcției va fi nr_div_imp
+funcția va avea doi parametri, reprezentând numărul pentru care se calculează numarul divizorilor impari, respectiv valoarea calculată
+numărul pentru care se calculează numărul divizorilor impari va fi mai mare decât 1 și mai mic decât 2.000.000.000
+
+Exemplu

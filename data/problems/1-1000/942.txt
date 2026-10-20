@@ -1,0 +1,13 @@
+#942
+cifre23
+
+Cerința
+Se dă un număr natural format din cifrele 2 sau 3 . Aflaţi cifra care apare de cele mai multe ori în scrierea numărului.
+
+Restricții
+n are cel mult 10 cifre
+dacă cifrele 2 şi 3 apar de acelaşi număr de ori se va afişa: 2 3
+
+Exemplu
+Input: 23233
+Output: 3

@@ -1,0 +1,14 @@
+#1903
+vterminal
+
+Cerința
+Ajutați-l pe Andrei să calculeze cifra terminală C .
+
+Restricții
+1 ≤ n ≤ 100
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000
+
+Exemplu
+Input: 5
+4 11 24 13 97
+Output: 4

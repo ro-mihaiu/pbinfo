@@ -1,0 +1,24 @@
+#1072
+Magic
+
+Cerința
+Pentru a-i ajuta pe Hansel şi Grettel să intre în Castelul de Turtă Dulce, scrieţi un program care citeşte un număr natural n , apoi n caractere şi determină:
+a) cuvântul magic; b) numărul fermecat;
+
+Restricții
+1 ≤ n ≤ 1000
+Caracterele sunt doar cifre sau litere mici ale alfabetului englez.
+Printre cele n caractere se află întotdeauna cel puțin o literă şi cel puţin o cifră.
+Pe fiecare copac este scris un singur caracter.
+Numărul magic începe întotdeauna cu o cifră diferită de zero.
+Pentru rezolvarea cerinţei a) se acordă 40% din punctaj, pentru cerinţa b) 60% din punctaj.
+
+Exemplu
+Input: 6
+c 2 5 5 b 2
+Output: CB
+25
+Input: 8
+c a 5 0 b 2 5 d
+Output: CABD
+205

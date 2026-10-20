@@ -1,0 +1,16 @@
+#319
+suma35
+
+Cerința
+Se dă un număr natural nenul n . Să se determine toate modalităţile distincte de descompunere a numărului n în sumă de 3 şi 5 .
+
+Restricții
+1 ≤ n ≤ 1000
+pentru fiecare dintre valorile lui n folosite în fişierele de test există cel puţin o soluţie
+în fiecare descompunere elementele vor fi aranjate crescător
+
+Exemplu
+Input: 40
+Output: 3 3 3 3 3 3 3 3 3 3 5 5 
+3 3 3 3 3 5 5 5 5 5 
+5 5 5 5 5 5 5 5

@@ -1,0 +1,18 @@
+#4471
+mingi
+
+Cerința
+Profesorul de sport are m mingi, numerotate de la 1 la m . În sala de sport sport sunt n dulapuri, numerotate de la 1 la n , în fiecare dulap încap ai mingi. Profesorul așează mingile în dulapuri în felul următor: în dulapul 1 așează mingile numerotate de la 1 la a1 (unde a1 este capacitatea dulapului 1 ), în dulapul 2 așează în continuare mingile numerotate de la a1 + 1 la a1 + a2 șamd. De exemplu, dacă are 5 dulapuri de capacitate 3 , 5 , 4 , 5 , 2 , în primul dulap așează 3 mingi numerotate de la 1 la 3 , în al doilea dulap așează 5 mingi numerotate de la 4 la 8 , în al treilea dulap așează 4 mingi numerotate de la 9 la 12 , în al patrulea dulap așează 5 mingi de la 13 la 17 , iar în ultimul dulap așează mingile numerotate de la 18 la 19 . Profesorul are nevoie de k mingi și îl trimite pe Ducu să aducă mingile. Ducu are nevoie de ajutorul vostru să găsească dulapurile în care se află fiecare din cele k mingi.
+
+Restricții
+1 ≤ n, k ≤ 100.000
+capacitatea unui dulap este un număr natural nenul mai mic decât 10.000
+fiecare dulap este umplut la capacitatea maximă
+se garantează că mingea căutată se găsește într-un dulap
+
+Exemplu
+Input: 5
+3 5 4 5 2
+3
+4 12 1
+Output: 2 3 1

@@ -1,0 +1,16 @@
+#296
+Proportionale
+
+Cerința
+Se dau două şiruri cu câte n elemente, numere naturale nenule. Să se verifice dacă este posibilă rearanjarea elementelor celor două şiruri astfel încât acestea să fie direct proporţionale.
+
+Restricții
+1 ≤ n ≤ 100
+elementele şirurilor vor avea cel mult 4 cifre
+se recomandă evitarea lucrului cu numere reale
+
+Exemplu
+Input: 6
+10 10 15 30 25 15
+6 9 9 6 15 18
+Output: DA

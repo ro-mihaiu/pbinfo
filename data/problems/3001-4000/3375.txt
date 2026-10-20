@@ -1,0 +1,19 @@
+#3375
+labirint3
+
+Cerința
+Ajutați-l pe Vasilică să iasă cât mai repede din labirint.
+
+Restricții
+1 ≤ n, m ≤ 1000
+întotdeauna există un drum de ieșire
+operația de luare a cheii sau a elicopterului dintr-o cameră nu consumă timp
+
+Exemplu
+Input: 5 6
+ZA____
+A__Z__
+A_C__B
+C___Z_
+___B_Z
+Output: 9

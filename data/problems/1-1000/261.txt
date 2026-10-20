@@ -1,0 +1,19 @@
+#261
+Intervale
+
+Cerința
+Se dau n intervale [a,b] , unde a şi b sunt numere întregi. Să se afişeze acele intervale care au proprietatea că intersecţia lor cu oricare dintre celelalte n-1 intervale este mulţimea vidă.
+
+Restricții
+1 ≤ n ≤ 100
+pentru fiecare interval dat [a,b] , -30000 ≤ a , b ≤ 30000
+
+Exemplu
+Input: 4
+8 16 
+17 20
+2 6
+10 15
+Output: 2
+17 20
+2 6

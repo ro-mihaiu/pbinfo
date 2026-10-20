@@ -1,0 +1,24 @@
+#1065
+Vase1
+
+Cerința
+Să se scrie un program care cunoscând numărul n de lichide introduse în sistemul cu două vase comunicante, volumul V i şi ramura prin care se face introducerea lichidului de culoare i ( 1≤i≤n ), precum şi culoarea x , să calculeze gradaţia maximă la care se ridică lichidele în acest sistem la echilibru şi între ce gradaţii se găseşte lichidul de culoare x .
+
+Restricții
+1 ≤ x ≤ n ≤ 100 000
+2 ≤ V i ≤ 100 000 pentru 1 ≤ i ≤ n
+sistemul de vase este gradat în aceleaşi unităţi de măsură în care sunt exprimate volumele de lichid;
+dacă lichidul căutat, de culoare x , se aşează pe aceeaşi ramură se va afişa întâi gradaţia superioară şi apoi cea inferioară;
+dacă lichidul căutat, de culoare x , se aşează pe ramuri diferite se va afişa întâi gradaţia de pe ramura din stânga şi apoi cea de pe ramura din dreapta;
+dacă una dintre gradaţiile între care se situează lichidul căutat, de culoare x , este 0 atunci se consideră că aceasta gradaţie se găseşte pe aceeaşi ramură cu cealaltă gradaţie;
+pentru rezolvarea primei cerinţe se acordă 20% din punctaj, iar pentru a doua cerinţă 80% din punctaj.
+
+Exemplu
+Input: 3
+4 D
+4 S
+2 S
+2
+Output: 5
+3 S
+1 D

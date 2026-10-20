@@ -1,0 +1,19 @@
+#3080
+VerifNumar
+
+Cerința
+Se dă un șir de caractere. Sa se determine numărul scris cu cifrele existente în șirul dat. Să se afișeze numărul obținut și, pe linia următoare, toate caracterele din șir care nu fac parte din număr, cu excepția spațiilor.
+
+Restricții
+șirul dat va avea cel mult 100 de caractere;
+dacă șirul dat reprezintă un număr natural, programul va afișa numai mesajul CORECT ;
+dacă șirul dat nu conține nicio cifră, programul va afișa numai mesajul NaN ;
+dacă șirul nu conține alte cifre în afară de 0 , numărul rezultat va fi reprezentat de ultima apariție în șir a cifrei 0 ;
+
+Exemplu
+Input: 00573a9 3ee
+Output: 57393
+0 0 a e e
+Input: ab0 efj0
+Output: 0
+a b 0 e f j

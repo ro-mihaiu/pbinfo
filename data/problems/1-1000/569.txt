@@ -1,0 +1,22 @@
+#569
+Stergeri
+
+Cerința
+Gigel a învățat la matematică adunarea mai multor termeni și acum lucrează la temă. Aceasta constă în scrierea a n egalități, fiecare fiind formată din m termeni, dispuși în ordine în stânga și în dreapta semnului =. Gigel a reușit să-și facă tema, însă maleficul Costel a profitat de neatenția lui Gigel și a șters toate semnele dintre numerele scrise, atât cele de adunare(+) cât și semnul egal(=). Ajutați-l pe Gigel să reconstituie egalitățile la care a lucrat.
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ m ≤ 1000
+pentru fiecare egalitate termenii sunt numere naturale nenule mai mici decât 1000
+toate egalitățile scrise de Gigel au fost inițial corecte
+pentru fiecare egalitate s+d=m
+maleficul Costel nu a modificat ordinea termenilor
+
+Exemplu
+Input: 3 5
+1 2 3 1 5
+7 4 3 1 15
+1 7 2 3 3
+Output: 3 2
+4 1
+2 3

@@ -1,0 +1,12 @@
+#363
+sumcif2
+
+Cerința
+Se citește un număr natural n . Să se determine suma cifrelor aflate pe poziții impare. Numărarea pozițiilor în numărul dat se face începând de la prima cifră.
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 9712654
+Output: 20

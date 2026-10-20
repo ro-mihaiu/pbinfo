@@ -1,0 +1,12 @@
+#468
+numar1
+
+Cerința
+Se dă un număr natural n cu exact trei cifre. Calculaţi pătratul numărului format cu cifra sutelor și cifra unităților.
+
+Restricții
+100 ≤ n ≤ 999
+
+Exemplu
+Input: 745
+Output: 5625

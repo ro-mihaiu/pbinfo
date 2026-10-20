@@ -1,0 +1,13 @@
+#4041
+Multime Gauss
+
+Cerința
+Știind numarul n , să se afle m .
+
+Restricții
+n, m sunt numere naturale
+1 ≤ n, m ≤ 2*10^9+1
+
+Exemplu
+Input: 7
+Output: 4

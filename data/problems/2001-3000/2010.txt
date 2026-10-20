@@ -1,0 +1,19 @@
+#2010
+Fermier
+
+Cerința
+Ajutați-l pe Dorel să calculeze distanța parcursă pentru a transporta îngrășăminte la toate cele n plantații, conform cerințelor.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ n ≤ 2 , pentru teste în valoare de 20 de puncte;
+1 ≤ d[i] ≤ 1000 , 1 ≤ i ≤ n ;
+1 ≤ q[i] ≤ 1000 , 1 ≤ i ≤ n ;
+1 ≤ c ≤ 1000 ;
+În concurs s-au acordat 10 puncte din oficiu. Pe site se acordă 10 puncte pentru exemplu.
+
+Exemplu
+Input: 3 6
+1 10 2 3
+13 2 7
+Output: 22

@@ -1,0 +1,32 @@
+#4494
+CIP
+
+Cerința
+Într-o curte sunt a câini, b iepuri și c pisici. Să se genereze în ordine lexicografică șirurile formate cu toate animalele, care:
+încep cu câine și se termină cu pisică;
+nu conțin niciun iepure între doi câini.
+
+Restricții
+1 ≤ a, b, c ≤ 5
+
+Exemplu
+Input: 3 2 2
+Output: CCCIIPP
+CCCIPIP
+CCCPIIP
+CCIICPP
+CCIIPCP
+CCIPCIP
+CCIPICP
+CCPCIIP
+CCPICIP
+CCPIICP
+CIICCPP
+CIICPCP
+CIIPCCP
+CIPCCIP
+CIPICCP
+CPCCIIP
+CPCIICP
+CPICCIP
+CPIICCP

@@ -1,0 +1,13 @@
+#2913
+Proth Number
+
+Cerința
+Un număr natural n se numește număr Proth dacă este de forma n=k*2 p +1 , unde k și p sunt numere naturale, k este impar și k < 2 p .
+Să se scrie un program care citește un număr natural și verifică dacă este număr Proth.
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 25
+Output: DA

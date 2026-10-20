@@ -1,0 +1,23 @@
+#3417
+GenMat28
+
+Cerința
+Scrieți un program care citește de la tastatură un număr natural n și construiește o matrice cu n linii și n coloane ale cărei elemente vor primi valori dupa cum urmează:
+În colțul din stânga sus, de coorodnate 1 1 , va fi 1 .
+În pozițiile adiacente, de coordonate 1 2 și 2 1 , va fi n .
+În pozițiile adiacente, de coordonate 1 3 , 2 2 și 3 1 , va fi 2 .
+În pozițiile adiacente, de coordonate 1 4 , 2 3 , 3 2 și 4 1 , va fi n-1 .
+Și așa mai departe…
+În penultimele poziții, de coordonate n-1 n și n n-1 , va fi n .
+În ultima poziție, de coordonate n n , va fi 1 .
+
+Restricții
+3 ≤ n ≤ 30
+
+Exemplu
+Input: 5
+Output: 1 5 2 4 3
+5 2 4 3 4
+2 4 3 4 2
+4 3 4 2 5
+3 4 2 5 1

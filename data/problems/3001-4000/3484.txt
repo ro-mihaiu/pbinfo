@@ -1,0 +1,14 @@
+#3484
+3lan
+
+Cerința
+Se dau n numere naturale distincte. Pentru oricare două numere date, distincte, x şi y , se determină ultima cifră a numărului 3 3 3 x•y şi se însumează cifrele obţinute. Aflaţi valoarea acestei sume.
+
+Restricții
+2 ≤ n ≤ 1000
+cele n numere date sunt cel mult egale cu 10.000
+
+Exemplu
+Input: 2
+9 0
+Output: 7

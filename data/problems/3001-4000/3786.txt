@@ -1,0 +1,14 @@
+#3786
+toate
+
+Cerința
+De n numere sunt date, Şi cifra nouă e-n toate, Află ce număr devine Maxim făr’de nouă-n sine?
+
+Restricții
+1 ≤ n ≤ 100.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+923 926 329 429 3959
+Output: 42

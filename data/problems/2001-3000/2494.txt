@@ -1,0 +1,29 @@
+#2494
+descmult
+
+Cerința
+Să se determine: 1. numărul total de divizori naturali ai lui X 2. divizorii lui X care aparțin intervalului [A,B] , unde A și B sunt două numere naturale date.
+
+Restricții
+2 ≤ n ≤ 20
+1 ≤ A ≤ B ≤ 10 7
+2 ≤ Di < 1000 (numere prime distincte), 1≤i≤n
+1 ≤ Ei ≤ 10 , 1≤i≤n
+Factorii primi D1, D2,...,Dn nu sunt obligatoriu în ordine crescătoare
+Se garantează că numărul maxim de divizori naturali ai lui X ≤ 10 19
+Intervalul [A,B] conține cel puțin un divizor
+Numărul maxim de divizori aflați în intervalul [A,B] este ≤ 10 6
+Ordinea de afișare a divizorilor nu este importantă
+Pentru rezolvarea corectă a cerinței 1 se acordă 20 de puncte, iar pentru cea de-a doua cerință se acordă 80 de puncte.
+
+Exemplu
+Input: 1
+4 30 50
+3 2 5 11
+1 3 2 1
+Output: 48
+Input: 2
+4 30 50
+3 2 5 11
+1 3 2 1
+Output: 30 44 50 40 33

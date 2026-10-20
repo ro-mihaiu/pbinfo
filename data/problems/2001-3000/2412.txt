@@ -1,0 +1,16 @@
+#2412
+submat1
+
+Cerința
+Fiind dată o astfel de matrice se cere să se determine numărul maxim de zerouri dintr-o submatrice nulă ce se poate obţine printr-o rearanjare a liniilor matricei date.
+
+Restricții
+2 ≤ n, m ≤ 1000
+Pentru 60% din teste n, m ≤ 100 .
+
+Exemplu
+Input: 3 5
+0 0 0 1 1
+0 1 1 1 1
+0 0 0 0 1
+Output: 6

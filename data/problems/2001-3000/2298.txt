@@ -1,0 +1,18 @@
+#2298
+magnitudine
+
+Cerința
+În această problemă veţi primi două numere natural N , şi K . Definim magnitudinea unui număr ca fiind diferenţa dintre cifra maximă şi cifra minimă ale lui. De exemplu, magnitudinea lui 9748 este 9 – 4 = 5 .
+Eliminaţi maxim K cifre din numărul N , astfel încât magnitudinea numărului obţinut să fie cât mai mică.
+
+Restricții
+1 ≤ N ≤ 10 18
+pentru teste în valoare de 30 puncte, K = 0
+pentru teste în valoare de 30 puncte, K = 1
+pentru teste în valoare de 40 puncte, K = 2
+
+Exemplu
+Input: 9748 1
+Output: 2
+Input: 90021 1
+Output: 2

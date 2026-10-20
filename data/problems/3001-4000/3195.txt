@@ -1,0 +1,24 @@
+#3195
+Intersectie_Multimi
+
+Cerința
+Se dă o mulţime nevidă A cu n elemente numere reale. Să se afișeze elementele mulțimilor A ∩ N , A ∩ Z , A ∩ Q și A ∩ (R-Q) . Numerele raţionale pot fi periodice sau neperiodice. Pentru numerele iraţionale sunt date numai primele zecimale (maxim 5 ), urmate de 3 puncte.
+
+Restricții
+1 ≤ n ≤ 50
+cele n numere citite vor fi mai mici decât 1.000.000.000 și mai mari decât -1.000.000.000
+dacă una dintre mulțimile cerute este vidă se va afișa corespunzător doar mesajul Multime vida
+
+Exemplu
+Input: 10
+3.14... 1.41... 10000 -3.8(7) 1224 -12 324 3.27 1 6.78912345
+Output: 10000 1224 324 1 
+10000 1224 -12 324 1 
+10000 -3.8(7) 1224 -12 324 3.27 1 6.78912345 
+3.14... 1.41...
+Input: 10
+3.14... 1.41... 10000.1 -3.8(7) 1224.5 -12 324.432 3.27 1.41 6.78912345
+Output: Multime vida
+-12
+10000.1 -3.8(7) 1224.5 -12 324.432 3.27 1.41 6.78912345
+3.14... 1.41...

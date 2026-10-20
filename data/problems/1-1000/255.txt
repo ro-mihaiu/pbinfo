@@ -1,0 +1,12 @@
+#255
+fibonacci
+
+Cerința
+Se dă un număr natural n . Să se afişeze în ordine crescătoare, primii n termeni ai şirului lui Fibonacci.
+
+Restricții
+1 ≤ n ≤ 40
+
+Exemplu
+Input: 5
+Output: 1 1 2 3 5

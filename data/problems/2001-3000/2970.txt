@@ -1,0 +1,23 @@
+#2970
+paralele1
+
+Cerința
+Se cere determinarea numărului de perechi de segmente: 1. aflate pe linii distincte ale matricei; 2. aflate pe coloane distincte ale matricei;
+
+Restricții
+1 ≤ T ≤ 2
+Pentru 30 de puncte se garantează că T = 1 , N = 2 , 2 ≤ M ≤ 500 și toate elementele 1 de pe oricare dintre linii, dacă există, formează o secvență compactă.
+Pentru alte 30 de puncte se garantează că T = 2 , 2 ≤ N ≤ 500 , 2 ≤ M ≤ 500 și pe oricare coloană sunt maximum două valori de 1 alăturate.
+Pentru alte 9 puncte se garantează că T = 1 , 2 ≤ N ≤ 500 , 2 ≤ M ≤ 500 .
+Pentru alte 9 puncte se garantează că T = 2 , 2 ≤ N ≤ 500 , 2 ≤ M ≤ 500 .
+Pentru alte 12 puncte se garantează că T = 1 , 35.000 ≤ N ≤ 40.000 și 8 ≤ M ≤ 10 .
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă pentru exemplul din enunț.
+
+Exemplu
+Input: 1 5 6
+0 1 1 1 0 0
+1 0 0 0 0 0
+0 0 0 1 0 0
+1 1 0 1 1 0
+0 1 1 0 0 0
+Output: 11

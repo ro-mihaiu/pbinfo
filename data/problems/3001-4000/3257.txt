@@ -1,0 +1,12 @@
+#3257
+cifre_romane1
+
+Cerința
+Dan a plecat în vacanța de vară la Roma. Pe fațada clădirilor apărea anul lor de construcție scris cu cifre romane. Ajutați-l să înțeleagă numărul scris în cifre romane transformându-l în număr scris cu cifre arabe. Dacă numărul nu respectă regulile de scriere a numerelor romane, se afișează mesajul Numar invalid .
+
+Restricții
+1 ≤ n ≤ 3999
+
+Exemplu
+Input: IIII
+Output: Numar invalid

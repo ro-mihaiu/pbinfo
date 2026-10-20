@@ -1,0 +1,14 @@
+#2268
+Colegi
+
+Cerința
+Dirigu’ vrea să știe care este cel mai frecvent prenume printre elevii din clasa noastră. Pentru aceasta a realizat o listă cu cele n prenume ale elevilor din clasă și acum vă cere să determinați prenumele cel mai frecvent și numărul său de apariții.
+Dacă sunt mai multe prenume cu număr maxim de apariții se va determina primul în ordine alfabetică.
+
+Restricții
+1 ≤ n ≤ 100.000 – mda, este o clasă cam mare…
+
+Exemplu
+Input: 8
+Maria Tudor Andrei Tudor George Andrei Ioana Andrei
+Output: Andrei 3

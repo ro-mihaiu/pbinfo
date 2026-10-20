@@ -1,0 +1,13 @@
+#2236
+swap01
+
+Cerința
+Să se determine numărul minim de operații swap care pot fi efectuate astfel încât toate valorile de 1 să apară pe poziții consecutive în șir.
+
+Restricții
+1 ≤ n ≤ 100.000
+
+Exemplu
+Input: 14
+1 0 0 1 0 1 1 0 1 0 0 0 1 0
+Output: 2

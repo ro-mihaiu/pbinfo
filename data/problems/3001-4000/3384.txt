@@ -1,0 +1,12 @@
+#3384
+codjoc
+
+Cerința
+Vreți să îl ajutați pe Alex să găsească acest cod de acces pentru un număr n primit? Scrieți un program care determină și afișează codul de acces al jocului. Puteți primi 100 de puncte.
+
+Restricții
+• 0 < n ≤ 2.000.000.000 , n număr natural
+
+Exemplu
+Input: 123456
+Output: 150886

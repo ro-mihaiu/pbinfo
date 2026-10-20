@@ -1,0 +1,13 @@
+#1752
+nr_aparitii_rec
+
+Cerința
+Scrieţi în limbajul C++ definiţia completă a funcţiei recursive nr_aparitii cu următorul antet:
+unsigned nr_aparitii(char *sir, char *secventa)
+ce returnează numărul de apariţii ale şirului de caractere secventa în şirul sir .
+
+Restricții
+cele două şiruri nu conţin spaţii şi au cel mult 1000 de caractere
+biblioteca cstring ( string.h ) este deja inclusă la verificare
+
+Exemplu

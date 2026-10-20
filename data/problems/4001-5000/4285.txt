@@ -1,0 +1,16 @@
+#4285
+Report
+
+Cerința
+Să se afișeze elementele șirului după efectuarea tuturor celor m operații.
+
+Restricții
+1 ≤ n, m ≤ 200.000
+-1.000.000.000 ≤ a[i] ≤ 1.000.000.000
+
+Exemplu
+Input: 4 2
+1 2 4 3
+2 3
+1 2
+Output: 2 4 1 3

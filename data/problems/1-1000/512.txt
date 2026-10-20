@@ -1,0 +1,14 @@
+#512
+sortmax
+
+Cerința
+Se dă un vector cu n elemente, numere naturale distincte. Ordonați crescător elementele situate înaintea valorii maxime din vector și descrescător elementele situate după această valoare.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 7
+13 1 10 15 3 7 11
+Output: 1 10 13 15 11 7 3

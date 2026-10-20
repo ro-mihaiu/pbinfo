@@ -1,0 +1,12 @@
+#3741
+StarsAndBars1
+
+Cerința
+Gigel are n bile și k cutii. În câte moduri poate plasa Gigel bilele în cutii, știind că pot rămâne și cutii goale.
+
+Restricții
+1 ≤ k , n ≤ 500
+
+Exemplu
+Input: 3 2
+Output: 4

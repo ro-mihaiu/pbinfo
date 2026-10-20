@@ -1,0 +1,8 @@
+#1188
+casa
+
+Cerința
+Se dă descrierea unei case prin construcţie şi se cere descrierea acesteia prin matricea minimală. Se dă descrierea unei case prin matricea minimală şi se cere descrierea acesteia prin construcţie.
+
+Restricții
+și precizări Matricea minimală a unei case are maximum 100000 elemente.

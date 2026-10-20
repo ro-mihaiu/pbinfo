@@ -1,0 +1,13 @@
+#1255
+Lipsa
+
+Cerința
+Se dau n - 1 numere naturale distincte de la 1 la n . Să se gaseasca numărul lipsă.
+
+Restricții
+2 ≤ n ≤ 1.000.000
+
+Exemplu
+Input: 5
+5 3 1 2
+Output: 4

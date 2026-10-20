@@ -1,0 +1,15 @@
+#646
+Subarbore1
+
+Cerința
+Se dă vectorul de tați al unui arbore cu rădăcină cu n noduri și un nod k . Afișați, în ordine crescătoare, nodurile terminale din subarborele cu rădăcina în k .
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ k ≤ n
+în vectorul de tați rădăcina este marcată cu 0
+
+Exemplu
+Input: 8 4
+4 3 0 3 2 1 4 1
+Output: 6 7 8

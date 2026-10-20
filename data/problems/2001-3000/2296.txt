@@ -1,0 +1,16 @@
+#2296
+gcd
+
+Cerința
+Se dau două șiruri de câte N numere naturale fiecare. Se cere să se găsească valoarea maximă a celui mai mare divizor comun a două numere A și B , astfel încât A să aparțină primului șir, iar B să aparțină celui de-al doilea șir.
+
+Restricții
+N ≤ 500.000
+Elementele celor două șiruri sunt mai mici sau egale cu 1.000.000
+Pentru 40% din teste, N ≤ 1.000
+
+Exemplu
+Input: 5
+3 1 4 2 8
+5 2 12 8 3
+Output: 8

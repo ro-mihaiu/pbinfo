@@ -1,0 +1,16 @@
+#4235
+PerechiDivP
+
+Cerința
+Scrieţi definiția completă a subprogramului C++ cu antetul:
+long long PerechiDivP(int a[], int n, int P)
+Subprogramul returnează numărul de perechi (a[i], a[j]) cu i < j și suma a[i]+a[j] este multiplu de P .
+
+Restricții
+1 ≤ a[i] ≤ 30.000
+2 ≤ n ≤ 200.000
+2 ≤ P ≤ 1.000
+elementele vectorului a sunt indexate de la 0
+Puteți utiliza în rezolvare orice structură de date și orice funcție predefinită.
+
+Exemplu

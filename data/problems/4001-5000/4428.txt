@@ -1,0 +1,19 @@
+#4428
+pix
+
+Cerința
+Scrieţi un program care citeşte valorile N , nr[1] , nr[2] , … nr[N] şi Vmax și determină numărul minim de cutii pe care robotul Vasile trebuie să le pregătească în camera de livrare astfel încât să poată livra orice număr de pixuri cuprins între 1 şi Vmax , fără a deschide nicio cutie.
+
+Restricții
+1 ≤ N ≤ 100.000
+1 ≤ Vmax, nr[i] ≤ 10 12 , pentru 1 ≤ i ≤ N
+Se garantează că pentru toate datele de test există soluție.
+Pentru 20 de puncte, 1 ≤ N < 15
+Pentru 10 de puncte, 15 ≤ N < 600
+Pentru 40 de puncte, Vmax ≤ 100.000
+
+Exemplu
+Input: 4
+1 2 3 5
+15
+Output: 5

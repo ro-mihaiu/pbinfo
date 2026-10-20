@@ -1,0 +1,15 @@
+#2419
+intalnire
+
+Cerința
+Doi prieteni se afla pe axa Ox, in puncte cu coordonate întregi. Primul se află în punctul x1 = a , iar al doilea se află în punctul x2 = b . Fiecare se poate mișca cu o poziție, la stânga sau la dreapta, de un număr nelimitat de ori. Când se mișcă, oboseala se modifică după următoarea regulă: la prima mișcare oboseala crește cu 1 , la a doua mișcare oboseala crește cu 2 , la a treia cu 3 și asa mai departe. De exemplu, dacă un prieten se mișcă mai întâi la stânga, apoi la dreapta, și apoi iar la stânga, oboseala lui devine 1 + 2 + 3 = 6 .
+Prietenii vor să se întâlnească într-un punct cu coordonata număr întreg. Aflați oboseala totală minimă pe care cei doi cei doi o vor acumula.
+
+Restricții
+1 ≤ a ≤ 1000
+1 ≤ b ≤ 1000
+a≠b
+
+Exemplu
+Input: 3 4
+Output: 1

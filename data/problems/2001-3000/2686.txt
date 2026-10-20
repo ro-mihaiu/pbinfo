@@ -1,0 +1,15 @@
+#2686
+ASCIIComp
+
+Cerința
+Numim cuvânt un șir de caractere care nu conține spații și conține cel puțin o literă. Numim valoarea ASCII a unui cuvânt suma codurilor ASCII ale caracterelor care fac parte din acel cuvânt.
+Se dă un șir de caractere, care conține litere mici și mari ale alfabetului englez, spații, cifre și alte simboluri. Să se afișeze pe câte un rând valoarea ASCII și cuvintele care au acea valoare, în ordinea crescătoare a valorilor ASCII . Cuvintele cu aceeași valoare a codurilor ASCII sunt afișate pe aceeași linie cu spații între ele în ordinea în care apar în șir.
+
+Restricții
+șirul de caractere va avea maximum 255 de caractere.
+
+Exemplu
+Input: ana   rem      abc    ad01           22222,
+Output: 294 abc ad01
+304 ana
+324 rem

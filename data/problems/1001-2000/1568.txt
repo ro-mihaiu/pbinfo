@@ -1,0 +1,12 @@
+#1568
+mediediv
+
+Cerința
+Se citeşte de la tastatură un număr natural n . Să se calculeze şi să se afişeze media aritmetică a tuturor divizorilor săi. Media va fi cu fix 2 zecimale dupa virgula.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+
+Exemplu
+Input: 9
+Output: 4.33

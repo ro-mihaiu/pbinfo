@@ -1,0 +1,13 @@
+#104
+eliminareperechivocale
+
+Cerința
+Să se scrie un program care citeşte de la tastatură un şir de caractere şi elimină din şir toate perechile de vocale consecutive.
+
+Restricții
+se consideră vocale caracterele din mulțimea {a,e,i,o,u}
+şirul de caractere citit este alcătuit din litere mici ale alfabetului englez şi spaţii
+
+Exemplu
+Input: aceasta familie are doua case
+Output: acsta famil are d case

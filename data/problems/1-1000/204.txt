@@ -1,0 +1,20 @@
+#204
+Siruri
+
+Cerința
+Se citesc două numere naturale nenule n și m . Să se determine toate şirurile cu m elemente din mulţimea {1,2,..,n} , ordonate strict crescător, cu proprietatea că oricare două elemente consecutive în şir au diferenţa mai mică sau egală cu cu 2 .
+
+Restricții
+1 ≤ m ≤ n ≤ 15
+şirurile vor fi afişate în ordine lexicografică
+
+Exemplu
+Input: 5 3
+Output: 1 2 3 
+1 2 4 
+1 3 4 
+1 3 5 
+2 3 4 
+2 3 5 
+2 4 5 
+3 4 5

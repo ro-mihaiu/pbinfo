@@ -1,0 +1,13 @@
+#49
+factorial
+
+Cerința
+Să se scrie un program care citește numărul natural n și determină valoarea lui n! .
+
+Restricții
+0 ≤ n ≤ 15
+prin definiție, 0! = 1
+
+Exemplu
+Input: 4
+Output: 24

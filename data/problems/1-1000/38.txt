@@ -1,0 +1,14 @@
+#38
+shift
+
+Cerința
+Scrieţi definiția completă a subprogramului shift care primește prin intermediul parametrului n o valoare naturală nenulă ( n≤100 ), iar prin intermediul parametrului x , un tablou unidimensional cu n componente. Fiecare componentă a acestui tablou este un număr întreg care are cel mult 8 cifre.
+Subprogramul permută circular cu o poziţie spre stânga primele n elemente ale tabloului x și furnizează tabloul modificat tot prin parametrul x .
+
+Restricții
+0 < n <= 100
+numele subprogramului cerut este shift
+parametrii sunt, în această ordine: x , n
+tabloul x are elementele indexate de la zero
+
+Exemplu

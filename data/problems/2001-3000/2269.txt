@@ -1,0 +1,14 @@
+#2269
+maximpar
+
+Cerința
+Se dau n numere naturale. Determinați cel mai mare număr par introdus și numărul său de apariții.
+
+Restricții
+1 ≤ n ≤ 200
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000
+
+Exemplu
+Input: 6
+9 6 9 8 9 8
+Output: 8 2

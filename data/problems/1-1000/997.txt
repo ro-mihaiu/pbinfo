@@ -1,0 +1,15 @@
+#997
+reuniune
+
+Cerința
+Se dau două mulțimi de numere naturale. Să se afișeze reuniunea lor.
+
+Restricții
+1 ≤ n , m ≤ 1000
+elementele celor două mulțimi vor fi mai mici decât 1 000 000 000
+
+Exemplu
+Input: 6 4
+1 3 4 7 10 43
+3 5 10 37
+Output: 1 3 4 5 7 10 37 43

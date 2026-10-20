@@ -1,0 +1,12 @@
+#1489
+Bile1
+
+Cerința
+În câte moduri poate face Algorel acest lucru?
+
+Restricții
+n ≤ 300
+
+Exemplu
+Input: 4
+Output: 24

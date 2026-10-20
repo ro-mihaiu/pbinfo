@@ -1,0 +1,23 @@
+#1949
+tort_LMA
+
+Cerința
+Un celebru rezolvitor de pe pbinfo împlinește venerabila vârstă de n ani. Ceilalți rezolvitori s-au gândit să îi facă o surpriză și să comande un tort special. Acesta are mai multe nivele, toate având forma pătrată, astfel:
+primul nivel este format din n*n prăjituri fiecare având prețul de 1 leu și având scris numărul 1 în partea de sus.
+al doilea nivel se suprapune peste primul exact la mijloc și este format din (n-2)*(n-2) prăjituri fiecare având prețul de 2 lei și având scris numărul 2 în partea de sus.
+al treilea nivel se suprapune peste al doilea exact la mijloc și este format din (n-4)*(n-4) prăjituri fiecare având prețul de 3 lei și având numărul 3 în partea de sus.
+ș.a.m.d.
+a) Calculați și afișați numărul de nivele pe care le are tortul special. b) Afișați tortul, așa cum se vede dacă este privit de sus. c) Calculați și afișați prețul tortului.
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 5
+Output: 3
+11111
+12221
+12321
+12221
+11111
+46

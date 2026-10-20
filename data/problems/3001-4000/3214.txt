@@ -1,0 +1,13 @@
+#3214
+dinamica04
+
+Cerința
+Dându-se un număr natural nenul n , să se determine câte numere bune de n cifre există. Pentru că acest număr poate fi foarte mare, se va determina răspunsul modulo 123457 .
+
+Restricții
+Pentru 70% din punctaj, 1 ≤ n ≤ 100.000
+Pentru 30% din punctaj, 100.001 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 3
+Output: 475

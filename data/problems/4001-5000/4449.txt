@@ -1,0 +1,25 @@
+#4449
+patinaj
+
+Cerința
+Cunoscând numerele care codifică rezultatele antrenorilor, fetelor și băieților, scrieți un program care să determine: 1) Numărul maxim de echipe, NP , pe care le poate înscrie Clubul Sportiv SEPI la olimpiadă astfel încât acestea să respecte regulile de mai sus. 2) Valoarea maximă, V , a unui antrenor al clubului care poate antrena o pereche de patinatori (fată, băiat), ce poate fi înscrisă la olimpiadă conform regulilor de mai sus și numărul de variante NV în care se poate alege o echipă care poate fi pregătită de un antrenor de valoare V .
+
+Restricții
+1 ≤ N ≤ 100.000
+fiecare dintre numerele citite de pe a treia, a patra și a cincea linie a fișierului este un număr natural cu cel mult 9 cifre.
+Pentru 51 de puncte, C = 1
+Pentru 49 de puncte, C = 2
+
+Exemplu
+Input: 1
+4
+8093 18305 20009 188
+1803 3303331 909 91995
+8017 20009 0 8017
+Output: 2
+Input: 2
+4
+8093 18305 20009 188
+1803 3303331 909 91995
+8017 20009 0 8017
+Output: 17 4

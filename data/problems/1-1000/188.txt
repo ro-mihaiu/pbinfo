@@ -1,0 +1,15 @@
+#188
+inlocuirecuvant
+
+Cerința
+Să se modifice s , înlocuind fiecare apariţie a cuvântului a cu cuvântul b .
+
+Restricții
+propoziţia s va avea cel mult 100 caractere
+cuvintele a şi b vor avea cel mult 10 caractere
+cuvintele sunt formate numai din litere mici ale alfabetului englez
+
+Exemplu
+Input: dar insa
+dar nu trebuie dar e mai bine astfel
+Output: insa nu trebuie insa e mai bine astfel

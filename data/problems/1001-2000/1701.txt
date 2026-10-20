@@ -1,0 +1,19 @@
+#1701
+Birouri
+
+Cerința
+Cunoscându-se lungimea n a laturii primului nivel al clădirii, să se determine:
+numărul maxim de niveluri pe care le poate avea clădirea;
+numărul total de birouri ale clădirii cu număr maxim de niveluri.
+
+Restricții
+3 ≤ n ≤ 32768
+Pentru rezolvarea corectă a cerinţei 1 se acordă 30% din punctaj, iar pentru rezolvarea corectă a cerinţei 2 se acordă 70% din punctaj.
+
+Exemplu
+Input: 1
+10
+Output: 5
+Input: 2
+10
+Output: 172

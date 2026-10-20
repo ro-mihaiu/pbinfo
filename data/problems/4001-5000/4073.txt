@@ -1,0 +1,22 @@
+#4073
+ComponenteConexe5
+
+Cerința
+Se dă lista muchiilor unui graf neorientat cu n noduri și m muchii și un șir de q noduri. Să se determine pentru fiecare nod x din șir numărul de noduri din componenta conexă din care face parte x .
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ i , j ≤ n
+1 ≤ q ≤ 1000
+1 ≤ x ≤ n
+
+Exemplu
+Input: 5 3
+1 2
+3 5
+2 4
+3
+2 5 1
+Output: 3
+2
+3

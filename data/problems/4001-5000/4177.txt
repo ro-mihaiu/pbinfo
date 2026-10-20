@@ -1,0 +1,26 @@
+#4177
+livada2
+
+Cerința
+Să se afișeze cantitatea de fructe din fiecare măr după cele q modificări.
+
+Restricții
+1 ≤ n ≤ 100.000
+1 ≤ q ≤ 250.000
+1 ≤ m[i] ≤ 1000 , pentru 1 ≤ i ≤ n
+Pentru 40 de puncte, q ≤ 1000 și n ≤ 1000
+Pentru alte 20 de puncte, nu vor exista meri extra speciali
+
+Exemplu
+Input: 10
+17 18 2 21 14 6 13 14 8 10 
+1 1 0 0 0 0 1 0 0 0 
+7
+2 4 7 3 
+1 8 9 16 
+2 8 8 25 
+2 4 4 8 
+1 2 8 1 
+2 8 9 21 
+1 5 6 19
+Output: 17 8 -8 11 31 23 -16 -15 3 10

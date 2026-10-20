@@ -1,0 +1,20 @@
+#980
+Sir4
+
+Cerința
+Deduceţi regula după care sunt generaţi termenii şirului şi scrieţi un program care să citească numerele naturale p , n şi k şi care să determine:
+a) al câtelea număr din şir are valoarea p ; b) cel mai mare număr natural palindrom care poate fi obţinut folosindu-se cifrele tuturor numerelor din grupa a n -a a şirului dat, nu neapărat toate aceste cifre; c) numărul grupei cu proprietatea că suma tuturor numerelor conţinute de aceasta este egală cu numărul k , dacă există o astfel de grupă.
+
+Restricții
+Numerele p , n şi k sunt naturale
+1 ≤ p ≤ 2.000.001 , p număr natural impar
+1 ≤ n ≤ 50
+1 ≤ k ≤ 2.000.000.000
+un număr natural este palindrom dacă este egal cu numărul obţinut prin scrierea cifrelor sale în ordine inversă
+pentru rezolvarea cerinţei a) se acordă 40% din punctaj, pentru cerinţa b) 30% din punctaj şi pentru cerinţa c) 30% din punctaj.
+
+Exemplu
+Input: 19 5 125
+Output: 10
+22922
+5

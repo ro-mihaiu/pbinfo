@@ -1,0 +1,20 @@
+#2087
+Kminsum
+
+Cerința
+Se consideră un număr natural k și două tablouri unidimensionale A și B , cu n respectiv m elemente, numere întregi, sortate crescător. Să se afișeze primele k perechi de numere de sumă minimă. Fiecare pereche conține un număr din A , un număr din B .
+
+Restricții
+1 ≤ n, m ≤ 1000
+1 ≤ k ≤ 20000
+valorile elementelor celor două tablouri vor aparține intervalului [-1.000.000,1.000.000]
+ordinea de afișare a celor k perechi nu contează
+
+Exemplu
+Input: 5 3 4
+1 2 3 4 5
+2 3 6
+Output: 1 2
+1 3
+2 2
+2 3

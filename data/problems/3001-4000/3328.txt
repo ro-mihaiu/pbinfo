@@ -1,0 +1,13 @@
+#3328
+balaur
+
+Cerința
+A fost o dată un balaur cu 6 capete. Într-o zi Făt-Frumos s-a supărat şi i-a tăiat un cap. Peste noapte i-au crescut alte 6 capete în loc. Pe acelaşi gât! A doua zi, Făt-Frumos iar i-a tăiat un cap, dar peste noapte balaurului i-au crescut în loc alte 6 capete … şi tot aşa timp de n zile. În cea de a ( n+1 )-a zi, Făt-Frumos s-a plictisit şi a plecat acasă!
+Scrieţi un program care citeşte de la tastatură n , numărul de zile, şi care afişează pe ecran câte capete avea balaurul după n zile.
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 3
+Output: 15

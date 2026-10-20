@@ -1,0 +1,8 @@
+#2823
+CifreImpare
+
+Cerința
+Subprogramul cifreImpare are un singur parametru, n , prin care primește un număr natural cu toate cifrele nenule ( n∈[1,10 9 ] ). Subprogramul returnează numărul obținut prin eliminarea tuturor cifrelor impare din n , respectiv -1 dacă nu există astfel de cifre sau dacă toate cifrele lui n sunt impare.
+Scrieți definiţia completă a subprogramului.
+
+Exemplu

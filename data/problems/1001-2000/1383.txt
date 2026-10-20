@@ -1,0 +1,8 @@
+#1383
+avioane
+
+Cerința
+Dată fiind configuraţia caroiajului şi poziţiile loviturilor lansate de adversar, să se determine: a. numărul total de avioane desenate în caroiaj; b. numărul de avioane de fiecare tip; c. numărul de avioane avariate, fără a fi doborâte; d. numărul de avioane doborâte.
+
+Restricții
+și precizări 8 ≤ N ≤ 300 N/2 ≤ L ≤ 2*N Liniile şi respectiv coloanele caroiajului sunt numerotate de la 1 la N .

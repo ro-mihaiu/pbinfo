@@ -1,0 +1,12 @@
+#334
+dreapta
+
+Cerința
+Se dau coordonatele a două puncte diferite din plan. Să se stabilească dacă dreapta determinată de cele două puncte este orizontală, verticală sau oblică.
+
+Restricții
+coordonatele celor două puncte sunt numere întregi din intervalul [-1000 , 1000]
+
+Exemplu
+Input: -1 2 4 -3
+Output: oblica

@@ -1,0 +1,19 @@
+#4589
+cifre14
+
+Cerința
+Cunoscând numărul N de numere și numerele scrise la început de Liisa pe foaia de hârtie, scrieţi un program care să rezolve următoarele două cerinţe: 1. Determină numerele rezultat obținute de Liisa, pentru cele N numere. 2. Determină cel mai mare dintre numerele imagine obținute și numărul său de apariții în șirul celor N numere imagine.
+
+Restricții
+1 ≤ C ≤ 2
+1 ≤ N ≤ 1000
+Numerele din fișierul de intrare sunt nenule și au maximum 9 cifre
+Numerele scrise în fișierul de ieșire vor avea cel mult 18 cifre
+
+Exemplu
+Input: 1 1
+7458
+Output: 742584
+Input: 2 5
+18442 4128 4289 7805609 5087069
+Output: 41111111 2

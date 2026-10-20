@@ -1,0 +1,13 @@
+#1159
+Smen
+
+Cerința
+Se dă un șir V . Știind V 0 = 3 și regula de formare a șirului:
+V i = ([ V i-1 * V i-1 / (i + 2)] + V i-1 * i + i + 1) % 666013 .
+să se determine al n -lea termen al șirului. (unde [x] reprezintă partea întreagă a numărului x )
+
+Restricții
+1 ≤ n ≤ 20.000.000
+Atenție la limitele de timp și de memorie!
+
+Exemplu

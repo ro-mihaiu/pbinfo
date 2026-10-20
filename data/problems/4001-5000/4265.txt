@@ -1,0 +1,16 @@
+#4265
+perechiAB
+
+Cerința
+Să se determine numărul perechilor (v i , v j ) cu i < j și A ≤ v i + v j ≤ B .
+
+Restricții
+3 ≤ n ≤ 160.000
+1 ≤ A ≤ B ≤ 2.000.000.000
+1 ≤ v i ≤ 1.000.000.000
+
+Exemplu
+Input: 5
+1 2 3 4 5
+7 10
+Output: 4

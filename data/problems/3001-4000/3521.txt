@@ -1,0 +1,14 @@
+#3521
+Up
+
+Cerința
+Mario, curios din fire, vrea să afle care este scorul maxim pe care l-ar putea obține în joc.
+
+Restricții
+1 ≤ n ≤ 100.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 10
+10 2 7 5 4 6 7 1 8 9
+Output: 6

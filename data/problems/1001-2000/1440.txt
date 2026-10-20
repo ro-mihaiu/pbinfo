@@ -1,0 +1,16 @@
+#1440
+nr
+
+Cerința
+Se generează un şir de numere naturale ai cărui primi termeni sunt, în această ordine: 1, 20, 21, 300, 301, 320, 321, 4000, 4001, 4020, 4021, 4300, 4301, 4320, 4321, 50000,... Deduceţi regula după care sunt generaţi termenii şirului şi scrieţi un program care să citească numerele naturale k , n şi x şi care să determine: a) numărul de termeni ai şirului care au prima cifră (cea mai semnificativă) egală cu k ; b) cel de-al n -lea termen al şirului din enunţ; c) cel mai mare termen al şirului, mai mic sau egal decât x .
+
+Restricții
+1 ≤ k ≤ 9
+3 ≤ n ≤ 511
+1 ≤ x ≤ 2.000.000.000
+
+Exemplu
+Input: 4 19 57890
+Output: 8
+50021
+54321

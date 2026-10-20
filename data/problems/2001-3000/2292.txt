@@ -1,0 +1,13 @@
+#2292
+Nevricos
+
+Cerința
+a. Dându-se un șir S de cifre nenule, să se determine câte dintre secvențele din S au numere asociate nevricoase. b. Dându-se un șir S de cifre nenule, să se determine câte dintre subșirurile lui S au numere asociate nevricoase.
+
+Restricții
+* Șirul S va conține maxim 1.000.000 de cifre
+
+Exemplu
+Input: 153175
+Output: 1
+3

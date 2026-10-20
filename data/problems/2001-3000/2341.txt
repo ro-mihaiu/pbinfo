@@ -1,0 +1,26 @@
+#2341
+labirint4
+
+Cerința
+Cătălin s-a pierdut iarăși într-o matrice de N linii și M coloane în care unele celule sunt blocate. Cătălin nu găsește ieșirea așa că s-a decis să caute o comoară. El are o harta pe care a desenat-o când era mic și decide să o urmeze. Pe harta este scris un șir format din caracterele U , R , D , L . În fiecare secundă Cătălin se va deplasa în una dintre cele 4 celule adiacente. Presupunând că la secunda S Cătălin se află în celula i, j el se va mișcă în funcție de al S -lea caracter de pe harta în felul următor: pentru U el va păși în celula i - 1, j ; pentru R el va păși în celula i, j + 1 ; pentru D el va păși în celula i + 1, j , iar pentru L , el va păși în celula i, j - 1 .
+Dacă celula în care trebuie să pășească este în afara matricei sau este blocată, atunci Cătălin va sta pe loc în acea secunda. În ce celulă ajunge Cătălin?
+
+Restricții
+1 ≤ lungimea șirului de pe hartă ≤ 10000
+Pentru 20 de puncte 1 ≤ N, M ≤ 10000 și K = 0
+Pentru alte 60 de puncte: 1 ≤ N, M ≤ 500 și 1 ≤ K ≤ N * M
+Pentru restul de puncte: 1 ≤ N, M ≤ 10000 și 1 ≤ K ≤ 1000
+
+Exemplu
+Input: 4 5 7
+1 3
+1 5 
+2 1 
+2 4 
+2 5 
+3 1
+3 2
+2 2
+11
+ULRDDRDRDLU
+Output: 3 3

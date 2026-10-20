@@ -1,6 +1,16 @@
 'use strict';
 
 const path = require('path');
+const fs = require('fs');
+try {
+  const envPath = path.join(__dirname, '.env');
+  if (fs.existsSync(envPath)) {
+    for (const line of fs.readFileSync(envPath, 'utf8').split(/\r?\n/)) {
+      const m = line.match(/^\s*([A-Za-z_][A-Za-z0-9_]*)\s*=\s*(.*)\s*$/);
+      if (m && process.env[m[1]] === undefined) process.env[m[1]] = m[2].replace(/^['"]|['"]$/g, '');
+    }
+  }
+} catch (e) {}
 const express = require('express');
 const store = require('./data/store');
 const i18n = require('./lib/i18n');
@@ -291,7 +301,7 @@ app.post('/client-log', (req, res) => {
 });
 
 // Problem issue reports
-app.post('/p/:id/issues', (req, res) => {
+app.post('/p/:id/issues', async (req, res) => {
   const id = parseInt(req.params.id, 10);
   const problem = store.getProblemById(id);
   if (!problem) return nextNotFound(req, res);
@@ -299,10 +309,30 @@ app.post('/p/:id/issues', (req, res) => {
   const issue = String(req.body.issue || '').trim();
   const email = String(req.body.email || '').trim();
   const whatsapp = String(req.body.whatsapp || '').trim();
-  if (!issue || (!email && !whatsapp) || issue.length > 5000 || email.length > 254 || whatsapp.length > 100) {
+  const emailOk = !email || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  const phoneOk = !whatsapp || /^[0-9+\s()-]{6,20}$/.test(whatsapp);
+  if (!issue || (!email && !whatsapp) || !emailOk || !phoneOk || issue.length > 5000 || email.length > 254 || whatsapp.length > 100) {
     return res.status(400).redirect(`/p/${id}?issue=invalid#issue-form`);
   }
   const saved = store.saveIssue({ problemId: id, issue, email: email || null, whatsapp: whatsapp || null });
+  const webhook = process.env.DISCORD_WEBHOOK_URL;
+  if (webhook) {
+    try {
+      const base = process.env.SITE_URL || 'http://localhost:3000';
+      await fetch(webhook, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          embeds: [{
+            title: `Problema ${id}`,
+            url: `${base}/p/${id}`,
+            description: issue,
+            footer: { text: `Contact: ${email || '-'} | ${whatsapp || '-'}` }
+          }]
+        })
+      });
+    } catch (e) { console.error('discord webhook failed', e.message); }
+  }
   return res.redirect(`/p/${id}?issue=${saved ? 'sent' : 'error'}#issue-form`);
 });
 

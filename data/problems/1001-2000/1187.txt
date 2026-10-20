@@ -1,0 +1,43 @@
+#1187
+Roboti1
+
+Cerința
+Cunoscând dimensiunile N , M ale terenului și coordonatele parcelelor în care sunt plantați copaci se cere:
+1. Numărul minim de roboți necesari defrișării întregului teren. 2. Să se răspundă la Q interogări de forma k , unde k este un număr natural. Pentru fiecare interogare de această formă va trebui determinată latura minimă a unui robot astfel încât să fie necesari pentru defrișare cel mult k roboți.
+
+Restricții
+2 ≤ N, M, L ≤ 150
+1 ≤ Q ≤ 150
+1 ≤ k[i] ≤ 150 , 1 ≤ i ≤ Q
+1 ≤ T ≤ 1000
+Latura robotului nu poate fi mai mare decât dimensiunile terenului
+Pe tot parcursul deplasării, fiecare robot se va afla în interiorul suprafeţei terenului.
+În orice moment în interiorul suprafeţei terenului se va afla cel mult un robot.
+
+Exemplu
+Input: 1
+6 8 8
+4 1
+5 3
+3 5
+2 6
+5 5
+4 7
+3 8
+6 8
+4
+Output: 1
+Input: 2
+6 8 8
+4 1
+5 3
+3 5
+2 6
+5 5
+4 7
+3 8
+6 8
+2
+1 3
+Output: 4
+1

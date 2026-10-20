@@ -1,0 +1,13 @@
+#155
+cifmax
+
+Cerința
+Scrieţi un program care citeşte de la tastatură un şir de cel mult 60 de caractere (litere mici şi mari ale alfabetului englez, cifre, puncte, virgule şi spaţii) şi afişează pe ecran cifra care apare de cele mai multe ori în şirul citit.
+
+Restricții
+dacă şirul conţine mai multe cifre cu număr maxim de apariţii si va afişa cea mai mică
+dacă şirul nu conţine cifre se va afişa NU .
+
+Exemplu
+Input: Voi lua 9,5 la matematica 10 la informatica si 10 la romana
+Output: 0

@@ -1,0 +1,18 @@
+#1894
+floarea
+
+Cerința
+Se dă un număr natural n . Construiți și afișați o matrice ce reprezintă floarea dupa n luni.
+
+Restricții
+1 ≤ n ≤ 9
+
+Exemplu
+Input: 3
+Output: 3 3 3 3 3 3 3
+3 2 2 2 2 2 3
+3 2 1 1 1 2 3
+3 2 1 0 1 2 3
+3 2 1 1 1 2 3
+3 2 2 2 2 2 3
+3 3 3 3 3 3 3

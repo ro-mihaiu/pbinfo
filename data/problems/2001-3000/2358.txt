@@ -1,0 +1,15 @@
+#2358
+castig
+
+Cerința
+Scrieţi un program care, cunoscând n , k şi valorile celor n premii, determină cel mai mic număr valmin , astfel încât Bogdan să nu poate selecta k premii aşezate pe poziţii consecutive cu o valoare totală mai mare decât valmin .
+
+Restricții
+3 ≤ n ≤ 100 000
+1 ≤ k ≤ n/3
+1 ≤ v[i] ≤ 1 000 000 000 , pentru 1 ≤ i ≤ n
+
+Exemplu
+Input: 10 3
+2 5 7 3 1 22 7 2 9 1
+Output: 15

@@ -1,0 +1,12 @@
+#923
+FractiiMax
+
+Cerința
+Se dau 4 numere naturale a b c d , reprezentând fracţiile a/b şi c/d . Determinați și afișați cea mai mare dintre cele două fracții.
+
+Restricții
+1 ≤ a, b, c, d ≤ 10000
+
+Exemplu
+Input: 7 14 24 18
+Output: 4 3

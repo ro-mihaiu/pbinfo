@@ -1,0 +1,13 @@
+#77
+ultimacifrapara
+
+Cerința
+Să se scrie un program care să determine ultima cifră pară a unui număr natural citit de la tastatură.
+
+Restricții
+numărul citit va fi mai mic decât 2.000.000.000
+dacă numărul citit nu conține cifre pare se va afișa valoarea -1
+
+Exemplu
+Input: 1265
+Output: 6

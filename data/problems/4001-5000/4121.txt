@@ -1,0 +1,23 @@
+#4121
+dragonfruit
+
+Cerința
+Pentru a-și stabili planul de recoltare, Badinho este interesat de răspunsurile la următoarele întrebări: 1) Care este numărul minim total de cactuși care ar trebui survolați într-un plan de recoltare? 2) Câte planuri de recoltare în care se survolează un număr minim de cactuși există? Deoarece acest număr poate fi foarte mare, se cere doar valoarea sa modulo 1.000.000.007 .
+Badinho își dorește să afle raspunsurile la cele două întrebări într-un număr T de scenarii. Un scenariu este determinat de valorile N , K , S , A[1] , A[2] , …, A[N] .
+
+Restricții
+1 ≤ T ≤ 5
+1 ≤ K ≤ 1000
+1 ≤ S ≤ 10
+0 ≤ A[i] ≤ 1000 pentru oricare 1 ≤ i ≤ N .
+Pentru 4 puncte, S=1 și 1 ≤ N ≤ 2000
+Pentru 7 puncte, S=2 și 1 ≤ N ≤ 100
+Pentru 9 puncte, S=3 și 1 ≤ N ≤ 50
+Pentru 10 puncte, S=1 și 1 ≤ N ≤ 100.000
+Pentru 13 puncte, S=2 și 1 ≤ N ≤ 2000
+Pentru 23 puncte, 1 ≤ N ≤ 70
+Pentru 34 puncte, 1 ≤ N ≤ 2000
+
+Exemplu
+Input: 4 8 7 4 2 1 0 1 0 2 1 99 2 99 10 50 50 3 8 1 1 8 1 5 3 2 2 1 2 1 1
+Output: 5 3 0 0 1 1 2 9

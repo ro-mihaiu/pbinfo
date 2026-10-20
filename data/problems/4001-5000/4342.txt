@@ -1,0 +1,19 @@
+#4342
+pdif
+
+Cerința
+Cunoscând numerele naturale n reprezentând numărul de numere din șir și c reprezentând cerința ( 1 sau 2 ) și un șir de n numere naturale, se cere să se rezolve următoarele cerințe: 1. dacă c = 1 , atunci se cere să se afișeze lungimea maximă a unei secvențe p-dif și numărul de secvențe p-dif de lungime maximă din șir. 2. dacă c = 2 , atunci se cere să se afișeze valorile st și dr , reprezentând poziția de început, respectiv de sfârșit a primei secvențe p-dif de lungime maximă.
+
+Restricții
+0 < n ≤ 100.000
+0 ≤ orice valoare din șir ≤ 1.000.000.000
+lungimea unei secvențe este mai mare sau egală cu 1 , iar numerotarea valorilor în șir începe de la 1
+10 puncte se acordă pentru exemplele din enunț.
+
+Exemplu
+Input: 6 1
+14 2 48 3 35 1024
+Output: 3 2
+Input: 10 2
+14 8 3 25 151 24 21 1022 101 21
+Output: 1 3

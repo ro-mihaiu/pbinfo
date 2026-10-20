@@ -1,0 +1,17 @@
+#1860
+BlackFriday
+
+Cerința
+Anul acesta unele magazine din România s-au hotărât să organizeze BlackFriday joia, altele de luni până joi, iar altele sâmbătă şi duminică. Ele au afişat n preţuri înainte de ieftinire şi cele n preţuri după ieftinire. Aflaţi ce produs s-a ieftinit cu cel mai mare procent.
+
+Restricții
+2 ≤ n ≤ 10
+preţurile sunt numere naturale cuprinse între 1 şi 1.000.000.000 .
+dacă sunt mai multe preţuri care s-au ieftinit cu acelaşi procent se va afişa numărul de ordine mai mic.
+preţurile după ieftinire sunt strict mai mici decât cele anterioare( evident).
+
+Exemplu
+Input: 3
+8 15 200
+4 6 160
+Output: 2

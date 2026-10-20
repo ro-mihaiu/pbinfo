@@ -1,0 +1,19 @@
+#795
+Inaltimi1
+
+Cerința
+Într-o clasă sunt n elevi, numerotați de la 1 la n , băieți și fete, pentru fiecare dintre ei cunoscându-se înălțimea, exprimată în centimetri. Să se determine câte fete sunt mai scunde decât cel mai scund băiat și câți băieți sunt mai înalți decât cea mai înaltă fată.
+
+Restricții
+1 ≤ n ≤ 100
+înălțimile elevilor vor fi mai mici decât 200
+se garantează că există cel puțin o fată și cel puțin un băiat
+
+Exemplu
+Input: 5
+B 176
+F 160
+F 165
+B 180
+B 179
+Output: 2 3

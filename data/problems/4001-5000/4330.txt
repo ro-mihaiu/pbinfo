@@ -1,0 +1,14 @@
+#4330
+Divizori7
+
+Cerința
+Se dă un număr natural n . Calculați suma dintre cei mai mici doi divizori proprii ai lui n .
+
+Restricții
+4 ≤ n ≤ 1.000.000.000
+se garantează că n are cel puțin doi divizori proprii
+divizorii proprii ai unui număr sunt divizorii diferiți de 1 și de numărul însuși
+
+Exemplu
+Input: 12
+Output: 5

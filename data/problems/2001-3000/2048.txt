@@ -1,0 +1,14 @@
+#2048
+mixperm
+
+Cerința
+Să se determine în câte moduri se poate obține un mixperm .
+
+Restricții
+1 ≤ n ≤ 10.000
+
+Exemplu
+Input: 6
+3 2 1 4 4 5
+2 3 3 4 6 5
+Output: 8

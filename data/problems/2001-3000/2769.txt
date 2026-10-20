@@ -1,0 +1,12 @@
+#2769
+TREIprime
+
+Cerința
+Se dă un număr natural n care este produs de trei numere prime distincte. Ştiind că există m numere naturale prime cu n şi mai mici decât acesta, să se afişeze în ordine crescătoare cele trei numere prime din descompunerea lui n .
+
+Restricții
+1 ≤ m ≤ n ≤ 10 18
+
+Exemplu
+Input: 66 20
+Output: 2 3 11

@@ -1,0 +1,14 @@
+#4483
+SortVocCons
+
+Cerința
+Se dă un şir de cel mult 100 caractere ce conţine numai litere mici ale alfabetului englez.
+Să se sorteze caracterele șirului astfel încât vocalele să fie ordonate descrescător, iar consonele să rămână exact cum sunt în șirul citit.
+
+Restricții
+se consideră vocale literele din multimea {a,e,i,o,u}
+şirul conține cel mult 100 caractere și conține numai litere mici ale alfabetului englez
+
+Exemplu
+Input: romancier
+Output: romincear

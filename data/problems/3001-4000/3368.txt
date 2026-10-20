@@ -1,0 +1,15 @@
+#3368
+Lee2
+
+Cerința
+Determinați costul minim al unui drum care pornește de la poziția (1,1) și se termină la poziția (n,n) și domnul Bil Gheiț vă va angaja imediat la compania sa pe post de fochist.
+
+Restricții
+1 ≤ n ≤ 1500
+1 ≤ X, Y, Z, T ≤ 500
+1 ≤ a[i,j] ≤ 500 , pentru orice i=1..n , j=1..n
+
+Exemplu
+Input: 8 21 23 57 31
+253 416 101 476 248 159 387 209
+Output: 446

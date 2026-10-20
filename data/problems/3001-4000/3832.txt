@@ -1,0 +1,17 @@
+#3832
+A-ManhattanDeBuget
+
+Cerința
+Dându-se N puncte laticiale, care este distanța Manhattan de buget minimă dintre două puncte de coordonate a b respectiv x y cu proprietatea că a-y >= x-b ?
+
+Restricții
+2 ≤ n ≤ 100.000
+coordonatele tuturor punctelor aparțin intervalului [-1.000.000.000, 1.000.000.000] .
+Distanța Manhattan de buget dintre punctul cu coordonate a b si punctul de coordonate x y este a-x+b-y .
+
+Exemplu
+Input: 3
+1 1
+2 3
+-1 -1
+Output: 3

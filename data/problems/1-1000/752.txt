@@ -1,0 +1,12 @@
+#752
+BiArbore
+
+Cerința
+Se consideră un arbore binar în care nodurile memorează numere naturale nenule. Să se determine valorile memorate în descendenții direcți ai rădăcinii arborelui.
+
+Restricții
+se recomandă folosirea arborilor alocați dinamic.
+
+Exemplu
+Input: 67 51 18 0 0 24 0 0 48 0 11 0 0
+Output: 51 48

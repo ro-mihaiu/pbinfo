@@ -1,0 +1,21 @@
+#256
+fiboverif
+
+Cerința
+Se dau n numere naturale. Să se verifice despre fiecare dacă este termen al şirului lui Fibonacci.
+
+Restricții
+1 ≤ n ≤ 10
+numerele care se verifică au cel mult 9 cifre
+
+Exemplu
+Input: 8
+13 1 8 24 21 55 47 8
+Output: DA
+DA
+DA
+NU
+DA
+DA
+NU
+DA

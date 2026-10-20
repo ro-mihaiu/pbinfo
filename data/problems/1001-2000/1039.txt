@@ -1,0 +1,26 @@
+#1039
+Betasah
+
+Cerința
+Scrieţi un program care să citească numerele naturale N , D , K , poziţiile damelor şi ale pătratelor gri pe suprafaţa de joc şi care să determine: a) numărul maxim M de pătrate albe conţinute de un rând al suprafeţei de joc; b) numărul P de pătrate accesibile de pe suprafaţa de joc.
+
+Restricții
+2 ≤ N ≤ 1000 ;
+1 ≤ D ≤ 100 ;
+1 ≤ K ≤ 50 ;
+D + K ≤ N*(N+1)/2 ;
+1 ≤ y i ≤ x i ≤ N pentru i=1,2,3,...,D ;
+1 ≤ t j ≤ z j ≤ N pentru j=1,2,3,...,K ;
+pentru rezolvarea corectă a cerinţei a) se acordă 20% din punctaj, iar pentru rezolvarea corectă a cerinţei b) se acordă 80% din punctaj.
+
+Exemplu
+Input: 6 3 4
+3 2 
+5 2
+5 4
+3 1
+4 3
+6 4
+1 1
+Output: 5
+13

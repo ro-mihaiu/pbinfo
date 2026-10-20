@@ -1,0 +1,12 @@
+#3188
+Mate
+
+Cerința
+Iarina a auzit la ora de matematica de numere triangulare. Un numar se numeste triangular daca se scrie ca suma primelor k numere naturale. Doamna profesoara le-a propus sa rezolve pentru acasa urmatoarea problema: Determinati toate numerele triangulare care sunt patrate perfecte. Iarina va roaga sa o ajutati sa rezolve aceasta problema: Se da o valoare n sa se afiseze primele n numere naturale triangulare care sunt patrate perfecte.
+
+Restricții
+1 ≤ n ≤ 10
+
+Exemplu
+Input: 2
+Output: 1 36

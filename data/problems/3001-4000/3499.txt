@@ -1,0 +1,15 @@
+#3499
+Secv011
+
+Cerința
+Să se determine numărul de secvențe ale șirului \(A\) ce conțin de două ori mai mulți de \(1\) decât de \(0\).
+
+Restricții
+Pentru teste în valoare de 20 de puncte, \(1 \le n \le 1.000\).
+Pentru teste în valoare de 50 de puncte, \(1 \le n \le 5.000\).
+Pentru teste în valoare de 100 de puncte, \(1 \le n \le 1.000.000\).
+
+Exemplu
+Input: 6
+1 0 1 1 1 0
+Output: 4

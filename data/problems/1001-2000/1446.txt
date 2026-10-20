@@ -1,0 +1,14 @@
+#1446
+memory002
+
+Cerința
+Se dă un şir format din n numere naturale distincte. Calculați suma elementelor din secvenţa ce uneşte cel mai mic şi cel mai mare element din şir.
+
+Restricții
+2 ≤ n ≤ 500.000
+numerele din şir vor fi mai mici decât 2.000.000.000
+
+Exemplu
+Input: 5
+7 2 4 9 8
+Output: 15

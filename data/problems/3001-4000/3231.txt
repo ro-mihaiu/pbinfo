@@ -1,0 +1,13 @@
+#3231
+afisarenumere2
+
+Cerința
+Se dă un număr natural n . Afișați pe o linie primele n numere naturale nenule în ordine crescătoare, iar pe linia următoare aceleași numere, dar în ordine descrescătoare.
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 5
+Output: 1 2 3 4 5 
+5 4 3 2 1

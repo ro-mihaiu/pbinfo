@@ -1,0 +1,28 @@
+#4433
+kth1
+
+Cerința
+Ajutați-l pe Mihai să afle care este răspunsul corect pentru Q întrebări de tipul descris mai sus!
+
+Restricții
+2 ≤ N ≤ 300.000 și 1 ≤ Q ≤ 300.000 .
+−50 000 ≤ V[i] ≤ 50.000 , pentru fiecare i : 1 ≤ i ≤ N .
+1 ≤ poz ≤ N − L + 1 , pentru fiecare dintre cele Q întrebări.
+Valorile poz din cadrul celor Q întrebări nu sunt neapărat distincte între ele oricare două.
+Datorită dimensiunilor, nu toate testele au putut fi adăugate.
+
+Exemplu
+Input: 5 2 3
+4 -5 2 1 4
+2
+2
+1
+Output: 1
+2
+Input: 5 2 3
+1 5 2 4 3
+2
+2
+1
+Output: 4
+2

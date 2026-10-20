@@ -1,0 +1,16 @@
+#1316
+prim aproapeprim patratprim compus
+
+Cerința
+Un număr natural nenul este prim , dacă are exact doi divizori (ex. 7 ).
+Un număr natural nenul se va numi pătrat prim , dacă este pătratul unui număr prim (ex. 49 = 7 * 7 ).
+Un număr natural nenul se va numi aproape prim , dacă este produsul a două numere prime distincte (ex. 10 = 2 * 5 ).
+Un număr natural nenul ce nu se încadrează în niciuna din cazurile de mai sus, se numeşte compus (ex. 8=2*2*2 , 100=2*2*5*5 ).
+Se citeşte un număr natural n . Să se identifice din ce categorie de mai sus face parte.
+
+Restricții
+1 < n ≤ 2.000.000.000
+
+Exemplu
+Input: 20
+Output: compus

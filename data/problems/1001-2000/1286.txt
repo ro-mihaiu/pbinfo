@@ -1,0 +1,24 @@
+#1286
+submultimi1
+
+Cerința
+Se citește un număr natural nenul n . Să se afişeze, în ordine lexicografică, toate submulțimile nevide ale mulţimii {1,2,..,n} pentru care diferența dintre oricare două elemente este mai mare decât 1 .
+
+Restricții
+1 ≤ n ≤ 10
+elementele fiecărei submulțimi vor fi afișate în ordine crescătoare
+
+Exemplu
+Input: 5
+Output: 1 
+1 3 
+1 3 5 
+1 4 
+1 5 
+2 
+2 4 
+2 5 
+3 
+3 5 
+4 
+5

@@ -1,0 +1,12 @@
+#2377
+pisici
+
+Cerința
+Se cunoaște faptul ca n pisici mănâncă n șoareci în n minute. Sa se determine în cat timp mănâncă m pisici m șoareci.
+
+Restricții
+1 ≤ n,m ≤ 100.000.000.000
+
+Exemplu
+Input: 3 100
+Output: 3

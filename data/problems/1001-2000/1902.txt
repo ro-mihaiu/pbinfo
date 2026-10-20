@@ -1,0 +1,18 @@
+#1902
+DouaMii17
+
+Cerința
+Primele 2017 numere naturale, având fiecare exact 2017 divizori naturali, s-au gândit la început de nou an să-şi pună divizorii împreună, în ordine crescătoare, astfel se vor amesteca şi vor mai socializa şi ei în mod democratic. Marele conducător KWI s-a gândit să bage zâzanie între ei şi a început să le pună n întrebări de genul “-Domnule x , faci cumva parte din societatea secretă a divizorilor celor 2017 numere cu câte 2017 divizori?”. Să sperăm că până în anul 2017 va primi toate răspunsurile şi toată lumea va fi fericită.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 500.000.000
+
+Exemplu
+Input: 5
+1 2 18 23 9
+Output: 1
+1
+0
+1
+1

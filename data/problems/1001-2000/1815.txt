@@ -1,0 +1,20 @@
+#1815
+unghi
+
+Cerința
+Fiind date numărul de ore în variabila h și numărul de minute în variabila m , să se determine câte grade avea unghiul dintre orarul și minutarul unui ceas clasic, la ora h şi m minute?
+
+Restricții
+n este număr natural, 1≤n≤100
+h este număr natural, 0≤h≤24
+m este număr natural, 0≤m≤60
+Dimensiunea unui unghi se măsoară în grade. Un cerc are 360 de grade.
+
+Exemplu
+Input: 3
+8 20
+1 10
+5 15
+Output: 130
+25
+67.5

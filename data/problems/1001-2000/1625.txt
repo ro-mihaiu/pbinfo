@@ -1,0 +1,17 @@
+#1625
+ec2
+
+Cerința
+Se citesc de la tastatura 3 valori reale a , b , c . Rezolvați ecuația de gradul doi cu a*x 2 +b*x+c=0
+
+Restricții
+a b c sunt numere reale, a≠0 .
+numerele afișate vor avea două zecimale
+
+Exemplu
+Input: 1.25 0 -1.25
+Output: 1.00 -1.00
+Input: 1 -2 1
+Output: Radacina dubla 1.00
+Input: 2 1 2
+Output: Nu are solutii reale

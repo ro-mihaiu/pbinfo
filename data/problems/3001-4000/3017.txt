@@ -1,0 +1,15 @@
+#3017
+DecimalConverter
+
+Cerința
+Se dă n un număr natural și un caracter c , care poate fi b , o sau h . Transformați numărul în baza dată de c , astfel:
+c Baza b Bin o Oct h Hex
+
+Restricții
+\(1 ≤ n < {2}^{64}\);
+Cifrele cu valori mai mari decât 9 se vor scrie cu litere mari.
+
+Exemplu
+Input: b
+5
+Output: 101

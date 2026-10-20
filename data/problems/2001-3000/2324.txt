@@ -1,0 +1,12 @@
+#2324
+prim002
+
+Cerința
+Anul 2017 tocmai s-a încheiat, iar nostalgicii suferă în tăcere deoarece acesta era număr prim. Dorel, un personaj întreprinzător, s-a gândit să afle pentru un număr natural n dat, care este cel mai mare divizor prim al acestuia.
+
+Restricții
+1 ≤ n ≤ 10 14
+
+Exemplu
+Input: 2018
+Output: 1009

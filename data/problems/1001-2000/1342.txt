@@ -1,0 +1,15 @@
+#1342
+NrSubsirCresc
+
+Cerința
+Se citeşte n şi un vector v cu n numere naturale. Să se calculeze numărul total S de subşiruri strict crescătoare care se pot forma folosind aceste numere.
+
+Restricții
+1 ≤ n ≤ 300
+v[i] ≤ 1.000.000 , pentru oricare 1 ≤ i ≤ n
+S ≤ 10 18
+
+Exemplu
+Input: 6
+5 2 6 1 1 8
+Output: 15

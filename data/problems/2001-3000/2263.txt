@@ -1,0 +1,15 @@
+#2263
+camioane
+
+Cerința
+O firmă are două tipuri de camioane: camioane de tipul 1 , care pot transporta câte t1 tone de marfă pe zi, și camioane de tipul 2 , care pot transporta câte t2 tone de marfă pe zi.
+Știind că firma are n camioane de tipul 1 și m camioane de tipul 2 , câte tone de marfă pot transporta camioanele firmei în z zile.
+
+Restricții
+2 ≤ t1, t2 ≤ 100
+2 ≤ n, m ≤ 100
+2 ≤ z ≤ 30
+
+Exemplu
+Input: 3 5 4 2 5
+Output: 110

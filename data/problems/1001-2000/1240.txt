@@ -1,0 +1,13 @@
+#1240
+Ab3
+
+Cerința
+Se se determine pentru n numere a valoarea b maximă astfel încât b 3 + b ≤ a .
+
+Restricții
+1 ≤ n ≤ 100.000
+0 ≤ a ≤ 10 18
+Pentru 40% din teste, se garantează că n * b ≤ 10 6
+Atenție la limita de memorie!
+
+Exemplu

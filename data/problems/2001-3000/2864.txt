@@ -1,0 +1,12 @@
+#2864
+sotron
+
+Cerința
+Scrieți un program care citește numerele naturale N și M , apoi rezolvă următoarele două cerințe: 1. determină cel mai mare număr Z scris de Gigel într-un pătrățel din șotron; 2. determină rândul R și coloana C ale pătrățelului din șotron în care este scris numărul M .
+
+Restricții
+• 3 ≤ N ≤ 111111 • N este un număr natural impar • 1 ≤ M ≤ 6172882716 • Numerele N , R și C sunt numere naturale • Pentru fiecare test există răspuns • Pentru rezolvarea corectă a cerinței 1 se acordă 50 de puncte; pentru rezolvarea corectă a cerinței 2 se acordă 50 de puncte.
+
+Exemplu
+Input: 2 7 19
+Output: 6 3

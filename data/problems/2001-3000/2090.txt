@@ -1,0 +1,22 @@
+#2090
+Actualizare Element, Minim Interval
+
+Cerința
+Afișați răspunsul la fiecare interogare.
+
+Restricții
+1 ≤ N ≤ 100.000
+1 ≤ M ≤ 100.000
+1 ≤ A ≤ B ≤ N
+elementele șirului dat sunt indexate de la 1
+elementele șirului dat sunt de tip int, pozitive
+
+Exemplu
+Input: 5
+1 6 4 3 9
+3
+1 2 4
+2 2 2
+1 2 4
+Output: 3
+2

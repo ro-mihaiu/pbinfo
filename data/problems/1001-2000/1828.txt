@@ -1,0 +1,22 @@
+#1828
+Inlocuire4
+
+Cerința
+Pentru un număr natural x mai mare decât 1 numim redusul lui x cel mai mic număr natural care are exact aceiași divizori primi ca și x .
+Se dă un tablou cu n elemente, numere naturale mai mari decât 1 . Să se înlocuiască fiecare element din tablou cu redusul său și apoi să afișeze elementele din tabloului ordonate descrescător.
+Se vor defini și apela următoarele subprograme:
+citire , care citește de la tastatură valoarea lui n și cele n elemente ale tabloului
+afisare , care afișează pe ecran elementele tabloului, separate prin exact un spațiu
+redus , care determină pentru un număr dat redusul său
+sortare , care sortează descrescător un tablou
+inloc , care realizează înlocuirile cerute.
+În programele C/C++ nu se vor folosi variabile globale .
+
+Restricții
+1 ≤ n ≤ 1000
+elementele tabloului vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 7
+7 18 18 5 14 20 4
+Output: 14 10 7 6 6 5 2

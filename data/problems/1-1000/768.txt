@@ -1,0 +1,17 @@
+#768
+sumapare3
+
+Cerința
+Se dă o matrice cu n linii şi m coloane şi elemente numere naturale. Determinați suma valorilor pare distincte din matrice. Dacă o valoare pară apare în matrice de mai multe ori, se va aduna o singură dată.
+
+Restricții
+1 ≤ m,n ≤ 100
+elementele matricei vor fi mai mici sau egale cu 10000
+
+Exemplu
+Input: 4 6
+4 20 15 23 18 9 
+1 8 23 22 14 18 
+17 15 13 18 12 15 
+3 18 8 20 12 5
+Output: 98

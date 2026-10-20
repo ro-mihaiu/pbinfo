@@ -1,0 +1,14 @@
+#1336
+Domino Dots
+
+Cerința
+Se consideră toate piesele distincte de domino care au cel mult n puncte pe fiecare capăt. Determinați suma obținută prin adunarea numerelor de puncte de pe toate aceste piese.
+
+Restricții
+1 ≤ n ≤ 20000 ;
+evident, piesele de domino pot avea mai mult de 6 puncte pe fiecare din capete;
+piesele (x,y) și (y,x) nu sunt distincte.
+
+Exemplu
+Input: 2
+Output: 12

@@ -1,0 +1,19 @@
+#299
+sumesecv
+
+Cerința
+Se dă un vector cu n elemente numere naturale, numerotate de la 1 la n , și m perechi de indici (i,j) , cu 1≤i<j≤n . Să se determine, pentru fiecare pereche (i,j) , suma elementelor din secvenţa determinată de i şi j .
+
+Restricții
+1 ≤ n ≤ 100
+elementele vectorului vor fi mai mici decât 1000
+1 ≤ m ≤ 100
+
+Exemplu
+Input: 10
+5 5 1 3 6 4 1 2 10 6 
+3
+5 8 
+2 6 
+6 10
+Output: 13 19 23

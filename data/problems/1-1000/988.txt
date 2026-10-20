@@ -1,0 +1,15 @@
+#988
+prime
+
+Cerința
+Se dă un tablou cu n elemente, numere naturale. Să se afișeze numerele prime din șir, în ordinea în care apar în șir.
+Se va defini și apela subprogramul prim , care verifică dacă un număr natural transmis ca parametru este prim.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele tabloului vor fi mai mici decât 1 000 000 000
+
+Exemplu
+Input: 5
+12 2 123 41 77
+Output: 2 41

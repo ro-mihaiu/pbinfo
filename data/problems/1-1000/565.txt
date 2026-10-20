@@ -1,0 +1,23 @@
+#565
+Acoperire
+
+Cerința
+Gigel deține un teren de formă dreptunghiulară, împărțite în n•m sectoare, dispuse pe n linii și m coloane. În anumite sectoare sunt instalate camere de luat vederi. Fiecare cameră acoperă anumite sectoare ale terenului, pe diagonală și are o anumită putere k reprezentând numărul de sectoare pe care le acoperă pe fiecare din cele 4 direcții, inclusiv sectorul în care se află camera.
+În figura de mai jos sunt afișate sectoarele acoperite de o cameră de putere 3 .
+Determinați câte sectoare ale terenului nu sunt acoperite de nici o cameră.
+
+Restricții
+1 ≤ n , m ≤ 1000
+1 ≤ p ≤ 1000
+1 ≤ i ≤ n
+1 ≤ j ≤ m
+1 ≤ p ≤ min(n,m)
+o cameră poate acoperi un sector în care se află o altă cameră
+
+Exemplu
+Input: 5 7 4
+1 7 2		
+2 3 3		
+4 2 3		
+4 5 4
+Output: 16

@@ -1,0 +1,17 @@
+#2362
+balmascat
+
+Cerința
+Scrieţi un program care să îi ajute pe copii să afle codul cu care se deschid cutiile.
+
+Restricții
+11 ≤ n ≤ 10000
+1 ≤ p ≤ 8
+
+Exemplu
+Input: 15 3
+Output: 65656
+Input: 421 6
+Output: 21212121212
+Input: 35 4
+Output: 8989898

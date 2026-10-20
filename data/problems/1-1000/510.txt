@@ -1,0 +1,14 @@
+#510
+sortprime
+
+Cerința
+Se dă un vector cu n elemente, numere naturale. Afișați în ordine crescătoare valorile prime din acest vector.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 7
+13 1 10 15 3 7 11
+Output: 3 7 11 13

@@ -1,0 +1,12 @@
+#3078
+prod-k
+
+Cerința
+Scrieți un program care citește un număr natural n și o cifră k . Programul va calcula produsul P al cifrelor lui n diferite de cifra k .
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+
+Exemplu
+Input: 123242 2
+Output: 12

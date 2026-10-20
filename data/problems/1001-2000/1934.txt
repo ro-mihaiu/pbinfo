@@ -1,0 +1,17 @@
+#1934
+catalin si elfii magici
+
+Cerința
+În regatul lui Cătălin și al lui Sebi există 3 elfi magici, fiecare având vârsta formată dintr-o singură cifră. Fie aceste cifre x , y , z . Ei au aflat că se ține un sfat al bătrânilor în care pot participa doar elfii ale căror vârste sunt numere de 3 cifre. Pentru a fi şi ei prezenţi, cei trei elfi magici își folosesc puterile pentru a-și uni vârstele într-un singur număr de 3 cifre. Transformarea lor este perfectă doar dacă obţin, alăturând vârstele lor, un număr par de 3 cifre.
+Să se afișeze câte transformări perfecte pot avea loc, alăturând cele trei vârste și cea mai mare valoare de trei cifre dintre aceste transformări perfecte. Dacă nu pot forma nici un număr par de trei cifre, elfii nu pot participa la sfat și se va afișa mesajul Poate data viitoare! .
+
+Restricții
+0 ≤ x, y, z ≤ 9
+Dacă avem 2 sau 3 elfi cu vârste egale, prin combinarea acestora se vor obține mai multe transformările identice și fiecare se va lua în considerare la numărare.
+
+Exemplu
+Input: 1 3 5
+Output: Poate data viitoare!
+Input: 0 4 0
+Output: 2
+400

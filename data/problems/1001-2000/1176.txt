@@ -1,0 +1,9 @@
+#1176
+FListaStergere
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+void sterge(nod * p, nod * q);
+care elimină, dacă există, din lista pentru care primul element are adresa memorată în pointerul p elementul situat în listă după elementul cu adresa memorată în q .
+
+Exemplu

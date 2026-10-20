@@ -1,0 +1,18 @@
+#1984
+cifra2
+
+Cerința
+Scrieţi un program care să citească numărul natural N şi care să determine:
+a . cifra minimă din numărul N ; (20% din punctaj)
+b . numărul obținut după prima transformare a numărului N ; (30% din punctaj)
+c . numărul sănătos obținut din N . (50% din punctaj)
+
+Restricții
+10 ≤ N ≤ 1000000 ;
+Testele vor conține doar numere N care pot fi modificate conform cerinței.
+
+Exemplu
+Input: 736191
+Output: 1 
+6258 
+2

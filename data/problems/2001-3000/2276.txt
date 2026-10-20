@@ -1,0 +1,28 @@
+#2276
+cb
+
+Cerința
+Pentru fiecare din cele T intervale de forma [x, y] trebuie să răspundeți la întrebarea: câte numere din șir aparțin intervalului [x, y] ?
+
+Restricții
+1 ≤ n, T ≤ 200 000
+0 ≤ a[i] ≤ 2 000 000 000
+0 ≤ x ≤ y ≤ 2 000 000 000
+
+Exemplu
+Input: 9 7
+6 1 3 5 3 3 9 20 9
+4 10
+0 100
+0 1
+500 506
+3 3
+10 18
+3 9
+Output: 4
+9
+1
+0
+3
+0
+7

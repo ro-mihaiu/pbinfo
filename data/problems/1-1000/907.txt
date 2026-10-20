@@ -1,0 +1,15 @@
+#907
+AfisareNumerePare1
+
+Cerința
+Scrieți definiția completă a funcției C++ afisare care primește doi parametri a și b și afișează pe ecran, în ordine crescătoare, numerele naturale pare cuprinse între a și b , inclusiv acestea.
+
+Restricții
+numele funcției va fi afisare
+funcția va avea exact doi parametri: a , respectiv b
+0 < a , b <= 1000
+numerele vor fi afișate pe aceeași linie, separate prin câte un spațiu
+
+Exemplu
+Input: 2 4 6
+Output: None

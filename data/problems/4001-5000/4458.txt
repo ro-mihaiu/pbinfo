@@ -1,0 +1,15 @@
+#4458
+Secventa4
+
+Cerința
+Se dă un șir cu n elemente, numere naturale. Determinați cea mai lungă secvență de elemente din șir cu proprietatea că oricare două valori consecutive se termină cu aceeași cifră.
+Dacă există mai multe secvențe de lungime maximă cu această proprietate, se va determina cea mai din stânga.
+
+Restricții
+1 ≤ n ≤ 100.000 ;
+elementele șirului vor avea cel mult nouă cifre și sunt numerotate de la 1 la n ;
+
+Exemplu
+Input: 10
+25 41 31 651 74 52 2 522 80 10
+Output: 2 4

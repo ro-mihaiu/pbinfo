@@ -1,0 +1,18 @@
+#3872
+cnt_seq_max_min
+
+Cerința
+Se dă un șir de N numere întregi. Să se afle numărul de subsecvențe ale șirului pentru care diferența dintre elementul lor de valoare maximă și cel de valoare minimă este mai mică sau egală decât un număr întreg T dat.
+
+Restricții
+1 ≤ N ≤ 1.000.000
+0 ≤ T ≤ 2.000.000.000
+cele N numere citite vor fi din intervalul [-1.000.000.000, 1.000.000.000]
+se numește subsecvență a unui șir o succesiune de elemente consecutive din acesta, considerate în ordinea în care apar în șir
+pentru teste în valoare de 30 de puncte N ≤ 10.000
+pentru teste în valoare de 70 de puncte N ≤ 600.000
+
+Exemplu
+Input: 5 2
+1 7 2 3 4
+Output: 8

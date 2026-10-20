@@ -1,0 +1,22 @@
+#4056
+kresturi
+
+Cerința
+Dându-se un șir cu n elemente numere naturale (cu indicii de la 0 ), să se construiască pentru fiecare element din șir câte un tabel al claselor de resturi asociat prin înmulțire dacă indicele elementului este impar, respectiv prin adunare dacă indicele elementului este par.
+
+Restricții
+1 ≤ n ≤ 20
+cele n numere citite sunt numere naturale din intervalul închis [2,10]
+
+Exemplu
+Input: 3
+2 4 3
+Output: 0 1
+1 0
+0 0 0 0
+0 1 2 3
+0 2 0 2
+0 3 2 1
+0 1 2
+1 2 0
+2 0 1

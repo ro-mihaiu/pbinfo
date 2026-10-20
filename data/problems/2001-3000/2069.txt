@@ -1,0 +1,28 @@
+#2069
+roboti2
+
+Cerința
+Cunoscând numărul de roboți, precum și puterea fiecăruia, să se scrie un program care determină: 1. Dimensiunea celei mai lungi secvențe de roboți pentru care puterile armelor lor formează un șir strict crescător. 2. O aranjare a roboților pe cerc, astfel încât suma produselor de câte două puteri vecine să fie maximă. Dacă există mai multe modalităţi de aranjare astfel încât să se obţină aceeaşi sumă maximă, se va determina cea minimă din punct de vedere lexicografic.
+
+Restricții
+2 ≤ n ≤ 100 000
+Pentru cerinţa 1 , secvenţa de lungime maximă se alege pe cerc în sensul acelor de ceasornic.
+Dacă avem două şiruri de numere a[1] , a[2] , …, a[n] şi b[1] , b[2] , …, b[n] şi există 1≤k≤n , cea mai mică poziţie pentru care are loc a[1]=b[1] , a[2]=b[2] , …, a[k-1]=b[k-1] şi a[k]<b[k] , atunci spunem că şirul a este mai mic lexicografic decât şirul b .
+În concurs, pentru rezolvarea corectă a cerinței 1 s-au acordat 30 puncte, pentru rezolvarea corectă a cerinței 2 s-au acordat 60 de puncte, iar din oficiu s-au acordat 10 puncte. Pe site, se acordă 10 puncte pentru exemple.
+Pentru cerința 2 , dacă soluția afișată nu este minimă lexicografic, dar produce suma maximă corectă se acordă 50% din punctajul testului respectiv.
+Pentru cerința 2 , teste în valoare totală de 36 puncte vor avea n ≤ 1000 .
+1 ≤ p[1], p[2],..., p[n] ≤ 1000 .
+
+Exemplu
+Input: 1
+7
+4 7 2 6 5 1 3
+Output: 4
+Input: 2 
+5
+3 9 1 12 5
+Output: 1 3 9 12 5
+Input: 2 
+4
+1 2 1 1
+Output: 1 1 1 2

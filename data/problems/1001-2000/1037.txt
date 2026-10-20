@@ -1,0 +1,8 @@
+#1037
+calcule
+
+Cerința
+Dându-se un şir S cu n elemente numere naturale şi un număr natural k se cere să se răspundă la cele două întrebări.
+
+Restricții
+și precizări 1 < n < 100.000 S are elemente mai mici sau egale cu 20.000 k < 50.000 , k < n Un subşir al şirului S se obţine selectând elemente din S în ordinea în care sunt în S , dar nu obligatoriu de pe poziţii consecutive, iar o secvenţă a şirului S se obţine selectând elemente în ordinea în care sunt în S , dar obligatoriu de pe poziţii consecutive. Se admit şi secvenţe sau subşiruri cu un singur element. Pentru 50% din teste k < 10.000 Pentru răspuns corect la o singură cerinţă se acordă 50% din punctaj. Mai multe subşiruri ale lui S formează o partiţie dacă elementele reuniunii subşirurilor pot fi reaşezate astfel încât să se obţină exact S . x modulo y reprezintă restul împărţirii lui x la y .

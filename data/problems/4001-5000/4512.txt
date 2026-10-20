@@ -1,0 +1,12 @@
+#4512
+dinamica11
+
+Cerința
+Să se determine câte numere formate din n cifre au proprietatea că nu au cifre alăturate care să fie prime. Pentru că acest număr poate fi foarte mare, se va determina modulo 666013 .
+
+Restricții
+2 ≤ n ≤ 100.000
+
+Exemplu
+Input: 2
+Output: 74

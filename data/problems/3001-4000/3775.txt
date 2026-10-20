@@ -1,0 +1,15 @@
+#3775
+prosum
+
+Cerința
+Să se determine numărul perechilor de indici (i, j) , cu i < j , cu proprietatea că numărul a[i]*a[j]+a[i]+a[j] este divizibil cu M .
+
+Restricții
+2 ≤ N ≤ 100.000
+0 ≤ a[i] ≤ 10 18 , pentru orice i∈{1, 2, ..., N}
+1 ≤ M ≤ 10 17
+
+Exemplu
+Input: 4 13
+6 15 6 1
+Output: 2

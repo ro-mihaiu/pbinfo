@@ -1,0 +1,33 @@
+#2071
+Triunghiuri2
+
+Cerința
+Cunoscând N și coordonatele celor N puncte, să se determine:
+1) Numărul maxim de puncte care au aceeași abscisă. 2) Numărul triunghiurilor care se pot desena respectând următoarele condiții:
+au toate vârfurile în puncte dintre cele date;
+au o latură paralelă cu OX ;
+nu au laturi paralele cu OY ;
+
+Restricții
+3 ≤ N ≤ 100 000
+0 ≤ x < 1000
+0 ≤ y < 1000
+Se acordă 25 puncte pentru rezolvarea corectă a cerinței 1 și 65 puncte pentru rezolvarea corectă a cerinței 2. În concurs s-au acordat 10 puncte din oficiu. Pe site se acordă 10 puncte pentru exemple.
+
+Exemplu
+Input: 1
+5
+2 1
+1 4
+3 4
+3 2
+6 4
+Output: 2
+Input: 2
+5
+2 1
+1 4
+3 4
+3 2
+6 4
+Output: 4

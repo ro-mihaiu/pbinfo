@@ -1,0 +1,12 @@
+#3232
+afisarenumerepare2
+
+Cerința
+Se dă un număr natural n . Afișați în ordine crescătoare numerele naturale pare nenule mai mici sau egale cu n .
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 10
+Output: 2 4 6 8 10

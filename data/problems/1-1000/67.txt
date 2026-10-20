@@ -1,0 +1,12 @@
+#67
+aproapeprim
+
+Cerința
+Să se scrie o funcție C++ care verifică dacă un număr natural transmis ca parametru este aproape prim . Un număr natural este aproape prim dacă se poate scrie ca produs de două numere prime distincte.
+
+Restricții
+numele funcției scrise este a_prim
+funcția are un parametru, număr natural, a cărui valoare este mai mică decât 2 31
+rezultatul funcției este 1 dacă valoarea parametrului este număr aproape prim, respectiv 0 în caz contrar
+
+Exemplu

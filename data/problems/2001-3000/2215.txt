@@ -1,0 +1,12 @@
+#2215
+cifre002
+
+Cerința
+Se dă un număr natural n format cu cifre distincte nenule. Să se afle câte numere pare se pot obţine din n , prin rearanjarea cifrelor sale.
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+
+Exemplu
+Input: 324
+Output: 4

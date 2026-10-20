@@ -1,0 +1,23 @@
+#4712
+aperm
+
+Cerința
+Să se ordoneze lexicografic liniile matricei.
+
+Restricții
+3 ≤ n ≤ 50.000
+2 ≤ p ≤ 16
+Dacă sunt linii identice în permutare, aceste linii se vor afișa în ordinea crescătoare a indicilor.
+
+Exemplu
+Input: 5 4
+1 3 4 2
+4 1 2 3
+1 3 2 4
+4 1 2 3
+3 2 4 1
+Output: 3
+1
+5
+2
+4

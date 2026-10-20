@@ -1,0 +1,22 @@
+#1695
+Oglinda
+
+Cerința
+Scrieți un program care să determine și să afișeze rezultatul pentru fiecare operație de tipul 2.
+
+Restricții
+1 ≤ N ≤ 1 000 000
+1 ≤ M ≤ 2000
+Pentru teste în valoare de 40 de puncte, vom avea 1 ≤ N ≤ 2000 .
+Se garantează că 1 ≤ i ≤ j ≤ N la operațiile de tipul 1 și că 1 ≤ i ≤ N la operațiile de tip 2.
+Se garantează că există cel puțin o operație de tipul 2.
+
+Exemplu
+Input: 10 4
+2 3
+1 2 7
+2 3
+2 1
+Output: 3
+6
+1

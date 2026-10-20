@@ -1,0 +1,20 @@
+#1147
+OniGim
+
+Cerința
+Cunoscând numărul de elevi ( N ), numărul de punctaje distincte ( K ) obţinute de elevii de clasa a V-a, punctajele p 1 , p 2 ,…, p K , în ordine strict crescătoare, şi valorile a 1 , a 2 ,…, a N cu semnificaţia din enunţ, să se scrie un program care determină:
+a) Punctajul obţinut de fiecare elev în ordinea crescătoare a id-urilor. b) Numărul de distincţii acordate de organizatori. Numărul de distincţii este egal cu numărul de elevi care au obţinut cele mai mari trei punctaje distincte. c) Numărul maxim de elevi care au obţinut acelaşi punctaj.
+
+Restricții
+1 ≤ N ≤ 1000 ;
+1 ≤ p i ≤ 300 , ( 1≤i≤N );
+0 ≤ a i < 1000 , ( 1≤i≤N );
+1 ≤ K ≤ 1000 ;
+
+Exemplu
+Input: 6 4
+100 150 175 200
+4 2 0 0 3 4
+Output: 200 150 100 100 175 200
+4
+2

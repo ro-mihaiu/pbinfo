@@ -1,0 +1,18 @@
+#2322
+Merry Cristmas
+
+Cerința
+Într-un ținut îndepărtat cu peisaje de poveste pacea domnește peste întreg ținutul deoarece lumea are absolut tot ce îi trebuie.
+Moș Crăciun însa dorește să le mai aducă zâmbetul pe buze și de aceea a decis să ducă fiecărei case câte o sticlă de șampanie deoarece deși oamenii de aici au bani, nu au magazine de unde să cumpere. Însă din păcate Moș Crăciun este bătrân și nu poate transporta prea multe sticle așa că decide să distribuie câte o sticla de șampanie la fiecare două case. Pentru simplitate Moș Crăciun a făcut o hartă a caselor în care o casă este notată cu 1 și pământul gol cu 0 . Moș Crăciun însă nu prea le are cu programarea și de aceea vă roagă să îl ajutați!
+Scrieți un program care primind harta caselor afișează câte sticle de șampanie trebuie să aducă Moș Crăciun.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+cele n numere citite vor fi din intervalul [0;1]
+desigur șampania oferită de Moș Crăciun este una fără alcool
+oricare două case sunt prietene și nu există pereche de case care să refuze șampania
+
+Exemplu
+Input: 7
+1 0 0 1 0 1 1
+Output: 6

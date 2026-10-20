@@ -1,0 +1,9 @@
+#1175
+FListaSuma
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+int suma(nod * p);
+care determina și returnează suma elementelor impare situate între două elemente pare din lista pentru care primul element are adresa memorată în pointerul p .
+
+Exemplu

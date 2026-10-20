@@ -1,0 +1,12 @@
+#813
+globuri
+
+Cerința
+Într-un brad sunt a globuri albe, de două ori mai multe globuri roșii, iar globuri verzi cu 3 mai puține ca numărul de globuri roșii. Câte globuri sunt în total?
+
+Restricții
+2 ≤ a ≤ 1000
+
+Exemplu
+Input: 7
+Output: 32

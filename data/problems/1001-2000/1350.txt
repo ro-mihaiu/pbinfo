@@ -1,0 +1,15 @@
+#1350
+produs2
+
+Cerința
+Se dă un şir cu n numere naturale nenule. Aflaţi câte secvenţe din şir au produsul mai mic decât un număr natural p dat.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+1 < p ≤ 2.000.000.000
+numerele din şir vor fi mai mici decât 1.000
+
+Exemplu
+Input: 5 10
+1 2 3 4 2
+Output: 9

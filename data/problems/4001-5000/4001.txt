@@ -1,0 +1,14 @@
+#4001
+minmaxk9
+
+Cerința
+Se citește o cifră k și apoi se citesc numere naturale distincte de la tastatură până la apariția lui zero. Afișați câte dintre numerele citite după k sunt cuprinse între cel mai mic și cel mai mare număr cu proprietatea că are ultima cifră egală cu k . Dacă niciunul dintre numerele citite nu are ultima cifră egală cu k , atunci se va afișa NU EXISTA .
+
+Restricții
+numerele citite aparțin intervalului [0,1.000.000] și sunt distincte (diferite două câte două).
+0<=k<=9 .
+în total se citesc cel mult 200000 de numere.
+
+Exemplu
+Input: 5 45 44 5505 7884 15 75 530 0
+Output: 3

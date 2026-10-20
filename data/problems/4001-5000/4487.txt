@@ -1,0 +1,29 @@
+#4487
+moser
+
+Cerința
+Se consideră un cerc. Pe cerc se desemnează N puncte oarecare. Dacă tragem linii între toate perechile de puncte, care este numărul maxim de bucăți în care poate fi descompus cercul? Să se răspundă la Q astfel de scenarii.
+
+Restricții
+Se recomandă folosirea fastio
+1 ≤ Q ≤ 100.000
+1 ≤ N ≤ 1.000.000.000
+pentru 25% din teste: Q ≤ 5.000 , N ≤ 5.000
+pentru alte 50% din teste: Q ≤ 100.000 , N ≤ 1.000.000
+pentru restul testelor, nicio restricție suplimentară
+deoarece răspunsul poate fi foarte mare, va fi afișat modulo 1.000.000.007 .
+
+Exemplu
+Input: 6
+1
+2
+3
+4
+5
+6
+Output: 1
+2
+4
+8
+16
+31

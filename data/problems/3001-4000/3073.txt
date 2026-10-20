@@ -1,0 +1,12 @@
+#3073
+repartitie
+
+Cerința
+Cunoscându-se valorile n , k , m și p , numere naturale nenule, scrieți un program pentru a determina x numărul de clase necesar acestei noi repartizări, noul număr y de clase a VII -a, respectiv z de clase a VIII -a, precum și numărul t maxim de elevi repartizați într-o clasă.
+
+Restricții
+n, k, m, p, x, y, z, t ≤ 1.000.000
+
+Exemplu
+Input: 4 30 5 27
+Output: 17 8 9 15

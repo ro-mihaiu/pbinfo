@@ -1,0 +1,14 @@
+#1840
+PMax
+
+Cerința
+Se dau n numere naturale, fie acestea A 1 , A 2 ,..., A n și X i cel mai mic număr care are aceiași factori primi in descompunere ca şi A i , unde 1≤i≤n . Aflați produsul X 1 * X 2 *...* X n .
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 2
+45 20
+Output: 150

@@ -1,0 +1,16 @@
+#344
+Paranteze
+
+Cerința
+Se dă un număr natural par n . Generați toate șirurile de n paranteze rotunde care se închid corect.
+
+Restricții
+1 ≤ n ≤ 20 , număr natural par
+
+Exemplu
+Input: 6
+Output: ((()))
+(()())
+(())()
+()(())
+()()()

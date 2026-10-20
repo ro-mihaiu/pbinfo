@@ -1,0 +1,15 @@
+#164
+HalfSort2
+
+Cerința
+Să se ordoneze crescător elementele situate pe poziții pare în vector și descrescător elementele situate pe poziții impare.
+
+Restricții
+0 < n ≤ 100
+valoarea absolută a numerelor de pe a doua linie a fişierului de intrare va fi mai mică decât 2 30
+indicii elementelor vectorului sunt 1,2,...,n
+
+Exemplu
+Input: 6
+8 9 9 4 5 7
+Output: 9 4 8 7 5 9

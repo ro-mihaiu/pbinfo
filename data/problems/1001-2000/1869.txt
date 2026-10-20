@@ -1,0 +1,14 @@
+#1869
+prosirz
+
+Cerința
+Se consideră un text format din cel mult 200 de caractere litere mici și spații. Cuvintele din text sunt separate prin unul sau mai multe spații. Scrieti un program care citește textul și care: a) determină numărul de vocale din textul citit; b) înlocuiește ultima literă a fiecărui cuvânt din textul citit cu litera Z (mare); c) modifică textul citit prin aranjarea în ordine invers lexicografică a tuturor cuvintelor din text și separarea lor prin câte un singur spațiu.
+
+Restricții
+textul este format din cel mult 200 de caractere, doar litere mici sau spații
+
+Exemplu
+Input: oana   este    la scoala
+Output: 9 
+oanZ   estZ    lZ scoalZ 
+scoala oana la este

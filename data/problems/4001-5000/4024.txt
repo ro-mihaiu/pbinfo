@@ -1,0 +1,18 @@
+#4024
+matprod
+
+Cerința
+Se consideră o matrice pătratică A=(a i,j ) de ordin n , elementele sale fiind cifre în baza 10 . Pentru fiecare element a i,j al matricei definim drumul de la elementul a 1,1 la elementul a i,j ca fiind format din elementele: a 1,1 , a 2,1 , …, a i,1 , a i,2 , a i,3 , …, a i,j . Pentru fiecare element a i,j al matricei, se cere să se calculeze suma produselor oricăror două elemente situate pe drumul de la elementul a 1,1 la elementul a i,j .
+
+Restricții
+2 ≤ n ≤ 1000
+elementele matricei A sunt cifre
+
+Exemplu
+Input: 3
+1 2 3 
+4 5 0
+9 3 7
+Output: 0 2 11
+4 29 29
+49 91 210

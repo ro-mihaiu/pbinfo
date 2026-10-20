@@ -1,0 +1,12 @@
+#388
+numarul-divizorilor-pari
+
+Cerința
+Se citește un număr natural n . Să se determine câți divizori pari are acest număr.
+
+Restricții
+0 < n < 1.000.000.000
+
+Exemplu
+Input: 12
+Output: 4

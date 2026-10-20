@@ -1,0 +1,17 @@
+#2404
+test
+
+Cerința
+Exact așa cum spuneam Alex e un băiat năzdrăvan! De data aceasta boacăna pe care a făcut-o l-a determinat pe profesorul de informatică să îi spună că nu va mai fi iertat și pentru această boacănă așa că îi dă de ales ori îl va asculta doar pe el și restul copiilor vor scăpa ori va dă test tuturor din clasă. Alex este conștient că nu trebuie să fie pedepsiți toți pentru greșeala lui așa ca decide ca doar el trebuie să răspundă! Profesorul complet degajat îi da problema:
+Se dau două șiruri de câte n valori notate A și B . Pentru fiecare pereche \( A_i B_i \) se calculează resturile împărțirii la 6669666 a lui \( {A_i}^{B_i} \). Ajutați-l pe Alex să determine suma acestor resturi.
+
+Restricții
+1 ≤ n ≤ 1000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 4.294.967.296
+desigur că dacă îl veți ajuta Alex vă va răsplăti cu o bere sau cu un suc în funcție de vârstă
+
+Exemplu
+Input: 5
+2 3 4 5 6
+1 2 3 4 5
+Output: 8476

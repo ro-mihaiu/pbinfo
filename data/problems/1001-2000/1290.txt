@@ -1,0 +1,18 @@
+#1290
+cifregen3
+
+Cerința
+Se dau două numere n m . Să se genereze toate numerele cu exact n cifre mai mici decât m cu proprietatea că prima și ultima cifră sunt egale.
+
+Restricții
+1 ≤ n ≤ 7
+0 < m < 6
+
+Exemplu
+Input: 3 3
+Output: 101
+111
+121
+202
+212
+222

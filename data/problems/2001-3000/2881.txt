@@ -1,0 +1,16 @@
+#2881
+Cartonase1
+
+Cerința
+Într-o zi, câțiva copii plictisiți de “Popa Prostul”, au inventat jocul “Popa Prostul 2”. Acest joc se joacă cu mai multe cartonașe identice. La început, fiecare jucător primește un număr de cartonașe. Primul jucător pune pe masă un număr de cartonașe egal cu cel mai mare divizor al numărului de cartonașe pe care îl avea în mână. Următorul pune un număr maxim de cartonașe, divizor al numărului de cartonașe pe care le are în mână, dar și divizor al numărului de cartonașe pus de jucătorul dinainte. Jocul continuă până când unul dintre copii pune jos un singur cartonaș. Jucătorul care va fi nevoit să pună un singur cartonaș va fi pierzătorul.
+Dându-se numărul n de copii și numărul de cartonașe pe care îl primește fiecare, să se determine numărul de ordine al copilului care va pierde jocul.
+
+Restricții
+2 ≤ n ≤ 100.000
+1 ≤ x i ≤ 100.000.000
+Primul jucător va avea numărul de ordine 1 .
+
+Exemplu
+Input: 8
+30 15 6 18 303 45 44 25
+Output: 7

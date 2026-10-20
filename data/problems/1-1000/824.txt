@@ -1,0 +1,12 @@
+#824
+cifmaxrec
+
+Cerința
+Să se scrie o funcție C++ recursivă care să returneze cifra maximă a unui număr natural transmis ca parametru.
+
+Restricții
+numele funcției va fi cifmax
+funcția va avea un parametru reprezentând numărul dat
+numărul pentru care se calculează cifra maximă va fi mai mic decât 2.000.000.000
+
+Exemplu

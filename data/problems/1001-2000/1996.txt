@@ -1,0 +1,15 @@
+#1996
+zigzag
+
+Cerința
+Rail Fence Cipher, cunoscut sub numele de cifru zig-zag, este o metodă de codificare a mesajelor folosind un caroiaj în care textul este scris începând din colţul stânga-sus, diagonal de sus în jos, iar apoi, după ce s-a scris caracterul de pe ultima linie, se continuă, diagonal de jos în sus, ca în exemplu. Numărul de linii ale caroiajului este cheia de codificare. După ce textul a fost scris în acest mod, mesajul codificat se obţine parcurgând liniile de sus în jos şi preluând de pe fiecare linie toate caracterele de la stânga la dreapta. Dacă vrem să codificăm textul OLIMPIADA DE INFORMATICA , cu cheia de codificare 6 , atunci se procedează astfel: 1. Se scrie textul în zigzag în caroiaj
+2. Se iau caracterele pe linii şi se formează mesajul codificat: ODTL EAIIA MCMDIRAPANOIF
+Scrieţi un program care citeşte cheia de codificare şi un text codificat şi determină mesajul decodificat.
+
+Restricții
+• 1 < c < 5000 • 1 < n < 50.000 • În mesaj sunt doar caractere cu codul ASCII mai mic decât 127 şi mai mare decât 31 .
+
+Exemplu
+Input: 6 24
+ODTL EAIIA MCMDIRAPANOIF
+Output: OLIMPIADA DE INFORMATICA

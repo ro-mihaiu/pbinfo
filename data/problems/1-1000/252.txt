@@ -1,0 +1,12 @@
+#252
+u2impare
+
+Cerința
+Se dă un număr natural n . Să se determine cele mai mari două numere impare, mai mici decât n .
+
+Restricții
+4 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 8
+Output: 5 7

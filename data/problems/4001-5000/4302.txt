@@ -1,0 +1,18 @@
+#4302
+status
+
+Cerința
+Por Costel vrea să posteze un mesaj pe Facebook pentru fanii lui. Acest mesaj constă într-un șir continuu de caractere de la ‘a’ la ‘z’ . Fiind un porc și neavând o coordonare bună ochi-copite, tastează uneori un alt caracter decât cel dorit. În acest caz, el vrea să-l steargă. Por Costel nu știe, însă, să folosească tasta Backspace, așa că atunci când vrea să șteargă un caracter, tasteaza încă o data acel caracter. Problema e că și de data aceasta Por Costel riscă să tiparească un caracter greșit, pe care va vrea sa îl “șteargă” cu aceeași metodă. Doar o dată ce a reușit să “șteargă” toate caracterele pe care le-a greșit, va continua el să tasteze următorul caracter din mesaj. Din fericire, a reușit să termine de scris mesajul într-un timp finit și vrea să-l posteze.
+Por Costel e increzător că fanii săi (Por Comunitatea) îi vor întelege mesajul. Totuși, tu ai vrea să nu existe dubii. Dându-se șirul final tiparit de Por Costel se cere reconstituirea mesajului pe care vroia să îl transmita, știind că nu existau în mesajul inițial două caractere consecutive identice.
+
+Restricții
+Pentru 40 de puncte: N ≤ 1 000
+Pentru 100 de puncte N ≤ 1 000 000
+
+Exemplu
+Input: 5
+porcc
+Output: por
+Input: 12
+codeedceabbn
+Output: cocean

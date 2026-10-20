@@ -1,0 +1,15 @@
+#860
+pachete1
+
+Cerința
+Pe poarta unei fabrici ies în ordine n pachete fiecare având un volum cunoscut. Pachetele sunt transportate folosind camioane. Toate camioanele au aceeași capacitate C , iar procedura este următoarea: fiecare pachet scos din fabrică este imediat încărcat într-un camion, și nu este posibil ca la încărcare să fie mai mult de un camion.
+Determinați numărul minim de camioane necesar pentru a transporta cele n pachete.
+
+Restricții
+1 ≤ n ≤ 1000
+volumele pachetelor și capacitatea camioanelor vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5 4
+2 1 3 1 3
+Output: 3

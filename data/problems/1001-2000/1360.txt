@@ -1,0 +1,12 @@
+#1360
+suma-gauss
+
+Cerința
+Se citește n număr natural. Calculați suma tuturor numerelor naturale mai mici sau egale cu n .
+
+Restricții
+n ≤ 1.000.000
+
+Exemplu
+Input: 7
+Output: 28

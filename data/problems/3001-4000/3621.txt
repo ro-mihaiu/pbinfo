@@ -1,0 +1,18 @@
+#3621
+fmbsorted
+
+Cerința
+Scrieți definiția completă subprogramului C++ FMBSorted care are doi parametri:
+a – o matrice pătratică având cel mult 2001 de linii și 2001 de coloane
+n – numărul de linii și coloane ale matricei
+Matricea a memorează numai valori 0 și 1 și are proprietatea că elementele de pe fiecare linie sunt sortate, adică valorile de 0 apar la începutul fiecărei liniei, iar valorile 1 la finalul fiecărei linii. Este posibil ca o linie să conțină doar valoari de 0 sau să conțină doar valori de 1 .
+Subprogramul FMBSorted va returna numărul maxim de valori de 1 care se găsesc pe o linie.
+
+Restricții
+3 < n ≤ 2000
+numele subprogramului cerut este FMBSorted
+parametrii sunt, în această ordine: a , n
+liniile și coloanele matricei sunt indexate de la 1 la n ;
+se garantează că există cel puțin un 1 în matrice
+
+Exemplu

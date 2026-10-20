@@ -1,0 +1,27 @@
+#2484
+key
+
+Cerința
+1) Să se afle câte chei din fiecare categorie are Cristi. 2) Sa se afle cât a plătit Cristi pentru a repara toate cheile.
+
+Restricții
+1 ≤ n ≤ 100
+P=1 sau P=2
+orice cod e format din 3 litere
+orice preț este divizibil cu 3 și aparține intervalului deschis [0,999] ;
+la cerința 2, dacă toate cheile sunt bune sau costul total este 0 se afișează doar mesajul GRATIS
+pentru rezolvarea corectă a cerinței 1 se acordă 30 de puncte, iar pentru rezolvarea corectă a cerinței 2 se acordă 70 de puncte
+
+Exemplu
+Input: 1 ABC 4
+ABC 15
+AXC 9
+AFG 3
+UYC 30
+Output: 0 2 1 1
+Input: 2 ABC 4
+ABC 15
+AXC 9
+AFG 3
+UYC 30
+Output: 25

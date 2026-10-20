@@ -1,0 +1,13 @@
+#2247
+NrDiv
+
+Cerința
+Să se determine cel mai mic număr natural impar M care are același număr de divizori ca și N .
+
+Restricții
+1 ≤ N ≤ 1 000 000 000 și este par
+Se garantează că M va fi mai mic decât 2 000 000 000
+
+Exemplu
+Input: 360
+Output: 3465

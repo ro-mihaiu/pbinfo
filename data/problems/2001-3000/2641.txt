@@ -1,0 +1,23 @@
+#2641
+af
+
+Cerința
+Gigel are ca temă la matematică să precizeze valoarea de adevăr a unor expresii de forma nr1 semn nr2 = nr3 , unde nr1 , nr2 și nr3 sunt numere naturale, iar semn poate fi + , - , x sau : reprezintând adunarea, scăderea, înmulțirea și împărțirea. Ajutați-l pe Gigel să rezolve tema la matematică.
+
+Restricții
+1 ≤ n ≤ 10
+0 ≤ nr1, nr2, nr3 și rezultatul operației din membrul stâng ≤ 10 17
+nr1 ≥ nr2
+rezultatul operația nr1 : nr2 este câtul împărțirii lui nr1 la nr2
+dacă expresia este de forma nr1 : 0 = nr3 atunci este considerată falsă.
+
+Exemplu
+Input: 4
+1 + 1 = 2
+3 x 3 = 6
+5 - 1 = 4
+8 : 2 = 3
+Output: Adevarat
+Fals
+Adevarat
+Fals

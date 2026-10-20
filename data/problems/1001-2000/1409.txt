@@ -1,0 +1,14 @@
+#1409
+Numere11
+
+Cerința
+Se dau n numere naturale. Calculați suma obținută prin adunarea celui mai mare divizor prim al fiecărui număr dat.
+
+Restricții
+1 ≤ n ≤ 10.000
+cele n numere citite vor fi mai mari decât 1 și mai mici decât 1.000.000.000
+
+Exemplu
+Input: 9
+7 30 2 17 14 10 9 3 13
+Output: 62

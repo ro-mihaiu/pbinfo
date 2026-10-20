@@ -1,0 +1,19 @@
+#4559
+MosCraciun9
+
+Cerința
+Moș Crăciun a pregătit cadouri pentru copiii cuminți din clasa a IX-a B. Spre surprinderea Moșului, copiii nu au pregătit o serbare ca să îl întâmpine așa cum se cuvine. Prin urmare, pentru a le da cadourile, Moș Crăciun le dă să rezolve o problemă de informatică.
+Se dă un număr natural n . Să se deseneze un ornament de forma următoare: - pe prima linie e un caracter * . - pe a doua linie sunt două caractere * , precedate de un spațiu. - pe a treia linie sunt trei caractere * , precedate de două spații. - … - pe a n -a linie sunt n caractere * , precedate de n-1 spații . - pe a n+1 -a linie sunt n-1 caractere * , precedate de n-2 spații. - … - pe a 2n-2 -a linie sunt două caractere * , precedate de un spațiu. Acesta este penultima linie. - pe a 2n-1 -a linie e un caracter * . Aceasta este ultima linie.
+
+Restricții
+1 ≤ n ≤ 50
+
+Exemplu
+Input: 4
+Output: *
+ **
+  ***
+   ****
+  ***
+ **
+*

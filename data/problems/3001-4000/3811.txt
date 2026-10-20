@@ -1,0 +1,14 @@
+#3811
+Bisectoare1
+
+Cerința
+Se dau lungimile laturilor unui triunghi ABC . Aflati lungimile bisectoarelor duse din C, A, B .
+
+Restricții
+1 ≤ a, b, c ≤ 1000
+
+Exemplu
+Input: 3 5 4
+Output: 4.21 2.42 3.35
+Input: 4 5 10
+Output: Imposibil

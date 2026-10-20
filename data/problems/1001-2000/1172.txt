@@ -1,0 +1,9 @@
+#1172
+FListaNumarare
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+int numarare(nod * p);
+care determina și returnează numărul de elemente memorate în lista pentru care primul element are adresa memorată în pointerul p .
+
+Exemplu

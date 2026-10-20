@@ -1,0 +1,14 @@
+#3844
+KSum
+
+Cerința
+După ce Ionuț a învățat despre algoritmul lui Kadane își pune următoarea întrebare: se dă N și K apoi un vector cu N elemente, din acest vector care este suma maximă a unei secvențe (elemente adiacente) de lungime cel puțin K . A zis să vă întrebe pe voi cum se face.
+
+Restricții
+1 ≤ K ≤ n ≤ 100.000
+numerele de pe a doua linie a fișierului de intrare vor fi din intervalul [-1.000, 1.000] .
+
+Exemplu
+Input: 6 3
+5 4 -10 1 2 3
+Output: 6

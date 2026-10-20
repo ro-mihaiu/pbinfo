@@ -1,0 +1,12 @@
+#3814
+AriePatrulaterInscriptibil
+
+Cerința
+Se dau lungimile laturilor patrulaterului inscriptibil ABCD . Aflati aria acestuia.
+
+Restricții
+1 ≤ AB, BC, CD, AD ≤ 1000
+
+Exemplu
+Input: 13 14 3 13
+Output: 100.123

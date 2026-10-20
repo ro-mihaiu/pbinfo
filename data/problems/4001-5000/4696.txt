@@ -1,0 +1,18 @@
+#4696
+GenMat32
+
+Cerința
+Scrieţi un program care citeşte de la tastatură un număr natural n şi construieşte în memorie o matrice cu n linii şi n coloane în care:
+ultima linie conţine doar valori egale cu 1 ;
+ultima coloană conţine doar valori egale cu 1 ;
+oricare alt element este obţinut prin însumarea celor trei elemente vecine cu el, aflate pe linia următoare şi pe aceeaşi coloană cu el, pe aceeaşi linie cu el şi pe coloana următoare, respectiv pe linia următoare şi pe coloana următoare.
+
+Restricții
+3≤n≤12
+
+Exemplu
+Input: 4
+Output: 63 25 7 1
+25 13 5 1
+7 5 3 1
+1 1 1 1

@@ -1,0 +1,18 @@
+#4689
+GenMat31
+
+Cerința
+Scrieţi un program care citeşte de la tastatură un număr natural n şi construieşte în memorie o matrice cu n linii şi n coloane în care:
+prima linie conţine, în ordine strict crescătoare, numerele naturale din intervalul [1, n] ;
+prima coloană conţine, în ordine strict crescătoare, numerele naturale din intervalul [1, n] ;
+oricare alt element este obţinut prin însumarea celor două elemente vecine cu el, aflate pe linia anterioară şi pe aceeaşi coloană cu el, respectiv pe aceeaşi linie cu el şi pe coloana anterioară.
+
+Restricții
+3≤n≤15
+
+Exemplu
+Input: 4
+Output: 1 2 3 4
+2 4 7 11
+3 7 14 25
+4 11 25 50

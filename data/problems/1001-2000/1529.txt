@@ -1,0 +1,17 @@
+#1529
+Pesti
+
+Cerința
+Scrieţi un program care afişează, în ordine alfabetică, toţi peştii care au cel puțin greutatea G , dată în grame, după ce au trecut z zile. Pentru fiecare peşte se va afişa greutatea în grame şi litera ce i-a fost atribuită.
+
+Restricții
+0<n<27 ; G – număr natural; 0<z<365
+Pentru fiecare peşte: greutatea iniţială în grame şi numărul de grame cu care se îngraşă nu depăşesc valoarea 10 .
+Andrei codifică peştii în ordine, cu litere mari consecutive.
+La scrierea fişierului pesti.in Andrei respectă ordinea alfabetică.
+
+Exemplu
+Input: 2 500 25
+A 5 2
+B 4 3
+Output: 0

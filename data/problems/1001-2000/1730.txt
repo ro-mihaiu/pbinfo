@@ -1,0 +1,16 @@
+#1730
+Sstabil
+
+Cerința
+Scrieţi un program care să determine cel mai mare număr natural sstabil care se poate obţine dintr-un număr natural dat, aplicând una sau mai multe operaţii de înlocuire de tipul menţionat.
+
+Restricții
+1 ≤ n ≤ 1000000
+
+Exemplu
+Input: 5
+1 0 4 5 1
+Output: 191
+Input: 5
+5 2 8 3 2
+Output: 785

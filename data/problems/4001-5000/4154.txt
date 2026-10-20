@@ -1,0 +1,19 @@
+#4154
+ComponenteTC
+
+Cerința
+Se dă un graf orientat cu n noduri. Să se determine câte componente tare conexe ale grafului sunt formate dintr-un singur nod.
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 5 7
+1 2
+2 3
+3 2
+3 4
+4 2
+5 1
+5 4
+Output: 2

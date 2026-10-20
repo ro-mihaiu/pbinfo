@@ -1,0 +1,20 @@
+#652
+AfisareFii
+
+Cerința
+Se dă vectorul de tați al unui arbore cu rădăcină cu n noduri și k noduri distincte din arbore. Afișați fiii fiecăruia dintre cele k noduri.
+
+Restricții
+1 ≤ k ≤ n ≤ 100
+în vectorul de tați rădăcina este marcată cu 0
+dacă un nod x[i] nu are fii, linia corespunzătoare din fișierul de ieșire va contine doar valoarea 0
+
+Exemplu
+Input: 8
+4 3 0 3 2 1 2 1
+4
+3 4 7 1
+Output: 2 2 4 
+1 1 
+0 
+2 6 8

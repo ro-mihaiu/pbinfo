@@ -1,0 +1,12 @@
+#3977
+expoN
+
+Cerința
+Se citește numărul natural n . Să se determine exponentul maxim e cu proprietatea că 2 e ≤ n .
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+
+Exemplu
+Input: 40
+Output: 5

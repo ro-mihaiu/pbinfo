@@ -1,0 +1,29 @@
+#616
+Zapada
+
+Cerința
+Orașul Kruskal are n intersecții unite prin m străzi bidirecționale. Datorită ninsorii de peste noapte, străzile sunt acoperite cu zăpadă. Administratorul orașului, Gigel, a determinat cu mari eforturi pentru fiecare stradă costul deszăpezirii ei și acum dorește deszăpezirea unor străzi astfel încât costul total al deszăpezirii lor să fie minim, și să se poată circula între oricare două intersecții pe străzi deszăpezite.
+Maleficul Costel îl forțează pe Gigel să deszăpezească anumite străzi, din motive doar de el știute. Ajutați-l pe Gigel să determine costul minim pentru deszăpezirea orașului, astfel încât să fie deszăpezite străzile dorite de Costel și să se poată circula între oricare două intersecții pe străzi deszăpezite.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ k < m ≤ n*(n-1)/2
+costurile deszăpezirii străzilor sunt numere naturale nenule cel mult egale cu 1000
+numerele celor k străzi care trebuie deszăpezite sunt dintre numerele de ordine ale celor m străzi date
+
+Exemplu
+Input: 7 11
+1 2 2
+1 7 4
+2 3 3
+2 5 2
+2 6 3
+2 7 3
+3 4 1
+3 5 2
+4 5 1
+5 6 3
+6 7 5
+2
+2 11
+Output: 15

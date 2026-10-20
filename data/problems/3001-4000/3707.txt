@@ -1,0 +1,15 @@
+#3707
+forta1
+
+Cerința
+Se dă un șir cu n elemente numere naturale. Să se sorteze elementele din șir în ordine crescătoare a forței, iar acele elemente care au aceeași forță să apară în ordine inversă decât apăreau inițial în șir.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele șirului sunt numere naturale mai mici sau egale cu 10 18
+pentru teste în valoare de 30 de puncte elementele șirului vor avea forțe distincte
+
+Exemplu
+Input: 4
+123 121 12314 1234
+Output: 121 123 1234 12314

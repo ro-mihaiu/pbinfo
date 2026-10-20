@@ -1,0 +1,14 @@
+#3314
+eratostene3
+
+Cerința
+Se dau n numere naturale nenule. Aflaţi pentru fiecare număr dat x , câte numere naturale nenule mai mici sau egale cu x sunt prime cu x ?
+
+Restricții
+1 ≤ n ≤ 100.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 3
+4 7 12
+Output: 2 6 4

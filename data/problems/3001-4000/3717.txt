@@ -1,0 +1,27 @@
+#3717
+Labirint5
+
+Cerința
+Pentru fiecare poziție (i, j) să se verifice dacă d(i, j) < d0 .
+
+Restricții
+1 ≤ N ≤ 1000
+1 ≤ M ≤ 1000
+Pe pozițiile (1, 1) și (N, M) se vor afla valori 0 .
+Se garantează că există un drum în matricea inițială între pozițiile (1, 1) și (N, M) .
+Pentru 10 puncte, 1 ≤ N ≤ 50 , 1 ≤ M ≤ 50 , d0 = N + M - 1 .
+Pentru alte 30 de puncte, 1 ≤ N ≤ 50 , 1 ≤ M ≤ 50
+Pentru alte 60 de puncte, fără alte restricții
+
+Exemplu
+Input: 5 6
+010001
+000101
+011001
+010010
+001000
+Output: 010000
+000100
+001001
+010010
+001000

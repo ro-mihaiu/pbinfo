@@ -1,0 +1,20 @@
+#3330
+CalculCombinari
+
+Cerința
+Această problemă ar putea avea oricare dintre următoarele cerințe:
+într-o clasă sunt n elevi. În câte moduri putem face o echipă din k elevi?
+în parcul auto al unei firme de taxi sunt n mașini. Într-o zi vin la lucru k șoferi. În câte moduri pot fi alese cele k mașini folosite?
+la o masă sunt n locuri. La masă vor sta k persoane. În câte moduri putem alege scaunele folosite?
+avem n bomboane diferite. În câte moduri putem alege k bomboane?
+o mulțime are n elemente. Câte submulțimi cu k elemente are?
+etc.
+Din lipsă de imaginație, cerința este:
+Se dau numerele naturale n și k . Calculați \( C_n^k \).
+
+Restricții
+0 ≤ k ≤ n ≤ 500
+
+Exemplu
+Input: 4 2
+Output: 6

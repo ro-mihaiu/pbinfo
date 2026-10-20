@@ -1,0 +1,45 @@
+#1134
+Panda
+
+Cerința
+Cunoscând n și m dimensiunile rezervației, codurile de acces de la fiecare dintre cele n*m țarcuri, coordonatele celor T țarcuri cu mâncare, coordonatele țarcului L și C unde se află inițial ursulețul, codul k al microcipului său și numărul S , determinați:
+a) Numărul X de țarcuri care îndeplinesc proprietatea că ultimele S cifre din reprezentarea binară a codului lor sunt complementare cu ultimele S cifre din reprezentarea binară a codului k purtat de ursuleț, cu excepția țarcului în care se află acesta inițial. b) Numărul minim de secunde Smin în care poate ajunge la un țarc cu mâncare precum și numărul de țarcuri cu mâncare nt la care poate ajunge în acest timp minim.
+
+Restricții
+2 ≤ n,m ≤ 500
+1 ≤ S ≤ 8
+1 ≤ T < n*m
+0 ≤ k , valorile codurilor ≤ 9999
+Pentru toate testele problemei există soluție, adică ursulețul poate ajunge la cel puțin unul dintre țarcurile cu mâncare.
+Mâncarea se poate găsi și în zone inaccesibile.
+Pentru rezolvarea corectă a primei cerinţe se acordă 20 de puncte, iar pentru cerința a doua se acordă 80 de puncte.
+Pentru 24% dintre teste, se garantează m ≤ 50 și n ≤ 50 .
+Pentru 20% dintre teste, se garantează S=1 .
+
+Exemplu
+Input: 1
+5 6 4
+3 5 1 1
+1 2 
+5 1 
+2 1
+4 3
+15 1278 3 1278 1278 1 
+16 17 18 19 254 20
+21 25 26 254 254 254
+27 28 29 3 2 254
+2 254 4 254 254 254
+Output: 19
+Input: 2
+5 6 4
+3 5 1 1
+1 2 
+5 1 
+2 1
+4 3
+15 1278 3 1278 1278 1 
+16 17 18 19 254 20
+21 25 26 254 254 254
+27 28 29 3 2 254
+2 254 4 254 254 254
+Output: 6 1

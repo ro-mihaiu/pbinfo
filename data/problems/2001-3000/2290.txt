@@ -1,0 +1,14 @@
+#2290
+Oglindite
+
+Cerința
+Se dau n numere naturale. Afișați numărul pentru care diferența în valoare absolută dintre el și oglinditul său este minimă. Dacă există mai multe asemenea numere, afișați-l pe cel mai mic.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 4
+127 964 801 601
+Output: 601

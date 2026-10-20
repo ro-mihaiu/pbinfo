@@ -1,0 +1,12 @@
+#4499
+LaziPP
+
+Cerința
+Care este numărul maxim de cutii paralelipipedice cu dimesiunile a , b , c centimetri pot fi suprapuse într-o încăpere de înălțime h metri? Cutiile au formă de paralelipiped dreptunghic și pot fi rotite pe oricare dintre fețe pentru a putea fi suprapuse.
+
+Restricții
+1 ≤ a,b,c,h ≤ 100
+
+Exemplu
+Input: 4 3 6 1
+Output: 33

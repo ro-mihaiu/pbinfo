@@ -1,0 +1,16 @@
+#2107
+Pomi
+
+Cerința
+Cunoscând valorile a şi b , reprezentând numerele de ordine ale primului, respectiv ultimului pom din parcela din care se face vânzarea, precum şi k – cifra anului , se cere să se determine numărul de pomi scoşi la vânzare de Vasile în acest an.
+
+Restricții
+1 < k ≤ 9
+1 < a < b
+a şi b sunt numere naturale cu cel mult 80 de cifre fiecare.
+
+Exemplu
+Input: 23  
+41
+3
+Output: 6

@@ -1,0 +1,12 @@
+#2001
+Huge_Control
+
+Cerința
+În fișierul hugecontrol.in se găsește memorat un număr N , de tip Huge . Calculati și afișati cifra de control a numărului.
+
+Restricții
+N este un număr cu proprietăți caracteristice tipului Huge .
+
+Exemplu
+Input: 713
+Output: 2

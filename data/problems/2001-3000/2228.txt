@@ -1,0 +1,15 @@
+#2228
+expresie10
+
+Cerința
+Fiind dată o expresie construită conform descrierii să se decidă dacă este corectă şi în caz afirmativ să se calculeze valoarea acesteia.
+
+Restricții
+numerele care apar în expresii sunt întregi şi sunt cuprinse între 0 şi 30000
+expresia din fișierul de intrare este formată din cel mult 200 de caractere
+
+Exemplu
+Input: [[34][23[12][]
+Output: expresie gresita
+Input: [4][[6][10]]
+Output: 6

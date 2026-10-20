@@ -1,0 +1,24 @@
+#589
+Roy-Floyd
+
+Cerința
+Se dă un graf orientat ponderat cu n noduri și m arce – în care fiecare arc are asociat un cost, număr natural strict pozitiv. Folosind algoritmul Roy-Floyd, construiți matricea costurilor minime, a[i][j] fiind costul minim al unui drum de la i la j , dacă există un asemenea drum, sau -1 în caz contrar.
+
+Restricții
+1 ≤ n ≤ 100
+costul unui arc va fi mai mic decât 1000
+costul unui drum este egal cu suma costurilor arcelor care îl compun
+
+Exemplu
+Input: 5 6
+1 3 1
+2 1 2
+4 2 1
+4 3 8
+5 3 5
+5 4 2
+Output: 0 -1 1 -1 -1 
+2 0 3 -1 -1 
+-1 -1 0 -1 -1 
+3 1 4 0 -1 
+5 3 5 2 0

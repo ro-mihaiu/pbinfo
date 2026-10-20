@@ -1,0 +1,12 @@
+#3178
+copii2
+
+Cerința
+Într-o clasă sunt F fete și B băieți. Fiecare fată citește 3 pagini pe zi și fiecare băiat citește 2 pagini pe zi. Câte pagini vor citi copiii în n zile?
+
+Restricții
+1 ≤ F , B , n ≤ 1000
+
+Exemplu
+Input: 7 5 3
+Output: 93

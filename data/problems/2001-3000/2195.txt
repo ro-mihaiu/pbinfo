@@ -1,0 +1,12 @@
+#2195
+sumpow2
+
+Cerința
+Să se scrie un program C/C++ care citește două șiruri de caractere ce reprezintă două numere naturale codificate după regula de mai sus, program care afișează un șir de caractere ce reprezintă suma celor două numere.
+
+Restricții
+cele două numerele date precum și suma lor nu va depăși valoarea 2 16 .
+
+Exemplu
+Input: acdg ac
+Output: beg

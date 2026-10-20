@@ -1,0 +1,12 @@
+#1633
+Dublare1
+
+Cerința
+Să se scrie un subprogram C++ prin care se dublează prima cifră a unui număr natural n transmis ca parametru. Funcția întoarce rezultatul prin intermediul aceluiași parametru n .
+
+Restricții
+1 ≤ n ≤ 10.000.000
+funcția va avea un singur parametru n
+numele funcției va fi dublare1
+
+Exemplu

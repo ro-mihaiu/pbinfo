@@ -1,0 +1,44 @@
+#466
+GenGraf
+
+Cerința
+Se dă un număr natural n . Construiți toate grafurile neorientate cu n vârfuri.
+
+Restricții
+2 ≤ n ≤ 6
+cele M matrice de adiacență construite pot fi afișate în orice ordine
+
+Exemplu
+Input: 3
+Output: 8
+0 0 0 
+0 0 0 
+0 0 0 
+
+0 0 0 
+0 0 1 
+0 1 0 
+
+0 0 1 
+0 0 0 
+1 0 0 
+
+0 0 1 
+0 0 1 
+1 1 0 
+
+0 1 0 
+1 0 0 
+0 0 0 
+
+0 1 0 
+1 0 1 
+0 1 0 
+
+0 1 1 
+1 0 0 
+1 0 0 
+
+0 1 1 
+1 0 1 
+1 1 0

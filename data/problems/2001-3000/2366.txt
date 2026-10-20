@@ -1,0 +1,17 @@
+#2366
+masterpiece001
+
+Cerința
+Se dă un șir de n numere naturale nenule v = {v 1 , v 2 , v 3 ... v n } .
+Se formează șirul d = {d 1 , d 2 , d 3 ... d n } unde d i = numărul divizorilor lui v i .
+Notăm max = cea mai mare valoare din șirul d .
+Să se afișeze în ordine crescătoare toate numerele din șirul dat v care au exact max divizori. Dacă un număr v i apare de mai multe ori în șirul v și numărul divizorilor lui v i este egal cu max , atunci v i se va afișa o singură dată.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici sau egale cu 400.000
+
+Exemplu
+Input: 10
+12 3 12 4 12 18 31 101 31 31
+Output: 12 18

@@ -1,0 +1,15 @@
+#567
+Pereche
+
+Cerința
+n elevi numerotați de la 1 la n stau în cerc, astfel încât elevul 1 și elevul n sunt vecini. Pentru fiecare elev se cunoaște înălțimea. O pereche de elevi învecinați este pereche potrivită dacă diferența dintre înălțimile elevilor este minimă. Determinați o pereche potrivită.
+
+Restricții
+2 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000
+dacă există mai multe perechi potrivite, se poate afișa oricare
+
+Exemplu
+Input: 5
+4 6 3 5 3
+Output: 1 5

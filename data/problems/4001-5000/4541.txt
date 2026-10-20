@@ -1,0 +1,21 @@
+#4541
+InlocuireRec1
+
+Cerința
+Se dă un tablou cu n elemente, numere naturale. Să se înlocuiască fiecare element din tablou care începe cu cifră pară cu suma cifrelor sale.
+Se vor defini și apela următoarele subprograme recursive :
+citire , care citește de la tastatură cele n elemente ale unui tablou
+afisare , care afișează pe ecran elementele tabloului separate prin exact un spațiu
+suma_cifre , care determină suma cifrelor unui număr dat ca parametru
+prima_cifra , care determină prima cifră a unui număr dat ca parametru
+inloc , care realizează înlocuirile cerute.
+În programele C/C++ nu se vor folosi variabile globale .
+
+Restricții
+1 ≤ n ≤ 1000
+elementele tabloului vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 7
+73 418 218 75 2124 5209 49
+Output: 73 13 11 75 9 5209 13

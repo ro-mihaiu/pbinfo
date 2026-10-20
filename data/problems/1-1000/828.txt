@@ -1,0 +1,12 @@
+#828
+Manna-Pnueli
+
+Cerința
+Să se scrie o funcție C++ care să returneze rezultatul funcţiei Manna-Pnueli, definită mai jos:
+\( f(x) = \begin{cases} x-1& \text{dacă } x ≥ 12,\\ f(f(x+2)) & \text{dacă } x < 12. \end{cases} \)
+
+Restricții
+numele funcției va fi mp
+funcția va avea un singur parametru, număr natural mai mic decât 20
+
+Exemplu

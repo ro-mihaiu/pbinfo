@@ -1,0 +1,15 @@
+#1091
+Expozitie
+
+Cerința
+Cunoscând n numărul de scânduri din gard, d numărul desenelor originale şi k numărul minim de apariţii al fiecărui desen, să se determine în câte moduri poate fi aranjată expoziţia, ştiind că Ilinca are la dispoziţie oricâte copii doreşte.
+
+Restricții
+n , k , d sunt numere naturale
+1 ≤ n ≤ 500
+1 ≤ d ≤ 500
+0 ≤ k ≤ n
+
+Exemplu
+Input: 3 2 1
+Output: 2

@@ -1,0 +1,12 @@
+#2199
+afcar
+
+Cerința
+Scrieți un program care citește de la tastatură un caracter și afișează pe ecran codul său ASCII .
+
+Restricții
+caracterul va avea codul ASCII între 33 și 126 ;
+
+Exemplu
+Input: A
+Output: 65

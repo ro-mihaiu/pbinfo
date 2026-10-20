@@ -1,0 +1,13 @@
+#3663
+ppdp
+
+Cerința
+Se dă un număr natural n . Calculați pătratul celui mai mic divizor propriu al său.
+
+Restricții
+4 ≤ n ≤ 1.000.000.000
+se garantează că n nu este prim
+
+Exemplu
+Input: 12
+Output: 4

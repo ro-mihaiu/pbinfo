@@ -1,0 +1,12 @@
+#3254
+prod-pi
+
+Cerința
+Se dă un număr natural n cu cel puțin două cifre, care conține atât cifre pare cât și cifre impare. Calculați produsul dintre cea mai mare cifră pară și cea mai mică cifră impară a lui n .
+
+Restricții
+10 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 57289
+Output: 40

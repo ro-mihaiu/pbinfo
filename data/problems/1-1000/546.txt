@@ -1,0 +1,15 @@
+#546
+afisare0
+
+Cerința
+Se citește un vector cu n elemente, numere naturale. Să se afișeze elementele din vector care sunt multipli ai ultimului element.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele vectorului vor fi mai mici decât 1.000.000
+ultimul element al vectorului este nenul
+
+Exemplu
+Input: 5
+7 4 9 6 2
+Output: 4 6 2

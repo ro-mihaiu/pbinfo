@@ -1,0 +1,23 @@
+#3712
+median_query
+
+Cerința
+Se dau un șir de N numere naturale nenule indexat de la 1 și Q query-uri de forma l r . Să se afișeze pentru fiecare query l r medianul secvenței l r din șir.
+
+Restricții
+1 ≤ N, Q ≤ 100.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000.000
+1 ≤ l ≤ r ≤ N
+medianul unei secvențe l r este valoarea care s-ar afla pe poziția [(r - l + 2) / 2] în secvența l r dacă aceasta ar fi sortată crescător, unde [x] = partea întreagă a numărului x .
+
+Exemplu
+Input: 7 4
+1 3 2 5 10 2 3
+1 3
+4 6
+1 7
+2 5
+Output: 2
+5
+3
+3

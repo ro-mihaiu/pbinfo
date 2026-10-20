@@ -1,0 +1,19 @@
+#4676
+Elicopter
+
+Cerința
+Să se determine cea mai mică valoare a înălțimii la care trebuie ridicat elicopterul, astfel încât acesta să poată ajunge pe o celulă aflată pe ultima coloană.
+
+Restricții
+1 ≤ n, m ≤ 1 000
+1 ≤ a[i] ≤ 1 000 000
+Pentru teste în valorea de 11 puncte, n = 1 ;
+Pentru teste în valoare de 12 puncte, m = 1 .
+
+Exemplu
+Input: 4 4
+1 5 2 4
+9 2 4 5
+2 4 5 2
+8 3 7 2
+Output: 4

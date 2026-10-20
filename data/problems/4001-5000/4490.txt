@@ -1,0 +1,15 @@
+#4490
+Gray
+
+Cerința
+Dată o secvență de n biți reprezentând un cod binar, să se determine secvența asociată din codul Gray(n), apoi dat un șir de n biți reprezentând o secvență a codului Gray(n), să se determine codul binar asociat.
+
+Restricții
+1 ≤ n ≤ 500
+
+Exemplu
+Input: 3
+011
+111
+Output: 010
+101

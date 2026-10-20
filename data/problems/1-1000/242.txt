@@ -1,0 +1,21 @@
+#242
+interclasm
+
+Cerința
+Se dă un număr natural x și două șiruri a și b , cu n , respectiv m elemente, numere naturale, ordonate strict crescător . Să se afișeze, în ordine crescătoare, multiplii lui x care se află doar în unul dintre cele două șiruri.
+
+Restricții
+0 < x < 1.000.000
+1 ≤ n, m ≤ 100.000
+valorile elementelor celor două șiruri vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 5
+7
+1 2 3 4 
+7 20 60
+9
+3 5 7 
+8 9 10 12 
+20 24
+Output: 5 10 60

@@ -1,0 +1,18 @@
+#2430
+zebra
+
+Cerința
+Să se determine o împărțire a unui șir în subșiruri zebră.
+
+Restricții
+Inputul conține cel mult 200.000 de caractere.
+Orice împărțire în subșiruri zebră este acceptată.
+
+Exemplu
+Input: 0010100
+Output: 3
+3 1 3 4
+3 2 5 6
+1 7
+Input: 111
+Output: -1

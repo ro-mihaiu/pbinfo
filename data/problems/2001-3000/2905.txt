@@ -1,0 +1,22 @@
+#2905
+Divizori4
+
+Cerința
+Gigel a găsit un șir cu n numere naturale, numerotate de la 1 la n și un număr p . Neavând chef de muncă, Gigel vă cere să rezolvați următoarele cerințe:
+a) Aflați câți divizori are numărul din șir aflat pe poziția p . b) Afișați în ordine descrescătoare numerele din șir care au același număr de divizori ca cel aflat pe poziția p .
+
+Restricții
+numerele din șir vor fi numere naturale nenule mai mici sau egale cu 1.000.000.000
+pentru 50% din punctaj c=1 ; pentru 50% din punctaj c=2 ;
+pentru c=1 , 1 ≤ p ≤ n ≤ 50.000
+pentru c=2 , 1 ≤ p ≤ n ≤ 50.000 pentru 30% din punctaj și 1 ≤ p ≤ n ≤ 10.000 pentru 20% din punctaj
+
+Exemplu
+Input: 10 1
+1 5 95 23 16 39 77 74 97 57 
+3
+Output: 4
+Input: 10 2
+1 5 95 23 16 39 77 74 97 57 
+3
+Output: 95 77 74 57 39

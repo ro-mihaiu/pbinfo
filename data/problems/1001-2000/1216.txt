@@ -1,0 +1,22 @@
+#1216
+Echer
+
+Cerința
+Scrieţi un program care citeşte lungimile catetelor echerului, numărul de rânduri, respectiv numărul de coloane ale foii de hârtie și determină:
+1. numărul minim de mutări K , prin care poate muta echerul din colțul din stânga sus al foii de matematică, astfel încât echerul să atingă colțul din dreapta jos al foii; 2. cele K mutări efectuate pentru a deplasa echerul din colțul din stânga sus al foii, până când un colț al echerului atinge colțul din dreapta jos al foii; dacă există mai multe soluții, se va afișa soluția minimă în sens lexicografic. Un șir de mutări X=(X 1 , X 2 , …, X K ) este mai mic în sens lexicografic decât alt șir de mutări Y=(Y 1 , Y 2 , …, Y K ) dacă există P ( 1 ≤ P ≤ K ) a.î. X I = Y I , cu I din {1, 2, …, P-1} și X P < Y P .
+De exemplu șirul de mutări 1 2 3 1 este mai mic în sens lexicografic decât șirul de mutări 1 2 4 1 .
+
+Restricții
+1 ≤ L1,L2 ≤ 1000 .
+1 ≤ M,N ≤ 1000000 .
+Se garantează că există soluție pentru orice set de date de intrare.
+Pentru rezolvarea corectă a cerinţei 1 se obţine 30% din punctaj.
+Pentru rezolvarea corectă a cerinţei 2 se obţine 70% din punctaj.
+
+Exemplu
+Input: 1
+2 3 8 9
+Output: 8
+Input: 2
+2 3 8 9
+Output: 1 2 3 1 2 3 1 4

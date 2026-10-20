@@ -1,0 +1,13 @@
+#1309
+gresie
+
+Cerința
+Se consideră o încăpere de formă dreptunghiulară cu dimensiunile a b . Încăperea trebuie pavată cu gresie de formă pătratică, de dimensiune d . Știind că o bucată de gresie se poate folosi întreagă sau tăiată, să se determine numărul minim de bucăți de gresie sunt necesare pentru pavarea încăperii.
+
+Restricții
+1 ≤ d ≤ a,b ≤ 32000
+din motive estetice, pentru fiecare piesă de gresie tăiată se folosește o bucată întreagă.
+
+Exemplu
+Input: 12 17 3
+Output: 24

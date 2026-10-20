@@ -1,0 +1,21 @@
+#4196
+MPF
+
+Cerința
+Se dau Q perechi de numere naturale nenule (X, Y) . Să se determine, pentru fiecare pereche, numărul minim de operații necesare pentru a-l transforma pe X în Y .
+
+Restricții
+1 ≤ Q ≤ 1.000.000
+1 ≤ X, Y ≤ 4.000.000
+Datorită dimensiunii mari a datelor de intrare și de ieșire, doar unele teste au fost adăugate.
+
+Exemplu
+Input: 4
+4 10
+2 9
+6 2
+12 12
+Output: 2
+3
+1
+0

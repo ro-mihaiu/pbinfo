@@ -1,0 +1,20 @@
+#356
+perechi
+
+Cerința
+La concursul “Miss & Mister Boboc” participă n perechi de elevi, despre fiecare elev cunoscându-se înălțimea. Numim grad de disproporționalitate al unei perechi este diferența în valoare absolută dintre înălțimile elevilor care formează perechea.
+Să se determine perechea cu grad de disproporționalitate maxim.
+
+Restricții
+1 ≤ n ≤ 1000
+înălțimile elevilor sunt numere naturale cuprinse între 1 și 1000 – unitatea de măsură folosită este de origine extraterestră, nu încercați să o înțelegeți !!
+
+Exemplu
+Input: 6
+7 9
+6 7
+8 12
+12 10
+10 6
+11 13
+Output: 8 12

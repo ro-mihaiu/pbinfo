@@ -1,0 +1,31 @@
+#3345
+divimax
+
+Cerința
+Scrieţi un program care să citească numărul natural N şi cele N numere naturale din şirul X şi care să determine: 1. numărul natural P reprezentând cel mai mare divizor prim dintre toţi divizorii tuturor numerelor din şirul X 2. cel mai mare număr natural K ce se poate forma din concatenarea divizorilor primi maximi ai fiecărui număr din şirul X .
+
+Restricții
+0 ≤ N ≤ 3030 , N număr natural
+C=1 sau C=2
+2 ≤ X i ≤ 3500 , unde 1 ≤ i ≤N
+Concatenarea a două numere inseamnă lipirea lor. (exemplu: Prin concatenarea numerelor 325 şi 684 rezultă numărul 325684 , iar concatenându-le invers, obţinem 684325 )
+Numărul determinat la cerinţa 2 poate avea cel mult 8000 de cifre
+Pentru rezolvarea corectă a cerinţei 1 se acordă 30% din punctaj, iar pentru rezolvarea corectă a cerinţei 2 se acordă 70% din punctaj.
+
+Exemplu
+Input: 1 5
+2 
+36 
+15 
+12 
+33
+Output: 11
+Input: 2 7
+23
+44
+10
+204
+4
+45
+9
+Output: 5532321711

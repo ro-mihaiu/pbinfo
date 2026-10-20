@@ -1,0 +1,16 @@
+#3876
+sum_max_min
+
+Cerința
+Se dă un șir de N numere întregi. Pentru fiecare subșir nevid al șirului dat se consideră valoarea întreagă D egală cu diferența dintre elementul maxim și cel minim aflat în subșir. Să se afle suma valorilor D ale tuturor subșirurilor nevide, mai mici sau egale decât un număr întreg T dat modulo \( {10}^{9} + 7 \).
+
+Restricții
+1 ≤ N, T ≤ 1.000.000
+cele N numere citite vor fi din intervalul [0, 1.000.000]
+se numește subșir al unui șir o succesiune de elemente(nu neapărat consecutive în acesta) ale acestuia, considerate în ordinea în care apar în șir
+pentru teste în valoare de 20 de puncte N ≤ 20
+
+Exemplu
+Input: 5 2
+1 7 2 3 4
+Output: 11

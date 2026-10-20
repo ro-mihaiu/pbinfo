@@ -1,0 +1,40 @@
+#3434
+Furnica1
+
+Cerința
+Scrieţi un program care să rezolve următoarele cerințe:
+determină timpul (exprimat în secunde) necesar furnicii pentru a parcurge tot traseul menționat;
+determină lungimea maximă (exprimată în centimetri) a unei porțiuni de traseu în care furnica NU coboară deloc;
+determină ce număr de ordine are foaia pe care se află furnica după T secunde.
+
+Restricții
+1 ≤ N,T ≤ 10 000 ; laturile foilor sunt numere naturale nenule cu cel mult nouă cifre fiecare;
+dacă furnica ajunge într-un punct aflat la îmbinarea a două foi, se consideră că se află pe foaia din stânga;
+pentru orice T furnica se va afla pe una din foi;
+în concurs, pentru fiecare cerință s-au acordat 30 de puncte. Pe site se acordă 10 puncte pentru exemple.
+
+Exemplu
+Input: 1
+5
+3 9
+5 9
+2 6
+2 13
+1 4
+Output: 151
+Input: 2
+5
+3 9
+5 9
+2 6
+2 13
+1 4
+Output: 17
+Input: 3
+5 100
+3 9
+5 9
+2 6
+2 13
+1 4
+Output: 4

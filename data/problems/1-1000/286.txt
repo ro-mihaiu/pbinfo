@@ -1,0 +1,17 @@
+#286
+chenare
+
+Cerința
+Se dă un număr natural n . Construiţi o matrice pătratică de dimensiune n , în care elementele fiecărui chenar sunt egale cu numărul de ordine al chenarului.
+Chenarele sunt numerotate dinspre exterior spre interior, începând cu 1 .
+
+Restricții
+1 ≤ n ≤ 50
+
+Exemplu
+Input: 5
+Output: 1 1 1 1 1
+1 2 2 2 1
+1 2 3 2 1
+1 2 2 2 1
+1 1 1 1 1

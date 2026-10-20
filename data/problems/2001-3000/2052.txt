@@ -1,0 +1,8 @@
+#2052
+curiosity
+
+Cerința
+Dacă se cunosc Xs , Xf , C , precum și descrierea celor N puncte de încărcare să se determine o strategie de deplasare între coordonatele Xs și Xf , optimă din punct de vedere al timpului necesar încărcării bateriilor.
+
+Restricții
+și precizări 1 ≤ N ≤ 100000 1 ≤ C ≤ 1000 1 ≤ t[i] ≤ 3 ; -1000000 ≤ x[i] ≤ 1000000 -1000000 ≤ Xs < Xf ≤ 1000000 . Acestea pot coincide cu coordonatele punctelor de încărcare; Punctele de încărcare sunt distincte. Coordonatele punctelor sunt de tip întreg; Punctele de încărcare sunt date în ordine crescătoare Atenție, în momentul plecării din punctul Xs robotul este încărcat la capacitatea maximă C .

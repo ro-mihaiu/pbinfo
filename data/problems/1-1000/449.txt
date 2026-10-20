@@ -1,0 +1,12 @@
+#449
+nrcif
+
+Cerința
+Se citește de la tastatură un număr natural de maxim 3 cifre. Să se determine câte cifre are.
+
+Restricții
+Numărul citit de la tastatură este natural, cu cel mult 3 cifre
+
+Exemplu
+Input: 397
+Output: 3

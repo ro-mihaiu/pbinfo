@@ -1,0 +1,16 @@
+#839
+Vraja2
+
+Cerința
+De-a lungul bulevardului sunt n copaci, numerotați de la 1 la n , pentru fiecare cunoscându-se înălțimea, exprimată în centimetri. Primarul dorește să taie copacii și apelează la un vrăjitor care va proceda astfel: alege o secvență cât mai lungă de copaci învecinați și aplică o vrajă prin care toți înălțimea tuturor copacilor din secvență scade cu o aceeași valoare, strict pozitivă.
+Să se determine care este numărul minim de vrăji care trebuie aplicate astfel încât toți copacii să aibă înălțime zero.
+
+Restricții
+1 ≤ n ≤ 1000
+înălțimile arborilor sunt numere naturale nenule mai mici decât 1.000.000
+secvența aleasă de vrăjitor la un moment dat nu poate conține copaci de înălțime zero
+
+Exemplu
+Input: 5
+5 2 3 5 3
+Output: 4

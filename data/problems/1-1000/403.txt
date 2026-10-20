@@ -1,0 +1,24 @@
+#403
+Concert
+
+Cerința
+Gigel este un cântăreț începător. El știe deja să cânte n melodii, și pentru fiecare melodie se cunoaște durata, exprimată în minute și secunde. Gigel va participa la o emisiune de televiziune, unde va putea cânta timp de T secunde. El vrea să cânte cât mai multe melodii, pentru a-și demonstra talentul deosebit.
+Ajutați-l să aleagă piesele pentru emisiune, și vă va răsplăti cu un autograf.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ T ≤ 1000
+0 ≤ m ≤ 10
+0 ≤ s ≤ 59
+
+Exemplu
+Input: 7 450
+2:30
+1:45
+2:10
+03:00
+01:15
+02:05
+2:05
+Output: 4
+2 5 6 7

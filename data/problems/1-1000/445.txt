@@ -1,0 +1,12 @@
+#445
+pseudoperfect
+
+Cerința
+Să se scrie un program care verifică dacă un număr natural citit de la tastatură este pseudoperfect.
+
+Restricții
+0 < n < 1.000.000.000
+
+Exemplu
+Input: 120
+Output: DA

@@ -1,0 +1,15 @@
+#2405
+politic
+
+Cerința
+Fiind dat parlamentul din Ţara lui Papură Vodă printr-un şir ordonat strict crescător de numere naturale nenule, se cere să se stabilească numărul de partide parlamentare şi numărul variantelor de coaliţie majoritară.
+
+Restricții
+0 < N ≤ 20.000
+numerele din șir sunt mai mici sau egale cu 30.000
+
+Exemplu
+Input: 10
+1 2 3 5 6 8 10 11 14 15
+Output: 5 
+4

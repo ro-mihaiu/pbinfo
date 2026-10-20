@@ -1,0 +1,14 @@
+#3212
+cumparaturi2
+
+Cerința
+Se apropie Crăciunul. Gigel a văzut la magazin trei jucării care îi plac: cel mai mult îi place o dronă, care costă d lei, apoi îi place un robot care costă r lei, apoi o mașină care costă m lei, d > r > m . De Crăciun Gigel merge la colindat la rude și va primi de la acestea S lei. Aflați ce jucărie va cumpăra Gigel cu banii câștigați: drona, robotul, masina sau niciuna dintre ele!
+
+Restricții
+1 ≤ S , d , r , m ≤ 1.000.000.000
+d > r > m
+Gigel va alege cel mult un obiect, cel mai scump pe care îl poate cumpăra
+
+Exemplu
+Input: 175 200 150 100
+Output: robot

@@ -1,0 +1,16 @@
+#2409
+ProdusXL
+
+Cerința
+Numim număr mare un număr care conține prea multe cifre pentru a fi memorat în tipurile existente, și număr mic un număr care poate fi memorat în acestea. Se dau două numere, unul mare și unul mic, ambele pozitive. Calculați produsul lor.
+
+Restricții
+numărul mare are cel mult 100 de cifre
+numărul mic este mai mic decât 1.000.000.000
+cifrele numărului mic nu sunt separate prin spații
+cifrele rezultatului nu vor fi separate prin spații
+
+Exemplu
+Input: 20 7 8 5 3 7 6 7 1 4 6 9 9 4 3 4 6 6 9 9 9
+123
+Output: 9660133590803046440877

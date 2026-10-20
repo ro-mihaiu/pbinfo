@@ -1,0 +1,18 @@
+#1392
+sumo
+
+Cerința
+Numerele naturale nenule se scriu într-un şir astfel: 12345678910111213141516... . Fiind date n perechi de poziţii din şir de forma (p,q) , cu p≤q , să se calculeze suma cifrelor din şir situate pe poziţiile de la p la q .
+
+Restricții
+1 ≤ n ≤ 100.000
+1 ≤ p ≤ q ≤ 2.000.000.000
+
+Exemplu
+Input: 3
+1 5
+7 18
+22 26
+Output: 15
+35
+16

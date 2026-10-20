@@ -1,0 +1,18 @@
+#1004
+Eureni
+
+Cerința
+Pentru cadourile pe care Moş Crăciun urmează să le cumpere copiilor cuminţi, Consiliul Polului Nord a alocat suma de S eureni. Ştiind că în comerţul polar se utilizează n+1 tipuri de bancnote de valori 1 , e 1 , e 2 , e 3 ,…, e n şi faptul că Moşul trebuie să primească un număr minim de bancnote pentru suma aprobată, să se determine numărul de bancnote din fiecare tip utilizat în plata sumei şi numărul total de bancnote care i s-au alocat.
+
+Restricții
+1 < S < 2 000 000 000
+1 < n < 10
+1 < e < 10
+se presupune că există un număr nelimitat de bancnote de fiecare tip
+
+Exemplu
+Input: 107 4 5
+Output: 25 4
+5 1
+1 2
+7

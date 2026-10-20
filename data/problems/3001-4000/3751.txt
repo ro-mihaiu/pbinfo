@@ -1,0 +1,15 @@
+#3751
+FInserareDupaQ
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+void InserareDupaQ(nod *& prim,nod *& ultim, nod * q,int x);
+care adaugă valoarea x după nodul de adresă q al listei pentru care primul element are adresa memorată în pointerul prim si ultimul element are adresa memorata in pointerul ultim .
+
+Restricții
+numele funcției va fi InserareDupaQ ;
+pointerul q poate fi prim si ultim ;
+dacă lista nu conține niciun element, pointerii prim si ultim vor avea valoarea NULL ;
+în toate cazurile, la ieșirea din apel prim va memora adresa primului element al listei, iar ultim va memora adresa ultimului element al listei.
+
+Exemplu

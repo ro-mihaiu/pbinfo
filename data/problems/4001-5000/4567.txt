@@ -1,0 +1,16 @@
+#4567
+rotunde
+
+Cerința
+Se dau n numere naturale.
+Un număr x se numește număr rotund dacă are cel puțin două cifre și dacă numărul obținut din x prin interschimbarea primei jumătăți cu cea de-a doua este egal cu x . De exemplu, numărul 324324 este rotund, iar 3738 nu este rotund deoarece prin interschimbarea celor două jumătăți se obține numărul 3837 . Dacă numărul are număr impar de cifre, atunci cifra din mijloc își păstrează locul la operația de interschimbare. De exemplu, din numărul 34576 prin interschimbare celor două jumătăți se obține numărul 76534 , deci nu este rotund. Din numărul 23523 se obține același număr, deci este rotund.
+Se cere să se determine câte dintre cele n numere citite au proprietatea că sunt rotunde.
+
+Restricții
+1 ≤ n ≤ 100
+cele n numere citite au cel puțin două cifre și sunt mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+45456 474 201102 235235 100100
+Output: 3

@@ -1,0 +1,15 @@
+#960
+sirk
+
+Cerința
+Scrieţi un program care să determine cel de-al K -lea termen al șirului S .
+
+Restricții
+1 ≤ K ≤ 2.000.000.000 , număr natural
+termenii șirului sunt numere naturale nenule strict mai mici decât 30.000
+
+Exemplu
+Input: 20
+Output: 2
+Input: 5000
+Output: 30

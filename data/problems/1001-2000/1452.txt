@@ -1,0 +1,15 @@
+#1452
+stergere-element
+
+Cerința
+Să se șteargă din șirul X elementul aflat pe poziția p .
+
+Restricții
+1 ≤ p ≤ n ≤ 1500
+valoarea X și elementele șirului vor fi cuprinse între -1.000.000 și 1.000.000
+elementele șirului vor avea indici între 1 și n .
+
+Exemplu
+Input: 5 2
+7 3 9 1 6
+Output: 7 9 1 6

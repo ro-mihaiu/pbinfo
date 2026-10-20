@@ -1,0 +1,23 @@
+#1125
+Overflow2
+
+Cerința
+După ce Gigel a rezolvat problema anterioară ( #Overflow ), profesorul nu a fost foarte mulțumit de metoda sa. Așadar, i-a dat următoarea problemă: se dau n numere naturale, scrise sub forma \( a_{1}^{b_1} + a_{2}^{b_2} + \cdots + a_{m}^{b_m} \). Să se afle dacă numerele pot fi reprezentate pe 8 octeți, fără semn.
+
+Restricții
+1 ≤ n * m ≤ 1.000.000
+a poate fi reprezentat pe 8 octeți fără semn
+0 ≤ b ≤ 64
+a + b ≠ 0
+valorile care se pot reprezenta pe 8 octeți fără semn sunt cuprinse între 0 și 18.446.744.073.709.551.615
+
+Exemplu
+Input: 4
+1 2 63
+1 2 64
+1 666013 2
+2 2 63 2 62
+Output: 9223372036854775808
+Overflow!
+443573316169
+13835058055282163712

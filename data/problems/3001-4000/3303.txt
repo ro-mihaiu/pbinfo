@@ -1,0 +1,12 @@
+#3303
+nrcurat
+
+Cerința
+Se dau cel mult 1000 numere naturale mai mici decât 100.000.000 . Să se stabilească despre fiecare număr dacă este sau nu curat.
+
+Restricții
+în fișier sunt cel mult 1000 de numere naturale mai mici decât 100.000.000
+
+Exemplu
+Input: 345 18 53 986310 467 1638
+Output: 0 1 0 1 0 1

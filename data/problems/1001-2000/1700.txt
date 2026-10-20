@@ -1,0 +1,42 @@
+#1700
+produsMatriceRara
+
+Cerința
+O matrice A(n,m) se numeşte rară dacă majoritatea elementelor sale sunt nule. O matrice rară poate fi memorată sub forma unei înregistrări ce conţine numărul de linii, coloane, elemente nenule şi un şir de triplete de forma (linie, coloană, valoare).
+Considerând cele două structuri de mai jos
+// inregistrare reprezentand un triplet <linie, coloana, valoare>
+struct triplet {
+int linie, coloana, valoare;
+};
+// inregistrare reprezentand matricea rara
+struct matrice_rara {
+int nr_linii, nr_coloane, nr_triplete;
+triplet t[1005];
+};
+scrieţi în limbajul C++ definiţia completă a subprogramului inmultire cu următorul antet:
+void inmultire(matrice_rara a, matrice_rara b, matrice_rara &c)
+ce calculează în c produsul matricelor rare a şi b .
+
+Restricții
+a.nr_coloane = b.nr_linii
+liniile şi coloanele celor două matrici a şi b sunt indexate de la 0
+tripletele sunt indexate de la 0 , în ordine lexicografică după (linie, coloană)
+
+Exemplu
+Input: a.nr_linii = 3; a.nr_coloane = 4; a.nr_triplete = 4;
+a.t = {{0, 0, 2},
+       {0, 3, 5},
+       {1, 0, 4},
+       {2, 2, 1}};
+b.nr_linii = 4; b.nr_coloane = 4; b.nr_triplete = 6;
+b.t = {{0, 0, 4},
+       {1, 2, 8},
+       {1, 3, 9},
+       {2, 1, 6},
+       {3, 0, 5},
+       {3, 3, 1}};
+Output: c.nr_linii = 3; c.nr_coloane = 4; c.nr_triplete = 4;
+c.t = {{0, 0, 33},
+       {0, 3, 5},
+       {1, 0, 16},
+       {2, 1, 6}};

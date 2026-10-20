@@ -1,0 +1,12 @@
+#2547
+Divizori3
+
+Cerința
+Se citesc două numere naturale a și b ( a < b ) având cel mult 9 cifre fiecare. Afișați câte numere din intervalul [a, b] au exact 3 divizori.
+
+Restricții
+1 ≤ a < b < 1.000.000.000
+
+Exemplu
+Input: 11 50
+Output: 2

@@ -1,0 +1,19 @@
+#582
+Turneu
+
+Cerința
+Se dă un graf turneu cu n noduri. Să se determine un drum elementar care să conțină toate nodurile grafului.
+
+Restricții
+1 ≤ n ≤ 100
+orice drum corect determinat este acceptat
+
+Exemplu
+Input: 4
+1 4
+2 1
+2 4
+3 1
+3 2
+4 3
+Output: 1 4 3 2

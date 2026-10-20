@@ -1,0 +1,12 @@
+#47
+sumapatrate
+
+Cerința
+Să se scrie un program care citește numărul natural n și determină suma primelor n pătrate perfecte nenule.
+
+Restricții
+0 < n < 1000
+
+Exemplu
+Input: 6
+Output: Rezultatul este 91

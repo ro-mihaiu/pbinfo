@@ -1,0 +1,32 @@
+#2057
+admitere
+
+Cerința
+(1) Care este numărul maxim de elevi privilegiaţi care pot fi admiși dacă se pune restricția suplimentară ca toți elevii privilegiați admiși să fie admiși la aceeași clasă? (2) Care este numărul maxim de elevi privilegiaţi care pot fi admiși dacă aceștia se pot înscrie la clase diferite?
+
+Restricții
+1 ≤ N, M ≤ 2000
+Teste în valoare totală de 25 de puncte vor solicita rezolvarea cerinței (1), iar restul de 65 de puncte vor solicita rezolvarea cerinței (2). Din oficiu sunt acordate 10 puncte.
+Pentru cerința (2), teste în valoare totală de 45 de puncte vor avea 1 ≤ N, M ≤ 150
+Toate cele N + M note pentru clasa de Real sunt distincte două câte două. Același lucru este valabil și în cazul notelor pentru clasa de Uman.
+Toate notele sunt numere naturale din intervalul [1, 4000] .
+Notele elevilor deja înscriși de la clasa de Real, respectiv Uman vor fi date în ordine crescătoare.
+În cazul în care există mai multe soluții corecte, este acceptată oricare dintre acestea.
+
+Exemplu
+Input: 1
+2 3
+2 4 6
+6 7 8
+3 5
+12 14
+Output: 1
+XR
+Input: 2
+2 3
+2 4 6
+6 7 8
+3 5
+12 14
+Output: 2
+RU

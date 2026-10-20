@@ -1,0 +1,14 @@
+#3941
+CountSumS
+
+Cerința
+Scrieți funcția care are antetul:
+long long CountSumS(vector<int> &a, int s)
+Funcția va returna numărul de perechi (a[i], a[j]) cu i < j și a[i] + a[j] = s .
+
+Restricții
+a conține cel puțin un element și cel mult 1.000.000
+elementele vectorului sunt numere întregi din intervalul [-1.000.000.000, 1.000.000.000]
+Puteți utiliza în rezolvare orice structură de date
+
+Exemplu

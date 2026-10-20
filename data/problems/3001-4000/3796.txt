@@ -1,0 +1,21 @@
+#3796
+qtsume
+
+Cerința
+Se dă un vector A cu N numere naturale. Pentru Q întrebări de forma (x, y) aflați rezultatul sumei A[x] + 2 * A[x + 1] + ... + (y - x + 1) * A[y] .
+
+Restricții
+1 ≤ N, Q ≤ 100.000
+1 ≤ A[i] ≤ 1.000.000
+1 ≤ x ≤ y ≤ N
+
+Exemplu
+Input: 5
+3 1 2 3 5
+3
+1 2
+1 5
+2 4
+Output: 5
+48
+14

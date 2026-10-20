@@ -1,0 +1,17 @@
+#1248
+carti2
+
+Cerința
+Un filipinez cultivat are X cărți pe care dorește să le vândă. Pentru aceasta, el merge pe strada Plopilor fără soț unde se află n case. Acesta știe că în fiecare dintre cele n case se vor vinde un număr de cărți.
+Filipinezul cultivat începe să vândă de la o casă a și trece pe la toate casele succesive până când nu mai are cărți de vândut.
+Determinați intervalul minim lexicografic [a, b] între care filipinezul să-și vândă cărțile, astfel încât să vândă un număr maxim de carți, mai mic sau egal cu X
+
+Restricții
+1 ≤ n ≤ 100.000
+1 ≤ X ≤ 1.000.000.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 5 9
+1 2 3 4 5
+Output: 2 4

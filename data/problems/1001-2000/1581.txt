@@ -1,0 +1,19 @@
+#1581
+max_suma
+
+Cerința
+Se dau n şiruri, fiecare şir fiind format din m numere naturale mai mici decat 500 . Să se determine cel mai mare număr din fiecare şir. Să se determine suma numerelor fiecărui şir.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ m ≤ 50
+
+Exemplu
+Input: 3 
+5
+15 25 44 66 87
+25 11 44 78 32
+20 59 87 45 99
+Output: 87 237
+78 190
+99 310

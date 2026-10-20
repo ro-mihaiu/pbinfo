@@ -1,0 +1,17 @@
+#2307
+dec2ord
+
+Cerința
+Medeea vă roagă să o ajutați să rezolve tema transformând fracția zecimală primită în fracție ordinară şi să o aduceți la forma ireductibilă.
+
+Restricții
+Fiecare parte are maximum 5 cifre
+Se garantează că fracția dată are cel puțin o zecimală
+Dacă fracția nu are parte periodică sau zecimală neperiodică, pe linia aferentă se va afla -1 .
+Pentru 70% din teste fracțiile nu au perioadă
+
+Exemplu
+Input: 125
+9
+6
+Output: 3779/30

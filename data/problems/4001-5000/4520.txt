@@ -1,0 +1,14 @@
+#4520
+intersecSets
+
+Cerința
+Dându-se două mulțimi de numere naturale consecutive prin capetele lor, să se determine intersecția lor.
+
+Restricții
+1 ≤ a, b, c, d ≤ 1.000.000
+
+Exemplu
+Input: 2 11 8 15
+Output: 8 11
+Input: 22 111 200 300
+Output: -1 -1

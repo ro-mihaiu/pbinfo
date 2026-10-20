@@ -1,0 +1,27 @@
+#2185
+expresie9
+
+Cerința
+Scrieţi un program care determină pentru un şir de n expresii, formate din litere mici şi operatorii: + , < , > , două cerinţe: -cerinţa 1 : să determine numărul cel mai mare, obținut dintr-un șir de litere, din expresiile date; -cerinţa 2 : să evalueze fiecare expresie și să afișeze valoarea ei.
+
+Restricții
+0 < n ≤ 100
+Fiecare expresie conţine cel mult 80 de caractere ce pot fi litere mici ale alfabetului englez, unul sau mai mulți operatori + , < , >
+Fiecare expresie conţine cel puţin un operator
+Fiecare şir de litere din expresiile date conţine cel mult 60 de litere mici ale alfabetului englez
+O expresie va conţine cel mult un operator de tipul: < , >
+O expresie ce conţine un operator de tipul: < , > va avea valoarea 0 sau 1
+Expresiile date sunt corecte
+
+Exemplu
+Input: 1 2
+abcd+cde
+a+cd+dbcd>abc
+Output: 4234
+Input: 2 3
+a+b<c
+abc+xy
+abc>ab+d
+Output: 0
+2548
+1

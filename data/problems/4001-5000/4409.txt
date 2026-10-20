@@ -1,0 +1,22 @@
+#4409
+castel4
+
+Cerința
+Cunoscând numerele scrise pe cele N cuburi galbene, în ordinea dată, scrieți un program care să determine: 1) numărul cuburilor galbene, dintre cele N date, pe care sunt scrise valori de o singură cifră; 2) rândul pe care se află cubul din vârful castelului și numărul scris pe acest cub; 3) numărul cuburilor albastre din care este alcătuit castelul și suma tuturor numerelor de pe acestea.
+
+Restricții
+3 ≤ n ≤ 5.000
+Pentru 25 de puncte, C = 1
+Pentru 30 de puncte, C = 2
+Pentru 45 de puncte, C = 3
+
+Exemplu
+Input: 1 12
+17 5 11 2 17 17 4 2 2 5 34 88
+Output: 6
+Input: 2 12
+17 5 11 2 17 17 4 2 2 5 34 88
+Output: 4 5
+Input: 3 12
+17 5 11 2 17 17 4 2 2 5 34 88
+Output: 6 110

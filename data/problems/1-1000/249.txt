@@ -1,0 +1,14 @@
+#249
+pozitiex
+
+Cerința
+Se dă un număr natural X şi un şir cu n numere naturale distincte două câte două. Să se determine poziţia pe care s-ar afla numărul X în şirul ordonat crescător.
+
+Restricții
+1 ≤ n ≤ 10000
+X şi elementele şirului vor avea cel mult 9 cifre
+
+Exemplu
+Input: 79 6
+267 13 45 628 7 79
+Output: 4

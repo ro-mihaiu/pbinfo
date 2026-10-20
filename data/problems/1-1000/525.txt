@@ -1,0 +1,14 @@
+#525
+numere1
+
+Cerința
+Se dau n numere naturale. Determinaţi cele mai mari două numere cu trei cifre care nu apar printre numerele date.
+
+Restricții
+1 ≤ n ≤ 500.000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 10
+10 994 1010 999 1010 998 1005 994 996 995
+Output: 993 997

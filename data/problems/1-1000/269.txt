@@ -1,0 +1,15 @@
+#269
+PuteriK
+
+Cerința
+Se dau n numere naturale şi un număr natural k . Afişaţi în ordine crescătoare acele numere date care sunt puteri ale lui k .
+
+Restricții
+1 ≤ n ≤ 100
+2 ≤ k ≤ 10
+numerele de pe a doua linie a fişierului de intrare vor avea cel mult 8 cifre
+
+Exemplu
+Input: 8 2
+32 56 317 809 256 2 1 60
+Output: 1 2 32 256

@@ -1,0 +1,14 @@
+#511
+KSort
+
+Cerința
+Se dă un vector cu n elemente, numere naturale și un număr k . Ordonați crescător primele k elemente ale vectorului și descrescător ultimele n-k elemente.
+
+Restricții
+1 ≤ k < n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 7 3
+13 1 10 15 3 7 11
+Output: 1 10 13 15 11 7 3

@@ -1,0 +1,12 @@
+#467
+numar
+
+Cerința
+Se dă un număr natural n cu exact trei cifre. Calculaţi produsul dintre cifra unităților și cifra sutelor.
+
+Restricții
+100 ≤ n ≤ 999
+
+Exemplu
+Input: 745
+Output: 35

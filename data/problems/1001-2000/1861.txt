@@ -1,0 +1,23 @@
+#1861
+TopSort
+
+Cerința
+Se dă un graf orientat aciclic cu N noduri numerotate de la 1 la N . Să se realizeze o sortare topologică a nodurilor.
+
+Restricții
+1 ≤ N ≤ 100.000
+1 ≤ M ≤ 400.000
+
+Exemplu
+Input: 7 10
+1 2
+2 5
+3 4
+3 5
+4 5
+7 1
+7 2
+7 4
+7 5
+7 6
+Output: 7 6 3 4 1 2 5

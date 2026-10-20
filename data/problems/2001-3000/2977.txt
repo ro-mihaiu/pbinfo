@@ -1,0 +1,18 @@
+#2977
+poarta1
+
+Cerința
+Scrieți un program care citește valorile N și P cu semnificația din enunț și rezolvă următoarele cerințe: 1. afișează numărul minim de dale pe care trebuie să calce pentru a deschide poarta; 2. afișează numărul natural T , reprezentând numărul minim de picături de poțiune magică necesare pentru deschiderea porții.
+
+Restricții
+2 ≤ N < 10.000
+P este număr natural nenul cu cel mult 1000 de cifre; pentru o parte dintre teste, valorând în total 60 de puncte, P are cel mult 18 cifre.
+Recipientul conține o cantitate suficientă de poțiune magică.
+Pentru rezolvarea cerinței 1 se acordă maximum 60 de puncte, iar pentru rezolvarea cerinței 2 se acordă maximum 30 de puncte.
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă pentru exemplele din enunț.
+
+Exemplu
+Input: 1
+5
+9
+Output: 3

@@ -1,0 +1,13 @@
+#3185
+concurs1
+
+Cerința
+La un concurs pot participa copii cu vârste între a și b ani, inclusiv. Gigel are n ani. Stabiliți dacă poate participa la concurs.
+
+Restricții
+1 ≤ a,b,n ≤ 1000
+a ≤ b
+
+Exemplu
+Input: 4 9 8
+Output: DA

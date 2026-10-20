@@ -1,0 +1,22 @@
+#1083
+Sir5
+
+Cerința
+Deduceţi regula după care sunt generaţi termenii şirului şi scrieţi un program care să citească numerele naturale k , x , a şi b şi care să determine:
+a) ultima cifră a sumei tuturor termenilor şirului care sunt formaţi din cel mult k cifre; b) succesorul termenului x în şirul dat, x fiind un termen al şirului; c) numărul de termeni ai şirului care au cifra cea mai semnificativă egală cu a şi nu conţin în scrierea lor cifra b .
+
+Restricții
+Numerele k , x , a şi b sunt naturale nenule
+1 ≤ k ≤ 9
+x este un termen al şirului din enunţ şi are succesor în şir
+succesorul termenului x în şir este termenul care urmează imediat după x (de exemplu, dacă x=2341 atunci succesorului lui x în şir este 3412 )
+1 ≤ x < 900000000
+1 ≤ a ≤ 9 ; 1 ≤ b ≤ 9 ; a ≠ b
+cifra cea mai semnificativă a unui număr natural este prima cifră din scrierea sa, de la stânga la dreapta (de exemplu cifra cea mai semnificativă a numărului 32156 este 3 )
+Pentru rezolvarea cerinţei a) se acordă 30% din punctaj, pentru cerinţa b) 40% din punctaj şi pentru cerinţa c) 30% din punctaj.
+
+Exemplu
+Input: 3 45123 3 6
+Output: 0
+51234
+3

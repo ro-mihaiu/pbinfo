@@ -1,0 +1,14 @@
+#1356
+nsir
+
+Cerința
+Fie n un număr natural. Să se determine toate șirurile a de k numere naturale nu neapărat distincte: 1 ≤ a 1 , a 2 ,...,a k ≤ n , astfel încât: 1) 1 = 1/a 1 + 1/a 2 +...+ 1/a k 2) n = a 1 + a 2 +...+ a k
+
+Restricții
+5 ≤ n ≤ 75
+se admite că cerința 1) este satisfăcută dacă: | 1/a 1 + 1/a 2 + … + 1/a k – 1 |<10 -5
+
+Exemplu
+Input: 33
+Output: 3 3 9 9 9
+3 5 5 5 15

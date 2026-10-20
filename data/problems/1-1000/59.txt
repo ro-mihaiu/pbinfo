@@ -1,0 +1,13 @@
+#59
+cmmmc
+
+Cerința
+Să se scrie un program care să determine cel mai mic multiplu comun a două numere naturale citite de la tastatură.
+
+Restricții
+0 < a, b < 1.000.000.000
+pentru toate seturile de date de intrare, x<2.000.000.000
+
+Exemplu
+Input: 24 36
+Output: 72

@@ -1,0 +1,17 @@
+#222
+mincols
+
+Cerința
+Să se determine, pentru fiecare coloană, valoarea minimă de pe coloana respectivă.
+
+Restricții
+2 ≤ n ≤ 50
+elementele tabloului sunt cuprinse între -1000 şi 1000 .
+
+Exemplu
+Input: 4
+122 103 5 10
+-7 18 -10 2
+107 999 59 4
+1 200 100 7
+Output: -7 18 -10 2

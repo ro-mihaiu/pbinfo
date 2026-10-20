@@ -1,0 +1,15 @@
+#3672
+Calculează pe n
+
+Cerința
+Se citește de la tastatură număr natural n . Pornind de la valoarea 1 , asupra valorii curente x se pot aplica următoarele trei operații: înmulțire cu 2 , înmulțire cu 3 sau adunare cu 1 . De exemplu, dacă x=1 atunci se poate obține 2 (prin înmulțirea cu 2 sau prin adunarea cu 1 ) sau 3 (prin înmulțirea cu 3 ).
+Calculați numărul minim de operații necesare pentru a obține numărul n începând de la numărul 1 .
+
+Restricții
+1 ≤ n ≤ 1.000.000
+
+Exemplu
+Input: 1
+Output: 0
+Input: 5
+Output: 3

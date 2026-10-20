@@ -1,0 +1,10 @@
+#2836
+FiboImpar
+
+Cerința
+Șirul lui Fibonacci ( 1, 1, 2, 3, 5, 8, 13, 21,... ) se definește astfel:
+\(f_1 = 1\), \(f_2 = 1\), \(f_i = f_{i-1} + f_{i-2}\) pentru orice număr natural \( i \), \(i≥3\).
+Subprogramul Fibo are un singur parametru, n , prin care primeşte un număr natural ( n∈[1,30] ). Subprogramul returnează al n -lea termen impar al șirului lui Fibonacci.
+Scrieți definiția completă a subprogramului.
+
+Exemplu

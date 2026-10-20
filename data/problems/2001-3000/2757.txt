@@ -1,0 +1,14 @@
+#2757
+CifreZecimale1
+
+Cerința
+Se consideră șirul de cifre zecimale obținut prin scrierea consecutivă a numerelor naturale de la 100 la 999 : 100101102103104105…995996997998999 . Să se afișeze cifra ce apare pe poziția k în acest șir.
+
+Restricții
+1 ≤ n ≤ 100.000
+1 ≤ k ≤ 2700
+
+Exemplu
+Input: 3
+5 10 18
+Output: 0 1 5

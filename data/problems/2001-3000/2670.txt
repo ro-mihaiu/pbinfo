@@ -1,0 +1,13 @@
+#2670
+ecuatie4
+
+Cerința
+Se dau două numere naturale nenule, a și b , unde a < b . Să se determine soluțiile naturale nenule x și y ale ecuației: \( \frac{1}{x}+\frac{1}{y}=\frac{a}{b} \).
+
+Restricții
+1 ≤ a < b ≤ 100 ;
+
+Exemplu
+Input: 2 3
+Output: 2 6
+3 3

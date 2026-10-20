@@ -1,0 +1,18 @@
+#1973
+Hambar2
+
+Cerința
+Ajutați-l pe Cavalerul de Aur să câștige această întrecere.
+
+Restricții
+1 ≤ N, M ≤ 1000
+Nu se vor afla 2 sau mai mulți pomi în același loc.
+
+Exemplu
+Input: 5 5
+1 3
+2 1
+2 5
+5 1
+5 5
+Output: 12

@@ -1,0 +1,18 @@
+#3158
+numere123
+
+Cerința
+Se citește un număr natural n având cifrele diferite două câte două. Afișați în ordine crescătoare numerele care se pot obține din cifrele lui n și care au același număr de cifre ca n .
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+n are toate cifrele distincte
+
+Exemplu
+Input: 483
+Output: 348
+384
+438
+483
+834
+843

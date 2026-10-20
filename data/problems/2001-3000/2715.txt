@@ -1,0 +1,13 @@
+#2715
+ROT13
+
+Cerința
+Laura vă va da un text codificat. Aflați conținutul acestuia!
+
+Restricții
+1 ≤ strlen(șir inițial) ≤ \( {10}^{6} \);
+Șirul va conține doar litere mici și mari ale alfabetului englez, precum și spații.
+
+Exemplu
+Input: Cbg qrpbqvsvpn gbghy va yvzvgn qr gvzc
+Output: Pot decodifica totul in limita de timp

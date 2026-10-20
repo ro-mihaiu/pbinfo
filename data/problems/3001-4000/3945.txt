@@ -1,0 +1,15 @@
+#3945
+fazan_max
+
+Cerința
+Se dau n cuvinte distincte formate din litere mici. Afișați șirul format dintr-un număr maxim de cuvinte distincte dintre cele date, care respectă regula jocului Fazan . La jocul Fazan o succesiune de două cuvine a și b se consideră corectă dacă ultimele două litere din cuvântul a sunt identice cu primele două din b . De exemplu, cuvintele fazan și anterior sunt corecte în această ordine.
+
+Restricții
+1 ≤ n ≤ 30
+cele n cuvinte sunt formate din litere mici, au lungimea cel puțin 2 și cel mult 20 și sunt distincte.
+
+Exemplu
+Input: 7
+dor ana nasture repede alina diana decis
+Output: ana nasture repede decis
+diana nasture repede decis

@@ -1,0 +1,16 @@
+#903
+Cezar
+
+Cerința
+În criptografie, cifrul Caesar este una dintre cele mai simple și mai cunoscute modalități de criptare a unui text. Este un cifru cu substituție, în care fiecare literă textul inițial este înlocuită cu o literă care se află în alfabet la o distanță fixă față de cea înlocuită. Această metodă este numită așa după Iulius Cezar, care o folosea pentru a comunica cu generalii săi.
+De exemplu, cu o deplasare de 3 poziții, A este înlocuit cu D , B devine E și așa mai departe – în final X devine A , Y devine B , Z devine C . Celelalte caractere din text rămân nemodificate. Astfel, textul ana are mere devine dqd duh phuh .
+Să se scrie un program care citește un text și un număr reprezentând deplasarea și îl criptează folosind cifrul Cezar cu deplasarea dată.
+
+Restricții
+șirul citit va avea cel mult 255 de caractere, în care nu apar litere mari
+deplasarea este un număr natural cuprins între 1 și 25 .
+
+Exemplu
+Input: ana are mere
+3
+Output: dqd duh phuh

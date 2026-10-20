@@ -1,0 +1,20 @@
+#2355
+card
+
+Cerința
+Să se scrie un program care obține numărul de variante posibile de vizitare a unor locații din oraș, care conțin cât mai puține locații vizitate din punctul de plecare, ce asigură utilizarea tuturor punctelor de pe card și lista punctelor din locațiile vizitate, în ordinea vizitării lor, pentru varianta pe care Alexandru o alege.
+
+Restricții
+2 ≤ n, m ≤ 30
+Liniile și coloanele matricei h sunt numerotate de la 1 și matricea h are elemente distincte
+0 < h[i,j] ≤ 100 000 , pentru 1 ≤ i ≤ n , 1 ≤ j ≤ m
+1 ≤ k ≤ 6 , 1 ≤ x ≤ n , 1 ≤ y ≤ m
+Pentru datele de test, există o singură variantă de vizitare ce poate fi selectată în condițiile problemei, dintre variantele posibile de vizitare
+
+Exemplu
+Input: 3 4 2 2 3
+54 9 11 14
+20 34 2 8
+7 27 10 29
+Output: 10
+20 7

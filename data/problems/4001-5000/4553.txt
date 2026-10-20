@@ -1,0 +1,15 @@
+#4553
+Alipite
+
+Cerința
+Se dau n numere naturale cu cel mult 12 cifre fiecare. Calculați suma celor care sunt alipite.
+
+Restricții
+1 ≤ n ≤ 100
+numerele citite au cel mult 12 cifre fiecare
+numerele formate dintr-o singură cifră NU sunt alipite
+
+Exemplu
+Input: 5
+1212 12012 444 208 1001
+Output: 1656

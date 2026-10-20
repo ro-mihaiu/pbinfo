@@ -1,0 +1,15 @@
+#1877
+kMax
+
+Cerința
+Se dă un șir cu n elemente, numere întregi, și un număr natural k ≤ n . Calculați cea mai mare sumă care poate fi obținută schimbând semnul a exact k elemente aflate pe poziții distincte din șirul dat.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele șirului vor fi cuprinse între -1.000.000 și 1.000.000
+
+Exemplu
+Input: 5
+5 -2 -3 4 1
+1
+Output: 11

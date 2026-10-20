@@ -1,0 +1,14 @@
+#945
+baze
+
+Cerința
+Se dă un număr n scris în baza b . Să se afișeze scrierea acestuia în baza c .
+
+Restricții
+numărul n este natural si are cel mult nouă cifre
+2 ≤ b,c ≤10 ;
+rezolvarea acestei probleme necesită utilizarea tablourilor sau a altor forme de memorare a unui număr variabil de valori.
+
+Exemplu
+Input: 2013 4 7
+Output: 252

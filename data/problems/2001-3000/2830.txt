@@ -1,0 +1,8 @@
+#2830
+DivImpar
+
+Cerința
+Subprogramul DivImpar are doi parametri, a și b , prin care primește două numere naturale din intervalul [1,10 5 ] . Subprogramul returnează cel mai mare divizor comun impar al numerelor a și b .
+Scrieți definiția completă a subprogramului.
+
+Exemplu

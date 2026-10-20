@@ -1,0 +1,47 @@
+#1753
+concurs2
+
+Cerința
+La un concurs de programare s-au înscris n elevi. Concursul se desfăşoară pe două secţiuni, secţiunea 1 pentru începători şi secţiunea 2 avansaţi. Proba de concurs se desfăşoară pe parcursul a 3 ore şi elevii au de rezolvat 2 probleme. Fiecare problemă poate avea punctajul minim de 0 puncte şi punctajul maxim de 100 de puncte. Punctajul final al concurentului este format din suma punctajelor celor două probleme. Să se scrie un program care citeşte numărul de elevi înscrişi şi apoi date despre fiecare elev înscris (secţiunea la care s-a înscris, punctajul obţinut pentru prima problema şi punctajul obţinut pentru a două problemă) și rezolvă următoarele cerinţe:
+1. Afișează mesajul DA dacă toţi cei N elevi înscrişi au reuşit să obţină un punctaj nenul la ambele probleme propuse, respectiv NU ” în caz contrar. 2. Afişează pentru fiecare secţiune numărul de elevi înscrişi. Afişarea se va face în ordinea crescătoare a numărului secţiunii, prin perechi de numere de forma nr_secţiune nr_elevi . 3. Afişaţi pentru fiecare secţiune punctajul maxim obţinut şi numărul de elevi care au obţinut acest punctaj. Afişarea se va face în ordinea crescătoare a numărului secţiunii, prin triplete de numere de forma nr_secţiune punctaj_maxim nr_elevi . Ştiind ca premiile se acordă doar celor care au luat punctaj maxim, afişaţi şi numărul de premii care vor fi acordate.
+
+Restricții
+1 <= C <= 3 ,
+1 <= S <= 2
+0 < n <= 300
+0 <= P1,P2 <= 100
+
+Exemplu
+Input: 1
+7
+1 100 100
+2 100 100
+1 50 0
+1 100 100
+2 0 40
+1 100 100
+2 30 70
+Output: NU
+Input: 2
+7
+1 100 100
+2 100 100
+1 50 0
+1 100 100
+2 0 40
+1 100 100
+2 30 70
+Output: 1 4
+2 3
+Input: 3
+7
+1 100 100
+2 100 100
+1 50 0
+1 100 100
+2 0 40
+1 100 100
+2 30 70
+Output: 1 200 3 
+2 200 1
+4

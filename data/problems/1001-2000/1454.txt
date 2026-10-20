@@ -1,0 +1,14 @@
+#1454
+PermutareCuvant
+
+Cerința
+Se dă un cuvânt format din litere ale alfabetului englez și cifre. Afișați toate permutările circulare spre stânga ale sale.
+
+Restricții
+Cuvântul va avea maximum 20 de caractere.
+
+Exemplu
+Input: Hello
+Output: Hello elloH lloHe loHel oHell
+Input: car
+Output: car arc rca

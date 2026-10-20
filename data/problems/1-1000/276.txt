@@ -1,0 +1,13 @@
+#276
+pareimpare
+
+Cerința
+Se dau cel mult 100.000 de numere naturale, cu cel mult 2 cifre fiecare. Afişaţi în ordine strict crescătoare valorile impare care se regăsesc printre valorile date, şi în ordine strict descrescătoare valorile pare care se regăsesc printre valorile date.
+
+Restricții
+în fişierul de intrare se află cel puţin un număr par şi cel puţin un număr impar;
+
+Exemplu
+Input: 75 12 3 3 18 75 1 3
+Output: 1 3 75
+18 12

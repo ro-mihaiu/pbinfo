@@ -1,0 +1,13 @@
+#3206
+nrinversiuni
+
+Cerința
+Să se determine numărul inversiunilor permutării.
+
+Restricții
+1 ≤ n ≤ 100.000
+
+Exemplu
+Input: 5
+4 2 5 1 3
+Output: 6

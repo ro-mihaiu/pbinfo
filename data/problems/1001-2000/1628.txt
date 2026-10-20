@@ -1,0 +1,12 @@
+#1628
+Patrate1
+
+Cerința
+Se cere să se determine câte dreptunghiuri ale pavajului sunt intersectate de segmentul considerat. Un dreptunghi se consideră intersectat de segment dacă are cel puţin un punct interior comun. Cu alte cuvinte, dacă segmentul doar atinge colţul unui dreptunghi, nu se consideră că îl intersectează.
+
+Restricții
+1 ≤ L, H, X, Y ≤ 2000000000
+
+Exemplu
+Input: 4 2 6 3
+Output: 2

@@ -1,0 +1,24 @@
+#2353
+padure
+
+Cerința
+Determinați suma din enunț pentru zonele puse la dispoziție.
+
+Restricții
+1 ≤ N, M ≤ 100
+1 ≤ C ≤ 100.000
+numerotarea liniilor și coloanelor din pădure începe de la 1
+0 < l1 ≤ l2 ≤ N
+0 < c1 ≤ c2 ≤ M
+pentru fiecare set de date de intrare există soluție
+înălțimea copacilor nu depășește valoarea 100
+
+Exemplu
+Input: 4 4 2
+9 3 2 4
+6 2 1 5
+2 3 2 4
+4 5 3 4
+1 1 3 3
+2 2 4 4
+Output: 29

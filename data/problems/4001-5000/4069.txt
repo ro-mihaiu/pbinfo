@@ -1,0 +1,18 @@
+#4069
+GrafComplet
+
+Cerința
+Se dau două numere naturale n k . Considerăm graful complet cu n noduri, etichetate de la 1 la n . Din acesta eliminăm toate muchiile (i,j) cu proprietatea că i și j dau același rest la împărțirea cu k .
+Afișati matricea de adiacență a grafului parțial obținut.
+
+Restricții
+1 < k < n ≤ 100
+
+Exemplu
+Input: 6 3
+Output: 0 1 1 0 1 1 
+1 0 1 1 0 1 
+1 1 0 1 1 0 
+0 1 1 0 1 1 
+1 0 1 1 0 1 
+1 1 0 1 1 0

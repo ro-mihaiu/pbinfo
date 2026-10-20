@@ -1,0 +1,21 @@
+#341
+Bomboane
+
+Cerința
+La magazinul din colț au fost aduse n cutii, numerotate de la 1 la n , fiecare conținând un anumit număr de bomboane. Administratorul magazinului hotărăște, pentru bunul mers al afacerilor, că bomboanele trebuie rearanjate în cutii, astfel încât fiecare cutie să conțină același număr de bomboane. Pentru aceasta, administratorul magazinului realizează în mod repetat următoarea operație: mută un număr oarecare de bomboane din cutia cu număr maxim de bomboane în cea cu număr minim de bomboane .
+Determinați un șir cu număr minim de operații prin care toate cutiile conțin același număr de bomboane.
+
+Restricții
+1 ≤ n ≤ 1000
+în fiecare cutie se află cel puțin una și cel mult 1000 de bomboane
+după efectuarea mutărilor numărul total de bomboane din cutii este același cu numărul total de bomboane de la început
+dacă nu este posibilă redistribuirea bomboanelor în condițiile date se va afișa pe prima linie a fișierului valoarea -1
+administratorul magazinului bănuiește că aceasta nu este cea mai eficientă metodă de lucru, dar se mulțumește cu aceasta.
+
+Exemplu
+Input: 5
+4 2 1 7 1
+Output: 3
+4 3 2
+4 5 2
+1 2 1

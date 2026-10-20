@@ -1,0 +1,14 @@
+#4381
+NumararePerechi2
+
+Cerința
+Se dă un vector a cu n numere naturale. Să se determine câte dintre perechile (a[i], a[j]) (cu i < j ) de elemente egal depărtate de capetele vectorului au aceeași cifră a zecilor.
+
+Restricții
+1 ≤ n ≤ 500
+elementele vectorului vor fi cuprinse între 10 și 1.000.000
+
+Exemplu
+Input: 6
+145 207 56 1248 1001 249
+Output: 2

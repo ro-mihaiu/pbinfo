@@ -1,0 +1,14 @@
+#199
+EliminareSubsir
+
+Cerința
+Se dau două şiruri de caractere s şi t . Să se elimine din s toate apariţiile lui t .
+
+Restricții
+cele două şiruri conţin cel mult 255 caractere.
+aparițiile șirului t în s nu se suprapun
+
+Exemplu
+Input: ana si mariana canta la nai
+na
+Output: a si maria canta la i

@@ -1,0 +1,20 @@
+#877
+Cuburi2
+
+Cerința
+Gigel are un set de n cuburi. Fiecare cub este marcat cu un număr natural, de la 1 la n și i se cunoaște lungimea laturii – număr natural. Cu o parte dintre aceste cuburi Gigel va construi o stivă, astfel:
+fiecare cub se analizează o singură dată, în ordinea numerelor marcate;
+dacă stiva nu conține niciun cub, cubul curent devine baza stivei
+dacă cubul curent are latura mai mică sau egală cu cubul din vârful stivei, se adaugă pe stivă;
+dacă cubul curent are latura mai mare decât cubul din vârful stivei, se vor înlătura de pe stivă cuburi (eventual toate) până când cubul curent are latura mai mică sau egală cu cubul din vârful stivei.
+Să se afișeze numerele de pe cuburile existente la final în stivă, de la bază spre vârf.
+
+Restricții
+1 ≤ n ≤ 1000
+lungimile cuburilor vor fi mai mici decât 1000
+
+Exemplu
+Input: 6
+7 4 3 5 1 2
+Output: 3
+1 4 6

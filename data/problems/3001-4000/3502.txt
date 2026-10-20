@@ -1,0 +1,14 @@
+#3502
+hard_prime
+
+Cerința
+Se dau n numere naturale. Să se afișeze toate numerele prime distincte dintre acestea in ordine crescătoare.
+
+Restricții
+1 ≤ n ≤ 30.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 2.000.000.000
+
+Exemplu
+Input: 10
+3 2 32 47 3 0 2 40 7 1
+Output: 2 3 7 47

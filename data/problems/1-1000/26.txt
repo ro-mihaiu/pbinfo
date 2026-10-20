@@ -1,0 +1,12 @@
+#26
+celmaimicnr
+
+Cerința
+Să se scrie o funcție C++ care să returneze cel mai mic număr care se poate scrie cu cifrele unui număr natural transmis ca parametru.
+
+Restricții
+numele funcției va fi cmmnr
+funcția va avea un parametru reprezentând numărul care se dă
+numărul care se dă va fi mai mic decât 1.000.000.000
+
+Exemplu

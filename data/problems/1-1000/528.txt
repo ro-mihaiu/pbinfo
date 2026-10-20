@@ -1,0 +1,18 @@
+#528
+Multimi
+
+Cerința
+Se dau două mulțimi de numere naturale. Să se afișeze reuniunea și intersecția lor.
+
+Restricții
+1 ≤ n , m ≤ 1000
+elementele celor două mulțimi vor fi mai mici decât 1.000.000.000
+cele două mulțimi date au cel puțin un element comun
+
+Exemplu
+Input: 5
+3 6 8 9 12
+7
+2 5 6 7 8 9 11
+Output: 2 3 5 6 7 8 9 11 12 
+6 8 9

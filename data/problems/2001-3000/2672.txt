@@ -1,0 +1,15 @@
+#2672
+primulbit
+
+Cerința
+În reprezentarea în baza 2 a unui număr natural:
+primul bit (cel mai din stânga) este cel mai semnificativ, ultimul bit este cel mai puțin semnificativ;
+biții se numerotează de la dreapta la stânga, începând de la 0 .
+Se citește numărul n . Să se determine numărul de ordine al celui mai semnificativ bit.
+
+Restricții
+valoarea lui n se poate reprezenta pe 64 de biți, fără semn;
+
+Exemplu
+Input: 5
+Output: 2

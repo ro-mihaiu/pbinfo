@@ -1,0 +1,14 @@
+#494
+Constr1
+
+Cerința
+Se dă un vector x cu n elemente, numere naturale. Să se construiască un alt vector, y , cu n elemente, cu proprietatea că y[i] este egal cu suma elementelor din x , cu excepția lui x[i] .
+
+Restricții
+1 ≤ n ≤ 200
+elementele vectorului vor fi cuprinse între 0 și 1.000
+
+Exemplu
+Input: 6
+50 5 15 29 35 40
+Output: 124 169 159 145 139 134

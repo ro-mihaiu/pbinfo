@@ -1,0 +1,16 @@
+#3991
+ModificaParanteze
+
+Cerința
+Fie un șir de paranteze rotunde, deschise sau închise. Putem efectua de câte ori dorim operația de transformare a unei paranteze deschise într-una închisă sau invers. Să se determine numărul minim de operații necesare transformării secvenței inițiale într-una corect parantezată. Dacă acest lucru nu este posibil, se va afișa -1 .
+
+Restricții
+1 ≤ numărul de paranteze ≤ 1000
+
+Exemplu
+Input: ((((
+Output: 2
+Input: )
+Output: -1
+Input: ((()()()
+Output: 1

@@ -1,0 +1,15 @@
+#290
+PareOrdonate
+
+Cerința
+Se dă un şir cu n elemente, numere întregi. Să se verifice dacă elementele pare din şir sunt ordonate crescător.
+
+Restricții
+1 ≤ n ≤ 100
+elementele şirului vor fi cuprinse între -10000 şi 10000
+şirul va conţine cel puţin un număr par
+
+Exemplu
+Input: 5
+2 7 6 10 5
+Output: DA

@@ -1,0 +1,39 @@
+#3380
+Castel2
+
+Cerința
+Se consideră un castel de formă dreptunghiulară, alcătuit din n*m camere dispuse pe n linii și m coloane. Intrarea în castel este în camera de coordonate (1,1) , ieșirea în camera de coordonate (n,m) , iar unele camere sunt închise. Dintr-o cameră se poate trece în camerele învecinate pe linie sau pe coloană. Unele camere sunt ocupate de zmei gripați; fiecare zmeu transmite viruși gripali în camera sa și în camerele aflate în jurul său la distanță mai mică sau egală cu k .
+Pentru a câștiga inima Ilenei Cosânzeana, Făt-Frumos trebuie să traverseze castelul. Deoarece nu se pricepe la informatică vă roagă pe voi să determinați care este lungimea minimă a unui traseu care traversează castelul, trece doar prin camere deschise și nu trece prin camere afectate de zmei.
+
+Restricții
+1 ≤ n,m ≤ 1000
+1 ≤ k ≤ 100
+dacă nu există niciun traseu, se va afișa valoarea -1
+pentru 40 de puncte, k=0
+pentru alte 20 de puncte, k=1
+lungimea traseului este egală cu numărul de camere conținute de acesta, inclusiv camera de intrare în castel și cea de ieșire
+virușii nu pot intra în camerele închise
+
+Exemplu
+Input: 5 7 0
+-#--#--
+-----Z-
+##---#-
+---#---
+-----#-
+Output: 1  #  -  -  #  -  - 
+2  3  4  5  6  Z  - 
+#  #  -  -  7  #  - 
+-  -  -  #  8  9 10 
+-  -  -  -  -  # 11
+Input: 5 7 2
+-#--#--
+-----Z-
+##---#-
+---#---
+-----#-
+Output: 1  #  -  -  #  -  -
+2  3  4  -  -  Z  -
+#  #  5  -  -  #  -
+-  -  6  # 10 11 12
+-  -  7  8  9  # 13

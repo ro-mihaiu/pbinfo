@@ -1,0 +1,14 @@
+#163
+stergere
+
+Cerința
+Se dă un vector cu n elemente numere naturale. Să se șteargă din vector toate elementele care sunt numere prime.
+
+Restricții
+0 < n ≤ 1000
+elementele vectorului vor fi mai mici decât 2 30
+
+Exemplu
+Input: 5
+7 8 9 17 1
+Output: 8 9 1

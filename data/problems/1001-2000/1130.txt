@@ -1,0 +1,14 @@
+#1130
+Codat
+
+Cerința
+Scrieți un program care codifică un șir de N valori, după regulile descrise.
+
+Restricții
+1 ≤ N ≤ 1.000.000
+1 ≤ xi ≤ 2.000.000.000 , 1 ≤ i ≤ N
+
+Exemplu
+Input: 7
+2 9 3 5 1 1 4
+Output: 2 -1 4 2 4 7 4

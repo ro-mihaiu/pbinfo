@@ -1,0 +1,15 @@
+#111
+nrfact
+
+Cerința
+Să se scrie un program care citește un șir de n numere naturale şi determină numărul din şir care are număr maxim de factori primi.
+
+Restricții
+0 < n < 1001
+cele n numere citite vor fi mai mici decât 2.000.000.000
+dacă în şir există mai multe numere cu număr maxim de factori primi, se va afişa cel mai mic dintre acestea
+
+Exemplu
+Input: 5
+72 30 12 75 17
+Output: 30

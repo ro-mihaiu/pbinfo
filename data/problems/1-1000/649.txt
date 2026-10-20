@@ -1,0 +1,14 @@
+#649
+Subarbori
+
+Cerința
+Se dă vectorul de tați al unui arbore cu rădăcină cu n noduri. Determinați câte perechi de noduri neterminale distincte p q din arbore au proprietatea că subarborele cu rădăcina în p și cel cu rădăcina în q au același număr de noduri.
+
+Restricții
+1 ≤ n ≤ 100
+în vectorul de tați rădăcina este marcată cu 0
+
+Exemplu
+Input: 8
+4 3 0 3 2 1 2 1
+Output: 1

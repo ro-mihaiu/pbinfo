@@ -1,0 +1,23 @@
+#1332
+TraseuCal
+
+Cerința
+Se dă o tablă de șah formată din n linii și m coloane, definind n*m zone, unele dintre ele fiind libere, altele conținând obstacole. În zona de coordonate 1 1 se află un cal care se poate deplasa pe tablă în L , ca la șah, fără a părăsi tabla, fără a trece prin zone care conțin obstacole și fără a trece de două ori prin aceeași zonă.
+Determinați o modalitate prin care calul poate ajunge în zona de coordonate n m – unde se află o căpiță de fân.
+
+Restricții
+1 ≤ n,m ≤ 10
+zona în care se află calul și zona în care trebuie să ajungă sunt libere
+dacă nu există nicio modalitate prin care calul ajunge la căpița de fân toate cele n*m numere din fișierul traseucal.out vor fi zero.
+oricare traseu valid al calului este considerat corect
+
+Exemplu
+Input: 4 5
+0 0 1 0 0
+0 0 1 0 0
+0 0 0 0 0
+0 0 0 1 0
+Output: 1 4 0 0 0 
+0 0 0 3 0 
+0 2 5 0 0 
+0 0 0 0 6

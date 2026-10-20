@@ -1,0 +1,28 @@
+#3681
+splatoon
+
+Cerința
+Scrieți un program care citește un număr natural N , valorile matricei și pozițiile inițiale ale jucătorilor și afișează la ieșire răspunsul la Q întrebări de forma: “Care este primul moment de timp după care avem cel puțin P celule colorate în matrice?”. În cazul în care pentru o întrebare nu se vor putea colora P celule libere (după oricât de mult timp), se va afișa ca răspuns pentru acea întrebare valoarea -1 .
+
+Restricții
+3 ≤ N ≤ 1500
+\( 1 ≤ M, Q ≤ {N}^{2} \)
+\( 1 ≤ P ≤ {10}^{9} \)
+liniile și coloanele sunt indexate începând cu 1 .
+
+Exemplu
+Input: 8
+0 0 0 0 0 0 0 0
+1 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 1 0 0 1 0 0 0
+0 0 0 0 0 1 0 0
+0 0 0 0 0 0 0 0
+0 0 0 1 0 0 0 1
+2
+3 3
+6 6
+3
+35 16 1000
+Output: 2 1 -1

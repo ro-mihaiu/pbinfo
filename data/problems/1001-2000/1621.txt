@@ -1,0 +1,45 @@
+#1621
+Miting
+
+Cerința
+Cunoscând dimensiunile cartierului n și m , cuvântul cuv , configurația cartierului și pozițiile inițiale ale tinerilor, se cere:
+Aria minimă a unei submatrice a matricei care codifică cartierul, în care se situează toate pozițiile inițiale ale tinerilor.
+Numărul minim de unități de combustibil consumați de către toate mașinile, știind că în final toți tinerii se vor reuni într-o singură mașină.
+
+Restricții
+2 ≤ n, m ≤ 60
+2 ≤ k ≤ 10
+Fie z numărul zonelor interzise. Atunci 0 ≤ z ≤ (n * m)/3
+În fiecare unitate de timp, o mașină poate să rămână pe loc în așteptarea alteia sau poate să treacă într-o zonă vecină, indiferent dacă zona respectivă este sau nu ocupată de o altă mașină.
+Lungimea laturii unei zone se consideră egală cu 1 .
+Pentru rezolvarea corectă a primei cerințe se acordă 20 de puncte, iar pentru cerința a doua se acordă 80 de puncte.
+Pentru 30% dintre testele cerinței 2 se garantează k ≤ 3 .
+
+Exemplu
+Input: 1
+4 5
+JOS
+#_O_#
+_#__S
+_#J_#
+___#_
+Output: 9
+Input: 2
+5 7
+BUN
+_#_#_#_
+__N#__#
+_#__B__
+U__#_#_
+_#_#_#_
+Output: 6
+Input: 2
+6 7
+ROST
+O#_#_#_
+___#__#
+_#_R___
+____#__
+__#_S_#
+_#_T_#_
+Output: 9

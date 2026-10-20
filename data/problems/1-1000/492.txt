@@ -1,0 +1,14 @@
+#492
+Numarare3
+
+Cerința
+Se dă un vector cu n numere naturale. Să se determine câte dintre perechile de elemente egal depărtate de capetele vectorului sunt prime între ele.
+
+Restricții
+1 ≤ n ≤ 200
+elementele vectorului vor fi cuprinse între 0 și 1000
+
+Exemplu
+Input: 6
+50 18 15 28 35 40
+Output: 2

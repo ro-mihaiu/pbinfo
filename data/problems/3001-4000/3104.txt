@@ -1,0 +1,11 @@
+#3104
+B_Egal
+
+Cerința
+Subprogramul Egal are un parametru, n , prin care primește un număr natural cu cel puțin o cifră impară. Subprogramul returnează valoarea 1 dacă toate cifrele impare ale lui n sunt egale între ele sau valoarea 0 în caz contrar.
+Scrieți definiția completă a subprogramului.
+
+Restricții
+10 ≤ n ≤ 10 9
+
+Exemplu

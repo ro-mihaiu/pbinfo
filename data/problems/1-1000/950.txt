@@ -1,0 +1,25 @@
+#950
+Cerc3
+
+Cerința
+Să se scrie un program care să determine numărul y maxim de cercuri exterioare două câte două dintre cele n .
+
+Restricții
+numerele n , x 1 , x 2 ,…, x n , r 1 , r 2 ,…, r n sunt numere naturale
+1 ≤ n ≤ 300
+1 ≤ x 1 , x 2 ,…, x n ≤ 150
+1 ≤ r 1 , r 2 ,…, r n ≤ 70
+dacă două cercuri, dintre cele n , au centrele în acelaşi punct de pe axa Ox , atunci razele lor sunt distincte
+două cercuri sunt exterioare dacă nu au niciun punct comun şi nici interioarele lor nu au puncte comune
+
+Exemplu
+Input: 8
+3 1
+1 4
+8 1
+11 2
+15 2
+16 6
+21 2
+21 1
+Output: 4

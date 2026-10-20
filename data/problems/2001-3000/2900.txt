@@ -1,0 +1,15 @@
+#2900
+joc9
+
+Cerința
+Scrieți un program care, cunoscând numărul de cartonașe n și numerele scrise pe cele n cartonașe, determină în ordine crescătoare numerele pe care Amalia le poate utiliza la jocul Numersum.
+
+Restricții
+3 ≤ n ≤ 40.000
+10 ≤ c i < 1.000.000.000 pentru 1 ≤ i ≤ n
+În setul de cartonașe al Amaliei există cel puțin un cartonaș ce poate fi ales la jocul Numersum
+
+Exemplu
+Input: 7
+211 58 55 514 101 9867 101
+Output: 55 101 101 211 514

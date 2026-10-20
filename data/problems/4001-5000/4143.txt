@@ -1,0 +1,19 @@
+#4143
+Ghicitoare
+
+Cerința
+Fie un număr natural nenul n , cunoscut. RAU -Gigel alege un număr oarecare din intervalul închis [1,n] , fie acesta x . Apoi calculează “suma XOR ” S = 1 ^ 2 ^ ... ^ (x-2) ^ (x-1) ^ (x+1) ^ (x+2) ^ ... ^ n pe care v-o comunică. Puteți să-l ghiciți pe x ? RAU -Gigel nu prea are răbdare, el vrea repede un răspuns de la voi.
+Am notat cu ^ operația XOR (operatorul de disjuncție exclusivă).
+Ca să fie sigur că nu nimeriți din întâmplare răspunsul, RAU -Gigel vă testează de mai multe ori.
+
+Restricții
+1 ≤ T ≤ 10 , 1 ≤ n ≤ 1.000.000.000 , 0 ≤ S ≤ 1.000.000.000 , 1 ≤ x ≤ n
+Pentru teste în valoare de 10 de puncte: T = 2 , n ≤ 100
+Pentru teste în valoare de alte 30 de puncte: n ≤ 1.000.000
+
+Exemplu
+Input: 2
+5 2
+10 14
+Output: 3
+5

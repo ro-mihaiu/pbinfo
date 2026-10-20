@@ -1,0 +1,19 @@
+#1059
+SchimbCifre
+
+Cerința
+Se dă un număr natural n . Asupra lui se efectuează t serii de transformări, o serie constând în m transformări de genul: cifra de pe poziția i se interschimbă cu cifra de pe poziția j . Să se afişeze numărul obţinut după efectuarea celor t serii de transformări.
+
+Restricții
+1 ≤ n < 1.000.000.000
+1 ≤ t ≤ 2.000.000.000
+1 ≤ m ≤ 10
+prima cifră din scrierea lui n se află pe poziția 1
+numerele din cele m perechi reprezentând pozițiile cifrelor care se interschimbă sunt mai mici sau egale cu numărul cifrelor lui n
+cifra 0 nu va ajunge pe prima poziţie în urma unei interschimbări
+
+Exemplu
+Input: 1234 2 2
+2 4
+1 4
+Output: 4132

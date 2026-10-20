@@ -1,0 +1,12 @@
+#4273
+ProdPP
+
+Cerința
+Se dă numărul natural nenul n . Să se determine produsul primelor n pătrate perfecte nenule.
+
+Restricții
+1 ≤ n ≤ 10
+
+Exemplu
+Input: 4
+Output: 576

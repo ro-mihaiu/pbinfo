@@ -1,0 +1,14 @@
+#2217
+Map
+
+Cerința
+Pentru fiecare a[i] ( i=1..n ) trebuie să spuneți de câte ori apare acest element în secvența a[1] , a[2] , …, a[i] .
+
+Restricții
+1 ≤ n ≤ 200 000
+0 <= a[i] <= 10 18
+
+Exemplu
+Input: 7
+1 9876543210 1 3 3 9876543210 9876543210
+Output: 1 1 2 1 2 2 3

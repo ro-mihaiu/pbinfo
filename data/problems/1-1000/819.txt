@@ -1,0 +1,17 @@
+#819
+Generare1
+
+Cerința
+Se consideră următoarele operații, care se aplică numerelor naturale:
+op 1 – se adaugă la număr cifra 4 – din 13 se obține 134
+op 2 – se adaugă la număr cifra 0 – din 13 se obține 130
+op 3 – dacă numărul este par, se împarte la 2 – din 20 se obține 10
+Dându-se un număr natural n , să se determine un șir de operații dintre cele de mai sus prin care, pornind de la valoarea 4 , se ajunge la n .
+
+Restricții
+1 ≤ n ≤ 100.000
+orice soluție cu mai puțin de 100.000 de operații este acceptată
+
+Exemplu
+Input: 5
+Output: 3 3 2 3

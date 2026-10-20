@@ -1,0 +1,14 @@
+#2848
+dinamica03
+
+Cerința
+Să se determine numărul cuvintelor valide de lungime n . Pentru că acest număr este foarte mare, se va afișa rezultatul modulo 777013 .
+
+Restricții
+1 ≤ n ≤ 100.000
+
+Exemplu
+Input: 1
+Output: 4
+Input: 2
+Output: 14

@@ -1,0 +1,15 @@
+#1959
+Rucsac_Halloween
+
+Cerința
+Sabin merge la colindat de Halloween. Ştiind ca poate colinda la n case, iar la fiecare primeşte g[1], g[2], ..., g[n] bomboane, iar în rucsacul lui încap G bomboane, aflaţi numărul minim de case pe care trebuie să le colinde Sabin pentru a umple ghiozdanul.
+
+Restricții
+1 ≤ n ≤ 1000
+0 ≤ G ≤ 10000
+1 ≤ g[1], g[2], ..., g[n] ≤ G
+
+Exemplu
+Input: 5 8
+1 2 7 3 4
+Output: 2

@@ -1,0 +1,15 @@
+#3408
+joc2020
+
+Cerința
+Gigel a descoperit un nou joc. Jocul are n nivele și la fiecare nivel îți dă câte un număr natural x . Pentru a trece nivelul trebuie să calculezi câți divizori are numărul x . Scrieți un program care să permită terminarea jocului prin trecerea celor n nivele în ordinea în care sunt date.
+
+Restricții
+1 ≤ n ≤ 500.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici sau egale cu 1.000.000
+pentru 50 de puncte n ≤ 10.000
+
+Exemplu
+Input: 7
+30 5 44 210 1 35 30030
+Output: 8 2 6 16 1 4 64

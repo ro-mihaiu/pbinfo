@@ -1,0 +1,10 @@
+#3529
+oop_1
+
+Cerința
+Scrieți definiția completă a funcției membre Suma (antetul și corpul funcției) care returnează suma celor două variabile membre ale clasei.
+
+Restricții
+numele funcției membre este Suma
+
+Exemplu

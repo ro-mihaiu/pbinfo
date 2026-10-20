@@ -1,0 +1,19 @@
+#4130
+rotire25
+
+Cerința
+Dându-se numerele X și K determinaţi: 1) Produsul dintre ultima cifră a numărului X * X * X * ... * X (de K ori) şi prima cifră a lui X . 2) Numărul rezultat după aplicarea celor K transformări.
+
+Restricții
+1 ≤ X ≤ 999
+1 ≤ K ≤ 1.000.000.000
+Pentru teste în valoare de 29 de puncte, C = 1 .
+Pentru teste în valoare de 71 de puncte, C = 2 .
+
+Exemplu
+Input: 1 27 3
+Output: 6
+Input: 2 13 3
+Output: 551
+Input: 2 42 1782321
+Output: 12

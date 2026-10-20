@@ -1,0 +1,15 @@
+#4585
+becuri2
+
+Cerința
+Scrieţi un program care, cunoscând intensităţile becurilor atunci când sunt aprinse în cele două culori, determină suma maximă a intensităţilor becurilor care vor fi aprinse în culoarea albastru, ţinând cont că suma intensităţilor becurilor aprinse în culoarea galben trebuie să fie mai mare sau egală decât K . În cazul în care nu se pot aprinde în culoarea galben becuri de o intensitate totală cel puţin egală cu K , atunci se va afişa valoarea -1 .
+
+Restricții
+1 ≤ N, K ≤ 2000
+1 ≤ a i , g i ≤ 100 , pentru 1 ≤ i ≤ N
+
+Exemplu
+Input: 5 10
+1 2 4 5 7
+1 4 3 2 8
+Output: 12

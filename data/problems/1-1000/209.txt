@@ -1,0 +1,12 @@
+#209
+elimcif
+
+Cerința
+Să se scrie un program care citeşte de la tastatură un număr natural cu exact trei cifre şi determină numărul obţinut prin eliminarea cifrei din mijloc.
+
+Restricții
+99<n<1000
+
+Exemplu
+Input: 201
+Output: 21

@@ -1,0 +1,13 @@
+#4240
+NrSecv01
+
+Cerința
+Scrieți funcția cu următorul antet:
+long long NrSecv01(const char s[])
+Funcția primește ca parametru un șir format doar din 0 și 1 și returnează numărul se secvențe care conțin exact un caracter 1 .
+
+Restricții
+Lungimea șirului s va fi de cel mult 200.000 .
+Puteți utiliza funcțiile pentru șirurile de caractere din biblioteca cstring
+
+Exemplu

@@ -1,0 +1,14 @@
+#185
+cifinit
+
+Cerința
+Se citește de la tastură un număr natural n , apoi n numere naturale. Să se afişeze cel mai mic număr care poate fi scris folosind prima cifră a numerelor citite.
+
+Restricții
+0 < n < 1000
+cele n numere citite vor fi nenule și mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+100 312 276 985 5021
+Output: 12359

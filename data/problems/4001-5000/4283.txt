@@ -1,0 +1,16 @@
+#4283
+LowMem1
+
+Cerința
+Se citește din fișierul lowmem1.in de pe prima linie un număr k , iar de pe a doua linie un șir de cel mult 1.000.000 numere întregi , de cel mult 9 cifre fiecare. Să se determine valoarea maximă S , care se poate obține prin însumarea a k numere consecutive și secvența de numere care formează această sumă maximă.
+
+Restricții
+1 ≤ k ≤ 11000
+k mai mic decât numărul de numere din fișierul de intrare
+dacă avem mai multe secvențe de k elemente care formează suma maximă, se va afișa prima dintre ele
+
+Exemplu
+Input: 5
+15 3 -12 -7 8 22 -1 3 -14 33 -18 10
+Output: 43
+22 -1 3 -14 33

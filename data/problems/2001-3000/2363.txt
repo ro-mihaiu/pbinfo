@@ -1,0 +1,14 @@
+#2363
+joc8
+
+Cerința
+Cunoscând numărul n de numere, precum şi cele n numere naturale extrase din cutie determinați câte dintre acestea au fost alternante.
+
+Restricții
+1 < n < 1000000
+cele n numere din joc au cel mult nouă cifre fiecare
+
+Exemplu
+Input: 10
+193 7 721 14263 28 279 9 1523142 769 15752
+Output: 6

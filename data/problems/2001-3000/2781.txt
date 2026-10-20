@@ -1,0 +1,15 @@
+#2781
+wildfire
+
+Cerința
+Știind x și y , coordonatele inițiale ale focului și n și m , dimensiunile pădurii, ajutați pădurarii să determine numărul minim de zile după care întreaga pădure va fi afectată.
+
+Restricții
+1 ≤ x ≤ n ≤ 1.000.000.000
+1 ≤ y ≤ m ≤ 1.000.000.000
+
+Exemplu
+Input: 2 2 4 5
+Output: 6
+Input: 3 3 9 9
+Output: 13

@@ -1,0 +1,14 @@
+#3355
+Factori4
+
+Cerința
+Se dau n numere naturale. Determinați cel mai mic număr care are un singur factor prim. Dacă nu există niciun număr cu un singur factor prim se va afișa mesajul NU EXISTA .
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+12 9 16 4 20
+Output: 4

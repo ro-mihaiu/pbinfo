@@ -1,0 +1,14 @@
+#4496
+Cerc_nm
+
+Cerința
+Se dau două numere naturale n și m . Determinati o modalitate alegere a m numere din mulțimea \({1,2,…,n}\) și de așezare a lor pe un cerc astfel încât suma a oricare două numere învecinate să fie pătrat perfect.
+
+Restricții
+1 ≤ m ≤ n ≤ 100
+dacă există mai multe modalități de aranjare a numerelor astfel încât să fie îndeplinită condiția, se va afișa cea mai mică lexicografic;
+dacă nu există nicio modalitate de aranjare, atunci se va afișa mesajul nu exista
+
+Exemplu
+Input: 35 6
+Output: 1 3 6 19 17 8

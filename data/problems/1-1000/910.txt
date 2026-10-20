@@ -1,0 +1,15 @@
+#910
+KPrefix
+
+Cerința
+Să se scrie o funcție C++ care primește ca parametri două numere n și k și determină numărul format din primele k cifre ale lui n . Funcția va întoarce rezultatul prin intermediul unui parametru de ieşire.
+
+Restricții
+numele funcției va fi prefix
+funcția va avea trei parametri: primul parametru reprezintă numărul n ;al doilea parametru reprezintă numărul k ; iar al treilea va reprezenta valoarea determinată de funcție
+n va fi număr natural mai mic decât 2.000.000.000
+n va avea cel puțin k cifre
+
+Exemplu
+Input: prefix(27594 , 3 , x);
+Output: None

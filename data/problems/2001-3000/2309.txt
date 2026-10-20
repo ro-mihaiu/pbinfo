@@ -1,0 +1,18 @@
+#2309
+Competitie
+
+Cerința
+Șeful comisiei are nevoie de un clasament final și vă cere să-l ajutați determinând primul clasament în ordine lexicografică ce respectă relațiile pe care și le amintește comisia.
+
+Restricții
+1 ≤ N, M ≤ 1000
+Se garantează corectitudinea datelor de intrare și faptul ca există totdeauna o soluție.
+
+Exemplu
+Input: 3 1
+1 2
+Output: 1 2 3
+Input: 4 2
+2 1
+3 4
+Output: 2 1 3 4

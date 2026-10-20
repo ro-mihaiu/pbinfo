@@ -1,0 +1,34 @@
+#875
+Stiva
+
+Cerința
+Să se scrie un program care gestionează o stivă de numere întregi. Inițial stiva este vidă. Programul va citi de la tastatură o listă de operații, care pot fi:
+push X – adaugă valoarea întreagă X pe stivă;
+pop – elimină elementul din vârful stivei;
+top – afișează elementul din vârful stivei.
+Programul va realiza asupra stivei operațiile citite, în ordine. Afișările se fac pe ecran, câte o valoare pe linie.
+
+Restricții
+stiva nu va conține la un moment dat mai mult de 1000 elemente
+elementele stivei vor fi cuprinse între -1.000.000 și 1.000.000
+dacă la un moment dat se aplică operația pop și stiva nu conține niciun element, operația nu are efect
+dacă la un moment dat se aplică operația top și stiva nu conține niciun element, operația nu are efect (nu se afișează nimic)
+
+Exemplu
+Input: 12
+push 5
+push 4
+top 
+push 7 
+push -5
+pop
+top
+pop
+top
+push 11
+top
+pop
+Output: 4
+7
+4
+11

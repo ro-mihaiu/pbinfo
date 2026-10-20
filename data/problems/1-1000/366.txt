@@ -1,0 +1,12 @@
+#366
+cifre3
+
+Cerința
+Se citește numărul natural n . Să se afișeze, în ordine crescătoare, numerele naturale mai mici decât n cu proprietatea că pătratul și cubul lor nu au cifre comune.
+
+Restricții
+1 ≤ n ≤ 1000
+
+Exemplu
+Input: 20
+Output: 2 3 8 9 14

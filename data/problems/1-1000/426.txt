@@ -1,0 +1,13 @@
+#426
+bazab
+
+Cerința
+Se dă un număr natural n și o bază de numerație b . Să se determine cea mai mare cifră a reprezentării lui n în baza b .
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+2 ≤ b ≤ 10
+
+Exemplu
+Input: 878 6
+Output: 4

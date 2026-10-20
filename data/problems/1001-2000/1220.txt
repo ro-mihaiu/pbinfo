@@ -1,0 +1,31 @@
+#1220
+Scadere
+
+Cerința
+Date fiind valorile x[1] , x[2] , …, x[n] care intervin în scădere, scrieţi un program care să rezolve următoarele două cerinţe:
+să se determine valoarea maximă a unei scăderi (obţinută prin inserarea convenabilă a unor paranteze rotunde în expresia x[1]-x[2]-x[3]-...-x[n] ), precum şi o scădere având valoare maximă.
+să se determine valoarea unei scăderi specificate.
+
+Restricții
+3 ≤ n ≤ 5000
+Valorile variabilelor x[1] , x[2] , …, x[n] sunt numere întregi din intervalul [-100, 100] .
+Scăderea din fişierul de intrare, respectiv scăderea de valoare maximă afişată în fişierul de ieşire vor avea maxim 40000 de caractere care pot fi doar cifre, litera mică 'x' , paranteze rotunde şi operatorul '-' (minus).
+Pentru teste valorând 50% din punctaj cerinţa va fi 1 . Pentru afişarea corectă a valorii maxime se acordă 40% din punctajul pe test. Punctajul integral se acordă pentru afişarea corectă a valorii maxime şi a unei scăderi de valoare maximă.
+
+Exemplu
+Input: 1
+4
+-7
+5
+-10
+19
+Output: 17
+x1-x2-(x3-x4)
+Input: 2
+4
+-7
+5
+-10
+19
+x1-((x2-x3)-x4)
+Output: -3

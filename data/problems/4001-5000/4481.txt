@@ -1,0 +1,12 @@
+#4481
+PrefixSufixMax
+
+Cerința
+Să se scrie un program care să determine cel mai mare prefix care este palindrom și cel mai mare sufix care este palindrom dintr-un număr natural citit de la tastatură.
+
+Restricții
+un număr este palindrom dacă dacă este egal cu oglinditul său
+numărul citit va fi mai mic decât 2.000.000.000
+dacă numărul citit are proprietatea că este palindrom, atunci atât cel mai mare prefix cât și cel mai mare sufix vor fi egale cu numărul citit.
+
+Exemplu

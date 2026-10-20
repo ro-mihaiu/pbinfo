@@ -1,0 +1,17 @@
+#3276
+shopping
+
+Cerința
+Pentru că cele două fete nu se descurcă așa de bine la informatică, ele te roagă să le ajuți să determine care este această sumă minimă.
+
+Restricții
+4 ≤ N ≤ 1000
+Sumele s 1 , s 2 , …, s N sunt numere naturale cuprinse între 1 și 1000
+
+Exemplu
+Input: 4
+20 100 50 200
+Output: 320.0
+Input: 5
+100 27 15 25 400
+Output: 538.5

@@ -1,0 +1,19 @@
+#847
+Cuvinte
+
+Cerința
+Se dă un șir de caractere format din cuvinte, separate prin spații. Cuvintele conțin doar litere mici ale alfabetului englez. Afișați, în ordine lexicografică, cuvintele din șir și frecvența lor de apariție.
+
+Restricții
+șirul dat va avea cel mult 255 de caractere și va conține cel mult 100 de cuvinte
+lungimea unui cuvânt este de cel mult 15 caractere
+
+Exemplu
+Input: maria are doua pere si ana are doua mere
+Output: ana 1
+are 2
+doua 2
+maria 1
+mere 1
+pere 1
+si 1

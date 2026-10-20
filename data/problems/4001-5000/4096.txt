@@ -1,0 +1,34 @@
+#4096
+balba
+
+Cerința
+Fiind dat un număr natural nenul X să se determine:
+Câte numere diferite poate genera X după o bâlbâială și câte numere diferite pot deveni X după o bâlbâială.
+Cel mai mare număr palilindrom care se poate forma cu cifrele lui X . Nu este obligatoriu să se folosească toate cifrele lui X .
+
+Restricții
+1 ≤ N ≤ 100.000
+Numărul X este un număr natural nenul cu maximum 100.000 de cifre.
+Un număr palindrom este un număr care are aceeași valoare dacă este citit de la stânga la dreapta sau de la dreapta la stânga.
+Pentru rezolvarea corectă a cerinței 1 se vor acorda 40 de puncte.
+Pentru rezolvarea corectă a cerinței 2 se vor acorda 60 de puncte
+
+Exemplu
+Input: 1
+8
+7 0 2 2 4 3 3 3
+Output: 5
+2
+Input: 1
+25
+1 2 3 1 2 3 4 1 2 3 4 5 1 2 3 4 5 6 1 2 3 4 5 6 7
+Output: 25
+0
+Input: 2
+11
+2 4 7 8 1 4 8 7 4 2 1
+Output: 87442112478
+Input: 2
+7
+1 2 3 4 0 0 0
+Output: 4

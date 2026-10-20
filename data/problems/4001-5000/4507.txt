@@ -1,0 +1,17 @@
+#4507
+Eratostene9
+
+Cerința
+Se dă un șir A format din N numere naturale nenule. Aflați numărul perechilor de indici, (i,j) , cu i≠j , pentru care A[i] divide pe A[j] .
+
+Restricții
+1 ≤ N ≤ 100.000
+cele N numere citite vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 5
+1 4 3 2 5
+Output: 5
+Input: 4
+2 3 2 4
+Output: 4

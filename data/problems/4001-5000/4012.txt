@@ -1,0 +1,23 @@
+#4012
+Matrix XI
+
+Cerința
+Pentru a evada din Matrix, Neo trebuie să străbată un labirint reprezentat de o matrice cu n linii și m coloane. Fiecare celulă a labirintului este marcată cu o cifră în baza 10 cu semnificația că Neo trebuie să treacă prin acea poziție de atâtea ori cât este valoarea cifrei din acea poziție. Practic, Neo poate merge doar pe poziții care au valori nenule. Inițial, Neo se află în celula de coordonate (x, y) , cunoscută.
+Neo se poate deplasa doar pe valori vecine pe linie și pe coloană. Dacă se află în poziția (i,j) , atunci el poate merge în pozițiile (i-1,j) , (i+1,j) , (i,j+1) și (i,j-1) .
+Neo vrea să știe numărul total de moduri în care poate parcurge labirintul. Dacă îl ajutați să calculeze acest număr, atunci Neo va insista pe lângă Moș Crăciun să vă aducă bomboane roșii și albastre.
+
+Restricții
+1 ≤ n,m ≤ 7
+elementele matricii sunt cuprinse între 0 și 9
+pozițiia (x,y) are valoare nenulă
+
+Exemplu
+Input: 6 7
+0 0 0 0 0 0 0
+0 0 1 1 1 0 0
+0 1 2 0 2 1 0
+0 0 1 0 1 0 0
+0 0 0 0 0 0 0
+0 0 0 0 0 0 0
+3 2
+Output: 2

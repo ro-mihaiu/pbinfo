@@ -1,0 +1,14 @@
+#2220
+DifMax
+
+Cerința
+Să se determine diferența maximă de forma a[i] - a[j] , unde 1 ≤ i < j ≤ n .
+
+Restricții
+1 ≤ n ≤ 100 000
+-1 000 000 000 ≤ a[i] ≤ 1 000 000 000
+
+Exemplu
+Input: 8
+3 5 2 7 6 3 9 8
+Output: 4

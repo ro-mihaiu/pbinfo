@@ -1,0 +1,16 @@
+#2677
+puterealui2
+
+Cerința
+Se dă un număr natural nenul n . Să se verifice dacă n este sau nu o putere a lui 2 .
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+Puteri ale lui 2 sunt numerele 1 , 2 , 4 , 8 , 16 , …
+Pentru eficiență, se recomandă în rezolvare utilizarea operatorilor pe biți.
+
+Exemplu
+Input: 32
+Output: DA
+Input: 24
+Output: NU

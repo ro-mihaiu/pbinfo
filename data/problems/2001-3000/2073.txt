@@ -1,0 +1,27 @@
+#2073
+PlatouK_v2
+
+Cerința
+Să se scrie un program care citește un șir de n numere naturale din intervalul [0,10000] și un număr k și determină:
+lungimea maximă a unui platou care poate să apară în şir în urma efectuării operaţiunii de mai sus de maxim k ori
+elementul din care este format platoul obținut după cele k operațiuni
+
+Restricții
+1 ≤ n ≤ 1000000
+1 ≤ k ≤ 100
+pentru cerința 1 – 50% din punctaj
+pentru cerința 2 – 50% din punctaj
+dacă sunt mai multe platouri de lungime maxima se va afișa cel mai mare considera cel format din valoarea cea mai mare
+toate testele au soluție
+
+Exemplu
+Input: 2
+16 
+2 2 5 0 5 8 8 8 4 9 9 9 0 8 2 2
+1
+Output: 4
+Input: 2
+16 
+2 2 5 0 5 8 8 8 4 9 9 9 0 8 2 2
+2
+Output: 8

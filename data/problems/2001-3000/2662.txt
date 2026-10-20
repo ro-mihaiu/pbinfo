@@ -1,0 +1,14 @@
+#2662
+construirenumarcucifrelemaxime
+
+Cerința
+Se dau n numere naturale. Se construiește o valoare selectând de la fiecare număr cifra maximă. Determinați pătratul acestei valori.
+
+Restricții
+2 ≤ n ≤ 9
+cele n numere citite vor fi mai mici decât 1.000.000.000.000.000.000
+
+Exemplu
+Input: 2
+132 29
+Output: 1521

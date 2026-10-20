@@ -1,0 +1,22 @@
+#1099
+Insule
+
+Cerința
+Dată fiind harta arhipelagului să se determine câte insule aparţin fiecărei ţări, precum şi lungimea minimă a unui pod care să satisfacă condiţiile din enunț.
+
+Restricții
+1 < n, m ≤ 100
+Se garantează că pe hartă există cel puţin un element 1 , un element 2 şi un element 0 .
+Se acordă 40% din punctaj pentru determinarea corectă a numărului de insule din fiecare ţară; se acordă punctaj integral pentru rezolvarea corectă a tuturor cerinţelor.
+Începutul şi sfârşitul podului pot să coincidă.
+Pentru datele de test există întotdeauna soluţie.
+
+Exemplu
+Input: 6 7
+1000320
+0110313
+3333000
+2033000
+2203011
+2000010
+Output: 4 2 3 4

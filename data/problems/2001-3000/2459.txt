@@ -1,0 +1,14 @@
+#2459
+Low Memory
+
+Cerința
+Ajutaţi-l pe Bogdan să ducă la bun sfârşit sarcina primită de la tatăl său pentru a se putea întâlni cu Marcela, fata din vecini.
+
+Restricții
+1 ≤ n ≤ 3000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 10 13 .
+
+Exemplu
+Input: 7
+1 2 5 7 8 9 12
+Output: 12 9 8 7 5 2 1

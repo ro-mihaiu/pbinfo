@@ -1,0 +1,12 @@
+#2112
+Tablita
+
+Cerința
+Descoperiţi regula de inscripţionare a tăbliţelor şi pentru numărul găsit pe a cincea tăbliţă, determinaţi din ce grupă face parte.
+
+Restricții
+Un număr înscris pe o tăbliţă este nenul şi conţine cel mult 8 cifre ;
+
+Exemplu
+Input: 100
+Output: 14

@@ -1,0 +1,15 @@
+#3081
+TrucatableLeft
+
+Cerința
+Un număr prim se numește trunchiabil-stânga dacă, prin eliminare repetată a primei cifre, toate numerele rezultate sunt prime. Se dă un număr natural, să se verifice dacă numărul este prim trunchiabil-stânga .
+
+Restricții
+n este mai mic decât 1.000.000 .
+Cel mai mare prim trunchiabil-stânga este 357686312646216567629137 .
+
+Exemplu
+Input: 1223
+Output: DA
+Input: 263
+Output: NU

@@ -1,0 +1,15 @@
+#1550
+divfactorial
+
+Cerința
+Se da un vector cu n elemente. Sa se afișeze pe ecran elementele din vector care divid factorialul numărului de elemente n .
+
+Restricții
+1 ≤ n ≤ 12
+cele n numere citite vor fi mai mici decât 1.000.000
+pentru toate testele va exista cel puțin un element al vectorului care divide n!
+
+Exemplu
+Input: 5
+16 3 71 30 25
+Output: 3 30

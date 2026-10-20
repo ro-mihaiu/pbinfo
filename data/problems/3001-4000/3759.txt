@@ -1,0 +1,28 @@
+#3759
+Cartita
+
+Cerința
+Se cunosc înălțimile inițiale ale tuturor celor N grămăjoare și cele U modificări făcute de cârtiță asupra înălțimilor grămăjoarelor de pământ ale morcovilor. Știm că în cadrul unei secvențe continue de morcovi cel mai tentant pentru cârtiță este morcovul cu cea mai mică înălțime a grămăjoarei de pământ. Ajutați-l pe Macarie să identifice înălțimea grămăjoarei celui mai tentant morcov, pentru mai multe intervale date, după efectuarea tuturor modificărilor realizate de cârtiță.
+
+Restricții
+1 ≤ N ≤ 100.000
+1 ≤ U ≤ 300.000
+1 ≤ Q ≤ 200.000
+1 ≤ L ≤ R ≤ N
+Inițial 1 ≤ h[i] ≤ N , pentru fiecare i , 1 ≤ i ≤ N
+1 ≤ pos ≤ N , 1 ≤ x ≤ 400 și -21 ≤ K ≤ 21 , K ≠ 0
+
+Exemplu
+Input: 6
+1 6 2 4 3 4
+3
+4 5 2
+2 4 1
+4 2 8
+3
+1 6
+2 4
+4 4
+Output: -19
+-3
+17

@@ -1,0 +1,29 @@
+#4092
+cate
+
+Cerința
+Să se determine:
+Câte numere din intervalul închis determinat de a și b au număr impar de divizori pozitivi.
+Câte numere cu exact trei divizori pozitivi se găsesc în intervalul închis determinat de a și b .
+
+Restricții
+1 ≤ n ≤ 100.000
+1 ≤ a, b ≤ 1.000.000
+Pentru 42 de puncte, C = 1
+Pentru 58 de puncte, C = 2
+
+Exemplu
+Input: 1 3
+1 10
+30 10
+100 500
+Output: 3
+2
+13
+Input: 2 3
+1 10
+30 10
+100 500
+Output: 2
+1
+4

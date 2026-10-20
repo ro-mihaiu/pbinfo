@@ -1,0 +1,15 @@
+#1558
+npe
+
+Cerința
+Se desenează un șir de pătrate distincte, de latură: 1,2,3,4,…. Pătratele sunt numerotate cu numerele egale cu laturile lor. Fiecare pătrat este împărțit în pătrate elementare, adică pătrate de latură 1 . De exemplu, un pătrat de latură k se împarte, trasând k-1 linii orizontale și k-1 linii verticale echidistante, în k*k pătrate elementare dispuse căte k pe fiecare rând, respectiv coloană. Începând de la primul pătrat desenat, parcurgând în spirală fiecare pătrat din șir, se numerotează toate pătratele elementare, ca în imaginea de mai jos:
+În fiecare pătrat din șir, rândurile sunt numerotate de sus în jos cu numerele distincte 1,2,3… . Analog, coloanele sunt numerotate de la stânga la dreapta cu numerele distincte 1,2,3… .
+Dându-se un număr natural N să se determine: 1) Numărul P al pătratului din șir care conține pătratul elementar numerotat cu N ; 2) Rândul R și coloana C în care este situat pătratul elementar cu numărul N în pătratul cu numărul P .
+
+Restricții
+1 ≤ N ≤ 2.000.000.000
+Pentru determinarea corectă a numărului P se acordă 40% din punctaj; pentru determinarea corectă a numărului R se acordă 30% din punctaj; pentru determinarea corectă a numărului C se acordă 30% din punctaj
+
+Exemplu
+Input: 52
+Output: 5 4 3

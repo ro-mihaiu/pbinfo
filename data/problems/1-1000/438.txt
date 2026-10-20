@@ -1,0 +1,19 @@
+#438
+ComponenteConexe
+
+Cerința
+Se dă lista muchiilor unui graf neorientat. Să se afișeze componentele conexe ale acestui graf.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ i , j ≤ n
+în fișierul de intrare muchiile se pot repeta
+
+Exemplu
+Input: 5
+1 4 
+3 5
+2 4
+Output: 2
+1 2 4
+3 5

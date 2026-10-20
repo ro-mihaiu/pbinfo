@@ -1,0 +1,30 @@
+#4410
+Turcane
+
+Cerința
+Se dă un număr întreg C . - Dacă C=1 , să se determine numărul minim de sărituri necesare pentru a ajunge în pătrăţelul de coordonate (M,N) . - Dacă C=2 , să se determine numărul de moduri în care poate să ajungă în pătrăţelul de coordonate (M,N) , nu neapărat cu număr minim de sărituri. Se garantează că pentru datele de intrare există cel puţin un mod de a ajunge în pătrăţelul (M,N) .
+
+Restricții
+1 ≤ M, N ≤ 1000
+0 ≤ P ≤ N − 1
+0 ≤ Q ≤ M − 1
+0 ≤ R ≤ min(M − 1, N − 1)
+dacă P = 0 nu poate sări la dreapta, dacă Q = 0 nu poate sări în jos, iar dacă R = 0 nu poate sări pe diagonală
+Pentru 25 de puncte, C = 1 , M = 1
+Pentru 15 puncte, C = 1 , M = 2
+Pentru 7 puncte, C = 1 , M = 3
+Pentru 7 puncte, C = 1 , 1 ≤ M, N ≤ 200
+Pentru 8 puncte, C = 1 , 1 ≤ M, N ≤ 1000
+Pentru 11 puncte, C = 2 , ≤ M, N ≤ 51
+Pentru 12 puncte, C = 2 , 1 ≤ M, N ≤ 200
+Pentru 14 puncte, C = 2 , 1 ≤ M, N ≤ 1000
+
+Exemplu
+Input: 1
+4 3
+2 3 1
+Output: 2
+Input: 2
+2 3
+2 1 1
+Output: 8

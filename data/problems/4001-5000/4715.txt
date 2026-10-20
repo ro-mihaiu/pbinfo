@@ -1,0 +1,19 @@
+#4715
+vesel1
+
+Cerința
+Un număr se numește vesel dacă este format numai din cifre pare. Un număr se numește trist dacă este format numai din cifre impare. Un număr se numește indiferent dacă nu este nici vesel, nici trist.
+Dat fiind un număr n să se răspundă la următoarele cerințe:
+1. Câte numere vesele cu n cifre există? 2. Câte numere triste cu n cifre există? 3. Câte numere indiferente cu n cifre există?
+
+Restricții
+1 ≤ n ≤ 15
+1 ≤ c ≤ 3
+
+Exemplu
+Input: 1 1
+Output: 5
+Input: 2 1
+Output: 5
+Input: 3 1
+Output: 0

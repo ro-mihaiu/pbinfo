@@ -1,0 +1,17 @@
+#3803
+AriePoligonRegulat
+
+Cerința
+Se dă un poligon regulat cu n laturi cu l lungimea unei laturi. Aflați aria poligonului.
+
+Restricții
+3 ≤ n ≤ 360
+l va fi un număr natural nenul mai mic decât 1000
+
+Exemplu
+Input: 3 2
+Output: 1.73
+Input: 4 3
+Output: 9.00
+Input: 6 3
+Output: 23.38

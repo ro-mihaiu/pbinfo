@@ -1,0 +1,13 @@
+#3655
+Distanta de editare
+
+Cerința
+Pornind de la șirul s se cere să se obțină șirul t aplicând de un număr minim de ori operațiile date.
+
+Restricții
+lungimile celor două șiruri sunt cuprinse între 1 și 100 .
+șirurile sunt formate numai din litere mari și mici
+
+Exemplu
+Input: carte casete
+Output: 2

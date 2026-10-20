@@ -1,0 +1,16 @@
+#324
+PartitiiNumar4
+
+Cerința
+Se dă un număr natural n şi o mulţime cu m elemente, numere naturale nenule. Determinaţi, în ordine lexicografică, toate modalităţile de a-l scrie pe n ca sumă de termeni din acea mulţime.
+
+Restricții
+1 ≤ m < n ≤ 40
+numerele de pe a doua linie a fişierului de intrare sunt mai mici decât n
+
+Exemplu
+Input: 10 3
+3 2 6
+Output: 2 2 2 2 2 
+2 2 3 3 
+2 2 6

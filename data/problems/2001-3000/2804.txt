@@ -1,0 +1,20 @@
+#2804
+strncat
+
+Cerința
+Pentru un cuvânt format din litere mici ale alfabetului englez s și un număr natural x mai mic sau egal cu lungimea cuvântului, definim următoarea operație:
+dacă x este par, la s se vor adăuga primele sale x litere, în ordinea din șir;
+dacă x este impar, la s se vor adăuga primele sale x litere, în ordinea inversă din șir.
+Se dă un cuvânt s și un șir de n numere naturale x[1] , x[2] , …, x[n] . Se aplică succesiv operația definită mai sus între șirul s și numerele din șir, în ordinea acestora.
+Afișați șirul s după aplicarea acestor operații.
+
+Restricții
+lungimea inițială a cuvântului este de cel mult 1000 de caractere
+1 ≤ n ≤ 1000
+fiecare element al șirului dat va fi mai mic sau egal cu minimul dintre 1000 și lungimea curentă a șirului s
+
+Exemplu
+Input: alina
+3 
+4 3 2
+Output: alinaalinilaal

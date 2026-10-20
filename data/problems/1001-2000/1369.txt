@@ -1,0 +1,22 @@
+#1369
+Parcela
+
+Cerința
+Se dau n și m reprezentând dimensiunile unui tablou bidimensional format din elementele 0 si 1 . Se definește o parcelă ca fiind o grupare de elemente vecine cu valoarea 1 , condiția de vecinătate dintre două elemente fiind ca, luat unul dintre ele ca referință, celălalt să fie deasupra, dedesupt, în stânga sau în dreapta acestuia. Parcele se numerotează parcurgând matricea de sus în jos și de la stânga la dreapta, astfel:
+primul element din matrice egal cu 1 face parte din parcela numărul 1
+primul element din matrice care este egal cu 1 și nu face face parte din parcela 1 face parte din parcela 2 ;
+primul element din matrice care este egal cu 1 și nu face face parte din parcelele 1 și 2 face parte din parcela 3 ;
+etc.
+Să se determine numărul de parcele nr , aria maximă a unei parcele amax și respectiv numărul parcelei cu arie maximă pmax .
+
+Restricții
+1 ≤ n,m ≤ 100
+
+Exemplu
+Input: 5 6
+0 1 1 1 0 1
+0 0 1 0 0 1
+0 1 0 0 0 1
+0 0 0 0 1 1
+1 1 1 0 0 1
+Output: 4 6 2

@@ -1,0 +1,18 @@
+#3448
+RecycleBin
+
+Cerința
+Să se determine costul maxim posibil ce se poate obține dintr-un șir al mulțimii M .
+
+Restricții
+1 ≤ N ≤ 1000
+-10 6 ≤ A i ≤ 10 6 pentru 1 ≤ i ≤ N
+Pentru teste în valoare de 10 puncte 1 ≤ N ≤ 30
+Pentru alte teste în valoare de 15 puncte se garantează că există o soluție cu cel mult o operație efectuată
+Pentru alte teste în valoare de 20 puncte se garantează că există o soluție cu cel mult două operații efectuate
+În concurs s-au acordat 10 puncte din oficiu. Pe site se acordă 10 puncte pentru exemplu.
+
+Exemplu
+Input: 14
+13 -19 13 -5 -12 11 20 4 -10 1 -7 19 -19 3
+Output: 76

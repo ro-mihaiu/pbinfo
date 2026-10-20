@@ -1,0 +1,15 @@
+#2142
+easy-sum
+
+Cerința
+Se consideră un vector cu n elemente numere naturale. Calculați suma sumelor tuturor subsecvențelor ce se pot forma cu elementele vectorului. Pentru că suma poate fi foarte mare, afișați suma modulo 1.000.000.007 .
+
+Restricții
+1 ≤ n ≤ 100.000
+numerele de pe a doua linie a fișierului de intrare vor fi cuprinse în intervalul [1,1.000.000]
+prin subsecvență înțelegem orice înșiruire de elemente din vector aflate pe poziții consecutive.
+
+Exemplu
+Input: 3
+1 2 3
+Output: 20

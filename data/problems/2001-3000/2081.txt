@@ -1,0 +1,13 @@
+#2081
+Parsare
+
+Cerința
+Se citesc numere din fișier pâna când nu mai există numere de citit. Să se afișeze cel mai mare dintre ele.
+
+Restricții
+se vor citi maximum 10.000.000 numere.
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 100.000 și mai mari decât -100.000 .
+
+Exemplu
+Input: 3 2 5 -1 5
+Output: 5

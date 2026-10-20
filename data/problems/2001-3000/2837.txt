@@ -1,0 +1,14 @@
+#2837
+Intervale5
+
+Cerința
+Se dă un șir de cel mult un milion de numere naturale din intervalul [0,10 2 ] . Se cere să se determine toate perechile distincte formate din termeni ai șirului dat, x și y ( y-x≥2 ), astfel încât să nu existe niciun termen al șirului care să aparțină intervalului (x,y) . Dacă nu există nicio astfel de pereche, se afișează mesajul nu exista .
+
+Restricții
+pentru determinarea numerelor cerute utilizați un algoritm eficient din punctul de vedere al timpului de executare: recomandă evitarea memorării elementelor șirului într-un tablou sau în altă structură de date similară;
+
+Exemplu
+Input: 5 9 0 8 10 11 12 13 15 14 6 7 40 10 0 0 5 41 95 7
+Output: 0 5
+15 40
+41 95

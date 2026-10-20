@@ -1,0 +1,13 @@
+#390
+spfractii
+
+Cerința
+Se dau 4 numere naturale a b c d , reprezentând fracțiile \(\frac{a}{b}\) și \(\frac{c}{d}\). Calculați suma și produsul celor două fracții, aduse la forma ireductibilă.
+
+Restricții
+1 ≤ a, b, c, d ≤ 10000
+
+Exemplu
+Input: 1 2 4 3
+Output: 11 6
+2 3

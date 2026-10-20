@@ -1,0 +1,11 @@
+#821
+CmmdcRec
+
+Cerința
+Să se scrie o funcție C++ recursivă care returnează cel mai mare divizor comun a două numere transmise ca parametri.
+
+Restricții
+numele funcției scrise este cmmdc ;
+funcția are doi parametri, numere naturale nenule mai mici decât 1.000.000.000 .
+
+Exemplu

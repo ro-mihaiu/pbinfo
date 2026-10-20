@@ -1,0 +1,14 @@
+#4320
+Cifre22
+
+Cerința
+Se dă un șir cu n numere naturale. Să se determine numărul din șir care are asociatul par maxim. Dacă există mai multe numere cu asociat par maxim se va determina numărul mai mare.
+
+Restricții
+n ≤ 100
+cele n numere sunt sunt mai mici decât 10 9
+
+Exemplu
+Input: 5
+19 410 1470 1256 70
+Output: 1470

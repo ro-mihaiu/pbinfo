@@ -1,0 +1,20 @@
+#101
+sortarecuvinte
+
+Cerința
+Să se scrie un program care citește o propoziţie şi afişează cuvintele din propoziţie ordonate alfabetic.
+
+Restricții
+propoziția va conține cel mult 250 de caractere;
+fiecare cuvânt din propoziție are cel mult 20 litere
+
+Exemplu
+Input: dreptunghiul este un paralelogram cu un unghi drept
+Output: cu
+drept
+dreptunghiul
+este
+paralelogram
+un
+un
+unghi

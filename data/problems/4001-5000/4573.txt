@@ -1,0 +1,14 @@
+#4573
+ADIDAS
+
+Cerința
+Se dă un șir cu n numere naturale. Să se determine cel mai mare număr ADIDAS din șir.
+
+Restricții
+n ≤ 100
+elementele șirului sunt mai mici decât 10 9
+
+Exemplu
+Input: 7
+459549 328239 459540 121213 457541 555555 7123217
+Output: 459540

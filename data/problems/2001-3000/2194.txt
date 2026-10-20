@@ -1,0 +1,23 @@
+#2194
+identice3
+
+Cerința
+Mihai vă roagă să calculați valorile K și R . Pentru a preciza tipul cerinței, Mihai folosește un cod T care dacă are valoarea 1 , atunci solicită calcularea valorii K , iar dacă T are valoarea 2 , atunci solicită calcularea valorii R .
+
+Restricții
+1 < D < N ≤ 1000
+Pentru calcularea valorii K , submatricele pot fi pătratice sau dreptunghiulare, cu diferite dimensiuni (inclusiv 1 ), cu elementele identice.
+
+Exemplu
+Input: 1 4 2
+0011
+0011
+1100
+1100
+Output: 36
+Input: 2 4 2
+0011
+0011
+1100
+1100
+Output: 2

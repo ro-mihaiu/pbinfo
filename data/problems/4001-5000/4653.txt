@@ -1,0 +1,14 @@
+#4653
+expresie11
+
+Cerința
+Scrieţi un program care, pentru un număr dat, determină valoarea maximă a unei expresii aritmetice care se poate obţine inserând `p` operatori `+` şi `q` operatori `-` între cifrele numărului dat.
+
+Restricții
+* `2 ≤ n ≤ 1000`
+* `0 < p + q < n`
+* Numărul citit nu începe cu `0`.
+* Pentru 6 puncte, `n ≤ 18` şi `p + q = 1`
+* Pentru 9 puncte, `n > 18` şi `p + q = 1`
+* Pentru 25 de puncte, rezultatul are cel mult `18` cifre și `p + q > 1`
+* Pentru 60 de puncte, nu există restricții suplimentare

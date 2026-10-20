@@ -1,0 +1,19 @@
+#2568
+CubPrim
+
+Cerința
+Se dă un șir de N numere naturale oarecare \({x}_{1}, {x}_{2}, … {x}_{n}\). a) Să se afișeze M – numărul de numere cubprim . b) Să se afișeze pe următoarele M linii, descrescător după valoarea numărului cubprim de la cerința a) , poziția pe care se află acest număr, numărul prim din care este format, precum și numărul cubprim astfel găsit.
+
+Restricții
+1 ≤ N ≤ 200.000
+0 ≤ \({x}_{1}, {x}_{2}, … {x}_{n}\) < \({2}^{64}\)
+pentru numerele cubprim cu aceeași valoare se afișează mai întâi numărul cubprim aflat pe poziția mai mică.
+se garantează că în fiecare test va exista cel puțin un număr format din cubul unui număr prim.
+
+Exemplu
+Input: 10
+5 23 8 7 32 121 27 14 64 8
+Output: 3
+7 3 27
+3 2 8
+10 2 8

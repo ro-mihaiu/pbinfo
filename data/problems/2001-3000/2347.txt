@@ -1,0 +1,14 @@
+#2347
+Furnici
+
+Cerința
+Dându-se un număr natural n , reprezentând numărul de zile în care se face studiul și apoi un șir x de n numere naturale, ce reprezintă șirul numerelor de furnici lucrătoare care ies după hrană, unde x i reprezintă numărul de furnici lucrătoare din ziua i . Se cere să se determine numărul de secvențe maximale, ordonate strict descrescător după numărul de divizori, de lungime minim 2 .
+
+Restricții
+2 ≤ n ≤ 100000
+10 ≤ x i ≤ 1.000.000.000
+
+Exemplu
+Input: 10
+719  169 4065  813  289  101 123  516  516  1017
+Output: 2

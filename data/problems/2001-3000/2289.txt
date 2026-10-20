@@ -1,0 +1,16 @@
+#2289
+ParImpar
+
+Cerința
+Pentru un număr natural dat n , numim ParImpar următoarea operație:
+dacă n este par, rezultatul este numărul scris cu cifrele pare ale lui n – de exemplu, pentru 410722 rezultatul este 4022 ;
+dacă n este impar, rezultatul este numărul scris cu cifrele impare ale lui n – de exemplu, pentru 357103 rezultatul este 35713 .
+Se citesc două numere naturale. Să se afișeze numărul pentru care rezultatul operației ParImpar este mai mare.
+
+Restricții
+cele două numere citite vor fi mai mici decât 1.000.000.000
+dacă pentru cele două numere se obține același rezultat pentru operația ParImpar se va afișa numărul mai mare.
+
+Exemplu
+Input: 410722 357103
+Output: 357103

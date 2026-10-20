@@ -1,0 +1,12 @@
+#411
+PrimeIntreEle1
+
+Cerința
+Se citește un număr natural n , n>1 . Să se determine câte perechi (a,b) , 1 ≤ a ≤ b ≤ n de numere naturale sunt prime între ele,
+
+Restricții
+1 < n ≤ 1000
+
+Exemplu
+Input: 6
+Output: 12

@@ -1,0 +1,19 @@
+#598
+Gears
+
+Cerința
+Considerăm un ansamblu format din n roți dințate, numerotate de la 1 la n , ca în imaginea alăturată. Fiecare roată se poate roti spre dreapta sau spre stânga. Dacă o roată se rotește spre dreapta, toate roțile pe care le angrenează se vor roti spre stânga, și invers. Una dintre roți este conectată la un motor și se va roti spre dreapta, iar toate roțile din ansamblu se vor roti în mod corespunzător. Ansamblul este construit astfel încât toate roțile vor fi angrenate și fiecare roată va fi angrenată de o unică altă roată.
+Dându-se numărul de roți n , numărul de ordine x al roții conectate la motor și perechile de roți conectate între ele, să se determine sensul de rotație al fiecărei roți.
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 7 4
+1 2
+1 3
+1 4
+1 5
+3 6
+3 7
+Output: SDDDDSS

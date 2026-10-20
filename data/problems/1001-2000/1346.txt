@@ -1,0 +1,29 @@
+#1346
+pbinfo
+
+Cerința
+NOTĂ : aceasta este o problemă introductivă în funcțiile care procesează șiruri de caractere. Povestea din cerința NU este adevărată.
+Hacker-ul Gogu și-a neglijat serios activitatea în ultima vreme, așa că și-a propus să mai spargă încă un site, care, din întâmplare, este chiar www.pbinfo.ro.
+
+Restricții
+cuvintele vor fi mai scurte decât link-ul precizat, iar link-ul va avea maxim 100 de caractere;
+hacker-ul Gogu nu este profesionist, așa că nu este nevoie să va alarmați;
+input-ul va conține numai litere mici ale alfabetului englez și separatorii ,.!?/: .
+
+Exemplu
+Input: //htttp:www.pbinfo.ro
+3
+hacked
+gogu
+htttp
+Output: DA
+Input: //http:www.pbinfo.ro 
+3
+hacked
+gogu
+htttp
+Output: NU
+Input: //http:www.pbinfo.virus.ro
+1
+gogu
+Output: DA

@@ -1,0 +1,20 @@
+#604
+maria
+
+Cerința
+Maria dansează! Lecțiile de dans se desfășoară într-o sală imensă, împărțită în n*m sectoare pătratice cu dimensiunea 1 , dispuse pe n linii și m coloane. În anumite sectoare se află diverse obstacole, astfel că acele sectoare nu pot fi utilizate pentru dans. Maria are nevoie pentru dans de o zonă dreptunghiulară de dimensiuni p , q , cu laturile paralele cu pereții sălii, care să nu conțină obstacole și vrea ca în fiecare zi să danseze într-o zonă diferită de cele în care a dansat deja. Determinați numărul de zile în care Maria poate dansa așa cum își dorește.
+
+Restricții
+1 ≤ n, m, p, q ≤ 1000
+0 ≤ k ≤ 1000
+1 ≤ i ≤ n, 1 ≤ j ≤ m
+două zone de dans sunt distincte dacă diferă prin cel puțin un sector
+zona de dans poate fi orientată astfel încât să ocupe p linii și q coloane sau q linii și p coloane
+
+Exemplu
+Input: 5 6 2 3
+3
+2 2
+3 5
+4 3
+Output: 5

@@ -1,0 +1,32 @@
+#1620
+Interesant
+
+Cerința
+Fiind dată o mulțime S formată din N șiruri de caractere se cere:
+Să se determine cel mai lung șir. Dacă sunt mai multe șiruri având aceeași lungime maximă, se cere cel mai mic din punct de vedere lexicografic.
+Să se determine toate șirurile interesante din mulțimea S .
+
+Restricții
+2 ≤ N ≤ 200
+Lungimea unui șir va fi cuprinsă între 1 și 5000
+Un subșir al șirului de caractere C 0 C 1 C 2 …C k se definește ca fiind o succesiune de caractere C i1 C i2 C i3 …C ik , unde 0 ≤ i1 < i2 < i3 < … < ik ≤ k .
+Fișierul de intrare NU conține șiruri identice.
+Pentru rezolvarea corectă a primei cerințe se acordă 20 de puncte, iar pentru cerința a doua se acordă 80 de puncte.
+
+Exemplu
+Input: 1 5
+abcacaaz
+ad
+abcacaad
+acd
+zyt
+Output: abcacaad
+Input: 2 5
+abcacaad
+ad
+zayyt
+acd
+zyt
+Output: 2
+abcacaad
+zayyt

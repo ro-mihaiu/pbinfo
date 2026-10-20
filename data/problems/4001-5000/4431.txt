@@ -1,0 +1,28 @@
+#4431
+bolovani
+
+Cerința
+Dându-se numărul n de bolovani, precum și numărul de zile necesare pentru spargerea fiecărui bolovan și termenul limită la care acesta ar trebui spart, să se determine o planificare a lucrului la cei n bolovani în așa fel încât un număr maxim de bolovani să fie sparți înainte de termen .
+
+Restricții
+1 ≤ n ≤ 10.000
+1 ≤ z[i], d[i] ≤ 1.000.000.000 , pentru orice 1 ≤ i ≤ n .
+Dănuț începe spargerea bolovanilor în ziua 1 .
+Dănuț trebuie să spargă toți cei n bolovani, chiar dacă unii nu vor fi sparți înainte de termen.
+Pentru 20 de puncte, n ≤ 10
+Pentru 20 de puncte, d[1] = d[2] = ... = d[n]
+Pentru 60 de puncte, fără restricții suplimentare.
+
+Exemplu
+Input: 5
+4 6
+3 7
+2 8
+5 9
+6 11
+Output: 3
+12 15
+1 3
+4 5
+16 20
+6 11

@@ -1,0 +1,18 @@
+#3625
+prelucrari-cifre
+
+Cerința
+Scrieți un program fabulos care citește un număr natural n și determină:
+suma pătratelor cifrelor lui n
+suma cifrelor impare ale lui n
+suma cifrelor divizibile cu 3 ale lui n
+numărul cifrelor strict mai mari decât 5
+produsul cifrelor nenule ale lui n
+suma dintre cifra cea mai puțin semnificativă (cifra unităților) lui n și cifra cea mai semnificativă a lui n
+
+Restricții
+10 ≤ n ≤ 2.000.000.000
+
+Exemplu
+Input: 7360914
+Output: 192 20 18 3 4536 11

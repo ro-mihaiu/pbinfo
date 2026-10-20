@@ -1,0 +1,14 @@
+#3074
+numeres
+
+Cerința
+Scrieți un program care să afișeze, în ordine crescătoare, toate numerele naturale formate din câte n cifre și care au suma cifrelor egală cu s , precum și câte astfel de numere există.
+
+Restricții
+1 ≤ n ≤ 7
+1 ≤ s ≤ 63
+
+Exemplu
+Input: 2 5
+Output: 14 23 32 41 50
+5

@@ -1,0 +1,13 @@
+#928
+AriaTriunghi
+
+Cerința
+Se dau coordonatele în plan a trei puncte. Să se afișeze valoarea ariei triunghiului pe care îl formează.
+
+Restricții
+Numerele din fișierul de intrare sunt întregi cuprinse între -1001 și 1001 .
+Punctele nu sunt coliniare.
+
+Exemplu
+Input: 0 1 1 0 2 1
+Output: 1.0

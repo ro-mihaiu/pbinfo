@@ -1,0 +1,9 @@
+#1173
+FListaNumarare1
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+int numarare(nod * p);
+care determina și returnează numărul perechi de elemente consecutive egale din lista pentru care primul element are adresa memorată în pointerul p .
+
+Exemplu

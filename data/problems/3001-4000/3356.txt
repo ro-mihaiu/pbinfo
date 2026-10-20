@@ -1,0 +1,15 @@
+#3356
+alfa
+
+Cerința
+Se dă un șir format din n numere naturale. Se mai dă o valoare x și se garantează că șirul începe și se termină cu valoarea x . Transformați șirul astfel: Elementele cu valoarea x rămân pe pozițiile lor; Secvențele de elemente diferile de x aflate între două poziții cu valoarea x se ordonează crescător (între aceleași două elemente cu valoarea x se vor afla aceleași elemente ca la început dar în ordine crescătoare).
+
+Restricții
+2 <= n <= 1000
+Elementele șirului dat sunt naturale nenule formate din maximum 4 cifre
+Pentru 40 de puncte șirul conține doar două elemente cu valoarea x (primul și ultimul).
+
+Exemplu
+Input: 10 3
+3 4 1 2 3 7 9 8 3 3
+Output: 3 1 2 4 3 7 8 9 3 3

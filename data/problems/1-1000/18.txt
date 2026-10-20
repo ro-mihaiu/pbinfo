@@ -1,0 +1,12 @@
+#18
+numarul-de-divizori
+
+Cerința
+Calculaţi numărul de divizori ai lui n .
+
+Restricții
+0 < n ≤ 100.000
+
+Exemplu
+Input: 6
+Output: 4

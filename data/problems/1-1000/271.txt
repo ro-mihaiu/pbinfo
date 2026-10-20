@@ -1,0 +1,13 @@
+#271
+SSume
+
+Cerința
+Se dă un tablou unidimensional cu n elemente, numere naturale nenule cu cel mult 8 cifre fiecare. Determinaţi câte dintre elementele tabloului se pot scrie ca sumă a altor două elemente aflate pe poziţii distincte din tablou.
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 7
+1 10 25 6 2 15 3
+Output: 2

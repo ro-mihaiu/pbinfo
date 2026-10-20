@@ -1,0 +1,14 @@
+#498
+numararepie
+
+Cerința
+Se dă un vector cu n numere naturale. Să se determine câte dintre perechile de elemente din vector sunt prime între ele.
+
+Restricții
+1 ≤ n ≤ 200
+elementele vectorului vor fi cuprinse între 0 și 1000
+
+Exemplu
+Input: 6
+51 18 15 28 77 121
+Output: 9

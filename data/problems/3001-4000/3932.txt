@@ -1,0 +1,14 @@
+#3932
+stergezerouri
+
+Cerința
+Se dă un număr natural nenul n . Să se elimine din n toate zerourile cu care se termină n .
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+
+Exemplu
+Input: 2040300
+Output: 20403
+Input: 3002
+Output: 3002

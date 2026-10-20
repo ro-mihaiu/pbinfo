@@ -1,0 +1,14 @@
+#515
+SortSD
+
+Cerința
+Se dau n numere naturale. Afișați aceste numere ordonate crescător după suma divizorilor. Dacă două numere au aceeași sumă a divizorilor, se va afișa mai întâi cel mai mic.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 100.000.000
+
+Exemplu
+Input: 10
+24 46 11 36 48 35 27 28 49 6
+Output: 6 11 27 35 28 49 24 46 36 48

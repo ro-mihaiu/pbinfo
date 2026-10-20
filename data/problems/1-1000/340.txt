@@ -1,0 +1,12 @@
+#340
+control
+
+Cerința
+Pentru un număr citit, să se determine cifra de control.
+
+Restricții
+n are cel mult nouă cifre
+
+Exemplu
+Input: 865247
+Output: 5

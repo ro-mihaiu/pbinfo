@@ -1,0 +1,14 @@
+#843
+Puteri2
+
+Cerința
+Se dau numerele naturale a n p . Calculați determinaţi numărul format din ultimele p cifre ale alui a n .
+
+Restricții
+1 ≤ a ≤ 1000
+1 ≤ n ≤ 1.000.000.000
+1 ≤ p ≤ 5
+
+Exemplu
+Input: 2 16 3
+Output: 536

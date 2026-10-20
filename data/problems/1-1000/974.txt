@@ -1,0 +1,12 @@
+#974
+resturi
+
+Cerința
+Se dau n și k numere naturale. Calculați suma resturilor împărțirii tuturor numerelor naturale de la 1 la n prin numărul k .
+
+Restricții
+1 ≤ n, k ≤ 2.000.000.000
+
+Exemplu
+Input: 7 4
+Output: 12

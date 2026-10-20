@@ -1,0 +1,16 @@
+#4711
+unudoi12
+
+Cerința
+Să se determine numărul liniilor distincte din matricea c .
+
+Restricții
+3 ≤ n, m ≤ 50.000
+0 ≤ a[i], b[i] ≤ 1.000.000.000
+Pentru 50% din teste, n, m ≤ 5000
+
+Exemplu
+Input: 4 5
+2 7 3 5
+4 5 0 1 6
+Output: 3

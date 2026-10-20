@@ -1,0 +1,20 @@
+#1460
+serbare
+
+Cerința
+La o serbare sunt n grupe de copii care poartă p tipuri de uniforme. Scrieţi un program care să afişeze pe ecran tipurile de uniforme în ordinea descrescătoare a numărului total de copii ce poartă fiecare tip de uniformă. Afişarea se va face pe o singură linie, valoriile fiind separate printr-un spaţiu.
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ p ≤ 11
+Numărul de copii dintr-o grupă este cel mult 100
+Fiecare mărime de uniformă din intervalul [1,p] este purtată de cel puţin un copil.
+
+Exemplu
+Input: 5 3
+20 2
+20 3
+30 2
+20 1
+10 1
+Output: 2 1 3

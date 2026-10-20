@@ -1,0 +1,12 @@
+#832
+nota
+
+Cerința
+Fiind dată nota unui elev să se afișeze dacă acesta este corigent sau promovat.
+
+Restricții
+1 ≤ n ≤ 10
+
+Exemplu
+Input: 5
+Output: promovat

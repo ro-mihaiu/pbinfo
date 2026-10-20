@@ -1,0 +1,17 @@
+#110
+eliminare
+
+Cerința
+Să se scrie un program care citeşte de la tastatură un cuvânt şi afişează pe ecran toate cuvintele care se pot obţine prin eliminarea unei singure litere din cuvântul citit.
+
+Restricții
+cuvântul citit este alcătuit din litere mici ale alfabetului englez
+primul cuvânt afişat va fi cel obţinut prin eliminarea primei litere, al doilea va fi cel obţinut prin eliminarea celei de-a doua litere, etc.
+
+Exemplu
+Input: caiet
+Output: aiet
+ciet
+caet
+cait
+caie

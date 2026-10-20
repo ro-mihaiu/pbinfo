@@ -1,0 +1,9 @@
+#4167
+FLsiElimina
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+void FLsiElimina(Nod * &head);
+care, în lista pentru care primul element are adresa memorată în pointerul head , elimină toate nodurile cuprinse între cel mai din stânga nod care memorează un număr divizibil cu 3 și cel mai din dreapta nod care memorează un număr divizibil cu 3 , inclusiv acestea. Se garantează că lista va conține cel puțin două noduri care au informația divizibilă cu 3 . Dacă se elimină toate nodurile, atunci după apelul funcției trebuie ca head = NULL . De exemplu, dacă lista conține inițial informațiile 1,27,3,4,13,12,44,23 , atunci la final lista va fi: 1,44,23 .
+
+Exemplu

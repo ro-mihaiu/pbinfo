@@ -1,0 +1,8 @@
+#2838
+NrPrime2
+
+Cerința
+Subprogramul NrPrime are un singur parametru, n , prin care primeşte un număr natural ( n∈[0,10 9 ] ). Subprogramul returnează numărul de cifre prime ale lui n .
+Scrieți definiția completă a subprogramului.
+
+Exemplu

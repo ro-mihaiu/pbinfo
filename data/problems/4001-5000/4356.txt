@@ -1,0 +1,15 @@
+#4356
+OrdonatDivImp
+
+Cerința
+Se dă un vector cu n elemente numere naturale. Folosind metoda Divide et Impera să se verifice dacă are elementele ordonate strict crescător sau strict descrescător.
+
+Restricții
+1 ≤ n ≤ 1000
+fiecare element al vectorului va avea cel mult patru cifre
+se recomandă folosirea metodei Divide et Impera
+
+Exemplu
+Input: 7
+4 5 7 8 9 10 12
+Output: strict crescator

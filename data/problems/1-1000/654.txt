@@ -1,0 +1,17 @@
+#654
+Collatz
+
+Cerința
+Fie număr natural n . Acestuia i se aplică în mod repetat următoarele transformări:
+dacă n este par, devine n/2
+dacă n este impar, devine 3*n+1
+În 1937 matematicianul Lothar Collatz a formulat următoarea conjectură : pentru orice număr natural, în urma transformărilor numărul devine 1 .
+De exemplu, pentru n=6 se obține șirul: 6 3 10 5 16 8 4 2 1 , șir care are 9 termeni.
+Pentru un n dat, determinați numărul de termeni din șirul de transformări după regula de mai sus.
+
+Restricții
+1 ≤ n ≤ 1 000 000
+
+Exemplu
+Input: 6
+Output: 9

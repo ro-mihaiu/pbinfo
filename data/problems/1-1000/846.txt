@@ -1,0 +1,14 @@
+#846
+Dubluri
+
+Cerința
+Se dă un șir de caractere ce conține doar litere mici ale alfabetului englez. Să se afișeze cel mai lung subșir care apare de cel puțin două ori în șirul dat.
+
+Restricții
+șirul dat are cel mult 255 caractere
+dacă există mai multe subșiruri de lungime maximă care apar de cel puțin două ori, se va afișa primul în ordine lexicografică.
+pentru toate datele de test există cel puțin un subșir din cel puțin două caractere, care se repetă
+
+Exemplu
+Input: cbddccdaaddccaaddbccbbdbddd
+Output: aadd

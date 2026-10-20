@@ -1,0 +1,16 @@
+#2904
+sumtriunghiular
+
+Cerința
+Se dă un număr natural n . Să se determine dacă numărul se poate scrie ca sumă de două numere triunghiulare. Dacă este posibil se vor afișa două numere triunghiulare a căror sumă este egală cu n , în orice ordine, respectiv mesajul NU în caz contrar.
+Un număr triunghiular este numărul de puncte dintr-un triunghi echilateral umplut uniform cu puncte. De exemplu, 1 , 3 , 6 , 10 , 15 sunt numere triunghiulare.
+
+Restricții
+n ≤ 10 12 ;
+numerele triunghiulare determinate pot fi identice.
+
+Exemplu
+Input: 24
+Output: 3 21
+Input: 15
+Output: NU

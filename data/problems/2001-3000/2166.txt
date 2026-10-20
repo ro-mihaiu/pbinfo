@@ -1,0 +1,17 @@
+#2166
+numere19
+
+Cerința
+Scrieți un program care determină numărul de numere naturale formate din exact a cifre care au fiecare produsul cifrelor egal cu b și afișează în fișierul de ieșire restul împărțirii valorii determinate la numărul 9973 .
+
+Restricții
+Pentru 10% din teste 1 ≤ a ≤ 6 , 1 ≤ b ≤ 1000
+Pentru 20% din teste 7 ≤ a ≤ 150 , 1 ≤ b ≤100
+Pentru 30% din teste 151 ≤ a ≤1000 , 1≤ b ≤ 100
+Pentru 40% din teste 1001 ≤ a ≤9000 , 100≤ b ≤ 9000
+
+Exemplu
+Input: 3 9
+Output: 6
+Input: 4 15
+Output: 12

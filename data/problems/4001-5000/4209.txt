@@ -1,0 +1,12 @@
+#4209
+DifParImpar
+
+Cerința
+Scrieți funcția recursivă DifParImpar care primind ca parametru un număr natural n , returnează un număr întreg reprezentând diferența dintre numărul cifrelor pare și numărul celor impare.
+
+Restricții
+0 ≤ n ≤ 2.147.000.000
+Numele funcției este DifParImpar .
+Se recomandă utilizarea recursivității în rezolvarea problemei. De asemenea, se recomandă să nu se folosească alte funcții suplimentare.
+
+Exemplu

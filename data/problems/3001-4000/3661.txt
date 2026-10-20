@@ -1,0 +1,12 @@
+#3661
+dinamica05
+
+Cerința
+Se dau numerele naturale n și p . Să se determine: a) numărul cuvintelor de lungime n formate doar din litere mari și mici și cu proprietatea că aceste cuvinte nu pot avea două litere alăturate identice, indiferent că sunt mari sau mici (cuvintele baArda sau fEEric au două litere alăturate identice). b) numărul cuvintelor de lungime n formate doar din litere mari și mici și cu proprietatea că nu pot apărea două litere mari pe poziții alăturate. c) numărul cuvintelor de lungime n formate doar din litere mici și cu proprietatea că au cel mult p vocale (vocalele fiind: a , e , i , o , u )
+
+Restricții
+1 ≤ p < n ≤ 1.000
+
+Exemplu
+Input: 2 1
+Output: 2600 2028 651

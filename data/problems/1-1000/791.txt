@@ -1,0 +1,13 @@
+#791
+BiFrunze1
+
+Cerința
+Se consideră un arbore binar în care nodurile memorează numere naturale nenule. Să se afișeze valorile memorate în nodurile terminale ale arborelui, în ordine crescătoare.
+
+Restricții
+se recomandă folosirea arborilor alocați dinamic.
+arborele nu va avea mai mult de 5000 de noduri terminale
+
+Exemplu
+Input: 67 51 18 0 0 24 0 0 48 0 11 0 0
+Output: 11 18 24

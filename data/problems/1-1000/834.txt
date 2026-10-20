@@ -1,0 +1,12 @@
+#834
+ElimCifRec
+
+Cerința
+Să se scrie o funcție C++ recursivă care primește ca parametri un număr natural n și o cifră c și returnează numărul obținut prin eliminarea din n a tuturor aparițiilor lui c .
+
+Restricții
+numele funcției va fi elimcif
+funcția va avea doi parametri, în această ordine: n , c , cu semnificația de mai sus
+1 ≤ n ≤ 2.000.000.000, 0 ≤ c < 10
+
+Exemplu

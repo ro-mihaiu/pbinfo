@@ -1,0 +1,13 @@
+#2114
+Vapoare
+
+Cerința
+Scrieţi un program care determină numărul de zile după care cele 2 vapoare pleacă din nou concomitent din portul din care au plecat.
+
+Restricții
+• 0 < X,Y ≤ 100.000 • 0 ≤ z1, z2 ≤ 31
+
+Exemplu
+Input: 1 2
+2 2
+Output: 240

@@ -1,0 +1,16 @@
+#115
+medie
+
+Cerința
+Să se scrie un program care citeşte de la tastatură un număr natural n şi apoi un şir de n numere naturale şi determină media aritmetică a celor pare.
+
+Restricții
+0 < n < 1000
+cele n numere citite vor fi mai mici decât 1.000.000
+rezultatul va fi punctat dacă diferența dintre cel afișat de program și cel corect este mai mică decât 0.01 .
+în toate seturile de date de intrare se vor afla şi valori pare
+
+Exemplu
+Input: 5
+8 7 8 9 10
+Output: 8.66

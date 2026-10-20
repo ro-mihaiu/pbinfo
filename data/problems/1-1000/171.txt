@@ -1,0 +1,14 @@
+#171
+primaciframinima
+
+Cerința
+Să se scrie un program care citește un șir de n numere naturale şi determină numărul din șir care are prima cifră minimă. Dacă există mai multe numere cu prima cifră minimă, se va determina cel mai mare dintre acestea.
+
+Restricții
+1 ≤ n ≤ 10000
+cele n numere citite vor fi mai mici decât 2.000.000.000
+
+Exemplu
+Input: 5
+72 30 12 165 725
+Output: 165

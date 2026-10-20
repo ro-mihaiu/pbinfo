@@ -1,0 +1,30 @@
+#1697
+Cod1
+
+Cerința
+Scrieţi un program care citește șirul celor N numere și determină:
+câte numere din șir nu se vor folosi în construirea parolelor celor doi copii;
+parola construită de Ionel;
+parola construită de Georgel.
+
+Restricții
+0 < N ≤ 100 000
+2 ≤ numărul de cifre ale unui număr ≤ 100
+Se garantează că toate parolele pe care copiii le vor obține sunt nenule
+În fișierul de intrare ultimul număr nu este urmat de caracterul #
+16% din teste conțin doar numere formate din cel mult 9 cifre
+Pentru rezolvarea corectă a cerinţei 1 se obțin 20 de puncte, pentru rezolvarea corectă a cerinţei 2 se obțin 40 de puncte iar pentru rezolvarea corectă a cerinţei 3 se obțin 40 de puncte
+
+Exemplu
+Input: 1
+6
+10#20#12#34#15#23
+Output: 1
+Input: 2
+5
+16#61#12#385#31
+Output: 9
+Input: 3
+5
+30#1100#11#85#121
+Output: 6

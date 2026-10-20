@@ -1,0 +1,25 @@
+#1751
+icsuri
+
+Cerința
+În clasa a IX-a A sunt M elevi, numerotați de la 1 la M și fiecare are un număr preferat P . Plictisiți de ora de informatică, au inventat următorul joc:
+pe o foaie de matematică desenează o tablă de joc de dimensiune N , formată din N linii și N coloane, numerotate de la 1 la N ; fiecare linie și fiecare coloană are câte N pătrățele
+fiecare elev alege un pătrățel și desenează un X centrat în pătrățelul ales, fiecare din cele 4 laturi având cel mult P pătrățele desenate, fără a ieși de pe tabla de joc (să nu mâzgălească banca!!).
+icsurile desenate de elevi se pot suprapune.
+În figura de mai jos este reprezentat un X desenat de elevul care alege pătrățelul de coordonate i j și preferă numărul 3 .
+Cunoscând dimensiunea N a tablei de joc, numărul M de elevi, coordonatele alese de fiecare elev și numărul preferat al fiecărui elev, determinați câte pătrățele de pe tablă rămân nedesenate.
+
+Restricții
+1 ≤ N ≤ 1000
+1 ≤ M ≤ 100000
+1 ≤ i,j ≤ N
+0 ≤ p ≤ N/2
+
+Exemplu
+Input: 10 5
+1 2 1
+6 6 3
+7 3 2
+2 5 2
+9 8 3
+Output: 62

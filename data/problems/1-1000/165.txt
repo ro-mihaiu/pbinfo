@@ -1,0 +1,16 @@
+#165
+maxsim
+
+Cerința
+Să se determine perechea de elemente egal depărtate de centru pentru care suma valorilor este maximă. Dacă sunt mai multe perechi cu suma maximă se va determina perechea cea mai apropiată de capete.
+
+Restricții
+0 < n ≤ 1000
+numerele de pe a doua linie a fişierului de intrare vor fi mai mici decât 1.000.000.000
+elementele vectorului se consideră numerotate de la 1
+1 ≤ i < j ≤ n
+
+Exemplu
+Input: 7
+6 2 5 4 3 6 1
+Output: 8 2 6

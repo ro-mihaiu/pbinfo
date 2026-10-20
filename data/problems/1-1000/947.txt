@@ -1,0 +1,13 @@
+#947
+baza16
+
+Cerința
+În baza 16 , cifrele unui număr pot fi 0 , 1 , 2 , …, 9 , A , B , C , D , E , F . Fiind dat n un număr natural, afișați scrierea lui n în baza 16 .
+
+Restricții
+1 ≤ n ≤ 2.000.000.000 ;
+rezolvarea acestei probleme necesită utilizarea tablourilor sau a altor forme de memorare a unui număr variabil de valori.
+
+Exemplu
+Input: 3024
+Output: BD0

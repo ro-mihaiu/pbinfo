@@ -1,0 +1,12 @@
+#3265
+PacMan_XI
+
+Cerința
+Harta jocului PacMan este sub forma unui dreptunghi împărțit în camere organizate pe linii și coloane. Din fiecare cameră se poate merge în camera situate pe coloana următoare și pe aceeași linie, sau in camera de pe coloana următoare și linia următoare, dar fără a ieși din hartă. Astfel din camera (i,j) se poate merge în camerele (i,j+1) și (i+1,j+1) . PacMan se află în camera situată pe prima linie și pe prima coloana (1,1) și trebuie să ajungă în camera de pe ultima linie și ultima coloană (n,m). Calculați și afișați numărul de trasee pe care poate PacMan să parcurgă harta.
+
+Restricții
+1 ≤ n,m ≤ 40
+
+Exemplu
+Input: 3 4
+Output: 3

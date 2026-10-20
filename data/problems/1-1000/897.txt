@@ -1,0 +1,11 @@
+#897
+sumciff
+
+Cerința
+Să se scrie o funcție C++ care să returneze suma cifrelor unui număr natural transmis ca parametru.
+
+Restricții
+numele funcției va fi sumcif
+funcția va avea un parametru reprezentând numărul dat, care va fi mai mic decât 2.000.000.000
+
+Exemplu

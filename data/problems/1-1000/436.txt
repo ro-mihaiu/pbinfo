@@ -1,0 +1,15 @@
+#436
+PrimMaxim
+
+Cerința
+Să se scrie un program care citeşte de la tastatură un număr natural n şi apoi un şir de n numere naturale şi determină cel mai mare număr prim din șir și de câte ori apare.
+
+Restricții
+0 < n < 1000
+cele n numere citite vor fi mai mici decât 2.000.000.000
+pentru toate testele de evaluare, datele de intrare vor conține cel puțin un număr prim
+
+Exemplu
+Input: 5
+8 7 11 9 11
+Output: 11 2

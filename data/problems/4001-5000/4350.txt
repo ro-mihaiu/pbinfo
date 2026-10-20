@@ -1,0 +1,24 @@
+#4350
+drone
+
+Cerința
+Determinați câte drone trebuie înlocuite.
+
+Restricții
+valoarea n și codurile dronelor sunt numere naturale cu maximum 9 cifre fiecare
+3 < n < 2000000001
+10 puncte se acordă pentru exemplul din enunț.
+
+Exemplu
+Input: 10
+72143
+999
+300056
+543
+53331
+180
+4
+12345
+1
+6
+Output: 6

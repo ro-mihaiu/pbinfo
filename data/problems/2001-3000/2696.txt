@@ -1,0 +1,12 @@
+#2696
+cifp-cifi
+
+Cerința
+Se dau 2 numere de exact 2 cifre, dacă numerele au aceeași paritate se va afișa numărul total de cifre pare din cele două numere altfel dacă au parităti diferite atunci se afisează numărul total de cifre impare din cele două numere.
+
+Restricții
+10 ≤ a ≤ b ≤ 100
+
+Exemplu
+Input: 78 18
+Output: 2

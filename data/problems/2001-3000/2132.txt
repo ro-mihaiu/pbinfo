@@ -1,0 +1,12 @@
+#2132
+min_subsir
+
+Cerința
+Să se determine lungimea minimă a unei secvențe care conține toate literele întâlnite în șirul inițial.
+
+Restricții
+1 ≤ lungime șir ≤ 10000
+
+Exemplu
+Input: aadcaabcbacadca
+Output: 5

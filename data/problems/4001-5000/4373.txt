@@ -1,0 +1,13 @@
+#4373
+NotaZece
+
+Cerința
+Bubu are 2 cutii cu bomboane, în prima cutie sunt a bomboane, iar în a doua cutie sunt b bomboane. Bunica i-a promis lui Bubu că de fiecare dată când primește un zece la informatică, va adăuga în prima cutie a bomboane, iar bunicul i-a promis că de fiecare dată când primește un zece la matematică va adăuga în a doua cutie b bomboane.
+Determinați numărul minim de note de zece pe care trebuie să le primească Bubu pentru ca numărul de bomboanele din cele 2 cutii să devină egal.
+
+Restricții
+1 ≤ a, b ≤ 1.000.000.000
+
+Exemplu
+Input: 6 9
+Output: 3

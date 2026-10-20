@@ -1,0 +1,14 @@
+#4259
+PalRec
+
+Cerința
+Scrieți funcția recursivă cu antetul
+int PalRec(int a[], int st, int dr)
+care primind ca parametri un vector a de numere întregi și doi întregi st și dr , returnează 1 dacă secvența a[st], a[st+1], ..., a[dr] din vector este un palindrom, sau returnează 0 în caz contrar.
+
+Restricții
+st ≤ dr
+Numele funcției este PalRec .
+Se recomandă utilizarea recursivității în rezolvarea problemei. De asemenea, se recomandă să nu se folosească alte funcții suplimentare.
+
+Exemplu

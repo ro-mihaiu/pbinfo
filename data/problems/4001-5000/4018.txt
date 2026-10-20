@@ -1,0 +1,13 @@
+#4018
+MosCraciun3
+
+Cerința
+Moș Crăciun este pregătit să ofere cadouri tuturor copiilor. Singura lui problema este Grinch, care încearcă să deschidă seiful cu cadouri al lui Moș Crăciun. Grinch a aflat codul, așa că Moș Craciun a decis să îl schimbe cu unul nou. Presupunem că parola seifului este n și avem 2 numere, p și k . Moș Craciun va inversa primele p cifre și ultimele k cifre ale parolei – parola este formată numai din cifre nenule. Fiind foarte bătrân și greșind mult la calcule, vă roagă să îl ajutați să determine noua parola.
+
+Restricții
+1 ≤ n < 1000000000000000000
+dacă n nu are cel puțin p+k cifre, se va afișa mesajul imposibil .
+
+Exemplu
+Input: 1428429 2 3
+Output: 4128924

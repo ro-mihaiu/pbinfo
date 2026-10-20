@@ -1,0 +1,24 @@
+#2736
+Baza De Date
+
+Cerința
+Se citește numărul n și apoi n articole cu structura: prenume nume salariu vârstă funcție număr_de_telefon email . Fiecare articol este plasat pe câte o linie, câmpurile sale fiind separate prin câte un spațiu. Câmpurile salariu și vârstă conțin numere naturale, celelalte conțin șiruri de caractere.
+Se citește apoi un număr natural p cuprins între 1 și 7 și un caracter c care poate fi + sau - .
+Se cere ordonarea celor n articole în funcție de p și c , astfel:
+dacă p=1 , ordonarea se face după prenume ; dacă p=2 , ordonarea se face după nume ; dacă p=3 , ordonarea se face după salariu ; dacă p=4 , ordonarea se face după vârstă ; dacă p=5 , ordonarea se face după funcție ; dacă p=6 , ordonarea se face după număr_de_telefon ; dacă p=7 , ordonarea se face după email ;
+dacă c are valoarea + , ordonarea va fi crescătoare, iar dacă c are valoarea - , ordonarea va fi descrescătoare;
+dacă două articole au aceeași valoare a câmpului în raport cu care se face sortarea, ordinea lor nu se va modifica.
+
+Restricții
+1 ≤ n ≤ 80
+câmpurile numerice vor avea valori pe 64 de biți fără semn, iar celelalte vor avea maximum 255 de caractere.
+
+Exemplu
+Input: 3
+Len Trexler 100000 55 Spymaster 5554440192 lt@sp.com
+Oliver Regina 0 37 Vigilante 1234567890 or@vg.com
+Sterling Archer 1000000 43 Agent 8423565491 sa@ag.com
+2 +
+Output: Sterling Archer 1000000 43 Agent 8423565491 sa@ag.com
+Oliver Regina 0 37 Vigilante 1234567890 or@vg.com
+Len Trexler 100000 55 Spymaster 5554440192 lt@sp.com

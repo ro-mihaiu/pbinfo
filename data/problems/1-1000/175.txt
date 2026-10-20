@@ -1,0 +1,12 @@
+#175
+picioare
+
+Cerința
+Într-o curte sunt G găini și O oi. Să se determine numărul de capete și numărul de picioare din curte.
+
+Restricții
+0 < G , O < 1.000.000
+
+Exemplu
+Input: 3 2
+Output: 5 14

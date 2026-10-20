@@ -1,0 +1,46 @@
+#3293
+bifid
+
+Cerința
+În criptografia clasică, cifrul bifid este un cifru ce combină pătratul lui Polybius cu cifrul transpoziţiei şi foloseşte fracţionarea.
+Pentru început, alfabetul este scris amestecat într-un pătrat al lui Polybius:
+1 2 3 4 5
+1 b g w k z
+2 q p n d s
+3 i o a x e
+4 f c l u m
+5 t h y v r
+Mesajul este convertit în coordonatele carteziene obişnuite, scrise unele sub altele:
+a n a a r e m e r e
+3 2 3 3 5 3 4 3 5 3
+3 3 3 3 5 5 5 5 5 5
+Sunt apoi citite pe linii:
+3 2 3 3 5 3 4 3 5 3 3 3 3 3 5 5 5 5 5 5
+Apoi sunt împărţite în perechi, iar acestea transformate înapoi în litere folosind pătratul:
+32 33 53 43 53 33 33 55 55 55
+a n a a r e m e r e=> oaylyaarrr
+Dându-se numărul c și alfabetul din care lipsește o literă se cere:
+pentru c=1 se dă un mesaj ce trebuie codificat;
+pentru c=2 se dă mesajul codificat și trebuie decodificat;
+
+Restricții
+mesajul și alfabetul conțin numai litere mici ale alfabetului englez
+1 ≤ lungimea șirului ≤ 10000
+
+Exemplu
+Input: 1
+bgwkz
+qpnds
+ioaxe
+fclum
+thyvr
+anaaremere
+Output: oaylyaarrr
+Input: 2
+bgwkz
+qpnds
+ioaxe
+fclum
+thyvr
+oaylyaarrr
+Output: anaaremere

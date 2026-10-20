@@ -1,0 +1,18 @@
+#2131
+Ghiozdan
+
+Cerința
+Iulică este acasă și trebuie să ajungă la patinoar. Patinoarul se află la exact d km de mers pe jos, astfel încât, dacă am considera un sistem de coordonate, casa lui Iulică se află în punctul 0 și patinoarul se află în punctul d .
+Între parc și patinoar există k magazine din care se poate cumpăra pâine, magazine situate la a[i] km ( 1 <= i <= k ) față de casa lui Iulică, în aceeași direcție în care se află patinoarul. Fiind foarte departe, Iulică nu poate ajunge foarte repede la patinoar. Astfel, înainte să plece, mama lui Iulică îi da un ghiozdan care poate căra cel mult g pâini, inițial cu g pâini în el. Știind că Iulică poate mânca o pâine sau poate să stea nemâncat pe parcursul unui km, și că poate sta nemâncat maximum t km pe întreg traseul, aflați capacitatea minimă g pe care o poate avea ghiozdanul, astfel încât Iulică să poată ajunge la patinoar fără să moară de foame. Iulică îşi poate umple ghiozdanul de la fiecare magazin gratuit.
+
+Restricții
+1 <= d <= 10000000
+0 <= k <= 100000
+1 <= a[i] <= d, 1 <= i <= k
+0 <= t <= d
+20% din teste vor avea valoarea t = 0
+
+Exemplu
+Input: 6 1 2
+3
+Output: 2

@@ -1,0 +1,29 @@
+#585
+Orase
+
+Cerința
+Într-o țară oarecare sunt n orașe, numerotate de la 1 la n , între care există șosele unidirecționale. Președintele țării vrea să facă o vizită electorală prin mai multe orașe în felul următor: aterizează cu elicopterul în orașul p , merge până în orașul q folosind rețeaua de șosele existentă, de unde pleacă cu elicopterul. Din punct de vedere politic unele orașe sunt sigure (conduse de aliați politici ai președintelui), altele sunt nesigure (conduse de adversari), iar președintele dorește să parcurgă numai orașe sigure.
+Consilierii președintelui i-au propus mai multe perechi de orașe p q care pot fi alese ca punct de plecare și de sosire pentru vizită. Președintele vă cere să verificați pentru fiecare pereche dată dacă există un drum care să treacă numai prin orașe sigure.
+
+Restricții
+1 ≤ k ≤ n ≤ 100
+O pereche p q poate fi aleasă chiar dacă orașul p sau orașul q sunt nesigure. Este important să fie sigure orașele intermediare.
+O pereche p q poate fi aleasă dacă există șosea de la p la q .
+
+Exemplu
+Input: 5 6 3 4
+1 2
+1 4
+2 3
+2 4
+4 3
+3 5
+2 3 5
+1 5
+2 5
+6 4
+6 5
+Output: DA
+DA
+NU
+NU

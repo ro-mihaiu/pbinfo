@@ -1,0 +1,15 @@
+#4422
+inima
+
+Cerința
+Cunoscând numărul n de bătăi ale inimii unui pacient și intensitățile acestora \({h}_{1}, {h}_{2}, … {h}_{n}\), determinați puterea maximă a inimii.
+
+Restricții
+1 ≤ n ≤ 100 000
+\(1 ≤ {h}_{i} ≤ 200\)
+Pentru 50 de puncte, n ≤ 1000
+
+Exemplu
+Input: 9 
+1 8 6 2 5 4 8 3 7
+Output: 49

@@ -1,0 +1,14 @@
+#3018
+CTF
+
+Cerința
+În fișierul de intrare sunt ascunse instrucțiunile pentru a rezolva problema.
+
+Restricții
+Programul afișeaza ca mesaje de evaluare exact ce scrie in fișierul ctf.out
+Se poate alege orice soluție oficiala de la problema XORC rypt#3101
+Veți lua cel puțin o dată 5 puncte
+
+Exemplu
+Input: 00100000 00010110 00000101 00011010 00000010 00010011
+Output: 00100000 00010110 00000101 00011010 00000010 00010011

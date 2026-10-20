@@ -1,0 +1,12 @@
+#481
+prod2cons
+
+Cerința
+Se citește un număr natural n . Să se stabilească dacă n poate fi scris ca produs de două numere naturale consecutive.
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 12
+Output: 3 4

@@ -1,0 +1,15 @@
+#2684
+hard_ssc
+
+Cerința
+Să se determine numărul minim de subșiruri strict crescătoare în care se poate partiționa șirul.
+
+Restricții
+1 ≤ n ≤ 100.000
+cele n numere citite vor fi mai mici decât 100.000
+Un subșir se obține dintr-un șir prin eliminarea a zero, unul, sau mai multe elemente.
+
+Exemplu
+Input: 8
+4 6 2 5 8 1 3 7
+Output: 3

@@ -1,0 +1,15 @@
+#326
+ultimulpar
+
+Cerința
+Se dau n numere naturale. Să se determine ultimul număr par dintre cele date.
+
+Restricții
+0 < n <= 100
+cele n numere citite vor avea cel mult 9 cifre
+
+Exemplu
+Input: 8
+12 15 68 13 17
+90 31 43
+Output: 90

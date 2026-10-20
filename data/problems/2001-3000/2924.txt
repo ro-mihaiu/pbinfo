@@ -1,0 +1,12 @@
+#2924
+FactorialnEasy
+
+Cerința
+Se dă numărul natural n . Să se afișeze numărul de cifre a lui \( {(n!)}^{n} \).
+
+Restricții
+n ≤ 10 6
+
+Exemplu
+Input: 3
+Output: 3

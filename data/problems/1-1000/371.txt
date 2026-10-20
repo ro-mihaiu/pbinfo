@@ -1,0 +1,14 @@
+#371
+numarare
+
+Cerința
+Se citesc n numere naturale. Determinați câte perechi de numere citite consecutiv au aceeași sumă a cifrelor.
+
+Restricții
+1 ≤ n ≤ 100
+cele n numere citite vor avea cel mult 9 cifre
+
+Exemplu
+Input: 5
+176 293 52421 91 424
+Output: 3

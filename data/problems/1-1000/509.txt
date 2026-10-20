@@ -1,0 +1,14 @@
+#509
+ordonare
+
+Cerința
+Să se ordoneze crescător elementele vectorului.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele vectorului vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 6
+8 2 9 4 5 7
+Output: 2 4 5 7 8 9

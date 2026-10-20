@@ -1,0 +1,19 @@
+#4179
+barliga
+
+Cerința
+Scrieți un program care cunoscând N , numărul de jucători din echipă, precum și valorile scrise pe fața roșie a scândurii primite de fiecare jucător, determină punctajul maxim pe care îl poate obține echipa, precum și numerele de ordine ale jucătorilor care trebuie să întoarcă scândura cu față galbenă în sus, pentru a obține acest punctaj maxim.
+
+Restricții
+2 ≤ N ≤ 16
+3 ≤ V ≤ 80.000
+Valorile aflate pe aceeași linie în fișierul de intrare, respectiv în fișierul de ieșire sunt separate printr-un singur spațiu.
+Dacă există mai multe soluții pentru ca echipa să obțină punctaj maxim, se va afișa oricare dintre acestea.
+Punctajul pe test se obține dacă sunt afișate corect atât punctajul maxim, cât și o modalitate de obținere a punctajului maxim.
+
+Exemplu
+Input: 2 10
+3 7 5 10
+4 1 5 10 2
+Output: 9
+1 1

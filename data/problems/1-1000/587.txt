@@ -1,0 +1,18 @@
+#587
+Mall
+
+Cerința
+Într-un mall sunt n centre comerciale, numerotate de la 1 la n , unite între ele prin coridoare unidirecționale. Să se determine, dacă există, un centru comercial în care se poate ajunge din oricare altul.
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 5 6
+1 4
+2 1
+4 2
+4 3
+5 4
+5 1
+Output: 3

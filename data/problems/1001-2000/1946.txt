@@ -1,0 +1,21 @@
+#1946
+zece
+
+Cerința
+Să se scrie un program care, citind numărul N de elevi ai clasei, numărul k de elevi notați cu 10 și N valori reprezentând numărul de probleme rezolvate de fiecare elev, rezolvă cerințele:
+1. Afișează în ordine descrescătoare numărul de probleme lucrate de elevii care vor primi nota 10. 2. Afișează în ordinea descrescătoare a numărului de probleme rezolvate, numerele de ordine ale tuturor elevilor care primesc nota 10.
+
+Restricții
+1 ≤ N ≤ 1000
+1 ≤ k ≤ N
+cele N numere citite vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 1
+5 3
+18 45 55 60 45
+Output: 60 55 45 45
+Input: 2
+5 3
+18 45 55 60 45
+Output: 4 3 2 5

@@ -1,0 +1,14 @@
+#177
+bisect
+
+Cerința
+Să se scrie un program care verifică dacă un an calendaristic precizat este bisect. Un an este bisect dacă se divide cu 4 și nu se divide cu 100 sau se divide cu 400 .
+
+Restricții
+0 < n < 5000
+
+Exemplu
+Input: 2000
+Output: bisect
+Input: 1990
+Output: nebisect

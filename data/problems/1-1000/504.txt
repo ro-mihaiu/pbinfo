@@ -1,0 +1,14 @@
+#504
+Interval3
+
+Cerința
+Se dă un vector cu n elemente, numere naturale. Să se verifice dacă toate elementele vectorului aparţin intervalului închis determinat de primul şi ultimul element.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1000
+
+Exemplu
+Input: 7
+15 3 8 15 10 10 3
+Output: DA

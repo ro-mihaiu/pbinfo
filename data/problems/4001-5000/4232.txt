@@ -1,0 +1,14 @@
+#4232
+cif_sim
+
+Cerința
+Dat n , afișați mesajul DA dacă toate cifrele sale egal depărtate de extremități au suma egală cu 9 , sau afișați NU dacă există cel puțin o pereche care nu are suma 9 .
+
+Restricții
+1 ≤ n ≤ 10 18
+
+Exemplu
+Input: 314586
+Output: DA
+Input: 386
+Output: NU

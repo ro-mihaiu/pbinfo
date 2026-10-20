@@ -1,0 +1,13 @@
+#2059
+porumbei
+
+Cerința
+A venit primăvara și a început sezonul de concursuri pentru porumbei. La un concurs fiecare participant trebuie să trimită câte doi porumbei. Fiecare porumbel are ataşat pe picior un inel care conţine un număr. Într-o noapte, înainte de un concurs, Tavi, un mare pasionat de porumbei, are un vis în care o zână bună îi spune codurile celor doi porumbei pe care, dacă îi va trimite, va câştiga concursul. Cum Tavi este un mare uituc, dimineaţa îşi mai aminteşte doar prima parte a visului în care zâna îi spune 2 numere a şi n . El îşi mai aminteşte că numerele X şi Y (pe care le-a uitat) de pe inelele porumbeilor sunt puse în aşa fel încât rezultatul a X – a Y să fie divizibil cu n . X și Y sunt numerele de pe inelele porumbeilor pe care îi va trimite la concurs.
+Dându-se doua numere a şi n , să se afişeze cele două numere X şi Y cu Y minim.
+
+Restricții
+• 2 ≤ n ≤ 2.000.000 • 2 ≤ a ≤ 2.000.000 • 0 ≤ X < Y
+
+Exemplu
+Input: 4 10
+Output: 1 3

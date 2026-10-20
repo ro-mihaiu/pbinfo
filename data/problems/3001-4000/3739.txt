@@ -1,0 +1,20 @@
+#3739
+cafea
+
+Cerința
+Ajutaţi-l pe Algorel să rămână cu o sumă cât mai mare de bani, scriind un program care face acest calcul pe baza datelor corespunzătoare comercianţilor.
+
+Restricții
+1 ≤ K ≤ 1 000 000 000
+1 ≤ S ≤ 1 000 000 000
+1 ≤ N ≤ 100 000
+C i ∈ [1, 100 000] , pentru 1 ≤ i ≤ N
+P i ∈ [1, 100 000] , pentru 1 ≤ i ≤ N
+
+Exemplu
+Input: 1000 200 4
+500 85
+600 45
+250 35
+1000 1000
+Output: 94

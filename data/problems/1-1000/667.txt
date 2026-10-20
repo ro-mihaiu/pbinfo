@@ -1,0 +1,18 @@
+#667
+nrprime1
+
+Cerința
+Se dă o matrice cu n linii și m coloane și elemente numere naturale. Să se determine câte dintre elementele situate pe coloane cu indici impari sunt prime.
+
+Restricții
+1 ≤ n , m ≤ 600
+elementele matricei sunt numere naturale mai mici decât 1.000.000
+liniile matricei sunt numerotate de 1 la n , iar coloanele de la 1 la m
+
+Exemplu
+Input: 4 3
+5 2 10
+3 9 1
+7 10 1
+10 19 3
+Output: 4

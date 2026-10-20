@@ -1,0 +1,12 @@
+#375
+urmatorul-prim
+
+Cerința
+Se se citește un număr natural n . Să se determine cel mai mic număr prim, strict mai mare decât n .
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 20
+Output: 23

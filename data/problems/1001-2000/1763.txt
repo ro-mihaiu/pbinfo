@@ -1,0 +1,17 @@
+#1763
+Pachete2
+
+Cerința
+Cunoscându-se numărul N de tipuri de produse și cantitățile din fiecare produs, în ordinea în care sosesc de la magazie, să se stabilească numărul maxim de pachete care se pot obține prin alegerea convenabilă a perechilor de produse consecutive și programarea corespunzătoare a automatului, pentru fiecare pereche aleasă.
+
+Restricții
+1≤N≤100000
+Numărul de produse disponibile din fiecare tip este un număr natural nenul cu cel mult 6 cifre.
+Din orice produs din șir, mașina de împachetat poate fi programată să pună în fiecare pachet cel puțin unul și cel mult toate produsele disponibile.
+Numărul maxim de pachete obținut este cel mult 2000000000 .
+După ultimul număr din fișier se pot afla unul sau mai multe spații.
+
+Exemplu
+Input: 6
+18 9 5 14 63 2
+Output: 16

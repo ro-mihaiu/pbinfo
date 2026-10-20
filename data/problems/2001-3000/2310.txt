@@ -1,0 +1,19 @@
+#2310
+saci
+
+Cerința
+Pacală şi Tândală mergeau printr-o pădure. Într-un copac, ei au văzut o pasăre. - Măi, Tândală, uite o pasăre! Hai s-o prindem, s-o frigem şi s-o mâncăm boiereşte, zise Păcală lingându-şi degetele. - Că bine zici. Dar cum s-o mâncăm fără sare? Stai tu s-o păzeşti ca să nu zboare şi eu dau fuga în sat să aduc nişte sare, zise Tândală. - Du-te în pivniţa mea şi acolo vei găsi N saci, pe fiecare sac vezi că e o etichetă pe care scrie un număr; dacă numărul are toate cifrele în ordine strict crescătoare, de la stânga la dreapta , înseamnă că acel sac conţine sare, altfel conţine zahăr. Încarcă în căruţă toţi sacii cu sare şi hai cu ei încoace până păzesc eu pasărea, zise Păcală.
+Ajutaţi-l pe Tândală să numere câţi saci cu sare trebuie să încarce în căruţă.
+
+Restricții
+1 ≤ n ≤ 100
+numărul scris pe fiecare sac este un număr natural nenul, cu cel mult 8 cifre
+
+Exemplu
+Input: 5
+159
+721
+18
+121
+7
+Output: 3

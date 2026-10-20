@@ -1,0 +1,12 @@
+#1479
+pretios
+
+Cerința
+Se dă un interval [a,b] .Determinați câte numere prețioase se află în acest interval.
+
+Restricții
+1 ≤ a,b ≤ 10.000.000.000.000.000.000
+
+Exemplu
+Input: 1 4
+Output: 3

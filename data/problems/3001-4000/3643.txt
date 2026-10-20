@@ -1,0 +1,19 @@
+#3643
+regula
+
+Cerința
+Dându-se o poziţie din şir se cere determinarea valorii care se află pe acea poziţie. Dându-se o valoare, să se determine cea mai mică poziţie din şir pe care aceasta se află.
+
+Restricții
+1 ≤ C ≤ 2
+Pentru 25% din punctaj, C = 1 și V ≤ 100.000
+Pentru 25% din punctaj, C = 1 și 100.000 < V ≤ 1.000.000.000
+Pentru 50% din punctaj, C = 2 și 1 < V ≤ 35.000
+
+Exemplu
+Input: 1
+8
+Output: 3
+Input: 2
+3
+Output: 8

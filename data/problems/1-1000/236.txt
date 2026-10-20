@@ -1,0 +1,14 @@
+#236
+sort2
+
+Cerința
+Fişierul text sort2.in conţine, dispuse pe mai multe linii, cel mult 100 de numere naturale, cu cel mult 4 cifre fiecare. Să se afişeze în fişierul sort2.out , în ordine crescătoare, toate numerele din fişierul sort2.in care au cel mult 2 cifre.
+
+Restricții
+dacă în fişierul de intrare nu există numere cu cel mult 2 cifre, se va afişa în fişierul de ieşire, pe prima linie, mesajul “NU EXISTA ”.
+
+Exemplu
+Input: 86 18 7210 73 15 5
+7989 825
+562 732 5 911
+Output: 5 5 15 18 73 86

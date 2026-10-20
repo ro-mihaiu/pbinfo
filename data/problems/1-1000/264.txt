@@ -1,0 +1,10 @@
+#264
+maxcif
+
+Cerința
+Se dau mai multe numere naturale formate din exact o cifră. Determinaţi cifrele cu număr maxim de apariţii.
+
+Exemplu
+Input: 5 6 4 1 2 
+5 7 2
+Output: 2 5

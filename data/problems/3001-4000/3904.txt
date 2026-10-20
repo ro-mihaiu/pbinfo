@@ -1,0 +1,15 @@
+#3904
+SeqCuts
+
+Cerința
+Se dă un șir de N caractere, format din litere mici ale alfabetului englez , din care trebuie eliminate K secvențe disjuncte de lungime L . Care este cel mai mic şir din punct de vedere lexicografic ce se poate obține după eliminarea celor K secvențe.
+
+Restricții
+1 ≤ N ≤ 2.000.000
+0 ≤ K * L < N
+șirul de caractere este format din litere mici ale alfabetului englez
+
+Exemplu
+Input: 10 3 2
+anaaremere
+Output: aame

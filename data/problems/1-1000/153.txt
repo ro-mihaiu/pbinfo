@@ -1,0 +1,14 @@
+#153
+drept
+
+Cerința
+Scrieţi un program care să-l ajute pe Aurel să determine numărul de posibilităţi de a plasa un dreptunghi în plan astfel încât să fie dreptunghi special. Deoarece rezultatul poate fi foarte mare, se va determina numărul modulo 946021 (restul împărţirii numărului calculat la 946021 ).
+
+Restricții
+1 ≤ N ≤ 50.000
+0 ≤ x1≤ x2 ≤ 1.000.000.000
+0 ≤ y ≤ 1000
+Vârfurile oricărui dreptunghi special sunt distincte două câte două şi nu pot avea toate aceeaşi ordonată
+Pentru un număr de teste în valoare de 60 de puncte, N ≤ 5000
+
+Exemplu

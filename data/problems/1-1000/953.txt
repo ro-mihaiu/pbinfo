@@ -1,0 +1,19 @@
+#953
+deedee
+
+Cerința
+Scrieţi un program care să determine:
+a) numărul R al rândului care conţine cele mai multe dale gri, iar dacă sunt mai multe rânduri cu această proprietate atunci R va fi egal cu numărul cel mai mic al unui astfel de rând; b) numărul minim D de dale pe care trebuie să sară Deedee pornind de la dala iniţială astfel încât să ajungă pe dala finală, respectând la fiecare săritură regula din enunţ.
+
+Restricții
+3 ≤ N ≤ 100000; 1 ≤ K < 100000;
+dalele au formă pătratică, cu latura de aceeaşi lungime
+dala iniţială şi dala finală sunt de culoare albă
+pentru datele de test există întotdeauna soluţie
+pentru rezolvarea corectă a cerinţei a) se acordă 60% din punctaj, iar pentru rezolvarea corectă a ambelor cerinţe se acordă 100% din punctaj
+
+Exemplu
+Input: 6 5 
+4 6 7 18 19
+Output: 3 
+10

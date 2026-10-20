@@ -1,0 +1,23 @@
+#1378
+Flori2
+
+Cerința
+Fiind dat un număr natural n reprezentând numărul fetiţelor şi numărul natural m reprezentând numărul de flori dintr-un buchet, să se determine grupele care se formează.
+
+Restricții
+1 ≤ n ≤ 150
+1 ≤ m ≤ 100
+Tipul unei flori este un număr întreg din intervalul [0,100] .
+Într-o grupă numerele de ordine ale fetiţelor trebuie date în ordine strict crescătoare.
+În fişierul de ieşire grupele vor fi afişate în ordinea crescătoare a numărului de ordine al primei fetiţe din grupă.
+
+Exemplu
+Input: 5 4
+1 2 3 4
+5 6 9 6
+1 1 1 1 
+2 4 4 3
+7 7 7 7
+Output: 1 3 4 
+2
+5

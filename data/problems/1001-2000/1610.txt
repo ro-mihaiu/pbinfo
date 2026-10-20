@@ -1,0 +1,23 @@
+#1610
+Colier
+
+Cerința
+1) determinați numărul de mărgele de tipul 1 ; 2) determinați numărul maxim de mărgele pe care le poate avea colierul;
+
+Restricții
+1 ≤ N ≤ 50 000 ;
+Numerele scrise inițial pe mărgele au cifrele distincte, nu conțin cifra 0 și sunt cuprinse între 12 și 987654321 ;
+T va fi 1 sau 2 ;
+Pentru obținerea colierului, Maria poate decide să nu elimine nicio mărgea;
+Colierul obținut poate fi format și dintr-o singură mărgea;
+Pentru teste în valoare de 20 de puncte avem T = 1 și toate numerele scrise inițial pe mărgele au două cifre; Pentru teste în valoare de 30 de puncte avem T = 1 și dintre numerele scrise inițial pe mărgele sunt și unele cu mai mult de două cifre; Pentru teste în valoare de 50 de puncte avem T = 2 .
+
+Exemplu
+Input: 1
+5
+12 678 312 24 938
+Output: 3
+Input: 2
+5
+12 678 312 24 938
+Output: 4

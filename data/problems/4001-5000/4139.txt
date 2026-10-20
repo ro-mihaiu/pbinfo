@@ -1,0 +1,21 @@
+#4139
+triprime
+
+Cerința
+Date fiind numerele A și B , să se afișeze numărul de numere triprime din intervalul [A, B] (inclusiv A și B ).
+
+Restricții
+1 ≤ A ≤ B ≤ 390.000.000
+Pentru 18 puncte, 1 ≤ B ≤ 1.500.000
+Pentru 6 puncte, 1.500.000 < B ≤ 2.500.000
+Pentru 20 puncte, 2.500.000 < B ≤ 4.500.000
+Pentru 31 puncte, 4.500.000 < B ≤ 35.000.000
+Pentru 25 puncte, nu există alte restricții
+
+Exemplu
+Input: 1 50
+Output: 2
+Input: 50 105
+Output: 5
+Input: 1000 3000
+Output: 348

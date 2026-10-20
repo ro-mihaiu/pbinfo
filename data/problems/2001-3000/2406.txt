@@ -1,0 +1,13 @@
+#2406
+sort
+
+Cerința
+Dându-se un număr n ce reprezintă numărul de scânduri care alcătuiesc gardul, precum şi modul în care sunt aranjate scândurile în gard, să se determine care este numărul minim de schimbări ce trebuie realizat astfel încât gardul să aibă scândurile aranjate crescător. Scândurile sunt codificate în funcție de dimensiune prin valorile 1 , 2 și 3 .
+
+Restricții
+1 ≤ n ≤ 1000
+
+Exemplu
+Input: 10
+1 3 1 2 2 3 1 3 2 1
+Output: 3

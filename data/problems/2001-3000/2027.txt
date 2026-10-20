@@ -1,0 +1,23 @@
+#2027
+ROADtoONI
+
+Cerința
+Cu ocazia Olimpiadei Naţionale de Informatică, toate drumurile care duceau la Roma, duc acum la Braşov. Drumarii, sub atenta îndrumare a lui Dorel, s-au întrecut pe sine şi s-au hotărât să monteze borne “kilometrice” din 100 în 100 metri. Peste noapte însă, din motive paranormale, unele borne au dispărut. Cunoscând numerele de pe bornele rămase pe fiecare drum spre Braşov, să se determine, pentru fiecare drum, un set de borne dintre cele care lipsesc astfel încât suma numerelor de pe borne să fie divizibilă cu 2017 . Rezolvă problema şi vei ajunge cu bine la Braşov!
+
+Restricții
+1 ≤ n ≤ 20
+numerele de pe bornele montate sunt naturale nenule şi mai mici decât 2017
+pe fiecare drum au rămas cel mult 500 de borne, inclusiv cea cu numărul maxim de pe drumul respectiv
+borna cu număr maxim de pe fiecare drum este cel puţin 1600
+punctajul unui test se distribuie uniform pentru fiecare drum din testul respectiv
+
+Exemplu
+Input: 4
+3 1 20 1780
+5 44 78 235 1899
+6 2 66 789 431 23 1654
+2 1989 478
+Output: 4 5 233 18 1761
+6 1 2 3 4 500 1507
+4 800 1000 200 17
+4 1900 100 8 9

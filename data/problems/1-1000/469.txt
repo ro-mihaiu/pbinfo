@@ -1,0 +1,13 @@
+#469
+interval2
+
+Cerința
+Se dau trei numere naturale a b x . Să se verifice dacă numărul x aparține intervalului [a,b] .
+
+Restricții
+0 ≤ a,b,x ≤ 1000
+a ≤ b
+
+Exemplu
+Input: 4 9 8
+Output: DA

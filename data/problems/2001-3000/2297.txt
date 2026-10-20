@@ -1,0 +1,17 @@
+#2297
+gogosi
+
+Cerința
+La magazinul X sunt N persoane așezate la coadă pentru gogoși. Din cauza aglomerației, managerul vrea să împartă persoanele la mai multe case. Deoarece toată lumea trebuie să vadă gogoșile, înălțimea fiecărei persoane trebuie să fie mai mică sau egală decât înălțimile tuturor celor de după el în coadă lui. Mai mult, dacă persoana i în șirul inițial și persoana j în șirul inițial ( i < j ) ajung în aceeași coadă, persoană i trebuie să fie înaintea persoanei j .
+Dându-se N , numărul de persoane și A[i] , înălțimile persoanelor în ordinea inițială, să se afișeze numărul minim de case pe care managerul trebuie să le deschidă.
+
+Restricții
+1 ≤ N ≤ 10 6
+1 ≤ A[i] ≤ 10 5
+1 ≤ A[i] ≤ 2 pentru teste în valoare de 20 puncte.
+1 ≤ N ≤ 10 3 pentru teste în valoare de alte 30 puncte.
+
+Exemplu
+Input: 7
+1 4 2 3 9 7 6
+Output: 3

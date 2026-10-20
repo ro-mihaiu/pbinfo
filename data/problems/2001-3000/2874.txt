@@ -1,0 +1,34 @@
+#2874
+SortMatrixCol
+
+Cerința
+Se dă o matrice cu n linii și m coloane și un caracter c care poate fi + sau - . Să se sorteze, după linii, matricea crescător dacă semnul este + sau descrescător dacă semnul este - .
+Sortarea matricei după coloane este rearanjarea elementelor astfel încât, parcurgând matricea pe coloane, de la stânga la dreapta și de sus în jos, elementele sunt în ordine crescătoare/descrescătoare.
+
+Restricții
+1 ≤ n ≤ m ≤ 100
+elementele matricei vor fi mai mici sau egale cu 1.000
+
+Exemplu
+Input: 5 4 +
+2 4 1 3
+9 8 7 6
+20 19 18 16
+30 29 124 12
+59 21 0 3
+Output: 0 4 12 21 
+1 6 16 29 
+2 7 18 30 
+3 8 19 59 
+3 9 20 124
+Input: 5 4 -
+2 4 1 3
+9 8 7 6
+20 19 18 16
+30 29 124 12
+59 21 0 3
+Output: 124 20 9 3 
+59 19 8 3 
+30 18 7 2 
+29 16 6 1 
+21 12 4 0

@@ -1,0 +1,14 @@
+#4338
+MinMaxSumIF
+
+Cerința
+Se citesc două numere naturale a și b cu cel puțin două cifre fiecare. Dacă cele două numere au aceeași cifră a zecilor, atunci să se afișeze suma celor două numere. Dacă cifrele zecilor diferă, atunci să se afișeze numărul care are cifra zecilor mai mare.
+
+Restricții
+10 ≤ a , b ≤ 1.000.000.000
+
+Exemplu
+Input: 123 912
+Output: 123
+Input: 2023 27
+Output: 2050

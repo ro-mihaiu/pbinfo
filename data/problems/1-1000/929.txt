@@ -1,0 +1,13 @@
+#929
+PunctSegment
+
+Cerința
+Se dau un punct și un segment în plan. Să se verifice dacă punctul se găsește pe segment.
+
+Restricții
+Numerele din fișierul de intrare sunt întregi cuprinse între -1001 și 1001 .
+Segmentul are lungimea nenulă.
+
+Exemplu
+Input: 2 2 1 1 3 3
+Output: DA

@@ -1,0 +1,19 @@
+#583
+Tare conexitate
+
+Cerința
+Se dă un graf orientat cu n noduri. Să se determine câte componente tare conexe are graful dat.
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 5 7
+1 2
+2 1
+2 4
+4 1
+3 5
+4 5
+5 3
+Output: 2

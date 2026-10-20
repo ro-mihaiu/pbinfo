@@ -1,0 +1,17 @@
+#3686
+Vaccination
+
+Cerința
+Echipa V.R.N.C. a dezvoltat un vaccin contra celei mai recente boli. Vaccinul este distribuit mai întâi unei singure persoane, iar mai apoi se împrăștie celor 4 vecini(populația este reprezentată pe o matrice de dimensiunile n și m ). Ulterior, fiecare persoana va da vaccinul celor 4 vecini până când o persoană de la marginea matricii este vaccinată, moment în care vaccinul nu mai este dat mai departe.
+Vazând succesul acestei metode, V.R.N.C ne dă o matrice în care știm vârsta fiecărei persoane și trebuie să aflăm punctul unde V.R.N.C ar trebui să înceapă distribuția vaccinului astfel încât să maximizăm suma vârstelor oamenilor vaccinați.
+
+Restricții
+1 ≤ n, m ≤ 1000
+cele n*m numere citite vor fi între 0 și 2147483647
+
+Exemplu
+Input: 3 4
+1 2 3 4
+5 6 7 8
+9 10 11 12
+Output: 2 3

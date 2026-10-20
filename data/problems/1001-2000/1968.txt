@@ -1,0 +1,20 @@
+#1968
+bloc
+
+Cerința
+Cifrele de la 1 la K se scriu într-un şir, iar secvenţa obţinută se repetă la nesfârşit. De exemplu, pentru K=9 se obţine şirul: 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 … . Asupra unui asemenea şir se aplică succesiv operaţia de rostogolire de lungime P , ce presupune ca blocul format cu cifrele de pe primele P poziţii să se rotească cu 180 0 şi să se scrie deasupra următoarei secvenţe de lungime P . În cazul exemplului anterior, pentru P=3 , vom obţine după 4 operaţii de rostogolire de lungime 3 : Pas 1: 3 2 1 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9…
+Pas 2: 6 5 4 1 2 3 7 8 9 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9…
+Pas 3: 9 8 7 3 2 1 4 5 6 1 2 3 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9…
+Pas 4: 3 2 1 6 5 4 1 2 3 7 8 9 4 5 6 7 8 9 1 2 3 4 5 6 7 8 9… Astfel pe primele P poziţii se formează un bloc având la bază P cifre şi înălţimea N+1 , unde N este numărul de rostogoliri de lungime P . Pentru K , P şi N date se cer următoarele: a) Suma elementelor blocului după N rostogoliri de lungime P . b) Suma maximă a elementelor de pe o coloană a blocului după N rostogoliri de lungime P . c) Dacă liniile blocului le privim ca pe nişte numere cu P cifre, să se afle cel mai mic dintre aceste numere ale blocului obţinut după N rostogoliri de lungime P .
+
+Restricții
+1 ≤ K ≤ 9
+1 ≤ P ≤ 100
+1 ≤ N ≤ 1.000.000
+Prima cerinţă se notează cu 40p , a doua cu 40p , iar a treia cu 20p
+
+Exemplu
+Input: 9 3 4
+Output: 66
+23
+123

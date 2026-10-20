@@ -1,0 +1,13 @@
+#279
+Distincte
+
+Cerința
+Se dă un şir cu n elemente, numere naturale cu cel mult 8 cifre, ordonate crescător. Afişaţi în ordine crescătoare elementele distincte din şir.
+
+Restricții
+1 ≤ n ≤ 10.000
+
+Exemplu
+Input: 7
+111 111 111 2111 4111 71111 71111
+Output: 111 2111 4111 71111

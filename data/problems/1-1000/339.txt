@@ -1,0 +1,14 @@
+#339
+numere
+
+Cerința
+Se dau n numere naturale. Determinaţi primul număr par dintre cele n numere.
+
+Restricții
+1 ≤ n ≤ 100
+cele n numere citite vor avea cel mult 9 cifre
+
+Exemplu
+Input: 5
+7 4 2 5 8
+Output: 4

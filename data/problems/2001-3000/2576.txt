@@ -1,0 +1,12 @@
+#2576
+ciurul-lui-eratosthenes
+
+Cerința
+Să se afișeze numerele prime de la 1 la n .
+
+Restricții
+1 ≤ n ≤ 1.000.000
+
+Exemplu
+Input: 30
+Output: 2 3 5 7 11 13 17 19 23 29

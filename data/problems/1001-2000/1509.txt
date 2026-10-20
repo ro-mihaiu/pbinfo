@@ -1,0 +1,11 @@
+#1509
+NrMaxim
+
+Cerința
+Să se scrie o funcție care are ca parametru un număr natural n și returnează cel mai mare număr care poate fi obținut mutând, pe rând, prima cifră a numărului n și a celor obținute pe parcurs, pe ultima poziție. Nu se vor folosi șiruri de caractere și tablouri auxiliare.
+
+Restricții
+numele funcției va fi nrmaxim
+funcția va avea un parametru reprezentând numărul dat, care va fi mai mic decât 1.000.000.000
+
+Exemplu

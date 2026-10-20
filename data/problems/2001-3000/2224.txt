@@ -1,0 +1,33 @@
+#2224
+mset
+
+Cerința
+Dându-se N operații, trebuie să afișați răspunsul la fiecare operație de tip 3 .
+
+Restricții
+1 ≤ N ≤ 200 000
+Va exista cel puțin o operație de tip 3
+Valorile care se introduc în mulțime sunt numere naturale mai mici decât 2 000 000 000
+
+Exemplu
+Input: 14
+3
+1 55
+1 55
+3
+1 40
+3
+1 7
+1 7
+3
+2 7 
+1 50
+3
+2 40
+3
+Output: -1
+55 2
+40 1
+7 2
+40 1
+50 1

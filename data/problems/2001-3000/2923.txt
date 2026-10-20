@@ -1,0 +1,15 @@
+#2923
+MinPal
+
+Cerința
+Se dă numărul natural n și un șir de n numere naturale. Determinați numărul minim de operații necesare pentru a face șirul palindromic. Singura operație admisă este înlocuirea a două elemente adiacente cu un element care conține suma lor.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+elementele șirului dat vor fi mai mici decât 10.000
+un șir este palindromic dacă se citește la fel în ambele sensuri
+
+Exemplu
+Input: 4
+1 4 5 1
+Output: 1

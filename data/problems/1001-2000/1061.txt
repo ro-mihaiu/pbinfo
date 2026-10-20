@@ -1,0 +1,21 @@
+#1061
+Cifru1
+
+Cerința
+Realizaţi un program care, cunoscând poziţia iniţială a fiecărui disc dintre cele N discuri ale cifrului, determină şi afişează:
+a) cifra cea mai mare care apare pe discurile cifrului în forma iniţială; b) b1) numărul minim de mutări necesare pentru ca numărul obţinut pe cifru să fie compus numai din cifre identice, număr necesar deschiderii servietei; b2) cifra cea mai mică ce se poate obţine în urma efectuării numărului minim de mutări determinat; b3) numărul de combinaţii formate din cifre identice, care se poate obţine în urma efectuării numărului minim de mutări determinat.
+
+Restricții
+1 < N ≤ 100 000
+Un disc poate să rămână nemişcat.
+
+Exemplu
+Input: 4
+7
+3
+9
+0
+Output: 9
+7
+0
+2

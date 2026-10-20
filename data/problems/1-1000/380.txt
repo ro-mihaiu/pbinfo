@@ -1,0 +1,14 @@
+#380
+aprim1
+
+Cerința
+Se citește un număr natural și apoi n numere naturale. Să se determine câte dintre ele sunt aproape prime.
+
+Restricții
+1 ≤ n ≤ 100
+cele n numere citite sunt cuprinse între 1 și 1.000.000.000
+
+Exemplu
+Input: 6
+35 55 12 6 25 50
+Output: 3

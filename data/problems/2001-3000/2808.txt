@@ -1,0 +1,10 @@
+#2808
+Produs4
+
+Cerința
+Subprogramul produs are doi parametri, în această ordine:
+a , prin care primește un număr natural ( a∈[1,10 6 ] );
+k , prin care furnizează cea mai mare valoare naturală impară cu proprietatea că produsul tuturor numerelor impare din intervalul [1,k] este mai mic sau egal cu a .
+Scrieți definiția completă a subprogramului.
+
+Exemplu

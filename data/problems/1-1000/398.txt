@@ -1,0 +1,15 @@
+#398
+Plopi2
+
+Cerința
+De-a lungul principalei străzi din orașul nostru există n plopi, pentru fiecare cunoscându-se înălțimea. Primarul orașului dorește ca plopii să aibă înălțimile în ordine descrescătoare. Pentru aceasta, este posibilă tăierea dintr-un plop a unei bucăți – este o tehnică ecologică, nevătămătoare, în urma căreia plopul nu are de suferit. Plopii nu pot fi înălțați în niciun fel.
+Determinați numărul minim de plopi din care se va tăia și lungimea totală minimă a bucăților tăiate.
+
+Restricții
+2 ≤ n ≤ 100
+înălțimile plopilor vor fi mai mici decât 10000
+
+Exemplu
+Input: 8
+5 7 3 6 4 4 2 6
+Output: 5 11

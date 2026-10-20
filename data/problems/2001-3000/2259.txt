@@ -1,0 +1,12 @@
+#2259
+dinamica01
+
+Cerința
+Să se determine numărul de elemente ale mulțimii A(N) . Pentru că acest număr poate fi foarte mare, se va determina modulo 30103 .
+
+Restricții
+1 ≤ n ≤ 100.000
+
+Exemplu
+Input: 2
+Output: 40

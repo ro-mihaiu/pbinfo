@@ -1,0 +1,23 @@
+#3436
+Wind
+
+Cerința
+Scrieți un program care citește numărul N , valorile afișate pe cele N ecrane ale centralelor eoliene și rezolvă următoarele două cerinţe:
+afișează numărul M de moduri în care se pot grupa cele N centrale pentru construcția corectă de orașe;
+afișează numărul maxim X de orașe ce pot fi construite corect, dintre cele care au factorul de dezechilibru minim, precum și eticheta E a primei centrale eoliene atribuită orașului cu cea mai mare cantitate de energie repartizată, dintre cele X orașe; dacă sunt mai multe astfel de orașe, se ia în considerare cel care are atribuite centrale etichetate cu numere mai mari.
+
+Restricții
+2 ≤ N ≤ 100000 , N număr natural;
+Numerele afișate pe ecranele centralelor sunt numere întregi formate din cel mult nouă cifre;
+Se vor construi minimum 2 orașe;
+În concurs, pentru rezolvarea cerinței 1 s-au acordat 20 de puncte, pentru rezolvarea cerinței 2 s-au acordat 70 de puncte. Pe site se acordă 10 puncte pentru exemple.
+
+Exemplu
+Input: 1
+12
+2 4 -5 12 3 5 -6 4 5 7 -8 2
+Output: 5
+Input: 2
+12
+2 4 -5 12 3 5 -6 4 5 7 -8 2
+Output: 3 1

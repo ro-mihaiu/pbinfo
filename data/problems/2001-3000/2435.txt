@@ -1,0 +1,27 @@
+#2435
+fadema
+
+Cerința
+Să se determine numărul maxim de pătrate întregi ale unui dreptunghi cu laturile paralele cu cele ale materialului cumpărat, care poate fi decupat astfel încât să nu existe două pătrate vecine având aceeași culoare.
+
+Restricții
+2 ≤ N ≤ 1000
+2 ≤ M ≤ 1000
+Pentru rezolvarea corectă a cerinței respectând restricțiile problemei se acordă 90 de puncte,
+Pentru rezultate corecte respectând restricțiile problemei și n, m ≤ 100 se acordă 20 de puncte
+Pentru rezultate corecte respectând restricțiile problemei și n, m ≤ 200 se acordă 40 de puncte
+Pentru rezultate corecte respectând restricțiile problemei și n, m ≤ 400 se acordă 65 de puncte
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă 10 puncte pentru exemplele din enunț.
+
+Exemplu
+Input: 3 4 
+0 0 1 0 
+1 1 0 0 
+1 0 1 0
+Output: 6
+Input: 4 5 
+0 1 1 0 1
+1 0 1 0 1
+0 0 1 1 0
+1 1 0 1 1
+Output: 5

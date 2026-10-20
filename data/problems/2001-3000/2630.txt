@@ -1,0 +1,15 @@
+#2630
+permd
+
+Cerința
+Să se scrie funcția cu următorul antet:
+int PermD(int a[], int n)
+Funcția primește ca parametru un vector a = (a 1 , a 2 , ..., a n ) de lungime n care memorează toate valorile distincte din mulțimea {1, 2,..., n-1} , dar exact una din aceste valori apare în vector de două ori. Funcția trebuie să returneze valoarea care apare de două ori.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+Numele funcției este PermD
+Întotdeauna va exista exact o valoare care apare de două ori
+Elementele din vector sunt indexate de la 1 la n
+
+Exemplu

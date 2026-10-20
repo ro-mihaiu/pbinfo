@@ -1,0 +1,17 @@
+#3149
+anagrame_vocale
+
+Cerința
+Se citește un cuvânt format din cel puțin două și cel mult zece caractere litere mici distincte care conține cel puțin două vocale. Afișați în ordine lexicografică anagramele cuvântului citit care au proprietatea că încep și se termină cu o vocală.
+
+Restricții
+numărul de caractere ale șirului dat este cuprins între 2 și 10 ;
+cuvântul dat este format din litere mici distincte și conține cel puțin două vocale;
+vocalele sunt a , e , i , o , u ;
+
+Exemplu
+Input: alin
+Output: alni
+anli
+ilna
+inla

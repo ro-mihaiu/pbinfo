@@ -1,0 +1,15 @@
+#2692
+LungSortDesc
+
+Cerința
+Se dă un șir de caractere în care cuvintele sunt formate din litere mici și mari ale alfabetului englez și sunt separate prin spații.
+Să se afișeze cuvintele pe ecran, fiecare cuvânt pe câte o linie, în ordinea descrescătoare a numărului de litere. Dacă două cuvinte au același număr de litere atunci ele se vor afișa în ordine lexicografică.
+
+Restricții
+șirul va conține maximum 255 de caractere
+
+Exemplu
+Input: ana are mere
+Output: mere
+ana
+are

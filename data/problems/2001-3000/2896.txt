@@ -1,0 +1,21 @@
+#2896
+binar1
+
+Cerința
+Scrieți un program care, pentru un șir dat de n numere naturale, rezolvă următoarele cerințe: 1) Determină cel mai mare dintre cele n numere date ce are număr maxim de valori de 1 în reprezentarea binară. 2) Determină cea mai lungă secvență de numere care au număr egal de valori de 1 în reprezentarea binară. Dacă sunt mai multe astfel de secvențe de lungime maximă, se va alege cea mai din stânga. O secvență este un subșir de numere care apar pe poziții consecutive în șirul inițial.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+Valorile din șirul de intrare sunt numere naturale de cel mult nouă cifre.
+Pentru 30% din teste cerința va fi C = 1 .
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă pentru testele din enunț.
+
+Exemplu
+Input: 1
+7
+16 12 3 5 14 13 11
+Output: 14
+Input: 2
+7
+16 12 3 5 14 13 11
+Output: 3 2

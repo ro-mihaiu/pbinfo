@@ -1,0 +1,20 @@
+#473
+BipartitComplet
+
+Cerința
+Se consideră două mulţimi nevide A şi B , cu proprietatea că formează o partiție a mulțimii {1,2,...,n}. Să se construiască un graf bipartit complet cu n vârfuri, bipartit peste partiţia formată din mulțimile A și B .
+
+Restricții
+1 < k < n ≤ 100
+
+Exemplu
+Input: 7
+3 
+4 6 3
+Output: 0 0 1 1 0 1 0 
+0 0 1 1 0 1 0 
+1 1 0 0 1 0 1 
+1 1 0 0 1 0 1 
+0 0 1 1 0 1 0 
+1 1 0 0 1 0 1 
+0 0 1 1 0 1 0

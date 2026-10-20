@@ -1,0 +1,12 @@
+#4315
+Cifre17
+
+Cerința
+Să se scrie un program care citește un număr natural și determină câte cifre ale numărului sunt mai mari decât a doua sa cifră.
+
+Restricții
+numărul citit va fi mai mic decât 2.000.000.000 și mai mare decât 9
+
+Exemplu
+Input: 32615
+Output: 3

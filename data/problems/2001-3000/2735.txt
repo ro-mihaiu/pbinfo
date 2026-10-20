@@ -1,0 +1,14 @@
+#2735
+InsertBiti
+
+Cerința
+Se citesc trei numere naturale n m i . Să se schimbe valorile biților lui n de la poziția i spre stânga, cu valorile biților lui m de la 0 până la cel mai semnificativ bit de 1 din m și apoi să se afișeze n .
+Numerotare biților se face de la dreapta spre stânga începând de la 0 .
+
+Restricții
+numerele n , m sunt se reprezintă pe 64 de biți, fără semn.
+pozițiile biților sunt indexate de la 0 .
+
+Exemplu
+Input: 5 6 2
+Output: 25

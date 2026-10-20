@@ -1,0 +1,43 @@
+#4086
+cmmdc5
+
+Cerința
+Să se determine răspunsul pentru una din următoarele cerințe:
+Cel mai mare divizor comun al celor n numere.
+Cel mai mare divizor comun care se poate obține alegând exact n-1 elemente din șir.
+Cel mai mare divizor comun care se poate obține alegând exact n-2 elemente din șir.
+
+Restricții
+2 ≤ a[i] ≤ 2 63 - 1 oricare 1 ≤ i ≤ n (numerele sunt de tip long long )
+Pentru 16 puncte, T=1 , 3 ≤ n ≤ 100.000 și a[i] ≤ 50.000.000 , pentru 1 ≤ i ≤ n
+Pentru 20 puncte, T=1 și 3 ≤ n ≤ 100.000
+Pentru 21 puncte, T=2 și 3 ≤ n ≤ 3000
+Pentru 21 puncte, T=2 și 3 ≤ n ≤ 100.000
+Pentru 12 puncte, T=3 și 3 ≤ n ≤ 300
+Pentru 10 puncte, T=3 și 3 ≤ n ≤ 2000
+
+Exemplu
+Input: 1
+5
+48
+40
+20
+16
+80
+Output: 4
+Input: 2
+5
+48
+40
+20
+16
+80
+Output: 8
+Input: 3
+5
+48
+40
+20
+16
+80
+Output: 20

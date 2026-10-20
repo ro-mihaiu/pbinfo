@@ -1,0 +1,23 @@
+#1767
+multiple
+
+Cerința
+Pentru fiecare din cele T întrebări, să se afle cel mai mic număr strict mai mare decât n care este divizibil cu k .
+
+Restricții
+1 ≤ T ≤ 10000
+se recomandă utilizarea tipurilor de date pe 8 octeţi (64 de biţi)
+dacă reuşiţi să-l ajutaţi pe Sergiu, pe lângă cele 100 de puncte, probabil el vă va face cinste şi cu o sticlă de apă minerală
+
+Exemplu
+Input: 5
+1 2
+3 7
+24 9
+13 223
+45 9
+Output: 2
+7
+27
+223
+54

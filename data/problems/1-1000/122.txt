@@ -1,0 +1,13 @@
+#122
+cifrebinare
+
+Cerința
+Se citesc două numere naturale. Să se afişeze numărul care are mai multe cifre egale cu 1 în reprezentarea în baza 2 .
+
+Restricții
+cele două numere citite vor fi mai mici decât 2.000.000.000
+dacă cele două numere au acelaşi număr de cifre 1 în reprezentarea în baza 2 se va afişa cel mai mic dintre ele
+
+Exemplu
+Input: 125 1250
+Output: 125

@@ -1,0 +1,21 @@
+#3085
+fsecv
+
+Cerința
+Fiind dat șirul A cu N numere întregi se cere să se răspundă la Q întrebări de forma: i j k ( 0 < i < j ≤ N ). Pentru fiecare întrebare se cere să se determine câte numere din secvența A[i] , …, A[j] au frecvența de apariții egală cu k .
+
+Restricții
+2 < N ≤ 100.000
+1 < Q ≤ 100.000
+0 < k ≤ N
+-100.000 ≤ A[i] ≤ 100.000 ; 1 ≤ i ≤ N
+
+Exemplu
+Input: 11 3
+1 2 4 3 2 5 6 4 5 2 1
+1 6 2
+2 7 3
+4 11 1
+Output: 1
+0
+4

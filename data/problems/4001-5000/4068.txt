@@ -1,0 +1,23 @@
+#4068
+GradeK
+
+Cerința
+Se dă lista muchiilor unui graf neorientat și un nod k . Să se determine nodurile din graf care au gradul egal cu gradul nodului k .
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ i , j ≤ n
+muchiile se pot repeta în fișierul de intrare
+
+Exemplu
+Input: 5 3
+1 4 
+1 3 
+3 5 
+4 5 
+2 4 
+1 2 
+4 2 
+3 4
+Output: 2
+1 3

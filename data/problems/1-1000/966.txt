@@ -1,0 +1,14 @@
+#966
+xmin
+
+Cerința
+Scrieţi un program care să citească numerele K și X (cu semnificația din enunț) şi care să determine elementul primar al mulțimii M .
+
+Restricții
+1 ≤ K ≤ 33
+toate cifrele lui X sunt nenule
+
+Exemplu
+Input: 3
+124
+Output: 223

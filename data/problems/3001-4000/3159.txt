@@ -1,0 +1,25 @@
+#3159
+numere124
+
+Cerința
+Se citesc un număr natural n având cifrele diferite două câte două și o cifră c . Afișați în ordine crescătoare numerele formate din c cifre distincte care se pot obține din cifrele lui n .
+
+Restricții
+1 ≤ n ≤ 1.000.000.000 , 1 < c < 9
+n are cifrele distincte
+c este mai mic decât numărul de cifre ale lui n
+
+Exemplu
+Input: 2576 2
+Output: 25
+26
+27
+52
+56
+57
+62
+65
+67
+72
+75
+76

@@ -1,0 +1,12 @@
+#4498
+maxx3
+
+Cerința
+Să se scrie un program care citește de la tastatură două numere naturale n și m cu exact 3 cifre fiecare și care calculează si afișează pe ecran 3 numere calculate astfel: primul număr este cel mai mare număr care se poate forma cu cifrele sutelor din numerele n și m , al doilea număr este cel mai mare număr care se poate forma cu cifrele zecilor din numerele n și m , iar al treilea număr este cel mai mare număr care se poate forma cu cifrele unităților din numerele n și m .
+
+Restricții
+n și m au exact 3 cifre fiecare
+
+Exemplu
+Input: 342 871
+Output: 83 74 21

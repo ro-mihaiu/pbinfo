@@ -1,0 +1,12 @@
+#1310
+cifdiv
+
+Cerința
+Se citesc două numere naturale n m cu exact trei cifre fiecare. Să se afle câte cifre din n divid pe m .
+
+Restricții
+100 ≤ n,m ≤ 999
+
+Exemplu
+Input: 273 600
+Output: 2

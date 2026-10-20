@@ -1,0 +1,34 @@
+#3619
+gen_nr_patru_cifre
+
+Cerința
+Dându-se cifrele c1 și c2 , să se afișeze toate numerele de patru cifre care îndeplinesc următoarele condiții:
+Cifra miilor este mai mare sau egală cu c1
+Cifra zecilor este mai mică sau egală cu c2
+Cifrele sutelor și unităților sunt egale și pare
+
+Restricții
+0 ≤ c1, c2 ≤ 9
+
+Exemplu
+Input: 8 1
+Output: 8000
+8010
+8202
+8212
+8404
+8414
+8606
+8616
+8808
+8818
+9000
+9010
+9202
+9212
+9404
+9414
+9606
+9616
+9808
+9818

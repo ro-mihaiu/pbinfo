@@ -1,0 +1,13 @@
+#312
+putereN
+
+Cerința
+Se dau două numere naturale x şi n . Calculaţi x n .
+
+Restricții
+1 ≤ x ≤ 1000
+1 ≤ n ≤ 1000
+
+Exemplu
+Input: 2 40
+Output: 1099511627776

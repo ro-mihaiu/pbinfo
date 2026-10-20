@@ -1,0 +1,12 @@
+#559
+5numere
+
+Cerința
+Se dau 5 numere distincte. Să se determine suma celor mai mari 3 dintre ele.
+
+Restricții
+cele 5 numere naturale sunt distincte, cuprinse între 1 și 10000 , inclusiv
+
+Exemplu
+Input: 1 5 2 3 100
+Output: 108

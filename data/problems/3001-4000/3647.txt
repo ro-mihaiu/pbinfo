@@ -1,0 +1,17 @@
+#3647
+secvente4
+
+Cerința
+Să se determine numărul minim de interschimbări ce trebuie realizate în șirul S pentru a obține două subsecvențe disjuncte de lungime t formate doar din elemente egale cu 1 .
+
+Restricții
+2 ≤ n ≤ 1.000.000
+2 * t ≤ n
+
+Exemplu
+Input: 7 2
+1010101
+Output: 2
+Input: 26 3
+00010100100100010111001001
+Output: 1

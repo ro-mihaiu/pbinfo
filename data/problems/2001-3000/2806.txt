@@ -1,0 +1,13 @@
+#2806
+SecventaPara
+
+Cerința
+Numim secvență pară într-un șir o succesiune de termeni ai șirului cu proprietatea că sunt numere pare și că se află pe poziții consecutive în șir; orice secvență are cel puțin doi termeni și este maximală în raport cu proprietatea precizată (dacă i se adaugă un alt termen, secvența își pierde această proprietate). Lungimea secvenței este egală cu numărul termenilor săi.
+Scrieți un program care citește un șir de cel mult 10 6 numere naturale din intervalul [0,10 9 ] și determină numărul de secvențe pare de lungime maximă din șir.
+
+Restricții
+Proiectați un algoritm eficient din punctul de vedere al spațiului de memorie utilizat şi al timpului de executare: se recomandă o soluție care să nu memoreze elementele șirului într-un tablou sau altă structură de date similară.
+
+Exemplu
+Input: 1 2 3 4 6 10 2 8 5 7 9 4 6 10 121 20 4 11 10 2 5 2 6 8 10 16
+Output: 2

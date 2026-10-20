@@ -1,0 +1,13 @@
+#3789
+FListaOglindire
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+void oglindire(nod * & p);
+care oglindește nodurile din lista pentru care primul element are adresa memorată în pointerul p .
+
+Restricții
+numele funcției va fi oglindire
+se recomandă evitarea folosirii unor structuri de date suplimentare
+
+Exemplu

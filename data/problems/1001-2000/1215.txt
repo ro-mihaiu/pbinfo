@@ -1,0 +1,32 @@
+#1215
+Mesaj
+
+Cerința
+Scrieţi un program care determină:
+1) numărul de secvențe trimise care nu ascund cuvinte; 2) cuvintele din mesaj, în ordinea în care au fost trimise de piticul Mi ; 3) pentru fiecare majusculă, câte cuvinte care încep cu ea au costul maxim determinat de Gi .
+
+Restricții
+1 ≤ N ≤ 2000000
+litera terminator a unei secvențe poate fi ori minusculă ori majusculă;
+ultimele litere din fișier sunt literele terminator ale ultimei secvențe din mesajul trimis; se garantează că în șirul de litere din fișierul de intrare se află ascuns cel puțin un cuvânt;
+majusculele alfabetului englez sunt A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z ;
+pentru 50% din teste N ≤ 1000000
+Pentru rezolvarea cerinţei 1) se acordă 20 de puncte, pentru rezolvarea cerinţei 2) se acordă 40 de puncte, iar pentru rezolvarea cerinţei 3) se acordă 40 de puncte.
+
+Exemplu
+Input: 1
+34
+w w w w e D o r F D o r r t R n e R e y y j j i M o e i t t t j w w
+Output: 4
+Input: 2
+34
+u N a a e D o r F D o r r t R n e R e y y j j i M o e i t t t j w w
+Output: Nu
+Do 
+Re
+Input: 3
+24
+A a t t B b B t t e A e a n n B w I I F i e F F
+Output: A 2
+B 1
+F 1

@@ -1,0 +1,27 @@
+#1081
+Numar3
+
+Cerința
+Să se determine două numere naturale a şi b astfel \( q= \frac{a}{b} \) încât iar modulul diferenţei dintre a şi b să fie minim.
+
+Restricții
+1≤ n1,n2 < 2000
+1≤ n1+n2 ≤ 2000
+Cifrele din care este alcătuit q sunt cele din sistemul zecimal.
+Pentru 20% dintre teste, n1+n2≤9 ; pentru alte 15% dintre teste, 10≤n1+n2≤16
+
+Exemplu
+Input: 1 3
+0
+3 7 5
+Output: 1
+3
+1
+8
+Input: 3 7
+0 1 2
+3 4 5 6 7 0 0
+Output: 7
+1234567
+6
+100000

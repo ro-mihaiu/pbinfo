@@ -1,0 +1,30 @@
+#3183
+ratc
+
+Cerința
+Urmărind traseul autobuzului și cunoscând câte persoane urcă și coboară la fiecare stație, să se afle:
+a) Numărul total de persoane care au urcat în autobuz, numărul total de persoane care au coborât din autobuz și numărul de persoane aflate în autobuz după terminarea traseului. b) Știind că Alexandru se află la stația cu numărul de ordin x , să se afle dacă autobuzul în care urmează să urce este aglomerat. Un autobuz este considerat aglomerat dacă în el se află cel puțin y persoane înainte să ajungă în stație.
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ x ≤ n
+1 ≤ y ≤ 10000
+0 ≤ Xi, Yi ≤ 2000
+Autobuzul ajunge în prima stație gol și se garantează că nu o să aibă număr negativ de pasageri în orice punct al traseului.
+Alexandru trăiește în viitor și are autobuze cu capacitate foarte mare.
+
+Exemplu
+Input: 5 2 10 1 
+3 0
+2 1
+5 6
+4 3
+3 1
+Output: 17 11 6
+Input: 5 2 10 2 
+3 0
+2 1
+5 6
+4 3
+3 1
+Output: NU

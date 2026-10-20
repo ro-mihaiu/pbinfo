@@ -1,0 +1,15 @@
+#3289
+maxprimeintreele
+
+Cerința
+Indicatorul lui Euler, φ(n) – uneori numită funcția phi , este folosit pentru a determina câte numere mai mici decât n sunt relativ prime cu n . De exemplu, cum 1 , 2 , 4 , 5 , 7 și 8 sunt toate mai mici decât 9 și relativ prime la 9 , φ(9)=6 .
+n Relativ prime φ(n) n/φ(n) 2 1 1 2 3 1,2 2 1.5 4 1,3 2 2 5 1,2,3,4 4 1.25 6 1,5 2 3 7 1,2,3,4,5,6 6 1.1666…. 8 1,3,5,7 4 2 9 1,2,4,5,7,8 6 1.5 10 1,3,7,9 4 2.5
+Se poate vedea că n=6 produce valoarea maximă n/φ(n) pentru n ≤ 10 .
+Se consideră un șir de numere naturale mai mari decât 1 , numere formate din cel mult 9 cifre. Să se scrie un program care determină dintre acestea numărul n pentru care raportul n/φ(n) are valoare maximă. În cazul în care sunt mai multe valori pentru care raportul n/φ(n) este maxim se va afișa prima dintre ele.
+
+Restricții
+numerele din fișierul de intrare sunt din intervalul [2, 999999999]
+
+Exemplu
+Input: 2 3 4 5 6 7 8 9 10
+Output: 6

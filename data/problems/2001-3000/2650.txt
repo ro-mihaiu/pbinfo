@@ -1,0 +1,24 @@
+#2650
+books
+
+Cerința
+Ajutați-l pe Căldărușe! Spuneți-i voi numărul de cărți pe care le va pune în ghiozdan în timpul fiecărui pas.
+
+Restricții
+1 ≤ \( {a}_{1},{a}_{2},…,{a}_{n},{b}_{1},{b}_{2},…,{b}_{n} \) ≤ n ≤ 200.000 ;
+Numerele \( {a}_{1},{a}_{2},…,{a}_{n} \) sunt distincte între ele;
+Numerele \( {b}_{1},{b}_{2},…,{b}_{n} \) sunt distincte între ele.
+
+Exemplu
+Input: 3
+1 2 3
+2 1 3
+Output: 2 0 1
+Input: 5
+3 1 4 2 5
+4 5 1 3 2
+Output: 3 2 0 0 0
+Input: 6
+6 5 4 3 2 1
+6 5 3 4 2 1
+Output: 1 1 2 0 1 1

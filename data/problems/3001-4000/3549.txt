@@ -1,0 +1,14 @@
+#3549
+eval_exp2
+
+Cerința
+Se consideră o expresie formată din numere naturale, paranteze rotunde și operatorii + , - , * .
+
+Restricții
+Lungimea expresiei va fi de cel mult 50 de caractere
+Rezultatul final precum și rezultatele intermediare se vor încadra în tipul de date long long .
+Expresia este corectă și nu conține alte caractere în afară de cifre și simbolurile + , - , * , ( , ) .
+
+Exemplu
+Input: 2340-(10+21)*12
+Output: 1968

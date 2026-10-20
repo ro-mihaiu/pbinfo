@@ -1,0 +1,14 @@
+#2580
+setbit0
+
+Cerința
+Se dau: n un număr întreg și b un număr natural. Setați la 0 bitul b al lui n .
+
+Restricții
+prima valoare citită se poate memora pe 64 de biți cu semn
+0 ≤ b ≤ 63
+valorile celorlalți biți rămân nemodificate
+
+Exemplu
+Input: 5 0
+Output: 4

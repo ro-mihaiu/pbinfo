@@ -1,0 +1,14 @@
+#3295
+permeuler
+
+Cerința
+Indicatorul lui Euler, φ(n) – câteodată numit funcția phi , e folosit pentru a determina câte numere pozitive mai mici decât n care sunt relativ prime cu n există. De exemplu, cum 1 , 2 , 4 , 5 , 7 și 8 sunt toate mai mici decât 9 și sunt relativ prime la 9 , φ(9)=6 . Numărul 1 e considerat a fi relativ prim cu toate numerele naturale, deci φ(1)=1 . În mod interesant, φ(87109)=79180 , și se poate observa că 87109 e o permutare a lui 79180 .
+Se consideră un șir de cel mult 10000 de numere naturale distincte mai mici decât 10.000.000 . Să se scrie un program care găsește valoarea lui n , pentru care φ(n) e o permutare a lui n și fracția n/φ(n) are valoare minimă. Dacă sunt mai multe valori cu aceeași proprietate atunci se scrie prima valoare din șir. Dacă nu sunt valori cu proprietatea menționată se va scrie valoarea 0 .
+
+Restricții
+în fișier sunt cel mult 10000 de numere
+numerele de pe prima linie a fișierului de intrare vor fi mai mici decât 10.000.000
+
+Exemplu
+Input: 1000 345 21 34567 5678 63 345678 1234
+Output: 21

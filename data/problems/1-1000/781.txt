@@ -1,0 +1,23 @@
+#781
+zone1
+
+Cerința
+Se dă o matrice cu n linii şi n coloane şi elemente numere naturale. Cele două diagonale delimitează în matrice 4 zone:
+NORD – elementele situate deasupra diagonalei principale şi deasupra celei secundare
+EST – elementele situate deasupra diagonalei principale şi sub cea secundară
+SUD – elementele situate sub diagonala principală şi sub cea secundară
+VEST – elementele situate sub diagonala principală şi deasupra celei secundare
+Să se afişeze, în ordine crescătoare, sumele elementelor din cele patru zone.
+
+Restricții
+1 ≤ n ≤ 100
+elementele matricei vor fi mai mici decât 1.000
+
+Exemplu
+Input: 5
+3 1 8 5 4 
+7 8 5 1 2 
+2 2 6 7 3 
+9 8 1 3 6 
+7 5 3 1 7
+Output: 10 18 19 20

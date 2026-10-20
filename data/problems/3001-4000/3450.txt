@@ -1,0 +1,22 @@
+#3450
+gegik
+
+Cerința
+Se dă un graf orientat cu n vârfuri și m arce prin lista arcelor și un număr natural k . Afișați vârfurile din graf care au suma gradelor (interior și exterior) egală cu k .
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 7 10 3
+1 2
+1 3
+1 4
+1 5
+2 5
+5 1
+3 4
+4 3
+4 6
+4 7
+Output: 3 5

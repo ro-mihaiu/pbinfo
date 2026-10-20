@@ -1,0 +1,22 @@
+#143
+permutari3
+
+Cerința
+Dacă D este pozitiv trebuie să determinăm a D -a permutare care succede lexicografic P iar dacă D este negativ, a D -a permutare care precede lexicografic P .
+
+Restricții
+3 ≤ N ≤ 15
+1 ≤ Q ≤ 10000
+valorile D indică o permutare validă;
+șirul a1, a2, ..., an precede lexicografic șirul b1, b2, ..., bn dacă există o poziție k așa încât ak < bk și ai = bi pentru orice i de la 1 la k-1 ;
+pentru 30% dintre teste, N<=6 ;
+pentru 20% dintre teste, se garantează că toate valorile D sunt pozitive.
+
+Exemplu
+Input: 4
+2 1 4 3
+2
+1
+-2
+Output: 2 3 1 4 
+1 4 3 2

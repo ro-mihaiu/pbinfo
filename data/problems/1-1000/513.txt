@@ -1,0 +1,19 @@
+#513
+KSort1
+
+Cerința
+Se dă un șir cu n elemente, numere naturale, numerotate începând cu 1 și un număr k . Considerăm k subșiruri ale șirului, astfel:
+primul subșir este format din elementele din șir numerotate cu 1 , k+1 , 2*k+1 , …
+al doilea subșir este format din elementele din șir numerotate cu 2 , k+2 , 2*k+2 , …
+…
+al k -lea subșir este format din elementele din șir numerotate cu k , 2*k , 3*k , …
+Ordonați crescător fiecare dintre aceste subșiruri și afișați șirul obținut.
+
+Restricții
+1 ≤ k < n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 11 3
+7 5 4 3 1 6 8 9 11 10 2
+Output: 3 1 4 7 2 6 8 5 11 10 9

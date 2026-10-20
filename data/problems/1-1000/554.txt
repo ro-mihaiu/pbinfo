@@ -1,0 +1,22 @@
+#554
+Marte
+
+Cerința
+Pe planeta Marte banii sunt altfel decât la noi. Există n tipuri de monede și pentru fiecare se cunoaște valoarea v[i] , exprimată în lei marțieni. De asemenea, există m marțieni, numerotați de la 1 la m și fiecare are un anumit număr de monede din fiecare tip. Să se determine care dintre marțieni este cel mai bogat, adică acel marțian care are număr total de lei marțieni maxim. Dacă există mai mulți cei mai bogați marțieni, se va determina marțianul cu numărul de ordine cel mai mic.
+
+Restricții
+1 ≤ n ≤ 50
+1 ≤ v[i] ≤ 5000
+1 ≤ m ≤ 1000
+fiecare marțian are cel mult 200 monede din fiecare tip – controlul averii este foarte strict pe planeta Marte
+
+Exemplu
+Input: 2
+2 5
+5
+3 2 
+6 1 
+5 2 
+0 2 
+1 3
+Output: 3

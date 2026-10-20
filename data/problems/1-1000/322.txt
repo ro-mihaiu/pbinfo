@@ -1,0 +1,16 @@
+#322
+PartitiiNumar2
+
+Cerința
+Se dă un număr natural n şi un număr m . Determinaţi, în ordine lexicografică, toate modalităţile de a-l scrie pe n ca sumă de cel puţin m numere naturale distincte.
+
+Restricții
+1 ≤ m < n ≤ 40
+
+Exemplu
+Input: 10 3
+Output: 1 2 3 4 
+1 2 7 
+1 3 6 
+1 4 5 
+2 3 5

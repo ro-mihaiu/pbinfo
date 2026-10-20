@@ -1,0 +1,16 @@
+#2325
+prim003
+
+Cerința
+Anul 2017 tocmai s-a încheiat, suntem trişti deoarece era număr prim, însă avem şi o veste bună, anul 2018 este produs de două numere prime, 2 şi 1009 . Dorel, un adevărat colecţionar de numere prime, şi-a pus întrebarea: “Câte numere dintr-un interval [a,b] se pot scrie ca produs de două numere prime? “.
+
+Restricții
+1 ≤ t ≤ 100.000
+1 ≤ a ≤ b ≤ 1.000.000
+
+Exemplu
+Input: 3
+1 7
+10 30
+88 100
+Output: 2 7 4

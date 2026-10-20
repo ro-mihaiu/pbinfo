@@ -1,0 +1,41 @@
+#1974
+TrumpLandia
+
+Cerința
+După o confruntare eroică, Trump a fost ales democratic președintele unei republici prospere, TrumpLandia . Natural, prima sa prioritate e să construiască o rețea de buncăre, pentru a veni în întâmpinarea unui atac al vecinilor imperaliști. N buncăre au fost deja construite. Trump trebuie să aleagă între M posibile rute bidirecționale pentru a le conecta. Un plan de conectare este alcătuit dintr-un subset minim de astfel de legături, astfel încât din fiecare locație să se poată ajunge în orice altă locație. Costul unui plan este dat de suma distanțelor legăturilor.
+Deoarece rutele sunt vulnerabile la bombardamente aeriene, Trump vă cere să estimați un plan de cost minim. În plus, Trump vă cere să calculați Q soluții de rezervă, pentru situația în care una dintre cele M legături este sigur inclusă în plan.
+
+Restricții
+1 ≤ N ≤ 200.000 (pentru 30% din teste N ≤ 1000 )
+N-1 ≤ M ≤ 200.000 (pentru 30% din teste M ≤ 1000 )
+1 ≤ Q ≤ 300.000 (pentru 30% din teste Q ≤ 1000 )
+distanța asociată unei rute este o valoare întreagă din intervalul [1, 1.000.000.000] .
+ATENȚIE !!! Între oricare două buncăre pot exista MAI MULTE rute de distanțe diferite sau nu. Exemplu: (1 2 4) și (1 2 6) sunt două muchii între buncărele 1 și 2 de distanțe 4 , respectiv 6 .
+
+Exemplu
+Input: 6 8 8
+1 2 4
+4 1 6
+3 1 2
+2 3 3
+5 2 4
+3 4 3
+4 5 5
+5 6 1
+1
+2
+3
+4
+5
+6
+7
+8
+Output: 13
+14
+16
+13
+13
+13
+13
+14
+13

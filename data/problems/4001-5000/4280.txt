@@ -1,0 +1,16 @@
+#4280
+MaxDivK
+
+Cerința
+Se citesc de la tastatură numerele n k , apoi un șir de n numere naturale. Să se determine cel mai mare număr din șir care se divide cu k .
+
+Restricții
+n ≤ 50
+numerele citite vor fi mai mici decât 10000
+k > 0
+dacă șirul nu conține niciun număr divizibil cu k , se va afișa mesajul NU EXISTA
+
+Exemplu
+Input: 4 3
+104 63 24 5
+Output: 63

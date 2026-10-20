@@ -1,0 +1,13 @@
+#62
+factorizare
+
+Cerința
+Se citeşte un număr natural n . Să se afişeze descompunerea în factori primi a lui n .
+
+Restricții
+1 < n < 2.100.000.000
+
+Exemplu
+Input: 135
+Output: 3 3
+5 1

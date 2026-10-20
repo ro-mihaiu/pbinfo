@@ -1,0 +1,13 @@
+#3497
+ProgresieGeom
+
+Cerința
+Se dă o progresie geometrică cu primul termen x , cu rația egală cu \(\left[ a \over b \right] \), unde [p] reprezintă partea întreagă a numărului real p . Afișați al n -lea termen.
+
+Restricții
+x, a, b au maximum 10.000 de cifre
+n este cel mult 10.000
+
+Exemplu
+Input: 1 5 2 11
+Output: 1024

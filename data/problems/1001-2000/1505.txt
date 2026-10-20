@@ -1,0 +1,12 @@
+#1505
+B210
+
+Cerința
+Scrieţi un program care citeşte numărul natural nenul n şi care determină cel mai mare număr natural m , scris în baza 10 , care poate fi obţinut prin una sau mai multe permutări circulare ale scrierii în baza 2 a numărului natural n .
+
+Restricții
+0 < n ≤ 1.000.000.000
+
+Exemplu
+Input: 13
+Output: 14

@@ -1,0 +1,19 @@
+#2162
+Conturi
+
+Cerința
+Cunoscând numărul total de conturi deschise şi codurile corespunzătoare acestora să se determine suma maximă pe care o are o persoană de gen masculin într-un cont aflat la banca X .
+
+Restricții
+1 ≤ N ≤ 100
+1 ≤ X ≤ 9
+Pentru datele de test se garantează că există cel puţin un cont la banca X aparţinând unei persoane de gen masculin.
+
+Exemplu
+Input: 5 2
+213400
+515000
+229088
+326909
+217044
+Output: 7044

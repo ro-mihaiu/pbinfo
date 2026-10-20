@@ -1,0 +1,28 @@
+#2434
+tnia
+
+Cerința
+Să se răspundă la q întrebări de forma: dându-se numerele A, B, C, D se cere suma elementelor din submatricea determinată de zona dreptunghiulară având colțul stânga-jos în coloana A și linia B , iar colțul dreapta-sus în coloana C și linia D .
+
+Restricții
+0 ≤ h[i] ≤ m , 1 ≤ n ≤ 100 000
+1 ≤ q ≤ 100 000 , 1 ≤ m ≤ 1 000 000 000
+Pentru 15 puncte: n, m, q ≤ 100
+Pentru alte 16 puncte: n, m, q ≤ 3000
+Pentru alte 16 puncte: n ≤ 100 000 , m ≤ 1000 000 000 , q ≤ 100
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă pentru testul din exemplu.
+
+Exemplu
+Input: 5 10 
+2 3 7 8 10 
+5 
+1 1 5 10 
+2 5 4 7 
+3 2 3 6 
+3 8 3 10 
+3 2 3 10
+Output: 30
+6 
+5 
+0 
+6

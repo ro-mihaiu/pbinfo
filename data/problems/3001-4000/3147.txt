@@ -1,0 +1,17 @@
+#3147
+FeteGraf
+
+Cerința
+Se dă lista de muchii ale unui graf neorientat, conex, planar. Determinați numărul de fețe ale acestuia dacă este desenat astfel încât 2 muchii nu se intersectează.
+O față este o regiune înconjurată de muchii.
+
+Restricții
+Ca și față, este considerată și regiunea exterioară, infinit de mare, a grafului.
+Numărul de muchii va fi mai mic decât 1.000.000 .
+
+Exemplu
+Input: 1 2
+2 3
+3 4
+4 1
+Output: 2

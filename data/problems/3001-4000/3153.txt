@@ -1,0 +1,23 @@
+#3153
+eliminaren
+
+Cerința
+Se citesc de la tastatură un cuvânt s format din litere mici distincte și un număr natural n . Să se afișeze pe ecran toate cuvintele care se pot obține din s eliminând exact n litere. Eliminarea se face începând cu literele de la sfârșitul cuvântului, iar ordinea din cuvânt a literelor nu se schimbă (vezi explicația din exemplu).
+
+Restricții
+Cuvântul s are cel mult 20 de litere
+Cuvântul s este format din litere mici distincte
+1 <= n < numărul de litere ale lui s
+
+Exemplu
+Input: dorel 2
+Output: dor
+doe
+dol
+dre
+drl
+del
+ore
+orl
+oel
+rel

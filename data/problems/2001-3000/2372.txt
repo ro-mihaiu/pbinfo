@@ -1,0 +1,10 @@
+#2372
+DivizoriXYZ
+
+Cerința
+Se citește un număr natural n . Afișați toate tripletele de numere naturale x , y , z ( 1<x<y<z<n ) care sunt divizori ai lui n și care au proprietatea că x+y+z=n .
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu

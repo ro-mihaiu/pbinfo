@@ -1,0 +1,13 @@
+#4036
+kdivnn
+
+Cerința
+Se dau n şi k numere naturale nenule. Determinaţi cel mai mare număr natural de cel mult k cifre care divide pe n n .
+
+Restricții
+2 ≤ n ≤ 10.000.000
+1 ≤ k ≤ 12
+
+Exemplu
+Input: 6 3
+Output: 972

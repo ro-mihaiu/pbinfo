@@ -1,0 +1,16 @@
+#651
+SumSubMax
+
+Cerința
+Se dă vectorul de tați al unui arbore cu rădăcină cu n noduri. Fiecare nod al arborelui are asociată o valoare numerică întreagă. Determinați nodurile p din arbore pentru care suma valorilor asociate nodurilor din subarborele cu rădăcina în p este maximă.
+
+Restricții
+1 ≤ n ≤ 100
+în vectorul de tați rădăcina este marcată cu 0
+valorile asociate nodurilor din arbore sunt numere întregi din intervalul [-1000,1000]
+
+Exemplu
+Input: 8
+4 3 0 3 2 1 2 1
+-3 2 -7 4 0 3 3 1
+Output: 2 4

@@ -1,0 +1,15 @@
+#3646
+Zoom_Poza
+
+Cerința
+În orașul Detroit s-a produs o spargere la un magazin de bijuterii. Infractorii au fugit de la locul faptei, iar polițiștii au reusit să facă rost doar de o poză neclară cu infractorii.
+Cu ajutorul inteligenței artificiale reușesc să mărească acea imagine pentru a găsi niște detalii pentru a-i ajuta la rezolvarea cazului. Fii de partea binelui și ajută-i pe polițiști să rezolve acest caz!
+Poza este reprezentată printr-o matrice cu n linii și m coloane, alcătuită din numere naturale. Polițiștii te roagă să-i ajuți, răspunzând la următoarele întrebări:
+1) Dându-se o matrice reprezentând poza și un coeficient de mărire z , construiește o altă matrice care să reprezinte poza mărită de z ori. 2) Dându-se o matrice reprezentând poza, coeficientul de mărire z și un șir perechi de coordonate din poza mărită, determină pentru fiecare pereche de coordonate valoarea din poza mărită.
+
+Restricții
+Pentru c=1 : 1 ≤ n ≤ m ≤ 70 1 ≤ a[i][j] ≤ 100.000 1 ≤ z ≤ 10 Pentru teste în valoare de 40 de puncte, c=1 .
+Pentru c=2 : Pentru 20 de puncte: 1 ≤ n ≤ m ≤ 70 1 ≤ a[i][j] ≤ 100.000 1 ≤ z ≤ 10 1 ≤ k ≤ 1000 1 ≤ l1 ≤ c1 ≤ 2500 Pentru 60 de puncte: 1 ≤ n ≤ m ≤ 50 1 ≤ a[i][j] ≤ 9•10 18 1 ≤ z ≤ 9•10 14 1 ≤ k ≤ 1.000 1 ≤ l1 ≤ c1 ≤ 9•10 18
+Se recomandă evitarea rezolvării din afișare!
+
+Exemplu

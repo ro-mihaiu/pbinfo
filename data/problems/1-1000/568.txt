@@ -1,0 +1,19 @@
+#568
+pod
+
+Cerința
+Pentru traversarea unui râu se folosește un pod, alcătuit din n*m sectoare, dispuse pe n linii și m coloane. Datorită vechimii, fiecare sector al podului are un factor de siguranță cunoscut, exprimat printr-un număr natural, care scade cu o unitate de fiecare dată când o persoană pășește pe acel sector. Sectoarele cu factorul de siguranță nul nu sunt accesibile.
+Traversarea podului constă în parcurgerea unei anumite coloane de la prima linie spre ultima. Nu este posibilă, din motive de siguranță, schimbarea coloanei în timpul traversării.
+Administratorul podului, Gigel, vă cere să determinați numărul de persoane care vor putea traversa podul până la degradarea lui totală, pentru a argumenta cererea de finanțare pentru refacerea acestuia.
+
+Restricții
+1 ≤ n, m ≤ 1000
+pentru fiecare sector, factorul de siguranță este cel mult 10000
+
+Exemplu
+Input: 4 5
+5 3 6 2 1
+4 4 0 4 3
+6 2 2 3 4
+3 4 4 5 1
+Output: 8

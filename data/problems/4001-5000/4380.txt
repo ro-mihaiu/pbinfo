@@ -1,0 +1,14 @@
+#4380
+NumararePerechi1
+
+Cerința
+Se dă un vector cu n numere naturale. Să se determine câte dintre perechile de elemente din vector au aceeași cifră zecilor.
+
+Restricții
+1 ≤ n ≤ 200
+elementele vectorului vor fi cuprinse între 10 și 1000000
+
+Exemplu
+Input: 6
+145 207 56 1248 1001 249
+Output: 4

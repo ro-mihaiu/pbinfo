@@ -1,0 +1,16 @@
+#1154
+CautareDivImp
+
+Cerința
+Se dă un vector x cu n elemente numere naturale, și un vector y cu m elemente, de asemenea numere naturale. Folosind metoda Divide et Impera , verificați pentru fiecare element al vectorului y dacă apare în x .
+
+Restricții
+1 ≤ n,m ≤ 1000
+elementele celor doi vectori vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 7
+9 6 5 14 2 1 10 
+8
+8 14 9 14 16 15 4 2
+Output: 0 1 1 1 0 0 0 1

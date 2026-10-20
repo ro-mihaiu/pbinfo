@@ -1,0 +1,33 @@
+#1108
+Traseu
+
+Cerința
+Se cere să se determine: a) numărul de camere prin care trece cel mai scurt traseu al șoricelului de la camera lui la camera cu alimente (inclusiv camera lui şi camera cu alimente); b) etichetele camerelor prin care trece traseul determinat la punctul a).
+
+Restricții
+2 ≤ N ≤ 100 ; 1 ≤ M ≤ 5000 și M < N*N-2
+Șoricelul nu intră decât în camere neocupate de clienți.
+Camera șoricelului este o cameră neocupată de clienți.
+Dacă există mai multe trasee ale șoricelului de la camera lui la camera de alimente care trec prin exact T camere, atunci traseul afișat va fi cel mai mic traseu din punct de vedere lexicografic.
+Eticheta (X1 Y1 Z1) se consideră strict mai mică în sens lexicografic ca eticheta (X2 Y2 Z2) dacă este satisfăcută doar una dintre condițiile: X1 < X2 X1 = X2 și Y1 < Y2 X1 = X2 și Y1 = Y2 și Z1 < Z2
+Eticheta X1 Y1 Z1 se consideră egală cu eticheta X2 Y2 Z2 dacă X1 = X2 și Y1 = Y2 și Z1 = Z2 . Vom scrie egalitatea lor astfel: (X1 Y1 Z1) = (X2 Y2 Z2) .
+Traseul ce trece (în această ordine) prin camerele cu etichetele (X1 Y1 Z1) , (X2 Y2 Z2) ,…, (XT YT ZT) este mai mic din punct de vedere lexicografic ca traseul (A1 B1 C1) , (A2 B2 C2) ,…, (AT BT CT) dacă există un indice J ( 1≤J≤T ) astfel încât (X1 Y1 Z1) = (A1 B1 C1) , (X2 Y2 Z2) = (A2 B2 C2) …., (XJ-1 YJ-1 ZJ-1) = (AJ-1 BJ-1 CJ-1) iar eticheta (XJ YJ ZJ) este strict mai mică ca eticheta (AJ BJ CJ) .
+Se acordă: 40% din punctaj pentru determinarea corectă a numărului T și 100% din punctaj pentru rezolvarea corectă a ambelor cerințe.
+Se garantează că există soluție pentru ambele cerințe, pentru toate datele de test.
+
+Exemplu
+Input: 3 4
+1 1 1
+3 3 3
+3 3 1
+2 1 1
+3 1 1
+3 1 3
+Output: 7
+1 1 1
+1 1 2
+1 1 3
+1 2 3
+1 3 3
+2 3 3
+3 3 3

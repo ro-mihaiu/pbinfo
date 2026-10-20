@@ -1,0 +1,12 @@
+#4506
+SumProd1
+
+Cerința
+Se dau trei numere întregi a b c . Să se determine cea mai mare valoare care se poate obține prin înmulțirea a două dintre numere și adunarea rezultatului cu al treilea.
+
+Restricții
+-1000 ≤ a,b,c ≤ 1000
+
+Exemplu
+Input: -3 2 4
+Output: 5

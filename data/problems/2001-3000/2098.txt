@@ -1,0 +1,14 @@
+#2098
+Meteo
+
+Cerința
+Scrieţi un program care, pe baza temperaturilor înregistrate pe parcursul a N zile consecutive, determină o succesiune de zile consecutive având lungime maximă pentru care temperaturile înregistrate au alternat ca semn. Dacă există mai multe astfel de secvenţe, meteorologii sunt interesaţi de cea mai recentă. Dacă nu există măcar două zile consecutive cu temperaturi alternante ca semn, ei vor înregistra rezultatul 0 .
+
+Restricții
+• 3 < N ≤ 1000; • Temperaturile maxime zilnice sunt numere întregi ce aparţin intervalului [-50,50] . • Temperatura de 0 grade va fi considerată pozitivă.
+
+Exemplu
+Input: 16
+1 -5 -3 2 -1 7 -2 5 1 7 -9 0 -1 6 -1 -8
+Output: 6
+7 -9 0 -1 6 -1

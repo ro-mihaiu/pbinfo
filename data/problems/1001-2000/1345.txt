@@ -1,0 +1,13 @@
+#1345
+kprim
+
+Cerința
+Să se scrie un program care citește un număr natural k și afișează cel mai mic număr natural n mai mare decât 1 , care nu este divizibil cu primele k numere prime și nu este prim.
+Fișierul de intrare kprim.in conține pe prima linie numărul k .
+
+Restricții
+1 ≤ k ≤ 10000
+
+Exemplu
+Input: 3
+Output: 49

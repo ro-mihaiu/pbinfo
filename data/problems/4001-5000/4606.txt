@@ -1,0 +1,25 @@
+#4606
+trafalet
+
+Cerința
+Cum David nu a reușit până acum să combine zugrăvitul și programarea, vă roagă pe voi să îl ajutați să obțină punctajul maxim!
+
+Restricții
+1 ≤ N, M ≤ 500
+Valorile din celulele matricei A sunt numere naturale mai mici decât 1.000.000.000
+Pentru 40 de puncte, N, M ≤ 50
+Pentru 28 de puncte, N, M ≤ 150
+Pentru 32 de puncte, fără restricții suplimentare.
+
+Exemplu
+Input: 3 3
+1 2 1
+3 5 2
+1 2 4
+Output: 5
+Input: 4 5
+6 2 8 1 5
+4 9 7 3 2
+1 5 3 6 8
+7 3 2 9 4
+Output: 19

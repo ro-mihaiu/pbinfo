@@ -1,0 +1,15 @@
+#2417
+criptare1
+
+Cerința
+Fiind date un cuvânt cheie şi un mesaj criptat, decodificaţi mesajul trimis de Mircea pentru Vasilică.
+
+Restricții
+lungimea mesajului este de minim 20 si maximum 1000 caractere
+cuvântul cheie are minimum 5 şi maximum 20 de caractere
+cuvântul cheie conţine numai litere mici ale alfabetului
+
+Exemplu
+Input: clcrr.Imc**pcsaoiaauuii*eamd*rn*rcstr**uci
+criptam
+Output: Incercam sa lucram cu coduri si criptari.

@@ -1,0 +1,13 @@
+#176
+picioare1
+
+Cerința
+Într-o curte sunt găini și oi. Se cunoaște numărul de capete și numărul de picioare din curte. Să se determine numărul de găini și numărul de oi.
+
+Restricții
+0 < C , P < 1.000.000.000
+pentru toate datele de test folosite există soluție
+
+Exemplu
+Input: 5 14
+Output: 3 2

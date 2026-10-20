@@ -1,0 +1,18 @@
+#2813
+Note
+
+Cerința
+Se consideră un text cu cel mult 100 de caractere, în care cuvintele sunt formate din litere mari ale alfabetului englez și sunt separate prin câte un spațiu.
+Scrieți un program care citește de la tastatură un text de tipul menționat mai sus și afișează pe ecran, pe câte un rând, cuvintele care cuprind cel puțin o notă muzicală. Dacă nu există astfel de cuvinte, se afișează pe ecran mesajul nu exista .
+
+Restricții
+cuvintele vor fi afișate în ordinea din text
+notele muzicale sunt DO , RE , MI , FA , SOL , LA , SI .
+
+Exemplu
+Input: REMI DOMINO SI KHANHOO SUNT DENUMIRI DE JOCURI CE AU ASPECTE SIMILARE
+Output: REMI
+DOMINO
+SI
+DENUMIRI
+SIMILARE

@@ -1,0 +1,19 @@
+#430
+Izolate
+
+Cerința
+Se dă lista muchiilor unui graf neorientat. Să se afișeze vârfurile izolate ale grafului.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ i , j ≤ n
+muchiile se pot repeta în fișierul de intrare
+
+Exemplu
+Input: 6
+1 4
+3 6
+4 3
+1 6
+6 4
+Output: 2 2 5

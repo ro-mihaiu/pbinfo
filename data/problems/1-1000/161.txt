@@ -1,0 +1,15 @@
+#161
+inlocuire
+
+Cerința
+Se dă un vector cu n elemente, numere naturale. Să se înlocuiască toate elementele nule din vector cu partea întreagă a mediei aritmetice a elementelor nenule din vector.
+
+Restricții
+1 ≤ n ≤ 200
+elementele vectorului vor fi mai mici decât 1000
+vectorul va conține cel puțin un element nenul
+
+Exemplu
+Input: 5
+0 2 0 4 5
+Output: 3 2 3 4 5

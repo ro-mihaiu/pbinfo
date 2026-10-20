@@ -1,0 +1,12 @@
+#2240
+animale
+
+Cerința
+Într-o curte sunt câini, pisici și găini. Se știe că numărul de pisici este egal cu dublul numărului de câini, iar numărul de găini este egal cu dublul numărului de pisici. Dacă în curte sunt C câini, câte animale sunt în curte?
+
+Restricții
+2 ≤ C ≤ 1000
+
+Exemplu
+Input: 3
+Output: 21

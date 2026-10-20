@@ -1,0 +1,14 @@
+#4316
+Cifre18
+
+Cerința
+Să se scrie un program care citește un număr natural n și o valoare nenulă k , cel mult egală cu numărul de cifre ale lui n . Să se mărească a k cifră din n cu 1 dacă este mai mică decât 9 și să se înlocuiască cu 0 în caz contrar.
+
+Restricții
+n ≤ 2.000.000.000
+
+Exemplu
+Input: 31615 4
+Output: 31625
+Input: 32695 4
+Output: 32605

@@ -1,0 +1,13 @@
+#45
+verifprim
+
+Cerința
+Să se scrie un program care citește de la tastatură un număr natural n și verifică dacă este prim.
+
+Restricții
+0 ≤ n ≤ 1.000.000.000
+un număr natural este prim dacă are exact doi divizori distincți: 1 și el însuși.
+
+Exemplu
+Input: 17
+Output: DA

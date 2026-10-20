@@ -1,0 +1,14 @@
+#2697
+Divizori impari
+
+Cerința
+Se dă un șir de n numere naturale nenule. Determinați pentru fiecare număr din șir care este cel mai mare divizor impar al său.
+
+Restricții
+1 ≤ n ≤ 10.000
+cele n numere citite vor avea cel mult 16 cifre și vor fi strict pozitive.
+
+Exemplu
+Input: 5
+88 25 14 1 6
+Output: 11 25 7 1 3

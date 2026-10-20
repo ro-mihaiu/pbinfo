@@ -1,0 +1,24 @@
+#3988
+permnk
+
+Cerința
+Se dau numerele naturale n si k . Sa se genereze in ordine lexicografică toate permutările mulțimii {1,2,...,n} cu proprietatea că diferența în modul dintre oricare două numere alăturate din permutare este de cel mult k .
+
+Restricții
+1 ≤ k ≤ n ≤ 9
+
+Exemplu
+Input: 4
+2
+Output: 1 2 3 4
+1 2 4 3
+1 3 2 4
+1 3 4 2
+2 1 3 4
+2 4 3 1
+3 1 2 4
+3 4 2 1
+4 2 1 3
+4 2 3 1
+4 3 1 2
+4 3 2 1

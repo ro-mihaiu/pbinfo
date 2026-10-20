@@ -1,0 +1,13 @@
+#946
+douabaze
+
+Cerința
+Se dă un număr n scris în baza 2 . Să se afișeze valoarea acestuia în baza 4 .
+
+Restricții
+n are cel mult 100 de cifre în baza 2 ;
+rezolvarea acestei probleme necesită utilizarea tablourilor sau a altor forme de memorare a unui număr variabil de valori.
+
+Exemplu
+Input: 100011
+Output: 203

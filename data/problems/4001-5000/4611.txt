@@ -1,0 +1,26 @@
+#4611
+birocratie2
+
+Cerința
+Cunoscând planul birourilor și valorile B(i, j) pentru 1 ≤ i, j ≤ N care îl așteaptă pe Boris în fiecare birou, ajutați-l să calculeze câștigul maxim pe care îl poate avea la ieșirea din clădire.
+
+Restricții
+5 ≤ N ≤ 1000
+-1000 ≤ B(i,j) ≤ 1000 pentru 1 ≤ i, j ≤ N
+Pentru 12 puncte, B are toate elementele pozitive, N ≤ 300
+Pentru 12 puncte, B are toate elementele egale și negative, N ≤ 300
+Pentru 15 puncte, Pe fiecare diagonală paralelă cu diagonala secundară elementele din B sunt egale, N ≤ 300
+Pentru 13 puncte, Elementele de pe chenarul lui B sunt negative, iar celelalte elemente sunt pozitive, N ≤ 300
+Pentru 13 puncte, Toate elementele din B sunt egale în valoare absolută (modul), elementele de pe chenar sunt pozitive, iar celelalte elemente sunt negative, N ≤ 300
+Pentru 16 puncte, N ≤ 300
+Pentru 19 puncte, Fără restricții suplimentare.
+Mai sus prin chenarul lui B ne referim la elementele care se află pe prima/ultima linie și prima/ultima coloană.
+
+Exemplu
+Input: 5
+1 2 5 8 2
+1 3 -10 2 1
+0 9 1 -7 3
+-2 3 4 -1 2
+3 -4 2 3 1
+Output: 42

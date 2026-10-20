@@ -1,0 +1,16 @@
+#1028
+Ferma
+
+Cerința
+Dându-se dimensiunile fermei și pentru fiecare celulă culoarea corespunzătoare culturii semănate, determinați:
+Cerința 1: Suprafața maximă a unei parcele în planul inițial.
+Cerința 2: Numărul liniei, respectiv al coloanei celulei pe care va semăna o altă cultură și culoarea corespunzătoare noii culturi în vederea obţinerii celei mai mari parcele posibile.
+
+Restricții
+2 ≤ m ≤ 400
+2 ≤ n ≤ 400
+Numărul de culturi distincte este cel puţin 2 şi cel mult 26 .
+30% din teste vor avea pe prima linie valoarea 1 , iar restul de 70% din teste vor avea pe prima linie valoarea 2 .
+Pentru varianta 2 se punctează orice soluție care conduce la obținerea unei parcele cu suprafața maximă. Nu se acordă punctaje parțiale.
+
+Exemplu

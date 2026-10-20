@@ -1,0 +1,22 @@
+#1953
+tabel1
+
+Cerința
+Marius se pregătește pentru olimpiada de informatică. Astăzi, profesoara lui i-a predat șirurile de caractere. După școală și-a lăsat caietul de informatică pe birou, și frățiorul lui, pus pe șotii, a deschis caietul la ultima lecție și a văzut scris mare: TABEL ASCII . Pentru că îi place să scrie, s-a gândit să modifice puțin numerele din tabel. Așa că a șters unele din ele, scriind altele în loc. Marius nu a observat acest lucru și a început să rezolve problemele date de doamna profesoară. Are nevoie de ajutor, de aceea te roagă să îl ajuți să rezolve următoarea problemă, folosind tabelul ascii din caietul său: “Se dă un șir de caractere format din cifre și litere mari și mici ale alfabetului englez. Afișați suma valorilor tuturor literelor (valoarea unei litere se află în tabelul Ascii) și cel mai mare număr vale-deal care se poate forma cu cifrele care apar în șir. Un număr vale-deal are cifre distincte și cifrele din prima jumătate sunt în ordine descrescătoare, iar dele din a doua jumătate în ordine crescătoare. Exemplu : 98367 e număr vale-deal, 998367 nu e număr vale-deal, 987 nu e număr vale-deal.”
+Cunoscând șirul format din cifre zecimale, litere mici și litere mari ale alfabetului englez, respectiv numerele modificate de fratele lui Marius, scrieți un program care să determine:
+a) suma codurilor ASCII ale literelor din sir (folosind tabelul din caietul lui Marius); b) cel mai mare număr vale-deal care are cifre ce apar în șir.
+
+Restricții
+Şirul dat este format din cel mult 1000000 de litere şi cifre
+Fratele lui Marius scrie numere naturale distincte nenule mai mici decât 65
+0 <= n <= 50
+
+Exemplu
+Input: 4
+a 1
+b 2
+e 3
+l 4
+tabel1234apa543216
+Output: 240
+654123

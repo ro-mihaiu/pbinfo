@@ -1,0 +1,9 @@
+#4170
+FLsiDesc
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+void FLsiDesc(Nod *head);
+Lista are cel puțin un nod și are adresa primului element memorată în pointerul head . Informațiile memorate în noduri sunt ordonate strict descrescător. Funcția inserează noduri astfel încât în final lista va memora în ordine descrescătoare toate numerele de la n la 1 , unde n este valoarea memorată inițial în primul nod al listei. De exemplu, dacă lista conține inițial informațiile 7,4,3 , atunci la final lista va fi: 7,6,5,4,3,2,1 . Dacă lista conține inițial doar informația 3 , atunci la final lista va fi 3,2,1 . Dacă lista conține inițial 2,1 , atunci la final lista va fi 2,1 . Atenție, doar inserați nodurile care lipsesc, nu efectuați alte operații.
+
+Exemplu

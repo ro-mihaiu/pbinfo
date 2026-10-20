@@ -1,0 +1,15 @@
+#1636
+Cifre15
+
+Cerința
+Alin este un elev pasionat de înmulțirea numerelor. Știe că produsul a două sau mai multe numere naturale poate avea ultima cifră 0 .
+Se dau n numere naturale nenule. Ajutați-l pe Alin să determine: a. numărul de cifre 0 de la sfârşitul produsului celor n numere; b. care este ultima cifră nenulă a acestui produs.
+
+Restricții
+1 ≤ n ≤ 100
+numerele de pe a doua linie a fișierului de intrare au cel mult 9 cifre.
+
+Exemplu
+Input: 3 
+50 12 18
+Output: 2 8

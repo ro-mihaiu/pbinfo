@@ -1,0 +1,12 @@
+#3071
+densitate
+
+Cerința
+O eprubetă plină cu apă cântărește a grame. În eprubetă se scufundă o monedă de b grame. În noua stare, eprubeta cântărește c grame. Să se determine densitatea metalului din care e confecționată moneda.
+
+Restricții
+cele trei numere citite sunt numere reale
+
+Exemplu
+Input: 50 12 60.5
+Output: 8

@@ -1,0 +1,21 @@
+#2863
+pyk
+
+Cerința
+Scrieți un program care să citească numerele \( k, n, x_1, x_2, x_3, …, x_n \) și care să determine:
+1. cel mai mic și cel mai mare număr din șirul X ce sunt formate doar din cifre identice;
+2. descompunerea în factori primi a celui mai mic număr natural y ( y ≥ 2 ) cu proprietatea că numărul \( P = y\times x_1\times x_2 \times x_3 \times … \times x_n \) este o “k-putere” .
+
+Restricții
+2 ≤ n ≤ 50.000
+2 ≤ k ≤ 100
+2 ≤ \( x_1, x_2, x_3, …, x_n \) ≤ 10.000
+2 ≤ y
+pentru rezolvarea corectă a cerinței 1 se acordă 10 puncte;
+pentru rezolvarea corectă a cerinței 2 se acordă 90 puncte.
+
+Exemplu
+Input: 1
+2 7
+122 1111 5 4 88 123 999
+Output: 4 1111

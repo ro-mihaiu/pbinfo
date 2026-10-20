@@ -1,0 +1,28 @@
+#1559
+minge
+
+Cerința
+Cunoscându-se numerele N , K și cele K perechi de numere corespunzătoare celor K aruncări să se determine: 1) Numărul copiilor care nu ating niciodată mingea. 2) Traseul parcurs de minge plecând de la copilul care are mingea la începutul jocului, până la copilul care nu mai aruncă mingea.
+
+Restricții
+6 ≤ N ≤ 10000
+1 ≤ X,Y ≤ N
+1 ≤ K ≤ N-1
+traseul parcurs de minge este unic pentru fiecare set de date de intrare
+pentru rezolvarea corectă a primei cerințe se acordă 50% din punctaj iar pentru rezolvarea corectă a celei de-a doua cerințe se acorda 50% din punctaj
+
+Exemplu
+Input: 1
+7 4
+4 3
+2 6
+3 1
+6 4
+Output: 2
+Input: 2
+7 4
+4 3
+2 6
+3 1
+6 4
+Output: 2 6 4 3 1

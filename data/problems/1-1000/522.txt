@@ -1,0 +1,16 @@
+#522
+kSecventa1
+
+Cerința
+Se dă un vector cu n elemente, numere naturale, și un număr k . Să se stabilească dacă în vector există două secvențe de lungime k identice.
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ k ≤ 15
+cele n numere citite vor fi mai mici decât 1000
+elementele vectorului sunt indexate de la 1 la n
+
+Exemplu
+Input: 12 5
+2 3 1 1 4 3 1 1 4 3 8 8
+Output: 2 6

@@ -1,0 +1,17 @@
+#1384
+Cladire5
+
+Cerința
+Se consideră o clădire de formă dreptunghiulară formată din n*m camere, dispuse pe n linii și m coloane. Pentru a intra într-o cameră se plătește o sumă cunoscută, exprimată în lei. Intrarea în clădire este în camera de coordonate (1,m) , iar ieșirea în camera de coordonate (n,1) . Din orice cameră (i,j) se poate ajunge numai în camerele (i+1,j) sau (i,j-1) , fără a părăsi clădirea.
+Dom’ Profesor intră în clădire având asupra lui o sumă S , parcurge un șir de camere după regula precizată și iese din clădire, plătind în fiecare cameră taxa corespunzătoare. Determinați suma maximă pe care o poate avea Dom’ Profesor după ce iese din clădire.
+
+Restricții
+1 ≤ n , m ≤ 200 ;
+pentru fiecare cameră taxa este cel mult 100 .
+
+Exemplu
+Input: 3 4 20
+1 1 5 2  
+3 4 2 1
+1 1 8 2
+Output: 9

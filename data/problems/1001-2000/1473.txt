@@ -1,0 +1,20 @@
+#1473
+GrupaPregatitoare
+
+Cerința
+Cei n elevi de la grupa pregătitoare au primit câte două cartonaşe, fiecare cartonaş având scris pe el un număr natural. Ei s-au aşezat în cerc şi, la un semnal dat, fiecare a scos la întâmplare un cartonaş din buzunar. Copiii vă roagă să răspundeţi la următoarele întrebări: 1. Care poate fi suma maximă S a numerelor de pe cartonaşele scoase, ştiind că produsul acestora este divizibil cu un număr prim p ? 2. Care poate fi lungimea maximă L a unei secvenţe de copii de pe cerc pentru care suma numerelor de pe cartonaşele scoase de către oricare doi vecini din secvenţă este pară?
+
+Restricții
+3 ≤ n ≤ 2000
+2 ≤ p ≤ 1000
+numerele de pe cartonaşele elevilor sunt nenule şi mai mici decât 1001
+există cel puţin un număr divizibil cu p pe un cartonaş
+se acordă 40% din punctaj pentru prima cerinţă şi 60% pentru a doua, în fişierul grupapregatitoare.out trebuind să fie afişate două numere
+
+Exemplu
+Input: 3 7
+1 2
+21 4
+5 6
+Output: 29
+3

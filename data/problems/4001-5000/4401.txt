@@ -1,0 +1,25 @@
+#4401
+hibrid
+
+Cerința
+Să se determine: 1. numărul de ordine al porțiunii taxabile peste care se va trece de cele mai multe ori în călătorie (folosind motorul termic). Dacă există mai multe astfel de porțiuni, se va alege cea cu indicele minim, în funcție de ordinea dată în fișierul de intrare. De asemenea, în caz că nu se va trece peste nicio porțiune taxabilă, acest număr va fi egal cu −1 . 2. suma totală, exprimată în lei, care trebuie plătită pentru a parcurge traseul stabilit. În caz că nu se va trece peste nicio porțiune taxabilă, atunci această sumă va fi egală cu 0 .
+
+Restricții
+2 ≤ P ≤ 100.000 și 2 ≤ N ≤ 200.000 .
+−300 000 ≤ st[i] < dr[i] ≤ 300.000 și 1 ≤ c[i] ≤ 100.000 , pentru fiecare i : 1 ≤ i ≤ P .
+−1.000.000 ≤ x[i] ≤ 1.000.000 , pentru fiecare i : 1 ≤ i ≤ N .
+Întrucât au dimensiuni neglijabile, pot exista și două sau mai multe borne situate la aceeași coordonată pe șosea.
+Pe durata întregului traseu, motorul termic (pe benzină) este utilizat doar pentru parcurgerea porțiunilor taxabile peste care mașina hibrid trebuie să treacă. În rest, se folosește doar motorul electric, pentru a reduce poluarea.
+Datorită dimensiunilor mari ale fișierelor de test, nu s-au adăugat toate.
+
+Exemplu
+Input: 1 2 4
+4 8 10
+-10 -9 22
+-14 20 -14 0
+Output: 2
+Input: 2 2 4
+4 8 10
+-10 -9 22
+-14 20 -14 0
+Output: 86

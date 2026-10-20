@@ -1,0 +1,14 @@
+#1168
+FAdaugareLaLista
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+void adaugare(nod * & p , int x);
+care adaugă valoarea x la sfârșitul listei pentru care primul element are adresa memorată în pointerul p .
+
+Restricții
+numele funcției va fi adaugare
+dacă lista nu conține niciun element, pointerul p va avea valoarea NULL
+în toate cazurile, la ieșirea din apel p va memora adresa primului element al listei
+
+Exemplu

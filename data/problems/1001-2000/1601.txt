@@ -1,0 +1,22 @@
+#1601
+Ascensiune
+
+Cerința
+Înainte de a participa la Olimpiada Naționala de Informatică, Zoli s-a decis să se plimbe prin oraș. Orașul în care locuiește Zoli are forma unui arbore, fiecare nod reprezentând o locuință iar deplasarea între acestea se efectuează prin intermediul muchiilor.
+Zoli dorește să determine lungimea maximă dintre oricare două locuințe din orașul său.
+
+Restricții
+1 ≤ n ≤ 100.000
+Pentru 40% dintre teste, 1 ≤ n ≤ 1000
+Distanța dintre două locuințe reprezintă numărul minim de locuințe intermediare prin care se poate ajunge de la una la cealaltă, inclusiv locuințele inițiale.
+
+Exemplu
+Input: 8
+1 2
+1 3
+2 4
+2 5
+3 6
+3 7
+5 8
+Output: 6

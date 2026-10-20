@@ -1,0 +1,13 @@
+#2371
+Biliard
+
+Cerința
+Avem la dispoziție o masa de biliard dreptunghiulara. O bila pornește din colțul stânga jos al dreptunghiului sub un unghi de 45 grade față de latura de jos a dreptunghiului și lovește latura de sus sau latura din dreapta. Aici ricoșează (pornește spre o altă latură tot sub un unghi de 45 grade față de latura de care s-a lovit). Își continuă drumul până când ajunge într-un colț al dreptunghiului.
+Scrieți un program care calculează de câte ori ( nrSchimb ) mingea își schimbă direcția de mers până când se oprește într-un colț. Punctul de pornire nu se numără.
+
+Restricții
+1 ≤ a,b ≤ 10.000
+
+Exemplu
+Input: 8 3
+Output: 9

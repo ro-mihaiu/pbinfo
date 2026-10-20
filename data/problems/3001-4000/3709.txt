@@ -1,0 +1,15 @@
+#3709
+tri
+
+Cerința
+Să se determine o tri-secvența de dezechilibru minim. Dacă sunt mai multe astfel de tri-secvențe, să se determine cea care începe la o poziție cât mai mare.
+
+Restricții
+3 ≤ n ≤ 100.000
+0 ≤ valoarea unui element ≤ 1.000.000.000
+Șirul conține cel puțin 3 elemente impare
+
+Exemplu
+Input: 16
+2 3 8 7 4 2 5 10 7 9 8 11 8 2 13 6
+Output: 10 15

@@ -1,0 +1,14 @@
+#2693
+VocSortDesc
+
+Cerința
+Se dă un șir de caractere în care cuvintele sunt formate din litere mici și mari ale alfabetului englez și sunt separate prin spații. Să se afișeze cuvintele în ordine descrescătoare după numărul de vocale și să se afișeze fiecare cuvânt pe câte o linie. Dacă două cuvinte au același număr de vocale atunci ele se vor ordona descrescător după lungime, iar dacă au aceeași lungime atunci se vor ordona lexicografic.
+
+Restricții
+șirul va conține maximum 255 de caractere.
+
+Exemplu
+Input: ana are mere
+Output: mere
+ana
+are

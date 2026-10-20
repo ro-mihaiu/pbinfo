@@ -1,0 +1,23 @@
+#1630
+morisca
+
+Cerința
+Se dă un număr n . Afișați figura din exemplu.
+
+Restricții
+1 ≤ n ≤ 10
+
+Exemplu
+Input: 4
+Output: *          *
+**        **
+***      ***
+****    ****
+    ****
+    ****
+    **** 
+    ****
+****    ****
+***      ***
+**        **
+*          *

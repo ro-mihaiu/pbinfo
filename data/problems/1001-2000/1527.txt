@@ -1,0 +1,22 @@
+#1527
+zoom
+
+Cerința
+Se dă o matrice pătratică de ordin p şi alta cu m linii şi n coloane, ale căror elemente sunt egale cu 0 , 1 sau 2 . Determinaţi numărul de apariţii ale primei matrice în a doua.
+
+Restricții
+2 ≤ m , n ≤ 1000
+1 ≤ p ≤ 10
+p ≤ m şi p ≤ n
+elementele matricelor sunt 0,1 sau 2
+prima matrice apare în a doua dacă există o submatrice în a doua ale cărei elemente să coincidă cu ale primei matrice
+
+Exemplu
+Input: 2 4 5
+0 1
+2 1
+1 2 0 1 2
+0 1 2 1 2
+2 1 2 0 1
+1 1 1 2 1
+Output: 3

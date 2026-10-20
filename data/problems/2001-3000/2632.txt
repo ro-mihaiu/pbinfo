@@ -1,0 +1,14 @@
+#2632
+interclasari
+
+Cerința
+Să se determine numărul minim de operații necesare pentru a interclasa cele n șiruri.
+
+Restricții
+1 ≤ n ≤ 100.000
+cele n numere citite vor fi nenule și mai mici decât 1.000
+
+Exemplu
+Input: 4
+1 5 2 5
+Output: 24

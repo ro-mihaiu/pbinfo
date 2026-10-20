@@ -1,0 +1,12 @@
+#4730
+Expozitie auto
+
+Cerința
+Scrieţi un program C/C++ care citeşte de la tastatură un număr x ( x∈[1880,1950] ), reprezentând un an calendaristic și un șir de cel mult 10 5 numere din intervalul [ 10 4 , 10 9 ], reprezentând codurile mașinilor, în ordinea din șirul în care sunt expuse.
+Se cere să se afișeze pe ecran identificatorii colecționarilor care dețin ultimele două mașini, din șirul celor expuse, ambele fiind fabricate în anul x și aflate în șir pe poziții consecutive. Numerele, nu neapărat distincte, sunt afișate în ordinea în care mașinile corespunzătoare apar în șir, separate printr-un spațiu, iar dacă nu există două astfel de mașini, se afișează pe ecran mesajul nu exista .
+Proiectați un algoritm eficient din punctul de vedere al memoriei utilizate și al timpului de executare.
+
+Exemplu
+Input: 1925
+31885 21925 8931925 31925 121900 11925 31925 151925 61950 201925 121880
+Output: 3 15

@@ -1,0 +1,20 @@
+#937
+Hercule
+
+Cerința
+Hercule trebuie sa strabată un labirint cu capcane reprezentat de o matrice cu n linii și m coloane. Pentru fiecare celula a labirintului, se cunoaște timpul exprimat în minute după care celula respectivă devine capcană. După ce o celula devine capcana, Hercule piere dacă intră în acea celulă. Initial Hercule se află în celula de coordonate (1, 1) și trebuie să ajungă în celula de cordonate (n,m) .
+Sa se afișeze numarul total de drumuri pe care le poate urma Hercule prin labirint, astfel încât Hercule să nu piară.
+
+Restricții
+1 ≤ n , m ≤ 10
+Hercule nu poate intra de mai multe ori in aceeasi celula
+Hercule are nevoie de un minut,ca sa treacă dintr-o celula într-una vecină
+Hercule se deplasează pe direcțiile N-S și E-V.
+
+Exemplu
+Input: 4 5
+4 1 1 8 1 
+6 3 4 5 1 
+3 2 8 8 8 
+1 3 4 2 9
+Output: 2

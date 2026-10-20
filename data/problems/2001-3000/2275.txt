@@ -1,0 +1,18 @@
+#2275
+minimdoua
+
+Cerința
+Se dau n numere naturale. Determinați cele mai mici două numere dintre cele introduse care au ultimele două cifre egale. Dacă nu există cel puțin două astfel de numere se va afișa numere insuficiente .
+
+Restricții
+1 ≤ n ≤ 200
+pentru fiecare număr x de pe a doua linie a fișierului de intrare este îndeplinită relația 0 ≤ x ≤ 1.000.000
+minimele cerute vor avea cel puțin două cifre
+
+Exemplu
+Input: 7
+12 55 112 322 477 115 7
+Output: 55 322
+Input: 6
+12 55 112 3 4774 115
+Output: numere insuficiente

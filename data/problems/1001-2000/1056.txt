@@ -1,0 +1,30 @@
+#1056
+Unific
+
+Cerința
+Cunoscându-se şirul celor N numere naturale, să se determine:
+a) cifra care apare cel mai frecvent în scrierea tuturor celor N numere; dacă există mai multe cifre cu aceeaşi frecvenţă de apariţie maximă, se va reţine cea mai mică cifră. b) şirul obţinut prin efectuarea unui număr maxim de unificări, după regulile descrise în enunţ.
+
+Restricții
+1 ≤ N ≤ 100 000
+Numerele din şirul iniţial, precum şi numerele obţinute în urma unificărilor, nu vor depăşi 10 18
+Pentru datele de test şirul obţinut în urma unificărilor este nevid.
+Pentru 30% dintre teste N ≤ 1000
+Pentru 70% dintre teste numere naturale din şir au cifrele nenule.
+Pentru determinarea corectă a primei cerinţe se acordă 10% din punctajul pe test. Punctajul integral se acordă pe ambele cerinţe rezolvate corect.
+
+Exemplu
+Input: 10
+6
+47
+67
+40
+123
+231
+1238
+331
+2035
+50007
+Output: 3
+2
+0 837

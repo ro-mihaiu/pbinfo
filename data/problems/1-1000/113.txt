@@ -1,0 +1,12 @@
+#113
+fcifre
+
+Cerința
+Să se scrie o funcție C++ care primeşte doi parametri, n şi k şi returnează numărul de cifre ale lui n care divid pe k .
+
+Restricții
+numele funcției va fi nr_cif
+funcția va avea doi parametri, în această ordine: n , k
+valorile parametrilor vor fi numere naturale mai mici decât 2.000.000.000
+
+Exemplu

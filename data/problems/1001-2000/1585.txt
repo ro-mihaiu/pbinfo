@@ -1,0 +1,17 @@
+#1585
+GenMat23
+
+Cerința
+Scrieţi un program care citeşte de la tastatură un număr natural n şi construieşte o matrice pătratică având n linii şi n coloane, cu elemente 0 şi 1 , dispuse în pătrate concentrice, fiecare pătrat fiind format doar din valori 1 sau doar din valori 0 , ca în exemplul de mai jos, astfel încât elementul aflat pe prima linie şi prima coloană să fie egal cu 1 .
+
+Restricții
+1 ≤ n ≤ 30
+
+Exemplu
+Input: 6
+Output: 1 1 1 1 1 1
+1 0 0 0 0 1
+1 0 1 1 0 1
+1 0 1 1 0 1
+1 0 0 0 0 1
+1 1 1 1 1 1

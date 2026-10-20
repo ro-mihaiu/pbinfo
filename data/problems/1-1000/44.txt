@@ -1,0 +1,14 @@
+#44
+primeinterval
+
+Cerința
+Să se scrie un program care citește două numere naturale a și b și determină câte numere prime sunt în intervalul închis determinat de a și b .
+
+Restricții
+0 < a, b < 100.000
+numerele citite nu respectă obligatoriu relația a ≤ b
+un număr natural este prim dacă are exact doi divizori distincți: 1 și el însuși.
+
+Exemplu
+Input: 10 20
+Output: 4

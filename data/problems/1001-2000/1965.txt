@@ -1,0 +1,12 @@
+#1965
+Sir8
+
+Cerința
+Dându-se numărul natural n , să se afle al n -lea termen al şirului 1, 11, 21, 1211, 111221, 312211, 13112221,...
+
+Restricții
+1 ≤ n ≤ 30
+
+Exemplu
+Input: 4
+Output: 1211

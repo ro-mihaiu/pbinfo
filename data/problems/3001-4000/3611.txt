@@ -1,0 +1,13 @@
+#3611
+sumacifperm
+
+Cerința
+Se dă un număr natural n de exact trei cifre distincte. Să se calculeze suma tuturor numerelor care se pot obține prin interschimbarea cifrelor lui n .
+
+Restricții
+102 ≤ n ≤ 987
+n are cele trei cifre distincte
+
+Exemplu
+Input: 123
+Output: 1332

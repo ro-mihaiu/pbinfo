@@ -1,0 +1,18 @@
+#4220
+Alimentarea mașinii
+
+Cerința
+Vrei să călătorești n kilometri din orașul A în orașul B cu o mașină care are un rezervor de combustibil care poate asigura un număr de m kilometri. Între cele două orașe sunt amplasate stații de alimentare cu combustibil. Mașina pleacă din orașul A cu rezervorul plin. Vrei să știi numărul minim de alimentări necesare parcurgerii distanței între cele două orașe sau dacă nu se poate parcurge distanța din cauza alimentării (ai o mașină electrică și nu prea sunt stații electrice de alimentare :) )
+
+Restricții
+1 ≤ n ≤ 205.000
+1 ≤ m ≤ 400
+1 ≤ k ≤ 1000
+1 ≤ d[i] ≤ n
+
+Exemplu
+Input: 800
+300
+4
+200 475 550 750
+Output: 3

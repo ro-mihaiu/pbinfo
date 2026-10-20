@@ -1,0 +1,12 @@
+#108
+aparitii2
+
+Cerința
+Să se scrie un program care să determine numărul de apariţii ale primei cifre în scrierea unui număr natural citit de la tastatură.
+
+Restricții
+numărul citit va fi mai mic decât 2.000.000.000
+
+Exemplu
+Input: 57051
+Output: 2

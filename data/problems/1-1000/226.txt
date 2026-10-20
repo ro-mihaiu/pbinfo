@@ -1,0 +1,19 @@
+#226
+genmat13
+
+Cerința
+Scrieţi un program care citeşte de la tastatură trei numere naturale n , a , b şi construieşte în memorie o matrice cu n linii şi n coloane formată numai din valori 0 , 1 , 2 , 3 şi 4 astfel încât: elementele aflate pe linia a sau coloana b sunt egale cu 0 , cele aflate deasupra liniei a şi la stânga coloanei b sunt egale cu 1 , cele aflate deasupra liniei a şi la dreapta coloanei b sunt egale cu 2 , cele aflate sub linia a şi la stânga coloanei b sunt egale cu 3 , iar elementele aflate sub linia a şi la dreapta coloanei b sunt egale cu 4 .
+
+Restricții
+2≤n≤24
+1<a<n
+1<b<n
+liniile şi coloanele sunt numerotate de la 1
+
+Exemplu
+Input: 5 4 3
+Output: 1 1 0 2 2
+1 1 0 2 2
+1 1 0 2 2
+0 0 0 0 0
+3 3 0 4 4

@@ -1,0 +1,23 @@
+#2785
+galeti
+
+Cerința
+Cunoscând numărul de găleți n și un număr natural e , să se determine o succesiune de vărsări în urma căreia toată apa ajunge în găleata cea mai din stânga și efortul total depus este exact e .
+
+Restricții
+1 ≤ n ≤ 100.000
+1 ≤ e ≤ 5.000.000.000
+Se asigură faptul că există cel puțin o soluție posibilă pentru fiecare test în parte;
+Dacă există mai multe soluții, oricare dintre ele se va considera validă;
+Pentru teste în valoare de 18 puncte, datele de intrare sunt cunoscute. Mai precis:
+Testul 0: n = 91 , e = 90 .
+Testul 1: n = 30 , e = 435 .
+Testul 2: n = 7 , e = 16 .
+Pentru alte teste în valoare de 15 puncte, n ≤ 9 .
+În concurs s-au acordat 10p din oficiu. Aici, exemplul va valora exact 10p .
+
+Exemplu
+Input: 4 4
+Output: 2 1
+4 3
+3 1

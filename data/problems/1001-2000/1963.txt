@@ -1,0 +1,18 @@
+#1963
+OP
+
+Cerința
+Acum Șcuțu le va pune celor 2 câte două întrebări:
+1. Câte valori din V sunt mai mici sau egale cu X ? 2. Pentru X dat, ce valoare se află pe poziția X ?
+Să se răspundă la cele 2 întrebări.
+
+Restricții
+1 ≤ N ≤ 100.000
+numerele de pe a treia linie a fișierului de intrare vor fi mai mici decât 1.000.000.000
+t = 1 pentru 30p
+
+Exemplu
+Input: 1
+3 23
+1 2 4
+Output: 5

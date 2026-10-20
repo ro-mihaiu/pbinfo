@@ -1,0 +1,12 @@
+#1798
+Trepte
+
+Cerința
+O persoana are de urcat n trepte. Ştiind că poate păşi pe treapta urmatoare sau poate sări peste o treapta, aflaţi in câte moduri poate urca cele n trepte.
+
+Restricții
+1 ≤ n ≤ 30
+
+Exemplu
+Input: 2
+Output: 2

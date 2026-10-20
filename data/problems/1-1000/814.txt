@@ -1,0 +1,13 @@
+#814
+triplul
+
+Cerința
+Fiind date două numere naturale x și y determinați valoarea care trebuie adunată la x pentru a obține triplul lui y .
+
+Restricții
+1 ≤ x,y ≤ 100.000.000
+rezultatul poate fi negativ
+
+Exemplu
+Input: 5 12
+Output: 31

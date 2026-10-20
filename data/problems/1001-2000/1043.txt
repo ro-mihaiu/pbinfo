@@ -1,0 +1,26 @@
+#1043
+Martisoare
+
+Cerința
+Scrieţi un program care să citească numerele naturale N (reprezentând numărul de numere scrise pe tablă) şi c 1 , c 2 , …, c N (reprezentând numerele scrise, în ordine, pe tablă, după ce Lică a completat cele două locuri goale cu cifrele căzute) și care să determine: a) cele două cifre care au fost schimbate între ele, dacă, după ce au completat locurile goale, acestea au schimbat șirul numerelor scrise de Gică; b) numărul maxim scris pe tablă de Gică.
+
+Restricții
+4 ≤ N ≤ 100.000
+1 ≤ c i ≤ 100.000 , ( 1≤i≤N )
+N , c 1 , c 2 , …, c N sunt numere naturale;
+cele două cifre care cad de pe tablă pot proveni din același număr;
+pentru rezolvarea cerinţei a) se acordă 60% din punctaj, iar pentru cerinţa b) se acordă 40% din punctaj.
+
+Exemplu
+Input: 5
+65 22 27 28 29
+Output: 2 6
+29
+Input: 4
+95 96 97 89
+Output: 8 9
+98
+Input: 5
+35 36 37 38 39
+Output: 0 0
+39

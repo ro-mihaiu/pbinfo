@@ -1,0 +1,19 @@
+#3327
+LaScoala
+
+Cerința
+Directorul unei şcoli doreşte să premieze la sfârşitul anului şcolar pe cei mai buni elevi la învăţătură. Pentru acest lucru el are de rezolvat două probleme:
+1. Să determine câţi elevi vor fi premiaţi dintre cei n ( 2≤n≤700 ) elevi ai şcolii. După discuţii aprinse cu ceilalţi profesori se hotărăşte în Consiliul Profesoral ca numărul premianţilor să fie n-k , unde k este cel mai mare număr pătrat perfect mai mic strict decât n . De exemplu, pentru n=150 , k este 144 (pentru că 144=12*12 ), deci vor fi premiaţi 150 - 144 = 6 elevi. 2. Pentru a fi cât mai multă linişte la premiere, în Consiliul Profesoral se ia decizia ca elevii care nu vor fi premiaţi să fie aşezaţi pe terenul de sport pe rânduri de câte p elevi (unde p*p=k ). În acest scop, directorul a numerotat elevii nepremiaţi de la 1 la k şi a hotărât ca elevii să fie aşezaţi în ordinea descrescătoare a numerelor asociate.
+Scrieți un program care citește numărul de elevi din școală și afișează numărul de elevi premiați și apoi aranjarea elevilor nepremiați.
+
+Restricții
+1 ≤ n ≤ 700
+
+Exemplu
+Input: 35
+Output: 10
+25 24 23 22 21 
+20 19 18 17 16 
+15 14 13 12 11 
+10 9 8 7 6 
+5 4 3 2 1

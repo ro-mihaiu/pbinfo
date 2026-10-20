@@ -1,0 +1,16 @@
+#1008
+Spirala1
+
+Cerința
+Se dau n numere naturale, un n este un pătrat perfect. Să se construiască în memorie o matrice pătratică cu toate cele n numere, în spirală, în sens invers acelor de ceas astfel: pe prima coloană, începând cu linia 1 , se vor trece primele elemente din şir (de sus în jos), apoi pe ultima linie, începând de la prima coloană până la ultima (de la stânga la dreapta), apoi pe ultima coloană, de la ultima linie la prima (de jos în sus), apoi pe prima linie, de la ultima coloană la prima (de la dreapta la stânga) şamd.
+
+Restricții
+1 ≤ n ≤ 10000
+numerele date vor fi mai mici decât 1000
+
+Exemplu
+Input: 9
+2 6 7 3 7 1 7 1 5
+Output: 2 1 7
+6 5 1
+7 3 7

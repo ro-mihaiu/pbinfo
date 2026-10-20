@@ -1,0 +1,16 @@
+#4727
+CuvintePalindrom
+
+Cerința
+Să se scrie un program care citește o propoziție și care afișează cuvintele palindrom în ordine alfabetică, împreună cu numărul lor de apariții în propoziția citită.
+
+Restricții
+propoziția va conține cel mult 255 de caractere;
+cuvintele conțin doar litere mici și conțin cel mult 20 de caractere;
+
+Exemplu
+Input: doi prieteni analizeaza un capac aerisirea   e ok   radar e radar
+Output: aerisirea 1
+capac 1
+e 2
+radar 2

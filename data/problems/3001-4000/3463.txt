@@ -1,0 +1,24 @@
+#3463
+lumini2
+
+Cerința
+1) Câte perechi există în matrice, pentru care conexiunea lor ar determina culoarea negru? 2) Pentru o astfel de instalație dată, care este numărul maxim P , pentru care instalația nu se blochează?
+
+Restricții
+N, M ≤ 1000
+1 ≤ C ≤ 2
+Prima cerință valoreaza 30 de puncte, iar a doua cerință 70.
+Pentru a doua cerință, pentru 20 din cele 70 de puncte, N, M ≤ 50
+Pentru citire se recomandă folosirea biblitotecii <cstdio> din C++.
+
+Exemplu
+Input: 3 2 1
+0 64 64 64 64 0
+128 128 128 192 192 192
+0 192 192 192 192 0
+Output: 2
+Input: 3 2 2	
+0 64 64 64 64 0
+128 128 128 192 192 192
+0 192 192 192 192 0
+Output: 1999

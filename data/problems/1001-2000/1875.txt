@@ -1,0 +1,13 @@
+#1875
+platou1
+
+Cerința
+Se consideră un șir de cifre. Să se determine lungimea maximală a unei secvențe din șir formată din cifre egale.
+
+Restricții
+fișierul de intrare conține cel mult 1.000 de cifre, separate prin câte un spațiu, reprezentând termenii șirului dat;
+dacă șirul conține mai multe secvențe cu lungimea maximală, se va afișa cel mai mic termen ce formează o astfel de secvență.
+
+Exemplu
+Input: 3 8 8 8 8 9 9 9 2 5 5 5 5 7 6 6 6 6 8 8
+Output: 4 5

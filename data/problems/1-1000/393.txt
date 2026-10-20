@@ -1,0 +1,19 @@
+#393
+Cladire1
+
+Cerința
+Se consideră o clădire de formă dreptunghiulară formată din n*m camere, dispuse pe n linii și m coloane. Unele camere sunt închise, accesul în ele fiind imposibil. Intrarea în clădire este în camera de coordonate (1,1) , iar ieșirea în camera de coordonate (n,m) . Din orice cameră (i,j) se poate ajunge numai în camerele (i+1,j) sau (i,j+1) , dacă aceasta nu este închisă.
+Determinați în câte moduri se poate ajunge din camera (1,1) în camera (n,m) . Deoarece numărul de posibilități poate fi foarte mare, se cere doar restul acestui număr la împărțirea cu 9901 .
+
+Restricții
+1 ≤ n , m ≤ 1000
+1 ≤ k ≤ 1000
+1 ≤ i ≤ n , 1 ≤ j ≤ m
+camera de intrare și cea de ieșire nu sunt închise
+
+Exemplu
+Input: 3 3
+2
+1 2
+3 1
+Output: 2

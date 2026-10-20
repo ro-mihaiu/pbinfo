@@ -1,0 +1,14 @@
+#3415
+VectorDiv
+
+Cerința
+Se da un vector cu n elemente. Asupra fiecărui element putem efectua 2 tipuri de operații: să-l adunăm sau să-l scădem cu 1 . La final, fiecare element trebuie să fie divizor al elementului următor. Adică, v[i] îl divide pe v[i + 1] , oricare ar fi 1 ≤ i < n . Știind că ultimul element nu poate fi modificat, aflați numărul minim de operații pentru ca vectorul să îndeplinească condiția dată.
+
+Restricții
+1 ≤ n ≤ 10
+cele n numere citite vor fi mai mici sau egale cu 1.000.000
+
+Exemplu
+Input: 4
+2 8 4 10
+Output: 5

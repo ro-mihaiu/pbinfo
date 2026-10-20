@@ -1,0 +1,16 @@
+#3817
+ArieTrapez
+
+Cerința
+Se dau lungimile laturilor unui trapez ABCD cu AB||CD . Aflati aria acestuia.
+
+Restricții
+1 ≤ AB, BC, CD, AD ≤ 1000
+
+Exemplu
+Input: 6 4 8 3
+Output: 20.33
+Input: 6 4 15 3
+Output: Imposibil
+Input: 1000 999 998 997
+Output: Imposibil

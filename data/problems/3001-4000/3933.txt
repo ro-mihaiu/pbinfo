@@ -1,0 +1,16 @@
+#3933
+zero-unu
+
+Cerința
+Se dă un număr natural n . Să se verifice dacă n conține cel puțin o cifră de 1 , cel puțin o cifră 0 și nu conține alte cifre.
+
+Restricții
+0 ≤ n ≤ 2.000.000.000
+
+Exemplu
+Input: 11011
+Output: da
+Input: 161011
+Output: nu
+Input: 111
+Output: nu

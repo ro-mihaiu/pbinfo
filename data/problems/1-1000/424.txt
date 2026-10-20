@@ -1,0 +1,14 @@
+#424
+fibonacci-generalizat
+
+Cerința
+Se dă un număr natural n și două numere întregi a și b . Să se afişeze în ordine termenii şirului lui Fibonacci generalizat cu valoarea absolută mai mică sau egală cu n .
+
+Restricții
+1 ≤ n ≤ 500.000.000
+termenii generați se vor înscrie pe 32 de biți cu semn
+termenii se vor afișa în ordinea: f 1 , f 2 , f 3 , ...
+
+Exemplu
+Input: -1 2 40
+Output: -1 2 1 3 4 7 11 18 29

@@ -1,0 +1,14 @@
+#968
+Copac
+
+Cerința
+Scrieţi un program care citeşte un număr natural n şi care să determine şi să afişeze trei numere naturale reprezentând numărul de ramuri de argint, respectiv de aur şi de rubin pe care le va avea copacul peste n zile, în acestă ordine.
+
+Restricții
+0 ≤ n ≤ 45
+
+Exemplu
+Input: 2
+Output: 20 25 36
+Input: 10
+Output: 13001 16212 23427

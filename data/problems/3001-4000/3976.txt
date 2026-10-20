@@ -1,0 +1,12 @@
+#3976
+ProdImpare
+
+Cerința
+Se dă numărul natural nenul n . Să se determine produsul primelor n numere impare.
+
+Restricții
+1 ≤ n ≤ 15
+
+Exemplu
+Input: 4
+Output: 105

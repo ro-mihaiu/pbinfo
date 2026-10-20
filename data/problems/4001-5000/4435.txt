@@ -1,0 +1,24 @@
+#4435
+dominew
+
+Cerința
+Cunoscând șirul pieselor de pe masă, în ordinea în care sunt așezate, precum și cele M piese pe care le primește succesiv Radu, scrieți un program care să afișeze pentru fiecare dintre cele M piese poziția pe care aceasta este așezată în șir.
+
+Restricții
+2 ≤ N ≤ 1.000.000
+1 ≤ M ≤ 8.000
+Valorile scrise pe piese sunt numere naturale mai mici sau egale cu 1.000.000.000
+Pozițiile elementelor din șirul de pe masă sunt numerotate începând cu 1 .
+Datorită testelor prea mari, nu au putut fi adăugate toate.
+
+Exemplu
+Input: 6
+2 5 5 9 10 11
+3
+5 1 12
+Output: 2 1 9
+Input: 14
+2 2 2 4 7 8 9 10 12 16 20 21 23 24
+7
+18 7 20 1 16 25 23
+Output: 11 5 13 1 12 20 18

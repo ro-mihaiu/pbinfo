@@ -1,0 +1,19 @@
+#967
+Cifre8
+
+Cerința
+Scrieţi un program care să citească numerele c , n şi şirul s , şi să determine: a) suma tuturor numerelor din şirul s care au proprietatea că sunt numere prime b) numărul de apariţii ale cifrei c în scrierea zecimală a tuturor numerelor din şirul s c) numărul minim de numere din şirul v
+
+Restricții
+Numerele n şi c sunt naturale
+2 ≤ n ≤ 10000
+0 ≤ c ≤ 9
+toate cele n numere naturale din şirul s sunt mai mici sau egale cu 30000
+pentru rezolvarea cerinţei a) se acordă 40% din punctaj, pentru cerinţa b) 20% din punctaj şi pentru cerinţa c) 40% din punctaj.
+
+Exemplu
+Input: 10 9
+1943 31 19 1199 34 941 7971 131 223 6
+Output: 1345
+6
+4

@@ -1,0 +1,13 @@
+#1169
+FAfisareLista
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+void afisare(nod * p);
+care afișează pe ecran valorile memorate în lista pentru care primul element are adresa memorată în pointerul p .
+
+Restricții
+numele funcției va fi afisare
+valorile vor fi afișate în ordinea din listă, separate printr-un spațiu
+
+Exemplu

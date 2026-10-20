@@ -1,0 +1,14 @@
+#493
+constr
+
+Cerința
+Se dă un vector x cu n elemente, numere naturale. Să se construiască un alt vector, y , cu proprietatea că y[i] este egal cu restul împărțirii lui x[i] la suma cifrelor lui x[i] .
+
+Restricții
+1 ≤ n ≤ 200
+elementele vectorului vor fi cuprinse între 0 și 1.000.000.000
+
+Exemplu
+Input: 6
+50 1815 15 289 35 40
+Output: 0 0 3 4 3 0

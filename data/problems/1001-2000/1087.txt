@@ -1,0 +1,16 @@
+#1087
+Cuvinte4
+
+Cerința
+Scrieţi un program care să citească şirul de cuvinte şi să afişeze:
+a) numărul de ordine al primului cuvânt şters sau valoarea 0 în cazul în care nu se şterge niciun cuvânt b) numerele de ordine ale cuvintelor rămase după finalizarea operaţiilor de modificare.
+
+Restricții
+După ultimul cuvânt din şirul iniţial există caracterul !
+Fiecare cuvânt are maxim 10 caractere, iar în şirul iniţial nu există mai mult de 25 cuvinte.
+Şirul de cuvinte iniţial este format din cel puţin un cuvânt. O pereche de cuvinte vecine (a,b) , din şirul de cuvinte este caracterizată prin faptul că, după cuvântul a se afla imediat cuvântul b .
+
+Exemplu
+Input: alfa faal alfa fala lafa afal calfa calfa!
+Output: 2
+1 3 4 7 8

@@ -1,0 +1,18 @@
+#2908
+planta
+
+Cerința
+Știind D , înalțimea inițiala a plantei și valorile A și B cu care aceasta crește, respectiv descrește, să se afla ce înălțime va avea planta lui Ghiță la finalul celei de-a N -a zile.
+
+Restricții
+0 ≤ D ≤ 100
+1 ≤ B ≤ A ≤ 1 000 000
+1 ≤ N ≤ 1 000 000 000
+Pentru 50% dintre teste, 1 ≤ N ≤ 1 000 000
+Se garantează că pentru toate testele valorile se încadrează în tipul int .
+
+Exemplu
+Input: 4 5 2 3
+Output: 12
+Input: 57 1000 1000 120
+Output: 57

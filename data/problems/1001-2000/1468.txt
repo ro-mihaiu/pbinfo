@@ -1,0 +1,20 @@
+#1468
+relativ
+
+Cerința
+Se dă un şir format din n numere naturale. Un termen din şir se numeşte minim relativ dacă este mai mic sau egal decât toţi termenii din şir situaţi înaintea lui. Să se determine numărul elementelor din şir care sunt minime relative, precum şi suma maximă a elementelor dintr-o secvenţă cuprinsă între două minime relative consecutive, inclusiv acestea.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000.000
+o secvenţă cuprinsă între doi termeni din şir conţine toţi termenii din şir situaţi între aceştia, inclusiv cei doi termeni daţi.
+primul termen din şir este considerat minim relativ
+şirul conţine cel puţin doi termeni care sunt minime relative
+două minime relative sunt consecutive în şir dacă între ele nu mai este alt minim relativ
+prima cerinţă valorează 40% din punctaj, iar a doua 60% ( în fişierul relativ.out trebuie afişate două numere pentru a primi punctaje parţiale)
+
+Exemplu
+Input: 9
+3 5 9 2 7 11 3 4 2
+Output: 3
+29

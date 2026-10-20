@@ -1,0 +1,16 @@
+#948
+Calendar2
+
+Cerința
+Fermierului Ion îi place să-și organizeze activitățile din timp. Chiar prea mult. Acesta ajunge să-și facă planuri și pentru câțiva ani. Singura dilemă pe care o are acesta este în ce zi a săptămânii va cădea data pe care își propune să efectueze respectiva activitate.
+Preocuparea sa este atât de mare încât se întreabă și de evenimente care au avut loc în trecut.
+
+Restricții
+1 ≤ Z ≤ 31
+1 ≤ L ≤ 12
+1900 ≤ A ≤ 2100
+Nu se vor cere zile invalide precum 29 februarie 2015 sau 31 noiembrie 1980
+
+Exemplu
+Input: 6 1 2015
+Output: Marti

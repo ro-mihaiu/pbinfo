@@ -1,0 +1,14 @@
+#2308
+Fractzii
+
+Cerința
+Dându-se o fracție oarecare prin numărătorul și numitorul său, determinați numărul nivelului pe care se află fracția sau o fracție echivalentă (având aceeași valoare) cu aceasta.
+
+Restricții
+1 ≤ N, M ≤ 2 000 000 000
+
+Exemplu
+Input: 13 8
+Output: 6
+Input: 12 8
+Output: 3

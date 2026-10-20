@@ -1,0 +1,23 @@
+#3886
+Suma intervale
+
+Cerința
+Se citesc de la tastură două numere naturale n și m , apoi un șir de n numere naturale. Asupra șirului de numere se pot aplica m operații de două feluri: modificarea unei valori din șir și respectiv determinarea sumei valorilor din șir aflate între două poziții date.
+
+Restricții
+1 ≤ n, m ≤ 100.000
+cele n numere din șirul de valori vor fi mai mici decât 1.000.000.000
+numerotarea pozițiilor în șir va începe de la 1
+1 ≤ x ≤ y ≤ n
+
+Exemplu
+Input: 5 5
+1 2 3 4 5
+2 1 5
+1 3 4
+2 1 5
+1 4 10
+2 3 5
+Output: 15
+16
+19

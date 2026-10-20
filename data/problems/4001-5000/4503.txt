@@ -1,0 +1,13 @@
+#4503
+Steiner_2
+
+Cerința
+Fie n un număr natural. Determinați numărul maxim de regiuni din spațiu care se pot obține prin intersecțiile a n plane.
+Definim o regiune ca fiind o porțiune tridimensională (din spațiu) delimitată de unul sau mai multe plane (de exemplu, un plan împarte spațiul în două regiuni).
+
+Restricții
+1 ≤ n ≤ 10006
+
+Exemplu
+Input: 3
+Output: 8

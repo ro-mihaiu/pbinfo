@@ -1,0 +1,28 @@
+#3003
+Intersectie
+
+Cerința
+Pe un cerc sunt așezate echidistant N puncte, etichetate în sensul acelor de ceas cu 1 , 2 , 3 , …, N . Se dau M intervale de forma [a, b] și T interogări de forma P Q .
+Pentru fiecare interogare [P, Q] să se verifice dacă este adevărat sau fals că intersecția tuturor intervalelor care au puncte comune cu [P, Q] include intervalul [P, Q] .
+
+Restricții
+2 ≤ N ≤ 1.000.000.000
+1 ≤ M ≤ 100.000
+1 ≤ T ≤ 100.000
+1 ≤ P ≤ N , 1 ≤ Q ≤ N , P și Q sunt etichete date în sensul acelor de ceas
+1 ≤ a ≤ N , 1 ≤ b ≤ N , a și b sunt etichete date în sensul acelor de ceas
+Dacă x = y , atunci [x, y] este un interval care conține doar numărul x
+Pentru 30% din teste 1 ≤ M ≤ 1000 și 1 ≤ T ≤ 10.000
+Pentru 30% din teste 1 ≤ N ≤ 1.000.000
+
+Exemplu
+Input: 5 3 3
+2 3
+5 1
+5 5
+4 4
+3 5
+1 1
+Output: 0
+0
+1

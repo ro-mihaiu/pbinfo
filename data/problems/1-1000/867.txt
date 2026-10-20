@@ -1,0 +1,17 @@
+#867
+Generare2_cu_Coada
+
+Cerința
+Se dau patru numere naturale n a x y . Să se afișeze elementele mulțimii M , cu următoarele proprietăți:
+toate elementele lui M sunt numere naturale mai mici sau egale cu n ;
+a se află în M ;
+dacă b se află în M , atunci b+x și b+y se află în M .
+
+Restricții
+1 ≤ n ≤ 10000
+1 ≤ x , y ≤ 10000
+0 ≤ a ≤ 10000
+
+Exemplu
+Input: 25 3 4 11
+Output: 3 7 11 14 15 18 19 22 23 25

@@ -1,0 +1,18 @@
+#1048
+Schi
+
+Cerința
+Scrieți un program care determină răspunsul pentru fiecare dintre cele K întrebări puse de șeful comisiei de arbitri.
+
+Restricții
+1 ≤ N ≤ 100 000
+1 ≤ K ≤ 100 000
+0 ≤ punctajele obținute de concurenți ≤ 1 000 000 000
+0 ≤ valorile X alese de șeful arbitrilor ≤ 1 000 000 000
+
+Exemplu
+Input: 10
+1 6 5 3 6 8 8 6 1 9
+6
+5 1 6 8 2 9
+Output: 0 1 4 4 0 1

@@ -1,0 +1,19 @@
+#4417
+indiciu
+
+Cerința
+Scrieţi un program care, cunoscând indiciul, determină codul.
+
+Restricții
+Şirurile de caractere menţionate în enunţ (operanzi sau valoare) conţin caractere ASCII cu coduri ≥ 32 și ≤ 127 , diferite de caracterele # (diez), + (plus), * (asterisc) sau = (egal).
+Lungimea operanzilor este cel mult 255 de caractere.
+Lungimea valorii este cel mult 20.000 de caractere.
+Expresia conţine cel mult 10.000 de operatori.
+#c apare cel puţin o dată ca operand în expresie.
+Datele de intrare sunt corecte.
+
+Exemplu
+Input: con+#c+are=contactare
+Output: tact
+Input: NTS*#c+ MI+#c+U=NATASA MIAU
+Output: A

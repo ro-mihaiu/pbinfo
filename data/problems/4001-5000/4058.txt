@@ -1,0 +1,22 @@
+#4058
+Ronti
+
+Cerința
+La ferma din comuna Iepurești există un teren de forma dreptunghiulară în care fermierii satului au creat mai multe grădini în care au plantat morcovi. Terenul este împărțit în nxm unități ( n reprezintă numărul de linii, iar m reprezintă numărul de coloane) numite celule. Morcovii nu sunt plantați uniform astfel încât în celule diferite pot exista numere diferite de morcovi. Grădinile sunt separate între ele prin garduri de diverse forme și lățimi, gardurile ocupând și ele un număr întreg de unități din teren.
+Iepurele Ronți vrea să știe în ce grădină să intre pentru a aduna cât mai mulți morcovi dintr-un singur raid asupra terenului și vă cere să-l ajutați și să-i spuneți care este numărul maxim de morcovi pe care îl adună și de unde trebuie să înceapă pentru a aduna acea cantitate. Din celula în care se află, el poate sări maxim k unități, putând astfel să sară peste eventuale garduri dintre grădini. Ronți poate sări doar în direcțiile N , S , E și V .
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ m ≤ 100
+Numărul de morcovi din fiecare unitate este mai mic decât 200.000
+Dacă există două drumuri cu același număr maxim de morcovi adunați, se va alege drumul care are poziția de start cea mai mică din punct de vedere lexicografic
+Perechea (i, j) este mai mică în sens lexicografic decât perechea (x, y) dacă i<x sau dacă i=x și j<y
+
+Exemplu
+Input: 4 8 2
+1 2 0 1 1 0 0 10
+3 4 0 1 1 0 0 0
+0 0 0 0 0 0 0 0
+2 2 2 2 2 0 3 3
+Output: 1 1
+30

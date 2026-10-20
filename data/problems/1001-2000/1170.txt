@@ -1,0 +1,14 @@
+#1170
+FAdaugareInainteLista
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+void adaugareInainte(nod * & p , int x);
+care adaugă valoarea x la începutul listei pentru care primul element are adresa memorată în pointerul p .
+
+Restricții
+numele funcției va fi adaugareInainte
+dacă lista nu conține niciun element, pointerul p are valoarea NULL
+în toate cazurile, la ieșirea din apel p va memora adresa primului element al listei
+
+Exemplu

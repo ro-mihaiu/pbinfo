@@ -1,0 +1,18 @@
+#1772
+Progresie2
+
+Cerința
+Se consideră o progresie aritmetică cu primul termen a1 și rația r , precum și un număr n . Să se afișeze o matrice pătratică cu n linii și n coloane care să conțină termenii acestei progresii astfel:
+prima coloană va conține primii n termeni, în ordine, de sus în jos
+a doua coloană va conține următorii n termeni, în ordine, de sus în jos etc.
+
+Restricții
+1 ≤ n ≤ 200
+elementele matricei vor fi numere întregi ce pot fi reprezentate pe 4 octeți cu semn.
+
+Exemplu
+Input: -7 3 4
+Output: -7 5 17 29 
+-4 8 20 32 
+-1 11 23 35 
+2 14 26 38

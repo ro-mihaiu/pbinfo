@@ -1,0 +1,16 @@
+#1865
+Summit
+
+Cerința
+Se dă un şir x format din n numere naturale nenule. Pentru fiecare element x i din şir să se verifice dacă există un număr k astfel încât elementul x i să fie egal cu suma primelor k elemente din şir.
+
+Restricții
+2 ≤ n ≤ 1.000.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 2.000.000.000
+
+Exemplu
+Input: 3
+1 2 3
+Output: 1
+0
+2

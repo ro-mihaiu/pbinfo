@@ -1,0 +1,8 @@
+#1759
+alune
+
+Cerința
+Scrieţi un program care citeşte din fişierul alune.in numerele naturale nenule C şi D şi numărul de alune din fiecare scorbură din şirul lui Chip, respectiv al lui Dale. Programul determină şirul de cifre notat de Dale pe hârtie.
+
+Restricții
+și precizări 1 ≤ C, D ≤ 100 000 Numerele de alune din scorburile lui Chip, scrise pe a doua linie a fişierului de intrare, sunt numere naturale din intervalul [1, 2 000 000 000] ; Numerele de alune din scorburile lui Dale, scrise pe a treia linie a fişierului de intrare, sunt numere naturale din intervalul [0, 2 000 000 000] .

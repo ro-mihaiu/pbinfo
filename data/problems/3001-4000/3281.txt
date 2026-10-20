@@ -1,0 +1,22 @@
+#3281
+sminus
+
+Cerința
+Să se determine o pereche de indici x y astfel încât după inversarea semnului componentelor secvenței a x , a x+1 , …, a y suma elementelor din vector să fie minimă.
+
+Restricții
+2 ≤ N ≤ 100.000
+-1000 ≤ a i ≤ 1000 pentru orice i = 1..N
+Secvența a x , a x+1 , …, a y trebuie să conțină cel puțin un element.
+Dacă există mai multe soluții pentru perechea (x, y) , atunci se va alegea aceea care are indicele x minim, iar dacă sunt mai multe secvențe posibile care încep la poziția x , se va alege aceea care are valoarea y maximă.
+Pentru teste valorând 50 de puncte, N ≤ 2000 .
+
+Exemplu
+Input: 7
+3 -5 4 -1 6 -8 -5
+Output: 3 5
+-24
+Input: 6
+2 -1 2 -2 2 -6
+Output: 1 5
+-9

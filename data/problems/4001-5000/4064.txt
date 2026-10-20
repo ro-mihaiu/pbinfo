@@ -1,0 +1,29 @@
+#4064
+Ghiocel
+
+Cerința
+Într-un oraș sunt n case numerotate de la 1 la n . Între anumite case sunt străzi bidirecționale. În casa cu numărul g locuiește Ghiocel. El are k colege ale căror numere de casă îi sunt cunoscute și Ghiocel dorește să le ducă ghiocei la inceputul lunii martie. Pentru că este leneș, Ghiocel se decide să ducă ghiocei colegei sau colegelor care stă (stau) la o casă până la care Ghiocel are de parcurs un număr minim de străzi. Ajutați-l pe Ghiocel să determine numerele acestor case.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ m ≤ n * (n - 1) / 2
+1 ≤ i, j ≤ n
+1 ≤ k ≤ n
+
+Exemplu
+Input: 10 12 6
+1 2
+1 7
+1 10
+2 4
+2 5
+2 6
+3 4
+4 5
+5 6
+7 8
+8 10
+9 10
+4
+1 4 8 10
+Output: 1 4

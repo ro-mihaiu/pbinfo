@@ -1,0 +1,12 @@
+#2312
+guIT
+
+Cerința
+Pentru a câştiga un meniu vegetarian de Crăciun, trebuie să aflaţi suma numerelor prime din descompunerea lui n , ştiind că n este produs de trei numere prime distincte.
+
+Restricții
+1 ≤ n ≤ 10 12
+
+Exemplu
+Input: 105
+Output: 15

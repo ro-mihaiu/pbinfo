@@ -1,0 +1,22 @@
+#3914
+Cuvinte12
+
+Cerința
+Se citește un cuvânt S format din litere mici distincte ale alfabetului englez și un număr m . Afișați în ordine lexicografică toate cuvintele formate din cel mult m litere ordonate alfabetic din S , în care nu există consoane alăturate și încep cu vocală.
+
+Restricții
+1 < m ≤ lungimea lui S ≤ 10
+
+Exemplu
+Input: barni 3
+Output: a
+ab
+abi
+ai
+ain
+air
+an
+ar
+i
+in
+ir

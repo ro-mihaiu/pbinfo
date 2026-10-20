@@ -1,0 +1,12 @@
+#1257
+NumarParanteze
+
+Cerința
+Să se determine numărul de șiruri de lungime 2 * n care conțin paranteze închise corect.
+
+Restricții
+1 ≤ n ≤ 1000
+
+Exemplu
+Input: 3
+Output: 5

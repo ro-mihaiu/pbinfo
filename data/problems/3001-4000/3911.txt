@@ -1,0 +1,19 @@
+#3911
+PermPrimPF
+
+Cerința
+Se dă o mulțime cu n elemente, numere naturale. Afișați în ordine lexicografică toate permutările mulțimii date în care elementele prime sunt puncte fixe (nu își schimbă poziția).
+
+Restricții
+1 < n ≤ 15
+numărul valorilor prime din șir va fi aproximativ egal cu cel al valorilor neprime
+
+Exemplu
+Input: 5
+9 7 1 2 8
+Output: 1 7 8 2 9 
+1 7 9 2 8 
+8 7 1 2 9 
+8 7 9 2 1 
+9 7 1 2 8 
+9 7 8 2 1

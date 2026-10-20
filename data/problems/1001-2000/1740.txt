@@ -1,0 +1,13 @@
+#1740
+suma-b-numere
+
+Cerința
+Se dau 2 numere naturale, a şi b . Să se determine dacă a se poate scrie că suma de b numere naturale consecutive.
+
+Restricții
+1 ≤ a ≤ 100.000.000
+1 ≤ b ≤ 25.000
+
+Exemplu
+Input: 12 3
+Output: DA

@@ -1,0 +1,23 @@
+#2667
+ec2i
+
+Cerința
+Fie aX^2+bX+c=0 o ecuație de gradul al doilea. Determinați soluțiile complexe ale acestei ecuații.
+
+Restricții
+Expresia dată, cu termenii reașezați descrescător după putere, este de forma aX^2+bX+c .
+\( a,b,c\in\mathbb{Z} \bigcap {[-10.000, +10.000]} \) și \(a\) nenul;
+^ reprezintă ridicarea la putere, adică x^2 este echivalent cu \(x^2\)
+X \( \in \) ['a', 'z'] ;
+Se acceptă o eroare de maximum \( 10^{-2} \).
+
+Exemplu
+Input: -5x+2x^2+3
+Output: reale
+1 1.5
+Input: 1v^2+9-6v
+Output: real
+3
+Input: 3a^2+4a+2
+Output: imaginare
+-0.66 0.47i

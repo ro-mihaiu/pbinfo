@@ -1,0 +1,21 @@
+#3465
+jocprim
+
+Cerința
+Aky și Alex joacă un joc interesant. Acesta se desfășoară în felul următor: aceștia au cartonașe cu numere naturale până la 10.000.000 (se consideră că au un număr infinit de cartonașe pentru fiecare număr natural mai mic sau egal cu 10.000.000 ). Ei aleg la întâmplare n cartonașe din cele date, iar pentru fiecare număr x de pe un cartonaș ales caută cartonașul pe care se află scris cel mai mare divizor prim al numărului x .
+Astfel observă că pentru multe din numerele alese cel mai mare divizor prim coincide, deci se hotărăsc să creeze mai multe perechi de cartonașe astfel: primul cartonaș al perechii va fi un număr prim, P , care este cel mai mare divizor prim al cel puțin unuia dintre numerele alese, iar numărul C de pe al doilea cartonaș reprezintă pentru câte din numerele din șirul numerelor alese numărul de pe primul cartonaș este cel mai mare divizor prim. De asemenea, perechile sunt ordonate crescător după P .
+Cei doi băieți nu se descurcă singuri când numerele de pe cartonașe sunt foarte mari, deci vă roagă pe voi să realizați un program care să realizeze afișarea numarului de perechi formate precum și a acestora pentru un șir de n cartonașe alese.
+
+Restricții
+1 ≤ n ≤ 20000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 10.000.000
+
+Exemplu
+Input: 12
+6 8 3 4 24 20 25 26 30 15 18 22
+Output: 5
+2 2
+3 4
+5 4
+11 1
+13 1

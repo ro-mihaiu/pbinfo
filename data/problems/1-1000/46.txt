@@ -1,0 +1,12 @@
+#46
+sumapare
+
+Cerința
+Să se scrie un program care citește numărul natural n și determină suma S=2+4+..+(2n) .
+
+Restricții
+0 < n ≤ 10000
+
+Exemplu
+Input: 48
+Output: Suma este 2352

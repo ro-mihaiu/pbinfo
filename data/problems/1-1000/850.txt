@@ -1,0 +1,14 @@
+#850
+Repetitii
+
+Cerința
+Se consideră un șir de caractere format numai din litere mici ale alfabetului englez. Dacă șirul conține subșiruri consecutive care se repetă, el poate fi scris condensat. De exemplu, șirul mamateteter poate fi scris (ma)2(te)3r – subșirul care se repetă se scrie între paranteze rotunde, urmat de numărul de apariții.
+Dându-se un șir în forma condensată, să se determine șirul în forma inițială.
+
+Restricții
+lungimea șirurilor s și t nu depășește 255 caractere
+șirul condensat nu va conține paranteze în alte paranteze
+
+Exemplu
+Input: (ma)2(te)3r
+Output: mamateteter

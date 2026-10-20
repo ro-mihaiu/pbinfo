@@ -1,0 +1,17 @@
+#837
+Fill
+
+Cerința
+Se dă o matrice cu n linii și m coloane și elemente 0 sau 1 , care reprezintă harta unei planete, în care 1 înseamnă uscat, iar 0 înseamnă apă. Două elemente 1 care se învecinează pe linie sau pe coloană (nu și pe diagonală) fac parte din același continent.
+Să se determine câte continente sunt pe hartă.
+
+Restricții
+1 ≤ n , m ≤ 100
+
+Exemplu
+Input: 4 6
+1 1 1 0 1 0
+0 0 1 0 1 1
+1 1 1 0 0 0
+0 1 0 1 1 1
+Output: 3

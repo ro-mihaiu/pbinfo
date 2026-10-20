@@ -1,0 +1,12 @@
+#3649
+cmmdc4
+
+Cerința
+Dându-se N, determinați valoarea expresiei: a1•b1•c1 + a2•b2•c2 + ... + ak•bk•ck unde (a1,b1,c1) , (a2,b2,c2) , …, (ak,bk,ck) sunt toate tripletele care îndeplinesc condițiile de mai sus. Întrucât rezultatul poate fi foarte mare, afișați resul împărțirii valorii expresiei la numărul 1.000.000.007 .
+
+Restricții
+1 ≤ n ≤ 1.000.000
+
+Exemplu
+Input: 4
+Output: 36

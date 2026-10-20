@@ -1,0 +1,12 @@
+#3590
+bitdistance
+
+Cerința
+Se dă un număr natural n . Considerând reprezentarea in baza 2 a acestui număr, calculați distanța dintre primul bit setat și ultimul bit setat. Distanța dintre 2 biți este egală cu numărul de biți aflați intre biții respectivi, inclusiv aceștia.
+
+Restricții
+\(1 ≤ n < 2^{64}\)
+
+Exemplu
+Input: 4
+Output: 1

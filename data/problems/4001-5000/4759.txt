@@ -1,0 +1,27 @@
+#4759
+X3
+
+Cerința
+Se consideră toate perechile de numere din șir, se calculează pentru fiecare prietenia, apoi se determină suma tuturor prieteniilor. Să se determine această sumă totală.
+
+Restricții
+2 ≤ n ≤ 1.000.000
+numerele din șir sunt naturale și mai mici sau egale cu 1.000.000
+
+Exemplu
+Input: 2
+19
+10
+Output: 25
+Input: 3
+7
+3
+5
+Output: 12
+Input: 5
+9
+13
+1
+9
+6
+Output: 84

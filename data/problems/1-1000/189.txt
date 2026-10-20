@@ -1,0 +1,18 @@
+#189
+NumarMunte
+
+Cerința
+Se dau n numere naturale. Determinați, pentru fiecare dintre ele, dacă este de tip “munte”.
+
+Restricții
+1 ≤ n ≤ 10
+cele n numere citite vor fi mai mici decât 2.000.000.000
+cele n numere citite vor fi mai mari decât 100
+
+Exemplu
+Input: 4
+15965 156 121 753
+Output: 1
+0
+1
+0

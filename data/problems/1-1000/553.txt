@@ -1,0 +1,14 @@
+#553
+pozminmax
+
+Cerința
+Calculaţi indicele imin și indicele imax ai elementului cu valoarea minimă, respectiv cu valoarea maximă, din vectorul dat.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele vectorului vor fi mai mici decât 1.000.000 și vor fi indexate de la 1 la n
+
+Exemplu
+Input: 5
+8 7 9 2 5
+Output: 4 3

@@ -1,0 +1,21 @@
+#4011
+Moș Crăciun XI
+
+Cerința
+Pentru a-i duce cadoul dorit lui Dorel, Moș Crăciun trebuie să străbată un labirint cu capcane reprezentat de o matrice cu n linii și n coloane. Fiecare celula a labirintului este marcată cu valoarea 1 dacă este capcană sau cu 0 dacă este poziție liberă. Inițial, Moș Crăciun se află în celula de coordonate (1, 1) , iar Dorel în celula de coordonate (n,n) .
+Moș Crăciun se poate deplasa doar pe valori vecine pe diagonale. Dacă se află în poziția (i,j) , atunci el poate merge în pozițiile (i-1,j-1) , (i-1,j+1) , (i+1,j+1) și (i+1,j-1) .
+Moș Crăciun dorește să știe numărul total de drumuri pe care le poate urma prin labirint până la poziția în care se află Dorel, astfel încât să nu treacă prin capcane și să nu treacă de mai multe ori prin aceeași pozitie. De asemenea, Moș Crăciun vrea să îl facă pe Dorel să îl aștepte cât mai mult și ar vrea să știe lungimea celui mai lung drum. Dacă îl ajutați să calculeze aceste numere, atunci Moș Crăciun promite că va trece și pe la voi.
+
+Restricții
+1 ≤ n ≤ 10
+pozițiile (1,1) și (n,n) nu sunt capcane
+
+Exemplu
+Input: 5
+0 1 1 0 0
+1 0 0 0 0
+0 1 0 0 0
+0 0 0 0 1
+0 0 1 0 0
+Output: 4
+9

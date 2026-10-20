@@ -1,0 +1,14 @@
+#292
+verifmultiplu
+
+Cerința
+Se dă un şir cu n elemente, numere naturale. Să se verifice dacă toate elementele şirului sunt multipli ai ultimului element din şir.
+
+Restricții
+1 ≤ n ≤ 100
+elementele şirului vor avea cel mult 9 cifre
+
+Exemplu
+Input: 5
+84 60 102 24 6
+Output: DA

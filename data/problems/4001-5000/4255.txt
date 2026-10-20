@@ -1,0 +1,19 @@
+#4255
+rotire_secvente
+
+Cerința
+Se dă un vector cu n elemente, numere naturale, și un număr k , divizor al lui n . Se împarte vectorul în k secvențe disjuncte, numerotate de la 1 la k . Să se permute circular cu o poziție spre stânga elementele din fiecare dintre cele k secvențe și să se afișeze pe ecran vectorul rezultat în urma acestor modificări.
+Se vor defini și apela următoarele subprograme:
+citire , care citește de la tastatură valoarea lui n , a lui k și cele n elemente ale tabloului
+afisare , care afișează pe ecran elementele tabloului, separate prin exact un spațiu
+permutare , care permută circular cu o poziție spre stânga elementele unei secvențe din tablou precizata prin cele două extremități st și dr .
+În programele C/C++ nu se vor folosi variabile globale .
+
+Restricții
+1 ≤ k < n ≤ 1000 , k este divizor al lui n
+cele n numere citite vor fi mai mici decât 1000
+
+Exemplu
+Input: 15 5
+3 6 4 7 6 6 6 4 6 7 6 6 4 4 5
+Output: 6 4 3 6 6 7 4 6 6 6 6 7 4 5 4

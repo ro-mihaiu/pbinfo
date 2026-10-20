@@ -1,0 +1,18 @@
+#81
+matrice
+
+Cerința
+Scrieţi un program care citeşte de la tastatură un număr natural n ( 1 ≤ n ≤ 20 ) şi apoi elementele unui tablou bidimensional cu n linii şi n coloane, care memorează numere naturale.
+Programul afişează pe ecran numărul de elemente din tablou care sunt strict mai mari decât toate elementele cu care se învecinează direct (aflate pe aceeaşi linie dar pe o coloană alăturată sau pe aceeaşi coloană dar pe o linie alăturată).
+
+Restricții
+1 ≤ n ≤ 20
+elementele tabloului sunt mai mici decât 1000
+
+Exemplu
+Input: 4
+1 5 1 1
+2 1 2 3
+1 3 4 2
+2 1 2 1
+Output: 5

@@ -1,0 +1,8 @@
+#3612
+F_p-numar_bac
+
+Cerința
+Subprogramul kpn , are trei parametri, a , b și k , în această ordine, prin care primește câte un număr natural din intervalul [1,10 5 ] ( a≤b ). Subprogramul returnează cel de al k -lea p-număr din intervalul [a,b] sau -1 , dacă nu există cel puțin k astfel de numere în acest interval.
+Scrieți definiția completă a subprogramului.
+
+Exemplu

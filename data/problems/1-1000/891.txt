@@ -1,0 +1,15 @@
+#891
+pasareste
+
+Cerința
+Limba păsărească este foarte simplă; și asemănătoare cu limba română! Un text scris în română se traduce în păsărește astfel: după fiecare vocală se inserează litera p și vocala respectivă.
+Se dă o propoziție scrisă în limba română. Să se traducă în păsărească.
+
+Restricții
+șirurile s și t vor avea cel mult 255 de caractere
+șirul s va conține litere mici ale alfabetului englez și spații
+vocalele sunt: aeiou
+
+Exemplu
+Input: ana are mere
+Output: apanapa aparepe meperepe

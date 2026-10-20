@@ -1,0 +1,18 @@
+#1823
+PPrim
+
+Cerința
+Un număr natural nenul se numeste “p-prim” dacă el se descompune în p moduri ca produs de doi factori primi între ei. De exemplu, numărul 60 este 4 -prim deoarece 60 se decompune în 4 moduri ca produs de doi factori primi între ei 60=1*60=4*15=5*12=20*3 , iar numărul 7 este 1 -prim. Pentru un interval închis [a,b] să se determine câte numere p -prime aparţin intervalului. De exemplu intervalul [7, 20] conţine numerele 2 -prime: 10,12, 14,18,20 .
+
+Restricții
+3 ≤ N ≤ 1000
+1 ≤ P ≤ 1000
+1 ≤ a[i],b[i] ≤ 33000 , unde a[i] şi b[i] sunt capetele intervalelor, i=1,2,..N
+
+Exemplu
+Input: 4 2
+20 7
+5 10
+35 39
+3 4
+Output: 7 20

@@ -1,0 +1,20 @@
+#1652
+RF
+
+Cerința
+Se dă un graf orientat în care arcele au asociate costuri (numere naturale nenule). Să se determine câte arce (x,y) din graf au costul egal cu costul drumului de cost minim de la x la y .
+
+Restricții
+1 ≤ n ≤ 100
+costurile arcelor vor fi mai mici decât 1000
+
+Exemplu
+Input: 5 7
+2 1 10
+2 3 2
+3 1 10
+3 4 3
+3 5 1
+4 1 2
+5 4 1
+Output: 4

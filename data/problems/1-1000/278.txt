@@ -1,0 +1,16 @@
+#278
+maxmin1
+
+Cerința
+Se dau două şiruri cu elemente numere naturale. Determinaţi câte dintre elementele primului şir sunt mai mari decât toate elementele celui de-al doilea şir.
+
+Restricții
+1 ≤ n,m ≤ 100
+elementele celor două şiruri sunt mai mici decât 10000
+
+Exemplu
+Input: 5
+7 8 10 1 9
+6
+1 3 6 2 7 3
+Output: 3

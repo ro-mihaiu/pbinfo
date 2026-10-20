@@ -1,0 +1,12 @@
+#3291
+Memory010
+
+Cerința
+Se citesc numere naturale cuprinse între 1 și 30.000.000 până la întâlnirea numărului 0 . Să se afișeze valoarea duplicat.
+
+Restricții
+între numerele citite se află cu siguranță un număr duplicat
+
+Exemplu
+Input: 12 3 8 10 5 8 2 0
+Output: 8

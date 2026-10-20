@@ -1,0 +1,25 @@
+#2453
+Rosii mici
+
+Cerința
+Să se calculeze aria maximă a unei submatrice care respectă specificațiile din enunț, pentru fiecare din cele Q sarcini date de către bunic.
+
+Restricții
+1 ≤ N, M ≤ 1000
+1 ≤ Q ≤ 100 000
+1 ≤ A[i][j] ≤ N * M , 1 ≤ i ≤ N , 1 ≤ j ≤ M
+1 ≤ x ≤ N * M
+Pentru 30% din punctajul total există teste cu 1 ≤ N, M, Q ≤ 50
+Pentru alte 20% din punctajul total există teste cu 1 ≤ M ≤ 100
+
+Exemplu
+Input: 3 4 3
+1 9 6 2
+1 10 10 4
+7 15 10 6
+6
+10
+9
+Output: 4
+9
+6

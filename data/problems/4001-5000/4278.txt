@@ -1,0 +1,13 @@
+#4278
+SumCnt1
+
+Cerința
+Se citesc de la tastatură numere naturale până la apariția lui zero. Să se determine suma celor pare și câte dintre ele au două cifre.
+
+Restricții
+numerele citite vor fi mai mici decât 10000
+valoarea absolută a sumei nu va depăși 10 9
+
+Exemplu
+Input: 105 63 20 4 0
+Output: 24 2

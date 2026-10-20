@@ -1,0 +1,21 @@
+#1490
+Musca
+
+Cerința
+Deoarece baloanele speciale şi tehnologia lui de a le umple cu fum sunt costisitoare, Algo îşi propune să alunge dăunătorii folosind cât mai eficient resursele. Astfel el vrea să folosească cât mai puţine baloane şi caută posibilitatea de a amplasa dispozitivul într-un punct din fermă care să îi permită trageri eficiente, adică să poată trage în toți pomii din fermă și la fiecare tragere să atingă doi pomi în acelaşi timp.
+Determinaţi dacă este posibil să găsească acest punct.
+
+Restricții
+1 ≤ n ≤ 1000
+pomii sunt consideraţi puncte în plan, fără să ţinem cont de grosimea şi înălţimea lor;
+coordonatele punctelor sunt numere întregi din intervalul [-10000, 10000];
+dispozitivul nu poate fi amplasat într-un copac;
+balonul explodează doar la contactul cu pomul.
+
+Exemplu
+Input: 4
+10 0
+10 10
+0 10
+0 0
+Output: 1 5.000 5.000

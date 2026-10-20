@@ -1,0 +1,19 @@
+#4368
+perfecte1
+
+Cerința
+Dorel este pasionat de studiul pătratelor perfecte. El doreşte să afle răspunsul la Q cerinţe de forma: dacă se dau numerele naturale l , r , a , b , cu l ≤ r , să se afle câte numere naturale x cuprinse între l şi r (inclusiv acestea) au proprietatea că x+a şi x+b sunt simultan pătrate perfecte.
+
+Restricții
+1 ≤ Q ≤ 100.000
+1 ≤ l ≤ r ≤ 2.000.000.000
+1 ≤ a < b ≤ 1.000.000
+
+Exemplu
+Input: 3
+1 9 3 10
+13 780 4 61
+35 789 4 3279
+Output: 1
+2
+0

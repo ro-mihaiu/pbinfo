@@ -1,0 +1,13 @@
+#95
+perechivocale
+
+Cerința
+Determinați numărul de perechi de vocale consecutive din propoziție.
+
+Restricții
+șirul de caractere citit conține cel mult 255 de caractere
+se consideră vocale caracterele din mulțimea {a,e,i,o,u}
+
+Exemplu
+Input: aceasta familie are doua case
+Output: 4

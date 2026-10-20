@@ -1,0 +1,24 @@
+#1580
+schimb
+
+Cerința
+Se dau trei numere naturale n , k și p și n șiruri formate din litere mici ale alfabetului englez. Înlocuiți a k -a literă din fiecare șir cu a p -a literă din alfabet. Dacă șirul are mai puțin de k litere se va scrie oglinditul lui.
+
+Restricții
+1 ≤ n, k ≤ 10000
+1 ≤ p ≤ 26
+șirurile au cel mult 500 de caractere
+
+Exemplu
+Input: 2 4 7
+abcde
+efg
+Output: abcge
+gfe
+Input: 3 2 3
+wqysd
+s
+sj
+Output: wcysd
+s
+sc

@@ -1,0 +1,29 @@
+#3064
+copii1
+
+Cerința
+Cunoscându-se numerele spuse de copii, scrieți un program care rezolvă următoarele cerințe: 1) afișează ultimele K cifre ale produsului calculat de Pandele, după ștergerea cifrelor egale cu 0 de la finalul acestuia; 2) afișează numărul Z cu semnificația de mai sus și numărul de divizori ai acestuia.
+
+Restricții
+1 ≤ X ≤ 10 6
+1 ≤ Y ≤ 10 12
+1 ≤ K ≤ 9
+Numărul rămas după ștergerea zerourilor de la finalul produsului are cel puțin K cifre;
+Pentru rezolvarea primei cerințe se acordă 40 de puncte;
+Pentru rezolvarea celei de a doua cerințe se acordă 60 de puncte.
+
+Exemplu
+Input: 1
+12
+3
+Output: 016
+Input: 2
+14641
+Output: 14641 5
+Input: 1
+723432
+9
+Output: 813433856
+Input: 2
+573194962208
+Output: 286597481104 105

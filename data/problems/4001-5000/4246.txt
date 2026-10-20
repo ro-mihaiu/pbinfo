@@ -1,0 +1,25 @@
+#4246
+banana
+
+Cerința
+Determinaţi numărul maxim de bananieri care se poate obţine prin conectarea a exact K zone.
+
+Restricții
+1 ≤ Nr ≤ 16.000
+1 ≤ x, y ≤ 10.000
+În testele utilizate K nu va depăşi numărul de zone.
+Două poziţii se învecinează pe orizontală dacă sunt pe aceeaşi linie şi pe coloane consecutive, respectiv pe verticală dacă sunt pe aceeaşi coloană şi pe linii consecutive.
+
+Exemplu
+Input: 10 3
+7 10
+1 1
+101 1
+2 2
+102 1
+7 11
+200 202
+2 1
+3 2
+103 1
+Output: 9

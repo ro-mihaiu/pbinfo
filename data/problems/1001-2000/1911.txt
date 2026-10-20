@@ -1,0 +1,16 @@
+#1911
+Sort_Indici
+
+Cerința
+Se dă un vector cu n elemente, numere naturale. Afișați în ordine crescătoare elementele iar după fiecare element, inserați indicele poziției pe care acesta se afla înainte ca vectorul să fie sortat.
+Daca există mai multe elemente cu aceeași valoare, indicii acestora se vor afișa în ordine crescatoare.
+
+Restricții
+1 ≤ n ≤ 100
+cele n numere citite vor fi mai mici decât 1.000.000.000
+numerotarea vectorului începe de la 1
+
+Exemplu
+Input: 7
+12 8 9 0 19 2 8
+Output: 0 4 2 6 8 2 8 7 9 3 12 1 19 5

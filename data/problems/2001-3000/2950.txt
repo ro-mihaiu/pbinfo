@@ -1,0 +1,13 @@
+#2950
+adun
+
+Cerința
+Determinați valoarea lui K astfel încât cel mai mic multiplu comun al numerelor X + K și Y + K să fie minim.
+
+Restricții
+X și Y sunt numere naturale mai mici decât 1.000.000.001 .
+Dacă sunt mai multe valori K pentru care cel mai mic multiplu comun al numerelor X + K și Y + K este minim, se va afișa valoarea K minimă.
+
+Exemplu
+Input: 6 14
+Output: 2

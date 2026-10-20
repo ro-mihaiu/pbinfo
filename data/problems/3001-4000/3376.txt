@@ -1,0 +1,24 @@
+#3376
+asciimat
+
+Cerința
+Scrieţi un program care, cunoscând S şi K , rezolvă următoarele două cerinţe: 1. determină L , latura celui mai mare pătrat din matricea M ce conține doar valori de 1 ; 2. determină NR , câte pătrate de latura K cu toate elementele egale cu 1 există în matricea M .
+
+Restricții
+şirul S are cel mult 3000 de caractere
+3 ≤ K ≤ 50
+lungimea unui cuvânt nu depăşeşte 100 de caractere
+fiecare cuvânt este codificat pe o singură linie
+fiecare literă este codificată pe 7 biţi
+liniile conţin concatenarea codurilor ASCII ale literelor unui cuvânt, astfel restul valorilor rămase libere din cadrul unei linii vor avea valoarea 0 .
+numărul de cuvinte din şir nu depăşeşte valoarea 300 .
+
+Exemplu
+Input: 1
+Ana are mere
+3
+Output: 3
+Input: 2
+Ana are mere
+2
+Output: 7

@@ -1,0 +1,16 @@
+#659
+sumalinii1
+
+Cerința
+Gigel a găsit o matrice cu n linii și m coloane și elemente numere naturale. El își propune să determine, pentru fiecare linie, cea mai mică valoare care se poate obține adunând elementele de pe linie, cu excepția unuia.
+
+Restricții
+1 ≤ n , m ≤ 100
+elementele matricei sunt numere naturale mai mici decât 1.000.000
+
+Exemplu
+Input: 3 4
+5 5 10 5 
+3 9 1 9 
+4 10 1 2
+Output: 15 13 7

@@ -1,0 +1,12 @@
+#2283
+Caraghios
+
+Cerința
+Dându-se un șir S de cifre nenule, să se determine câte dintre secvențele din S au numere asociate caraghioase.
+
+Restricții
+Șirul S va conține maxim 1.000.000 de cifre
+
+Exemplu
+Input: 28113
+Output: 3

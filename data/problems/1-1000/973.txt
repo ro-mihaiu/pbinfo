@@ -1,0 +1,14 @@
+#973
+cuvinte1
+
+Cerința
+Se dă o propoziție care conține numai litere mici ale alfabetului englez și spații. Să se afișeze cuvintele din propoziție care conțin numai vocale.
+
+Restricții
+propoziția va conține cel mult 255 de caractere
+
+Exemplu
+Input: ei pazesc o oaie
+Output: ei
+o
+oaie

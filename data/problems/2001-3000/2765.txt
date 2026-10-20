@@ -1,0 +1,17 @@
+#2765
+checkcolor
+
+Cerința
+Dându-se trei numere, R , G și B , verificați dacă acestea pot reprezenta o culoare sau o nuanță de gri. O culoare se consideră nuanță de gri dacă și numai dacă diferența dintre oricare două coduri ce reprezintă culorile primare nu depășește 10 .
+
+Restricții
+-1000 ≤ R, G, B ≤ 1000 ;
+0 ≤ Rv, Gv, Bv ≤ 255 – unde v înseamnă valid .
+
+Exemplu
+Input: 0 128 256
+Output: NU E CULOARE
+Input: 118 128 255
+Output: CULOARE
+Input: 118 119 120
+Output: GRI

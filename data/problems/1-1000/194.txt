@@ -1,0 +1,14 @@
+#194
+Anagrame1
+
+Cerința
+Se dă un cuvânt din cel mult 8 litere distincte. Să se afișeze, în ordine alfabetică, toate anagramele acestui cuvânt.
+
+Exemplu
+Input: cal
+Output: acl
+alc
+cal
+cla
+lac
+lca

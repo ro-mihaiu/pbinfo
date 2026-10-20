@@ -1,0 +1,13 @@
+#389
+divizoripariinterval
+
+Cerința
+Se citesc două numere naturale a și b . Să se determine cel mai mic și cel mai mare număr din intervalul [a,b] cu număr maxim de divizori pari şi numărul maxim de divizori pari.
+
+Restricții
+0 < a < b < 1.000.000.000
+b-a ≤ 1000
+
+Exemplu
+Input: 10 20
+Output: 4 12 20

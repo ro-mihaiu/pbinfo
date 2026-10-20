@@ -1,0 +1,18 @@
+#3910
+Aranjamente1
+
+Cerința
+Se citesc trei numere naturale a b n . Să se afișeze, în ordine lexicografică, șirurile cu n elemente distincte din mulțimea {a, a + 1, ..., b} .
+
+Restricții
+1 ≤ a < b ≤ 1.000.000.000
+1≤ n ≤ b - a < 8
+
+Exemplu
+Input: 4 6 2
+Output: 4 5 
+4 6 
+5 4 
+5 6 
+6 4 
+6 5

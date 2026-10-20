@@ -1,0 +1,15 @@
+#1804
+ursulet
+
+Cerința
+Să se determine zonele în care Lupita îl transportă pe ursuleţul Grizzlyuță.
+
+Restricții
+1 ≤ n ≤ 100.000
+-1000 ≤ a ≤ 1000 , a fiind altitudinea unei zone Dacă există mai multe subsecvenţe candidate la soluţie, atunci se va tipări cea cu indicele de început cel mai mic, iar în caz de egalitate, cea mai scurtă.
+
+Exemplu
+Input: 6
+-5 0 3 1 -4 2
+Output: 4
+2 4

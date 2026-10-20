@@ -1,0 +1,35 @@
+#3765
+virus1
+
+Cerința
+Scrieți un program care, cunoscând codul virusului pandemic și lista codurilor virușilor descoperiți în urma testărilor, rezolvă următoarele cerințe:
+1. Determină numărul de mutații ale virusului pandemic existente în listă, mutații nu neapărat distincte; 2. Determină mutația cu număr maxim de apariții în listă; dacă există mai multe mutații cu același număr maxim de apariții, se va determina prima mutație, în ordine lexicografică.
+
+Restricții
+2 ≤ N ≤ 50.000
+Lungimea maximă a codului unui virus este 200
+Daca a și b sunt două șiruri de lungime lg , spunem că șirul a = a 0 a 1 a 2 ... a lg-1 este mai mic din punct de vedere lexicografic decât șirul b = b 0 b 1 b 2 ... b lg-1 , dacă există o poziție k ∈{0, 1, ..., lg - 1} astfel încât a i = b i pentru orice 0 ≤ i < k și a k < b k .
+În codul ASCII codurile literelor mari sunt mai mici decât codurile literelor mici.
+
+Exemplu
+Input: 1
+abac
+5
+Abbbq
+Zbac
+abbC
+aBac
+Zbac
+Output: 3
+Input: 2
+abcD
+8
+abcdD
+XbcD
+Xc
+XbcD
+aXcD
+aXcD
+aXc
+ab
+Output: XbcD

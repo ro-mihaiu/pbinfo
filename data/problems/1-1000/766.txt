@@ -1,0 +1,18 @@
+#766
+nrpare
+
+Cerința
+Se dă o matrice cu n linii şi m coloane şi elemente numere naturale. Determinați indicele liniei care conține număr maxim de elemente pare. Dacă există mai multe linii cu număr maxim de elemente pare, se vor afișa toți indicii, în ordine crescătoare.
+
+Restricții
+1 ≤ m,n ≤ 100
+elementele matricei vor fi mai mici decât 10000
+liniile matricei au indici de la 1 la n .
+
+Exemplu
+Input: 4 6
+4 20 15 23 18 9 
+1 8 23 22 14 18 
+17 15 13 18 12 15 
+3 18 8 20 12 5
+Output: 2 4

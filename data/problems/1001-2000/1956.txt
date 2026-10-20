@@ -1,0 +1,17 @@
+#1956
+Siruri2
+
+Cerința
+Scrieți un program care să citească un număr natural n și să afișeze:
+a) al n -lea termen din șirul lui Fibonacci și numărul său de divizori b) al n -lea termen din șirul lui Iccanobif și numărul său de divizori
+
+Restricții
+1 ≤ n ≤ 50
+Pentru rezolvarea corectă a primei cerinţe se acordă 50% din punctaj, iar pentru cerința a doua se acordă 50% din punctaj.
+
+Exemplu
+Input: 1
+8
+Output: 21 4
+Input: 2 9
+Output: 124 6

@@ -1,0 +1,21 @@
+#1709
+Asort
+
+Cerința
+Cunoscându-se numerele naturale N , R , K și T , scrieți un program care să determine: 1) Numărul situat pe poziția K în șirul “ A sortat” obținut prin aplicarea de R ori a regulii “ A ” șirului X . 2) Predecesorul și succesorul numărului T în șirul “ A sortat” .
+
+Restricții
+6 < N < 1 000 000 000
+1 < R < 1 000 000 000
+1 < K < N și 1 < T < N
+Dacă numărul T este situat pe poziția 1 în șirul asortat, atunci predecesorul lui este numărului de pe poziția N . Dacă numărul T este situat pe poziția N în șirul asortat, atunci succesorul lui este numărul de pe poziția 1 .
+Pentru rezolvarea corectă a cerinţei 1 se acordă 50% din punctaj, iar pentru rezolvarea corectă a cerinţei 2 se acordă 50% din punctaj.
+Pentru teste în valoare de 15 puncte, N ≤ 1000 și R ≤ 1000
+
+Exemplu
+Input: 1
+6 2 3 4
+Output: 1
+Input: 2
+6 2 3 4
+Output: 5 1

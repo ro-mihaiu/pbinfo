@@ -1,0 +1,21 @@
+#2192
+Talent
+
+Cerința
+Scrieţi un program care citeşte numărul natural n (reprezentând numărul de participanţi înscrişi la concurs), n numere naturale (reprezentând numerele de concurs ale celor n participanţi) şi determină:
+a) numărul x de participanţi admişi direct în semifinale; b) numărul y de concurs al participantului VIP , dacă există un astfel de participant printre cei înscrişi.
+
+Restricții
+• 0 <n ≤ 15000 • numerele de concurs sunt distincte două câte două şi sunt mai mici sau egale cu 2000000000 • un număr palindrom este un număr natural care este egal cu numărul natural obţinut prin scrierea în ordine inversă a cifrelor lui (de exemplu, numărul 12021 este un număr palindrom) • pentru rezolvarea corectă a primei cerinţe se acordă 50% din punctaj, iar pentru rezolvarea corectă a celei de a doua cerinţe se acordă 50% din punctaj.
+
+Exemplu
+Input: 8
+17864
+9900
+90321
+4704
+351
+83181
+46476
+7432
+Output: 3 46476

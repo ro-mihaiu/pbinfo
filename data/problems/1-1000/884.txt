@@ -1,0 +1,24 @@
+#884
+Paznici
+
+Cerința
+Se consideră o clădire de formă dreptunghiulară, formată din n*m camere dispuse sub forma unei matrice cu n linii și m coloane. Anumite camere sunt ocupate şi nu pot fi vizitate, celelalte sunt libere și pot fi vizitate. Dintr-o cameră se poate trece în altă cameră dacă ambele sunt libere și se învecinează pe linie sau pe coloană.
+În anumite camere sunt paznici. Din motive de securitate, paznicii se pot deplasa din camera inițială în anumite camere libere din apropiere, dar fără a se îndepărta la o distanță mai mare decât o valoare cunoscută. Fiecare paznic va verifica periodic camerele libere în care poate ajunge.
+Să se determine numărul de camere din clădire care nu sunt verificate de niciun paznic.
+
+Restricții
+1 ≤ n, m, p ≤ 200
+1 ≤ i ≤ n
+1 ≤ j ≤ m
+0 ≤ d ≤ 40
+
+Exemplu
+Input: 4 6 3
+--#-#-
+--##--
+------
+-----#
+1 1 1
+1 6 2
+4 1 3
+Output: 4

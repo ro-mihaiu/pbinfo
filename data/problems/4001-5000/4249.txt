@@ -1,0 +1,20 @@
+#4249
+Inlocuire_cmmdc_oglindit
+
+Cerința
+Se dă un tablou cu n elemente, numere naturale mai mari decât 1 . Să se înlocuiască fiecare element din tablou cu cel mai care divizor comun al său cu oglinditul său și apoi să afișeze elementele din tabloului de la dreapta la stânga.
+Se vor defini și apela următoarele subprograme:
+citire , care citește de la tastatură valoarea lui n și cele n elemente ale tabloului
+afisare , care afișează pe ecran elementele tabloului printr-o parcurgere de la dreapta la stânga, separate prin exact un spațiu
+oglindit , care determină oglinditul unui număr dat
+cmmdc , care calculează cel mai care divizor comun a două numere date
+În programele C/C++ nu se vor folosi variabile globale .
+
+Restricții
+1 ≤ n ≤ 1000
+elementele tabloului vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 7
+7 18 18 5 14 20 4
+Output: 4 2 1 5 9 9 7

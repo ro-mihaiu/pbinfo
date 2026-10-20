@@ -1,0 +1,14 @@
+#2083
+ordon123
+
+Cerința
+Scrieți definiția completă a subprogramului C++ ordon123 care are 2 parametri: n – prin care primește un număr natural a – prin care primește un tablou unidimensional cu n elemente, numere naturale din mulțimea {1,2,3} .
+Subprogramul ordonează crescător tabloul a fără a returna valori.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+numele subprogramului cerut este ordon123
+parametrii sunt, în această ordine: n, a
+elementele tabloului a sunt indexate de la zero.
+
+Exemplu

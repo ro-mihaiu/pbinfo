@@ -1,0 +1,19 @@
+#1057
+MaxP
+
+Cerința
+Scrieţi un program care determină puterea cea mai mare a unui element din şirul dat, precum şi numărul de elemente din şir care au cea mai mare putere.
+
+Restricții
+2 <= N <= 200.000
+Elementele şirului sunt numere naturale şi au cel mult 6 cifre
+
+Exemplu
+Input: 7
+9 3 4 5 1 2 2
+Output: 12 
+1
+Input: 6
+1 0 7 7 2 6
+Output: 3 
+2

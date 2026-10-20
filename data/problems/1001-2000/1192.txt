@@ -1,0 +1,19 @@
+#1192
+Arhitectura2
+
+Cerința
+După ce arhitectul Gigel a reușit să rezolve sarcina primită de la primărie ( #Arhitectura ), el și-a dat seama că aspectul zonei nu va fi unul după preferințele sale. Astfel, s-a stabilit că în oraș nu există clădiri cu înălțimea mai mare decât hmax . Acum primăria îi cere afișarea clădirilor în ordine descrescătoare, precum și verificarea, pentru fiecare clădire din lista ordonată, dacă înălțimea ei este egală cu media aritmetică a înălțimilor celor două clădiri vecine.
+Gigel vă cere ajutorul ca să-și termine proiectul care a devenit mult prea greu .
+
+Restricții
+1 ≤ n ≤ 2000000
+hmax ≤ 100000
+Pentru 40% din teste n ≤ 50000
+Pentru 80% din teste n ≤ 500000
+Considerăm că înaintea primei clădiri și după ultima clădire se află câte o pseudoclădire de înălțime 0 – care va interveni în verificarea cerută.
+
+Exemplu
+Input: 10
+5 10 10 9 5 2 5 8 5 2
+Output: 10 10 9 8 5 5 5 5 2 2 
+0 0 1 0 0 1 1 0 0 0

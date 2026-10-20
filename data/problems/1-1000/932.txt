@@ -1,0 +1,17 @@
+#932
+AriaPoligonSimplu
+
+Cerința
+Se dau coordonatele în plan pentru n puncte. Să se afișeze valoarea ariei poligonului pe care acestea îl formează.
+
+Restricții
+Numerele din fișierul de intrare sunt întregi cuprinse între -1001 și 1001 .
+Poligonul nu este neapărat convex dar nu se autointersectează.
+
+Exemplu
+Input: 4
+0 0
+1 0
+1 1
+0 1
+Output: 1.0

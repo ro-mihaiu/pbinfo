@@ -1,0 +1,12 @@
+#1
+sum
+
+Cerința
+Calculaţi suma celor 2 numere date.
+
+Restricții
+valoarea absolută a numerelor din fişierul de intrare va fi mai mică decât 1.000.000.000
+
+Exemplu
+Input: 12 23
+Output: 35

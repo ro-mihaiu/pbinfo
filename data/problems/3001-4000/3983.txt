@@ -1,0 +1,12 @@
+#3983
+afisare_M1
+
+Cerința
+Se citesc două numere naturale n și m . Afișați în ordine descrescătoare primii n multipli nenuli ai numărului m .
+
+Restricții
+1 ≤ n ≤ 100 , 1 ≤ m ≤ 100
+
+Exemplu
+Input: 3 6
+Output: 18 12 6

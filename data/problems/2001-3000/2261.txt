@@ -1,0 +1,31 @@
+#2261
+turn
+
+Cerința
+n
+1
+n
+H
+n
+orice cub se așează peste un altul ce are latura mai mare sau egală cu a lui;
+să nu existe două cuburi consecutive de aceeași culoare;
+
+Restricții
+1 ≤ n < 15
+1 ≤ H ≤ 50
+1 ≤ latura ≤ 10
+1 ≤ culoare ≤ 5
+nu există cuburi identice
+pentru datele de intrare există întotdeauna soluție
+
+Exemplu
+Input: 5 5
+1 1
+2 1
+1 2
+2 2
+3 1
+Output: 2 4 1 
+4 2 3 
+5 3 1 
+5 4

@@ -1,0 +1,12 @@
+#2181
+inversum
+
+Cerința
+Fie o permutare P a mulțimii {1, 2, 3, ... N} . Se numește inversiune o pereche (i, j), i < j pentru care P[i] > P[j] . Fie funcția M(N) = suma numărului de inversiuni a fiecărei permutare a numerelor {1, 2, 3, ... N} . Pentru N dat, să se calculeze M(N) modulo 1000003 .
+
+Restricții
+1 ≤ N ≤ 1.000.000
+
+Exemplu
+Input: 3
+Output: 9

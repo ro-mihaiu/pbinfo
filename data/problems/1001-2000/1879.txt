@@ -1,0 +1,15 @@
+#1879
+platou2
+
+Cerința
+Se consideră un şir format din n numere naturale nenule. Să se determine lungimea maximă a unei secvenţe strict crescătoare din şirul dat.
+
+Restricții
+1 ≤ n ≤ 1000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 100
+O secvenţă a unui şir constă în elemente aflate pe poziţii consecutive în şirul considerat.
+
+Exemplu
+Input: 10                          
+7 22 13 10 31 41 6 7 10 8
+Output: 3

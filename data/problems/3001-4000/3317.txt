@@ -1,0 +1,14 @@
+#3317
+Eratostene6
+
+Cerința
+Se dă un şir format din n numere naturale, a 1 , a 2 , …, a n . O pereche ( a i , a j ), unde i<j , se numeşte eratostenică dacă i divide pe j şi a i divide pe a j . Determinaţi câte perechi eratostenice conţine şirul dat.
+
+Restricții
+2 ≤ n ≤ 100.000
+0 ≤ a 1 , a 2 , …, a n ≤ 1.000
+
+Exemplu
+Input: 4
+2 3 0 6
+Output: 3

@@ -1,0 +1,32 @@
+#2117
+Divizori2
+
+Cerința
+Marinel a învăţat la şcoală despre divizibilitatea numerelor naturale. Un număr natural nenul a este divizor al numărului natural nenul b dacă restul împărţirii lui b la a este 0 . De exemplu, numărul 3 este divizor al lui 12 iar numărul 4 nu este divizor al lui 15 . Un număr natural nenul n este număr prim dacă are doar 2 divizori: 1 şi n . De exemplu, numărul 7 este număr prim deoarece îi are ca divizori doar pe 1 şi 7 iar numărul 21 nu este număr prim deoarece îi are ca divizori pe 1 , 3 , 7 şi 21 . Scrieţi un program care să îl ajute pe Marinel să îşi verifice tema primită pentru acasă.
+Fiind date numărul n al numerelor din şir şi numerele din şir, să se determine: 1) divizorii celui mai mare număr din şir, inclusiv 1 şi el însuşi; 2) numerele prime din şir; 3) numerele care sunt divizori ai tuturor numerelor din şir.
+
+Restricții
+valoarea lui P poate să fie doar 1 sau 2 sau 3 ;
+numărul natural n este cuprins între 2 şi 1000 ;
+numerele din şir sunt numere naturale nenule cu cel mult 6 cifre;
+pentru rezolvarea corectă a primei cerinţe se acordă 30 de puncte;
+pentru rezolvarea corectă a celei de-a doua cerinţe se acordă 30 de puncte;
+pentru rezolvarea corectă a celei de-a treia cerinţe se acordă 40 de puncte;
+
+Exemplu
+Input: 1
+7
+12 18 8 4 13 6 17
+Output: 1 2 3 6 9 18
+Input: 2
+7
+12 18 8 4 13 6 17
+Output: 13 17
+Input: 2
+7
+12 18 8 4 12 6 15
+Output: -1
+Input: 3
+4
+70 42 21 35
+Output: 1 7

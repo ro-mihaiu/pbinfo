@@ -1,0 +1,16 @@
+#1925
+Numar9
+
+Cerința
+Se dau două numere naturale S şi K . Să se afle cel mai mic număr natural A care are suma cifrelor egală cu S , precum şi restul împărţirii lui A la K .
+
+Restricții
+1 ≤ S ≤ 20.000.000
+1 ≤ K ≤ 1.000.000
+Pentru prima cerinţă se acordă 60p , iar pentru a doua 40p
+Pentru a primi punctajul pentru a doua cerinţă, în fişierul numar9.out trebuie să afişaţi două numere
+
+Exemplu
+Input: 25 13
+Output: 799
+6

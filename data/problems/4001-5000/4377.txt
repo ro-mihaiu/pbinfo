@@ -1,0 +1,33 @@
+#4377
+enigma
+
+Cerința
+Cum Pascalopol nu le are cu calculatoarele, iar aceasta este clar o problemă de Informatică, moșierul vă cere ajutorul și vă va oferi în schimb 100 de puncte.
+
+Restricții
+1 ≤ N, M, K ≤ 1000
+Se garantează că Felix vrea să ajungă într-o parcelă care nu este groapă, iar parcela (1,1) nu este groapă.
+Calul nu poate călca pe o parcelă care este groapă, dar poate efectua un salt peste una sau mai multe parcele care sunt gropi.
+Pentru 9 puncte, 1 ≤ N, M, K ≤ 7
+Pentru 11 puncte, 1 ≤ N, M ≤ 1000 , iar K = 1
+Pentru 25 de puncte, 1 ≤ N, M, K ≤ 1000 și nu există nicio parcelă groapă
+Pentru 25 de puncte, 8 ≤ N, M, K ≤ 100
+Pentru 30 de puncte, 101 ≤ N, M, K ≤ 1000
+
+Exemplu
+Input: 5 5 4 3
+0 0 1 1 1
+1 0 1 0 0
+1 0 0 0 0
+0 1 0 1 0
+0 1 1 1 0
+2
+Output: 2
+Input: 5 5 4 3
+0 0 1 1 1
+0 0 0 0 0
+0 0 0 0 0
+0 1 0 1 0
+0 1 1 1 0
+3
+Output: 17

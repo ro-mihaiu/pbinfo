@@ -1,0 +1,23 @@
+#2800
+chenar1
+
+Cerința
+Scrieți un program care citește de la tastatură două numere naturale din intervalul [3,50] , n și m , și elementele unui tablou bidimensional cu n linii și m coloane, numere naturale din intervalul [0,10 4 ] .
+Programul modifică în memorie tabloul dat, atribuind valoarea elementului aflat pe ultima linie și pe ultima coloană a tabloului fiecărui element aflat pe conturul acestuia (pe prima linie, ultima linie, prima coloană, ultima coloană), apoi afișează pe ecran tabloul modificat, câte o linie a tabloului pe câte o linie a ecranului, elementele fiecărei linii fiind separate prin câte un spațiu.
+
+Restricții
+3 ≤ n,m ≤ 50
+elementele tabloului aparțin intervalului [0,10 4 ]
+
+Exemplu
+Input: 5 4
+0 5 2 11
+3 2 10 2
+7 3 1 4
+4 5 0 12
+8 13 7 5
+Output: 5 5 5 5 
+5 2 10 5 
+5 3 1 5 
+5 5 0 5 
+5 5 5 5

@@ -1,0 +1,14 @@
+#2820
+sir11
+
+Cerința
+Se consideră șirul 1 , -1 , 2 … definit astfel: \(f_1 =1\), \(f_2 =-1\), iar \(f_n =1-2 \cdot f _{n-1} -f_{n-2}\), dacă n≥3 (unde n este un număr natural).
+Se citește un număr natural, n ( n∈[1,10 6 ] ), și se cere să se afișeze, separați prin câte un spațiu, primii n termeni ai șirului, în ordine inversă apariției lor în acesta.
+
+Restricții
+Pentru determinarea și afișarea numerelor cerute se utilizează un algoritm eficient din punctul de vedere al spațiului de memorie și al timpului de executare; se recomandă evitarea memorării numerelor într-un tablou sau în altă structură de date similară
+în enunțul original, n∈[1,10 9 ] ; datorită dimensiunilor fișierelor obținute, limita maximă a lui n a fost redusă;
+
+Exemplu
+Input: 3
+Output: 2 -1 1

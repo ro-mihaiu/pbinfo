@@ -1,0 +1,12 @@
+#2842
+Triplete1
+
+Cerința
+Se consideră subprogramul triplete , cu un singur parametru, n , prin care primeşte o valoare naturală din intervalul [2,10 4 ] . Subprogramul afișează pe ecran toate tripletele de numere naturale (x,y,z) cu proprietatea că x<y<z și x·y+y·z=n . Fiecare triplet se afișează pe câte o linie a ecranului, iar numerele din fiecare triplet sunt separate prin câte o virgulă și încadrate între paranteze rotunde.
+Scrieți definiţia completă a subprogramului.
+
+Exemplu
+Input: (0,1,8)
+(0,2,4)
+(1,2,3)
+Output: None

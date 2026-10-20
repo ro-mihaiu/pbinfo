@@ -1,0 +1,12 @@
+#2694
+MinMax2
+
+Cerința
+Se dau 2 numere naturale cu exact 3 cifre fiecare, să se afișeze cel mai mare și cel mai mic număr de două cifre scris cu o cifră din primul număr și cu o cifră din al doilea.
+
+Restricții
+100 ≤ a ≤ b ≤ 999
+
+Exemplu
+Input: 123 912
+Output: 93 11

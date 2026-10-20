@@ -1,0 +1,15 @@
+#2708
+verifparitate
+
+Cerința
+Se citesc n numere naturale. Determinați pentru fiecare dintre ele dacă este par sau impar.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite se pot reprezenta pe 64 de biți, fără semn;
+se recomandă utilizarea operațiilor pe biți
+
+Exemplu
+Input: 5
+1 2 3 4 5
+Output: 1 0 1 0 1

@@ -1,0 +1,15 @@
+#1582
+max_min
+
+Cerința
+Se citesc de la tastatură n numere naturale. Să se determine numărul a cărui sumă a cifrelor este cea mai mare, respectiv cea mai mică.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite sunt mai mici decât 2.000.000.000
+dacă există mai multe numere cu aceeași sumă minimă/maximă se va afișa primul găsit
+
+Exemplu
+Input: 5 145 225 198 326 874
+Output: 225
+874

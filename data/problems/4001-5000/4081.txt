@@ -1,0 +1,33 @@
+#4081
+alpinistii
+
+Cerința
+Cunoscând matricea binară ce codifică versantul, determinați: 1) Numărul maxim de spații sigure ce pot forma o zonă-adăpost de pe versant 2) Numărul maxim de spații sigure dintr-o zonă-adăpost dreptunghiulară corespunzătoare unui dreptunghi format doar din valori de 0 din matricea dată.
+
+Restricții
+1 ≤ n ≤ 200
+1 ≤ m ≤ 200
+în matrice sunt doar valori de 0 și 1
+Pentru rezolvarea corectă a cerinței 1 se acordă 40 puncte, iar pentru cerința 2 se acordă 60 puncte.
+
+Exemplu
+Input: 1
+7 8
+1 1 1 1 1 1 1 1 
+1 0 0 1 1 1 1 0 
+1 1 0 1 0 0 0 1 
+1 1 0 1 0 0 1 1 
+0 1 1 0 0 0 0 1 
+0 0 1 0 0 0 0 1 
+1 0 0 1 1 1 1 1
+Output: 13
+Input: 2
+7 8
+1 1 1 1 1 1 1 1 
+1 0 0 1 1 1 1 0 
+1 1 0 1 0 0 1 1 
+1 1 0 1 0 0 0 1 
+0 1 1 0 0 0 0 1 
+0 0 1 0 0 0 0 1 
+1 0 0 1 1 1 1 1
+Output: 9

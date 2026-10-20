@@ -1,0 +1,21 @@
+#4552
+MatrixReloaded
+
+Cerința
+Pentru a evada (din nou) din Matrix, Neo trebuie să străbată un labirint reprezentat de o matrice cu n linii și m coloane. Fiecare celulă a labirintului este marcată cu o cifră în baza 10. Pozițiile marcate prin cifre pare pot fi parcurse de Neo, iar cele marcate cu cifre impare nu, deoarece acolo sunt agenți ai lui Mr. Anderson. De asemenea, Neo nu poate să treacă de mai multe ori prin aceeași celulă, deoarece ar fi descoperit de către Mr. Anderson. Inițial, Neo se află în celula de coordonate (x, y) , cunoscută, iar pentru a putea evada, Neo trebuie să străbată exact z celule ale labirintului.
+Pentru a deruta agenții lui Mr. Anderson Neo se poate deplasa doar pe valori vecine pe diagonale. Dacă se află în poziția (i,j) , atunci el poate merge în pozițiile (i-1,j-1) , (i+1,j+1) , (i-1,j+1) și (i+1,j-1) .
+Neo vrea să știe numărul total de moduri în care poate parcurge labirintul. Dacă îl ajutați să calculeze acest număr, atunci Neo va insista pe lângă Morpheus să vă aducă bomboane roșii și albastre.
+
+Restricții
+1 ≤ n,m ≤ 10
+elementele matricii sunt cuprinse între 0 și 9
+poziția (x,y) are valoare pară
+
+Exemplu
+Input: 4 5
+8 6 0 3 4
+0 4 4 2 1
+7 5 2 3 2
+4 3 9 0 3
+2 2 5
+Output: 4

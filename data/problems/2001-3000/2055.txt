@@ -1,0 +1,36 @@
+#2055
+ace
+
+Cerința
+1. Câte ace vede camera de luat vederi dacă se poate roti în plan vertical, doar în direcțiile N și V? 2. Câte ace vede camera de luat vederi dacă se poate roti în orice plan și în orice direcții?
+
+Restricții
+2 ≤ N ≤ 1000
+2 ≤ M ≤ 1000
+Elementele matricei sunt numere naturale nenule mai mici decât 1000 , cu excepția numărului de pe linia N și coloana M care este 0 .
+Pentru rezolvarea corectă a cerinței 1 se acordă 20 puncte, pentru rezolvarea corectă a cerinței 2 se acordă 70 de puncte, iar din oficiu se acordă 10 de puncte.
+Pentru cerința 2 există teste în valoare de 20 puncte cu N,M ≤ 50 .
+Pentru cerința 2 există teste în valoare de 45 puncte cu N,M ≤ 100 .
+
+Exemplu
+Input: 1
+4 4
+8 5 4 7
+2 7 4 6
+5 5 3 2
+6 6 3 0
+Output: 3
+Input: 2
+4 4
+8 5 4 7
+2 7 4 6
+5 5 3 2
+6 6 3 0
+Output: 11
+Input: 2
+4 3 
+5 4 7
+6 4 6
+5 3 2
+6 3 0
+Output: 8

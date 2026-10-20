@@ -1,0 +1,19 @@
+#1618
+Cifre12
+
+Cerința
+Cunoscând un număr natural N afișat cu ajutorul mai multor indicatoare numerice, să se scrie un program care determină:
+Numărul de segmente aprinse pentru afișarea numărului N .
+Numărul de numere distincte mai mari decât N ,ce se pot forma prin aprinderea a cel puțin unui segment în plus, față de cele utilizate pentru afișarea numărului N , fără a folosi alte indicatoare numerice, și fără a stinge niciun segment dintre cele deja aprinse.
+
+Restricții
+10 ≤ N ≤ 10 19
+20% din teste vor avea valoarea V = 1 , iar 80% din teste vor avea valoarea V = 2 .
+
+Exemplu
+Input: 1 
+823
+Output: 17
+Input: 2
+823
+Output: 5

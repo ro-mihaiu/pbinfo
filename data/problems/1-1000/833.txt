@@ -1,0 +1,12 @@
+#833
+varste copii
+
+Cerința
+Fiind date vârstele a doi copii ( a și b ) afișați care dintre ei este cel mai mare și cu cât.
+
+Restricții
+1 ≤ a,b ≤ 100
+
+Exemplu
+Input: 5 8
+Output: Al doilea copil este mai mare cu 3 ani

@@ -1,0 +1,14 @@
+#2734
+elimrep
+
+Cerința
+Se citește un șir cu n elemente, numere întregi. Să se șteargă elementele care se repetă, păstrându-se doar primul de la stânga la dreapta.
+
+Restricții
+1 ≤ n ≤ 1000
+valoarea absolută a elementelor șirului va fi mai mică decât 1.000.000.000
+
+Exemplu
+Input: 6
+1 2 3 2 4 5
+Output: 1 2 3 4 5

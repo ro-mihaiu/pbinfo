@@ -1,0 +1,14 @@
+#132
+elempp
+
+Cerința
+Să se afișeze elementele din șir care au proprietatea că primele două cifre din scrierea zecimală formează un pătrat perfect.
+
+Restricții
+1 ≤ n ≤ 20
+numerele de pe a doua linie a fişierului de intrare vor fi mai mici decât 1.000.000.000 și au cel puțin două cifre
+
+Exemplu
+Input: 5
+253 16 225 100 3678
+Output: 253 16 3678

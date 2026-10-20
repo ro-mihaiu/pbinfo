@@ -1,0 +1,16 @@
+#2687
+ultimacifraprimacifra
+
+Cerința
+Se citesc n numere naturale, să se pe afișeze pe câte o linie, fiecare pereche de numere consecutive care au ultima cifră egală cu prima cifra a numărului urmator.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+12 213 214 412 212
+Output: 12 213 
+214 412
+412 212

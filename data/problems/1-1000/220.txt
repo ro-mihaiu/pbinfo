@@ -1,0 +1,18 @@
+#220
+prodmax
+
+Cerința
+Să se determine numerele de ordine ale coloanelor pentru care produsul elementelor este maxim.
+
+Restricții
+2≤m,n≤100
+numere de ordine ale liniilor sunt între 1 şi m
+numere de ordine ale coloanelor sunt între 1 şi n
+
+Exemplu
+Input: 4 4
+2 1 1 0
+1 1 1 1
+2 2 2 1
+1 2 1 1
+Output: 1 2

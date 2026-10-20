@@ -1,0 +1,13 @@
+#3095
+b16rec
+
+Cerința
+Se dă un număr n în baza 16 . Să se transforme acest număr în baza 10 , folosind un subprogram recursiv.
+
+Restricții
+reprezentarea în baza 10 a numărului dat este un număr natural de maximum 18 cifre.
+cifrele în baza 16 sunt : 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F .
+
+Exemplu
+Input: FF034B
+Output: 16712523

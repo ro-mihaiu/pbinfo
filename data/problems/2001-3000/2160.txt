@@ -1,0 +1,16 @@
+#2160
+Prize
+
+Cerința
+Cunoscând configurația prelungitoarelor să se determine numărul maxim de echipamente ce pot fi alimentate la curentul electric.
+
+Restricții
+1 ≤ N ≤ 1000
+1 ≤ numărul de prize dintr-un prelungitor ≤ 5 000 000
+
+Exemplu
+Input: 3
+3
+2
+5
+Output: 8

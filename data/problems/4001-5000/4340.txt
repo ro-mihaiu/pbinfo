@@ -1,0 +1,29 @@
+#4340
+hotel
+
+Cerința
+1. DSP solicită determinarea numărului maxim de pacienți care vor putea fi primiţi în hotel conform solicitării trimise. 2. DSP solicită o listă cu numerele de ordine a pacienților din lista trimisă, care vor putea fi cazați. 3. Care este cea mai lungă secvență de pacienți din lista trimisă de DSP care nu au putut fi cazați. Afișați lungimea secvenței, precum și numărul de ordine al primului pacient al secvenței.
+
+Restricții
+1 ≤ k ≤ 100
+1 ≤ z ≤ 365
+1 ≤ m ≤ z
+1 ≤ n ≤ 1000
+solicitările de cazare corespund numai celor z zile din perioada de utilizare a hotelului, ceea ce înseamnă că un pacient nu poate fi cazat mai puțin de m zile şi acestea trebuie să facă parte din perioada de z zile
+cel puțin un pacient poate fi cazat, iar dacă toți pacienții au fost cazați, la cerința 3 se vor afișa două valori 0
+cerința 1 – 39 puncte; cerința 2 – 30 puncte; cerința 3 – 21 puncte
+10 puncte se acordă pentru testele din enunț
+
+Exemplu
+Input: 1
+2 7 8 365
+1 10 2 11 1 3 4 18
+Output: 5
+Input: 2
+2 7 8 365
+1 10 2 11 1 3 4 18
+Output: 1 5 2 4 8
+Input: 3
+2 7 8 365
+1 10 2 11 1 3 4 18
+Output: 2 6

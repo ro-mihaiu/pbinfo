@@ -1,0 +1,15 @@
+#603
+Vraja
+
+Cerința
+De-a lungul bulevardului sunt n arbori, numerotați de la 1 la n , pentru fiecare cunoscându-se înălțimea, exprimată în centimetri. Primarul dorește ca înălțimile arborilor să fie în ordine descrescătoare, și pentru aceasta apelează la vrăjitorul angajat al primăriei, care, pentru un anumit arbore poate să facă o vrajă astfel încât arborele să crească cu h centimetri. Determinați numărul minim de vrăji necesare ca înălțimile arborilor să fie în ordine descrescătoare.
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ h ≤ 1000
+înălțimile arborilor sunt numere naturale nenule mai mici decât 1.000.000
+
+Exemplu
+Input: 4 2
+2 3 3 4
+Output: 4

@@ -1,0 +1,12 @@
+#1458
+ecuatii_grad_2
+
+Cerința
+Dându-se o ecuaţie de gradul 2, să se scrie un program care determină soluţiile acestei ecuaţii.
+
+Restricții
+a, b, c ∈ [-10 3 , 10 3 ] , a≠0
+Dacă valorile a şi b nu sunt precizate (ex: x^2+x+1=0 ), acestea vor fi egale cu 1 sau -1 , în funcţie de semn ( vedeţi exemplele )
+Dacă ecuaţia are 2 soluţii reale, se va afişa cea mai mică, urmată de cea mai mare
+
+Exemplu

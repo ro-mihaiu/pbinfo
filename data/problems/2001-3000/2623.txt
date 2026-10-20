@@ -1,0 +1,15 @@
+#2623
+lr
+
+Cerința
+Să se determine numărul elementelor LR din șir.
+
+Restricții
+3 ≤ n ≤ 100 000
+cele n numere citite vor fi mai mici decât 1.000.000
+Nu uitați că elementele a[1] și a[n] nu sunt LR .
+
+Exemplu
+Input: 12
+6 4 2 7 10 8 9 14 29 30 52 50
+Output: 4

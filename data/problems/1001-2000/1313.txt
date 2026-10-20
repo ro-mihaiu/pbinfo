@@ -1,0 +1,20 @@
+#1313
+Produs_Matrice
+
+Cerința
+Se dau dimensiunile a două matrice, A și B și valorile acestora. Calculați produsul lor .
+
+Restricții
+1 ≤ n , m , p ≤ 100
+-10.000 ≤ A[i][j] , B[i][j] ≤ 10.000
+
+Exemplu
+Input: 2 3
+1 -2 3
+0 1 -1
+2
+3 1
+-1 -1
+0 1
+Output: 5 6 
+-1 -2

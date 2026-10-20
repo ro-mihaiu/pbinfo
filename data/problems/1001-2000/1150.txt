@@ -1,0 +1,14 @@
+#1150
+VerifPareDivImp
+
+Cerința
+Se dă un şir cu n elemente, numere naturale. Folosind metoda Divide et Impera să se verifice dacă toate elementele şirului sunt pare.
+
+Restricții
+1 ≤ n ≤ 100
+elementele şirului vor fi mai mici decât 10000
+
+Exemplu
+Input: 5
+2 8 6 10 8
+Output: DA

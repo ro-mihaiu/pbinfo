@@ -1,0 +1,16 @@
+#4858
+diviz
+
+Cerința
+Subprogramul diviz are un singur parametru, n prin care primește un număr natural (n ∈ [1, 1.000.000.000]). Subprogramul returnează cel mai mare divizor al lui n care este pătrat perfect. Scrieți definiția completă a subprogramului C/C++.
+
+Restricții
+n ∈ [1, 1.000.000.000]
+
+Exemplu
+Input: 72
+Output: 36
+Input: 16
+Output: 16
+Input: 15
+Output: 1

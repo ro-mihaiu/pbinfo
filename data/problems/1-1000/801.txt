@@ -1,0 +1,12 @@
+#801
+EliminareSpatii
+
+Cerința
+Să se afişeze şirul obţinut după eliminarea din șir unor spații, astfel încât între cuvinte să fie un singur spațiu și să nu nu existe spații înainte de primul cuvânt și nici după ultimul.
+
+Restricții
+șirul dat va conține cel mult 255 caractere, litere mici ale alfabetului englez și spații
+
+Exemplu
+Input: in vacanta plec    la         mare
+Output: in vacanta plec la mare

@@ -1,0 +1,21 @@
+#1950
+PXP
+
+Cerința
+Se dă un şir format din N numere naturale nenule. Spunem că un număr e fericit dacă se poate scrie ca suma pătratelor a două numere naturale. Notăm cu K numărul numerelor fericite din şir şi cu P produsul acestora. Aflaţi numărul K precum şi două numere naturale care au suma pătratelor egală cu P E , unde E este un număr natural dat.
+
+Restricții
+1 ≤ N ≤ 100.000
+1 ≤ E ≤ 3
+numerele din şir sunt mai mici decât 1.000.001 şi cel puţin un număr din şir este fericit
+1 ≤ P ≤ 10 36
+pentru a doua cerinţă se va afişa orice soluţie, fiecare test având soluţie
+pentru prima cerinţă se acordă 40p , iar pentru a doua 60p
+30% din teste au P ≤ 1000000 , iar alte 40% au P ≤ 10 18
+80% din teste au E=1 , 10% au E=2 şi 10% au E=3
+
+Exemplu
+Input: 5 1
+11 2 13 7 5
+Output: 3
+3 11

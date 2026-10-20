@@ -1,0 +1,15 @@
+#3936
+determinantb
+
+Cerința
+Se dau n numere întregi, \( a_{1}, a_{2}, …, a_{n} \).
+Calculați valoarea determinantului \( \begin{vmatrix} 1 & 1 & 1 & … & 1 & 1\\ a_{1} & a_{2} & a_{3} & … & a_{n-1} & a_{n}\\ a_{1}^{2} & a_{2}^{2} & a_{3}^{2} & … & a_{n-1}^{2} & a_{n}^{2}\\ … & … & … & … & … & …\\ a_{1}^{n-2} & a_{2}^{n-2} & a_{3}^{n-2} & … & a_{n-1}^{n-2} & a_{n}^{n-2}\\ a_{1}^{n-1} & a_{2}^{n-1} & a_{3}^{n-1} & … & a_{n-1}^{n-1} & a_{n}^{n-1} \end{vmatrix} \).
+
+Restricții
+2 ≤ n ≤ 1.000
+-100 ≤ a i ≤ 100
+
+Exemplu
+Input: 3
+1 2 3
+Output: 2

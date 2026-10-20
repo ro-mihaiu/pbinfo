@@ -1,0 +1,30 @@
+#1496
+Harta1
+
+Cerința
+Fiind dată o hartă codificată ca mai sus. să se determine:
+a) Suprafața totală a apei. b) Lista țărilor cu cele mai multe departamente, ordonată crescător.
+
+Restricții
+1 ≤ N , M ≤ 100
+1 ≤ K ≤ 10
+O zonă de uscat poate conține mai multe departamente dintr-o aceeași țară.
+Pentru rezolvarea corectă a cerinței a) se acordă 20% din punctaj, pentru rezolvarea corectă a ambelor cerințe se acordă punctajul maxim.
+
+Exemplu
+Input: 1
+5 5 3
+1 1 2 0 0
+3 1 0 2 2
+3 0 0 0 2
+0 1 3 0 0
+0 2 2 1 0
+Output: 11
+Input: 2
+5 5 3
+1 1 2 0 0
+3 1 0 2 2
+3 0 0 0 2
+0 1 3 0 0
+0 2 2 1 0
+Output: 1 2

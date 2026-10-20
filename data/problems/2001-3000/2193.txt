@@ -1,0 +1,16 @@
+#2193
+100m
+
+Cerința
+Considerând N atleți, ce participă la o cursă de 100 metri plat, identificați prin numerele 1 , 2 , …, N , să se scrie un program care determină numărul P al clasamentelor distincte care pot fi obținute după finalizarea cursei. De exemplu, pentru N = 2 , se pot obține 3 clasamente distincte: (1,2) , (2,1) , (1=2) ; unde (1=2) reprezintă situația când ambii atleți s-au clasat la egalitate.
+
+Restricții
+2 ≤ N ≤ 5 000
+Două clasamente se consideră distincte dacă diferă prin cel puțin o poziție
+Pentru teste în valoare de 32 de puncte N ≤ 500
+
+Exemplu
+Input: 3
+Output: 13
+Input: 1771
+Output: 74140

@@ -1,0 +1,17 @@
+#2903
+Smartphone1
+
+Cerința
+Toată lumea cunoaște modelul de deblocare a telefoanelor sub formă de o tablou cu 3 linii și 3 coloane. Se pot trasa diferite modele de deblocare, dintr-un punct putând merge la oricare vecin al lui. (Sunt maximum 8 vecini de exemplu pentru punctul din mijloc și 3 vecini pentru un punct din colț).
+Dacă numerotăm punctele ca mai sus, fiecărui model de deblocare îi corespunde un număr cu cifrele de la 1 la 9 , cifrele numărului fiind în ordinea în care sunt parcurse punctele. De exemplu, numărul 98569 și 42536 corespunde unor modele de deblocare, iar numerele 98365 și 1223 nu corespund unor astfel de modele (în numărul 98365 cifrele 8 și 3 nu se învecinează, iar în 1223 cifra 2 apare pe două poziții consecutive).
+Dându-se n numere naturale cu toate cifrele nenule, să se determine câte dintre ele corespund unui model de deblocare.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere date au cel puțin una și cel mult nouă cifre nenule
+în tabloul dat, două cifre se învecinează pe linie, coloană sau diagonală;
+
+Exemplu
+Input: 4
+98569 42536 98365 1223
+Output: 2

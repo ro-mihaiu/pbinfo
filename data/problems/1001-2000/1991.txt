@@ -1,0 +1,16 @@
+#1991
+Trepte2
+
+Cerința
+O persoana are de urcat n trepte. Ştiind că de pe treapta i poate trece pe treapta i + 1, i + 2, ..., i + (k - 1) sau i + k , aflaţi în câte moduri poate urca cele n trepte. (inițial este pe treapta 1 )
+
+Restricții
+1 < n ≤ 100.000
+1 ≤ k ≤ n - 1
+deoarece numărul va fi prea mare sa va afișa modulo 9001 .
+
+Exemplu
+Input: 2 2
+Output: 1
+Input: 4 2
+Output: 3

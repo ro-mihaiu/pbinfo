@@ -1,0 +1,12 @@
+#280
+PalMax
+
+Cerința
+Se dau mai multe numere naturale. Determinaţi cel mai mare număr palindrom aflat printre numerele date şi de câte ori apare.
+
+Restricții
+fiecare dintre numerele citite va avea cel mult 9 cifre;
+
+Exemplu
+Input: 78 56 5665 98789 5665 88 98789 12521 5665 0
+Output: 98789 2

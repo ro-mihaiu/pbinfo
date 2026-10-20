@@ -1,0 +1,15 @@
+#4219
+Egalitate
+
+Cerința
+Scrieţi definiția completă a subprogramului C++ cu antetul:
+int Egalitate(int a[], int n)
+Subprogramul returnează numărul minim de elemente care pot fi eliminate astfel încât fiecare număr rămas în vector să aibă aceeași frecvență de apariție. De exemplu, dacă a = (5,3,1,5,5,1,1,5) atunci funcția va returna 2 , deoarece se poate elimina un 5 și un 3 și rămâne a=(1,5,5,1,1,5) , ambele numere având acum frecvența 3 .
+
+Restricții
+0 ≤ a[i] ≤ 1.000
+2 ≤ n ≤ 10.000
+elementele vectorului a sunt indexate de la 0
+Puteți utiliza în rezolvare orice structură de date.
+
+Exemplu

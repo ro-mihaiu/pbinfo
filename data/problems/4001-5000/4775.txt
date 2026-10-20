@@ -1,0 +1,20 @@
+#4775
+traseu4
+
+Cerința
+Cunoscând numărul N de obiective turistice din traseu și cele N coduri ale lor ( c[1] , c[2] , …, c[N] ), să se determine: 1) Obiectivele turistice de popularitate maximă 2) Lungimea maximă a unei secvențe populare de forma ( c[i],c[i+1], ..., c[j] ), 1 ≤ i ≤ j ≤ N
+
+Restricții
+1 ≤ N ≤ 1000
+Numerele de pe al doilea rând din fișierul de intrare sunt nenule și mai mici sau egale cu 1.000.000
+Pentru cerința 1 se acordă 45 de puncte
+Pentru cerința 2 se acordă 45 de puncte
+Se acordă 10 puncte pentru exemple
+
+Exemplu
+Input: 8 1
+12 6 30 18 10 50 15 70
+Output: 30 70
+Input: 8 2
+12 6 30 18 10 50 15 70
+Output: 5

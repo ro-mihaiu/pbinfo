@@ -1,0 +1,14 @@
+#2306
+numere22
+
+Cerința
+Se dau două numere prime p , q și n numere naturale nenule. Determinați exponentul maxim E pentru care numărul \( p^E \cdot q^E\) divide produsul celor n numere date.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 7 2 5
+72 56 70 9 700
+Output: 3

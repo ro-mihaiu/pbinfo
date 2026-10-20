@@ -1,0 +1,15 @@
+#1935
+plimbare
+
+Cerința
+Gigel se plimbă pe o stradă pe care a mai fost de mai multe ori. El se plictisește și se gândește să citească numerele caselor și în ordinea inversă a cifrelor. Nu trece mult timp și Gigel observă că unele numere au o proprietate specială, sunt identice oricum ar fi citite. Astfel el se gândește să afle câte numere de pe acea stradă sunt citite identic din ambele sensuri (de la stânga la dreapta și de la dreapta la stânga).
+Fiind dat n numărul de case şi un șir de n valori naturale, reprezentând numerele inscripţionate pe cele n case, aflați numărul de numere care au proprietatea specială.
+
+Restricții
+2 ≤ n ≤ 7000
+numerele caselor vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+124 53 121 57 22
+Output: 2

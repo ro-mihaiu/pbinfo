@@ -1,0 +1,29 @@
+#2558
+shootings
+
+Cerința
+Determinați costul fiecărei trageri.
+
+Restricții
+1 ≤ N ≤ 50000
+1 ≤ T ≤ 100000
+1 ≤ X1 < X2 ≤ 100000 , 1 ≤ Y1 < Y2 ≤ 100000
+-100000 ≤ P ≤ 200000
+toate laturile dreptunghiurilor sunt paralele axei OX sau OY
+oricare două dreptunghiuri nu se intersectează (nu au nici un punct comun) și nu există dreptunghiuri incluse unul în celălalt.
+dreptunghiurile pot fi pătrate
+dreptunghiurile au arie diferită de 0
+pot exista trageri identice
+de remarcat că numerele din fișierul de ieșire sunt întregi, non-negative
+
+Exemplu
+Input: 4
+1 1 4 3
+2 4 5 7
+6 3 10 5
+8 1 9 2
+2
+0 3
+9 1
+Output: 18
+9

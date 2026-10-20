@@ -1,0 +1,17 @@
+#2709
+Excursie2
+
+Cerința
+Se organizează o excursie cu n participanți cu numere de ordine unice de la 1 la n pentru care se folosesc 3 mijloace de transport. Să se determine dacă se pot aranja participanții astfel încât suma numerelor de ordine din cele trei mașini să fie aceeași. Dacă este posibilă aranjarea, se vor afișa pe 3 linii numerele de ordine separate prin spații, numerele dintr-o mașină pe câte un rând, altfel se afișează NU .
+
+Restricții
+1 ≤ n ≤ 1001
+ordinea afișării nu contează atât timp cât ea este corectă.
+
+Exemplu
+Input: 5
+Output: 5
+2 3
+1 4
+Input: 7
+Output: NU

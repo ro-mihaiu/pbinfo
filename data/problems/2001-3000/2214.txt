@@ -1,0 +1,15 @@
+#2214
+cifre001
+
+Cerința
+Se dau două numere naturale. Dacă cele două numere au acelaşi număr de cifre, să se afle pe câte poziţii aceste cifre coincid.
+
+Restricții
+cele două numere citite vor fi mai mici decât 2.000.000.000
+
+Exemplu
+Input: 2345 17825
+Output: NU
+Input: 102789 307786
+Output: DA
+3

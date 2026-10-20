@@ -1,0 +1,13 @@
+#282
+PozMax
+
+Cerința
+Se dă un şir cu n elemente, numere reale, numerotate de la 1 la n . Determinaţi numărul de ordine al primei şi al ultimei apariţii a valorii maxime din şir.
+
+Restricții
+n este un număr natural cu cel mult 9 cifre;
+
+Exemplu
+Input: 8
+3.5 7 -4 7 2 7 6.3 5
+Output: 2 6

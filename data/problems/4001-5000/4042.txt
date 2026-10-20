@@ -1,0 +1,13 @@
+#4042
+b16_rec
+
+Cerința
+Se citeste un număr natural n în baza 10 . Să se transforme acest număr în baza 16 , folosind un subprogram recursiv.
+
+Restricții
+reprezentarea în baza 10 a numărului dat este un număr natural cel mult egal cu 4.294.967.295 .
+cifrele în baza 16 sunt : 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F .
+
+Exemplu
+Input: 16712523
+Output: FF034B

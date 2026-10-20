@@ -1,0 +1,14 @@
+#4763
+CuvinteLungimiEgale
+
+Cerința
+Scrieți un program care afișează pe ecran mesajul DA și un număr natural n , separate printr-un spațiu, dacă toate cuvintele din text au câte n litere, sau mesajul NU în cazul în care nu toate cuvintele au același număr de litere.
+
+Restricții
+lungimea textului este cel mult 200
+
+Exemplu
+Input: Ana are cel mai bun mar
+Output: DA 3
+Input: Ana are cel mai dulce mar
+Output: NU

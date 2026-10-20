@@ -1,0 +1,25 @@
+#3636
+Hill Climb
+
+Cerința
+În acest univers virtual, până și dealurile pot fi modificate la cel mai mic ordin al combatanților ezoterici.
+Se da un vector a cu n numere naturale și scopul nostru este să-l transformăm într-un vector descrescător. Pentru a-l face descrescător, avem la dispoziție următoarea operatie:
+La o parcurgere a șirului de la poziția 1 la poziția n , vom proceda în felul următor pentru fiecare poziție i , în ordine crescătoare: dacă a[i] ≤ a[i+1] , vom atribui lui a[i] = a[i+1] .
+De exemplu, dacă avem vectorul [4, 1, 5, 3, 3] , începem la poziția 1 , apoi mergem la poziția 2 , valoarea lui a[2] devine 5 , apoi mergem la poziția 3 , apoi la poziția 4 și în cele din urmă la poziția 5 .
+După modificări, vectorul va avea următoarele valori: [4, 5, 5, 3, 3] .
+Trebuie să aflați câte parcurgeri sunt necesare pentru a transforma vectorul într-un vector descrescător.
+
+Restricții
+1 ≤ t ≤ 10
+2 ≤ n ≤ 100000
+cele n numere citite sunt cuprinse între -1.000.000.000 și 1.000.000.000
+pentru teste valorând 20 de puncte, 2 ≤ n ≤ 1000
+
+Exemplu
+Input: 2
+5
+4 1 5 3 3
+4
+5 5 4 2
+Output: 2
+0

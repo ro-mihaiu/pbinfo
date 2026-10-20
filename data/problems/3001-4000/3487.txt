@@ -1,0 +1,14 @@
+#3487
+Dealuri
+
+Cerința
+Fie un șir de numere oarecare. Un subșir de numere se numește deal dacă valorile din care este alcătuit sunt în ordine crescătoare. După fiecare deal urmează o prăpastie – o valoare mai mică decât precedenta – de unde poate începe un nou deal.
+Fiind data o secvență oarecare de numere ce se termină cu valoarea zero, să se afișeze valorile din care este alcătuit fiecare deal în ordine inversă apariției. Dupa ce s-a terminat primul deal în ordinea dorită, se va afișa al doilea, apoi al treilea, etc.
+
+Restricții
+Un deal nu are mai mult de 10.000 de elemente.
+Valorile din care sunt formate dealurile sunt numere naturale nenune mai mici decât 2 63 .
+
+Exemplu
+Input: 1 2 5 3 7 2 4 8 123456789101112 4 0
+Output: 5 2 1 7 3 123456789101112 8 4 2 4

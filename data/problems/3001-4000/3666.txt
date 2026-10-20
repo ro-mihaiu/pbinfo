@@ -1,0 +1,12 @@
+#3666
+vernrimpdiv
+
+Cerința
+Se dă n , număr natural nenul. Să se testeze dacă n are număr impar de divizori.
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 4
+Output: da

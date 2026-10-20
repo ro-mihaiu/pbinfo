@@ -1,0 +1,19 @@
+#606
+Culori
+
+Cerința
+Gigel a primit de la bunicul său un trenuleț electric cu n vagoane colorate în diverse culori, identificate prin numere întregi. Gigel consideră că trenul este frumos colorat dacă toate vagoanele colorate la fel sunt învecinate. Acum vă roagă să-i spuneți cu câte culori diferite au fost colorate vagoanele și dacă trenul este frumos colorat.
+
+Restricții
+1 ≤ n ≤ 1000
+culorile vagoanelor sunt identificate prin numere naturale mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+2 2 1 6 6
+Output: 3
+DA
+Input: 5
+2 2 6 2 6
+Output: 2
+NU

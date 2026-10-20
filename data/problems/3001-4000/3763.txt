@@ -1,0 +1,21 @@
+#3763
+Puternic
+
+Cerința
+Scrieți un program care citește un număr natural N și apoi un șir de N numere naturale și determină: 1. Câte numere puternice sunt în șirul dat; 2. Care sunt perechile de numere din șirul rămas după ștergerea numerelor puternice, numere egal departate de capetele șirului, prin concatenarea cărora se obține un număr puternic.
+
+Restricții
+1 ≤ N ≤ 100.000
+1 ≤ X 1 , X 2 , …, X N ≤ 1.000.000.000
+Pentru rezolvarea corectă a primei cerințe se obțin 30 de puncte, iar pentru rezolvarea corectă a celei de a doua cerințe se obțin 70 de puncte.
+
+Exemplu
+Input: 1
+8
+100 28 16 11 484 25 162 27
+Output: 5
+Input: 2
+11
+12 9 1 8 19 6 3 4 49 21 5
+Output: 12 5
+1 21

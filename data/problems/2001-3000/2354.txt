@@ -1,0 +1,25 @@
+#2354
+autostrada
+
+Cerința
+Cunoscând N numărul de localități din județ, acestea fiind codificate prin numere naturale din mulțimea 1 , 2 , …, N și M numărul de șosele care leagă direct câte două localități ale județului, să se afle K numărul de șosele pe care nu trebuie aprobate manifestările și care sunt aceste șosele. Fiecare șosea este determinată în mod unic de două numere naturale X și Y reprezentând cele două localități legate direct de șosea.
+
+Restricții
+1 ≤ N ≤ 50
+1 ≤ M ≤ 120
+1 ≤ X, Y ≤ N
+Perechea A B este mai mică lexicografic decât perechea C D dacă A < C sau A = C și B < D
+Pentru datele de test există întotdeauna soluție
+În concurs s-au acordat 10 puncte din oficiu; aici se acordă 10 puncte pentru testul din exemplu
+
+Exemplu
+Input: 6 7
+1 2
+2 4
+1 4
+3 4
+3 5
+5 6
+3 6
+Output: 1
+3 4

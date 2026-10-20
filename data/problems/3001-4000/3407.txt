@@ -1,0 +1,15 @@
+#3407
+aoc2020
+
+Cerința
+Gigel a fost prins de doamna profesoară de matematică în timp ce se juca Art of conquest pe telefon în timpul orei de matematică. Drept pedeapsă, aceasta i-a dat să calculeze cel mai mic multiplu comun al unui șir de n numere naturale. Dorind să termine cât mai repede ceea ce are de făcut și să reia jocul fără să fie dat afară din alianță, Gigel apelează la ajutorul tău și te roagă să scrii un program care să îi rezolve problema primită ca pedeapsă.
+
+Restricții
+1 ≤ n ≤ 100
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici sau egale cu 1.000
+x are cel mult 18 cifre
+
+Exemplu
+Input: 4
+18 54 24 42
+Output: 1512

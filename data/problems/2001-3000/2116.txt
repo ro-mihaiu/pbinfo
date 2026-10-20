@@ -1,0 +1,15 @@
+#2116
+Smiley
+
+Cerința
+Dat fiind un text, să se determine numărul de smileys care apar în text.
+
+Restricții
+• Orice linie din fişierul de intrare conţine cel mult 250 de caractere. • Textul conţine cel mult 10000 de caractere.
+
+Exemplu
+Input: Salut! :) Ce mai faci? :----)))
+Ai aflat noutatile? ;-P
+-(eu ieri am aflat)
+>))))))!!!!!!!!
+Output: 4

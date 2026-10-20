@@ -1,0 +1,18 @@
+#2440
+puzzle
+
+Cerința
+Determinați care este numărul de moduri în care Mihai poate alege câte două piese dintre cele N pentru a face o operaţie în modul descris mai sus.
+
+Restricții
+2 ≤ N ≤ 100 000
+Numerele care reprezintă codificările pieselor au acelaşi număr de cifre (cel mult 5 ) și nu conțin cifra 0 .
+Într-o operaţie nu contează care dintre piese este răsturnată, ca urmare perechea formată din piesa a şi piesa b este considerată ca fiind aceeaşi cu perechea formată din piesa b şi piesa a .
+Dreptunghiul obţinut în urma unei operaţii poate avea înălţimea mai mare decât 9 .
+Pentru teste valorând 30 de puncte N ≤ 1000 .
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă punctele pentru exemplul din enunț.
+
+Exemplu
+Input: 5
+222 432 234 123 111
+Output: 3

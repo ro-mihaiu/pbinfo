@@ -1,0 +1,38 @@
+#4771
+institut
+
+Cerința
+Scrieţi un program care determină și afișează pentru datele trimise de n șantiere către institut: 1. Lista obiectelor în ordine crescătoare după categorie: se va afișa categoria și numărul total de exemplare descoperite pe toate șantierele la acea categorie. 2. Lista obiectelor descoperite în ordine crescătoare după categorie: pentru fiecare obiect se afișează categoria, materialul și numărul de exemplare descoperite, ce au aceste caracteristici.
+
+Restricții
+4 ≤ n ≤ 400
+Categoria, materialul și numărul de exemplare ale unui obiect sunt numere naturale nenule cu cel mult 2 cifre
+Numărul total de valori transmise de un șantier institutului este cel mult 600
+Numărul de descoperiri de pe toate șantierele este cel mult 10000
+Pentru datele de test, se consideră că obiectele oricăror două descoperiri diferite nu au aceeași categorie și același material
+
+Exemplu
+Input: 1 4
+10 1 6 -5 7 2 -8 2 10 3 -4
+10 2 5 -7 2 6 2 -4 1 5 -7
+6 3 8 -6 7 5 -1
+4 2 1 5 -6
+Output: 1 2
+2 11
+3 1
+7 2
+Input: 2 4
+10 1 6 -5 7 2 -8 2 10 3 -4
+10 2 5 -7 2 6 2 -4 1 5 -7
+6 3 8 -6 7 5 -1
+4 2 1 7 -6
+Output: 9
+1 5 1
+1 6 1
+2 1 7
+2 5 1
+2 6 2
+2 10 3
+3 8 1
+7 2 1
+7 5 1

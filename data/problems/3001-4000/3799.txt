@@ -1,0 +1,14 @@
+#3799
+CountNum
+
+Cerința
+Scrieți funcția care are antetul:
+vector<int> CountNum(vector<int> &a, int S)
+Funcția va returna un vector care să memoreze, în ordine crescătoare, un număr cât mai mare de numere din a care au suma mai mică sau egală cu S . Dacă există mai multe soluții se va returna vectorul care are suma elementelor minimă.
+
+Restricții
+a conține cel puțin un element
+toate elementele vectorului a sunt pozitive
+Puteți utiliza în rezolvare orice structură de date
+
+Exemplu

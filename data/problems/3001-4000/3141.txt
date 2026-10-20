@@ -1,0 +1,12 @@
+#3141
+atbash
+
+Cerința
+Se dă un șir s care conține doar litere mari. Să se aplice cifrul atbash pe el.
+
+Restricții
+1 ≤ lungimea șirului ≤ 1.000.000
+
+Exemplu
+Input: ANAAREMERE
+Output: ZMZZIVNVIV

@@ -1,0 +1,20 @@
+#588
+Dijkstra
+
+Cerința
+Se dă un graf orientat ponderat cu n noduri – în care fiecare arc are asociat un cost, număr natural strict pozitiv, și un nod p . Să se determine, folosind algoritmul lui Dijkstra, costul minim al drumului de la p la fiecare nod al grafului.
+
+Restricții
+1 ≤ n ≤ 100
+costul unui arc va fi mai mic decât 1000
+costul unui drum este egal cu suma costurilor arcelor care îl compun
+
+Exemplu
+Input: 5 4
+1 3 1
+2 1 2
+4 2 1
+4 3 8
+5 3 5
+5 4 2
+Output: 3 1 4 0 -1

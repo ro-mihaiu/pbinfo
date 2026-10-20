@@ -1,0 +1,13 @@
+#3459
+CountPrime
+
+Cerința
+Să se calculeze cate numere prime sunt în intervalul [st, dr] .
+
+Restricții
+1 ≤ st ≤ dr < 2 32
+dr - st ≤ 1.000.000
+
+Exemplu
+Input: 2 10
+Output: 4

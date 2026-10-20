@@ -1,0 +1,8 @@
+#1082
+triunghi3
+
+Cerința
+Cunoscând câte un număr de pe fiecare linie a triunghiului, determinaţi toate numerele de pe linia `n` a triunghiului.
+
+Restricții
+și precizări 1 ≤ n ≤ 1000 1 ≤ p i ≤ n+1-i , pentru 1≤i≤n Toate numerele din triunghi sunt numere naturale cu cel mult 18 cifre.

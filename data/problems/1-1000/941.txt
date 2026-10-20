@@ -1,0 +1,12 @@
+#941
+urare
+
+Cerința
+Scrie un program care afişează pe ecran o urare pentru cei dragi ţie!
+
+Restricții
+orice urare pentru cei dragi vouă va fi considerată corectă!!
+
+Exemplu
+Input: Sarbatori fericite!
+Output: Sarbatori fericite!

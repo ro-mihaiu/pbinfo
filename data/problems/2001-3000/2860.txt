@@ -1,0 +1,17 @@
+#2860
+maxvalue
+
+Cerința
+Să se determine suma maximă care se poate obține împărțind șirul în secvențe disjuncte de lungimi cel mult 6 și adunând apoi numai numerele prime.
+
+Restricții
+1 ≤ lungimea șirului de cifre ≤ 100.000
+Dacă din șir nu se pot obține numere prime suma va fi 0 .
+
+Exemplu
+Input: 37237
+Output: 7240
+Input: 44688
+Output: 0
+Input: 1234577
+Output: 123464

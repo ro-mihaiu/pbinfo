@@ -1,0 +1,16 @@
+#1456
+cuvant
+
+Cerința
+Se consideră un cuvânt format din cel puțin două și cel mult 100 de caractere, numai litere mici ale alfabetului englez.
+Scrieţi un program care citeşte de la tastatură un cuvânt de tipul precizat și afișează pe ecran mesajul DA în cazul în care cuvântul conține doar consoane şi, eventual, vocala i , sau mesajul NU în caz contrar.
+
+Exemplu
+Input: inscriptibil
+Output: DA
+Input: brr
+Output: DA
+Input: inestimabil
+Output: NU
+Input: iii
+Output: NU

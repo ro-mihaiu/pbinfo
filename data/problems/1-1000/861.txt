@@ -1,0 +1,13 @@
+#861
+Dublare
+
+Cerința
+Fie un șir de caractere. Prin dublarea șirului înțelege oglindirea sa și concatenarea oglinditului la șirul inițial. De exemplu, prin dublarea șirului arc se obține șirul arccra . Orice șir de caractere se poate obține prin dublarea de un număr de ori (eventual de zero ori) a unui șir de caractere.
+Se dă un șir de caractere s . Să se determine numărul maxim de operații de dublare care pot fi aplicate succesiv pentru a obține șirul s .
+
+Restricții
+șirul s va avea cel mult 255 caractere
+
+Exemplu
+Input: annaannaannaannaannaannaannaanna
+Output: 4

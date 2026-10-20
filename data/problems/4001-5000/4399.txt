@@ -1,0 +1,24 @@
+#4399
+Fetze
+
+Cerința
+Se dă o matrice binară de dimensiuni \(n\times m\). Determinați numărul de cvadruplete \((r_1,r_2,c_1,c_2)\) care respectă următoarele condiții: \(1\le r_1 < r_2\le N\) și \(1\le c_1 < c_2\le M\). Celulele \((r_1,c_1)\) și \((r_1,c_2)\) conțin valoarea \(1\). Celulele \((r_2,c_1)\), \((r_2,c_1+1)\), …, \((r_2,c_2)\) conțin toate valoarea \(1\).
+
+Restricții
+Pentru toate testele, se respectă \(1 \le n\cdot m \le 10^5\).
+Subtask 1, 20p : \(n,m \le 40\)
+Subtask 2, 30p : \(n,m \le 100\)
+Subtask 3, 20p : \(n,m \le 300\)
+Subtask 4, 30p : restricțiile inițiale
+
+Exemplu
+Input: 3 3
+1 0 1
+0 0 0
+1 1 1
+Output: 1
+Input: 3 4
+1 0 1 1
+1 1 1 0
+1 1 1 1
+Output: 7

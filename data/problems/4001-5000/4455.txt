@@ -1,0 +1,13 @@
+#4455
+Numarare8
+
+Cerința
+Se dă o listă cu n numere numere naturale cu trei cifre fiecare. Să se determine câte numere prime de trei cifre nu apar în lista dată.
+
+Restricții
+1 ≤ n ≤ 10.000
+
+Exemplu
+Input: 7 
+290 101 103 997 500 101 677
+Output: 139

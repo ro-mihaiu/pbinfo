@@ -1,0 +1,13 @@
+#992
+nrvocale1
+
+Cerința
+Se dă un şir cu cel mult 255 de caractere. Să se determine câte vocale conţine.
+Se va defini şi utiliza subprogramul apcar , cu doi parametri:
+s – un şir cu cel mult 255 de caractere
+c – un caracter
+care returnează numărul de apariţii ale caracterului c în şirul s .
+
+Exemplu
+Input: VULPEA11 vulpea22
+Output: 6

@@ -1,0 +1,16 @@
+#3688
+Fata Morgana
+
+Cerința
+Teodor se trezește în deșert singur, lipsit de ajutor și speriat. Fata Morgana vine la el și îi arată doi pumni, punându-l pe Teodor să aleagă unul dintre ei. Teodor e norocos și a evitat moartea sigură, dar trebuie să rezolve următoarea problemă pentru Fata Morgana.
+“Se dă un vector de n numere pozitive unde n este par. Poți rearanja numerele cum vrei. Care este valoarea maximă a produsului (v[1] - v[2]) * (v[3] - v[4]) * …. * (v[n-1] * v[n]) dintr-o aranjare optimă?”
+Fiindcă Fata Morgana nu e naivă, Teodor trebuie să afișeze cel mai mic lexicografic vector cu proprietatea dată, dar fiind lipsit de vlagă, acesta vă cere ajutorul.
+
+Restricții
+1 ≤ n ≤ 300 000
+1 ≤ v[i] ≤ 2147483647
+
+Exemplu
+Input: 4
+3 2 1 1
+Output: 1 2 1 3

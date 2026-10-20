@@ -1,0 +1,14 @@
+#130
+sortcif
+
+Cerința
+Să se ordoneze crescător elementele unui vector crescător după suma cifrelor.
+
+Restricții
+0 < n ≤ 100
+valoarea absolută a numerelor de pe a doua linie a fişierului de intrare va fi mai mică decât 2 30 .
+
+Exemplu
+Input: 6
+89 22 91 4005 51 721
+Output: 22 51 4005 91 721 89

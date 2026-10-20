@@ -1,0 +1,37 @@
+#1696
+Perechi2
+
+Cerința
+Să se verifice dacă șirul poate să aibă toate elementele egale după aplicarea unei singure operații.
+Folosind de mai multe ori operaţia admisă, să se obţină șirul cu toate elementele egale, dar valoarea egală obţinută să nu depăşească dublul valorii maxime din şirul iniţial.
+
+Restricții
+5 ≤ n < 2000 , n este impar
+0 ≤ a[i] ≤ 100 000 000 , pentru orice i=1..n
+Elementele șirului inițial nu sunt neapărat distincte, dar nu sunt nici toate egale
+Dacă există mai multe soluții, puteți afișa oricare dintre ele.
+Dacă numărul operațiilor aplicate este mai mic sau egal decât n , iar valoarea finală este de cel mult două ori cât maximul inițial și rezultatul aplicării operațiilor furnizează în șir aceeași valoare, atunci veți primi 100% din punctaj.
+Dacă numărul operațiilor este cuprins între n+1 și 2n , iar valoarea finală este de cel mult două ori cât maximul inițial și rezultatul aplicării operațiilor furnizează în șir aceeași valoare, atunci veți primi 70% din punctaj.
+Dacă numărul operațiilor este mai mare de 2n sau dacă valoarea finală depășește dublul valorii maxime inițiale, atunci veți primi 0 puncte. De asemenea, dacă în urma operațiilor aplicate nu se obține un șir cu aceeași valoare peste tot, sau dacă aplicați o operație în care pozițiile i și j nu sunt din intervalul 1..n , atunci de asemenea veți primi 0 puncte.
+Pentru teste valorând 20 de puncte vom avea C=1 . Pentru restul testelor vom avea C=2 , din care pentru 30 de puncte șirul va fi format din numere distincte cuprinse între 1 și n .
+
+Exemplu
+Input: 1
+5
+8 2 8 8 2
+Output: 2 5 6
+Input: 2
+5
+8 5 6 3 10
+Output: 1 2 2
+3 4 4
+2 4 3
+Input: 1
+5
+8 2 7 8 2
+Output: 0
+Input: 2
+3
+1 2 3
+Output: 1 3 1
+1 2 2

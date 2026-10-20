@@ -1,0 +1,17 @@
+#1388
+Colecție
+
+Cerința
+Dudu este un colecționar înrăit de vederi. În decursul anilor, a reușit să colecționeze un număr n de vederi. Pentru a-i fi mai ușor să le identifice, el le-a atribuit fiecărei vederi câte un număr (de la 1 la n ).
+Într-o zi, Dudu a constatat faptul că prin colecția sa se află vederi care se repetă (sunt marcate cu același număr). Fiind, un colecționar care se respectă, el dorește să păstreze doar acele vederi care sunt unice în colecția sa (prin „ unic ” înțelegem o vedere al cărei număr atribuit este unic).
+„ Ajută-mă, te rog! ”, spune Dudu. El vă cere să aflați care este numărul de vederi unice din colecția sa.
+
+Restricții
+1 ≤ n ≤ 9.000.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici sau egale cu n
+Dudu vă mulțumește din suflet pentru ajutorul oferit!
+
+Exemplu
+Input: 10
+4 3 8 9 3 8 4 2 1 1
+Output: 2

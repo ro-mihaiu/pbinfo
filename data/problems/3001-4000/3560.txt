@@ -1,0 +1,19 @@
+#3560
+Stampile
+
+Cerința
+Pe fiecare din porțile celor n ( n <= 100 ) case dintr-un sat se scrie câte un număr, prin aplicarea unor ștampile cu cifre. Exemplu: pentru a scrie numărul 3404 se vor aplica ștampilele 3 și 0 câte o dată și ștampila 4 de două ori.
+Se citesc n numere naturale (cele ce se scriu pe porți) și se cer următoarele:
+a) Care este ștampila cea mai puțin folosită? b) Care este ordinea celor 10 ștampile (cu cele 10 cifre), începând cu cea mai uzată și terminând cu cea mai puțin folosită? c) Care numere au folosit exact două ștampile?
+
+Restricții
+1 ≤ n ≤ 100
+Pentru a doua cerintă, dacă există mai multe ștampile care sunt la fel de uzate, atunci ele se vor afișa în ordinea descrescătoare a numărului lor.
+Cele n numere citite vor fi cuprinse între 1 și 99999
+
+Exemplu
+Input: 7
+36411 78978 7824 33 6200 200 5
+Output: 5
+0 8 7 3 2 6 4 1 9 5
+200

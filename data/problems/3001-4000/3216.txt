@@ -1,0 +1,12 @@
+#3216
+descdiv
+
+Cerința
+Dat n , un număr natural nenul, să se determine numărul de posibilități de a-l scrie pe n ca sumă de divizori ai săi. Pentru că acest număr poate fi foarte mare, se va determina modulo 123457 .
+
+Restricții
+1 ≤ n ≤ 10.000
+
+Exemplu
+Input: 6
+Output: 8

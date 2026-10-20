@@ -1,0 +1,21 @@
+#4248
+Game player
+
+Cerința
+Un jucător de jocuri video pe calculator vrea să ajungă primul în clasament. El cunoaște punctajele celorlalți jucători și vrea să știe care este poziția sa în clasament după fiecare rundă a jocului. Jucătorul cu cel mai mare punctaj este clasat pe prima poziție. Dacă sunt jucători cu același punctaj se consideră că se află pe același loc clasament.
+De exemplu: dacă sunt 4 jucători cu punctajele: 120 , 100 , 80 , 80 clasamentul celor 4 jucători este 1 , 2 , 3 , 3 .
+
+Restricții
+1 ≤ r,n ≤ 200000
+punctajele jucătorilor vor fi mai mici decât 1.000.000.000
+cele n valori ale jucătorilor se află în ordine descrescătoare în clasament
+valorile celor r runde sunt în ordine crescătoare.
+
+Exemplu
+Input: 4
+120 100 80 80
+3
+60 90 110
+Output: 4
+3
+2

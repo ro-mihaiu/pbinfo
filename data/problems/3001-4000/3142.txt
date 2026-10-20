@@ -1,0 +1,24 @@
+#3142
+polybius
+
+Cerința
+Se dă un număr p , un șir de caractere t de 25 de caractere corespunzător tabelului și un șir de caractere s . Să se determine:
+1. Pentru p = 1 , să se cripteze șirul s , format doar din litere mari, folosind tabelul t .
+2. Pentru p = 2 , să se decripteze șirul s , format doar din cifre, folosind tabelul t .
+
+Restricții
+1 ≤ p ≤ 2
+lungimea șirului t este de 25 de caractere
+1 ≤ lungimea șirului de litere s ≤ 500.000
+Se garantează că toate caracterele din s sunt incluse în șirul t și caracterele din t sunt distincte două câte două.
+O literă din alfabet va lipsi întotdeauna din tabel, fiind un tabel 5x5 iar alfabetul are 26 de caractere.
+
+Exemplu
+Input: 1
+ABCDEFGHIKLMNOPQRSTUVWXYZ 
+ANAAREMERE
+Output: 11331111421532154215
+Input: 2
+ABCDEFGHIKLMNOPQRSTUVWXYZ 
+11331111421532154215
+Output: ANAAREMERE

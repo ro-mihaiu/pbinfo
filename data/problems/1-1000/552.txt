@@ -1,0 +1,23 @@
+#552
+Excursie
+
+Cerința
+În ţara lui Gigel se află n oraşe, numerotate de la 1 la n , cu proprietatea că din oraşul i exista drum numai spre oraşul i+1 , iar din oraşul n există drum spre oraşul 1 . Gigel doreşte să viziteze toate cel n oraşe în ordine, pornind dintr-un oraş oarecare şi întorcându-se la final în acesta.
+Lucrurile nu sunt atât de simple, deoarece pentru a se deplasa dintr-un oraş i în oraşul următor Gigel are nevoie de o cantitate cunoscută de energie, A[i] . De asemenea, în fiecare oraş Gigel acumulează o cantitate cunoscută de energie B[i] , pe care o poate folosi pentru a se deplasa mai departe. Iniţial, Gigel nu are deloc energie.
+Determinaţi, dacă există, un oraş din care Gigel poate începe vizitarea celor n oraşe, astfel încât la final Gigel să se întoarcă în oraşul din care a plecat.
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ A[i] ≤ 1000
+0 ≤ B[i] ≤ 1000
+Dacă Gigel poate pleca din mai multe oraşe, se va afişa oraşul cu numărul de ordine mai mic
+Dacă energia necesară pentru deplasarea dintr-un oraş în următorul este egală cu energia pe care o are Gigel la plecarea din oraş, deplasarea se poate face.
+
+Exemplu
+Input: 5
+6 7
+8 4
+2 6
+1 4
+2 1
+Output: 3

@@ -1,0 +1,20 @@
+#3744
+ELHC
+
+Cerința
+Dându-se T perechi de numere G și P , determinați dacă experimentul pentru studierea particulei de tip G într-un tunel de circumferință P produce date complete.
+
+Restricții
+1 ≤ T ≤ 1 000
+1 ≤ G < P < 1 000 000 000
+P este un număr prim
+
+Exemplu
+Input: 6
+2 3
+3 5
+2 7
+3 7
+3 11
+5 11
+Output: 110100

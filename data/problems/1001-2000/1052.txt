@@ -1,0 +1,15 @@
+#1052
+Chibrituri
+
+Cerința
+Fiind date un număr n de chibrituri verticale şi un număr m de chibrituri orizontale, să se scrie un program care determină numărul de ore posibile, ora minimă şi ora maximă care se pot forma cu aceste chibrituri, în modul indicat mai sus, utilizând toate chibriturile respective şi nemodificând orientarea acestora.
+
+Restricții
+Pentru datele de test există întotdeauna soluţie.
+Cifrele sunt formate din chibrituri în felul următor:
+
+Exemplu
+Input: 14 10
+Output: 17
+00:28
+20:08

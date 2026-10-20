@@ -1,0 +1,23 @@
+#870
+Depou
+
+Cerința
+Se consideră un depou de cale ferată precum cel din imagine: Pe linia A se află n vagoane, numerotate cu valori distincte de la 1 la n , într-o ordine oarecare. Vagoanele trebuie mutate pe linia C , în ordinea 1 2 .. n . Pentru aceasta se poate muta câte un vagon de pe o linie pe alta, în ordinea indicată de săgeți:
+A -> B ,
+A -> C
+B -> C .
+Să se determine o succesiune de operații care să mute toate vagoanele de pe linia A pe linia C în ordinea dorită.
+
+Restricții
+1 ≤ n ≤ 1000
+
+Exemplu
+Input: 4
+2 1 3 4
+Output: 6
+A B
+A B
+A C
+A C
+B C
+B C

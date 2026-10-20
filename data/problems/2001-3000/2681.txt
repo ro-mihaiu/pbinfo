@@ -1,0 +1,13 @@
+#2681
+InversMax
+
+Cerința
+Se citește un șir de caractere reprezentând o propoziție care conține litere mari și mici ale alfabetului englez, spații, cifre și alte simboluri. În cele ce urmează, considerăm cuvânt orice secvență delimitată de spații ce conține cel puțin o literă.
+Se se afișeze șirul citit astfel încât cuvintele de lungime maximă să fie înlocuite cu inversul (oglinditul) lor, restul cuvintelor și aranjarea lor în propoziție să rămână neschimbate.
+
+Restricții
+șirul dat va conține maximum 255 de caractere
+
+Exemplu
+Input: Mara  23a4 1234 %&a* %&*( are mere
+Output: araM  4a32 1234 *a&% %&*( are erem

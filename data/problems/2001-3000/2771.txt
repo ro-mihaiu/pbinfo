@@ -1,0 +1,20 @@
+#2771
+Covorul
+
+Cerința
+Mama vrea să acopere cu covoare o cameră cu lungimea de n metri și lățimea de m metri. Ea are la dispoziție oricâte covoare în formă de pătrat, de orice dimensiune, număr natural și respectă următoarele reguli:
+fiecare covor plasat are laturile paralele cu laturile camerei;
+covoarele așezate nu se suprapun;
+de fiecare dată se folosește cel mai mare covor care poate fi ales în acel moment;
+de fiecare dată covorul ales se plasează în așa fel încât zona neacoperită încă să fie un dreptunghi.
+Știind dimensiunile camerei să se determine care este dimensiunea maximă a unui covor folosit și numărul total de covoare folosite.
+
+Restricții
+1 ≤ n,m ≤ 1000000000
+dimensiunile covoarelor sunt numere naturale nenule
+
+Exemplu
+Input: 10 3
+Output: 3 6
+Input: 1 100
+Output: 1 100

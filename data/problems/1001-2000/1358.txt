@@ -1,0 +1,13 @@
+#1358
+minciuna
+
+Cerința
+Andrei este foarte dezorganizat şi uneori mai strecoară câte o minciună. Pentru a-l responsabiliza, mama i-a dat în grijă biletele la teatru. Când aceasta îl întreabă unde a pus biletele, Andrei spune că între paginile numerotate cu x şi y ale manualului de informatică.
+Să se verifice dacă răspunsul lui Andrei poate fi corect – dacă poate plasa biletele între paginile numerotate cu x și y ale manualului de informatică.
+
+Restricții
+1 ≤ x, y ≤ 1000
+
+Exemplu
+Input: 49 50
+Output: minciuna

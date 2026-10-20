@@ -1,0 +1,17 @@
+#2664
+Search
+
+Cerința
+Definiți următoarele funcții:
+int IndexOf(char s[], char ch)
+int LastIndexOf(char s[], char ch)
+int NthIndex(char s[], char ch, int k)
+Funcția IndexOf primește ca parametri un șir de caractere s și un caracter ch și returnează cea mai din stânga poziție unde se găsește ch în șir, sau returnează -1 dacă ch nu apare în șir.
+Funcția LastIndexOf primește ca parametri un șir de caractere s și un caracter ch și returnează cea mai din dreapta poziție unde se găsește ch în șir, sau returnează -1 dacă ch nu apare în șir.
+Funcția NthIndex primește ca parametri un șir de caractere s , un caracter ch și un număr întreg k . Presupunând că ch apare de n ori în șir, atunci, dacă 1 ≤ k ≤ n , funcția returnează poziția unde caracterul ch apare a k -a oară. În caz contrar, funcția returnează -1 .
+
+Restricții
+5 ≤ lungimea șirului ≤ 250
+Șirul s este indexat de la 0 .
+
+Exemplu

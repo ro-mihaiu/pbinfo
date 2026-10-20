@@ -1,0 +1,14 @@
+#2745
+intrebari
+
+Cerința
+Se dau n numere naturale. Dându-se totodată un număr p , apare o intrebare care poate fi de unul dintre următoarele două feluri posibile: care este suma cifrelor valorii minime dintre primele p ale șirului (tipul 1 ) respectiv, care este numărul de divizori ai valorii maxime dintre primele p elemente ale șirului (tipul 2 ).
+
+Restricții
+1 ≤ n ≤ 10
+cele n numere citite vor fi naturale nenule și mai mici decât 1.000.000.000
+numerele șirului sunt numerotate începând cu 1
+valoarea lui p este cuprinsă între 1 și n , inclusiv
+1 ≤ t ≤ 2
+
+Exemplu

@@ -1,0 +1,27 @@
+#1499
+Broscute
+
+Cerința
+Numerotând frunzele de la 1 la n+1 , broscuțele de la 1 la n , şi cunoscându-se ordinea inițială a broscuțelor pe cele n+1 frunze, să se determine numărul minim de sărituri ale broscuțelor de pe o frunză pe alta, astfel încât ele să se găsească într-o ordine finală, dată, precum şi săriturile realizate.
+
+Restricții
+2 ≤ n ≤ 1000
+În descrierea configurațiilor din fișierul de intrare frunza liberă este reprezentată prin valoarea 0
+Pentru cerința 1 se acordă 50% din punctaj, iar pentru cerința 2 tot 50% din punctaj.
+În cazul în care cerința este 2 și numărul de sărituri afișate nu este minim dar realizează ajungerea la configurația finală se acordă doar 30% din punctaj.
+
+Exemplu
+Input: 4 2
+3 2 0 1 4
+1 2 3 4 0
+Output: 3 1 3
+1 4 1
+4 5 4
+Input: 4 1
+3 2 0 1 4
+1 2 3 4 0
+Output: 3
+Input: 4 2
+3 2 0 1 4
+3 2 0 1 4
+Output: broscutele nu se joaca

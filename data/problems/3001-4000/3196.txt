@@ -1,0 +1,18 @@
+#3196
+Instabook
+
+Cerința
+Gigel și-a făcut un nou cont pe Instabook . Imediat, a postat n poze, numerotate de la 1 la n , cu care s-a făcut un clasament în care poza 1 ocupă locul 1 , poza 2 ocupă locul 2 , …, poza n ocupă locul n . Fiecare dintre cei m prieteni ai lui Gigel dau like la o singură poză (prietenul i dă like la poza a[i] , 1 ≤ i ≤ m ).
+Clasamentul pozelor de pe Instabook funcționează în felul următor: la un like dat unei poze, aceasta urcă în clasament cu un loc, cu excepția cazului în care este deja pe primul loc.
+Gigel vrea să știe cel mai bun loc și cel mai slab loc din clasament pe care le-a ocupat fiecare poză.
+
+Restricții
+1 ≤ n ≤ 100.000 ;
+1 ≤ m ≤ 200.000 ;
+
+Exemplu
+Input: 3 5
+3 2 1 3 3
+Output: 1 2
+2 3
+1 3

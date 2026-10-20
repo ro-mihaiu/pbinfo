@@ -1,0 +1,13 @@
+#2919
+2Groups
+
+Cerința
+Se dă numărul natural n . Să se împartă numerele naturale de la 1 la n în două grupuri astfel încât diferența absolută dintre sumele numerelor din cele două grupuri să fie minimă.
+
+Restricții
+2 ≤ n ≤ 100.000
+
+Exemplu
+Input: 5
+Output: 5 2
+4 3 1

@@ -1,0 +1,15 @@
+#643
+DetDrum1
+
+Cerința
+Se dă vectorul de tați al unui arbore cu rădăcină cu n noduri și un nod k . Determinați drumul de la rădăcina arborelui la nodul k .
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ k ≤ n
+în vectorul de tați rădăcina este marcată cu 0
+
+Exemplu
+Input: 7 2
+4 1 7 0 7 7 1
+Output: 4 1 2

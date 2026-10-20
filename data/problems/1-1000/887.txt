@@ -1,0 +1,12 @@
+#887
+NrAnagrame
+
+Cerința
+Se dă un şir de caractere ce conţine cuvinte formate din litere mici ale alfabetului englez, separate prin unul sau mai multe spații. Să se determine câte cuvinte din sir sunt anagrame ale ultimului cuvânt, fără a fi identice cu acesta.
+
+Restricții
+șirul dat va conține cel mult 255 caractere, litere mici ale alfabetului englez și spații
+
+Exemplu
+Input: arc ingrat din granit car argint arc rating rac argint
+Output: 3

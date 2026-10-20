@@ -1,0 +1,13 @@
+#2528
+LungimeSubsirComunMaximal
+
+Cerința
+Se dau două șiruri de caractere, litere mici ale alfabetului englez. Să se determine lungimea celui mai lung subșir comun al lor.
+
+Restricții
+1 ≤ lungimea unui șir ≤ 1000
+
+Exemplu
+Input: aaabcd
+agahbdert
+Output: 4

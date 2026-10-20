@@ -1,0 +1,46 @@
+#4445
+balon
+
+Cerința
+Dându-se dimensiunile unei plăci n și m , nivelul maxim posibil de umplere a unui balon k , numărul p de acționări ale butonului Air, nivelul inițial de umplere al fiecărui balon de pe placă și pentru fiecare dintre acționările pistonului cele trei valori x , y și d corespunzătoare, scrieți un program care determină și afișează: 1. numărul de unități de aer consumate după cele p acționări ale butonului Air; 2. numărul de baloane sparte după cele p acționări ale butonului Air; 3. nivelul maxim de umplere a unui balon după cele p acționări ale butonului Air și numărul de baloane aflate la acest nivel de umplere.
+
+Restricții
+C ∈ {1, 2, 3}
+1 ≤ n, m, d ≤ 1000
+1 ≤ x ≤ n și 1 ≤ y ≤ m
+3 ≤ k, p ≤ 1.000.000
+1 ≤ b[i][j] ≤ k , pentru oricare 1 ≤ i ≤ n și 1 ≤ j ≤ m
+Pentru 30 de puncte, C = 1
+Pentru 35 de puncte, C = 2
+Pentru 35 de puncte, C = 3
+
+Exemplu
+Input: 1
+4 6 5 2
+1 2 3 3 2 1
+1 1 4 3 2 2
+3 1 1 1 5 3
+2 4 2 4 2 2
+2 1 3
+3 5 3
+Output: 13
+Input: 2
+4 6 5 3
+1 2 3 3 2 1
+1 1 4 3 2 2
+3 1 1 1 5 3
+2 4 2 4 2 2
+2 1 3
+3 5 3
+3 2 4
+Output: 2
+Input: 2
+4 6 5 3
+1 2 3 3 2 1
+1 1 4 3 2 2
+3 1 1 1 5 3
+2 4 2 4 2 2
+2 1 3
+3 5 3
+3 2 4
+Output: 5 2

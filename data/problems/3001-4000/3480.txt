@@ -1,0 +1,12 @@
+#3480
+9lan
+
+Cerința
+Se dă un număr natural n . Calculați ultima cifră a lui \({9}^{n}\).
+
+Restricții
+0 ≤ n ≤ 100.000
+
+Exemplu
+Input: 6
+Output: 1

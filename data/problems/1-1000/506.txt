@@ -1,0 +1,14 @@
+#506
+existaprime
+
+Cerința
+Se dă un şir cu n elemente, numere naturale. Să se verifice dacă în şir există elemente prime.
+
+Restricții
+1 ≤ n ≤ 200
+elementele şirului vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+21 8 6 10 8
+Output: NU

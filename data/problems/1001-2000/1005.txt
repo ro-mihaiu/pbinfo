@@ -1,0 +1,12 @@
+#1005
+numere8
+
+Cerința
+Se dă o listă cu numere naturale. Să se determine numerele naturale nenule cu cel mult patru cifre care nu apar în lista dată.
+
+Restricții
+numerele din lista vor fi mai mici decât 1 000 000 000
+
+Exemplu
+Input: 107 4 5 8 1 6 9
+Output: 9999 9998 ... 108 106 105 ... 10 7 3 2

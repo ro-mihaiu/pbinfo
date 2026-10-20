@@ -1,0 +1,11 @@
+#1914
+Rica
+
+Cerința
+Rică a învățat la școală despre șiruri recurente și a primit ca temă să lucreze cu un anumit șir. Rică știe că primele elemente din acest șir sunt următoarele: 1,1,2,4,7,13,24,44,81,149,274,504 . Tema lui Rică este să găsească termenul de pe locul X . Rică nu știa să zică… regula şirului nostru, de aceea el vă cere ajutorul.
+Deduceți regula de formare a șirului și scrieți un program care să afișeze pentru un X dat, elementul din șir de pe poziția X .
+
+Restricții
+1 ≤ n ≤ 10.000
+
+Exemplu

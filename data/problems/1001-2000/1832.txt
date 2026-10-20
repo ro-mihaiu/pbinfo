@@ -1,0 +1,15 @@
+#1832
+pd
+
+Cerința
+Se dă un număr natural s . Determinaţi, în ordine lexicografică, toate modalităţile de a-l scrie pe s ca produs de divizori proprii distincți ai lui s .
+
+Restricții
+2 ≤ s ≤ 2000000000
+
+Exemplu
+Input: 30
+Output: 2 3 5 
+2 15 
+3 10 
+5 6

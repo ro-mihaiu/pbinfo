@@ -1,0 +1,12 @@
+#2910
+bitswap
+
+Cerința
+Se dau numerele n și m . Interschimbați valorile lui n și m fără a folosi o variabilă auxiliară.
+
+Restricții
+1 ≤ n ≤ m ≤ 1.000.000
+
+Exemplu
+Input: 5 7
+Output: 7 5

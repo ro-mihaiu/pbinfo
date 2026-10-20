@@ -1,0 +1,16 @@
+#4009
+MosCraciun1
+
+Cerința
+Moș Crăciun pregătește cadourile pentru acest an. El cunoaște prețurile a n cadouri și are la dispoziție o sumă de bani S . Ajutați-l să aleagă un număr maxim de cadouri a căror preț total să nu depășească S și determinați suma minimă de care mai are nevoie Moș Crăciun pentru a cumpăra încă un cadou.
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ S ≤ 1 000 000 000
+prețurile cadourilor vor fi mai mici decât 1 000 000
+Luca spune că dacă Moșul poate cumpăra toate cele n cadouri, nu mai plătește nimic pentru alt cadou!!!
+
+Exemplu
+Input: 5 10
+7 2 6 4 3
+Output: 3 5

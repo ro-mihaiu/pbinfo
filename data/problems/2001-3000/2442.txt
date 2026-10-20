@@ -1,0 +1,15 @@
+#2442
+cifre006
+
+Cerința
+Valentin, elev în clasa a V-a, e fascinat de cifre. Îi place să mute cifrele unui număr de pe o poziție pe alta. Astfel, pentru un număr N și o cifră k , mută toate cifrele egale cu k la început, după care așază celelalte cifre în ordinea în care apăreau în N . Desigur, există și situații în care numărul cifrelor lui N se micșorează sau situații în care numărul N nu se modifică. De exemplu, dacă numărul N este 134112 și cifra k este 1 , după mutarea cifrelor se obține 111342 . Pornind de la numărul N și cifra k știți ce număr obține Valentin? Scrieţi un program care să citească numărul natural N şi cifra k și care să determine:
+a) de câte ori apare cifra k în numărul N ; (30% din punctaj) b) numărul obținut după modificarea numărului N ; (70% din punctaj)
+
+Restricții
+1 ≤ N ≤ 1000000000
+numărul N după modificare poate avea cifre mai puține
+
+Exemplu
+Input: 134112 1
+Output: 3
+111342

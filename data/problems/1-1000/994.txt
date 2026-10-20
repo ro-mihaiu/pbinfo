@@ -1,0 +1,15 @@
+#994
+fiboverif1
+
+Cerința
+Se dă un şir cu n elemente, numere naturale. Să se afişeze elementele şirului care sunt termeni ai şirului lui Fibonacci.
+Se va defini şi apela o funcţie fibo care verifică dacă un număr natural, transmis ca parametru, face parte din şirul lui Fibonacci.
+
+Restricții
+1 ≤ n ≤ 10
+elementele şirului vor avea cel mult 9 cifre
+
+Exemplu
+Input: 8
+13 1 8 24 21 55 47 8
+Output: 13 1 8 21 55 8

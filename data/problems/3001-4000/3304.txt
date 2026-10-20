@@ -1,0 +1,14 @@
+#3304
+douazecidouazeci
+
+Cerința
+Vasilica şi Viorica au primit cadou de la moşul un joc cu n jetoane pe care sunt scrise nişte numere. Cerinţa jocului este să afle dacă se pot alege câteva jetoane astfel încât produsul numerelor să fie 2020 .
+
+Restricții
+1 ≤ n ≤ 100
+cele n numere citite vor fi numere naturale mai mici decât 2021
+
+Exemplu
+Input: 5
+1 2 2020 3 7
+Output: DA

@@ -1,0 +1,17 @@
+#3669
+Bacon
+
+Cerința
+Pentru un număr c : dacă c=1 , se dă un mesaj ce trebuie codificat dacă c=2 , se dă un mesaj ce trebuie decodificat
+
+Restricții
+1 ≤ lungimea mesajului necodificat ≤ 10000
+mesajul necodificat va conține numai litere mari ale alfabetului englez
+
+Exemplu
+Input: 1
+PBINFO
+Output: ABBBBAAAABABAAAABBABAABABABBBA
+Input: 2
+ABBBBAAAABABAAAABBABAABABABBBA
+Output: PBINFO

@@ -1,0 +1,14 @@
+#1284
+Carte1
+
+Cerința
+Pentru a se numerota paginile unei cărți s-au folosit n cifre. Câte pagini are cartea?
+
+Restricții
+1 ≤ n ≤ 1.000.000
+pentru fiecare test exista soluție.
+numerotarea paginilor se face de la 1.
+
+Exemplu
+Input: 1791
+Output: 633

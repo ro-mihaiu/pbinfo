@@ -1,0 +1,18 @@
+#197
+Combinari
+
+Cerința
+Se citesc două numere naturale nenule n și k . Să se afişeze, în ordine lexicografică, submulțimile de câte k elemente ale mulţimii {1,2,..,n} .
+
+Restricții
+1 ≤ k ≤ n ≤ 15
+elementele fiecărei submulţimi vor fi afişate în ordine crescătoare
+
+Exemplu
+Input: 4 2
+Output: 1 2 
+1 3 
+1 4 
+2 3 
+2 4 
+3 4

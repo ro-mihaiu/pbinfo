@@ -1,0 +1,24 @@
+#3829
+Octogon
+
+Cerința
+Să se afișeze un octogon de latură n umplut cu caractere * iar spațiul spațiul exterior umplut cu # , ca în exemplu.
+
+Restricții
+2 ≤ n ≤ 40
+
+Exemplu
+Input: 5
+Output: ####*****####
+###*******###
+##*********##
+#***********#
+*************
+*************
+*************
+*************
+*************
+#***********#
+##*********##
+###*******###
+####*****####

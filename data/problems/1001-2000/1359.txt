@@ -1,0 +1,24 @@
+#1359
+ecuatie2
+
+Cerința
+Fie a și b două numere naturale nenule. Cu ajutorul lor se pot forma ecuațiile matematice de tipul:
+1) a+x=b 2) x+a=b 3) a-x=b 4) x-a=b 5) a*x=b (unde a divide b ) 6) x*a=b (unde a divide b ) 7) a:x=b (unde b divide a ) 8) x:a=b
+Scrieți un program care să citească din fișierul ecuatie.in o ecuaţie de tipul precizat în enunț şi care să determine:
+a) tipul ecuației citite; b) soluția ecuației obținută prin rezolvarea acestei ecuații.
+
+Restricții
+1 ≤ a ≤ 30 000
+1 ≤ b ≤ 30 000
+Fișierul de intrare conține o singură ecuație; soluția ecuației este un număr natural.
+
+Exemplu
+Input: 23+x=100
+Output: 1
+77
+Input: x*20=1400
+Output: 6
+70
+Input: 15:x=3
+Output: 7
+5

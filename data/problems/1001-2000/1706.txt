@@ -1,0 +1,28 @@
+#1706
+Stele
+
+Cerința
+Scrieți un program care rezolvă următoarele cerinţe:
+cunoscând s numărul de stele dintr-o galaxie, determină o reprezentare codificată a acestui număr formată doar din litere mici distincte ordonate alfabetic;
+cunoscând g , reprezentând numărul de galaxii și g numere în scriere codificată, reprezentând numărul de stele din fiecare galaxie, determină scrierea zecimală a numărului total de stele din cele g galaxii.
+
+Restricții
+1 ≤ s ≤ 2 26 -1
+1 ≤ g ≤ 1000
+Reprezentările codificate din fişierul de intrare pot avea maximum 420 caractere.
+Numărul care poate apărea în fața unei litere poate avea maximum 15 cifre.
+Pentru teste valorând 30% din punctaj cerinţa este 1.
+Pentru teste corespunzătoare cerinţei 2 valorând 20% din punctaj valoarea obținută nu depășește 10 18
+
+Exemplu
+Input: 1
+100
+Output: cfg
+Input: 2
+5
+2a7g
+17b5d14g
+100a2000b
+7e15f
+2d6f
+Output: 6320

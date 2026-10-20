@@ -1,0 +1,21 @@
+#2375
+PalindromSD
+
+Cerința
+Fișierul palindromsd.in conține cel mult 1000 de numere naturale, câte un număr pe fiecare linie. Să se afișeze numerele palindrom din fișier în ordinea primul, ultimul, al doilea, penultimul etc.
+
+Restricții
+1 ≤ numărul de numere din fișier ≤ 1000
+numerele din fișierul de intrare vor fi mai mici decât 1.000.000.000
+în cazul în care nu există niciun număr palindrom, în fișierul de ieșire se va scrie -1
+
+Exemplu
+Input: 11 
+21 
+303 
+4114 
+51 
+66 
+75
+808
+Output: 11 808 303 66 4114

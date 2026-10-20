@@ -1,0 +1,18 @@
+#2695
+cub-perfect
+
+Cerința
+Se citește un număr n și apoi n numere întregi. Să se verifice pentru fiecare număr dacă este cub perfect.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere sunt -1.000.000.000.000 ≤ x ≤ 1.000.000.000.000
+
+Exemplu
+Input: 5
+1 -1 8 -8 9
+Output: DA
+DA
+DA 
+DA 
+NU

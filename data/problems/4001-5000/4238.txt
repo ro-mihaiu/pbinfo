@@ -1,0 +1,19 @@
+#4238
+NrZero
+
+Cerința
+Scrieţi definiția completă a subprogramului C++ cu antetul:
+int NrZero(int a[], int n)
+care are doi parametri:
+a , prin care primeşte un tablou unidimensional care memorează numai cifre, astfel: cifrele impare se află la începutul vectorului ordonate descrescător, iar cifrele pare se găsesc la finalul vectorului, ordonate crescător
+n , numărul efectiv de elemente ale tabloului
+Subprogramul returnează numărul de valori egale cu 0 din vectorul a .
+
+Restricții
+0 ≤ a[i] ≤ 9
+2 ≤ n ≤ 500.000
+Elementele vectorului a sunt indexate de la 1
+Cifrele impare se află la începutul vectorului ordonate descrescător, iar cifrele pare se găsesc la finalul vectorului, ordonate crescător.
+Rezolvați eficient problema, deoarece funcția se va apela de mai multe ori.
+
+Exemplu

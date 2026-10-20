@@ -1,0 +1,14 @@
+#3927
+cmmnr
+
+Cerința
+Se dă un număr natural n . Să se determine numărul maxim care se poate obține din n eliminând exact o cifră. Cifrele rămase nu-și pot schimba ordinea.
+
+Restricții
+10 ≤ n ≤ 1.000.000.000.000
+
+Exemplu
+Input: 4182
+Output: 482
+Input: 1234
+Output: 234

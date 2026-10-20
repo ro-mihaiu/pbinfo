@@ -1,0 +1,14 @@
+#1669
+palindrom prim norocoase
+
+Cerința
+Se dau n numere naturale. Aflaţi câte dintre ele sunt palindrom prim norocoase . Un număr este palindrom prim norocos dacă este palindrom (egal cu răsturnatul său, de exemplu 121 ), prim (are exact 2 divizori, de exemplu 3 ) şi norocos (pătratul numărului se poate scrie ca sumă de numere consecutive, exemplu 3 . 3 * 3 = 9 = 2 + 3 + 4 ).
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere vor fi mai mici decât 2.000.000.000 .
+
+Exemplu
+Input: 6
+2 3 5 7 11 24
+Output: 4

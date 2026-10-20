@@ -1,0 +1,15 @@
+#352
+SumCons
+
+Cerința
+Se citește numărul natural nenul n . Determinați toate modalitățile de a-l scrie pe n ca sumă de cel puțin două numere naturale consecutive nenule.
+
+Restricții
+1 ≤ n ≤ 10.000.000
+pentru fiecare test, numărul n se poate scrie ca sumă de cel puțin 2 numere naturale consecutive nenule în cel puțin un mod.
+
+Exemplu
+Input: 30
+Output: 9 10 11 
+6 7 8 9 
+4 5 6 7 8

@@ -1,0 +1,19 @@
+#632
+Iepuri
+
+Cerința
+Gigel are p iepuri pe care vrea să-i distribuie în n cuști astfel încât:
+toți iepurii să intre în cuști
+fiecare cușcă să conțină cel puțin un iepure
+să nu existe două cuști cu același număr de iepuri
+diferența dintre numărul maxim de iepuri dintr-o cușcă și numărul minim de iepuri dintr-o cușcă să fie minimă
+Determinați o modalitate de distribuire a iepurilor în cuști care să respecte condițiile de mai sus.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ p ≤ 1 000 000
+pentru toate datele de test există soluție
+
+Exemplu
+Input: 3 10
+Output: 2 3 5

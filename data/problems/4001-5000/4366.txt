@@ -1,0 +1,29 @@
+#4366
+QuantumComputing
+
+Cerința
+Aflați numărul minim de operații necesare pentru a seta toți qubiții la |1⟩ în situațiile: 1. Operațiile se pot efectua asupra subsecvențelor de orice lungime 2. Operațiile se pot efectua doar asupra subsecvențelor de lungime K
+
+Restricții
+1 ≤ T ≤ 10
+1 ≤ K ≤ N ≤ 1.000.000
+suma valorilor lui N pe toate testele nu va depăși 1.000.000
+Pentru 40 de puncte, C = 1
+Pentru 20 de puncte, C = 2 și N ≤ 1.000
+Pentru 40 de puncte, C = 2
+
+Exemplu
+Input: 1 2
+4
+0101
+7
+0010110
+Output: 2
+3
+Input: 2 2
+12 4
+110100100000
+5 2
+01100
+Output: 4
+-1

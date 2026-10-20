@@ -1,0 +1,12 @@
+#410
+cmmdc2
+
+Cerința
+Se citește un număr natural n . Acest număr se “împarte” în alte două numere a și b , astfel: a este format din cifrele din prima jumătate a lui n , b este format din cifrele din a doua jumătate a lui n . Dacă n are număr impar de cifre, cifra din mijloc se ignoră. De exemplu, dacă n=9183792 , atunci a=918 , iar b=792 . Să se determine cel mai mare divizor comun al lui a și b .
+
+Restricții
+10 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 9183792
+Output: 18

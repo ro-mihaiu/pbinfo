@@ -1,0 +1,16 @@
+#2036
+Nume1
+
+Cerința
+Arpsod vă oferă onoarea de a afla numele micuțului său animăluț.
+
+Restricții
+1 ≤ P ≤ 4.000.000
+A = 1 , B = 2 , C = 3 … Z = 26
+În cazul în care șirul afișat are suma corectă și număr minim de caractere, primiți 20% din punctajul pe acel test.
+Dacă șirul afișat are proprietățile de mai sus și este și minim lexicografic, primiți punctajul integral pe acel test.
+Un șir A este mai mic lexicografic decât un șir B dacă pe prima poziție unde A[i] ≠ B[i] , A[i] < B[i] .
+
+Exemplu
+Input: 808
+Output: ARAZAZAZAZAZAZAZAZAZAZAZAZAZAZAZAY

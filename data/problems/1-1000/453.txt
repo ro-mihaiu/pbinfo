@@ -1,0 +1,12 @@
+#453
+distincte1
+
+Cerința
+Se citesc de la tastatură trei numere naturale. Să se determine numărul de valori distincte.
+
+Restricții
+Numerele citite sunt cuprinse între 0 și 1.000.000.000 , inclusiv.
+
+Exemplu
+Input: 100 41 100
+Output: 2

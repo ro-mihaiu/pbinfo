@@ -1,0 +1,19 @@
+#2390
+rj
+
+Cerința
+Scrieţi un program care să determine o poziţie pe hartă la care Romeo şi Julieta pot să ajungă în acelaşi timp. Dacă există mai multe soluţii, programul trebuie să determine o soluţie pentru care timpul este minim.
+
+Restricții
+1 < N, M < 101
+Liniile şi coloanele matricei sunt numerotate începând cu 1 .
+Pentru datele de test există întotdeauna soluţie.
+
+Exemplu
+Input: 5 8
+XXR  XXX
+ X  X  X
+J X X  X
+      XX
+XXX XXXX
+Output: 4 4 4

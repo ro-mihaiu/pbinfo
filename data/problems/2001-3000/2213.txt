@@ -1,0 +1,14 @@
+#2213
+sirdivk
+
+Cerința
+Scrieţi un program care determină câte numere divizibile cu k se găsesc în primii n termeni ai şirului dat.
+
+Restricții
+1 < n < 1000
+2 ≤ k < 32000
+1 ≤ a ≤ 9 , 0 ≤ b,c ≤ 9
+
+Exemplu
+Input: 7 2 1 8 3
+Output: 2

@@ -1,0 +1,14 @@
+#1681
+power
+
+Cerința
+Prietenul nostru, Zolly, a învățat la scoală despre ridicarea la putere. Ajutați-l să calculeze \( a^b\).
+
+Restricții
+0 ≤ P ≤ 2.000.000.000 ;
+a + b > 0 .
+
+Exemplu
+Input: 5
+4
+Output: 625

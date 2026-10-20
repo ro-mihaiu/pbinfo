@@ -1,0 +1,13 @@
+#1377
+maxd
+
+Cerința
+Scrieţi un program care pentru un interval dat determină care este cel mai mic număr din interval ce are număr maxim de divizori. Dacă sunt mai multe numere cu această proprietate se cere să se numere câte sunt.
+
+Restricții
+1 ≤ a ≤ b ≤ 1.000.000.000
+0 ≤ b - a ≤ 10.000
+
+Exemplu
+Input: 2 10
+Output: 6 4 3

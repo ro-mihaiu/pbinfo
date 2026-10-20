@@ -1,0 +1,16 @@
+#964
+cod
+
+Cerința
+să se scrie un program care să citească codificarea textului unui mesaj, să decodifice textul şi să afișeze rezultatul decodificării.
+
+Restricții
+fișierul de intrare va conține maximum 18 , fiecare linie conținând maximum 18 cifre
+
+Exemplu
+Input: 79001795012119015018019723101001237999501611799014111112010113764
+9989796410100164
+4111116119910138
+Output: Olimpiada de Informatica.
+abc.de.
+Sector

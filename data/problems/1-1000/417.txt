@@ -1,0 +1,21 @@
+#417
+GradMax
+
+Cerința
+Se dă lista muchiilor unui graf neorientat. Să se afișeze vârfurile de grad maxim.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ i , j ≤ n
+muchiile se pot repeta în fișierul de intrare
+
+Exemplu
+Input: 5
+1 4
+2 5
+2 3
+2 1
+4 5
+3 2
+4 3
+Output: 2 2 4

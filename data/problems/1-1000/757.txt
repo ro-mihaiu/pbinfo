@@ -1,0 +1,13 @@
+#757
+BiMax
+
+Cerința
+Se consideră un arbore binar în care nodurile memorează numere naturale nenule. Să se determine valorile maxime din subarborii stâng și drept ai rădăcinii.
+
+Restricții
+se recomandă folosirea arborilor alocați dinamic.
+se garantează că rădăcina are doi descendenți direcți
+
+Exemplu
+Input: 67 51 18 0 0 24 0 0 48 0 11 0 0
+Output: 51 48

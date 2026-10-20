@@ -1,0 +1,21 @@
+#4470
+turnulete
+
+Cerința
+Un elev dispune de n cuburi, pentru fiecare cub cunoscându-se latura sa c[i] . El dorește să construiască m turnuri, fiecare turn conținând doar cuburi de aceeași dimensiune. Să se determine înălțimea maximă care se poate obține pentru fiecare din cele m turnuri.
+
+Restricții
+1 ≤ n, m ≤ 100.000
+cele n numere citite de pe al doilea rând vor fi numere naturale nenule mai mici ca 1.000.000.000
+valorile de pe ultimul rând sunt cuprinse între 1 și 1.000.000.000 ;
+dacă nu există niciun cub de dimensiunea cerută, atunci înălțimea turnului care se poate construi este 0 ;
+după construirea unui turn, cuburile se pun la loc și pot fi folosite la construirea altui turn;
+pentru teste în valoare de 30 de puncte 1 ≤ n, m ≤ 1000 ;
+pentru alte teste în valoare de 30 de puncte 1 ≤ c[i] ≤ 1.000.000
+
+Exemplu
+Input: 10
+1 3 3 3 5 6 6 8 8 8
+4
+6 4 5 3
+Output: 12 0 5 9

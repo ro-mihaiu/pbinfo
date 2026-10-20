@@ -1,0 +1,14 @@
+#2037
+Grea
+
+Cerința
+Arătați-i vrăjitorului că problema nu e suficient de grea pentru voi, găsind numărul K cerut într-un timp cât mai scurt, pentru fiecare din cele T numere.
+
+Restricții
+1 ≤ T ≤ 500
+2 ≤ A ≤ 2.000.000.000
+
+Exemplu
+Input: 1
+4
+Output: 2

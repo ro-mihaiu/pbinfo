@@ -1,0 +1,12 @@
+#3053
+EvenOddXXL
+
+Cerința
+Se dă un număr natural n . Să se determine paritatea lui. Dacă numărul este par se afișează Par , altfel se afișează Impar .
+
+Restricții
+n are cel mult 1000 de cifre
+
+Exemplu
+Input: 5
+Output: Impar

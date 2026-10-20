@@ -1,0 +1,12 @@
+#2624
+invbits
+
+Cerința
+Dat fiind un număr natural n , să se determine numărul natural m care are are proprietatea că are în reprezentarea în baza 2 biți de 1 pe pozițiile unde n are biți de 0 și are biți de 0 pe pozițiile unde n are biți de 1 . De exemplu, dacă n = 346 , atunci m = 165 , deoarece n se reprezintă în baza 2 prin 101011010 , iar m prin 010100101 .
+
+Restricții
+0 ≤ n ≤ 1 000 000 000
+
+Exemplu
+Input: 346
+Output: 165

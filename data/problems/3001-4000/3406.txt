@@ -1,0 +1,15 @@
+#3406
+AsEasyAsABC
+
+Cerința
+Fie N un număr întreg impar și un vector A cu N elemente. Pentru fiecare element A i , acesta se poate incrementa cu 1 . Fiecare element sepoate incrementa cel mult odată. Mai mult, se pot realiza cel mult K incrementări.
+Scopul este de a maximiza medianul lui A . Medianul unui vector este definit ca fiind elementul din mijlocul vectorului după sortarea acestuia. De exemplu, medianul vectorului [5,8,2,9,1] este 5 .
+
+Restricții
+1 ≤ k ≤ n ≤ 1000 , N e impar.
+1 ≤ A i ≤ 1000 .
+
+Exemplu
+Input: 9 3
+4 4 4 8 2 2 9 9 1
+Output: 5

@@ -1,0 +1,18 @@
+#3067
+optime
+
+Cerința
+Cunoscând un număr natural k nenul și un număr natural x , ajutați-o pe Maria: 1. Să determine suma numerelor din tabel care nu sunt prime. Dacă nu există numere care nu sunt prime, suma are valoarea 0 . 2. Să aleagă x coloane consecutive din tabel, astfel încât acestea să conțină, în total, un număr maxim de numere prime. Dacă există mai multe posibilități, se va alege secvența de coloane consecutive care are o valoare cât mai mare a coloanei de început din secvență. Să se determine numărul primei coloane din secvența aleasă, precum și numărul total de numere prime din secvență.
+
+Restricții
+1 ≤ x ≤ k ≤ 200
+Pentru rezolvarea primei cerințe se acordă 30% din punctaj, iar pentru cerința a doua se acordă 70% din punctaj.
+
+Exemplu
+Input: 1
+4
+Output: 286
+Input: 2
+4 3
+Output: 2
+19

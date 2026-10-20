@@ -1,0 +1,14 @@
+#1171
+FStergePrimulDinLista
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+void stergePrimul(nod * & p);
+care șterge primul element al unei liste; pointerul p are ca valoarea adresa primului element din listă – cel care va fi șters.
+
+Restricții
+numele funcției va fi stergePrimul
+dacă lista nu conține niciun element, pointerul p va avea valoarea NULL
+în toate cazurile, la ieșirea din apel p va memora adresa primului element al listei; dacă elementul șters este ultimul, p va avea valoarea NULL
+
+Exemplu

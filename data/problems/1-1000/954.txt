@@ -1,0 +1,17 @@
+#954
+joc2
+
+Cerința
+Scrieți un program care să citească numerele N , M , cele NxM valori ale pătratelor din dreptunghi și care să determine câștigătorul jocului, precum și punctajul obținut de acesta la finalul jocului.
+
+Restricții
+1 ≤ N ≤ 100 , 1 ≤ M ≤ 100 , N și M sunt numere naturale; valorile pătratelor sunt numere naturale nenule strict mai mici decât 100 .
+
+Exemplu
+Input: 5 4
+90 25 70 33
+32 40 50 20
+43 80 55 70
+22 27 40 21
+80 45 78 34
+Output: 1 452

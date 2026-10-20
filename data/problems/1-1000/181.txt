@@ -1,0 +1,14 @@
+#181
+SecvCresc
+
+Cerința
+Se dau n numere naturale, reprezentând elementele unui vector. Determinați cea mai lungă secvență de elemente ordonate strict crescător din vector. Dacă există mai multe astfel de secvențe se va determina cea mai din stânga.
+
+Restricții
+0 < n ≤ 10.000
+elementele vectorului vor fi mai mici decât 1.000.000 și sunt numerotate de la 1
+
+Exemplu
+Input: 9
+2 6 4 5 8 9 6 3 4
+Output: 3 6

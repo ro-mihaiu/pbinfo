@@ -1,0 +1,27 @@
+#1289
+cifregen2
+
+Cerința
+Se dă un număr natural n . Să se genereze toate numerele cu exact n cifre prime.
+
+Restricții
+1 ≤ n ≤ 7
+
+Exemplu
+Input: 2
+Output: 22
+23
+25
+27
+32
+33
+35
+37
+52
+53
+55
+57
+72
+73
+75
+77

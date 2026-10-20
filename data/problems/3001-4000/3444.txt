@@ -1,0 +1,27 @@
+#3444
+Arh
+
+Cerința
+Fiind dat șirul arhivat S să se determine numărul de transformări, de cele 3 tipuri de mai sus, realizate de Fixi în cadrul algoritmului de dezarhivare, precum și forma finală dezarhivată T a șirului S .
+
+Restricții
+0 < lungimea șirului arhivat S ≤ 10000 ; 0 < lungimea șirului dezarhivat T ≤ 100000 ;
+1 < n ≤ 1000 ;
+O secvență a unui șir este o succesiune de caractere aflate pe poziții consecutive în şir;
+În șirul S o cifră poate apărea numai imediat înaintea unei paranteze rotunde deschise sau imediat înaintea unei alte cifre; fiecare paranteză rotundă deschisă are imediat înaintea sa cel puțin o cifră; toate parantezele, drepte sau rotunde, se închid corect. Caracterul * poate apărea numai imediat după o paranteză dreaptă deschisă sau imediat înaintea unei paranteze drepte închise;
+O secvenţă a unui șir este palindromică dacă primul element al secvenţei este egal cu ultimul, al doilea cu penultimul etc; oglinditul unei secvențe se obține prin scriere în ordine inversă a caracterelor sale;
+Se acordă 20% din punctajul fiecărui test pentru scrierea corectă a numărului cerut și 80% din punctajul fiecărui test pentru scrierea corectă a șirului cerut;
+Pentru 30 de puncte șirul arhivat S poate fi dezarhivat numai cu transformări de tipul 1 ;
+Pentru alte 30 de puncte șirul arhivat S poate fi dezarhivat numai cu transformări de tipurile 2 și 3 .
+În concurs s-au acordat 10 puncte din oficiu. Pe site se acordă 10 puncte pentru exemple.
+
+Exemplu
+Input: 2(a)[*a2(b)]xy[2(c)b*]d
+Output: 5
+aaabbbbaxyccbccd
+Input: 2(ab[cd*])a3(xyz)
+Output: 3
+abcdcabcdcaxyzxyzxyz
+Input: abcd
+Output: 0
+abcd

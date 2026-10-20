@@ -1,0 +1,14 @@
+#1399
+sortare_in_trepte
+
+Cerința
+Se citește un șir cu n numere întregi. Să se rearanjeze elementele șirului astfel ca numerele negative să fie ordonate descrescător. apoi să urmeze elementele nule, urmate de numerele pozitive ordonate descrescător.
+
+Restricții
+1 ≤ n ≤ 1000
+-10.000 ≤ elementele șirului ≤ 10.000
+
+Exemplu
+Input: 7
+1 -41 8 -3 4 8 0
+Output: -3 -41 0 8 8 4 1

@@ -1,0 +1,24 @@
+#1213
+Iepuras
+
+Cerința
+Scrieți un program care citește trei numere naturale P , N și K iar apoi N numere naturale și determină:
+1) dacă iepurașul poate ajunge sau nu, la grădina cu morcovi pornind din căsuța K și numărul de salturi pe care le face iepurașul pornind din căsuța K ; 2) căsuța de pornire a iepurașului, astfel încât drumul parcurs de el să traverseze un număr maxim de căsuțe. Pentru a determina numărul de căsuțe se vor lua în calcul: căsuța de pornire, toate căsuțele peste care iepurașul a sărit și toate căsuțele în care a ajuns în urma salturilor. Iepurașul poate porni din oricare căsuță. În cazul în care există două sau mai multe căsuțe de pornire care conduc la același număr maxim de căsuțe traversate se va lua în considerare căsuța cu numărul de ordine cel mai mic.
+
+Restricții
+1 ≤ N ≤ 7000
+1 ≤ K ≤ N
+0 ≤ numerele conţinute în căsuţe ≤ 100
+Pentru rezolvarea corectă a primei cerinţe se acordă 30 de puncte, pentru rezolvarea corectă a celei de a doua cerințe se acordă 70 de puncte.
+
+Exemplu
+Input: 1
+14 3
+2 3 4 0 1 1 2 1 4 0 0 2 1 1
+Output: NU
+2
+Input: 2
+14 3
+2 3 6 0 1 1 2 1 4 0 0 2 3 1
+Output: 2 13
+2 6 0 1 1 2 0 0 2 1

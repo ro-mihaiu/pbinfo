@@ -1,0 +1,14 @@
+#4319
+Cifre21
+
+Cerința
+Se dă un șir cu n elemente, numere naturale. Să se determine câte elemente ale șirului conțin cifra 0 .
+
+Restricții
+n ≤ 100
+elementele șirului sunt mai mici decât 10 9
+
+Exemplu
+Input: 5
+18 205 1470 1256 70
+Output: 3

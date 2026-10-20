@@ -1,0 +1,27 @@
+#962
+Cerc4
+
+Cerința
+Să se scrie un program care să se determine: a) numărul m de drepte distincte; b) cel mai mare număr q de cercuri, dintre cele n , exterioare două câte două, ale căror centre sunt situate pe o aceeaşi dreaptă care trece prin punctul O , dintre cele m desenate; c) numărul p al dreptelor distincte, dintre cele m desenate, pe care sunt situate centrele a câte q cercuri, dintre cele n , exterioare două câte două.
+
+Restricții
+1 ≤ n ≤ 2000; 1 ≤ x ≤ 1000 ; 1 ≤ y ≤ 1000 ; 1 ≤ r ≤ 100
+dacă două cercuri, dintre cele n , au centrele în acelaşi punct din planul P , atunci razele lor sunt distincte
+două cercuri sunt exterioare dacă nu au niciun punct comun şi nici interioarele lor nu au puncte comune
+Pentru rezolvarea cerinţei a) se acordă 20% din punctaj, pentru cerinţa b) 50% din punctaj şi pentru cerinţa c) 30% din punctaj.
+
+Exemplu
+Input: 12
+2 6 1
+3 9 1
+4 12 3
+4 4 2
+9 9 2
+10 10 6
+12 12 1
+6 3 1
+10 5 1
+14 7 2
+14 7 1
+12 4 2
+Output: 4 3 2

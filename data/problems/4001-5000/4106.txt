@@ -1,0 +1,14 @@
+#4106
+HalfSort4
+
+Cerința
+Să se ordoneze crescător subșirul format din elementele negative din vector și descrescător subșirul format din elementele pozitive. Indicii subșirului format din elementele negative nu se vor schimba. La fel și indicii subșirului format din elementele pozitive.
+
+Restricții
+0 < n ≤ 1000
+valoarea absolută a numerelor de pe a doua linie a fişierului de intrare va fi mai mică decât 2 30
+
+Exemplu
+Input: 6
+2 -1 9 -4 5 7
+Output: 9 -4 7 -1 5 2

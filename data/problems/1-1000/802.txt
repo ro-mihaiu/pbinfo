@@ -1,0 +1,15 @@
+#802
+SumImpK
+
+Cerința
+Scrieţi definiția completă a subprogramului C++ sub care are 3 parametri: n – prin care primește un număr natural, v , prin care primeşte un tablou unidimensional cu n elemente, numere naturale cu cel mult 4 cifre și k , prin care primeşte un număr natural.
+Subprogramul returnează suma primelor k elemente cu valoare impară ale tabloului. Dacă nu există k elemente impare în tablou, subprogramul returnează valoarea -1 .
+
+Restricții
+2<n<50
+1<k≤n
+numele subprogramului cerut este sub
+parametrii sunt, în această ordine: n , v , k
+elementele tabloului v sunt indexate de la zero
+
+Exemplu

@@ -1,0 +1,22 @@
+#3219
+colina
+
+Cerința
+Scrieți un program care determină pentru fiecare cerere j ( 1 ≤ j ≤ M ) dacă firma poate îndeplini restricția respectivă, mai exact dacă există măcar o parcelă i ( 1 ≤ i ≤ N ) pentru care h i = q j .
+
+Restricții
+1 ≤ N, M ≤ 100.000
+0 < h i , q j < 2 31 pentru orice 1 ≤ i ≤ N și 1 ≤ j ≤ M .
+Valorile q j sunt distincte (nu s-au acceptat cereri identice).
+Pentru teste în valoare de 20 puncte: N × M ≤ 100.000
+Pentru teste în valoare de 40 puncte: hmax ≤ 100.000 unde hmax este altitudinea maximă a parcelelor.
+
+Exemplu
+Input: 6 5
+1 5 9 7 2 1
+5 6 1 9 4
+Output: DA 2
+NU
+DA 1 6
+DA 3
+NU

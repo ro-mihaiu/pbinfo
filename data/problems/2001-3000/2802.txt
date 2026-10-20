@@ -1,0 +1,36 @@
+#2802
+Clasa
+
+Cerința
+Se citește de la tastatură numărul n și un număr p cu valoarea 1 sau 2 și apoi n șiruri de tip nume prenume media1 media2 media3 separate prin spații.
+Pentru p=1 , se va afișa numărul elevilor care au media generală mai mare sau egală decât media clasei.
+Pentru p=2 , se va afișa pe primul rând media clasei și pe următoarele n rânduri, numele, prenumele și media generală a fiecărui elev, separate printr-un singur spațiu, sortat descrescător după medie; la medii egale se sortează crescător după nume, iar la nume egale crescător după prenume.
+
+Restricții
+1 ≤ n ≤ 100
+numele și prenumele au cel mult 100 de caractere
+toate mediile clasei se vor afișa cu două zecimale, rezultatul afișat este considerat valid dacă diferența în valoare absolută dintre acesta și cel corect este cel mult 0.01 .
+media generală a unui elev este media aritmetică celor trei medii date.
+media clasei este media aritmetică a mediilor generale ale elevilor.
+pentru datele reale se recomandă folosirea tipurilor de date în dublă precizie (tipul C/C++ double )
+
+Exemplu
+Input: 5 1
+Juro Muro 2 3 5
+San Hill 7 5 9
+Barbarigo San 9 2 4
+Ezio Marbo 2 6 3
+Gorbo Borbo 2 4 6
+Output: 2
+Input: 5 2
+Juro Muro 2 3 5
+San Hill 7 5 9
+Barbarigo San 9 2 4
+Ezio Marbo 2 6 3
+Gorbo Borbo 2 4 6
+Output: 4.60
+San Hill 7.00
+Barbarigo San 5.00
+Gorbo Borbo 4.00
+Ezio Marbo 3.67
+Juro Muro 3.33

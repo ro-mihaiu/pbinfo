@@ -1,0 +1,15 @@
+#2846
+Petale
+
+Cerința
+Cunoscându-se numerele n și r , cu semnificația din enunț, care este raza R pe care Antonia a folosit-o pentru a contura petalele?
+
+Restricții
+3 ≤ n ≤ 100 ;
+1 ≤ r ≤ 100 ;
+Se acceptă un răspuns cu o eroare de maximum \( \pm 10^{-6} \).
+Acesta reprezintă al doilea capitol din Aventurile Antoniei . Cap 1.
+
+Exemplu
+Input: 100 100
+Output: 3.2429391

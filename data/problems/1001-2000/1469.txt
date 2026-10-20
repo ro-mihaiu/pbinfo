@@ -1,0 +1,21 @@
+#1469
+ConcursInfo
+
+Cerința
+Ana şi Andreea s-au provocat la un concurs de “Info”. Fiecare îi dă celeilalte o problemă de informatică să o rezolve, în final stabilindu-se cîştigătoarea. Pentru această întrecere ele au la dispoziţie trei numere, a , b şi c cu care să formuleze câte două întrebări. Iată care sunt întrebările: Ana : -Care sunt cele mai mari trei cifre ale lui b ? Andreea : -Cât este suma numerelor divizibile cu c , care sunt cuprinse strict între a şi b ? Ana : -Câte numere cuprinse strict între a şi b au în scrierea lor binară exact trei cifre egale cu 1 ? Andreea : -Află două numere diferite d şi e , cu d < e şi d minim, cuprinse strict între a şi b , pentru care diferenţa dintre produsul şi suma lor este egală cu b . După acest maraton informatic, Ana şi Andreea speră să obţină fiecare câte 100 de puncte, bineînţeles cu ajutorul vostru. Succes!
+
+Restricții
+1 ≤ a < b ≤ 1.000.000.000
+1 ≤ c < b
+b are cel puţin 3 cifre
+pentru cod=1 se pot obţine 16p , iar pentru cod egal cu 2 , 3 sau 4 câte 28p
+
+Exemplu
+Input: 3 110 10 1
+Output: 0 1 1
+Input: 3 110 10 2
+Output: 550
+Input: 3 110 10 3
+Output: 34
+Input: 3 110 10 4
+Output: 4 38

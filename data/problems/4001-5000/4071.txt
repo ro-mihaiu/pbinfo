@@ -1,0 +1,24 @@
+#4071
+CicluL
+
+Cerința
+Se dă lista muchiilor unui graf neorientat cu n noduri și un număr L . Să se determine un ciclu elementar de lungime L .
+
+Restricții
+1 ≤ n ≤ 20
+1 ≤ i , j ≤ n
+1 ≤ L ≤ n
+pentru toate datele de test, va exista cel puțin un ciclu de lungime L
+lungimea unui ciclu este egală cu numărul de muchii.
+
+Exemplu
+Input: 6 7
+1 2
+2 3
+2 5
+3 6
+4 6
+5 4
+3 5
+4
+Output: 3 5 4 6 3

@@ -1,0 +1,15 @@
+#1807
+poligonulconvex
+
+Cerința
+Dându-se numărul de laturi ale unui poligon convex, calculați:
+Numărul de diagonale
+Suma măsurilor unghiurilor poligonului convex
+
+Restricții
+numărul de diagonale si suma măsurilor unghiurilor nu vor depăși 2 64 .
+
+Exemplu
+Input: 3
+Output: 0
+180

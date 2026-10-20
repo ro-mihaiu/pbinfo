@@ -1,0 +1,12 @@
+#2501
+sum cons impare
+
+Cerința
+Se citește un număr natural impar n . Să se afișeze valoarea sumei 1+3+5+7+...n .
+
+Restricții
+n are cel mult opt cifre
+
+Exemplu
+Input: 5
+Output: 9

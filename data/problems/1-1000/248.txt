@@ -1,0 +1,15 @@
+#248
+pozitie
+
+Cerința
+Se dă un şir cu n numere naturale distincte două câte două. Să se determine poziţia pe care s-ar afla primul element al şirului în şirul sortat.
+
+Restricții
+1 ≤ n ≤ 10000
+elementele şirului vor avea cel mult 9 cifre
+numerotarea elementelor se face de la 1
+
+Exemplu
+Input: 6
+267 13 45 628 7 79
+Output: 5

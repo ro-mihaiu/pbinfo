@@ -1,0 +1,17 @@
+#776
+cntlinii
+
+Cerința
+Se dă o matrice cu n linii şi m coloane şi elemente numere naturale. Să se determine câte linii ale matricei au toate elementele egale.
+
+Restricții
+1 ≤ m,n ≤ 100
+elementele matricei vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 4 6
+23 23 15 23 18 23
+17 17 17 17 17 17
+17 18 13 18 12 15 
+34 34 34 34 34 34
+Output: 2

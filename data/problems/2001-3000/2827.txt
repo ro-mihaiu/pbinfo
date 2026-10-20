@@ -1,0 +1,12 @@
+#2827
+Sir12
+
+Cerința
+Se consideră un șir de cel mult 10 6 numere naturale distincte din intervalul [1,10 9 ] . Se cere să se determine cei mai mari doi termeni pari din șir care sunt precedați de doar trei termeni impari.
+
+Restricții
+Pentru determinarea și afișarea numerelor cerute se utilizează un algoritm eficient din punctul de vedere al spațiului de memorie și al timpului de executare; se recomandă evitarea memorării numerelor într-un tablou sau în altă structură de date similară
+
+Exemplu
+Input: 4 3 5 312 27 30 14 212 11 15 17 400
+Output: 30 212

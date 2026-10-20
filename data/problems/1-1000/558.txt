@@ -1,0 +1,18 @@
+#558
+Cartonase2
+
+Cerința
+Supărat că Gigel a reușit, cu ajutorul vostru ( vezi problema Cartonașe ), să refacă progresia aritmetică scrisă pe cele n cartonașe, maleficul Costel este hotărât să intervină din nou.
+Astfel, observă că Gigel a notat din nou pe n cartonașe cei n termeni consecutivi ai unei progresii aritmetice. Profitând de lipsa acestuia, Costel a ascuns un număr oarecare de cartonașe și le-a amestecat pe celelalte.
+La întoarcere, Gigel constată lipsa a m cartonașe și vă roagă să-l ajutați să afle care sunt valorile scrise pe cartonașele care lipsesc.
+
+Restricții
+4 ≤ n ≤ 1000
+1 ≤ m ≤ n-2
+valorile scrise de Gigel pe cele n cartonașe 1.000.000.000
+Costel nu va lua niciodată primul sau ultimul cartonaș
+
+Exemplu
+Input: 6 2
+13 19 7 4
+Output: 10 16

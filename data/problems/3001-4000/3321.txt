@@ -1,0 +1,25 @@
+#3321
+Stone
+
+Cerința
+Regele dorește să afle în câte moduri poate plasa soldații în zonele fără turnuri ale regatului astfel încât aceștia să nu fie atacați de turnuri.
+
+Restricții
+1 ≤ n , m ≤ 4
+1 ≤ q , k ≤ n*m
+în cazul în care nu există niciun mod de plasare a soldaților se va afișa 0
+soldații sunt diferiți între ei; două moduri de plasare a soldaților pot să folosească aceleași zone, dar să fie diferite prin ordinea în care sunt plasați soldații în aceste zone.
+Acesta este cel mai mare test.
+
+Exemplu
+Input: 3 3 1 1
+2 2
+Output: 4
+Input: 4 4 1 9
+1 1
+Output: 362880
+Input: 3 3 3 4
+1 1
+2 2
+3 3
+Output: 0

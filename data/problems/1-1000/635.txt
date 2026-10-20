@@ -1,0 +1,18 @@
+#635
+Vecini1
+
+Cerința
+Se dă o matrice cu n linii și m coloane și elemente numere naturale. Determinați pentru câte dintre elementele matricei toți vecinii au valori diferite între ele.
+
+Restricții
+1 ≤ n,m ≤ 100
+elementele matricei vor fi mai mici decât 1 000 000
+considerăm că un element al matricei poate avea patru vecini: elementele situate pe aceeași linie și pe coloanele adiacente și elementele aflate pe aceeași coloană și liniile adiacente
+
+Exemplu
+Input: 4 5
+6 6 4 6 6 
+2 2 6 4 6 
+1 1 7 3 6 
+6 3 6 5 6
+Output: 9

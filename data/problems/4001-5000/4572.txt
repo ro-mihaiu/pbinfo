@@ -1,0 +1,13 @@
+#4572
+Cifre26
+
+Cerința
+Să se scrie un program care citește un număr natural n și afișează numărul obținut prin eliminarea cifelor mai mari decât 2 și mai mici decât 6 .
+
+Restricții
+10 ≤ n < 1.000.000.000
+dacă toate cifrele lui n sunt mai mari decât 2 și mai mici decât 6 se va afișa -1 .
+
+Exemplu
+Input: 31526
+Output: 126

@@ -1,0 +1,13 @@
+#2230
+palindrom3
+
+Cerința
+Fiind dat un număr natural n să se determine cel mai mare număr palindrom care se poate obţine cu cifrele numărului n .
+
+Restricții
+0 < n < 2 147 483 648
+Pentru datele de test există întotdeauna soluţie
+
+Exemplu
+Input: 3121321
+Output: 3211123

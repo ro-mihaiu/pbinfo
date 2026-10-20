@@ -1,0 +1,21 @@
+#1225
+sort2dist
+
+Cerința
+Se cere ca Robo să așeze identificatorii în căsuțe în ordine crescătoare, prin maximum 12500 interschimbări de tipul celei precizate mai sus.
+
+Restricții
+1 ≤ N ≤ 1000 ;
+identificatorii sunt numere naturale de maximum 30 de cifre;
+pentru 25% din punctaj, fișierele de test conțin numere cu maximum 18 cifre;
+pentru 25% din punctaj, N ≤ 100 .
+
+Exemplu
+Input: 4
+5
+7
+6
+2
+Output: 2
+2 4
+2 1

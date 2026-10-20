@@ -1,0 +1,22 @@
+#1184
+Epuras
+
+Cerința
+Epur iepurașul dorește să epureze niște apă folosind stațiile de epurare aflate pe o câmpie de formă pătrată având latură n . Epur iepurașul începe să epureze de la stația de epurare aflată la coordonatele (1, 1) . După ce apa epurată la stația de epurare de pe coordonatele (x, y) e pură, Epur se va deplasa la o stație care are ambele coordonate mai mari sau egale cu coordonatele curente. Epur Iepurașul este obligat de Legea Epurării pentru Iepuri să epureze și la stația situată la coordonatele (n, n) .
+Se știe că fiecare stație de epurare oferă un grad de puritate număr întreg. Când Epur iepurașul își epurează apa la stația aflată la (x, y) , gradul de puritate ale apei sale crește cu gradul oferit de stația de epurare folosită.
+Ajutați-l pe Epur Iepurașul ca, epurând apa sa la stațiile de epurare să obțină un grad de puritate maxim.
+
+Restricții
+1 ≤ n ≤ 1.000
+-10.000 ≤ gradele de puritate ≤ 10.000
+rezultatul nu va depăși 32 de biți cu semn
+fiecare stație de epurare poate fi folosită cel mult o dată
+
+Exemplu
+Input: 5
+5 -2 3 4 6
+3 -8 -10 8 4
+2 5 2 3 4
+-4 -2 -3 -1 -7
+-7 -5 -6 -7 0
+Output: 28

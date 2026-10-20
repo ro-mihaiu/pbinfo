@@ -1,0 +1,22 @@
+#3397
+gard2
+
+Cerința
+Ajutați-l pe Mihăiță să verifice perfecțiunea celor T garduri propuse de Dorel.
+
+Restricții
+1 ≤ T ≤ 10
+Primele teste, 1 ≤ N ≤ 1.000.000 , 1 ≤ H i ≤ 10.000
+Următoarele teste, 1 ≤ N ≤ 100.000 , 1 ≤ H i ≤ 1.000.000.000
+Datorită dimensiunii mari ale testelor, doar unele dintre ele au fost încărcate.
+
+Exemplu
+Input: 4
+6 2 2 3 3 4 4
+6 2 3 3 5 5 5
+7 3 3 4 4 4 5 5
+8 3 3 3 4 4 5 5 5
+Output: 1
+0
+1
+0

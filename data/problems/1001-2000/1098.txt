@@ -1,0 +1,22 @@
+#1098
+Reteta
+
+Cerința
+Dată fiind o reţetă să se determine timpul total de preparare, precum şi cantităţile necesare din fiecare produs.
+
+Restricții
+0 < Lungimea unei reţete ≤ 1000
+1 ≤ Numărul de ingrediente ≤ 100
+Numele unui ingredient este scris cu maxim 20 litere mici ale alfabetului englez.
+Timpii de preparare sunt numere naturale < 100
+Cantităţile specificate în reţete sunt numere naturale < 1000
+
+Exemplu
+Input: (((zahar 100 ou 3)5 unt 100 nuca 200)4 (lapte 200 cacao 50 zahar 100) 3)20
+Output: 32
+cacao 50
+lapte 200
+nuca 200
+ou 3
+unt 100
+zahar 200

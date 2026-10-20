@@ -1,0 +1,21 @@
+#3403
+produse
+
+Cerința
+Se dau cele n coduri ale produselor din baza de date.
+1) Determinați câte produse există pe stoc și câte au stoc epuizat. 2) Pentru fiecare categorie, determinați lista produselor, în ordinea crescătoare a codurilor numerice.
+
+Restricții
+1 ≤ n ≤ 1000 ;
+cele n coduri vor fi mai mari decât 99 și mai mici decât 1.000.000.000 ;
+pentru 30% din teste, c=1 .
+
+Exemplu
+Input: 1 5
+15123 24897 4217 142 2736
+Output: 3 2
+Input: 2 5
+15123 24897 4217 142 2736
+Output: 1 142 15123
+2 2736 24897
+4 4217

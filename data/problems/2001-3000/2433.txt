@@ -1,0 +1,27 @@
+#2433
+cufar
+
+Cerința
+Deoarece vrăjitoarea nu are timp la dispoziție vă roagă pe voi să o ajutați să rezolve următoarele probleme: 1. Să afle valoarea magică pentru un cartonaș dat; 2. Să afle cifrul cufărului.
+
+Restricții
+1 ≤ n < 1 000 000
+2 ≤ valoarea înscrisă pe un cartonaș ≤ 1 000 000
+Se garantează că pentru fiecare pereche (număr, k) , număr are cel puțin k divizori primi.
+Pentru rezolvarea corectă a cerinței 1 se acordă 18 puncte
+Pentru rezolvarea corectă a cerinței 2 se acordă 72 de puncte
+Pentru rezultate corecte la cerința a doua respectând restricțiile problemei și n ≤ 1000 se acordă 18 puncte
+Pentru rezultate corecte la cerința a doua respectând restricțiile problemei și n ≤ 500 000 se acordă 43 de puncte
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă pentru exemplele din enunț.
+
+Exemplu
+Input: 1 1
+30 3
+Output: 5
+Input: 2 5
+30 3
+64 1
+105 2
+1001 3
+5474 4
+Output: 48

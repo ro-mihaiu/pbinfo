@@ -1,0 +1,12 @@
+#2764
+invertedcolor
+
+Cerința
+Dându-se o culoare, scrieți opusul acesteia.
+
+Restricții
+0 ≤ R, G, B, r, g, b ≤ 255
+
+Exemplu
+Input: 0 92 254
+Output: 255 163 1

@@ -1,0 +1,25 @@
+#2438
+pal
+
+Cerința
+Scrieți un program care citește numerele din lista primită de la sfetnicul regelui și afișează: 1) Lista corectă obținută de Micul Prinț; 2) Numărul de elemente ale celui mai lung șir magic care se poate obține din lista corectă; 3) Palindromurile din care este format cel mai lung șir magic, afișate în ordine crescătoare. Dacă există mai multe astfel de șiruri în lista corectă a Micului Prinț, se va afișa cel în care ultimul număr este cel mai mare.
+
+Restricții
+0 < N ≤ 50.000 ;
+Numerele de pe lista sfetnicului sunt naturale nenule și fiecare are cel mult 17 cifre;
+Pentru rezolvarea corectă a primei cerinţe se acordă 20 de puncte, pentru rezolvarea corectă a celei de a doua cerințe se acordă 20 de puncte, iar pentru rezolvarea corectă a celei de a treia cerințe se acordă 50 de puncte.
+În concurs s-au acordat 10 puncte din oficiu. Aici se vor acorda pentru exemplele din enunț.
+
+Exemplu
+Input: 1
+3
+345 214 64325
+Output: 353 222 64346
+Input: 2
+8
+2 3 120 4 432 5643461 7 21211
+Output: 3
+Input: 3
+8
+2 3 5643461 7 120 4 21211 432
+Output: 3 434 5643465

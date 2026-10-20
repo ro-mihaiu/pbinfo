@@ -1,0 +1,21 @@
+#2235
+tsunami
+
+Cerința
+Dată fiind harta digitizată a zonelor monitorizate, să se determine numărul zonelor de uscat afectate de un tsunami de înălțime h .
+
+Restricții
+2 ≤ n,m ≤ 1000
+1 ≤ h ≤ 10
+Zona monitorizată nu conţine lacuri interioare (pătrate unitate învecinate, având cota 0 , înconjurate complet de pătrate unitate având cote strict mai mari decît 0 )
+Cotele sunt numere naturale ≤ 1000
+
+Exemplu
+Input: 6 7 3
+0 0 4 2 5 0 0
+1 0 0 7 3 6 0
+2 3 0 5 2 2 0
+0 7 5 4 0 0 0
+0 5 2 3 0 2 0
+0 4 4 8 0 2 0
+Output: 6

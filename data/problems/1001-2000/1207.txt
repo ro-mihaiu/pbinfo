@@ -1,0 +1,33 @@
+#1207
+Cifre9
+
+Cerința
+Scrieţi un program care să determine
+a) suma maximă ce se poate obţine schimbând între ele cifrele numerelor iniţiale; b) un şir de numere pentru care se obţine suma maximă, respectând restricţiile din enunţ.
+
+Restricții
+2 ≤ n ≤ 100 000
+Numerele din şirul iniţial sunt numere naturale ≤ 2^30-1
+Numerele din şirul afişat nu vor conţine zerouri nesemnificative.
+Dacă există mai multe şiruri pentru care se obţine suma maximă conform restricţiilor din enunţ, se va afişa oricare dintre acestea.
+Pentru afişarea corectă a sumei maxime se acordă 40% din punctaj, punctajul integral obţinându-se pentru rezolvarea corectă a ambelor cerinţe.
+
+Exemplu
+Input: 8
+3120
+400
+1000
+50
+1
+0
+37
+60
+Output: 14280
+6410 
+500
+10 
+20 
+10 
+0 
+7330
+0

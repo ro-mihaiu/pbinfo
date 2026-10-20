@@ -1,0 +1,12 @@
+#3609
+countmod10
+
+Cerința
+Se dau două numere naturale nenule a și b , unde a≤b . Să se determine câte numere naturale divizibile cu 10 sunt în intervalul [a,b] .
+
+Restricții
+1 ≤ a ≤ b ≤ 1.000.000.000
+
+Exemplu
+Input: 19 90
+Output: 8

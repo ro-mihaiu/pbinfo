@@ -1,0 +1,18 @@
+#1330
+PartitiiMultime
+
+Cerința
+Fie n un număr natural nenul și mulțimea A={1,2,3,...,n} . Să se determine toate partițiile disjuncte ale mulțimii A .
+O partiție a mulțimii A este formată din m ( 1 ≤ m ≤ n ) submulțimi disjuncte ale lui A : A 1 , A 2 , …, A m cu proprietatea că A=A 1 U A 2 U...U A m .
+
+Restricții
+1 ≤ n ≤ 9
+Partițiile determinate se vor afișa în ordine lexicografică
+
+Exemplu
+Input: 3
+Output: 123*
+12*3*
+13*2*
+1*23*
+1*2*3*

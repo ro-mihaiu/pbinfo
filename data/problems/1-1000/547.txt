@@ -1,0 +1,14 @@
+#547
+numarare6
+
+Cerința
+Se citește un vector cu n elemente, numere naturale. Să se determine câte elemente ale vectorului sunt egale cu diferența dintre cea mai mare și cea mai mică valoare din vector.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele vectorului vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 5
+7 7 9 2 4
+Output: 2

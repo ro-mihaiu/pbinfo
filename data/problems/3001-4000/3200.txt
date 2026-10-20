@@ -1,0 +1,12 @@
+#3200
+neaDragulin
+
+Cerința
+Nea Drăgulin are un număr natural n pe care îl scrie de k ori, unul după altul. Aflaţi restul împărţirii numărului astfel obţinut la 72 .
+
+Restricții
+1 ≤ n , k ≤ 2.000.000.000
+
+Exemplu
+Input: 51 3
+Output: 63

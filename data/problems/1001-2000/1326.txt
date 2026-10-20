@@ -1,0 +1,18 @@
+#1326
+sir_vale
+
+Cerința
+Un şir se numeşte şir vale , dacă are un singur minim pe poziţia v şi respectă următoarele proprietăţi: În stânga şi în dreapta minimului există cel puţin câte un element. Secvenţa a[1], a[2], ... , a[v] este strict descrescătoare. Secvenţa a[v], a[v+1], ... , a[n] este strict crescătoare.
+Se citeşte un şir cu n elemente. Să se verifice dacă este şir vale.
+
+Restricții
+3 ≤ n ≤ 1000
+0 ≤ elementele şirului ≤ 1 000 000 000
+
+Exemplu
+Input: 5
+1 2 3 4 5
+Output: NU
+Input: 5
+4 3 2 1 2
+Output: DA

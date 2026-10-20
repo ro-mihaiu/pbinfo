@@ -1,0 +1,18 @@
+#668
+identice1
+
+Cerința
+Se dă o matrice cu n linii și m coloane și elemente numere naturale. Să se determine câte perechi de linii consecutive din matrice sunt identice.
+
+Restricții
+1 ≤ n , m ≤ 100
+elementele matricei sunt numere naturale mai mici decât 1.000.000
+
+Exemplu
+Input: 5 3
+10 2 5 
+2 1 4 
+2 1 4 
+7 10 9 
+7 10 9
+Output: 2

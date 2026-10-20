@@ -1,0 +1,29 @@
+#623
+Numere3
+
+Cerința
+Cunoscând a , b şi c se cere:
+a) Suma cifrelor celor trei numere. b) Valorile numerelor a şi c la fiecare pas al jocului, precum şi câştigătorul jocului.
+
+Restricții
+0 < a < b < c < 10.000.000
+Pentru rezolvarea corectă a primei cerinţe se acordă 20 de puncte, iar pentru cerința a doua se acordă 80 de puncte.
+
+Exemplu
+Input: 1
+25 51 75
+Output: 25
+Input: 2
+25 51 75
+Output: 25 75
+32 63
+37 54
+47 45
+2
+Input: 2
+25 46 75
+Output: 25 75
+32 63
+37 54
+47 45
+0

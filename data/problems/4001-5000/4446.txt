@@ -1,0 +1,23 @@
+#4446
+magictrick
+
+Cerința
+Fiind date numerele scrise pe cele N cărți din pachet, să se determine: 1) coeficientul magic al întregului pachet de cărți; 2) coeficientul magic maxim, alegând din pachet un set de cel puțin două cărți.
+
+Restricții
+C ∈ {1, 2}
+2 ≤ N ≤ 100.000
+numerele scrise pe cele N cărți au valori cuprinse între [1, 500.000] .
+Pentru 20 de puncte, C = 1
+Pentru 9 de puncte, C = 2 , N ≤ 1000 , iar fiecare număr scris pe cele N cărți este cuprins între [1, 6]
+Pentru 11 de puncte, C = 2 , N ≤ 1000 , iar fiecare număr scris pe cele N cărți este cuprins între [1, 1000]
+Pentru 13 de puncte, C = 2 , iar numerele scrise pe cele N cărți sunt puteri ale aceluiași număr din intervalul [2, 6]
+Pentru 47 de puncte, fără restricții suplimentare
+
+Exemplu
+Input: 1 5
+1 2 3 4 5
+Output: 15
+Input: 2 5
+2 3 6 7 8
+Output: 32

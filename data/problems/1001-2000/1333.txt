@@ -1,0 +1,13 @@
+#1333
+trapez
+
+Cerința
+Cunoscând laturile unui trapez isoscel, să se calculeze lungimea diagonalei.
+
+Restricții
+0 < B, b, l, d < 1000
+rezultatul va fi punctat dacă diferența dintre cel afișat de program și cel corect este mai mică decât 0.01 .
+
+Exemplu
+Input: 6 2 5
+Output: 6.08276

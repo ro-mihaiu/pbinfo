@@ -1,0 +1,20 @@
+#856
+Valori
+
+Cerința
+Gigel se joacă cu cuvinte (scrise cu litere din alfabetul englez, mari sau mici). El a asociat fiecărei litere din alfabet o valoare număr natural, pe care a numit-o valoarea literei . Apoi a definit valoarea unui cuvânt astfel: se calculează suma S1 a valorilor literelor mici din cuvânt şi suma S2 a valorilor literelor mari din cuvânt. Valoarea cuvântului va fi S1 - S2 .
+Cunoscându-se valoarea fiecărei litere din alfabet şi o listă de cuvinte, să se determine cuvântul cu valoarea maximă. Dacă există mai multe cuvinte de valoare maximă, se vor determina toate, în ordinea din lista dată.
+
+Restricții
+valorile literelor sunt numere naturale mai mici decât 1000
+1 ≤ n ≤ 1000
+fiecare dintre cuvintele date conţine cel mult 255 caractere
+
+Exemplu
+Input: 2 7 7 3 9 8 9 6 3 9 6 6 6 5 5 8 2 6 6 1 5 6 9 4 7 3 
+4
+BaciL
+AbAc
+Aba
+AbEcEdAr
+Output: AbAc

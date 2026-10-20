@@ -1,0 +1,29 @@
+#1437
+Fractii4
+
+Cerința
+Să se afișeze, pentru fiecare fracție:
+1) Prin câte moduri distincte se poate simplifica. 2) Fracția ireductibilă.
+
+Restricții
+n <= 100 000
+0 < numitor, numărător < 2 000 000
+P este 1 sau 2
+
+Exemplu
+Input: 1 4
+8 4
+3 2
+1 6
+12 6
+Output: 2
+-1
+-1
+3
+Input: 2 3
+22 6
+11 4
+125 25
+Output: 11/3
+11/4
+5/1

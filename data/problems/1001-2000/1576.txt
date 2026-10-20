@@ -1,0 +1,24 @@
+#1576
+zona3
+
+Cerința
+Se consideră o matrice cu n linii și m coloane. Spunem că o poziție este liberă dacă elementul de pe linia i și coloana j este egal cu 0 și 1 în caz contrar. Spunem despre mai multe elemente ocupate că formează o zonă, dacă elementele se învecinează pe cele patru direcții (sus, jos, dreapta, stânga).
+Calculați pentru fiecare zonă numărul de elemente și afișați noua matrice formată prin înlocuirea elementelor egale cu 1 cu numărul de elemente pe care îl are zona din care face parte elementul respectiv.
+
+Restricții
+2 ≤ n, m ≤ 100
+
+Exemplu
+Input: 6 8
+1 1 0 0 1 1 1 0
+0 0 0 1 1 1 0 0
+1 1 0 0 0 1 0 0
+0 1 1 1 1 0 0 0
+0 0 0 0 1 1 0 0
+1 1 0 1 0 0 0 1
+Output: 2 2 0 0 7 7 7 0
+0 0 0 7 7 7 0 0
+8 8 0 0 0 7 0 0
+0 8 8 8 8 0 0 0
+0 0 0 0 8 8 0 0
+2 2 0 1 0 0 0 1

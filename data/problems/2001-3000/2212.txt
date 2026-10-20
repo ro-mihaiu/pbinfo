@@ -1,0 +1,25 @@
+#2212
+eval
+
+Cerința
+Scrieţi un program care să determine valoarea unei expresii, precum şi valorile finale ale variabilelor folosite în expresie.
+
+Restricții
+Expresia va conţine cel puţin o variabilă.
+Numărul de caractere din expresie este mai mic decât 1000
+Expresia nu conţine nicio ambiguitate (de forma a+++b sau a---b ) .
+Operatorii ++ şi –– nu vor apărea simultan înainte şi după o variabilă (de exemplu, ++a++ sau ++a-- ).
+
+Exemplu
+Input: d -- + a – b
+Output: 3
+1
+2
+3
+Input: q- u   -+         +a-c++ - ++ t
+Output: -30
+2
+4
+17
+21
+21

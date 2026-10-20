@@ -1,0 +1,30 @@
+#4505
+Mewtwo
+
+Cerința
+Ash este un antrenor Pokemon ambițios, setându-și scopul să devină cel mai bun. Din păcate, rivalul său, Gary, a furat startul și are Pokemoni mai puternici decât cei ai lui Ash.
+Totuși, Ash nu se va da bătut chiar așa ușor! Are un plan de bătaie: în aventurile sale a găsit o clădire misterioasă care poate fi reprezentată ca o matrice de N x M , fiecare celulă reprezentând conținutul unei camere. În această clădire se află:
+Ash (codificat cu A ): Ash se află inițial în această cameră
+Mewtwo (codificat cu M ): cel mai puternic Pokemon cunoscut de om. Ash are deja un Master Ball , așa că îl va poate prinde pe Mewtwo cu ușurință.
+Gary (codificat cu G ): a fost provocat de Ash la o bătălie de Pokemoni și îl așteaptă într-o anumită cameră
+cameră liberă (codificată cu _ ): Ash poate accesa această cameră
+cameră ocupată (codificată cu # ): Ash nu poate accesa această cameră
+Planul său constă în a-l prinde pe Mewtwo, după aceea în a-l confrunta pe Gary. Ash se poate deplasa în cele patru direcții cardinale ( N , E , S , V ). Știind că o deplasare se face într-o secundă, determinați numărul minim de secunde în care Ash poate ajunge la Mewtwo, apoi la Gary.
+
+Restricții
+Când zicem cel mai puternic Pokemon, ne referim comparativ cu cei din generația 1 .
+Se garantează că Ash își va putea executa planul de bătaie
+1 ≤ N ≤ 1.000
+1 ≤ M ≤ 1.000
+
+Exemplu
+Input: 8 10
+__#_______
+_A#_______
+__#___M_#_
+__#__####_
+__##_##___
+_____#__G_
+__#__#____
+__########
+Output: 21

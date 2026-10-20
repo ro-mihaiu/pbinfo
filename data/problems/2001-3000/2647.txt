@@ -1,0 +1,12 @@
+#2647
+SecvBiti
+
+Cerința
+Să se scrie funcția cu următorul antet:
+long long SecvBiti(char s[])
+Funcția primește ca parametru un șir de caractere din mulțimea {'0', '1'} și returnează numărul secvențelor cu proprietatea că numărul biților de 1 din secvență este egal cu numărul biților de 0 .
+
+Restricții
+2 ≤ lungimea șirului ≤ 1.000.000
+
+Exemplu

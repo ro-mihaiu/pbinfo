@@ -1,0 +1,14 @@
+#4321
+Cifre24
+
+Cerința
+Se dă un șir cu n numere naturale. Să se determine numărul din șir care are asociatul impar minim. Dacă există mai multe numere cu asociat impar minim se va determina numărul mai mic.
+
+Restricții
+n ≤ 100
+cele n numere sunt sunt mai mici decât 10 9
+
+Exemplu
+Input: 5
+1925 12415 1825 1934 8364
+Output: 1825

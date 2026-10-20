@@ -1,0 +1,14 @@
+#3101
+XORCrypt
+
+Cerința
+Se citește un text de maxim 256 caractere și o cheie de număr egal de caractere cu textul citit. După aplicarea Encripției XOR , caracterele rezultate se vor afișa în format binar deoarece în majoritatea cazurilor se obțin caractere neprintabile.
+Encripția XOR presupune aplicarea operatorului pe biți XOR între text și cheie, între fiecare caracter din text și caracterul din cheie de pe aceeași poziție cu cel din text: text[i] XOR cheie[i] . Pentru decriptare, operatorul se aplică între cheie și textul criptat.
+
+Restricții
+Se va folosi alfabetul englez.
+
+Exemplu
+Input: xor
+key
+Output: 00010011 00001010 00001011

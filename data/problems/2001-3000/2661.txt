@@ -1,0 +1,13 @@
+#2661
+eliminareciframijloc
+
+Cerința
+Se dă un număr natural n despre care știm că are număr impar de cifre. Să se afișeze valoarea obținută prin eliminarea cifrei din mijloc.
+
+Restricții
+100 ≤ n ≤ 10000000000000000
+se garantează că n are număr impar de cifre
+
+Exemplu
+Input: 257
+Output: 27

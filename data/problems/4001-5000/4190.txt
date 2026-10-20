@@ -1,0 +1,10 @@
+#4190
+FPatrate
+
+Cerința
+Subprogramul patrate are trei parametri:
+n , prin care primește un număr natural (\( n \in [2, 10^9]\));
+x și y , prin care furnizează câte un număr natural cu proprietatea că \(x^2 \cdot y^2 = n\) și \(2 ≤ x < y\) sau valoarea 0 , prin fiecare dintre aceștia, dacă nu există două astfel de numere. Dacă sunt mai multe astfel de valori, se furnizează cele corespunzătoare unei valori minime a lui x .
+Scrieți definiția completă a subprogramului.
+
+Exemplu

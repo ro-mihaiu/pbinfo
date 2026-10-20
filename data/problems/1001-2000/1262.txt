@@ -1,0 +1,15 @@
+#1262
+subsecv
+
+Cerința
+Se dau n numere naturale. Să se găsească o subsecvență astfel încât suma elementelor din această subsecvență să fie divizibilă cu n .
+
+Restricții
+1 ≤ n ≤ 10.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 2.000.000.000
+în caz că există mai multe soluții se va afișa cea cu indicele stânga minim, iar dacă există mai multe soluții cu indicele stânga minim se va afișa cea cu indicele dreapta minim
+
+Exemplu
+Input: 7
+65 26877 13488 43 256888 53 428
+Output: 3 4

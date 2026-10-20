@@ -1,0 +1,14 @@
+#131
+sortcif2
+
+Cerința
+Să se ordoneze crescător elementele unui vector crescător după prima cifră.
+
+Restricții
+0 < n ≤ 100
+valoarea absolută a numerelor de pe a doua linie a fişierului de intrare va fi mai mică decât 2 30
+
+Exemplu
+Input: 6
+89 2246 91 4005 51 721
+Output: 2246 4005 51 721 89 91

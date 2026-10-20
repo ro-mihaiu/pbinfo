@@ -1,0 +1,18 @@
+#3975
+Intervale_AB
+
+Cerința
+Dându-se N intervale [a, b] , calculați numărul maxim de astfel de intervale care se intersectează în cel puțin un punct .
+
+Restricții
+1 ≤ N ≤ 100.000
+-2.000.000.000 ≤ a ≤ b ≤ 2.000.000.000
+
+Exemplu
+Input: 5
+1 5
+3 4
+-10 10
+-23 -20
+100 200
+Output: 3

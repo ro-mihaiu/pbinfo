@@ -1,0 +1,27 @@
+#2902
+pavaj
+
+Cerința
+Curtea bunicului are forma unei matrice cu n linii și m coloane și este pavată cu n*m dale, o parte dintre acestea fiind deteriorate. Bunicul a realizat un plan al curții în care a marcat cu 0 dalele deteriorate și cu 1 pe cele nedeteriorate.
+Bunicul a primit k oferte pentru a vinde zone dreptunghiulare ale curții. Fiecare zonă este determinată de coordonatele l1 c1 l2 c2 a două colțuri opuse ale ei. Pentru fiecare zonă bunicul dorește să afle dacă conține doar dale nedeteriorate, doar dale deteriorate sau conține și dale deteriorate și dale nedeteriorate.
+
+Restricții
+1 ≤ n, m ≤ 1000
+1 ≤ k ≤ 100000
+1 ≤ l1, l2 ≤ n
+1 ≤ c1, c2 ≤ m
+numerotarea liniilor și a coloanelor începe de la 1
+pentru 50% din teste 1 ≤ n, m, k ≤ 1000
+
+Exemplu
+Input: 4 6 3
+0 0 1 1 1 0
+0 0 1 1 1 0
+0 0 0 0 0 1
+1 0 1 0 1 0
+1 1 3 2
+2 4 1 5
+1 6 4 2
+Output: 0
+1
+2

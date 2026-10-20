@@ -1,0 +1,24 @@
+#3769
+iepuras2
+
+Cerința
+1. Pentru fiecare dintre cele n numere pictate de Skippie aflați suma dintre cel mai mare și cel mai mic număr natural care se pot forma din toate cifrele distincte folosite în scrierea numărului pictat. 2. Pentru fiecare dintre cele n numere pictate de Skippie aflați de câte ori apare cifra de control a numărului pictat în scrierea tuturor numerelor naturale mai mici sau egale decât numărul pictat.
+
+Restricții
+1 ≤ C ≤ 2
+1 ≤ n ≤ 100.000
+numerele pictate de iepuraș sunt mai mici sau egale cu 10 18
+
+Exemplu
+Input: 1
+2
+121
+33343
+Output: 33
+77
+Input: 2
+2
+123
+191
+Output: 22
+39

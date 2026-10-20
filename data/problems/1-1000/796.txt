@@ -1,0 +1,18 @@
+#796
+eliminare3
+
+Cerința
+Se dă o matrice cu m linii și n coloane și elemente numere naturale cu cel mult patru cifre. Să se modifice matricea, eliminând penultima linie și penultima coloană.
+
+Restricții
+3 ≤ m,n ≤ 50
+
+Exemplu
+Input: 4 5
+5 1 2 3 4
+8 2 2 5 3
+2 1 7 3 9
+3 0 9 8 5
+Output: 5 1 2 4
+8 2 2 3
+3 0 9 5

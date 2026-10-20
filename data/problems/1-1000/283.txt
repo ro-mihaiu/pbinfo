@@ -1,0 +1,15 @@
+#283
+secventa
+
+Cerința
+Se dă un şir cu n elemente, numere naturale. Determinaţi cea mai lungă secvenţă de elemente din şir cu proprietatea că oricare două valori consecutive în secvenţă au parităţi diferite.
+Dacă există mai multe secvente de lungime maximă cu această proprietate, se va determina aceea cu suma elementelor maximă. Dacă există mai multe secvenţe de lungime maximă cu aceeaşi sumă maximă a elementelor se va determina cea mai din dreapta.
+
+Restricții
+1 ≤ n ≤ 100.000 ;
+elementele şirului vor avea cel mult 9 cifre şi sunt numerotate de la 1 la n ;
+
+Exemplu
+Input: 10
+2 4 3 6 7 5 2 5 8 10
+Output: 6 9

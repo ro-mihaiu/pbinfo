@@ -1,0 +1,28 @@
+#2675
+scara1
+
+Cerința
+Determinaţi p , numărul minim de paşi pe care trebuie să îi facă G pentru a urca scara, precum şi suma minimă pe care trebuie să o cheltuiască G pentru a urca scara în p paşi.
+
+Restricții
+n ≤ 120
+0 ≤ k ≤ n
+0 ≤ j ≤ n
+Cantitatea de apă aflată în oricare sticlă este 1 ≤ x ≤ 100
+Cantitatea de băutură energizantă aflată în oricare sticlă este 1 ≤ y ≤ 100
+
+Exemplu
+Input: 6
+1
+1 2
+2
+4 1
+1 2
+Output: 3 2
+Input: 6
+1
+1 2
+2
+4 1
+1 1
+Output: 4 1

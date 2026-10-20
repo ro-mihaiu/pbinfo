@@ -1,0 +1,14 @@
+#2939
+Permutari4
+
+Cerința
+O permutare de ordin K este formată din toate numerele 1 , 2 , …, K nu neapărat în această ordine. O secvență de lungime L este formată din L elemente ale șirului aflate pe poziții consecutive. Spunem că o secvență de lungime L este permutare de ordin L dacă ea conține toate numerele 1 , 2 , …, L , nu neapărat în această ordine.
+Se dă un șir de N numere naturale nenule \( {a}_{1}, {a}_{2}, …,{a}_{N} \), ce reprezintă o permutare de ordin N . Să se calculeze numărul secvențelor din șirul a care au proprietatea că sunt permutări.
+
+Restricții
+1 < N ≤ 100.000
+
+Exemplu
+Input: 7
+4 2 5 1 3 7 6
+Output: 3

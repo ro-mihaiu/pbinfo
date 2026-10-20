@@ -1,0 +1,22 @@
+#2465
+agora
+
+Cerința
+Cunoscându-se valorile X , Y și coordonatele (SX i , SY i ) și (DX i , DY i ) pentru Q parcele, unde 1 ≤ i ≤ Q , să se afle, pentru fiecare parcelă, care este numărul de tarabe speciale pe care le conține.
+
+Restricții
+2 ≤ X ≤ 7000
+2 ≤ Y ≤ 7000
+1 ≤ Q ≤ 100 000
+o tarabă face parte dintr-o parcelă și dacă se află pe laturile ei;
+(SX i , SY i ) și (DX i , DY i ) nu se vor afla în afara dreptunghiului asociat pieței, dar se pot afla pe laturile lui;
+Pentru teste în valoare de 10 puncte: X, Y ≤ 100 și Q ≤ 100
+Pentru alte teste în valoare de 20 puncte: X, Y ≤ 2000 și Q ≤ 1000
+Pentru alte teste în valoare de 10 puncte: X, Y ≤ 2000 și Q ≤ 100 000
+
+Exemplu
+Input: 5 5 2
+1 5 3 4
+3 4 4 3
+Output: 1
+2

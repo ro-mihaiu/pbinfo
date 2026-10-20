@@ -1,0 +1,16 @@
+#1054
+Galbeni
+
+Cerința
+Cunoscând numărul de galbeni aleşi de primul sătean, determinaţi numărul de galbeni pe care îl va primi al N -lea sătean.
+
+Restricții
+2 ≤ N ≤ 1 000 000 000
+1 ≤ K ≤ 3
+Se garantează că S are exact K cifre.
+
+Exemplu
+Input: 51 2 3
+Output: 77
+Input: 10 2 3
+Output: 96

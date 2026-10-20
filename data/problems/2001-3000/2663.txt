@@ -1,0 +1,15 @@
+#2663
+Divisors
+
+Cerința
+Trebuie să definiți trei funcții având următoarele antete:
+int NrDiv(int n)
+int NextNrDiv(int n)
+int PrevNrDiv(int n)
+Funcția NrDiv primește ca parametru un număr natural n și returnează numărul divizorilor lui n Funcția NextNrDiv primește ca parametru un număr natural n și returnează cel mai mic număr natural, strict mai mare decât n , care are același număr de divizori ca și n . Funcția PrevNrDiv primește ca parametru un număr natural n și returnează cel mai mare număr natural, strict mai mic decât n , care are același număr de divizori ca și n . Dacă acest număr nu există, funcția va returna valoarea -1 .
+
+Restricții
+10 ≤ n ≤ 50.000
+Puteți să apelați o funcție din altă funcție. Se recomandă ca funcțiile să fie definite în ordinea descrisă mai sus în enunț.
+
+Exemplu

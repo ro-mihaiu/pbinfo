@@ -1,0 +1,17 @@
+#1354
+varf
+
+Cerința
+Să se genereze toate subşirurile vârf ale şirului a , de lungime minim 3 .
+
+Restricții
+4 ≤ n ≤ 11
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 20
+subșirurile vârf vor fi scrise în fișier în ordinea lexicografică a pozițiilor ocupate în șirul a de termenii fiecărui subșir.
+dacă nu există niciun subșir vârf atunci fișierul de ieșire varf.out va conține pe prima linie valoarea 0 .
+
+Exemplu
+Input: 4
+2 1 4 3
+Output: 2 4 3 
+1 4 3

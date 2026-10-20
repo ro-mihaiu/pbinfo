@@ -1,0 +1,14 @@
+#3349
+putere1
+
+Cerința
+Se dau numerele naturale b n p . Determinați numărul format din ultimele p cifre ale lui b n .
+
+Restricții
+1 ≤ b ≤ 1000000
+1 ≤ n < 2 31
+1 ≤ p ≤ 9
+
+Exemplu
+Input: 2 10 2
+Output: 24

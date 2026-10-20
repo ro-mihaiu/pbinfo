@@ -1,0 +1,14 @@
+#1994
+vanatoare
+
+Cerința
+Ştiind că vânătorul a primit ka săgeţi albe şi kb săgeţi negre trebuie să determinaţi câte rânduri de raţe a doborât şi câte săgeţi de fiecare tip i-au rămas ştiind că el vrea să-şi păstreze slujba.
+
+Restricții
+0 ≤ ka, kb ≤ 2.000.000.000
+
+Exemplu
+Input: 9 10
+Output: 4
+2
+6

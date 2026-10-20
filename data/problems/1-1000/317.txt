@@ -1,0 +1,17 @@
+#317
+SumMax
+
+Cerința
+Se dă o matrice pătratică cu n lini şi n coloane şi elemente numere naturale distincte. Determinaţi cea mai mare sumă a n elemente din matrice, cu proprietatea că oricare două elemente se află pe linii şi coloane distincte.
+
+Restricții
+1 ≤ n ≤ 10
+elementele matricei vor avea cel mult 4 cifre
+
+Exemplu
+Input: 4
+12 16 5 4
+11 14 6 7
+8 2 3 17
+10 9 13 15
+Output: 57

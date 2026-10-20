@@ -1,0 +1,16 @@
+#1161
+BigNumber
+
+Cerința
+Să se determine numărul maxim care se poate obţine din şirul cu N cifre, după efectuarea a maxim X operaţii swap.
+
+Restricții
+1 ≤ N ≤ 1.000.000
+0 ≤ X ≤ 1.000.000.000
+Pentru 30% din teste N ≤ 5.000
+Pentru alte 20% din teste X ≤ 25.000.000
+
+Exemplu
+Input: 5 3
+14325
+Output: 43215

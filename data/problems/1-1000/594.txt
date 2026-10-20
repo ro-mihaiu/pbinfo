@@ -1,0 +1,17 @@
+#594
+Eroziune
+
+Cerința
+Harta unei zone geografice este dată sub forma unei matrice cu n linii și m coloane, în care un element egal cu 1 desemnează uscat, iar un element egal cu 0 desemnează apă. Fiecare element are cel mult patru vecini (sus, jos, stânga, dreapta). S-a constatat existența unei eroziuni accentuate a uscatului, astfel că fiecare porțiune de uscat care are cel puțin doi vecini apă dispare după un an.
+Institutul de Cercetări Geografice studiază fenomenul și vă cere să scrieți un program care să determine după câți ani uscatul va dispărea în întregime.
+
+Restricții
+1 ≤ n , m ≤ 100
+
+Exemplu
+Input: 4 5
+1 1 1 0 1
+0 0 1 1 1
+1 0 0 1 0
+1 0 0 1 0
+Output: 4

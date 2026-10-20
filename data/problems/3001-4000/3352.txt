@@ -1,0 +1,12 @@
+#3352
+Factori1
+
+Cerința
+Se dau două numere naturale. Afișați numărul pentru care suma factorilor primi distincți este mai mare. Dacă cele două numere au aceași sumă a factorilor primi, afișați-l pe cel mai mic.
+
+Restricții
+cele două numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 36 26
+Output: 26

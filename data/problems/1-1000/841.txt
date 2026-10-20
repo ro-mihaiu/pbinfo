@@ -1,0 +1,26 @@
+#841
+Bomber
+
+Cerința
+Se consideră un poligon militar, pe care este stabilit un sistem de axe de coordonate xOy . Se dau n bombe, numerotate de la 1 la n , pentru fiecare cunoscându-se coordonatele x y și puterea de distrugere p . La explozia unei bombe de putere p se va distruge totul în interiorul și pe cercul de centru x y și rază p , iar dacă există alte bombe în această zonă, vor exploda la rândul lor.
+Dându-se numărul de ordine I al unei bombe care explodează, să se determine câte bombe rămân intacte la finalul șirului de explozii declanșate.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ I ≤ n
+coordonatele x y sunt numere întregi, iar puterile p sunt numere naturale
+-200 ≤ x , y ≤ 200
+* 1 ≤ p ≤ 30
+
+Exemplu
+Input: 9 5
+0 3 2
+-1 1 3
+1 4 1
+3 4 4
+-1 -2 3
+3 1 3
+0 -4 2
+3 -2 5
+4 -1 2
+Output: 4

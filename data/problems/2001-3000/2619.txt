@@ -1,0 +1,13 @@
+#2619
+five
+
+Cerința
+Să se determine numărul tripletelor (a[i], a[j], a[p]) cu i < j < p , iar a[i] + a[j] + a[p] este divizibil cu 5 .
+
+Restricții
+1 ≤ n ≤ 100.000
+1 ≤ w, X, Y, Z ≤ 1.000.000.000
+
+Exemplu
+Input: 10 1 7 223 17
+Output: 24

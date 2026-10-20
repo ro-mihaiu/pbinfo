@@ -1,0 +1,21 @@
+#1422
+ograda
+
+Cerința
+1. Să se afișeze câte găini și câte văcuțe sunt în ograda lui Gigel. 2. Maria, colega lui Gigel, îl provoacă pe acesta să calculeze numărul de divizori impari pentru numărul C și numărul de divizori pari pentru numărul P . Deoarece Gigel nu este bun la matematică, vă cere ajutorul. Să se afișeze cele două numere calculate.
+
+Restricții
+C și P sunt numere naturale, 2*C ≤ P ≤ 4*C , iar P este un număr par.
+Pentru cerința 1: C, P ≤ 200000000000
+Pentru cerința 2: C, P ≤ 50000000
+Se consideră că toate găinile au 2 picioare și 1 cap, iar toate văcuțele au 4 picioare și 1 cap. Gigel nu se află în ogradă în momentul numărării capetelor și picioarelor.
+Pentru X = 1 se va rezolva doar cerința 1. Pentru X = 2 se va rezolva doar cerința 2.
+d este divizorul lui a dacă restul împărţirii lui a la d este 0 .
+
+Exemplu
+Input: 1
+5 16
+Output: 2 3
+Input: 2
+5 16
+Output: 2 4

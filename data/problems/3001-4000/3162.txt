@@ -1,0 +1,21 @@
+#3162
+cifre_bin_back
+
+Cerința
+Se dă un număr natural n . Afișați în ordine lexicografică toate secvențele de cifre binare care au atâtea cifre de 0 și atâtea cifre de 1 câte are reprezentarea binară a lui n .
+
+Restricții
+1 ≤ n ≤ 2.000.000
+
+Exemplu
+Input: 17
+Output: 00011
+00101
+00110
+01001
+01010
+01100
+10001
+10010
+10100
+11000

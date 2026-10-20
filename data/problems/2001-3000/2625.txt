@@ -1,0 +1,24 @@
+#2625
+viitor
+
+Cerința
+Determinați, pentru fiecare acționar numărul de magazine deținute de către acesta care nu au fost aprovizionate cu înghețată în nicio zi din concediu.
+
+Restricții
+1 ≤ N ≤ 2 000 000 000
+1 ≤ M ≤ 100 000
+1 ≤ K ≤ 100 000
+Pentru teste valorând 30 de puncte, 1 ≤ N, M, K ≤ 1 000 .
+1 ≤ x ≤ y ≤ N, 1 ≤ a ≤ b ≤ N
+Se garantează că fiecare dintre cele N magazine are cel puțin un acționar.
+Fiind foarte departe în viitor, observăm că oamenii trăiesc mai mult, se deplasează mai repede, dar au și concedii mai lungi.
+
+Exemplu
+Input: 10 3 2
+1 4
+9 10
+3 6
+1 7
+4 10
+Output: 1
+2

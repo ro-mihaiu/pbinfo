@@ -1,0 +1,12 @@
+#2323
+prim001
+
+Cerința
+Se dă un număr natural n . Să se afle numărul divizorilor naturali ai lui n n .
+
+Restricții
+1 ≤ n ≤ 10 13
+
+Exemplu
+Input: 4
+Output: 9

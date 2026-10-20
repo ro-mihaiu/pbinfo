@@ -1,0 +1,37 @@
+#1214
+Inventie
+
+Cerința
+Scrieți un program care citește un număr natural N și N perechi de numere naturale (a,b) și afișează:
+a) pentru fiecare pereche de numere (a,b) , rezultatul a☺b ; b) cel mai mic și cel mai mare rezultat a☺b care nu are divizori pari.
+
+Restricții
+1 ≤ N ≤ 20
+a și b sunt numere naturale nenule de maxim 18 cifre fiecare
+
+Exemplu
+Input: 8
+6 4
+9 2
+8 5
+7 6
+6 6
+6 10
+43 1500
+23 23
+Output: 210
+711
+313
+113
+12
+416
+14571543
+46
+113
+14571543
+Input: 2
+13 13
+268 1244
+Output: 26
+9761512
+0

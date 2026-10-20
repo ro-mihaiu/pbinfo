@@ -1,0 +1,15 @@
+#4298
+lacom
+
+Cerința
+Victor și tatăl său au mers la magazinul de bomboane pentru ca tatăl să își onoreze o mai veche promisiune. Magazinul are bomboanele aranjate pe un rând, în mai multe cutii așezate una lângă alta. Se cunoaște numărul de bomboane din fiecare cutie, în ordinea în care sunt așezate cutiile începând de la intrare. Tatăl i-a fixat lui Victor următoarea regulă de colectare a bomboanelor: Parcurge cutiile începând de la intrare. Colectează toate bomboanele din prima cutie. Când ajunge la o cutie de pe rând, colectează toate bomboanele de acolo doar dacă numărul lor este strict mai mare decât numărul de bomboane din ultima cutie din care a colectat.
+Determinați câte bomboane a colectat Victor.
+
+Restricții
+1 ≤ n ≤ 100
+Numărul de bomboane din fiecare cutie este o valoare naturală nenulă de maxim 9 cifre
+
+Exemplu
+Input: 7
+5 3 9 7 8 10 1
+Output: 24

@@ -1,0 +1,14 @@
+#404
+cifrenrprime
+
+Cerința
+Se dă un șir cu n numere naturale. Determinați numărul total de cifre al tuturor numerelor prime din șir.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 6
+83 36 53 401 90 7
+Output: 8

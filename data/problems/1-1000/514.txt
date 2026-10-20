@@ -1,0 +1,14 @@
+#514
+sortpie
+
+Cerința
+Se dă un vector cu n elemente, numere naturale. Afișați în ordine descrescătoare valorile din vector care sunt prime cu ultimul element al vectorului.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 8
+16 7 6 3 1 5 9 14
+Output: 9 5 3 1

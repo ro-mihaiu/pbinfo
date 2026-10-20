@@ -1,0 +1,18 @@
+#3205
+calcfunct
+
+Cerința
+Scrieți o funcție operand cu doi parametri care returnează poziția maximului dintr-un șir dat de numere întregi. Se presupune că elementele șirului sunt distincte și memorate începând cu poziția 1 . Parametrii funcției sunt: tabloul în care este memorat șirul și numărul de elemente ale acestuia.
+Scrieți o funcție procedurală cu trei parametri care oferă poziția minimului dintr-un șir dat de numere întregi. Se presupune că elementele șirului sunt distincte și memorate începând cu poziția 1 . Parametrii funcției sunt: tabloul în care este memorat șirul, numărul de elemente ale acestuia precum și rezultatul.
+Scrieți o funcție procedurală care interschimbă două valori întregi.
+Scrieți o funcție procedurală care are trei parametri, în ordine: v (tablou unidimensional cu elemente int), pozInit (de tip int), pozFin (de tip int), și care afișează în ordine descrescătoare a indicilor (separate prin spații) elementele secvenței delimitate de pozInit și pozFin , inclusiv. Se garantează că primul parametrul pozInit se transmite funcției mai mic strict decât pozFin . Se garantează că tabloul are cel puțin pozFin elemente și că ambii indici se transmit funcției mai mari sau egali cu 1 .
+Scrieți un program care, apelând util TOATE funcțiile de mai sus, preia dintr-un fișier dimensiunea (notată de noi mai departe n ) și elementele unui vector și le stochează în acesta începând cu poziția 1 . Programul va scrie într-un fișier, în ordine descrescătoate a indicilor, elementele cuprinse între valoarea minimă și valoarea maximă. Se garantează că elementele șirului se dau distincte.
+
+Restricții
+1 ≤ n ≤ 100
+cele n numere citite vor fi distincte, naturale, și mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+4 1 3 2 5
+Output: 5 2 3 1

@@ -1,0 +1,15 @@
+#3181
+marte3
+
+Cerința
+Pe planeta Marte anul marțian durează x zile marțiene, iar o zi marțiană durează y ore. În fiecare oră, marțianului Iggle îi crește o antenă. După cât timp va avea Iggle n antene?
+
+Restricții
+1 ≤ x , y ≤ 1.000
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 5 3 100
+Output: 6
+3
+1

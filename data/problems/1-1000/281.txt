@@ -1,0 +1,15 @@
+#281
+Maxim5
+
+Cerința
+Se dă un fişier text care conţine mai multe linii, pe fiecare linie existând câte un şir de numere naturale nenule, despărţite prin câte un spaţiu; fiecare linie se termină cu numarul 0 (care se consideră că nu face parte din şirul aflat pe linia respectivă) şi conţine cel puţin două valori.
+Se cere să se afişeze valoarea maximă din şirul care conţine cele mai puţine numere. În cazul în care există mai multe şiruri cu acelaşi număr minim de numere, se va afişa cea mai mare valoare care apare în unul dintre aceste şiruri.
+
+Restricții
+numerele din şirurile date au cel mult 9 cifre
+
+Exemplu
+Input: 2 253 34 3 0
+6 88 9 3 0
+4 54 88 12345 98 234 546 0
+Output: 253

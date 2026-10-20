@@ -1,0 +1,17 @@
+#634
+Repetare
+
+Cerința
+Gigel are un șir cu n elemente, numere naturale. Plictisit, el construiește un nou șir, prin scrierea repetată a valorilor șirului dat. De exemplu, dacă șirul inițial este (2 3 1 5) , scriindu-l de 3 ori se obține șirul: (2 3 1 5 2 3 1 5 2 3 1 5) .
+Maleficul Costel elimină sau chiar schimbă unele valori din șirul al doilea. Acum Gigel vă pune la dispoziție două șiruri de numere naturale și roagă să stabiliți dacă al doilea șir poate obține prin scrierea repetată a primului șir și eliminarea unor elemente iar în caz afirmativ care este numărul minim de repetări ale primului șir prin care se poate obține șirul al doilea.
+
+Restricții
+1 ≤ n , m ≤ 1000
+elementele celor două șiruri vor fi numere naturale mai mici decât 1 000 000 000
+
+Exemplu
+Input: 4
+2 3 1 5
+7
+2 5 3 1 5 3 1
+Output: 3

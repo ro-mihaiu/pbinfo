@@ -1,0 +1,12 @@
+#3369
+BalancedTernary
+
+Cerința
+Se dă un număr natural n . Să se reprezinte numărul în baza 3 echilibrată.
+
+Restricții
+0 ≤ n ≤ 1000000000
+
+Exemplu
+Input: 25
+Output: 10T1

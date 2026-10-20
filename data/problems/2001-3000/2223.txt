@@ -1,0 +1,12 @@
+#2223
+cifre004
+
+Cerința
+Se dă n număr natural. Aflaţi cel mai mare număr natural care are numărul de cifre şi suma cifrelor egale cu suma cifrelor lui n .
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+
+Exemplu
+Input: 203
+Output: 50000

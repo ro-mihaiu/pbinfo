@@ -1,0 +1,14 @@
+#272
+paresort
+
+Cerința
+Se dă un şir cu n elemente, numere naturale nenule cu cel mult 4 cifre fiecare. Afişaţi, în ordine crescătoare, valorile pare din şir. Dacă şirul nu conţine nici o valoare pară, se va afişa mesajul nu exista .
+
+Restricții
+1 ≤ n ≤ 1000
+
+Exemplu
+Input: 9
+2 3 1 4 7 2 5 8 6
+Output: 5
+2 2 4 6 8

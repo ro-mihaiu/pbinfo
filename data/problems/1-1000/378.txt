@@ -1,0 +1,13 @@
+#378
+Pavare
+
+Cerința
+Curtea bunicului este de formă dreptunghiulară cu dimensiunile cunoscute. Bunicul dorește pavarea curții cu plăci de piatră. Firma furnizoare produce plăci de piatră de formă pătrată, de orice dimensiune, iar bunicul dorește să folosească plăci de o singură dimensiune, astfel încât să folosească cât mai puține plăci. NU este posibilă tăierea plăcilor de piatră, iar curtea trebuie pavată în întregime.
+Cunoscând dimensiunile curții, determinați numărul minim de plăci cu care poate fi pavată curtea și dimensiunea acestora.
+
+Restricții
+1 ≤ a , b ≤ 1.000.000.000
+
+Exemplu
+Input: 12 16
+Output: 12 4

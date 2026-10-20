@@ -1,0 +1,17 @@
+#1074
+Carte
+
+Cerința
+Scrieţi un program care citeşte un număr natural n , reprezentând numărul paginilor din carte şi n numere naturale distincte x 1 , x 2 ,…, x n , reprezentând ordinea în care sunt aşezate cele n pagini în carte, şi care determină: a) numărul zilelor în care Rareş citeşte cartea; b) prima zi în care Rareş a citit cele mai multe pagini şi numărul paginilor citite în acea zi.
+
+Restricții
+0 < n < 10001
+paginile cărţii sunt numerotate cu numere naturale distincte de la 1 la n ;
+citirea cărţii presupune citirea fiecărei pagini din carte, o singură dată;
+zilele în care Rareş citeşte cartea sunt numerotate consecutiv, începând cu numărul 1 ;
+pentru rezolvarea corectă a subpunctului a) se acordă 40% din punctaj şi pentru rezolvarea corectă a subpunctului b) se acordă 60% din punctaj.
+
+Exemplu
+Input: 9
+7 1 3 6 8 2 4 9 5
+Output: 4 2 3

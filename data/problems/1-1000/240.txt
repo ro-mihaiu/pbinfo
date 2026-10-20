@@ -1,0 +1,14 @@
+#240
+MaxN
+
+Cerința
+Se dă un şir cu n numere naturale. Să se determine un alt şir de numere, cu proprietatea că valoarea elementului de pe poziţia i ( 1 ≤ i ≤ n ) din acest şir este egală cu cea mai mare dintre valorile primelor i elemente din primul şir.
+
+Restricții
+1 ≤ n ≤ 100000
+numerele de pe a doua linie a fişierului de intrare vor avea cel mult 9 cifre
+
+Exemplu
+Input: 12
+4 6 3 7 8 1 6 2 7 9 10 8
+Output: 4 6 6 7 8 8 8 8 8 9 10 10

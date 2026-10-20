@@ -1,0 +1,12 @@
+#3630
+codred
+
+Cerința
+Se dă n un număr natural. Să se calculeze suma \( \sum_{k=1}^{n}\left ( k!\cdot \left ( k^{2}+k+1 \right ) \right ) \).
+
+Restricții
+1 ≤ n ≤ 10.000.000
+
+Exemplu
+Input: 3
+Output: 95

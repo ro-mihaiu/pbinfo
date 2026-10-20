@@ -1,0 +1,16 @@
+#3308
+ndivtri
+
+Cerința
+Se dă un număr natural n . Să se scrie un program care determină primul număr triunghiular cu mai mult de n divizori.
+
+Restricții
+1 ≤ n ≤ 1000
+
+Exemplu
+Input: 3
+Output: 6
+Input: 1
+Output: 3
+Input: 133
+Output: 437580

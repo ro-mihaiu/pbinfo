@@ -1,0 +1,12 @@
+#429
+cifbin
+
+Cerința
+Se citește un număr natural n . Să se determine câte cifre 0 și câte cifre 1 are reprezentarea în baza 2 a acestui număr.
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 174
+Output: 3 5

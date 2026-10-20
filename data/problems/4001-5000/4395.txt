@@ -1,0 +1,26 @@
+#4395
+tema
+
+Cerința
+Ajutați-l pe Macarie să rezolve următoarele două cerințe ale temei: 1. Să se determine lungimea maximă a unei secvențe din șirul A pentru care costul ei este mai mic sau egal decât un număr natural nenul K . 2. Presupunem că fiecare număr compus din șirul A este înlocuit cu produsul dintre cel mai mic factor prim al său și cel mai mare factor prim al său. Să se determine secvența de lungime maximă din șirul nou obținut, pentru care cel mai mare divizor comun al numerelor din care este formată este diferit de 1 . Se vor afișa pozițiile primului și ultimului element din secvență. Dacă sunt mai multe astfel de secvențe de lungime maximă, se va afișa cea pentru care poziția primului său element este maximă.
+
+Restricții
+2 ≤ N ≤ 100.000
+1 ≤ K ≤ 10 18 ; Numărul K nu are niciun rol pentru cerința 2.
+1 ≤ A[i] ≤ 1.000.000 , pentru fiecare i : 1 ≤ i ≤ N .
+În cazul ambelor cerințe, există o secvență soluție ce are lungimea cel puțin egală cu 2 .
+Există cel puțin un element diferit de 1 în șirul A .
+Pentru 10 puncte, C = 1 și N = 2
+Pentru 25 puncte, C = 1 și N ≤ 4000
+Pentru 15 puncte, C = 1 și 5000 < N
+Pentru 10 puncte, C = 2 și N = 2
+Pentru 25 puncte, C = 2 și N ≤ 4000
+Pentru 15 puncte, C = 2 și 5000 < N
+
+Exemplu
+Input: 1 10 45
+10 2 3 1 4 5 8 2 6 3
+Output: 5
+Input: 2 10 20
+1 2 32 4 42 49 7 21 1 63
+Output: 5 8

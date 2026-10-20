@@ -1,0 +1,16 @@
+#4387
+Dublare2
+
+Cerința
+Se dă un număr natural \(x\). Afișează numărul obținut prin dublarea fiecărei cifre a numărului \(x\).
+
+Restricții
+Pentru toate testele, se respectă \(1 \le x \le 10^9\)
+Subtask 1, 70p : \(1 \le x \le 10^4\)
+Subtask 2, 30p : restricțiile inițiale
+
+Exemplu
+Input: 102
+Output: 110022
+Input: 1000000000
+Output: 11000000000000000000

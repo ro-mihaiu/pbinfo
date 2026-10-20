@@ -1,0 +1,18 @@
+#2680
+Poezie
+
+Cerința
+Se citește un număr n , și n versuri dintr-o poezie. Fiecare vers ocupă un rând și conține litere mari și mici ale alfabetului englez, spații, și semne de punctuație . , ! ? . Să se elimine din fiecare vers toate semnele de punctuație, mai puțin cel aflat la final.
+
+Restricții
+1 ≤ n ≤ 15
+fiecare vers va conține maxim 255 de caractere
+
+Exemplu
+Input: 3
+A fost!... odata!,
+Ca, nicioada,,
+O fata? frumoasa... de imparat!
+Output: A fost odata, 
+Ca nicioada, 
+O fata frumoasa de imparat!

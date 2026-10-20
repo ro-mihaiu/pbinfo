@@ -1,0 +1,13 @@
+#3364
+Unire
+
+Cerința
+Gigel are un graf cu n noduri și m muchii, care nu este conex. El dorește să afle răspunsul la două întrebări:
+1) Care este numărul minim de muchii ce trebuie ađugate astfel încât graful să devină conex? 2) Dacă costul adăugării unei muchii între nodurile a și b este a + b , care este costul total minim al muchiilor care trebuie adăugate astfel încât graful să devină conex?
+
+Restricții
+1 ≤ n ≤ 100000 , 0 ≤ m < n-1
+Pentru teste în valoare de 30 de puncte, cerința va fi 1 .
+Pentru teste în valoare de 40 de puncte, 1 ≤ n ≤ 1000 .
+
+Exemplu

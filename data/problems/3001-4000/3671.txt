@@ -1,0 +1,12 @@
+#3671
+Autokey
+
+Cerința
+Dandu-se o cheie si un mesaj, sa se afle cum va arata mesajul dupa o codificare.
+
+Restricții
+1 ≤ lungimea mesajului, lungimea cheii ≤ 10000
+
+Exemplu
+Input: MEETATTHEFOUNTAIN KILT
+Output: WMPMMXXAEYHBRYOCA

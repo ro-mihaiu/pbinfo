@@ -1,0 +1,15 @@
+#2144
+diofantic
+
+Cerința
+Scrieți în limbajul C++ definiția completă a subprogramului diofantic care are 5 parametri, după cum urmează: n – prin care primește un număr natural nenul ce reprezintă numărul de elemente ale secvenței s – prin care primește un tablou unidimensional care reține elementele secvenței, indexate de la 1 la n a – prin care primește un număr natural nenul b – prin care primește un număr natural nenul c – prin care primește un număr natural nenul.
+Subprogramul returnează numărul de perechi (x,y) care verifică ecuația: a•x 2 + b•y 2 = c , unde x și y aparțin secvenței s , cu x≠y .
+
+Restricții
+2 ≤ n ≤ 50.000
+0 < a,b < 200
+0 < c < 1.000.000.000
+numerele din secvența s sunt mai mici decât 65.535
+parametrii sunt, în această ordine: n , s , a , b , c .
+
+Exemplu

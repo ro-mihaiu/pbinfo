@@ -1,0 +1,13 @@
+#200
+EliminareSubsir1
+
+Cerința
+Se dau două şiruri de caractere s şi t . Să se elimine din s doar ultima apariţie a lui t .
+
+Restricții
+cele două şiruri conţin cel mult 255 caractere.
+
+Exemplu
+Input: ana si mariana canta la nai
+na
+Output: ana si mariana canta la i

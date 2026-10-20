@@ -1,0 +1,18 @@
+#1711
+siruri_concatenate
+
+Cerința
+Scrieţi un program care citeşte din fişierul de intrare mai multe şiruri de caractere formate din litere mici ale alfabetului englez şi determină câte dintre acestea sunt formate din două şiruri identice (cu lungimea cel puţin 1) concatenate.
+
+Restricții
+1 ≤ n ≤ 1000000
+şirurile au cel mult 5000 de caractere.
+
+Exemplu
+Input: 5
+sirsir
+micropico
+pp
+vara
+nanonano
+Output: 3

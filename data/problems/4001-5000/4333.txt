@@ -1,0 +1,14 @@
+#4333
+SumKFact1
+
+Cerința
+Se dă un număr k și un șir cu n elemente, numere naturale nenule. Să se determine suma elementelor șirului pentru care descompunerea în factori primi are cel puțin k factori diferiți.
+
+Restricții
+1 ≤ n ≤ 1.000
+elementele șirului vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 3 5
+30 23 13 40 70
+Output: 100

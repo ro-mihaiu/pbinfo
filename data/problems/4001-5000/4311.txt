@@ -1,0 +1,16 @@
+#4311
+echilibrat2_rec
+
+Cerința
+Se dau două numere naturale a și b . Calculați suma numerelor echilibrate din intervalul [a,b] . Un număr este echilibrat dacă are suma cifrelor pare egală cu suma cifrelor impare. De exemplu 3467 este echilibrat, iar 8333 nu este. Se vor scrie și apela următoarele funcții recursive :
+sum_pare care calculează suma cifrelor pare ale numărului primit ca parametru
+sum_impare care calculează suma cifrelor impare ale numărului primit ca parametru
+suma care primește ca parametri numerele a și b și calculează suma numerelor echilibrate din intervalul [a,b]
+
+Restricții
+1 ≤ a ≤ b ≤ 10.000
+în locul funcțiilor sum_pare și sum_impare se poate folosi o funcție recursivă cu doi parametri referință pentru a calcula suma cifrelor pare, respectiv suma cifrelor impare.
+
+Exemplu
+Input: 301 402
+Output: 2097

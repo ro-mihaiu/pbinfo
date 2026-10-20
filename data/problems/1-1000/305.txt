@@ -1,0 +1,14 @@
+#305
+CmmdcN
+
+Cerința
+Se dau n numere naturale nenule. Calculaţi cel mai mare divizor comun al lor.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor avea cel mult 9 cifre
+
+Exemplu
+Input: 4
+18 54 24 42
+Output: 6

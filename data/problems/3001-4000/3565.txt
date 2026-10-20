@@ -1,0 +1,17 @@
+#3565
+furnici1
+
+Cerința
+Ştiind că pe o bară metalică de lungime L cm se plasează exact N furnici în poziţii cunoscute şi cu sensul iniţial de deplasare cunoscut, să se scrie un program care calculează numărul de secunde după care va cădea de pe bară şi ultima furnică de la momentul iniţial. Toate furnicile îşi încep deplasarea concomitent.
+
+Restricții
+1 < L < 10.000.000
+0 < N < 100.000
+0 ≤ pozi ≤ L
+
+Exemplu
+Input: 10 3
+4 D
+8 S
+1 S
+Output: 8

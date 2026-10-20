@@ -1,0 +1,16 @@
+#4104
+afisare21
+
+Cerința
+Se dă un vector x cu n elemente numere întregi, și un vector y cu m elemente, de asemenea numere întregi. Să se afișeze toate elementele din vectorul x care sunt mai mici decât toate elementele din vectorul y .
+
+Restricții
+1 ≤ n,m ≤ 10000
+elementele celor 2 vectori vor fi din intervalul [-1.000.000.000,1.000.000.000]
+
+Exemplu
+Input: 7
+9 -6 5 14 2 1 10 
+8
+8 14 9 14 16 15 4 6
+Output: -6 2 1

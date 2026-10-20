@@ -1,0 +1,12 @@
+#2795
+Resturi1
+
+Cerința
+Subprogramul resturi are patru parametri, n , x , y și r , prin care primește câte un număr natural din intervalul [1,10 9 ] , r<x<y<n . Subprogramul returnează numărul de valori naturale din intervalul [1,n] pentru care atât restul împărțirii la x , cât și restul împărțirii la y , sunt egale cu r .
+Scrieţi definiţia completă a subprogramului.
+
+Restricții
+1 ≤ r<x<y<n ≤ 10 9
+ordinea parametrilor este n x y r
+
+Exemplu

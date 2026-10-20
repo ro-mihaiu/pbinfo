@@ -1,0 +1,10 @@
+#2975
+FRadical
+
+Cerința
+Definiți funcția
+void FRadical(int n, int &x, int &y)
+n , prin care primește un număr natural din intervalul [1, 1.000.000.000]
+x și y – două numere naturale care se determină, cu proprietatea că x 2 * y = n , iar x este maxim posibil
+
+Exemplu

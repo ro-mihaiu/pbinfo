@@ -1,0 +1,8 @@
+#699
+intervale3
+
+Cerința
+Să se determine valoarea minimă x cu care vor trebui să fie extinse toate intervalele astfel încât să se formeze un grup cu cel puțin P intervale.
+
+Restricții
+și precizări 2 ≤ N ≤ 100 000 -1 400 000 000 ≤ Ai < Bi ≤ 1 400 000 000 2 ≤ P ≤ N Două intervale se intersectează dacă au cel puţin un punct comun Pentru 30% dintre teste N ≤ 10 000

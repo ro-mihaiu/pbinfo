@@ -1,0 +1,44 @@
+#4134
+raza1
+
+Cerința
+Scrieţi un program care să rezolve următoarele cerințe:
+Determină numărul roverelor a căror traiectorie se intersectează cu diagonala principală a tabloului ce descrie harta.
+Determină numărul maxim de rovere, care pot fi distruse simultan, într-o singură secundă, înainte de trecerea celor S secunde, precum și secunda minimă în care se poate realiza acest lucru.
+
+Restricții
+1 ≤ N ≤ 10.000
+1 ≤ S ≤ 100.000
+1 ≤ L, C ≤ 50.000
+3 ≤ R ≤ 1000
+1 ≤ Numărul maxim de rovere care se intersectează cu raza armei ≤ 1000 .
+Pentru 28 de puncte, T = 1
+Pentru 72 de puncte, T = 2
+
+Exemplu
+Input: 1
+2 100
+4 2 6
+6 9 4
+Output: 2
+Input: 2
+2 5
+4 2 6
+6 9 4
+Output: 1 3
+Input: 1
+5 10000
+3 3 3
+4 7 4
+6 4 3
+9 2 3
+9 7 5
+Output: 4
+Input: 2
+5 10000
+3 3 3
+4 7 4
+6 4 3
+9 2 3
+9 7 5
+Output: 2 3

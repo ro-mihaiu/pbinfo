@@ -1,0 +1,15 @@
+#141
+compuneri
+
+Cerința
+Scrieţi un program care, pe baza codurilor din lista formată, să determine: a) numărul de atomi din listă; b) numărul de specii din listă care nu pot avea în compoziţie niciun atom dintre cei aflaţi în listă;
+
+Restricții
+1 <= N <= 100000 ;
+2 <= numerele din listă ≤ 100000 ;
+Numerele din listă se pot repeta iar la rezultat se va contoriza fiecare apariţie;
+
+Exemplu
+Input: 10
+7 7 121 11 3 29 32 3 1300 17
+Output: 7 2

@@ -1,0 +1,14 @@
+#2575
+Schimb_cif
+
+Cerința
+Se citește n și apoi n numere naturale. Să se afișeze numerele oglindite fără a modifica prima și ultima cifră.
+
+Restricții
+1 ≤ n ≤ 100
+cele n numere citite vor fi mai mici decât 5.000.000.000
+
+Exemplu
+Input: 3
+21 121 1023
+Output: 21 121 1203

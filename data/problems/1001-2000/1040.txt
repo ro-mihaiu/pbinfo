@@ -1,0 +1,22 @@
+#1040
+Clepsidru
+
+Cerința
+Să se scrie un program care citeşte valorile n şi b , precum şi valorile k , s i , p i , 1 ≤ i ≤ k , şi calculează valorile obţinute de arheologi la realizarea celor două experimente.
+
+Restricții
+1 ≤ n ≤ 1 000 ;
+1 ≤ b ≤ 1 000 000 000 ;
+1 ≤ k ≤ 1 000 ;
+1 ≤ si ≤ 1 000 , 1 ≤ i ≤ k ;
+p i aparține {1, 2} , 1 ≤ i ≤ k ;
+pentru rezolvarea corectă a primei cerinţe se acordă 25% din punctaj, iar pentru rezolvarea corectă a celei de-a doua cerinţe se acordă 75% din punctaj.
+
+Exemplu
+Input: 2 3
+2
+3 1
+1 2
+Output: 4
+1 1
+0 1

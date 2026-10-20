@@ -1,0 +1,14 @@
+#3313
+eratostene2
+
+Cerința
+Se dau n numere naturale. Aflaţi pentru fiecare număr câţi factori primi are în descompunere.
+
+Restricții
+1 ≤ n ≤ 500.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 7
+30 5 44 210 1 35 30030
+Output: 3 1 2 4 0 2 6

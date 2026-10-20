@@ -1,0 +1,14 @@
+#2732
+Succesor
+
+Cerința
+Scrieți funcția având următorul antet:
+void Succesor(int a[], int n, int k)
+Vectorul a memorează, în ordine strict crescătoare, k numere naturale din mulțimea {1,2,...,n} . Funcția va trebui să obțină tot în vectorul a următoarea submulțime de k elemente din punct de vedere lexicografic.
+
+Restricții
+1 < k < n ≤ 30.000
+Elementele vectorului sunt indexate de la 1 la k .
+Se garantează că va exista succesorul submulțimii memorate inițial în vectorul a .
+
+Exemplu

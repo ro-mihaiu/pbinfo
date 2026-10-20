@@ -1,0 +1,14 @@
+#91
+masini
+
+Cerința
+Cunoscând timpul necesar pentru repararea fiecărei maşini, scrieţi un program care calculează numărul maxim de maşini care pot fi reparate într-un interval de timp T .
+
+Restricții
+1 < n, T <= 1000
+numerele de pe a doua linie a fişierului de intrare vor fi mai mici sau egale cu 100
+
+Exemplu
+Input: 5 10
+6 2 4 8 2
+Output: 3

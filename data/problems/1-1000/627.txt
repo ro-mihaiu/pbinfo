@@ -1,0 +1,36 @@
+#627
+Tripar
+
+Cerința
+Cunoscând N , M și câte benzi are fiecare piramidă, se cere să se afișeze:
+a) câte triunghiuri de cea mai mică dimensiune are fiecare piramidă, după executarea procedeului de împărțire de M ori; b) câte perechi de drepte paralele are fiecare piramidă, după executarea procedeului de împărțire de M ori.
+
+Restricții
+1 ≤ N ≤ 50 000
+0 ≤ M ≤ 10
+1 ≤ numărul inițial de benzi al fiecărei piramide ≤ 50
+Pentru rezolvarea corectă a primei cerinţe se acordă 40 de puncte, iar pentru cerința a doua se acordă 60 de puncte.
+
+Exemplu
+Input: 1
+3 0
+1 2 3
+Output: 1
+4
+9
+Input: 2
+3 0
+1 2 3
+Output: 0
+3
+9
+Input: 1
+2 1
+1 2
+Output: 4
+16
+Input: 2
+2 1
+1 2
+Output: 3
+18

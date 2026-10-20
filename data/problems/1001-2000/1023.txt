@@ -1,0 +1,15 @@
+#1023
+Cmmdc3
+
+Cerința
+Se dă un sir cu n elemente, numere naturale nenule. Folosind metoda Divide et Impera, determinaţi cel mai mare divizor comun al elementelor acestui șir.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele șirului vor avea cel mult 9 cifre
+se recomandă folosirea metodei Divide et Impera
+
+Exemplu
+Input: 7
+18 54 24 42 108 60 30
+Output: 6

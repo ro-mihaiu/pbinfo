@@ -1,0 +1,12 @@
+#4208
+ExistaImpareRec
+
+Cerința
+Scrieți funcția recursivă ExistaImpareRec care primind ca parametru un număr natural n , returnează 1 dacă n conține cel puțin o cifră impară, sau returnează 0 dacă n conține doar cifre pare.
+
+Restricții
+0 ≤ n ≤ 2 31 - 1
+Numele funcției este ExistaImpareRec .
+Se recomandă utilizarea recursivității în rezolvarea problemei.
+
+Exemplu

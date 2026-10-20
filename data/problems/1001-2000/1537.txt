@@ -1,0 +1,14 @@
+#1537
+7segmente
+
+Cerința
+Să se scrie un program care citeşte două numere naturale nenule n şi p , (numărul n având toate cifrele nenule)şi calculează: numărul natural k reprezentând puterea necesară pentru afişarea numărului n ; cel mai mare număr natural t , format numai din cifre nenule, mai mic sau egal decât n , care necesită pentru afişare o putere de cel mult p mW.
+
+Restricții
+1 ≤ n < 10 19 ;
+2 ≤ p ≤ 150 ;
+pentru rezolvarea primei cerinţe se va acorda 20% din punctaj, iar pentru rezolvarea celei de-a doua cerinţe se va acorda 80% din punctaj.
+
+Exemplu
+Input: 7654 12
+Output: 18 7511

@@ -1,0 +1,14 @@
+#406
+SumCifPrim
+
+Cerința
+Se dă un șir cu n numere naturale. Determinați câte dintre ele sunt prime și au suma cifrelor un număr prim.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 6
+83 36 53 401 90 7
+Output: 3

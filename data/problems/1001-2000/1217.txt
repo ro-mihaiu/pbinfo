@@ -1,0 +1,32 @@
+#1217
+LightBot
+
+Cerința
+În acest an evenimentul ”Hour of Code” a înregistrat un număr record de participanți din țara noastră. În cadrul acestui eveniment una dintre cele mai accesate aplicații a fost Lightbot, care a permis elevilor să-și testeze abilitățile de programare.
+Aplicația Lightbot are N nivele, numerotate consecutiv de la 1 la N , în ordinea strict crescătoare a complexității lor. Lightbot a permis fiecărui participant să înceapă cu orice nivel strict mai mic decât N-1 și să sară peste un singur nivel, fără a finaliza codul, trecând la nivelul următor celui sărit. La finalizarea cu succes a codului corespunzător nivelului curent, participantul este promovat la nivelul imediat următor. Fiecare participant a început scrierea codurilor la un nivel P și a sărit peste un nivel L ( P < L < P + K ), finalizând K nivele memorate ca o succesiune de numere naturale de forma P, P+1,..., L-1, L+1,..., P+K . Succesiunile de nivele finalizate de participanți au fost memorate în fișierul lightbot.in . Succesiunile corespunzătoare participanților nu se intercalează în fișier.
+Scrieţi un program care citeşte succesiunile corespunzătoare nivelelor finalizate de participanții care au jucat Lightbot și determină:
+1. numărul total de participanți; 2. numărul celui mai dificil nivel care a fost rezolvat de un număr maxim de participanți; 3. pentru fiecare participant, numărul nivelului sărit de acesta.
+
+Restricții
+3 ≤ N ≤ 200000 .
+1 ≤ X ≤ N , pentru orice număr X memorat pe a treia linie a fișierului lightbot.in .
+1 ≤ P < L < P + K ≤ N , pentru orice succesiune de K nivele finalizate, corespunzătoare unui participant, care a început scrierea codurilor la nivelul P și a sărit peste nivelul L .
+O secvență de valori consecutive aparține unui singur participant.
+A treia linie a fișierului de intrare conține cel mult 400000 de numere.
+Pentru rezolvarea corectă a cerinţei 1 se obţine 20% din punctaj.
+Pentru rezolvarea corectă a cerinţei 2 se obţine 40% din punctaj.
+Pentru rezolvarea corectă a cerinţei 3 se obţine 40% din punctaj.
+
+Exemplu
+Input: 1
+10
+1 2 4 2 4 6 7 9
+Output: 3
+Input: 2
+10
+1 2 4 2 4 6 7 9
+Output: 4
+Input: 3
+10
+1 2 4 2 4 6 7 9
+Output: 3 3 8

@@ -1,0 +1,19 @@
+#4694
+bac_patrat
+
+Cerința
+Un joc folosește o tablă dreptunghiulară, pe care sunt reprezentate celule de dimensiune egală, dispuse pe m linii și pe n coloane. În fiecare celulă este înscris un număr natural. Numim pătrat de valoare p patru celule ale tablei, situate pe două linii consecutive și pe două coloane consecutive, cu proprietatea că suma valorilor înscrise în aceste celule este egală cu p . Scopul jocului este determinarea unui pătrat de valoare maximă.
+Scrieți un program C/C++ care citește de la tastatură două numere naturale din intervalul [2,20] , m și n , apoi elementele unui tablou bidimensional cu m linii și n coloane, numere naturale din intervalul [0,10000] , reprezentând numerele înscrise pe tabla de joc, în ordinea dispunerii celulelor corespunzătoare. Programul determină un pătrat de valoare maximă al tablei și afișează pe ecran această valoare.
+
+Restricții
+1 ≤ m,n ≤ 20
+elementele matricei vor fi mai mici decât 10.000.
+
+Exemplu
+Input: 5 4
+1 1 2 30
+3 10 1 2
+1 13 12 1
+1 2 3 1
+7 1 20 1
+Output: 36

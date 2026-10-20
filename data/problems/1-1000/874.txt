@@ -1,0 +1,17 @@
+#874
+Atomi
+
+Cerința
+Într-o galaxie îndepărtată există doar două elemente chimice. Cercetătorii le-au numit A şi B şi toate substanțele sunt alcătuite din aceste elemente. Mai precis, o substanță este un șir definit astfel:
+A și B sunt substanțe, formate din câte un atom;
+Ax și By sunt substanțe, x și y find numere naturale. Ax este formată din x atomi de tip A , iar By este formată din y atomi de tip B ;
+dacă S este substanță atunci (S)x este substanță, x fiind un număr natural. Dacă în S sunt p atomi, în (S)x vor fi p*x atomi;
+dacă S şi T sunt substanțe atunci ST este substanță. Dacă în S sunt x atomi, iar în T sunt y atomi, în ST vor fi x+y atomi.
+Pentru o substanță dată să se determine numărul atomilor de tip A şi numărul atomilor de tip B care o compun.
+
+Restricții
+șirul dat are cel mult 255 de caractere
+
+Exemplu
+Input: (A3B2)2A3(B2)2
+Output: 9 8

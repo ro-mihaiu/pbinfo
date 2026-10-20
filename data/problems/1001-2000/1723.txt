@@ -1,0 +1,14 @@
+#1723
+Culegere1
+
+Cerința
+Scrieţi un program care citeşte numerele naturale P şi N şi determină valorile: a) T , numărul total de cifre care au fost utilizate în numerotarea tuturor problemelor din culegere; b) M , numărul minim de pagini pe care ar trebui să le aibă culegerea, astfel încât aceasta să conţină şi problema numerotată cu N .
+
+Restricții
+1 ≤ P ≤ 16000
+1 ≤ N ≤ 2112600000
+
+Exemplu
+Input: 5 9
+Output: 21
+4

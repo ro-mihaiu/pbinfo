@@ -1,0 +1,18 @@
+#4530
+flowers1
+
+Cerința
+Pentru a obține cel mai plăcut efect trebuie să maximizezi suma valorilor estetice pentru aranjament, păstrând în același timp ordinea necesară a florilor. Dacă există mai multe aranjamente de valoare maximă totală, oricare dintre ele va fi acceptată. Trebuie să afișați exact un aranjament.
+
+Restricții
+1 ≤ F ≤ 100 , unde F este numărul de buchete de flori. Buchetele sunt numerotate de la 1 la F
+F ≤ V ≤ 100 unde V este numărul de vaze
+-50 ≤ A ij ≤ 50 unde A ij este valoarea estetică obținută punând buchetul de flori i în vaza j
+
+Exemplu
+Input: 3 5 
+7 23 -5 -24 16 
+5 21 -4 10 23 
+-21 5 -4 -20 20
+Output: 53 
+2 4 5

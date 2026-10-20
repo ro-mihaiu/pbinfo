@@ -1,0 +1,14 @@
+#306
+Zerouri
+
+Cerința
+Se dau n numere naturale nenule. Calculaţi numărul de zerouri de la sfârşitul scrierii zecimale a produsului celor n numere.
+
+Restricții
+1 ≤ n ≤ 100
+cele n numere citite vor avea cel mult 9 cifre
+
+Exemplu
+Input: 5
+10 24 37 46 75
+Output: 3

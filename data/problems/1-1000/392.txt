@@ -1,0 +1,13 @@
+#392
+Cladire
+
+Cerința
+Se consideră o clădire de formă dreptunghiulară formată din n*m camere, dispuse pe n linii și m coloane. Intrarea în clădire este în camera de coordonate (1,1) , iar ieșirea în camera de coordonate (n,m) . Din orice cameră (i,j) se poate ajunge numai în camerele (i+1,j) sau (i,j+1) . Determinați în câte moduri se poate ajunge din camera (1,1) în camera (n,m) .
+Deoarece numărul de posibilități poate fi foarte mare, se cere doar restul acestui număr la împărțirea cu 9901 .
+
+Restricții
+1 ≤ n , m ≤ 1000
+
+Exemplu
+Input: 3 3
+Output: 6

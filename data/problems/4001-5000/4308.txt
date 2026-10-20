@@ -1,0 +1,15 @@
+#4308
+Paianjen
+
+Cerința
+Scrieți un program care citește de la tastatură două numere naturale n și m reprezentând dimensiunile pânzei și care calculează numărul de moduri în care poate păianjenul să parcurgă pânza mergând din colțul stânga-sus până în colțul dreapta-jos și făcând un număr minim de pași.
+
+Restricții
+1 ≤ n ≤ 10
+1 ≤ m ≤ 10
+
+Exemplu
+Input: 2 4
+Output: 4
+Input: 3 3
+Output: 6

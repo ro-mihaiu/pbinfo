@@ -1,0 +1,26 @@
+#1380
+pluton
+
+Cerința
+Fiind date cele n numere de pe plăcuţele de identificare, să se regrupeze cei n soldaţi pe plutoane, indicându-se numărul de plutoane găsite (un pluton refăcut trebuie să aibă minimum un soldat), numărul de soldaţi din cel mai numeros pluton, numărul de plutoane care au acest număr maxim de soldaţi precum şi componenţa unui astfel de pluton (cu număr maxim de soldaţi regrupaţi).
+
+Restricții
+0 < n ≤ 4000
+0 ≤ număr de identificare < 2.000.000.000
+
+Exemplu
+Input: 10
+1223 
+123 
+666 
+321 
+7890 
+2213 
+312 
+655 
+1000 
+1322
+Output: 6
+3
+2
+321 312 123

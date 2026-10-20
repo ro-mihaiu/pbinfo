@@ -1,0 +1,12 @@
+#3978
+sabc
+
+Cerința
+Se dau numerele naturale a , b și c , unde a ≤ b ≤ c . Calculați s(a,b) , s(b,c) și s(a,c) .
+
+Restricții
+1 ≤ a ≤ b ≤ c ≤ 10.000
+
+Exemplu
+Input: 3 10 20
+Output: 52 165 207

@@ -1,0 +1,22 @@
+#1512
+mars
+
+Cerința
+Se consideră un tablou unidimensional cu n elemente numere întregi, numerotate de la 1 la n , inițial toate nule. Asupra tabloului se fac m operații s d X cu semnificația: toate elementele cu indici cuprinși între s și d își măresc valoarea cu X .
+Să se afișeze tabloul după realizarea celor m operații.
+
+Restricții
+1 ≤ n ≤ 200.000
+1 ≤ m ≤ 200.000
+1 ≤ s ≤ d ≤ n
+-1000 ≤ X ≤ 1000
+
+Exemplu
+Input: 10 6
+8 10 2
+3 10 -3
+5 9 7
+5 5 5
+6 7 2
+1 1 -1
+Output: -1 0 -3 -3 9 6 6 6 6 -1

@@ -1,0 +1,18 @@
+#779
+vecinipari
+
+Cerința
+Se dă o matrice cu n linii şi m coloane şi elemente numere naturale. Să se determine câte elemente din matrice au toți vecinii numere pare.
+
+Restricții
+1 ≤ m,n ≤ 100
+elementele matricei vor fi mai mici decât 1.000.000
+un element al matricei are cel mult patru vecini: pe linia anterioară și aceeași coloană, pe linia următoare și aceeași coloană, pe aceeași linie și coloana anterioară, pe aceeași linie și coloana următoare.
+
+Exemplu
+Input: 4 7
+15 27 40 41 32 42 12 
+48 35 40 54 17 46 32 
+37 52 40 18 11 46 23 
+49 27 40 29 25 44 12
+Output: 5

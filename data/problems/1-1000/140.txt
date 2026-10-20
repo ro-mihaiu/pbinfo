@@ -1,0 +1,16 @@
+#140
+putere
+
+Cerința
+Scrieţi un program, care pentru două numere naturale date m şi n determină:
+a) puterea p definită în enunţ; b) suma s definită în enunţ.
+
+Restricții
+0 <m,n< 2000000001
+Toate cifrele lui n sunt nenule.
+m şi n au acelaşi număr de cifre.
+
+Exemplu
+Input: 624 253
+Output: 64
+132

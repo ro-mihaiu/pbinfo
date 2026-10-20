@@ -1,0 +1,15 @@
+#3310
+afin
+
+Cerința
+Dându-se valoarea celor două chei și un mesaj să se afișeze mesajul criptat.
+
+Restricții
+1 ≤ a , b ≤ 26
+1 ≤ lungimea șirului ≤10000
+mesajul va conține doar litere mici ale alfabetului englez
+
+Exemplu
+Input: 17 20
+twentyfifteen
+Output: fekhfmbabfkkh

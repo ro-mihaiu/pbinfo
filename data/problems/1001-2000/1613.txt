@@ -1,0 +1,13 @@
+#1613
+numere15
+
+Cerința
+Se citește un număr natural nenul n . Numărul n1 este format doar din cifrele pare ale lui n . Numărul n2 este format doar din cifrele impare ale lui n . Calculați valoarea absolută a diferenței lor.
+
+Restricții
+10 ≤ n < 1.000.000.000
+numărul n conține cel puțin o cifră pară și cel puțin o cifră impară
+
+Exemplu
+Input: 120341
+Output: 73

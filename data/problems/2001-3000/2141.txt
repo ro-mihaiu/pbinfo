@@ -1,0 +1,23 @@
+#2141
+exp
+
+Cerința
+Să se verifice dacă valoarea expresiei \( \sqrt[m]{ x_1 \cdot x_2 \cdot … \cdot x_n } \) este un număr natural. În caz afirmativ să se afișeze acest număr descompus în factori primi.
+
+Restricții
+0 < n < 5000
+0 < x i < 30.001 , pentru orice i=1..n
+m poate fi una din cifrele 2 , 3 , 4 .
+
+Exemplu
+Input: 2
+4
+32 81 100 19
+Output: 0
+Input: 2
+4
+32 81 100 18
+Output: 1
+2 4
+3 3
+5 1

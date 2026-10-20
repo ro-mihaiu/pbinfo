@@ -1,0 +1,24 @@
+#851
+Email
+
+Cerința
+Se dă o listă de adrese de email corecte ca structură. Să se determine câte adrese de email sunt asociate cu fiecare nume de domeniu.
+
+Restricții
+fișierul de intrare va conține cel mult 1000 de adrese distincte, cu cel mult 200 de domenii distincte;
+lungimea maximă a unei adrese de email este de 50 de caractere;
+numele de domeniu începe după simbolul @ și se termină la sfârșitul adresei;
+adresa de email nu conține spații sau alte caractere albe.
+
+Exemplu
+Input: gigel@pbinfo.ro
+gigel@yahoo.com
+ionel.c@gmail.com
+gigi@pbinfo.ro
+vasile@yahoo.com
+jr@gmail.com
+qwerty@yahoo.com
+Output: 3
+yahoo.com 3
+gmail.com 2
+pbinfo.ro 2

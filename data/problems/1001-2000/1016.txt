@@ -1,0 +1,12 @@
+#1016
+imparpar
+
+Cerința
+Se dă n un număr natural. Să se afle în câte moduri putem aranja numerele de la 1 la n astfel încât numerele pare să fie situate pe poziții impare iar cele impare pe poziții pare ?
+
+Restricții
+1 ≤ n ≤ 20
+
+Exemplu
+Input: 4
+Output: 4

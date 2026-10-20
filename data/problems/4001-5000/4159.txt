@@ -1,0 +1,17 @@
+#4159
+Nivele11
+
+Cerința
+Se dă vectorul de tați al unui arbore cu rădăcină cu n noduri. Afișați parcurgerea pe nivele a arborelui dat.
+
+Restricții
+1 ≤ n ≤ 100
+în vectorul de tați rădăcina este marcată cu 0
+
+Exemplu
+Input: 8
+4 3 0 3 2 1 2 1
+Output: 3 
+2 4 
+1 5 7 
+6 8

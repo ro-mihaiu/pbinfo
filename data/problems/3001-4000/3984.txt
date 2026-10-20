@@ -1,0 +1,12 @@
+#3984
+afisare_M2
+
+Cerința
+Se citesc două numere naturale a și b . Afișați în ordine crescătoare primii b multipli nenuli ai numărului a .
+
+Restricții
+1 ≤ a ≤ 100 , 1 ≤ b ≤ 100
+
+Exemplu
+Input: 3  6
+Output: 3 6 9 12 15 18

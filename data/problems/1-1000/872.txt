@@ -1,0 +1,13 @@
+#872
+Puteri3
+
+Cerința
+Se citeşte un număr natural n . Să se scrie n ca sumă de puteri crescătoare ale lui 2 .
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+vă recomandăm să realizaţi o soluţie recursivă
+
+Exemplu
+Input: 10
+Output: 2 8

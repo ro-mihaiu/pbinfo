@@ -1,0 +1,24 @@
+#3433
+Forta
+
+Cerința
+Scrieţi un program care, cunoscând un șir de n numere naturale nenule, rezolvă următoarele cerințe:
+1. determină cel mai mic număr din șir care are forța maximă; 2. determină lungimea maximă a unei secvențe formată din numere cu aceeași forţă ce poate fi obținută prin rearanjarea convenabilă a elementelor din șir.
+
+Restricții
+1 ≤ n ≤ 100.000
+1 ≤ numerele din șir ≤ 2.000.000.000
+O secvență este constituită dintr-un singur număr sau mai multe numere aflate pe poziții consecutive în șir. Lungimea unei secvențe este egală cu numărul de valori care o compun.
+Pentru prima cerință se acordă 50 de puncte, iar pentru cea de a doua cerință se acordă 40 de puncte.
+Pentru teste valorând 30 de puncte 1 ≤ n ≤ 10.000
+În concurs problema s-au acordat 10 puncte din oficiu. Pe site se acordă 10 puncte pentru exemple.
+
+Exemplu
+Input: 1
+6
+17 243 10 32 25 13
+Output: 32
+Input: 2
+8
+121 10 14 25 49 9 25 15
+Output: 5

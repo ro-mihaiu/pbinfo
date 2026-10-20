@@ -1,0 +1,13 @@
+#440
+FactZero1
+
+Cerința
+Se citește un număr natural n . Să se determine ultima cifră nenulă din scrierea zecimală a numărului n! .
+
+Restricții
+1 ≤ n ≤ 1000
+n! = 1 * 2 * ... * n
+
+Exemplu
+Input: 13
+Output: 8

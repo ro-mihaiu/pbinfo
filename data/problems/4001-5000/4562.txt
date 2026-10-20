@@ -1,0 +1,12 @@
+#4562
+afisare_puteri_ab
+
+Cerința
+Se citesc două numere naturale a și b . Afișați în ordine crescătoare primele b puteri ale numărului a .
+
+Restricții
+1 ≤ a ≤ 9 , 1 ≤ b ≤ 9
+
+Exemplu
+Input: 5 6
+Output: 1 5 25 125 625 3125

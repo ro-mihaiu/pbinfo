@@ -1,0 +1,12 @@
+#118
+cifre2
+
+Cerința
+Să se scrie un program care să determine suma primelor două cifre ale unui număr natural citit de la tastatură.
+
+Restricții
+numărul citit va fi mai mic decât 2.000.000.000 şi mai mare decât 9
+
+Exemplu
+Input: 57015
+Output: 12

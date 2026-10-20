@@ -1,0 +1,18 @@
+#263
+Intervale2
+
+Cerința
+Se dau n intervale [a,b] , unde a şi b sunt numere întregi. Să se determine intervalul rezultat prin intersectarea intervalelor date.
+
+Restricții
+1 ≤ n ≤ 100
+pentru fiecare interval dat [a,b] , -100 ≤ a , b ≤ 100
+
+Exemplu
+Input: 5
+-7 10
+3 20
+-5 5
+0 12
+-8 30
+Output: 3 5

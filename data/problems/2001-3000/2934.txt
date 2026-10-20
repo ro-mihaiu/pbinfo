@@ -1,0 +1,18 @@
+#2934
+Cmmp
+
+Cerința
+Pentru orice număr natural x definim operația cmmp prin care adăugăm cifre la stânga lui x , la dreapta lui x sau la ambele capete ale lui x , astfel încât numărul obținut să fie pătrat perfect și cât mai mic posibil. Se dau N numere naturale \( {s}_{1},{s}_{2}…{s}_{N} \).
+Să se determine pentru fiecare număr s[k] , 1 ≤ k ≤ N , cel mai mic pătrat perfect care se poate obține prin aplicarea operației cmmp .
+
+Restricții
+1 ≤ N ≤ 100.000
+0 ≤ s[k] < 100.000
+Pentru 20% din teste 0 ≤ s[k] < 100
+Pentru 20% din teste 0 ≤ s[k] < 1000
+Dacă numărul dat este pătrat perfect, atunci operația cmmp îl lasă neschimbat.
+
+Exemplu
+Input: 4
+21 0 19 80
+Output: 121 0 196 2809

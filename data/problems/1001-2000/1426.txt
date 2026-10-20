@@ -1,0 +1,20 @@
+#1426
+Pozne
+
+Cerința
+Cunoscându-se numărul n de săteni, cele n valori reprezentând numărul de monede pe care Păcală le-a împrumutat fiecăruia, cifra c și numărul s , se cere să se afișeze: a) numărul de bani împrumutaţi fiecărui sătean care este prieten cu primarul b) numărul persoanelor credule și răspunsul la întrebarea dacă Păcală a câștigat monezi în plus față de cele împrumutate: dacă da, se va afișa pe ecran valoarea 1 ; dacă nu se va câștiga nimic în plus și nici nu va pierde nimic se va afișa valoarea 0 , iar dacă va pierde monezi față de cele împrumutate se va afișa valoarea -1 .
+
+Restricții
+0 < n ≤ 1000 ; 0 < s ≤ 500000 ; 0 ≤ c ≤ 9
+0 < numărul monezilor împrumutate de fiecare sătean ≤ 999999
+Se garantează că in șir există cel puțin un număr care, scris invers, este număr prim.
+
+Exemplu
+Input: 1
+7 15 3
+121 31 50 33 821 23 91
+Output: 31 33 23
+Input: 2
+7 15 3
+121 31 50 33 821 23 91
+Output: 3 1

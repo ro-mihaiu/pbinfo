@@ -1,0 +1,24 @@
+#2818
+Inserare2
+
+Cerința
+Numim inserare a unui șir A într-un șir B introducerea, între două elemente ale șirului B , a tuturor elementelor lui A , pe poziții consecutive, în ordinea în care apar în A .
+Se dau două șiruri cu n , respectiv m elemente numere întregi ordonate strict crescător , în care numerotarea elementelor începe de la 1 .
+Se cere să se afișeze poziția din al doilea șir începând de la care poate fi inserat primul șir, astfel încât șirul obținut să fie strict crescător. Dacă nu există o astfel de poziție, se afișează mesajul imposibil .
+
+Restricții
+Proiectați un algoritm eficient din punctul de vedere al spațiului de memorie utilizat și al timpului de executare. se recomandă o soluție care să nu memoreze cel două șiruri în tablouri sau alte structuri de date similare.
+
+Exemplu
+Input: 4 6
+15 16 17 19
+7 10 12 20 30 40
+Output: 4
+Input: 4 6
+15 16 17 19
+7 14 18 20 30 40
+Output: imposibil
+Input: 4 6
+1 2 3 4
+7 14 18 20 30 40
+Output: imposibil

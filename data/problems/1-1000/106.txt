@@ -1,0 +1,12 @@
+#106
+minim3
+
+Cerința
+Calculaţi minimul celor 3 numere date.
+
+Restricții
+valoare absolută a numerelor citite va fi mai mică decât 1.000.000.000
+
+Exemplu
+Input: 125 68 200
+Output: 68

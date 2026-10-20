@@ -1,0 +1,18 @@
+#3341
+oaste2
+
+Cerința
+Să se determine numărul S maxim de soldați dintr-un stat al continentului precum și numărul R minim de regiuni pe care le poate avea un stat cu S soldati.
+
+Restricții
+n si m vor fi numere naturale cu valori intre 1 si 100 inclusiv;
+fiecare element al matricei va avea valori naturale cuprinse intre 0 si 9 inclusiv;
+există cel puțin o cifră nenula în matrice
+
+Exemplu
+Input: 4 6
+0 1 1 0 2 9
+9 0 2 0 1 0
+0 1 1 0 0 2
+0 0 1 1 1 1
+Output: 12 3

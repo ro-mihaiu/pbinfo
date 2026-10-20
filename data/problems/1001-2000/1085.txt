@@ -1,0 +1,20 @@
+#1085
+Loto
+
+Cerința
+Realizaţi un program care afişează în ordine crescătoare numerele de pe bilele aflate în cutie după modificările făcute de şef.
+
+Restricții
+8 < N < 1000
+Dacă o bilă poate fi înlocuită cu două bile la fel de apropiate de ea, atunci aceasta se va înlocui cu bila având numărul mai mare.
+Pentru datele de test, atât bila cu numărul cel mai mic, cât şi bila cu numărul cel mai mare pot fi înlocuite cu alte bile.
+
+Exemplu
+Input: 10
+231 212 32 123 453 675 1321 54 67 567
+212 32 67 567 675 1321
+Output: 54 67 212 453 567 675
+Input: 12
+3 4 6 7 8 9 2 1 10 18 22 26
+2 9 3 4 22 6
+Output: 1 3 4 6 9 26

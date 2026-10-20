@@ -1,0 +1,20 @@
+#4531
+PartitiiPrime
+
+Cerința
+Se dă un număr natural n . Determinați, în ordine lexicografică, toate modalitățile de a-l scrie pe n ca sumă de numere prime, ordonate crescător.
+
+Restricții
+2 ≤ n ≤ 100
+
+Exemplu
+Input: 13
+Output: 2 2 2 2 2 3
+2 2 2 2 5
+2 2 2 7
+2 2 3 3 3
+2 3 3 5
+2 11
+3 3 7
+3 5 5
+13

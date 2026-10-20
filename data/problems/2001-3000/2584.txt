@@ -1,0 +1,12 @@
+#2584
+InsertInvers
+
+Cerința
+Se dă un șir de caractere care conține cuvinte formate doar din litere mici și mari ale alfabetului englez, separate printr-un spațiu. Să se afișeze cuvintele din șir, fiecare fiind urmat de inversul său. Cuvintele afișate sunt separate printr-un spațiu.
+
+Restricții
+șirul conține maximum 255 de caractere
+
+Exemplu
+Input: ana are mere
+Output: ana ana are era mere erem

@@ -1,0 +1,16 @@
+#359
+Gard
+
+Cerința
+Parcul orașului este înconjurat cu un gard format din n stâlpi formați din blocuri de piatră suprapuse. La început, toți stâlpii aveau aceeași înălțime, dar în timp s-au deteriorat, pierzându-se de la unii stâlpi unele blocuri de piatră.
+Primarul orașului dorește să renoveze gardul. Pentru aceasta, s-a determinat înălțimea curentă a fiecărui stâlp și se vor completa cu blocuri de piatră noi stâlpii deteriorați, astfel încât toți stâlpii să aibă aceeași înălțime.
+Determinați numărul de blocuri de piatră necesare pentru renovarea gardului.
+
+Restricții
+1 ≤ n ≤ 1000
+fiecare stâlp va avea înălțimea între 0 și 100
+
+Exemplu
+Input: 5
+7 5 6 8 2
+Output: 12

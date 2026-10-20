@@ -1,0 +1,13 @@
+#759
+BiLatime
+
+Cerința
+Se consideră un arbore binar în care nodurile memorează numere naturale nenule. Să se afișeze valorile din arbore în urma parcurgerii în lățime, pornind din rădăcină.
+
+Restricții
+se recomandă folosirea arborilor alocați dinamic.
+la parcurgerea în lățime, după vizitarea unui nod, se va vizita fiul stâng, apoi fiul drept.
+
+Exemplu
+Input: 67 51 18 0 0 24 0 0 48 0 11 0 0
+Output: 67 51 48 18 24 11

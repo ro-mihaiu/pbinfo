@@ -1,0 +1,18 @@
+#2414
+2lap
+
+Cerința
+Se citesc două numere naturale N și M și apoi, de pe următoarea linie, numere naturale de forma 2 p , separate prin câte un spațiu. Să se afișeze: 1. care sunt valorile ce ar apărea pe pozițiile N și M în șirul ordonat crescător obținut din toate numerele aflate pe a doua linie a fișierului, separate printr-un spațiu; 2. puterea la care apare 2 în descompunerea în factori primi a produsului tuturor numerelor care ar fi situate între pozițiile N și M (exclusiv acestea) în șirul ordonat crescător obținut din toate numerele aflate pe a doua linie a fișierului de intrare; 3. toate numerele distincte, afișate în ordine crescătoare, care ar apărea între pozițiile N și M (exclusiv acestea) în șirul ordonat crescător, obținut din valorile citite de pe a doua linie a fișierului de intrare.
+
+Restricții
+1 ≤ N < M ≤ 30000
+0 ≤ p ≤ 30
+șirul nu are mai puțin de M termeni
+N + 1 < M
+
+Exemplu
+Input: 5 8
+16 32 2 64 256 128 32 128 32 128
+Output: 32 128
+13
+64 128

@@ -3,4 +3,6 @@ data/views.json
 w.md
 .vercel
 TODO-supabase.md
-.env*
+.env
+.env.development.local
+.env.local

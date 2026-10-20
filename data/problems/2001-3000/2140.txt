@@ -1,0 +1,18 @@
+#2140
+poartas
+
+Cerința
+Dându-se un număr p de echipaje, pentru fiecare echipaj fiind precizate poziția inițială și poziția finală, determinați numărul minim de deplasări necesare pentru ca toate echipajele să ajungă din poziția inițială în cea finală.
+
+Restricții
+coordonatele pozițiilor inițiale și finale ale echipajelor sunt numere naturale din intervalul [1, 250]
+1 < p < 5000
+pozițiile inițiale ale celor p echipaje sunt distincte două câte două
+pozițiile finale ale celor p echipaje sunt distincte două câte două
+
+Exemplu
+Input: 3
+1 2 3 4
+6 5 3 9
+3 4 1 2
+Output: 4

@@ -1,0 +1,12 @@
+#4182
+bac_secventa
+
+Cerința
+Subprogramul secventa are un singur parametru, n , prin care primește un număr natural, în care nu există secvențe de mai mult de două cifre identice aflate pe poziții consecutive. Subprogramul înlocuiește în n fiecare secvență 22 cu câte o secvență 20 și furnizează, prin același parametru, numărul obținut. Dacă nu se înlocuiește nicio secvență, subprogramul furnizează numărul nemodificat. Scrieți definiția completă a subprogramului.
+
+Restricții
+10 ≤ n < 1.000.000.000
+Numele funcției va fi secventa
+Funcția va primi un singur parametru, numărul n , iar la finalul funcției n va avea valoarea cerută.
+
+Exemplu

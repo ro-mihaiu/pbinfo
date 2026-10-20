@@ -1,0 +1,14 @@
+#3740
+FAdaugareFinalLLDI
+
+Cerința
+void AdaugareFinal(nod * & prim , nod * & ultim, int x);
+care adaugă valoarea x la sfârșitul listei pentru care primul element are adresa memorată în pointerul prim si ultimul element are adresa memorata in pointerul ultim .
+
+Restricții
+numele funcției va fi AdaugareFinal
+dacă lista nu conține niciun element, pointerul prim si ultim va avea valoarea NULL
+în toate cazurile, la ieșirea din apel prim va memora adresa primului element al listei, iar ultim va memora adresa ultimului element al listei
+s-a modificat enuntul si structura de aceea solutiile mai vechi nu vor lua 100 pct
+
+Exemplu

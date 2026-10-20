@@ -1,0 +1,12 @@
+#2201
+salut
+
+Cerința
+Într-un grup sunt n prieteni. Când se întâlnesc se salută, fiecare dând mâna cu toți ceilalți. Câte strângeri de mână au loc?
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 3
+Output: 3

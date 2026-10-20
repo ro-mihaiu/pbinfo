@@ -1,0 +1,21 @@
+#2413
+reteta1
+
+Cerința
+Scrieţi un program care să determine suma minimă de bani necesară pentru a cumpăra exact câte unul din fiecare dintre cele n medicamente, folosindu-se de reţetele avute la dispoziţie.
+
+Restricții
+1 ≤ N ≤ 20
+1 ≤ M ≤ 15
+1 ≤ preţul oricărui medicament ≤ 200
+Pentru datele de test există întotdeauna soluţie.
+
+Exemplu
+Input: 4 5
+2 1 3
+2 2 2 3
+1 1 1
+1 3 4 1 2
+1 1 3
+8 20 2 16
+Output: 45.0

@@ -1,0 +1,16 @@
+#2721
+Insert
+
+Cerința
+Să se scrie funcția cu următorul antet:
+void Insert(int a[], int &n)
+Funcția primește ca parametri un vector a de numere naturale și n – numărul elementelor vectorului. Să se insereze după fiecare număr impar dublul său.
+
+Restricții
+după inserarea de elemente, este garantat că n va avea lungimea cel mult 800.000
+inițial vectorul are cel puțin un element
+0 ≤ a[i] ≤ 1.000.000 , pentru orice i=0,n-1 .
+vectorul este indexat de la 0 la n-1
+este garantat că vectorul a va putea memora în final toate elementele inițiale și cele inserate
+
+Exemplu

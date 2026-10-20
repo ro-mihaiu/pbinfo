@@ -1,0 +1,27 @@
+#838
+Iesire
+
+Cerința
+Se dă planul unei clădiri pătrate formate din n*n camere, sub forma unei matrice cu n linii și n coloane și elemente 0 sau 1 . Camerele marcate cu 0 sunt libere, cel marcate cu 1 sunt inaccesibile și fiecare cameră are o pereche de coordonate, de forma I J , reprezentând linia și coloană pe care este situată camera. Dintr-o cameră liberă se poate trece în altă cameră liberă, cu condiția să se învecineze pe linie sau pe coloană.
+Administratorul clădirii primește o listă cu coordonatele a m camere pentru care s-au găsit potențiali chiriași. Nu pot fi închiriate decât camerele libere și accesibile din exteriorul clădirii – adică să existe o succesiune de camere învecinate care începe pe o latură a clădirii și se încheie la camera respectivă.
+Pentru fiecare dintre camerele din listă, verificați dacă poate fi închiriată sau nu.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ m ≤ 10
+1 ≤ x,y ≤ n
+
+Exemplu
+Input: 6 3
+1 1 1 1 1 0
+1 0 0 0 1 1
+1 0 1 1 0 0
+0 1 0 1 0 1
+1 0 0 1 0 1
+1 1 0 1 1 0
+4 3
+2 2
+5 5
+Output: da
+nu
+da

@@ -1,0 +1,16 @@
+#2045
+Faleza
+
+Cerința
+Acum iarna s-a terminat și, apropiindu-se sezonul de vară, gospodarii din orașul de pe malul fluviului doresc să pregătească faleza pentru a primi cum se cuvine turiștii. Faleza este sub formă dreptunghiulară cu lungimea de n metri și lățimea de 2 metri. În toamnă ea era pavată cu 2*n dale pătrate cu latura de un metru, lipite una de alta și care acopereau complet zona falezei. În urma iernii grele, unele dale s-au deteriorat și acum se dorește înlocuirea lor.Cum de multe ori oamenii fac treaba doar “pe jumătate”, gospodarii au hotărât să cheltuie cât mai puțin pentru reamenajarea falezei, așa că au decis că nu trebuie neapărat să înlocuiască toate dalele deteriorate, ci doar un număr minim dintre acestea astfel încât să fie posibil să se parcurgă faleza de la un capăt la altul pășind doar pe dale bune (nedeteriorate). De pe o dală pe alta se poate păși doar dacă ele au o latură comună.
+Scrieţi un program care să determine numărul minim de dale deteriorate ce trebuie înlocuite astfel încât faleza să poată fi parcursă de la un capăt la altul.
+
+Restricții
+3 ≤ n ≤ 100000
+pentru teste în valoare de 20 puncte, una dintre părțile falezei are în întregime dale deteriorate.
+
+Exemplu
+Input: 8
+0 0 1 1 1 0 0 0
+0 0 0 0 0 0 0 1
+Output: 5

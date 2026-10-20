@@ -1,0 +1,16 @@
+#284
+interclasare3
+
+Cerința
+Se dau două şiruri, cu n , respectiv m , elemente, numere naturale. Primul şir este ordonat crescător, iar al doilea este ordonat descrescător. Să se afişeze, în ordine crescătoare, valorile pare din cele două şiruri.
+
+Restricții
+1 ≤ n,m ≤ 100000 ;
+elementele celor două şiruri vor avea cel mult 9 cifre;
+în cel puţin şir va exista minim un element par;
+
+Exemplu
+Input: 5 8
+2 4 7 37 42
+88 88 67 45 42 32 4 1
+Output: 2 4 4 32 42 42 88 88

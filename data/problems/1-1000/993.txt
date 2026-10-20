@@ -1,0 +1,16 @@
+#993
+genmat20
+
+Cerința
+Scrieţi un program care citeşte de la tastatură un număr natural n şi construieşte în memorie o matrice cu n linii şi n coloane în care fiecare linie a matricei să conţină o permutare a mulţimii {1,2,...,n} , astfel încât pe linii diferite ale matricei să se afle permutări diferite.
+
+Restricții
+3≤n≤15
+orice matrice afișată care respectă condițiile problemei este corectă
+
+Exemplu
+Input: 4
+Output: 1 2 3 4
+2 3 4 1
+3 4 1 2
+4 1 2 3

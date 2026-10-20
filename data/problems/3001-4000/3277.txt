@@ -1,0 +1,21 @@
+#3277
+Lee
+
+Cerința
+Să se determine lungimea minimă a unui drum care pleacă din poziția (1,1) , trece obligatoriu prin cele trei componente date (nu contează în ce ordine) și apoi ajunge în poziția (N, N) , drum care trece doar prin componente marcate cu 0 și învecinate pe linii și coloane. Un pas din drum constă din deplasarea dintr-un punct (i,j) într-unul din cele patru învecinate pe linie și coloană, adică într-unul din punctele (i-1,j) , (i,j-1) , (i+1, j) , (i,j+1) .
+
+Restricții
+3 ≤ N ≤ 100
+Cele trei puncte sunt distincte, diferite de pozițiile (1,1) și (N,N) și se găsesc la poziții din matrice marcate cu 0 . De asemenea, la pozițiile (1,1) și (N,N) se găsește mereu valoarea 0 .
+Pentru datele de intrare va exista mereu soluție, adică există cel puțin un drum de la (1,1) la (N,N) .
+
+Exemplu
+Input: 4
+0 0 0 0
+1 0 1 1
+0 0 0 1
+1 0 0 0
+3 3
+1 4
+3 1
+Output: 12

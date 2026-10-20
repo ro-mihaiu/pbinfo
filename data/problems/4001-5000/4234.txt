@@ -1,0 +1,14 @@
+#4234
+potriviri
+
+Cerința
+Se dau două numere naturale nenule N și S . Determinați numerele distincte x 1 , x 2 , .., x N aparținând mulțimii {1, 2, ..., N} astfel încât 1 * x 1 + 2 * x 2 + .. + N * x N = S .
+
+Restricții
+2 ≤ n ≤ 1000
+1 ≤ S ≤ 1.000.000.000
+Dacă există mai multe soluții, se va scrie una singură, oricare din ele.
+
+Exemplu
+Input: 4 26
+Output: 3 2 1 4

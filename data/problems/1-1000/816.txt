@@ -1,0 +1,12 @@
+#816
+sticle
+
+Cerința
+Scrieți un program care determină câte sticle de x litri cu apă trebuie deschise pentru a umple un vas de y litri.
+
+Restricții
+1 ≤ x,y ≤ 1.000.000 și sunt numere naturale
+
+Exemplu
+Input: 5 8
+Output: 2

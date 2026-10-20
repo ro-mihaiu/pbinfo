@@ -1,0 +1,15 @@
+#1608
+Sortare Divizori
+
+Cerința
+Se dau n numere naturale nenule. Ordonați descrescător cele n numere după numărul lor de divizori.
+
+Restricții
+1 ≤ n ≤ 1000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000.000
+dacă există mai multe numere care au același număr de divizori, acestea vor fi ordonate crescător
+
+Exemplu
+Input: 5
+12 20 4 100 13
+Output: 100 12 20 4 13

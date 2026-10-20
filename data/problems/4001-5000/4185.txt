@@ -1,0 +1,15 @@
+#4185
+Varsta
+
+Cerința
+Gigel are a ani, iar tatăl lui are b ani. Peste câți ani raportul dintre vârsta lui Gigel și al tatălui său va fi egală cu c/d , unde c și d sunt dați.
+
+Restricții
+1 ≤ a,b,c,d ≤ 1000000
+x poate să fie negativ
+
+Exemplu
+Input: 5 25 1 2
+Output: 15.00
+Input: 20 50 1 5
+Output: -12.50

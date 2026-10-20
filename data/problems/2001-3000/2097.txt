@@ -1,0 +1,13 @@
+#2097
+Vistiernic
+
+Cerința
+Scrieţi un program care determină numărul de zerouri în care se termină averea împăratului.
+
+Restricții
+1 ≤ n ≤ 1000 1 ≤ numărul de pe uşă ≤ 32767 , pentru fiecare încăpere.
+
+Exemplu
+Input: 4
+8 225 64 15
+Output: 3

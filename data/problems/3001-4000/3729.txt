@@ -1,0 +1,23 @@
+#3729
+Exclusiv
+
+Cerința
+Scrieți un program care să determine, pentru orice 1 ≤ i ≤ N , lungimea maximă a unei secvențe i-exclusive .
+
+Restricții
+1 ≤ N ≤ 2.000
+3 ≤ M ≤ 100.000
+Vectorii s și v conțin numere naturale mai mici sau egale cu 2.000.000.000 , memorate începând cu poziția 1
+Valorile din fiecare vector nu sunt obligatoriu distincte două câte două.
+O subsecvență nevidă în s este formată din elemente situate pe poziții consecutive ( s[i] , s[i + 1] , …, s[j] ), i ≤ j . O subsecvență i-exclusivă poate fi și vidă, lungimea ei fiind 0 .
+
+Exemplu
+Input: 20 6
+11 5 11 7 2 10 11 9 2 77 88 88 88 2 7 2 2 77 2 11 
+11 5 7 9 5 2
+Output: 12
+12
+7
+6
+6
+4

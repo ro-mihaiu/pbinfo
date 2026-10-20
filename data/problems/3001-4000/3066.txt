@@ -1,0 +1,18 @@
+#3066
+numere27
+
+Cerința
+Cunoscându-se numerele N și X , scrieți un program care determină: 1) câte numere de N cifre îndeplinesc cele trei condiții din enunț; 2) care este cel mai apropiat număr de X , diferit de X , care să îndeplinească cele trei condiții din enunț și care să aibă același număr de cifre ca X . Dacă există două astfel de numere, egal depărtate de X , se va afișa cel mai mic dintre ele.
+
+Restricții
+3 ≤ N ≤ 29
+100 ≤ X ≤ 20.000.000
+Pentru rezolvarea primei cerințe se acordă 30 de puncte, iar pentru rezolvarea celei de a doua cerințe se acordă 70 de puncte.
+
+Exemplu
+Input: 1
+4
+Output: 45
+Input: 2
+200
+Output: 167

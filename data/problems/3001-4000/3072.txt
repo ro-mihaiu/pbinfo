@@ -1,0 +1,13 @@
+#3072
+sumprodmax3
+
+Cerința
+Scrieți un program care citește un număr natural nenul n și care determină și afișează trei numere naturale a , b și c , astfel încât a+b+c=n și produsul a*b*c este maximul dintre produsele oricăror trei numere naturale care adunate dau suma egală cu n .
+
+Restricții
+1 ≤ n ≤ 1.000.000.000 ;
+cele trei numere se vor afișa în ordine crescătoare;
+
+Exemplu
+Input: 13
+Output: 4 4 5

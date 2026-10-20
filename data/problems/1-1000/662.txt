@@ -1,0 +1,19 @@
+#662
+sumelpare
+
+Cerința
+Se dă o matrice cu n linii și m coloane și elemente numere naturale. Să se determine indicele liniei pentru care suma elementelor pare este maximă.
+
+Restricții
+1 ≤ n , m ≤ 100
+elementele matricei sunt numere naturale mai mici decât 1.000.000
+liniile matricei sunt numerotate de 1 la n , iar coloanele de la 1 la m
+matricea conține cel puțin un element par
+dacă sunt mai multe linii cu suma elementelor pare maximă, se poate afișa indicele oricăreia
+
+Exemplu
+Input: 3 4
+5 5 10 5 
+3 9 1 2 
+4 10 1 2
+Output: 3

@@ -1,0 +1,26 @@
+#3447
+Partit
+
+Cerința
+Cunoscând valoarea numărului natural n :
+pentru un număr k dat, să se tipărească partiția de pe poziția k din tabelul lexicografic.
+pentru o partiție dată, să se calculeze numărul de ordine a ei din tabelul lexicografic
+
+Restricții
+1 < n < 10 000
+0 < k < 10 17 (indiferent dacă este cazul c=1 sau c=2 )
+pentru teste în valoare de 18 puncte avem n ≤ 20
+pentru alte teste în valoare de 36 de puncte avem n < 10 000 și k ≤ 1 000 000
+pentru alte teste în valoare de 18 puncte avem k ≤ 2 000 000 000
+pentru toate testele din fișierele de intrare există soluție
+în concurs s-au acordat 10 puncte din oficiu. Pe site se acordă 10 puncte pentru exemple.
+
+Exemplu
+Input: 1
+4
+5
+Output: 2 1 1
+Input: 2
+21
+1 2 3 4 5 6
+Output: 375776

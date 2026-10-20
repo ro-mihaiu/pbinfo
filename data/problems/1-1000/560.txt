@@ -1,0 +1,19 @@
+#560
+Flori
+
+Cerința
+Copiii din clasa a V-a au hotărât să planteze flori, micșunele și panseluțe, în grădina din curtea școlii. Ei au plantat un număr de n flori astfel: un rând de micșunele, 2 rânduri de panseluțe, 3 rânduri de micșunele, 4 rânduri de panseluțe, și așa mai departe până au terminat toate florile. Fiecare rând conține un număr de 5 flori, ultimul rând putând să conțină mai puține flori. Copiii doresc să cunoască numărul de rânduri plantate, dacă ultimul rând a fost complet sau nu și ce flori s-au plantat pe ultimul rând.
+
+Restricții
+0 < n ≤ 100000
+Număr rând Grădina de flori 1 micșunele micșunele micșunele micșunele micșunele 2 panseluțe panseluțe panseluțe panseluțe panseluțe 3 panseluțe panseluțe panseluțe panseluțe panseluțe 4 micșunele micșunele micșunele micșunele micșunele 5 micșunele micșunele micșunele micșunele micșunele 6 micșunele micșunele micșunele micșunele micșunele 7 panseluțe panseluțe panseluțe panseluțe panseluțe
+
+Exemplu
+Input: 20
+Output: 4
+DA
+micsunele
+Input: 31
+Output: 7
+NU
+panselute

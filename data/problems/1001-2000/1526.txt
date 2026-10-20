@@ -1,0 +1,21 @@
+#1526
+align
+
+Cerința
+Să se alinieze un text dat la stânga sau la dreapta.
+
+Restricții
+1 ≤ n ≤ 100
+lungimea unei linii nu va depăşi 200
+dacă îl veţi ajuta pe Andino , veţi primi 100 de puncte şi probabil îl veţi convinge pe Andino să folosească un alt editor de texte
+
+Exemplu
+Input: 4 D
+lui Andino ii place
+mult informatica si doreste
+sa mearga la olimpiada
+pentru a-si dovedi calitatile de mare informatician
+Output: lui Andino ii place
+                        mult informatica si doreste
+                             sa mearga la olimpiada
+pentru a-si dovedi calitatile de mare informatician

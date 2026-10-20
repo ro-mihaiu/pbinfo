@@ -1,0 +1,48 @@
+#2454
+bsrec
+
+Cerința
+Dându-se N (lungimea vectorului), Q (numărul de query-uri apelate) şi cele Q query-uri, să se determine vectorul iniţial. Dacă există mai multe soluţii se va afişa soluţia minim lexicografică. Dacă nu există soluţie se va afişa valoarea -1 . Un vector V1 se consideră mai mic lexicografic decât un alt vector V2 dacă există un indice i astfel încât: V1[1] = V2[1] , V1[2] = V2[2] , …, V1[i-1] = V2[i-1] și V1[i] < V2[i] . Cele Q query-uri sunt formate din:
+X – valoarea pe care o căutăm binar în vector
+M – numărul de iteraţii în algoritmul de căutare binară
+[a, b] – intervalul în care se aplică algoritmul de cautare binară (perechea (a, b) este considerată prima iteraţie în algoritm)
+M-1 perechi de indici reprezentând valorile afişate de algoritmul de căutare binară în urma fiecărei iteraţii
+
+Restricții
+1 ≤ T ≤ 10
+1 ≤ N, Q ≤ 1000
+1 ≤ X ≤ 1 000 000 000
+1 ≤ st ≤ dr ≤ N , cu excepţia ultimei perechi din căutarea binară unde st > dr .
+Pentru 20% din punctajul total există teste cu 1 ≤ N, Q ≤ 10 şi soluţia minim lexicografică admite valori până în 20 .
+Se garantează că M ≤ 15 .
+
+Exemplu
+Input: 2
+5 3
+3 4
+1 5
+1 2
+2 2
+2 1
+30 3
+2 4
+4 4
+5 4
+25 2
+4 5
+4 3
+5 3
+30 4
+1 5
+1 2
+2 2
+2 1
+3 3
+2 4
+4 4
+5 4
+5 2
+4 5
+4 3
+Output: 1 3 4 25 26
+-1

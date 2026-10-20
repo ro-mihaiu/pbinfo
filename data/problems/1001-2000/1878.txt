@@ -1,0 +1,12 @@
+#1878
+nrasoc
+
+Cerința
+Se consideră un șir ai cărui termeni sunt numere naturale nenule, de o singură cifră. Numim număr asociat al acestui șir un număr natural format cu termenii șirului, în ordinea în care aceștia apar în șir. Se cere determinarea unui șir obținut prin eliminarea a doi termeni situați pe poziții consecutive în șirului dat, astfel încât numărul asociat șirului obținut să fie maxim.
+
+Restricții
+fișierul de intrare conține cel mult 80 de cifre.
+
+Exemplu
+Input: 9 8 5 7 6 2 3 4
+Output: 9 8 6 2 3 4

@@ -1,0 +1,29 @@
+#4633
+VarfuriPrietene
+
+Cerința
+Se dă un graf orientat cu n vârfuri și m arce. Vârfurile x și y se numesc prietene dacă distanța minimă de la vârful x la vârful y este egală cu distanța minimă de la vârful y la vârful x . Distanța minimă de la vârful x la vârful y este egală cu lungimea celui mai scurt drum care are ca extremitate ințială vârful x și extremitate finală vârful y .
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ m ≤ 200
+
+Exemplu
+Input: 6 12
+1 2
+1 3
+1 6
+2 4
+2 5
+2 6
+3 4
+4 5
+5 6
+6 1
+5 2
+5 1
+Output: 1 4
+1 6
+2 3
+2 5
+3 5

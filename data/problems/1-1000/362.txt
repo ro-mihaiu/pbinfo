@@ -1,0 +1,12 @@
+#362
+sumcif1
+
+Cerința
+Se citește un număr natural n . Să se determine suma cifrelor aflate pe poziții pare. Numărarea pozițiilor în numărul dat se face începând de la cifra unităților.
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 59712654
+Output: 19

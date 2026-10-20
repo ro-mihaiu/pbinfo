@@ -1,0 +1,12 @@
+#2407
+odaoni
+
+Cerința
+Aflaţi câţi divizori ai lui n au mulţimea cifrelor din scrierea lor inclusă în mulţimea cifrelor din scrierea lui n .
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 12
+Output: 3

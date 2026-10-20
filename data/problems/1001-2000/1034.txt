@@ -1,0 +1,21 @@
+#1034
+Roata
+
+Cerința
+Să se scrie un program care, cunoscând numărul n de cabine al roţii, numărul p de clienţi, precum şi numărul de rotiri cumpărate de fiecare client, c i , 1≤ i ≤ p , să calculeze:
+suma totală încasată de administratorul roţii de la clienţi;
+ordinea în care coboară clienţii din roată;
+numărul cabinei din care coboară ultimul client.
+
+Restricții
+2 ≤ n ≤ 360
+1 ≤ p ≤ 100 000
+1 ≤ c i ≤ 100 000
+
+Exemplu
+Input: 4
+7
+6 4 1 5 2 8 3
+Output: 29
+3 5 2 4 1 7 6 
+3

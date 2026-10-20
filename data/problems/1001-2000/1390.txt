@@ -1,0 +1,22 @@
+#1390
+cartele
+
+Cerința
+Scrieţi un program care determină care dintre cartele permite accesul în sediul firmei.
+
+Restricții
+1 < N, C ≤ 50
+
+Exemplu
+Input: 3 2
+0 1 0
+0 0 1
+1 0 0
+1 0 0
+0 0 1
+0 1 0
+0 0 1
+0 0 1
+0 1 0
+Output: 1
+0

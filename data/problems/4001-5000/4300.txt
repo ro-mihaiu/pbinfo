@@ -1,0 +1,18 @@
+#4300
+secv_fb
+
+Cerința
+Se citește un număr N , un număr K și apoi un șir cu N numere naturale. Determinați câte secvențe de lungime exact K au elementele distincte. Prin secvență înțelegem un set de elemente aflate pe poziții consecutive.
+
+Restricții
+2 ≤ N ≤ 100.000 ;
+Pentru 20 de puncte K = 2 ;
+Pentru alte 20 de puncte K = 3 ;
+Pentru alte 20 de puncte 4 ≤ K ≤ 10 ;
+Pentru alte 20 de puncte, 10 < K ≤ n-1 și valorile din șir ≤ 100.000 ;
+Pentru restul testelor 10 < K ≤ n-1 și valorile din șir ≤ 2.000.000.000 ;
+
+Exemplu
+Input: 8 3
+3 2 4 3 4 5 6 7
+Output: 5

@@ -1,0 +1,25 @@
+#2741
+SAO1
+
+Cerința
+Dându-se matricea codificărilor zonelor din teren, să se determine fertilitatea totală maximă a unei parcele în care toate zonele au aceeași fertilitate.
+
+Restricții
+1 ≤ n,m ≤ 500
+fertilitatea parcelelor și fertilitatea totală se va încadra pe tipul de date long long .
+nu există sol infertil (a cărui fertilitate să fie mai mică sau egală cu 0 ).
+acesta este “bad ending”-ul problemei SAO
+
+Exemplu
+Input: 4 4
+1 1 1 3
+1 1 1 3
+1 1 1 3
+3 3 3 3
+Output: 21
+Input: 4 4
+3 5 1 3
+1 5 5 3
+5 5 5 3
+3 3 3 3
+Output: 30

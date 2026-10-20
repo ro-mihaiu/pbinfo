@@ -1,0 +1,23 @@
+#2446
+numere24
+
+Cerința
+Scrieți un program care să citească: 1. un număr natural n și să afișeze al n -lea număr eliminat din șirul inițial; 2. un număr natural x și să afișeze următoarele trei numere: n1 – numărul de apariții în noul șir ale numărului obținut din x prin eliminarea ultimei sale cifre; n2 – numărul de apariții în noul șir ale numărului obținut din x prin eliminarea ultimelor sale două cifre; n3 – numărul de apariții în noul șir ale numărului obținut din x prin eliminarea ultimelor sale trei cifre. 3. un număr natural k și să afișeze numărul valorilor de k cifre din noul șir.
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+1000 ≤ x ≤ 2.000.000.000
+1 ≤ k ≤ 50 ( 1 ≤ k ≤ 18 , pentru teste în valoare de 20 de puncte)
+Pentru rezolvarea corectă a primei cerințe se acordă 10 puncte, pentru rezolvarea corectă a celei de a doua cerințe se acordă 25 de puncte, iar pentru rezolvarea corectă a celei de a treia cerințe se acordă 55 de puncte.
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă 10 puncte pentru exemplele din enunț.
+
+Exemplu
+Input: 1
+2
+Output: 10
+Input: 2
+1205
+Output: 0 2 1
+Input: 3
+2
+Output: 153

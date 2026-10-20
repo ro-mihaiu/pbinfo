@@ -1,0 +1,13 @@
+#58
+cmmdc
+
+Cerința
+Să se scrie un program care să determine cel mai mare divizor comun a două numere naturale citite de la tastatură.
+
+Restricții
+0 <= a, b < 1.000.000.000
+dacă ambele numere sunt egale cu 0 se va afișa valoarea -1
+
+Exemplu
+Input: 24 36
+Output: 12

@@ -1,0 +1,19 @@
+#1631
+Cuvinte5
+
+Cerința
+Se citește un text cu cel mult 255 de caractere, litere mici și mari ale alfabetului englez și spații. Cuvintele sunt separate printr-un singur spațiu. Să se determine câte cuvinte din text au exact trei litere, care sunt cuvintele care încep și se termină cu vocală și care este lungimea celui mai lung cuvânt.
+
+Restricții
+textul conține cel mult 30 cuvinte
+fiecare cuvânt conține cel mult 10 caractere
+se consideră vocale a e i o u A E I O U
+
+Exemplu
+Input: Dan are un pix care este albastru si un creion care e gri
+Output: 4
+are
+este
+albastru
+e
+8

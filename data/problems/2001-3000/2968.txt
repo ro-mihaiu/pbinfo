@@ -1,0 +1,31 @@
+#2968
+conexidad
+
+Cerința
+Să i se adauge grafului un număr minim de muchii, astfel încât acesta să devină conex. Fie extra i numărul de muchii nou-adăugate care sunt incidente cu nodul i , iar max_extra cea mai mare dintre valorile extra 1 , extra 2 ,… , extra N . Mulțimea de muchii adăugate trebuie să respecte condiția ca valoarea max_extra să fie minimă.
+
+Restricții
+1 ≤ N ≤ 100
+0 ≤ M ≤ N*(N-1)/2
+Nodurile grafului sunt numerotate de la 1 la N inclusiv.
+Muchiile prezente în fișierul de intrare sunt distincte.
+Pentru orice muchie [a,b] aflată în fișierul de intrare, avem a ≠ b .
+Graful din fișierul de intrare nu este conex.
+În cazul în care soluția afișată pentru un anumit test conectează graful cu număr minim de muchii, dar nu minimizează valoarea lui max_extra , se vor acorda 50% din punctajul pentru testul respectiv.
+Dacă există mai multe soluții optime, se va admite oricare dintre acestea.
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă pentru exemplele din enunț.
+
+Exemplu
+Input: 4 2
+1 2
+4 2
+Output: 1
+1
+3 1
+Input: 5 1
+3 4
+Output: 2
+3
+1 3
+2 3
+4 5

@@ -1,0 +1,14 @@
+#2953
+inserarechar
+
+Cerința
+Scrieți un program care citește un cuvânt cu cel mult 15 litere mici ale alfabetului englez și apoi un text cu cel mult 255 de caractere (cuvinte formate din litere mici ale alfabetului englez separate prin unul sau mai multe spații) și care afișează șirul obținut prin inserarea în text a caracterului ? după fiecare apariție a cuvântului citit. Dacă în text nu apare cuvântul citit, se va afișa mesajul NU APARE .
+
+Restricții
+textul va avea cel mult 255 de caractere litere mici din alfabetul englez și spații;
+cuvântul va avea cel mult 15 caractere, doar litere mici ale alfabetului englez.
+
+Exemplu
+Input: examenul
+examenul de bacalaureat si examenul de atestat
+Output: examenul? de bacalaureat si examenul? de atestat

@@ -1,0 +1,20 @@
+#979
+Alice
+
+Cerința
+Scrieţi un program care să citească numerele naturale N , K şi cele N numere naturale scrise pe cele N uşi, şi care să determine:
+a) cel mai mare număr par dintre numerele scrise pe cele N uşi; b) numărul uşilor care pot fi deschise cu cheia aurie inscripţionată cu cifra K .
+
+Restricții
+complementarea cifrelor unui număr natural faţă de cifra sa maximă din scrierea zecimală constă în înlocuirea fiecărei cifre c din număr cu diferenţa dintre cifra maximă şi cifra c ; de exemplu, cifra maximă a numărului 1234 este 4 iar prin complementare se înlocuieşte cifra 1 cu 3 ( =4-1 ), cifra 2 cu 2 ( =4-2 ), cifra 3 cu 1 ( =4-3 ) şi cifra 4 cu 0 ( =4-4 ) rezultând numărul 3210 ;
+7 ≤ N ≤ 10000 ; ≤0 ≤ K ≤ 9 ;
+pe fiecare uşă este scris un singur număr natural;
+există cel puţin o uşă pe care este scris un număr par;
+numărul scris pe oricare uşă (din cele N ) este mai mare sau egal cu 10 şi mai mic sau egal cu 32800 ;
+pentru rezolvarea corectă a cerinţei a) se acordă 20% din punctaj, iar pentru rezolvarea corectă a ambelor cerinţe se acordă 100% din punctaj.
+
+Exemplu
+Input: 7 1
+1204 1234 13 195 23 10 888
+Output: 1234
+3

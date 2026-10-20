@@ -1,0 +1,17 @@
+#434
+PerechiPrime
+
+Cerința
+Se dă un număr natural n . Afișați primele n perechi de numere naturale impare consecutive prime.
+
+Restricții
+1 ≤ n ≤ 100
+pentru fiecare pereche p q afișată, p < q
+
+Exemplu
+Input: 5
+Output: 3 5
+5 7
+11 13
+17 19
+29 31

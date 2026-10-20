@@ -1,0 +1,12 @@
+#3479
+2lan
+
+Cerința
+Se da un număr n . Calculați ultima cifră a lui \({2}^{n}\).
+
+Restricții
+0 ≤ n ≤ 100.000
+
+Exemplu
+Input: 6
+Output: 4

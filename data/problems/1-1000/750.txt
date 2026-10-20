@@ -1,0 +1,26 @@
+#750
+smin
+
+Cerința
+Cunoscând coordonatele celor n beţişoare (x[1], y[1]) , (x[2], y[2]) , …, (x[n], y[n]) măsurate faţă de unul dintre colţurile gridului, Ana doreşte să găsească suma minimă a ariilor poligonale obţinute prin amplasarea convenabilă a coardelor, astfel încât fiecare beţişor să se găsească în interiorul sau pe conturul a cel puţin un astfel de poligon.
+
+Restricții
+3 ≤ n ≤ 17
+0 ≤ x, y ≤ 100
+Datele de intrare nu vor conţine trei beţişoare plasate în puncte coliniare din planul tablei.
+Suma cerută se obţine însumând ariile tuturor poligoanelor, indiferent dacă unele poligoane se suprapun sau nu.
+Modulul diferenţei dintre valoarea reală a lui s şi cea afişată este mai mic decât 0.001 .
+
+Exemplu
+Input: 4
+0 2
+0 4
+4 4
+4 2
+Output: 8.000
+Input: 4
+0 2
+2 4
+3 4
+4 1
+Output: 2.500

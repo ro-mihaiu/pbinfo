@@ -1,0 +1,12 @@
+#3329
+NumarareAnagrame
+
+Cerința
+Se dă un cuvânt format numai din litere mici ale alfabetului englez. Determinați câte cuvinte distincte se pot forma cu literele sale – numărul de anagrame ale sale.
+
+Restricții
+cuvântul dat va avea cel mult 20 de litere;
+
+Exemplu
+Input: ababa
+Output: 10

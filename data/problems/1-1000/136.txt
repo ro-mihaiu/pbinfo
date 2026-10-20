@@ -1,0 +1,14 @@
+#136
+numararecuvinte
+
+Cerința
+Să se scrie un program care citește o propoziție și determină numărul de cuvinte din propoziție care încep și se termină cu vocală.
+
+Restricții
+propoziția va conține cel mult 150 de caractere;
+propoziția conține doar litere ale alfabetului englez și spații
+se consideră vocale caracterele din mulțimea {a,e,i,o,u,A,E,I,O,U}
+
+Exemplu
+Input: Eratostene a sugerat ca anii bisecti se repeta la fiecare patru ani
+Output: 4

@@ -1,0 +1,14 @@
+#858
+Expresie6
+
+Cerința
+Se dă o expresie cu necunoscutele x y z și coeficienți întregi. Să se reducă termenii asemenea și să se determine termenul din expresia rezultat cu coeficientul maxim.
+
+Restricții
+șirul citit va avea cel mult 255 caractere și poate conține litere x y z , cifre, semnele + - și spații.
+coeficienții din expresie vor fi numere întregi. Se garantează că pe parcursul reducerii termenilor asemenea valoarea absolută a rezultatelor nu depășește 2.000.000.000
+se garantează că expresia dată este matematic corectă
+
+Exemplu
+Input: 2x+3y+x-15y-6x
+Output: -3x

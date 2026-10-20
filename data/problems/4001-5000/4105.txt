@@ -1,0 +1,14 @@
+#4105
+NumarareDiv
+
+Cerința
+Se dă un vector cu n numere naturale. Să se determine câte dintre perechile de elemente din vector au același număr de divizori.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele vectorului vor fi cuprinse între 1 și 1.000.000.000
+
+Exemplu
+Input: 6
+13 3 8 7 9 25
+Output: 4

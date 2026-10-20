@@ -1,0 +1,13 @@
+#3258
+Alice_XI
+
+Cerința
+Alice s-a pierdut din nou în labirint. Labirintul este de forma unui triunghi dreptunghic împărțit în camere organizate pe linii și coloane. Pe prima linie este o singură cameră, pe a doua sunt două camere, etc. Pe ultima linie sunt n camere. Din fiecare cameră se poate merge în camerele situate pe linia următoare și pe aceeași coloană, sau pe coloane cu 1 mai mari sau mai mici decât coloana curentă, dar fără să se părăsească labirintul. Astfel din camera (i,j) se poate merge în camerele (i+1,j-1) , (i+1,j) și (i+1,j+1) , dacă acestea există. Alice se află în camera de pe prima linia și de pe prima coloana (1,1) .
+Ca să iasă din labirint, Alice trebuie să ajungă într-o cameră de pe ultima linie. Calculați și afișați numărul de trasee pe care poate Alice să iasă din labirint.
+
+Restricții
+1 ≤ n ≤ 35
+
+Exemplu
+Input: 3
+Output: 5

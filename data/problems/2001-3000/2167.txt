@@ -1,0 +1,24 @@
+#2167
+alee
+
+Cerința
+Scrieți un program care să determine numărul minim de dale necesare pentru construirea unei alei continue de la o poartă la cealaltă.
+
+Restricții
+1 ≤ n ≤ 175
+1 ≤ m < n*n
+Aleea este continuă dacă oricare două plăci consecutive au o latură comună.
+Aleea începe cu zona unde se găsește prima poartă și se termină cu zona unde se găsește cea de a doua poartă.
+Pozițiile porților sunt distincte şi corespund unor zone libere.
+Pentru datele de test există întotdeauna soluție.
+
+Exemplu
+Input: 8 6 
+2 7
+3 3
+4 6
+5 4
+7 3
+7 5 
+1 1 8 8
+Output: 15

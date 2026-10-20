@@ -1,0 +1,33 @@
+#146
+graph
+
+Cerința
+Dându-se N , M şi cele M arce cu distanţele dintre ele, trebuie să calculaţi pentru Călinuţa distanţa minimă dintre fiecare două noduri.
+
+Restricții
+N ≤ 1500
+M ≤ 30.000
+Numerele nodurilor sunt valori cuprinse între 1 şi N
+Lungimea arcelor aparţine intervalului [-1000; 1000]
+Pentru 25% din teste N ≤ 150 şi M ≤ 1000
+Pentru alte 40% din teste N ≤ 1000
+
+Exemplu
+Input: 8 9
+1 2 7
+2 3 -1
+2 4 -2
+2 7 3
+8 2 -2
+8 6 3
+5 4 2
+5 6 6
+6 7 -5
+Output: 0 7 6 5 x x 10 x 
+x 0 -1 -2 x x 3 x 
+x x 0 x x x x x 
+x x x 0 x x x x 
+x x x 2 0 6 1 x 
+x x x x x 0 -5 x 
+x x x x x x 0 x 
+x -2 -3 -4 x 3 -2 0

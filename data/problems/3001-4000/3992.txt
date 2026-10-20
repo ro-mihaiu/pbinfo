@@ -1,0 +1,14 @@
+#3992
+count_c2
+
+Cerința
+Se dau n numere naturale. Calculați câte dintre ele au exact două cifre.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+1000 20 3 41 576
+Output: 2

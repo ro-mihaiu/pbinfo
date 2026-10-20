@@ -1,0 +1,19 @@
+#3318
+Eratostene7
+
+Cerința
+Se dau n perechi de numere naturale, x şi k . Verificaţi pentru fiecare număr x dacă este produs de k numere prime distincte.
+
+Restricții
+1 ≤ n ≤ 100.000
+1 ≤ x ≤ 1.000.000
+1 ≤ k ≤ 100
+
+Exemplu
+Input: 3
+20 3
+30 3
+49 2
+Output: NU
+DA
+NU

@@ -1,0 +1,24 @@
+#4253
+textOJI
+
+Cerința
+Scrieţi un program care să citească lungimea unei linii şi textul dat şi care să alinieze textul la stânga şi la dreapta.
+
+Restricții
+2 ≤ Max ≤ 1000
+Lungimea maximă a oricărui cuvânt din text este 50 caractere şi nu depăşeşte Max .
+Lungimea unui paragraf nu depăşeşte 1000 de caractere.
+Soluţia este unică.
+Problema aceasta s-a dat la OJI clasa a IX-a deoarece pe atunci șirurile de caractere se studiau în primul an de liceu (erau 8 ore de informatică pe săptămână – ce vremuri!)
+
+Exemplu
+Input: 20
+Vasile are multe bomboane bune.
+Output: Vasile   are   multe 
+bomboane bune.
+Input: 20
+Ana are mere.
+Ion are multe pere galbene?
+Output: Ana are mere.
+Ion  are  multe pere 
+galbene?

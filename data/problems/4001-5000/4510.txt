@@ -1,0 +1,14 @@
+#4510
+paritate_9
+
+Cerința
+Se citesc de la tastatură două numere naturale n și m cu exact două cifre fiecare. Dacă cele două numere au aceeași paritate (adică sunt ambele pare sau ambele impare), atunci să se calculeze suma cifrelor din cele două numere, iar în caz contrar, să se afișeze produsul cifrelor din cele două numere.
+
+Restricții
+n și m au exact 2 cifre fiecare
+
+Exemplu
+Input: 32 80
+Output: 13
+Input: 32 81
+Output: 48

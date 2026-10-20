@@ -1,0 +1,23 @@
+#2965
+album
+
+Cerința
+Cunoscându-se numărul n de stickere aduse de mama și numerele de pe ele în ordinea în care sunt așezate pe masă, să se determine:
+1. Cele mai mari două cifre, nu neapărat distincte, de pe ultimul sticker aflat pe masă înainte de începerea concursului; 2. Fratele care câștigă concursul și câte stickere are.
+
+Restricții
+3 ≤ n ≤ 800 000 ;
+Pentru cerința 2 se garantează că, pentru 50% din teste, n ≤ 100 ;
+Rezolvarea cerinței 1 garantează 40p , iar cerința 2 garantează 50p ;
+În concurs au fost acordate 10p din oficiu. Pe site se cere rezolvarea exemplelor.
+
+Exemplu
+Input: 1
+7
+291 11 992 456 71 13 121
+Output: 1 2
+Input: 2
+7
+234 122 334 199 463 221 231
+Output: V
+4

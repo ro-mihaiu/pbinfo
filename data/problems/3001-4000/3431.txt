@@ -1,0 +1,36 @@
+#3431
+Cartonase3
+
+Cerința
+Scrieți un program care să citească numărul N de cartonașe, numerele înscrise pe fiecare cartonaș și determină:
+1) Numărul de perechi de cartonașe care “se potrivesc”. 2) Numărul de cartonașe din cea mai lungă secvență în care fiecare două cartonașe alăturate “se potrivesc”. 3) Numărul de secvențe cu număr maxim de cartonașe care “se potrivesc”.
+
+Restricții
+1 ≤ N ≤ 500 ; 1 ≤ s ≤ 10.000 ; 1 ≤ d ≤ 10.000 • În concurs, pentru rezolvarea fiecărei cerințe se obțin câte 30 de puncte. Pe site se acordă 10 puncte pentru exemple.
+
+Exemplu
+Input: 1
+5
+2 10
+10 5
+10 2
+2 10
+37 5
+Output: 2
+Input: 2
+5
+2 10
+10 5
+5 2
+2 10
+37 5
+Output: 4
+Input: 3
+6
+2 10
+10 5
+2 8
+6 2
+2 10
+37 5
+Output: 2

@@ -1,0 +1,15 @@
+#520
+Secventa2
+
+Cerința
+Se dă un vector x cu n elemente, numere naturale și un vector y cu m elemente, numere naturale. Să se determine de câte ori este vectorul y secvență în vectorul x .
+
+Restricții
+1 ≤ m ≤ n ≤ 1000
+
+Exemplu
+Input: 10
+8 5 8 5 8 3 8 5 8 6 
+3
+8 5 8
+Output: 3

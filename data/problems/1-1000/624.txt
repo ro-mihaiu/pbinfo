@@ -1,0 +1,29 @@
+#624
+Sah1
+
+Cerința
+Cunoscând dimensiunea N a tablei de șah, poziția regelui de pe tablă, numărul M de ture și poziția fiecărei ture de pe tablă, se cere:
+a)să se afișeze numărul de ture care atacă regele în acel moment; b)numărul de poziții în care regele poate fi pus, astfel încât să nu fie atacat de vreo tură.
+
+Restricții
+2 ≤ N ≤ 10 000
+0 ≤ M ≤ min(2 000, N 2 -1)
+Tabla de șah are liniile și coloanele numerotate de la 1 la N .
+Regele poate fi pus pe orice căsuță de pe tablă care nu este ocupată de o tură sau care nu este atacată de vreo tură.
+Pentru rezolvarea corectă a primei cerinţe se acordă 20 de puncte, iar pentru cerința a doua se acordă 80 de puncte.
+
+Exemplu
+Input: 1
+4 3
+3 1
+1 2
+2 3
+4 3
+Output: 0
+Input: 2
+4 3
+3 1
+1 2
+2 3
+4 3
+Output: 2

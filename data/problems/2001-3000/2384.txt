@@ -1,0 +1,20 @@
+#2384
+Divigrup
+
+Cerința
+Un șir de numere aparțin unui divigrup dacă au același număr de divizori. Scrieți un program care citește un număr natural N și apoi N numere naturale nenule și care determină:
+a. câte divigrupuri există în șirul de numere citite b. numărul de numere din fiecare divigrup, urmat de numerele ce aparțin acestuia, în ordine crescătoare.
+
+Restricții
+1 ≤ n ≤ 200
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1000000000
+
+Exemplu
+Input: 11
+21 99 15 9 24 100 45 28 44 4 36
+Output: 5
+2 36 100
+1 24
+4 28 44 45 99
+2 15 21
+2 4 9

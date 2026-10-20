@@ -1,0 +1,12 @@
+#829
+AfisareRec
+
+Cerința
+Să se scrie o funcție C++ recursivă care citește de la tastatură un șir de valori naturale și le afișează în ordine inversă, cu câte un spațiu între ele.
+
+Restricții
+numele funcției va fi afis ;
+funcția nu va avea parametri și nu va returna nimic;
+șirul de valori citite se încheie la citirea valorii 0 .
+
+Exemplu

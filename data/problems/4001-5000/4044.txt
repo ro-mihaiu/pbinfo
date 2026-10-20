@@ -1,0 +1,15 @@
+#4044
+camere
+
+Cerința
+Te afli într-o cameră de formă dreptunghiulară, privită sub forma unei matrici cu N linii și M coloane. Camera depozitează alune, nuci și castane, fiecare celulă din matrice fiind însemnată cu un caracter din mulțimea {'A', 'N', 'C'} . Caracterul 'A' reprezintă o alună, 'N' o nucă, iar 'C' o castană. Dorești să imparți în mod cât mai egal cu sora ta gustările din cameră, iar cum castanele depozitate nu sunt comestibilie, tu ai dori să vezi câte submatrici cu laturile paralele cu cele ale camerei poți alege, astfel încât numărul de alune să fie egal cu numărul de nuci.
+
+Restricții
+1 ≤ N, M ≤ 300
+
+Exemplu
+Input: 3 4
+ACNN
+NCCA
+AACN
+Output: 18

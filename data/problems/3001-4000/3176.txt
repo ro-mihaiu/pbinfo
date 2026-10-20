@@ -1,0 +1,16 @@
+#3176
+fibo0
+
+Cerința
+Se dau perechi de numere a și b cu a ≤ b . Să se calculeze pentru câte perechi \(f_{b}\) este multiplu de \(f_{a}\) .
+
+Restricții
+Se vor citi până la 1.000.000 de perechi
+Numerele citite vor fi numere naturale strict mai mari decât 2 și mai mici decât 2.000.000.002
+
+Exemplu
+Input: 4 9
+4 8
+10 12
+7 21
+Output: 2

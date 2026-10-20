@@ -1,0 +1,18 @@
+#2778
+next_perm
+
+Cerința
+Scrieți definiția completă a subprogramului C++:
+void next_perm(int n, int P[])
+Subprogramul primește 2 parametri:
+n – prin care primește un număr natural
+P – prin care primește un tablou unidimensional cu n elemente ce reprezintă o permutare a mulțimii {1,2,...,n} .
+Subprogramul va returna tot în parametru P următoarea permutare din punct de vedere lexicografic.
+
+Restricții
+2 ≤ n ≤ 100000 ;
+elementele tabloului unidimensional P sunt indexate de la 1 ;
+pentru datele de intrare testate există întotdeauna permutare următoare;
+se recomandă evitarea folosirii unor funcții predefinite care realizează operația cerută.
+
+Exemplu

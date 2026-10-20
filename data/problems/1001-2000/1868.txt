@@ -1,0 +1,14 @@
+#1868
+prosirx
+
+Cerința
+Se consideră un text format din cel mult 200 de caractere litere mici și spații. Cuvintele din text sunt separate prin unul sau mai multe spații. Scrieti un program care citește textul și care: a) determină numărul de consoane din textul citit; b) înlocuiește prima literă a fiecărui cuvânt din textul citit cu litera X (mare); c) modifică textul citit prin aranjarea în ordine lexicografică a tuturor cuvintelor din text și separarea lor prin câte un singur spațiu.
+
+Restricții
+textul este format din cel mult 200 de caractere, doar litere mici sau spații
+
+Exemplu
+Input: oana   este    la scoala
+Output: 7 
+Xana   Xste    Xa Xcoala 
+este la oana scoala

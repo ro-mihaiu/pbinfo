@@ -1,0 +1,18 @@
+#1007
+matrice7
+
+Cerința
+Se consideră o matrice cu n linii şi m coloane şi elemente numere naturale. Să se modifice matricea în felul următor: toate elementele egale cu valoarea maximă din matrice se înlocuiesc cu valoarea minimă de pe coloana lor.
+
+Restricții
+1 ≤ n, m ≤ 100
+elementele matricei vor fi mai mici decât 1 000 000 000
+
+Exemplu
+Input: 3 4
+2 6 7 3
+7 1 7 1
+5 3 1 2
+Output: 2 6 1 3 
+2 1 1 1 
+5 3 1 2

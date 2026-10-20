@@ -1,0 +1,36 @@
+#3923
+back_abc2
+
+Cerința
+Se citesc două numere naturale n și m . Afișați în ordine lexicografică toate cuvintele care sunt formate din m litere distincte folosind primele n litere mari din alfabet.
+
+Restricții
+0 ≤ n ≤ 26 , 0 ≤ m ≤ 5
+m ≤ n
+
+Exemplu
+Input: 4 3
+Output: ABC
+ABD
+ACB
+ACD
+ADB
+ADC
+BAC
+BAD
+BCA
+BCD
+BDA
+BDC
+CAB
+CAD
+CBA
+CBD
+CDA
+CDB
+DAB
+DAC
+DBA
+DBC
+DCA
+DCB

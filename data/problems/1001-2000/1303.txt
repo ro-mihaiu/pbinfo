@@ -1,0 +1,15 @@
+#1303
+calculator
+
+Cerința
+Se dau două numere naturale și un simbol pentru una dintre operațiile + , - , * , / (adunare, scădere, înmulțire, impărțire). Să se determine rezultatul operației aplicate pentru cele două numere.
+
+Restricții
+atât numerele date cât și rezultatul operației au cel mult 9 cifre;
+numerele A și B nu sunt neapărat în ordine crescătoare sau descrescătoare; pentru operațiile de scădere și împărțire primul operand va fi numărul mai mare;
+/ reprezintă determinarea câtului împărțirii întregi.
+
+Exemplu
+Input: 10 20
++
+Output: 30

@@ -1,0 +1,15 @@
+#285
+x2y2k
+
+Cerința
+Se dă un număr natural, k . Să se determine toate perechile de numere naturale nenule x , y ( x ≤ y ), cu proprietatea că x 2 +y 2 =k .
+
+Restricții
+2 ≤ k ≤ 1.000.000.000
+pentru toate valorile lui k utilizate în teste există cel puţin o soluţie
+
+Exemplu
+Input: 1000000
+Output: 280 960
+352 936
+600 800

@@ -1,0 +1,23 @@
+#4290
+GasesteCiclu
+
+Cerința
+Se dă un graf neorientat cu n vârfuri numerotate de la 1 la n și m muchii. Știind că graful are cel puțin un ciclu, să se determine un ciclu elementar în acest graf.
+
+Restricții
+1 ≤ n ≤ 100
+Graful are cel puțin un ciclu.
+Muchiile sunt distincte și între orice două vârfuri poate exista cel mult o muchie.
+
+Exemplu
+Input: 9 9
+1 2
+4 2
+5 4
+5 7
+7 2
+3 9
+6 9
+6 3
+6 8
+Output: 2 7 5 4 2

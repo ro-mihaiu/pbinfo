@@ -1,0 +1,28 @@
+#4474
+Magie1
+
+Cerința
+Scrieți un program care să determine lungimea maximă a unei secvențe de numere egale dacă:
+Amaric aplică doar magii de tipul 1;
+Amaric aplică doar magii de tipul 2;
+Amaric aplică magii de tipul 1 și de tipul 2.
+
+Restricții
+1 ≤ N ≤ 5.000 ;
+1 ≤ numerele din șirul dat ≤ 5.000 ;
+pentru teste în valoare de 30 de puncte, C = 1
+pentru teste în valoare de 30 de puncte, C = 2
+
+Exemplu
+Input: 1
+4
+6 8 4 8
+Output: 2
+Input: 2
+4
+6 9 8 4
+Output: 3
+Input: 3
+4
+6 9 4 8
+Output: 3

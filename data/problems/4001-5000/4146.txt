@@ -1,0 +1,14 @@
+#4146
+Sort10
+
+Cerința
+Se dă un vector cu n elemente, numere naturale. Afișați în ordine descrescătoare valorile divizibile cu 10 din acest vector.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 7
+13 1 10 15 3 700 110
+Output: 700 110 10

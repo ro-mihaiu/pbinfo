@@ -1,0 +1,13 @@
+#2699
+puterileluin
+
+Cerința
+Se citesc 2 numere, n și p , afișați în ordine crescătoare toate puterile lui n care sunt mai mici sau egale cu p .
+
+Restricții
+2 ≤ n ≤ 10
+1 ≤ p ≤ 1.000.000.000.000
+
+Exemplu
+Input: 4 120
+Output: 1 4 16 64

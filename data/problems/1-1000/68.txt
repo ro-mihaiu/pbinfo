@@ -1,0 +1,12 @@
+#68
+ciframaxima
+
+Cerința
+Să se scrie un program care să determine cea mai mare cifră a unui număr natural citit de la tastatură.
+
+Restricții
+numărul citit va fi mai mic decât 2.000.000.000
+
+Exemplu
+Input: 2705
+Output: 7

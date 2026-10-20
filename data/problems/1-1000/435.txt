@@ -1,0 +1,14 @@
+#435
+FactoriPrimi
+
+Cerința
+Se dau două numere naturale nenule. Să se verifice dacă cele două numere au exact aceiași factori primi, indiferent de puterea acestora.
+
+Restricții
+cele două numere citite vor fi mai mici decât 2 30
+
+Exemplu
+Input: 72 48
+Output: DA
+Input: 72 30
+Output: NU

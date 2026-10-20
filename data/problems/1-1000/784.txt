@@ -1,0 +1,18 @@
+#784
+LinColEgale
+
+Cerința
+Se dă o matrice cu n linii şi n coloane şi elemente numere naturale. Să se determine câte elemente ale matricei se află pe linii și coloane de sumă egală. Elementul a[i,j] va fi numărat dacă suma elementelor de pe linia i este egală cu cea de pe coloana j .
+
+Restricții
+1 ≤ n ≤ 100
+elementele matricei vor fi mai mici decât 1.000
+
+Exemplu
+Input: 5
+3 1 8 5 4 
+7 8 5 1 2 
+2 2 6 7 3 
+9 8 1 3 6 
+7 5 3 1 7
+Output: 2

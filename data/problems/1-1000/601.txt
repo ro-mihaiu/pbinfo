@@ -1,0 +1,17 @@
+#601
+Dreptunghiuri
+
+Cerința
+Se consideră într-un reper cartezian n puncte cu coordonate pozitive. Prin fiecare punct se desenează o dreaptă verticală și una orizontală. Să se determine câte dreptunghiuri cu interioarele disjuncte s-au format prin intermediul acestor drepte şi al axelor de coordonate.
+
+Restricții
+1 ≤ n ≤ 1000
+coordonatele punctelor sunt numere întregi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 4
+1 0
+3 4
+4 2
+1 2
+Output: 6

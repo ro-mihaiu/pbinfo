@@ -1,0 +1,22 @@
+#1209
+TDrept
+
+Cerința
+Scrieţi un program care determină numărul de triunghiuri dreptunghice având vârfurile plasate în 3 dintre punctele date şi catetele respectiv paralele cu axele de coordonate.
+
+Restricții
+3 ≤ N ≤ 100 000
+0 ≤ x, y ≤ 100 000
+Cele N puncte din fişierul de intrare sunt distincte două câte două.
+
+Exemplu
+Input: 8
+1 1
+1 4
+10 8
+4 1
+9 1
+5 5
+7 4
+7 5
+Output: 5

@@ -1,0 +1,19 @@
+#600
+romburi
+
+Cerința
+Plictisindu-se la ora de matematică, Gigel a luat o foaie de pătrățele cu n linii și m coloane și a început să deseneze romburi, fiecare având forma din imagine și diferite dimensiuni. Este posibil ca unele romburi să fie incomplet desenate, datorită apropierii de marginea foii. În plus, unele romburi se pot suprapune. În felul acesta o parte dintre pătrățelele de pe foaie sunt colorate, altele sunt intacte. Pentru fiecare romb desenat (chiar incomplet), Gigel a notat pe altă foaie coordonatele (linie, coloană) colțului de sus și dimensiunea.
+Determinați numărul de pătrățele de pe foaie care sunt intacte, după desenarea romburilor.
+
+Restricții
+1 ≤ n,m, L ≤ 1000
+1 ≤ p ≤ 100
+
+Exemplu
+Input: 12 13 5
+4 5 4
+2 3 2
+3 8 3
+2 11 1
+8 11 5
+Output: 93

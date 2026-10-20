@@ -1,0 +1,25 @@
+#751
+mcautare
+
+Cerința
+Se dă o matrice cu n linii și m coloane și elemente numere naturale și k valori naturale. Determinați pentru fiecare dintre cele k valori dacă apare pe fiecare linie a matricei.
+
+Restricții
+1 ≤ n,m ≤ 100
+1 ≤ k ≤ 1000
+elementele matricei și cele k valori x sunt mai mici decât 1.000.000.000
+
+Exemplu
+Input: 4 5
+3 7 9 9 7 
+3 7 8 10 9 
+8 9 5 10 7 
+3 5 4 7 9 
+6
+9 4 7 8 10 7
+Output: DA
+NU
+DA
+NU
+NU
+DA

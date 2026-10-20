@@ -1,0 +1,12 @@
+#2601
+sumapatratecifre
+
+Cerința
+Scrieți un program care calculează suma pătratelor cifrelor unui număr natural de trei cifre citit de la tastatură.
+
+Restricții
+100 ≤ a ≤ 999
+
+Exemplu
+Input: 221
+Output: 9

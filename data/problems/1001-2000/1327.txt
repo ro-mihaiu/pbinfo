@@ -1,0 +1,17 @@
+#1327
+SirPIE
+
+Cerința
+Se citeşte un număr natural nenul n , apoi n numere naturale distincte. Să se afişeze, în ordine lexicografică, șirurile din cele n valori cu proprietatea că oricare două valori învecinate sunt prime între ele.
+
+Restricții
+1 ≤ n < 10
+cele n numere de pe a doua linie a fişierului de intrare sunt mai mici decât 10000
+
+Exemplu
+Input: 4
+8 6 7 9
+Output: 6 7 8 9 
+6 7 9 8 
+8 9 7 6 
+9 8 7 6

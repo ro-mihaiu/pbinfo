@@ -1,0 +1,12 @@
+#17
+suma-divizorilor-2
+
+Cerința
+Să se scrie o funcție C++ care să determine suma divizorilor unui număr natural transmis ca parametru. Funcția întoarce rezultatul prin intermediul unui parametru de ieşire.
+
+Restricții
+numele funcției va fi sum_div
+funcția va avea doi parametri, reprezentând numărul pentru care se calculează suma divizorilor, respectiv valoarea calculată
+valorile celor doi parametri vor fi numere naturale nenule mai mici decât 2000000000
+
+Exemplu

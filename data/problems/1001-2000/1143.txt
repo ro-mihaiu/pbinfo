@@ -1,0 +1,25 @@
+#1143
+Dominant
+
+Cerința
+Dat fiind un șir de valori binare, să se determine lungimea unei secvențe dominante maximale precum și numărul acestor secvențe.
+
+Restricții
+V poate fi 1 sau 2
+Lungimea șirului de valori binare este de cel mult 300 000 .
+Pentru toate testele șirul binar va conține cel puțin o valoare de 1 .
+Pentru 60% din punctaj V = 1 .
+
+Exemplu
+Input: 1
+100011011100
+Output: 11
+Input: 2
+100011011100
+Output: 1
+Input: 1
+0000110000111
+Output: 9
+Input: 2
+10000111000
+Output: 3

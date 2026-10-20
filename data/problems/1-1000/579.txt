@@ -1,0 +1,21 @@
+#579
+Drum Hamiltonian
+
+Cerința
+Se dă un graf orientat cu n noduri. Determinați, dacă există, un drum hamiltonian – drum elementar care conține toate nodurile.
+
+Restricții
+1 ≤ n ≤ 10
+1 ≤ i,j ≤ n
+orice drum hamiltonian afișat corect va fi acceptat
+
+Exemplu
+Input: 5
+1 5
+2 1
+2 5
+3 1
+4 2
+5 3
+Output: 1
+4 2 1 5 3

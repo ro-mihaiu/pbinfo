@@ -1,0 +1,13 @@
+#1942
+CicluHamiltonian
+
+Cerința
+Dându-se un număr natural N , aflaţi numărul de cicluri Hamiltoniene dintr-un graf complet cu N noduri.
+
+Restricții
+3 ≤ N ≤ 100
+două cicluri diferă dacă au cel puțin o muchie diferită
+
+Exemplu
+Input: 3
+Output: 1

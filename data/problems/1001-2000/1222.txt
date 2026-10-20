@@ -1,0 +1,34 @@
+#1222
+TV
+
+Cerința
+Scrieţi un program care, cunoscând lista din ziua anterioară, să rezolve următoarele cerinţe:
+să determine durata totală în care niciun post de televiziune nu a difuzat publicitate;
+să determine care este “secunda de aur”.
+
+Restricții
+1 ≤ N ≤ 100000
+hh va fi un număr de exact două cifre, cuprins între 00 şi 23
+mm , respectiv ss vor fi numere de exact două cifre, cuprinse între 00 şi 59
+Durata d este nenulă şi sfârşitul transmisiei publicităţii se află în cadrul zilei curente.
+Pentru teste valorând 60% din punctaj cerinţa este 1.
+
+Exemplu
+Input: 1
+6
+120 12:00:00
+200 12:01:50
+1000 13:00:00
+2000 13:01:00
+100 14:05:05
+10 23:59:49
+Output: 23:18:40
+Input: 2
+6
+1200 12:00:00
+2000 12:01:50
+1000 12:00:00
+2000 13:01:00
+100 14:05:05
+10 23:59:49
+Output: 12:01:50

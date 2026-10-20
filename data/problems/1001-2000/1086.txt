@@ -1,0 +1,20 @@
+#1086
+Submit
+
+Cerința
+Date fiind rezultatele obţinute pe teste de Vasilică la fiecare soluţie trimisă, să se determine punctajul maxim pe care el l-a obţinut la problema respectivă.
+
+Restricții
+1 ≤ N, M ≤ 100
+0 ≤ P i ≤ 100 , pentru orice 1 ≤ i ≤ N
+0 ≤ B ≤ 100
+
+Exemplu
+Input: 4
+10 5 5 20
+13
+3
+0 0 0 0
+1 1 1 1
+0 1 0 1
+Output: 51

@@ -1,0 +1,9 @@
+#4165
+FInserareKX
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+void FInserareKX(Nod * &head, int k, int x);
+care, în lista pentru care primul element are adresa memorată în pointerul head , inserează pe poziția k un nou nod cu informația x . Dacă lista are mai puțin de k noduri, inserarea se face la sfârșitul listei, iar dacă k ≤ 1 , atunci inserarea se va face la începutul listei. Lista poate fi inițial și vidă, caz în care head = NULL . De exemplu, dacă lista conține inițial informațiile 1, 2, 3, 4, 5 , k = 3 și x = 100 , atunci lista devine: 1, 2, 100, 3, 4, 5 .
+
+Exemplu

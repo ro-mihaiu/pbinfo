@@ -1,0 +1,28 @@
+#2136
+Peste
+
+Cerința
+Scrieți un program care citește N numere naturale și determină:
+Cel mai mare număr de eliminări efectuate cu aceleași două cifre alăturate.
+Cel mai mare număr natural X determinat astfel încât ursul să prindă cât mai mult pește.
+
+Restricții
+1 ≤ n ≤ 100 , fiecare dintre cele N numere au cel puțin 3 și cel mult 18 cifre;
+pentru rezolvarea corectă a cerinţei 1 se acordă 40 de puncte, iar pentru rezolvarea corectă a cerinţei 2 se acordă 60 de puncte;
+pentru cazul P=2 , vor exista și teste în valoare de 25 de puncte în care cele N numere naturale au valori mai mici decât 10 9 și alte teste în valoare de 10 puncte în care cele N numere din fișierul de intrare sunt mai mici decât 10 9 și au același număr de cifre.
+
+Exemplu
+Input: 1
+4
+1791
+802
+777
+77196
+Output: 2
+Input: 2
+4
+1791
+802
+777
+77196
+Output: 9187967

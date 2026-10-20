@@ -1,0 +1,18 @@
+#855
+piramida2
+
+Cerința
+Gigel a descoperit planul unei piramide magice. Planul este reprezentat sub forma unei matrice pătratice de dimensiune n , unde n este impar, în care elementele nule nu aparțin piramidei, iar elementele nenule reprezintă înălțimea piramidei în punctul respectiv.
+Vezi exemplul pentru detalii!
+Pentru n dat, construiți o matrice care să reprezinte planul unei piramide magice.
+
+Restricții
+3 ≤ n ≤ 101 , impar
+
+Exemplu
+Input: 5
+Output: 0 0 1 0 0
+0 1 2 1 0
+1 2 3 2 1
+0 1 2 1 0
+0 0 1 0 0

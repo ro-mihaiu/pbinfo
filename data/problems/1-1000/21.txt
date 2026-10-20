@@ -1,0 +1,12 @@
+#21
+suma-cifrelor
+
+Cerința
+Să se scrie o funcție C++ care să determine suma cifrelor unui număr natural transmis ca parametru. Funcția întoarce rezultatul prin intermediul unui parametru de ieşire.
+
+Restricții
+numele funcției va fi sum_cif
+funcția va avea doi parametri: primul parametru reprezintă numărul pentru care se calculează suma cifrelor, iar al doilea parametru reprezintă valoarea calculată
+numărul pentru care se calculează suma cifrelor va fi mai mic decât 2.000.000.000
+
+Exemplu

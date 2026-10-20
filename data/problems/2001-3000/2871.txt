@@ -1,0 +1,23 @@
+#2871
+Fulger
+
+Cerința
+Pentru a putea ajunge la concursul de mașini, Fulger Mcqueen, trebuie să termine de asfaltat drumul din Valea Radiator. La intrarea în Valea Radiator, Bucșă are pregătite N bidoane, fiecare având înscris pe el câte un număr. Dintre cele N bidoane doar câteva conțin asfalt.
+Bucșă îi spune lui Fulger:
+– Fulger, prietene, vreau să te ajut să găsești bidoanele corecte, așa că îți spun că fiecare număr de pe bidon are asociat un cod secret, codul secret al fiecărui număr se obține prin diferența dintre numărul alcătuit din atâtea cifre de 9 câte are numărul scris pe bidon și numărul de pe bidon. Bidoanele cu asfalt au cifra unităților 0 și cifra zecilor 1 .
+Scrieți un program care să determine:
+a) Codul secret asociat fiecărui număr de pe bidon; b) Numărul de bidoane care conțin asfalt.
+
+Restricții
+1 ≤ n ≤ 100
+numerele de pe a doua linie a fișierului de intrare vor fi situate în intervalul [1, 1.000.000.000]
+
+Exemplu
+Input: 5
+2138
+531649
+154289
+798
+96489
+Output: 7861 468350 845710 201 3510
+2

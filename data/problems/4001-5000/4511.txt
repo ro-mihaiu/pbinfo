@@ -1,0 +1,15 @@
+#4511
+divnoua
+
+Cerința
+Să se determine câte numere de k cifre formate doar cu cifrele c[1] , c[2] , …, c[n] sunt divizibile cu 9 . Pentru că acest număr poate fi foarte mare, rezultatul se va determina modulo 666013 .
+
+Restricții
+1 ≤ n ≤ 9
+2 ≤ k ≤ 100.000
+1 ≤ c[1], c[2], ..., c[n] ≤ 9
+
+Exemplu
+Input: 3 2
+3 6 9
+Output: 3

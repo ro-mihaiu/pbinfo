@@ -1,0 +1,15 @@
+#4351
+echipe
+
+Cerința
+Aflați câte persoane nu pot participa la joc.
+
+Restricții
+1 ≤ n ≤ 1 000 000
+10 puncte se acordă pentru exemplele din enunț
+
+Exemplu
+Input: 12
+Output: 2
+Input: 15
+Output: 0

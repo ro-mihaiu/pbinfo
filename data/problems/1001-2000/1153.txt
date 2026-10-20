@@ -1,0 +1,14 @@
+#1153
+VerifNrParCifreDivImp
+
+Cerința
+Se dă un şir cu n elemente, numere naturale. Folosind metoda Divide et Impera să se verifice dacă toate elementele şirului au număr par de cifre.
+
+Restricții
+1 ≤ n ≤ 100
+elementele şirului sunt numere naturale nenule cu cel mul 9 cifre
+
+Exemplu
+Input: 5
+2820 82 65 1026 84
+Output: DA

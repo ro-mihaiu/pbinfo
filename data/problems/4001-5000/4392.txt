@@ -1,0 +1,27 @@
+#4392
+arhitect
+
+Cerința
+Scrieți un program care pentru o mulțime de segmente determină numărul maxim de segmente care se pot alinia prin rotirea cu un același unghi a tuturor segmentelor. Unghiul de rotație poate fi orice număr real.
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ N ≤ 100.000 și 1 ≤ x1, y1, x2, y2 ≤ 1.000.000.000
+Toate segmentele au lungime nenulă.
+Pentru 40 de puncte, segmentele inițiale sunt paralele cu Ox, Oy sau cu bisectoarele axelor de coordonate.
+Pentru 60 de puncte, fără restricții suplimentare
+
+Exemplu
+Input: 3
+1 1 1 3
+4 1 1 4
+5 2 7 4
+Output: 2
+Input: 6
+1 7 9 9
+4 5 8 6
+9 3 4 2
+2 7 3 2
+9 2 8 6
+5 2 4 6
+Output: 4

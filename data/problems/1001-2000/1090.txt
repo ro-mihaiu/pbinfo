@@ -1,0 +1,30 @@
+#1090
+Secvente2
+
+Cerința
+Scrieţi un program care să citească mai multe seturi de date, fiecare set fiind format din numerele n , p , k , cu semnificaţiile din enunţ, şi şirul cu n elemente a 1 , a 2 , a 3 , … a n , numerele Mariei. Programul va determina pentru fiecare set de date numărul secvenţelor ce conţin exact k numere p -prime, precum şi poziţiile de început şi de final ale acestor secvenţe în şirul din set.
+
+Restricții
+1 ≤ D ≤ 15 ;
+1 ≤ k ≤ n ≤ 15000 ;
+2 ≤ p ≤ 30000 ; p este un număr natural prim
+1 ≤ a 1 , a 2 , a 3 , … a n ≤ 30000 ; a 1 , a 2 , a 3 , … a n sunt numere naturale nenule (poziţiile din şir sunt numerotate de la 1 )
+numărul 1 nu este p-prim.
+o secvenţă dintr-un şir este formată din elemente aflate pe poziţii consecutive în şirul dat.
+
+Exemplu
+Input: 2
+5 3 2
+7
+27 
+4 
+45 
+1
+3 5 7
+3
+4
+5
+Output: 2
+1 2
+2 4
+0

@@ -1,0 +1,14 @@
+#4509
+Eratostene11
+
+Cerința
+Se dă un șir A format din N elemente, numere naturale nenule distincte. Să se determine numărul perechilor (i,j) , cu i<j , pentru care numărul \( A_{i}+A_{j}\) este divizibil cu \( A_{i}-A_{j}\).
+
+Restricții
+1 ≤ N ≤ 200.000
+cele N numere citite vor fi naturale nenule distincte, cel mult egale cu 200.000
+
+Exemplu
+Input: 5
+1 2 3 4 5
+Output: 7

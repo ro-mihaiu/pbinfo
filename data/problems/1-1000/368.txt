@@ -1,0 +1,13 @@
+#368
+NrPal
+
+Cerința
+Se dau două numere naturale a și b . Determinati numărul de palindromuri cuprinse în intervalul determinat de cele două numere.
+
+Restricții
+1 ≤ a,b ≤ 1.000.000
+nu este obligatoriu ca valorile citite să respecte condiția a ≤ b .
+
+Exemplu
+Input: 130 85
+Output: 5

@@ -1,0 +1,14 @@
+#3551
+inaltimetriunghi
+
+Cerința
+După ce s-a terminat școala, Gigel s-a apucat de rezolvat probleme de informatică și a găsit următoarea:
+Fie un triunghi dreptunghic. Știindu-se lungimile laturilor triunghiului, să se determine lungimea înălţimii dusă din unghiul drept pe ipotenuză.
+
+Restricții
+1 ≤ c1, c2, i ≤ 1000
+c1, c2, i sunt numere naturale
+
+Exemplu
+Input: 3 4 5
+Output: 2.40

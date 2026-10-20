@@ -1,0 +1,18 @@
+#2552
+Poz
+
+Cerința
+Să se scrie definiția funcției C++ poz care, primind 8 argumente, x1, y1, l1, i1, x2, y2, l2, i2 , în această ordine:
+x1 , y1 , l1 , i1 – reprezentând primul dreptunghi,
+x2 , y2 , l2 , i2 – reprezentând cel de-al doilea dreptunghi,
+returnează:
+0 , dacă primul dreptunghi este în interiorul celuilalt sau invers
+1 , dacă cele două dreptunghiuri sunt identice
+2 , dacă cele două dreptunghiuri nu au nici un punct comun
+3 , dacă cele două dreptunghiuri se suprapun doar parțial
+
+Restricții
+specificațiile unui dreptunghi sunt numere naturale cu cel mult 4 cifre fiecare
+soluția va conține funcția cerută. Prezența în soluție a altor instrucțiuni poate duce la erori de compilare și depunctarea soluției
+
+Exemplu

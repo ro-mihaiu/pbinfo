@@ -1,0 +1,21 @@
+#591
+Firma
+
+Cerința
+Într-o țară sunt n orașe, numerotate de la 1 la n , unite între ele prin m șosele bidirecționale de lungimi cunoscute, între oricare două orașe existând drum, fie șosea directă, fie prin alte orașe. O firmă dorește să-și stabilească sediul în unul dintre orașe, astfel încât suma lungimilor drumurilor minime de la orașul în care se află sediul la toate celelaltele orașe să fie minimă. Determinați orașul care va fi ales pentru sediul firmei. Dacă sunt mai multe orașe care pot fi alese, se va alege cel cu numărul de ordine mai mic.
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 6 9
+1 3 5
+1 4 5
+1 5 4
+2 3 5
+2 4 1
+2 5 2
+3 6 2
+4 6 4
+5 6 4
+Output: 2

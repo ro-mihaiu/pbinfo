@@ -1,0 +1,33 @@
+#1655
+Platou
+
+Cerința
+Fiind dat un şir de numere, denumim secvenţă a acestuia o parte dintre termenii şirului luaţi de pe poziţii consecutive. Denumim platou al acestui şir o secvenţă formată din valori identice. Lungimea unui platou este egală cu numărul de elemente care îl formează.
+De exemplu, în şirul de numere 1 1 1 7 7 3 4 4 4 7 7 avem:
+platourile 1 1 1 şi 4 4 4 ambele având lungimea 3 ;
+platourile 7 7 (cel care începe în poziţia a patra) şi 7 7 (cel care începe pe poziţia a zecea), ambele având lungimea 2 ;
+platoul 3 care are lungimea 1 .
+În schimb nu avem platoul 7 7 7 7 deoarece cele patru elemente egale cu 7 nu sunt pe poziţii consecutive!
+Se dă un şir de n numere. Fiecare dintre aceste numere aparţine intervalului [0,1000000] . Asupra acestui şir se pot efectua o singură dată următoarele două operaţiuni în această ordine:
+se extrage un platou la alegere;
+se inserează platoul extras la pasul anterior într-o poziţie la alegere din şirul rezultat după extragere.
+De exemplu, dacă avem următorul şir inițial: 2 2 5 0 5 8 8 8 4 9 9 9 0 0 2 2 8 extragem platoul 2 2 format din elementele aflate în penultima şi antepenultima poziţie şi obţinem şirul: 2 2 5 0 5 8 8 8 4 9 9 9 0 0 8
+În şirul rezultat inserăm platoul 2 2 (pe care l-am extras în pasul anterior) în poziţia a doua şi obţinem şirul: 2 2 2 2 5 0 5 8 8 8 4 9 9 9 0 0 8
+Să se scrie un program care pentru un şir dat determină:
+Lungimea maximă a unui platou din şirul dat iniţial precum şi valoarea cea mai mare a elementelor care formează un platou de lungime maximă.
+Lungimea maximă a unui platou care poate să apară în şir în urma efectuării celor două operaţiuni precum şi valoarea cea mai mare a elementelor care ar putea forma un astfel de platou.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+numerele aparțin intervalului [0,1.000.000] .
+Pentru rezolvarea corectă a primei cerinţe se obţin 20 de puncte, iar pentru rezolvarea corectă a celei de a doua cerinţe se obţin 80 puncte.
+
+Exemplu
+Input: 1
+16 
+2 2 5 0 5 8 8 8 4 9 9 9 0 8 2 2
+Output: 3 9
+Input: 2
+16 
+2 2 5 0 5 8 8 8 4 9 9 9 0 8 2 2
+Output: 4 8

@@ -1,0 +1,14 @@
+#3024
+ou
+
+Cerința
+Pe strada lui Dorel casele sunt aşezate doar de o parte a străzii. Cu ocazia sărbătorilor de Paşti, fiecare proprietar împarte ouă roşii vecinilor cei mai apropiaţi de casa lui. Se ştie că pe strada lui Dorel sunt n case, fiecare proprietar i are O[i] ouă, fiecare proprietar împarte ouă la un număr egal de case situate în stânga şi în dreapta lui, de asemenea fiecare vrea să împartă ouă la un număr maxim de case, un număr egal de ouă, cât mai mare, la fiecare casă. Dacă obiceiul de împărţire a ouălor are loc simultan, aflaţi câte ouă va avea fiecare la sfârşitul zilei.
+
+Restricții
+3 ≤ n ≤ 100.000
+numerele de pe a doua linie a fișierului de intrare vor fi naturale nenule, mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+13 2 7 44 5
+Output: 15 1 26 1 28

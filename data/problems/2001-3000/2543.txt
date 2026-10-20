@@ -1,0 +1,21 @@
+#2543
+pattern2
+
+Cerința
+Se dă un număr natural n . Se construiește o matrice pătratică de dimensiune 2 n -1 , după următoarele reguli:
+elementul din mijlocul matricii este egal cu n
+elementele de pe linia mediană și cele de pe coloana mediană (exceptând elementul din mijlocul matricii) sunt nule
+folosind linia mediană și coloana mediană, se împarte matricea în alte 4 matrici care se generează similar, dar au dimensiunea 2 n-1 -1 . Calculați și afișați suma elementelor din matricea construită conform regulilor de mai sus.
+
+Restricții
+1 ≤ n ≤ 15
+
+Exemplu
+Input: 3
+Output: 1 0 1 0 1 0 1 
+0 2 0 0 0 2 0 
+1 0 1 0 1 0 1 
+0 0 0 3 0 0 0 
+1 0 1 0 1 0 1 
+0 2 0 0 0 2 0 
+1 0 1 0 1 0 1

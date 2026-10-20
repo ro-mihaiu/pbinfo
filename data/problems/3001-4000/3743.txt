@@ -1,0 +1,16 @@
+#3743
+FAdaugareInceputLLDI
+
+Cerința
+void AdaugareInceput(nod * & prim , nod * & ultim, int x);
+x
+prim
+ultim
+
+Restricții
+numele funcției va fi AdaugareInceput
+dacă lista nu conține niciun element, pointerii prim si ultim vor avea valoarea NULL
+în toate cazurile, la ieșirea din apel prim va memora adresa primului element al listei, iar ultim va memora adresa ultimului element al listei
+structura care definește tipul nod a fost modificată. Solutiile mai vechi nu se mai compilează.
+
+Exemplu

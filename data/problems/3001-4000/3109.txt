@@ -1,0 +1,25 @@
+#3109
+tunel
+
+Cerința
+1) numărul de staubanduri formate până la părăsirea tunelului de către toate autovehiculele în cazul activării protocolului; 2) numărul maxim de autovehicule aflate într-un grup (stauband).
+
+Restricții
+2 < N ≤ 50000 ;
+1 < L ≤ 50000 ;
+0 < x < L , x – număr natural;
+0 < v < 100 , v – număr natural;
+Un stauband conține cel puțin un autovehicul;
+Poziția (locația) este exprimată în metri iar viteza de deplasare în metri/secundă;
+Locațiile inițiale ale vehiculelor în tunel sunt distincte două câte două;
+Se consideră că un stauband a ieșit din tunel atunci când coordonata x a acestuia este mai mare decât L ;
+
+Exemplu
+Input: 5 13
+10 2
+8 4
+1 3
+4 1
+2 2
+Output: 2
+3

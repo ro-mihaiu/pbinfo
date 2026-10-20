@@ -1,0 +1,22 @@
+#1748
+Cursă
+
+Cerința
+Costică este alergător la un maraton. El parcurge un traseu sub forma unei matrice cu n linii şi m coloane linie cu linie şi pe fiecare linie, de la stânga la dreapta. Matricea conţine numere naturale.
+Dacă Costică întâlneşte un număr prim, el este penalizat, fiind trimis pe linia şi coloana anterioară, iar dacă acesta întâlneşte un număr perfect, poate avansa pe linia şi coloana următoare. Dacă mişcarea pe linie şi pe coloană depăşeşte limitele matricei, atunci se va efectua numai mişcarea care nu trece de aceste limite sau nu se va efectua nici o mişcare.
+Afişaţi timpul t în care parcurge Costică traseul, ştiind că deplasarea dintr-un element al matricei în oricare altul durează o secundă, iar fiecare penalizare sau avansare durează o secundă.
+Un număr este perfect dacă suma cifrelor lui este un număr prim.
+Dacă un număr este şi prim şi perfect, atunci el va fi considerat prim.
+După penalizare sau avansare, numerele prime sau perfecte îşi pierd proprietățile.
+
+Restricții
+1 ≤ n,m ≤ 500
+cele n numere citite vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 4 5
+6 9 3 2 1
+8 3 12 4 0
+1 1 34 8 7
+5 3 5 9 8
+Output: 28

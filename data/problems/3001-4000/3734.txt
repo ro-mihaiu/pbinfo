@@ -1,0 +1,18 @@
+#3734
+formula1
+
+Cerința
+Scrieți un program care citește două numere naturale K și N și determină: 1. Câte pătrățele albe și negre sunt în total pe stegulețul mașinii cu numărul K ; 2. Notând cu A numărul total de pătrățele albe de pe stegulețele primelor N mașini din concurs, câte pătrățele albe și negre sunt în total pe cel mai mare steguleț care conține cel mult A pătrățele albe.
+
+Restricții
+1 ≤ K ≤ 100.000
+1 ≤ N ≤ 500.000
+Pentru rezolvarea corectă a primei cerințe se obțin 20 de puncte, iar pentru rezolvarea corectă a celei de a doua cerințe se obțin 80 de puncte.
+
+Exemplu
+Input: 1
+3 4
+Output: 25
+Input: 2
+3 4
+Output: 81

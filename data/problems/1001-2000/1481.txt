@@ -1,0 +1,12 @@
+#1481
+gradina-piticului
+
+Cerința
+Să se realizeze un program care să afişeze ordinea de așezare a florilor pe cele m rânduri.
+
+Restricții
+1 ≤ m ≤ 1000
+
+Exemplu
+Input: 6
+Output: 0 2 3 2 5 5

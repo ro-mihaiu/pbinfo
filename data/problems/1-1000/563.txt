@@ -1,0 +1,18 @@
+#563
+Fast-food1
+
+Cerința
+Fast-food-ul de la colțul străzii are n clienți. Pentru fiecare client se cunoaște momentul în care intră în fast-food și momentul în care iese, ambele fiind exprimate în minute, numărate de la începutul perioadei de funcționare. Gigel, patronul acestui fast-food, dorește să afle care este numărul maxim de clienți aflați simultan în restaurant.
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ x < y ≤ 10.000
+
+Exemplu
+Input: 5
+5 7 
+10 11
+10 13 
+6 8  
+7 9
+Output: 3

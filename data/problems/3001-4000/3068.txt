@@ -1,0 +1,15 @@
+#3068
+roata1
+
+Cerința
+Cunoscându-se numărul N de elevi, precum și numerele de pe tricouri, în ordinea în care elevii se află inițial în roată, să se determine N numere reprezentând pozițiile cu care roata se mișcă circular pentru a coborî fiecare elev, astfel încât elevii să coboare din roată în ordinea crescătoare a numerelor de pe tricou. Cele N numere de poziții trebuie să fie în ordine strict crescătoare, iar numărul total de poziții trebuie să fie minim.
+
+Restricții
+2 ≤ N ≤ 50.000
+pentru 50% din punctaj, 2 ≤ N ≤ 1000
+dacă inițial elevul cu tricoul inscripționat cu 1 se află în scaunul cel mai de jos al roții, el va coborî după ce roata se va mișca N poziții și va ajunge din nou pe scaunul cel mai de jos.
+
+Exemplu
+Input: 6
+6 1 3 4 5 2
+Output: 5 8 9 11 17 22

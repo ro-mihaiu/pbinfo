@@ -1,0 +1,14 @@
+#4262
+FiboRec
+
+Cerința
+Scrieți funcția recursivă cu antetul
+int FiboRec(int x, int y)
+care primind ca parametri două numere întregi x și y , returnează 1 dacă x și y și sunt doi termeni consecutivi ai șirului Fibonacci, sau returnează 0 în caz contrar.
+
+Restricții
+Primii zece termeni ai șirului Fibonacci sunt: 1,1,2,3,5,8,13,21,34,55 .
+Dacă x și y sunt termeni consecutivi ai șirului Fibonacci, atunci trebuie ca x ≤ y .
+Se recomandă utilizarea recursivității în rezolvarea problemei.
+
+Exemplu

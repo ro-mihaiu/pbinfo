@@ -1,0 +1,19 @@
+#3702
+npath
+
+Cerința
+Să se determine numărul total de căi distincte. De exemplu, dacă N = 3 și dintre toate liniile desenate se șterg K = 4 linii (liniile subțiri), atunci conform figurilor de mai jos, numărul total de căi distincte va fi 6 .
+
+Restricții
+1 ≤ N ≤ 5000
+0 ≤ K ≤ 100
+două căi sunt distincte dacă succesiunea de linii orizontale și verticale diferă prin cel puțin o poziție
+pentru teste în valoare de 52 puncte 0 ≤ K ≤ 15
+
+Exemplu
+Input: 3 4
+1 0 2
+2 1 2
+2 2 1
+1 2 2
+Output: 6

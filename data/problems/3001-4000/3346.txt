@@ -1,0 +1,35 @@
+#3346
+pestelee
+
+Cerința
+Ştiind că peştele porneşte din coordonatele x1 , y1 , să se determine: 1) Lungimea celui mai rapid drum până în zona preferată de peşte. 2) Numărul de modalităţi eficiente de a ajunge la coordonatele x2 , y2 modulo 10007 .
+
+Restricții
+1 ≤ x1, x2 ≤ m ≤ 500
+1 ≤ y1, y2 ≤ n ≤ 500
+1 ≤ c ≤ 2
+Peştele va putea merge doar în 4 direcţii (Nord, Est, Sud, Vest). De asemenea, acesta nu poate părăsi arhipelagul sau să se deplaseze pe uscat.
+Zona de început, respectiv cea de sfârşit vor fi acoperite de apă.
+Dacă peştele nu va putea ajunge în zona preferată, se va afişa 0 .
+Pentru 67 de puncte, c=2 .
+Pentru 10 puncte sunt exemplele.
+
+Exemplu
+Input: 5 5
+1 0 0 0 1
+1 0 1 0 1
+1 1 0 0 1
+1 1 0 0 1
+1 1 1 1 1
+2 2 3 3
+1
+Output: 7
+Input: 5 5
+1 0 0 0 1
+1 0 1 0 1
+1 1 0 0 1
+1 1 0 0 1
+1 1 1 1 1
+2 2 4 3
+2
+Output: 2

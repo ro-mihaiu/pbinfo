@@ -1,0 +1,14 @@
+#3236
+parimpar2
+
+Cerința
+Se dau două numere naturale i p și o listă cu numere naturale. Să se determine al p -lea element par din listă și al i -lea element impar din listă.
+
+Restricții
+1 ≤ i,p ≤ 100.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 2 2
+63 83 60 34 92
+Output: 34 83

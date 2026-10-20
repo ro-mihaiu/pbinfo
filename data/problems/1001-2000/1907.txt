@@ -1,0 +1,13 @@
+#1907
+NumarMinim
+
+Cerința
+Georgiana, pregătindu-se de olimpiada locală de matematică, a primit de la doamna profesoară următoarea problemă: Dându-se numerele n şi k , să se afle cel mai mic număr de n cifre, cu restul împărţirii la 9 egal cu k . Dacă o ajutaţi, ea va primi nota 10 iar voi veţi primi 100 de puncte.
+
+Restricții
+0 ≤ k ≤ 8
+1 ≤ n ≤ 1.000.000
+
+Exemplu
+Input: 2 1
+Output: 10

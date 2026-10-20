@@ -1,0 +1,14 @@
+#1595
+Bomboane1
+
+Cerința
+Lui Cristian, ca oricărui alt copil, îi plac bomboanele. A primit cadou de la prietenii lui cutii cu bomboane. Fiind multe cutii le-a numerotat: 1 , 2 , 3 , … Desfăcând câteva, a văzut că există o legătură între numărul de pe etichetă și numărul de bomboane din cutie. Astfel în fiecare cutie sunt atâtea bomboane câți divizori pari are numărul de pe cutie. De exemplu cutia cu numărul 10 conține 2 bomboane, cutia cu numărul 8 conține 3 bomboane ș.a.m.d.
+Cristian a ales la întâmplare două etichete x și y dorind să desfacă toate cutiile cu etichete cuprinse între x și y . Ajutați-l să determine prima cutie, etichetată cu a , și utima cutie, etichetată cu b , cu număr maxim de bomboane ( x≤a≤b≤y ), câte cutii n sunt cu acest număr de bomboane și care este acest număr d de bomboane.
+
+Restricții
+1 ≤ x ≤ a ≤ b ≤ y ≤ 1.000.000.000
+y - x ≤ 1000
+
+Exemplu
+Input: 10 20
+Output: 12 20 3 4

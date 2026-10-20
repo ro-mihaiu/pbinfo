@@ -1,0 +1,20 @@
+#915
+ElimPalindrom
+
+Cerința
+Se dă un tablou cu n elemente, numere naturale. Să se elimine din tablou toate elementele care sunt palindrom.
+Se vor defini și apela următoarele subprograme:
+citire , care citește de la tastatură valoarea lui n și cele n elemente ale tabloului
+afisare , care afișează pe ecran elementele tabloului, separate prin exact un spațiu
+palindrom , care verifică dacă un număr dat ca parametru este palindrom
+eliminare , care elimină din tablou un element a cărui poziție este dată ca parametru.
+În programele C/C++ nu se vor folosi variabile globale .
+
+Restricții
+1 ≤ n ≤ 1000
+elementele tabloului vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 7
+17 181 22 56 4 20 420
+Output: 17 56 20 420

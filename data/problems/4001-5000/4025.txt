@@ -1,0 +1,14 @@
+#4025
+douamii22
+
+Cerința
+Se dau K numere naturale nenule, mai mici sau egale cu 20222022 . Pentru fiecare număr n dintre acestea, se cere aflarea celui de-al n -lea număr natural prim cu 2022 .
+
+Restricții
+1 ≤ K ≤ 2022
+cele K numere citite vor fi mai mici sau egale cu 20222022
+
+Exemplu
+Input: 3
+4 23 198
+Output: 11 67 595

@@ -1,0 +1,20 @@
+#1393
+desenromb
+
+Cerința
+Se citește un număr natural n cu o cifră. Afișați pe ecran o figură sub forma de romb formata cu numerele naturale de la 1 la n , ca în exemplu.
+
+Restricții
+1≤n≤9
+
+Exemplu
+Input: 5
+Output: 1
+   222
+  33333
+ 4444444
+555555555
+ 4444444
+  33333
+   222
+    1

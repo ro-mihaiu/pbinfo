@@ -1,0 +1,26 @@
+#3720
+Aproape
+
+Cerința
+Cunoscând numărul N , să se scrie un program care determină:
+Numărul de cifre ale acestui număr.
+Numărul de numere aproape de N .
+Numărul de numere aproape de cel puțin un număr aproape de N .
+
+Restricții
+0 ≤ N < 1.000.000.000
+Pentru teste în valoare de 20 de puncte avem V = 1 .
+Pentru teste în valoare de 30 de puncte avem V = 2 .
+Pentru teste în valoare de 50 de puncte avem V = 3 .
+Aveți grijă să nu numărați vreun număr de mai multe ori!
+
+Exemplu
+Input: 1
+1903
+Output: 4
+Input: 2
+1903
+Output: 5
+Input: 3
+1903
+Output: 15

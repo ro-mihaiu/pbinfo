@@ -1,0 +1,21 @@
+#457
+patrat
+
+Cerința
+Se citește numărul natural n , şi două caractere c şi d . Să se afișeze următorul pătrat, format din n linii şi n coloane:
+ccc...cc
+cdd...dc
+....
+cdd...dc
+ccc...cc
+
+Restricții
+3 ≤ n ≤ 20
+c şi d sunt caractere cu codul ASCII cuprins între 33 şi 126 , inclusiv.
+
+Exemplu
+Input: 4 * #
+Output: ****
+*##*
+*##*
+****

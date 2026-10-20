@@ -1,0 +1,19 @@
+#1291
+cifregen4
+
+Cerința
+Se dau două numere n m . Să se genereze toate numerele cu exact n cifre mai mici decât m cu proprietatea că diferența în valoare absolută dintre oricare două cifre consecutive este cel puțin 2 .
+
+Restricții
+1 ≤ n ≤ 7
+0 < m < 6
+
+Exemplu
+Input: 3 4
+Output: 130
+131
+202
+203
+302
+303
+313

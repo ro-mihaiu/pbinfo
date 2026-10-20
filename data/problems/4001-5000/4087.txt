@@ -1,0 +1,23 @@
+#4087
+vecine
+
+Cerința
+Cunoscându-se șirul de cifre inițial, să se obțină următoarele rezultate:
+Presupunând că nu se face nici o lipire de cifre, fiecare cifră devenind un număr în șir, adică a i = c 1 , să se determine câte perechi de numere vecine consecutive există în șir;
+Să se determine o modalitate de lipire a cifrelor astfel încât să se obțină cele mai mari două numere vecine consecutive și să se afișeze primul dintre aceste numere.
+
+Restricții
+Pentru cerința 2 se garantează că numerele ce se pot obține nu vor depăși valoarea 2.000.000.000
+Tot pentru cerința 2 se garantează existența a cel puțin o pereche de numere vecine consecutive
+Cifra 0 poate forma singură doar numărul 0 .
+Două numere vecine sunt consecutive dacă primul este cu 1 mai mic decât al doilea.
+Pentru 20 de puncte p = 1 și 3 ≤ n ≤ 100.000
+Pentru 80 de puncte p = 2 și 3 ≤ n ≤ 100.000
+
+Exemplu
+Input: 1 18
+3 2 1 2 1 0 6 3 0 5 6 3 0 6 9 2 9 3
+Output: 2
+Input: 2 18
+3 2 1 2 1 0 6 3 0 5 6 3 0 6 9 2 9 3
+Output: 6305

@@ -1,0 +1,12 @@
+#2118
+minim lexicografic
+
+Cerința
+Să se determine poziția minimă k cu care poate fi rotit circular spre stânga șirul inițial astfel încât șirul obținut să fie minim lexicografic.
+
+Restricții
+2 ≤ N ≤ 100.000
+
+Exemplu
+Input: ALFABET
+Output: 3

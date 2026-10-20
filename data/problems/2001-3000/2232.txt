@@ -1,0 +1,27 @@
+#2232
+retea1
+
+Cerința
+Scrieţi un program care, pentru o reţea cu n calculatoare numerotate de la 1 la n şi conexiuni precizate, determină submulţimea cu număr maxim de calculatoare-feed-back.
+
+Restricții
+1 ≤ n ≤ 300
+un calculator poate să aibă o conexiune cu el însuşi
+un calculator poate avea o conexiune doar cu singur calculator
+
+Exemplu
+Input: 5
+0 0 0 1 0 
+1 0 0 0 0 
+1 0 0 0 0 
+0 1 0 0 0 
+0 0 0 0 1
+Output: {1,2,4,5}
+Input: 6
+0 0 0 0 1 0 
+0 0 0 1 0 0 
+0 0 0 0 0 1 
+0 0 0 0 1 0 
+0 0 0 1 0 0 
+0 0 0 1 0 0
+Output: {4,5}

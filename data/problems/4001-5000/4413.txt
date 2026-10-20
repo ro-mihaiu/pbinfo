@@ -1,0 +1,25 @@
+#4413
+parcare2
+
+Cerința
+La final, Paul este interesat de mașinile care mai sunt rămase în parcare la închiderea parcării, de aceea vă cere să afișați configurația parcării la timpul T .
+
+Restricții
+1 ≤ N, M, T ≤ 200.000
+1 ≤ s[i] ≤ T
+1 ≤ s[i] < p[i] ≤ 200.000
+Considerând următoarele 2M valori: s[1], s[2], ..., s[M], p[1], p[2], ..., p[M] , acestea sunt distincte două câte două.
+Dacă există mai multe soluții, se poate afișa oricare dintre acestea.
+Datorită dimensiunilor mari, nu au putut fi adăugate toate testele.
+
+Exemplu
+Input: 2 4 6
+1 3
+2 10
+4 6
+5 8
+Output: 2
+1
+2
+-1
+2 -1

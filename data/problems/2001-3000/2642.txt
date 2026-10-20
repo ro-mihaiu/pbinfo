@@ -1,0 +1,14 @@
+#2642
+phi
+
+Cerința
+Să se scrie funcția cu următorul antet:
+int Phi(int n)
+Funcția primește ca parametru un număr natural n și trebuie să returneze numărul de numere naturale nenule prime cu n și strict mai mici decât n .
+
+Restricții
+2 ≤ n ≤ 2.000.000.000
+Numele funcției este Phi .
+Spunem că un număr natural x este prim cu n dacă cmmdc(x, n) = 1 .
+
+Exemplu

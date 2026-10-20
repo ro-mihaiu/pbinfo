@@ -1,0 +1,14 @@
+#1030
+sumeproduse
+
+Cerința
+Se dau n numere naturale, unde n este număr natural par. Să se calculeze suma produselor dintre fiecare număr din prima jumătate și fiecare număr din a doua jumătate a șirului de numere date.
+
+Restricții
+1 ≤ n ≤ 100.000
+cele n numere citite vor fi mai mici sau egale cu 10.000
+
+Exemplu
+Input: 4
+2 3 4 5
+Output: 45

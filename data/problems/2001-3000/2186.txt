@@ -1,0 +1,17 @@
+#2186
+barci
+
+Cerința
+Care este numărul minim de bărci necesare pentru a putea plimba toţi elevii în condiţii de siguranţă?
+
+Restricții
+1 ≤ N ≤ 100 000
+1 ≤ w[i] ≤ C ≤ 1 000 000 000 , pentru 1 ≤ i ≤ N
+0 ≤ B ≤ 1 000 000 000
+Pentru teste în valoare de 30 de puncte, N ≤ 10
+Pentru teste în valoare de 60 de puncte, N ≤ 1000
+
+Exemplu
+Input: 8 100 10
+81 37 32 88 55 93 45 72
+Output: 6

@@ -1,0 +1,16 @@
+#2014
+canguri
+
+Cerința
+a) Numărul de concurs al cangurului care ajunge primul la linia de sosire; b) Numărul săriturilor efectuate de cangurul care a trecut primul linia de sosire.
+
+Restricții
+Numerele scrise pe etichetele de concurs sunt numere naturale cu maximum trei cifre
+pentru determinarea corectă a numărului de concurs se acordă 60% din punctaj; pentru determinarea corectă a numărului de sărituri se acordă 40% din punctaj
+
+Exemplu
+Input: 769 2
+354 6
+129 4
+Output: 354
+134

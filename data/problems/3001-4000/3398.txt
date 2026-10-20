@@ -1,0 +1,23 @@
+#3398
+kps
+
+Cerința
+Rezolvați următoarele cerințe:
+1) Se dă un cuvânt. Determinați k asfel încât cuvântul să fie k -ps. 2) Se dă un șir de caractere în care cuvintele sunt alcătuite din litere mici ale alfabetului englez și sunt separate prin spații. Să se afișeze în ordine cuvintele 0 -ps, 1 -ps, 2 -ps, 3 -ps, etc, până la cel mai mare k pentru care există în șir cel puțin un cuvânt k -ps. Pentru fiecare categorie, cuvintele vor fi afișate în ordine alfabetică.
+
+Restricții
+pentru C=1 , cuvântul dat va avea cel mult 1000 de litere;
+pentru C=2 , șirul dat va avea cel mult 10000 de caractere, fiecare cuvânt având cel mult 100 de litere;
+pentru 50 de puncte, C=1 .
+
+Exemplu
+Input: 1
+amalgam
+Output: 2
+Input: 2
+asdfqwasdf zar amalgam  zarzar  barbar ghjtttyuttghj asaswasas kps
+Output: 2 kps zar
+0
+1 amalgam
+3 barbar ghjtttyuttghj zarzar
+2 asaswasas asdfqwasdf

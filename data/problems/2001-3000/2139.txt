@@ -1,0 +1,13 @@
+#2139
+codul
+
+Cerința
+Date fiind codurile caracteristice ale două organisme vii diferite, scrieți un program care să determine codul caracteristic al celui mai evoluat strămoș comun al lor.
+
+Restricții
+lungimile celor două șiruri sunt numere naturale mai mici sau egale cu 200
+
+Exemplu
+Input: 7145
+847835
+Output: 75

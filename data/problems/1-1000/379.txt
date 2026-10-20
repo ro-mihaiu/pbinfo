@@ -1,0 +1,14 @@
+#379
+aprim
+
+Cerința
+Se citește un număr natural. Să se verifice dacă este aproape prim.
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 35
+Output: DA
+Input: 50
+Output: NU

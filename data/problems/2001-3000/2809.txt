@@ -1,0 +1,12 @@
+#2809
+Crescator1
+
+Cerința
+Scrieți un program care citește un șir de cel mult 10 6 numere naturale din intervalul [0,10 9 ] ordonate crescător și determină cel mai mic număr din șir care apare de un număr impar de ori. Dacă în șir nu se află o astfel de valoare, se afișează mesajul nu exista .
+
+Restricții
+Proiectați un algoritm eficient din punctul de vedere al spațiului de memorie utilizat şi al timpului de executare: se recomandă o soluție care să nu memoreze elementele șirului într-un tablou sau altă structură de date similară.
+
+Exemplu
+Input: 5 5 8 8 8 8 20 20 20 34 54 54 65 65 65
+Output: 20

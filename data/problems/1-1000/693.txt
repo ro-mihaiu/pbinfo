@@ -1,0 +1,27 @@
+#693
+Sahara
+
+Cerința
+Să se determine aria maximă a unei suprafețe conexe fertile. Prin aria unei suprafețe înțelegem numărul de pătrate ce compun suprafața. Orice două pătrate fertile care au o latură comună fac parte din aceeaşi suprafaţă conexă fertilă.
+
+Restricții
+2 ≤ N, M ≤ 1000
+1 ≤ x1 ≤ x2 ≤ N, 1 ≤ y1 ≤ y2 ≤ M
+1 ≤ q ≤ 1 000
+1 ≤ Q ≤ 10 000
+1 ≤ T ≤ 50 000
+Inițial zona deșertică nu conține ”apă”;
+Pot exista suprafeţe conexe fertile formate dintr-un singur pătrat fertil;
+Parcelele se pot suprapune.
+
+Exemplu
+Input: 8 7 5
+7
+1 1 3 6 1
+4 2 5 7 2
+2 3 4 7 3
+1 2 4 3 3
+5 1 6 3 4
+5 5 7 6 2
+6 4 8 7 3
+Output: 10

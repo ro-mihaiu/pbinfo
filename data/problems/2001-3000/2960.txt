@@ -1,0 +1,31 @@
+#2960
+abx
+
+Cerința
+Pentru fiecare din cele N numere \(x_i\) determinați câte un număr natural \(r_i\) din intervalul [1,M] , cu proprietatea că \(r_i\) este o putere și pentru orice altă putere p din intervalul [1,M] este îndeplinită condiția \(|x_i – r_i| ≤ |x_i – p|\), unde |x| reprezintă valoarea absolută a lui x (modulul). Dacă există două puteri egal depărtate de \(x_i\) se va alege puterea cea mai mică. De exemplu pentru numărul 26 , dintre puterile 25 și 27 va fi ales numărul 25 .
+
+Restricții
+\(1 ≤ N ≤ 5000\)
+\(10 ≤ M ≤ 10^{18}\)
+Pentru teste valorând 40 de puncte \(M ≤ 5000\)
+Pentru teste valorând 70 de puncte \(M ≤ 10^9\)
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă pentru testul din exemplu.
+
+Exemplu
+Input: 8 1000
+345
+99
+999
+500
+123
+124
+99
+256
+Output: 343
+100
+1000
+512
+121
+125
+100
+256

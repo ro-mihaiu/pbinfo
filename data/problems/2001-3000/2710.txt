@@ -1,0 +1,15 @@
+#2710
+cuv
+
+Cerința
+Să se determine cuvântul C minim lexicografic ce se poate forma utilizând litere distincte extrase din cuvintele inițiale.
+
+Restricții
+1 ≤ n ≤ 9
+Cele n cuvinte au cel puțin o literă și cel mult 6 litere
+Este garantat că C se poate forma din cuvintele inițiale
+
+Exemplu
+Input: 3
+gem de caise
+Output: eda

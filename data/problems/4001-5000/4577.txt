@@ -1,0 +1,18 @@
+#4577
+MosCraciun_XI
+
+Cerința
+Moș Crăciun pregătește deja cadourile pentru acest an. El trebuie să cumpere n cadouri identice pentru a le duce celor n copii cuminți. Pentru aceasta, a studiat ofertele a m magazine (posibil online) și pentru fiecare magazin a aflat numărul de cadouri disponibile în acel magazin.
+Cum banii nu sunt o problemă pentru Moș Crăciun, dar vrea ca această activitate să îi ia cât mai puțin timp, Moș Crăciun vrea să afle care este numărul minim de magazine din care poate să cumpere cele n cadouri necesare.
+Ajutați-l pe Moș Crăciun și poate vă veți afla pe lista lui!
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ m ≤ 100
+numărul de cadouri din fiecare magazin este ≤ 100
+Dacă nu se pot cumpăra cele n cadouri afișați mesajul imposibil .
+
+Exemplu
+Input: 6 4
+2 1 5 3
+Output: 2

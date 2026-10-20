@@ -1,0 +1,12 @@
+#2666
+Trim
+
+Cerința
+Scrieți funcția Trim care primește ca parametru un șir de caractere s , elimină eventualele spații de la începutul și sfârșitul șirului și returnează tot prin intermediul lui s șirul de caractere rezultat.
+
+Restricții
+1 ≤ lungimea șirului ≤ 100
+Numele funcției trebuie să fie Trim
+Se garantează că șirul inițial conține cel puțin un caracter diferit de spațiu
+
+Exemplu

@@ -1,0 +1,17 @@
+#96
+palindrommaxim
+
+Cerința
+Să se scrie un program care citește o propoziție și determină cuvântul palindrom de lungime maximă.
+
+Restricții
+propoziția va conține cel mult 255 de caractere;
+cuvintele conțin doar litere și/sau cifre și conțin cel mult 20 de caractere;
+dacă în propoziție există mai multe cuvinte palindrom de lungime maximă, se va afișa primul dintre ele;
+semnele de punctuație din propoziție pot fi :;.,
+nu se face distincție între literele mari și cele mici;
+pentru toate testele date există soluție
+
+Exemplu
+Input: 121 prieteni analizeaza Un capac; aeriSIrea    radar
+Output: aeriSIrea

@@ -1,0 +1,20 @@
+#2301
+secv
+
+Cerința
+Să se scrie un program care citind numerele N , K , S și cele N elemente din șir rezolvă cerințele: 1) Determină numărul secvențelor care se vor elimina respectând condiția din enunț. 2) Considerând că în șirul citit nu sunt posibile eliminări de secvențe conform condiției din enunț, programul determină numărul de elemente a[i] din șir cu proprietatea următoare: ștergerea lui a[i] conduce la obținerea unui șir în care se mai poate elimina cel puțin o secvență de K elemente cu sumă strict mai mare ca S .
+
+Restricții
+0 < N ≤ 1 000 000 și K ≤ N
+0 < S ≤ 1 000 000 000
+0 ≤ a[1], a[2],...,a[N] ≤ 1.000
+
+Exemplu
+Input: 1
+14 3 7
+1 2 1 3 1 4 5 2 1 4 1 8 2 3
+Output: 3
+Input: 2
+9 7 18
+3 3 2 1 3 3 3 3 1
+Output: 2

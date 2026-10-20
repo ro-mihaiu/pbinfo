@@ -1,0 +1,21 @@
+#3764
+cat2pal
+
+Cerința
+Scrieți un program care să rezolve următoarele două cerințe:
+1. Pentru un număr natural nenul A dat, să se calculeze P1 , numărul numerelor naturale distincte X , unde 1 ≤ X ≤ 10 * A , astfel încât X concatenat cu A sau A concatenat cu X este palindrom. 2. Date fiind numărul natural N și un șir de N numere naturale v[1] , v[2] , …, v[N] , să se calculeze P2 , numărul de numere palindrom distincte care se pot obține prin concatenarea numerelor din perechile (v[i], v[j]) , unde 1 ≤ i ≤ N și 1 ≤ j ≤ N .
+
+Restricții
+1 ≤ A < 100.000.000
+1 ≤ N ≤ 10.000
+0 ≤ v[i] < 100.000 ; pentru orice i = 1..N
+Pentru cazul C = 2 , trebuie luate în considerare și perechile (v[i], v[i]) , adică concatenarea unui element cu el însuși.
+
+Exemplu
+Input: 1
+2
+Output: 3
+Input: 2
+3
+2 12 21
+Output: 4

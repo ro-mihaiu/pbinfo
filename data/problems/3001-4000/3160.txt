@@ -1,0 +1,17 @@
+#3160
+cifre_c
+
+Cerința
+Se citesc un număr natural n având cifrele diferite două câte două și o cifră c . Afișați în ordine descrescătoare numerele formate din c cifre distincte care se pot obține din cifrele lui n și care au cifrele ordonate crescător.
+
+Restricții
+1 ≤ n ≤ 1.000.000.000 , 1 < c < 9
+n are cifrele distincte
+c este mai mic decât numărul de cifre ale lui n
+
+Exemplu
+Input: 4618 3
+Output: 468
+168
+148
+146

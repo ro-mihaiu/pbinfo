@@ -1,0 +1,19 @@
+#3001
+PSR
+
+Cerința
+Maricica este elevă în clasa a VIII -a și se pregătește pentru Examenul de Evaluare Națională. Profesorul de matematică a observat că Maricica nu stăpânește operațiile matematice elementare așa că, i-a oferit softul educațional PSR (produs – suma – radical) care funcționează astfel:
+În fiecare rundă, calculatorul generează un număr natural A .
+Maricica trebuie să calculeze un număr R = partea întreagă a numărului \( \sqrt{A * (A+1) * (A+2) * (A+3) + 1} \).
+Dacă răspunde corect, Maricica primește un punct altfel primește zero puncte pentru runda curentă. Jocul se desfășoară pe parcursul a N runde. Punctajul S obținut de Maricica se va calcula ca fiind suma punctajelor obținute în fiecare rundă. Câte puncte a acumulat Maricica?
+
+Restricții
+1 ≤ N ≤ 10000
+1 ≤ A ≤ 100000
+1 ≤ R ≤ 10000300001
+
+Exemplu
+Input: 2
+1  5
+2  15
+Output: 1

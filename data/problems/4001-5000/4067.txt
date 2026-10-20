@@ -1,0 +1,18 @@
+#4067
+ccmax
+
+Cerința
+Se dă un graf neorientat cu n vârfuri. Determinați numărul maxim de vârfuri dintr-o componentă conexă și numărul de componente conexe care au acest număr maxim de vârfuri.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ i , j ≤ n
+în fișierul de intrare muchiile se pot repeta
+
+Exemplu
+Input: 7
+1 5 
+3 5
+2 4
+6 4
+Output: 3 2

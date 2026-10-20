@@ -1,0 +1,14 @@
+#496
+Numarare4
+
+Cerința
+Se dă un vector cu n numere naturale. Să se determine câte dintre elementele vectorului sunt prime cu ultimul element.
+
+Restricții
+1 ≤ n ≤ 200
+elementele vectorului vor fi cuprinse între 0 și 1000
+
+Exemplu
+Input: 6
+50 64 15 28 35 75
+Output: 2

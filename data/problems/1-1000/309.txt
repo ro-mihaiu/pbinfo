@@ -1,0 +1,16 @@
+#309
+permutare
+
+Cerința
+Se dă un şir cu n elemente, numere naturale. Să se verifice dacă reprezintă o permutare a mulţimii {1,2,...,n} .
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 5
+2 5 4 3 1
+Output: DA
+Input: 5
+2 5 4 3 9
+Output: NU

@@ -1,0 +1,26 @@
+#580
+Roy-Warshall
+
+Cerința
+Se dă lista arcelor unui graf orientat. Construiți matricea drumurilor, folosind algoritmul lui Roy-Warshall.
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 6 9
+1 2
+1 3
+1 5
+3 5
+4 1
+3 4
+5 1
+6 1
+6 3
+Output: 1 1 1 1 1 0 
+0 0 0 0 0 0 
+1 1 1 1 1 0 
+1 1 1 1 1 0 
+1 1 1 1 1 0 
+1 1 1 1 1 0

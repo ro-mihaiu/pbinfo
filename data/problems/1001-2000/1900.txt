@@ -1,0 +1,13 @@
+#1900
+numere16
+
+Cerința
+Se citește un număr natural n cu cel mult 16 cifre. Fie q numărul de cifre ale numărului n . Prin eliminarea unei singure cifre din scrierea numărului n se obține un șir de q numere. Să se afișeze în ordine crescătoare, numerele nenule din acest șir care sunt prime cu numărul n .
+
+Restricții
+2 ≤ q ≤ 16
+dacă nu avem niciun număr care respectă cerința afișăm mesajul NU EXISTA
+
+Exemplu
+Input: 342477
+Output: 32477 34247 34247 34277 34477

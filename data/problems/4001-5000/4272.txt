@@ -1,0 +1,12 @@
+#4272
+ProdPare
+
+Cerința
+Se dă numărul natural nenul n . Să se determine produsul primelor n numere pare nenule.
+
+Restricții
+1 ≤ n ≤ 10
+
+Exemplu
+Input: 4
+Output: 384

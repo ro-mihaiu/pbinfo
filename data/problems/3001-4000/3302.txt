@@ -1,0 +1,14 @@
+#3302
+suminvdiv
+
+Cerința
+Pe prima linie a fișierului suminvdiv.in se găsesc cel mult 1000 de numere naturale distincte mai mici decât 10.000.000.000 . Scrieți un program care determină pentru fiecare număr citit x suma \( s= 1/{d}_{1} + 1/{d}_{2} + .. + 1/{d}_{i} \), unde \( {d}_{1}, {d}_{2}, …., {d}_{i} \) sunt divizorii numărului x . Valorile determinate se vor afișa separate printr-un spațiu.
+
+Restricții
+pe prima linie a fișierului sunt cel mult 1000 de numere
+numerele de pe prima linie a fișierului de intrare sunt mai mici decât 10.000.000.000
+rezultatul este considerat corect dacă diferența dintre fiecare valoare afișată și cea corectă este mai mică decât 0.01
+
+Exemplu
+Input: 12 9 123 78 34 278313 349012 6 24242 900000
+Output: 2.33 1.44 1.37 2.15 1.59 1.58 1.75 2.00 1.71 3.55

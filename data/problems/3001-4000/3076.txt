@@ -1,0 +1,12 @@
+#3076
+circular
+
+Cerința
+Scrieți un program care citește un număr natural n și care să calculeze suma S a tuturor numerelor obținute prin permutări circulare la dreapta ale cifrelor lui n cu o poziție.
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+
+Exemplu
+Input: 123
+Output: 666

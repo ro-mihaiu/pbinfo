@@ -1,0 +1,14 @@
+#4110
+NumarareSD
+
+Cerința
+Se dă un vector cu n numere naturale. Să se determine câte dintre perechile de elemente din vector au aceeași sumă a divizorilor.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele vectorului vor fi cuprinse între 1 și 1.000.000.000
+
+Exemplu
+Input: 6
+10 3 6 17 9 11
+Output: 2

@@ -1,0 +1,19 @@
+#1707
+Retea
+
+Cerința
+Se consideră o rețea formată din n servere, numerotate de la 1 la n . În rețea există m perechi de servere x y cunoscute între care există legături de comunicație directe. Între oricare două servere din rețea există legături, fie directe, fie prin intermediul altor servere.
+Stabiliți pentru fiecare dintre cele n servere dacă eliminarea sa din rețea conduce la pierderea legăturii dintre cel puțin două servere rămase.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ x,y ≤ n
+
+Exemplu
+Input: 5 5
+1 2
+2 3
+1 3
+3 4
+4 5
+Output: 0 0 1 1 0

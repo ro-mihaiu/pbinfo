@@ -1,0 +1,23 @@
+#4349
+numere28
+
+Cerința
+Scrieţi un program care, cunoscând numărul cerinței c (egal cu 1 sau cu 2 ), numărul n și un șir de n numere naturale, va obține: - pentru cerința 1: Să se afișeze câte numere-munte și câte numere-vale sunt în șir. - pentru cerința 2 : Să se afișeze cel mai mic număr-munte care este palindrom și este obținut prin utilizarea unui număr maxim de cifre diferite între ele, dintre toate cifrele conținute de numerele-munte din șir.
+
+Restricții
+2 ≤ n ≤ 1000
+Fiecare număr din șir are cel puțin 3 cifre și cel mult 9 cifre nenule
+În șirul de numere dat, există cel puțin un număr-munte și cel puțin un număr-vale (cerința 1).
+Pentru testele utilizate, se asigură că se obține un număr-munte care este palindrom (cerința 2).
+Pentru rezolvarea corectă a primei cerințe se obțin 40 de puncte, iar pentru rezolvarea corectă a celei de a doua cerințe se obțin 50 de puncte. Se acordă 10 puncte pentru exemplele din enunț.
+
+Exemplu
+Input: 7 1
+15732 8321 1734 143 2891 2981 1152
+Output: 4 1
+Input: 7 2
+145732 163 3521 122 271 261 3121
+Output: 12356765321
+Input: 7 2
+261 146732 1583 35921 5522 271 9182
+Output: 1235678765321

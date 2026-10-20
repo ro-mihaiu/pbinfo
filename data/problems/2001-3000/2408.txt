@@ -1,0 +1,16 @@
+#2408
+divtrei
+
+Cerința
+Să se determine câte numere de K cifre formate doar cu cifrele c[1] , c[2] , …, c[N] sunt divizibile cu 3 . Pentru că acest număr poate fi foarte mare, rezultatul se va determina modulo 4001 .
+
+Restricții
+1 ≤ N ≤ 9
+2 ≤ K ≤ 1000
+1 ≤ c[1], c[2], ..., c[N] ≤ 9
+Definim x modulo 4001 ca fiind restul împărțirii întregi a lui x la 4001 . De exemplu, 4002 modulo 4001 = 1 .
+
+Exemplu
+Input: 3 2
+1 3 2
+Output: 3

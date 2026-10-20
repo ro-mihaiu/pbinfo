@@ -1,0 +1,13 @@
+#827
+CifMaxParRec
+
+Cerința
+Să se scrie o funcție C++ recursivă care să returneze cea mai mare cifră pară a unui număr natural transmis ca parametru.
+
+Restricții
+numele funcției va fi cifmaxpar
+funcția va avea un parametru reprezentând numărul dat
+numărul pentru care se calculează cea mai mare cifră pară va fi mai mic decât 2.000.000.000
+dacă numărul nu conţine nici o cifră pară , se va returna valoarea -1
+
+Exemplu

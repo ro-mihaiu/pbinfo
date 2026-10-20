@@ -1,0 +1,15 @@
+#4227
+cif_tr
+
+Cerința
+Se dau două numere naturale n și m care au același număr de cifre. Să se afișeze mesajul NU dacă adunând cele două numere cifră cu cifră nu obținem niciodată transport, sau mesajul DA , dacă obținem măcar o dată transport.
+
+Restricții
+1 ≤ n, m ≤ 1.000.000.000
+numerele n și m au același număr de cifre
+
+Exemplu
+Input: 538 726
+Output: DA
+Input: 1234 8765
+Output: NU

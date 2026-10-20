@@ -1,0 +1,18 @@
+#1045
+Imprimanta
+
+Cerința
+a) Ştiind că imprimanta Cif-Oji6 a tipărit numărul N , determinaţi care este cea mai mare cifră a numărul N pentru care s-a acţionat un număr minim de ace ale grilei. b) Ştiind că imprimanta mai are tuş pe bandă doar pentru imprimarea a K puncte, determinaţi cel mai mare număr natural ce poate fi tipărit prin exact K puncte .
+
+Restricții
+10 ≤ N ≤ 10 15
+14 ≤ K ≤ 100000
+Pentru rezolvarea corectă a cerinţei a) se acordă 30% din punctajul fiecărui test iar pentru rezolvarea corectă a cerinţei b) se acordă 70% din punctajul fiecărui test.
+
+Exemplu
+Input: 2852 16
+Output: 5
+74
+Input: 88 25
+Output: 8
+11111

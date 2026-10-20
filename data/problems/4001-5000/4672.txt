@@ -1,0 +1,16 @@
+#4672
+CountSeqMatch
+
+Cerința
+Să se determine câte secvențe din a de lungime m se potrivesc cu b .
+
+Restricții
+1 ≤ m < n ≤ 100.000
+numerele din cele două șiruri sunt întregi cuprinse între -50.000 și 50.000
+
+Exemplu
+Input: 15
+3 5 1 2 2 5 3 8 1 2 3 5 2 1 1
+5
+2 2 1 5 3
+Output: 4

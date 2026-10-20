@@ -1,0 +1,40 @@
+#3065
+trio
+
+Cerința
+1) Alegeți o piesă de pe tabla de joc, astfel încât numărul M al pieselor identice cu ea să fie cel mai mare posibil și afișați numărul M determinat; 2) Afișați numărul grupurilor de piese prietene existente pe tabla de joc; 3) Afișați numărul maxim de piese dintr-o secvență ce conține piese așezate una lângă alta pe tabla de joc, pentru care prima piesă și ultima piesă din secvență sunt prietene.
+
+Restricții
+2 ≤ N ≤ 100.000
+Există cel puțin două piese identice pe tabla de joc;
+O piesă ce nu e prietenă cu nicio altă piesă de pe tabla de joc formează singură un grup;
+Pentru rezolvarea cerinței 1) se acordă 20 de puncte, pentru rezolvarea cerinței 2) se acordă 30 de puncte iar pentru rezolvarea cerinței 3) se acordă 50 de puncte.
+
+Exemplu
+Input: 1
+6
+1 3 3
+4 5 9
+1 3 3
+9 5 4
+3 3 1
+9 4 5
+Output: 2
+Input: 2
+6
+1 3 3
+4 5 9
+0 8 0
+9 5 4
+3 3 1
+9 4 5
+Output: 3
+Input: 3
+6
+1 3 3
+4 5 9
+0 8 0
+9 5 4
+3 3 1
+9 4 5
+Output: 5

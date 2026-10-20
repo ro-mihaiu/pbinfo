@@ -1,0 +1,14 @@
+#664
+nrperechi
+
+Cerința
+Gigel a învăţat la matematică despre cel mai mic multiplu comun a două numere şi acum trebuie să determine pentru fiecare valoare x dintr-un set de valori date câte perechi ordonate de numere naturale (a,b) au cel mai mic multiplu comun x .
+
+Restricții
+1 ≤ n ≤ 1.000
+1 ≤ x ≤ 2.000.000.000
+
+Exemplu
+Input: 2
+12 4
+Output: 15 5

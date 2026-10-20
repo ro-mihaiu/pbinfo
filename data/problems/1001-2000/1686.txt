@@ -1,0 +1,16 @@
+#1686
+Leduri
+
+Cerința
+Cunoscând cum arată cablul lui Ionuț, ajutați-mă să determin numărul minim de atingeri ale unor leduri astfel încât cablul meu să arate ca și cablul lui Ionuț.
+
+Restricții
+1 ≤ N ≤ 100000
+Se garantează că pentru toate testele există soluție.
+Pentru teste valorând 30 de puncte, N va fi cel mult 20
+
+Exemplu
+Input: 4
+1 0 1 0
+0 1 1 1
+Output: 2

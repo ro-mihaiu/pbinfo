@@ -1,0 +1,14 @@
+#490
+afisareminmax
+
+Cerința
+Se citește un vector cu n elemente, numere naturale distincte. Să se afișeze elementele cuprinse între elementul cu valoarea minimă și cel cu valoare maximă din vector, inclusiv acestea.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele vectorului vor fi mai mici decât 100.000
+
+Exemplu
+Input: 5
+7 9 6 2 8
+Output: 9 6 2

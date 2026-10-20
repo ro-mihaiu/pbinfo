@@ -1,0 +1,14 @@
+#489
+afisare1
+
+Cerința
+Se citește un vector cu n elemente, numere naturale. Să se afișeze elementele vectorului în următoarea ordine: primul, ultimul, al doilea, penultimul, etc.
+
+Restricții
+1 ≤ n ≤ 1000
+elementele vectorului vor fi mai mici decât 1000
+
+Exemplu
+Input: 5
+2 9 1 5 8
+Output: 2 8 9 5 1

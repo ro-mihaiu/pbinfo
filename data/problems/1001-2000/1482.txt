@@ -1,0 +1,15 @@
+#1482
+Numar4
+
+Cerința
+Determinați numărul minim NR de numere de telefon pe care trebuie să le încerce Vasile astfel încât printre ele să se afle cu siguranță numărul corect de telefon al lui Ionel.
+
+Restricții
+Numărul N nu poate începe cu cifra 0 . Numărul corect poate incepe cu cifra 0 .
+Numărul N are cel mult 9 cifre.
+
+Exemplu
+Input: 72361
+Output: 23
+Input: 27544
+Output: 22

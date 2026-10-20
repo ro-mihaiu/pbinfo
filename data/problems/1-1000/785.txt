@@ -1,0 +1,18 @@
+#785
+elimminmax
+
+Cerința
+Se dă o matrice cu n linii şi m coloane şi elemente numere naturale distincte două câte două. Să se elimine din matrice linia și coloana pe care se află elementul maxim și linia și coloana pe care se află elementul minim.
+
+Restricții
+1 ≤ m,n ≤ 100
+elementele matricei vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 4 6
+45 49 28 43 19 30 
+24 12 9 55 52 39 
+7 13 48 15 3 51 
+37 4 25 8 20 34
+Output: 45 49 28 30 
+37 4 25 34

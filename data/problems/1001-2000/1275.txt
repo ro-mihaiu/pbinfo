@@ -1,0 +1,26 @@
+#1275
+Jaina
+
+Cerința
+Jaina se află în Theramore Isle și trebuie să ajungă la mentorul ei, Antonidas. Aceștia se află într-o matrice pătratică de dimensiune n x n , în poziții de coordonate cunoscute.
+Jaina se poate deplasa în oricare dintre cele 8 direcții. Astfel, dacă inițial ea se găsește în celula de coordonate (x, y) , poate ajunge în oricare dintre celulele (x-1, y-1) , (x-1, y) , (x-1, y + 1) , (x, y + 1) , (x + 1, y + 1) , (x + 1, y) , (x + 1, y - 1) sau (x, y - 1) făcând exact un pas.
+În anumite celule se află câte o sursă de energie. Fiecare sursă emite raze în patru direcții (N, E, S, V) , fiecare rază ajungând până la marginea matricei.
+Când Jaina pășește pe o astfel de rază, ea se teleportează obligatoriu în celula sursei razei respective, deci nu este posibilă trecerea dincolo de aceste raze decât prin punctul sursă. Teleportarea este automată și instantanee și nu se consideră ca fiind un pas al Jainei.
+Antonidas vă roagă să o ajutați pe Jaina să ajungă la el, efectuând un număr minim de pași!
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ m ≤ 10
+Orice celulă are dimensiunea 1x1
+În cazul în care Jaina se află la intersecția a două raze de surse diferite, aceasta se va teleporta la sursa de linie minimă.
+Nu există două surse care să se afle pe aceeași linie sau pe aceeași coloană.
+Se garantează că există soluție pentru toate testele.
+Antonidas promite că o să fiți răsplătiți cu o minge de foc dacă găsiți răspunsul corect la această problemă.
+Deoarece Jaina este disperată, limitele de memorie sunt foarte mari, însă pe viitor nu este garantat acest lucru!
+
+Exemplu
+Input: 4
+2 1 4 4 
+1
+3 3
+Output: 2

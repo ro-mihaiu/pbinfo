@@ -1,0 +1,13 @@
+#933
+DistantaPunctDreapta
+
+Cerința
+Se dau în plan, un punct și o dreaptă. Să se determine distanța de la punct la dreaptă.
+
+Restricții
+Numerele din fișierul de intrare sunt întregi cuprinse între -1001 și 1001 .
+Punctele care determină dreapta sunt distincte.
+
+Exemplu
+Input: 0 1 0 0 1 0
+Output: 1.00

@@ -1,0 +1,16 @@
+#959
+secmax
+
+Cerința
+Scrieți un program care citește numărul N , cele N cifre ale numărului X și care determină numărul total de secvenţe-maxim din numărul X .
+
+Restricții
+8 ≤ N ≤ 25000
+0 ≤ X 1 , X 2 , ..., X N ≤ 9
+X 1 ≠ 0
+o secvență-maxim este formată din cel puțin trei cifre
+
+Exemplu
+Input: 8
+12543644
+Output: 5

@@ -1,0 +1,27 @@
+#3949
+mindist
+
+Cerința
+MăcGregăr se află într-o matrice pătratică cu N linii și N coloane. Aflându-se în celula (i, j) acesta se poate deplasa printr-un pas într-una din celulele (i + 1, j) , (i, j + 1) , (i - 1, j) , (i, j - 1) . Sunt M celule distincte prin care el nu poate trece, deoarece sunt ocupate cu echipamentul lui sportiv. De asemenea, mai sunt K celule distincte, diferite de cele ocupate, în care se află proteina lui MăcGregăr. Pentru fiecare celulă din matrice din care acesta ar pleca, MăcGregăr se întreabă care este numărul minim de pași pentru a ajunge la cea mai apropiată proteină.
+
+Restricții
+1 ≤ M ≤ N * N
+1 ≤ K ≤ N * N
+Pentru 30p, avem 1 ≤ N ≤ 50
+Pentru alte 30p, avem 1 ≤ N ≤ 1000 și 1 ≤ K ≤ 10
+Pentru restul de 40p, avem 1 ≤ N ≤ 1000
+
+Exemplu
+Input: 4 5 3
+4 3
+2 1
+4 2
+4 1
+3 4
+3 3
+2 3
+1 1
+Output: 0 1 1 2 
+-1 1 0 1 
+2 1 0 -1 
+-1 -1 -1 -1

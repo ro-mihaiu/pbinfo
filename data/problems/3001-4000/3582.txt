@@ -1,0 +1,17 @@
+#3582
+sotron1
+
+Cerința
+Să se scrie un program care să determine cel mai mare punctaj care se poate obţine jucând şotron după regulile stabilite.
+
+Restricții
+1 ≤ n ≤ 240
+
+Exemplu
+Input: 5
+0 -6 -5 -17 2
+1 -4 7 10 5
+-3 -2 3 -8 -8
+-20 3 5 3 -5
+-10 -15 2 2 -4
+Output: 21

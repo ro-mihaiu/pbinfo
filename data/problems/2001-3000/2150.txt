@@ -1,0 +1,18 @@
+#2150
+credite
+
+Cerința
+Cunoscând numărul de probleme, numărul de credite al fiecărei probleme precum și timpul limită de rezolvare al fiecărei probleme, scrieți un algoritm care determină numărul maxim de credite pe care le poate obține Maria.
+
+Restricții
+2 ≤ n ≤ 10000
+2 ≤ Ci ≤ 1000
+1 ≤ Ti ≤ 10000
+
+Exemplu
+Input: 4
+10 3
+7 5
+8 1
+2 1
+Output: 25

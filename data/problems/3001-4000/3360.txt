@@ -1,0 +1,15 @@
+#3360
+pereche2
+
+Cerința
+Se dă un șir de n numere naturale. Determinați o pereche de numere consecutive în șir, cu proprietatea că au același număr de factori primi. Dacă sunt mai multe asemenea perechi se va determina aceea cu suma numerelor mai mică. Dacă în continuare sunt mai multe perechi, se va determina prima din șir.
+
+Restricții
+1 ≤ n ≤ 1000
+numerele din șir vor fi mai mici decât 1.000.000.000
+dacă nu există nicio pereche care respectă cerința se va afișa NU EXISTA
+
+Exemplu
+Input: 5
+40 63 64 27 100
+Output: 64 27

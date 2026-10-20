@@ -1,0 +1,15 @@
+#397
+Plopi1
+
+Cerința
+De-a lungul principalei străzi din orașul nostru există n plopi, pentru fiecare cunoscându-se înălțimea. Primarul orașului dorește să taie anumiți plopi, astfel încât înălțimile celor rămași să fie în ordine strict descrescătoare.
+Determinați numărul minim de plopi care trebuie tăiați astfel încât înălțimile celor rămași să fie în ordine strict descrescătoare.
+
+Restricții
+2 ≤ n ≤ 1000
+înălțimile plopilor vor fi mai mici decât 5000
+
+Exemplu
+Input: 8
+5 7 3 6 4 4 2 6
+Output: 4

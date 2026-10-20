@@ -1,0 +1,22 @@
+#3245
+pion1
+
+Cerința
+O tablă de șah se reprezintă ca o matrice cu n linii și n coloane în care pozițiile libere au valoarea 0 , iar pozițiile ocupate de piese sunt marcate prin valoarea 1 .
+Să se determine numărul maxim de piese pe care le poate lua un pion care pleacă de pe prima linie a tablei și vrea să ajungă pe ultima linie. Pionul poate porni din orice poziție de pe prima linie. Pe prima linie nu se află alte piese.
+Pionul aflat în pozitia i,j se poate deplasa astfel:
+în poziția i+1, j dacă este liberă
+în poziția i+1, j-1 dacă este o piesă în această poziție
+în poziția i+1, j+1 dacă este o piesă în această poziție
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 5
+0 0 0 0 0
+0 1 0 1 0
+0 1 1 1 1
+0 0 0 1 1
+0 1 0 1 1
+Output: 4

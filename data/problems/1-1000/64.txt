@@ -1,0 +1,12 @@
+#64
+numarperfect
+
+Cerința
+Să se scrie un program care verifică dacă un număr natural citit de la tastatură este perfect.
+
+Restricții
+0 < n < 2.000.000.000
+
+Exemplu
+Input: 6
+Output: 6 este perfect

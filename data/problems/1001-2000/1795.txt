@@ -1,0 +1,22 @@
+#1795
+GigelAjungeAcasa
+
+Cerința
+Gigel este elev în clasa a XII -a la Liceul Teoretic “Ion Luca” din Vatra Dornei. Acesta, știind că urmează examenul de Bacalaureat și că nu a învățat nimic, s-a hotărât să plece de acasă să își găsească un rost în lume. După zile bune de mers, lipsit de energie, flămând și însetat, acesta a făcut un popas și s-a gândit că era mai bine să nu plece de acasă, motiv pentru care s-a hotărât să se întoarcă. Este cunoscut faptul că în pădurile dornene locuiesc atât Yeti, cât și Bigfoot, precum și mulți vârcolaci. Gigel, fiind un dornean adevărat, cunoaște coordonatele zonelor unde aceștia locuiesc și dorește să se întoarcă acasă pe drumul cel mai scurt, evitându-i pe aceștia.
+Cunoscând suprafața regiunii în care se află Gigel și casa acestuia (care poate fi reprezentată printr-un tablou bidimensional cu n linii și m coloane, în care fiecare zonă are coordonatele x și y ), coordonatele casei ( X1 , Y1 ) și coordonatele locului de popas ( X2 , Y2 ), coordonatele zonelor în care locuiesc Yeti ( XY , YY ) și Bigfoot ( XB , YB ), precum și coordonatele ( X , Y ) ale celor K zone în care locuiesc vârcolacii, se cere să îl ajutați pe Gigel să găsească lungimea D a celui mai scurt drum spre casă.
+
+Restricții
+1 ≤ N, M ≤ 1000
+0 ≤ K ≤ 14000
+Gigel poate merge pe oricare din direcțiile N, NE, E, SE, S, SV, V și NV.
+
+Exemplu
+Input: 6 4 5
+1 1 6 3
+6 1 4 2
+3 1
+3 2
+3 3
+5 3
+5 4
+Output: 6

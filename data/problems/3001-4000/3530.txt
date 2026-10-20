@@ -1,0 +1,10 @@
+#3530
+oop_2
+
+Cerința
+Scrieți definiția completă a metodelor Max și Cauta . Funcția Max trebuie să returneze valoarea maximă din vectorul t . Funcția Cauta(val) caută valoarea val în vectorul t și fie trebuie să returneze cea mai din stânga poziție unde se află valoarea val , fie să returneze -1 dacă val nu se află în t .
+
+Restricții
+numele metodelor sunt Max și Cauta
+
+Exemplu

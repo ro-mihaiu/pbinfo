@@ -1,0 +1,43 @@
+#4664
+detonator
+
+Cerința
+Pentru Q teste, date fiind N și valorile T[i, j] pentru 1 ≤ j ≤ i ≤ N , se cere numărul X .
+
+Restricții
+1 ≤ Q ≤ 5
+1 ≤ N ≤ 1000
+1 ≤ T[i, j] ≤ 1.000.000.000 pentru 1 ≤ j ≤ i ≤ N
+Pentru 7 puncte, Valorile T[i, j] pentru 1 ≤ j ≤ i ≤ N sunt egale (toate bombele sunt programate să explodeze în același timp)
+Pentru 13 puncte, N ≤ 5 , |X| ≤ 10
+Pentru 9 puncte, N ≤ 5
+Pentru 14 puncte, N ≤ 50 , |X| ≤ 10 si T[i, j] ≥ max{T[i + 1, j], T[i + 1, j + 1]} pentru 1 ≤ j ≤ i < N
+Pentru 13 puncte, N ≤ 50 , |X| ≤ 10
+Pentru 2 puncte, N ≤ 50
+Pentru 9 puncte, N ≤ 200 , |X| ≤ 10
+Pentru 2 puncte, N ≤ 200
+Pentru 19 puncte, N ≤ 500
+Pentru 12 puncte, fără restricţii suplimentare.
+
+Exemplu
+Input: 4
+2
+10
+10 10
+4
+10
+7 9
+4 6 8
+1 3 2 5
+3
+9
+9 9
+1 1 1
+3
+6
+5 3
+4 4 4
+Output: 7
+0
+-2
+0

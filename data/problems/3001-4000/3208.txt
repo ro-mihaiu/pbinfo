@@ -1,0 +1,12 @@
+#3208
+bitcmp
+
+Cerința
+Să se scrie o funcție C++ care primește ca parametri două numere naturale, a și b care returnează 1 , dacă a > b , 0 , dacă a = b și -1 dacă a < b .
+
+Restricții
+1 ≤ a, b < 2 64
+Nu se pot utiliza operatorii >, <, >=, <=, &&, ||, !=, == sau alte librării!
+numele subprogramului va fi bitcmp
+
+Exemplu

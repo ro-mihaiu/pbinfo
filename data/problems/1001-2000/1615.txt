@@ -1,0 +1,24 @@
+#1615
+AXYZ
+
+Cerința
+Cunoscându-se numerele A , N și cele N cifre ale lui X , să se determine:
+1. cel mai mare număr natural Y , strict mai mic decât X , care se poate obține rearanjând cifrele lui X ; 2. numărul maxim Z de posibilități distincte prin care se poate obține numărul A din numărul X prin ștergerea unor cifre și alipirea celor rămase, fără a le schimba ordinea.
+
+Restricții
+12 ≤ A ≤ 987
+10 ≤ N ≤ 30000
+Pentru toate datele de test, numerele Y și A pot fi obținute din numărul X
+Pentru rezolvarea corectă a cerinţei 1 se acordă 30% din punctaj, iar pentru rezolvarea corectă a cerinţei 2 se acordă 70% din punctaj.
+
+Exemplu
+Input: 1
+12
+6
+1 2 1 6 2 1
+Output: 121612
+Input: 2
+12
+6
+1 2 1 6 2 1
+Output: 3

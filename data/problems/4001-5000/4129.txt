@@ -1,0 +1,38 @@
+#4129
+inundatie1
+
+Cerința
+Care este înălțimea H a celei mai înalte coloane de apă după ce apa a ajuns peste tot la înălțimea celei mai înalte coloane de ciment?
+Care este numărul T de secunde în care apa ajunge să acopere coloana numărul P ?
+Care este poziția D a celei mai din dreapta coloane acoperită de apă după S secunde?
+Care este poziția R a celei mai din stânga coloane pe care o putem reduce cu o unitate astfel încât apa să ajungă cât mai repede la coloana P ?
+
+Restricții
+C ≤ {1, 2, 3, 4}
+3 ≤ N ≤ 100.000
+1 ≤ înălțimea oricărei coloane din șir ≤ 20.000
+1 ≤ P ≤ N
+1 ≤ S ≤ 100.000
+O coloană de înălțime h este acoperită de apă dacă apa a ajuns la înălțimea h .
+Pentru 11 puncte, C = 1
+Pentru 25 puncte, C = 2
+Pentru 33 puncte, C = 3
+Pentru 31 puncte, C = 4
+
+Exemplu
+Input: 1
+32 15 45
+8 5 5 4 3 3 7 5 4 3 3 5 4 3 4 5 6 5 4 4 3 4 5 4 3 2 1 2 3 4 5 9
+Output: 8
+Input: 2
+32 15 45
+8 5 5 4 3 3 7 5 4 3 3 5 4 3 4 5 6 5 4 4 3 4 5 4 3 2 1 2 3 4 5 9
+Output: 21
+Input: 3
+32 15 45
+8 5 5 4 3 3 7 5 4 3 3 5 4 3 4 5 6 5 4 4 3 4 5 4 3 2 1 2 3 4 5 9
+Output: 29
+Input: 4
+32 15 45
+8 5 5 4 3 3 7 5 4 3 3 5 4 3 4 5 6 5 4 4 3 4 5 4 3 2 1 2 3 4 5 9
+Output: 7

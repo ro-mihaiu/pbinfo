@@ -1,0 +1,21 @@
+#1329
+sir-zigzag
+
+Cerința
+Un şir se numeşte şir zigzag , dacă monotonia elementelor pe poziții succesive alternează între strict crescător și strict descrescător, adică a[1]>a[2]<a[3]>a[4] ... sau a[1]<a[2]>a[3]<a[4]... .
+Se citeşe un şir cu n elemente. Să se verifice dacă este şir zigzag.
+
+Restricții
+3 ≤ n ≤ 1000
+0 ≤ elementele şirului ≤ 1 000 000 000
+
+Exemplu
+Input: 5
+1 5 3 7 5
+Output: DA
+Input: 5
+4 3 5 1 2
+Output: DA
+Input: 5
+4 3 2 1 2
+Output: NU

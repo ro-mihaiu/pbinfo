@@ -1,0 +1,14 @@
+#4149
+inlocuire_max
+
+Cerința
+Se dă un vector cu n numere naturale. Să se înlocuiască fiecare element cu cel mai mare număr care se poate obține din cifrele lui și să se afișeze elementele astfel obținute în ordine inversă.
+
+Restricții
+1 ≤ n ≤ 200
+elementele vectorului vor fi cuprinse între 1 și 1.000.000
+
+Exemplu
+Input: 4
+170 104 24 2500
+Output: 5200 42 410 710

@@ -1,0 +1,15 @@
+#3960
+intersectie_siruri
+
+Cerința
+Dându-se mai multe șiruri crescătoare de numere naturale , sfârșitul fiecarui astfel de șir fiind marcat de numărul 0 , se cere să se afișeze în ordine strict crescătoare , numerele comune tuturor șirurilor.
+
+Restricții
+Fiecare șir conține maxim 100.000 de numere.
+Fiecare număr din șir are valori cuprinse între [1, 2 31 - 1] .
+În fișierul intersectie.in , pot fi maxim 3.000.000 numere.
+Dacă nu avem niciun număr comun se va afișa mesajul nu exista .
+
+Exemplu
+Input: 1 2 3 7 10 0 1 4 5 7 10 0 2 3 7 10 0 2 3 5 7 9 10 0
+Output: 7 10

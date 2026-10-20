@@ -1,0 +1,11 @@
+#1745
+minDivPrim
+
+Cerința
+Subprogramul minDivPrim are un singur parametru, n , prin care primeşte un număr natural. Subprogramul returnează cel mai mic număr natural care are aceiași divizori primi ca n . Scrieţi definiţia completă a subprogramului.
+
+Restricții
+numele subprogramului va fi minDivPrim
+1 < n < 1.000.000.000
+
+Exemplu

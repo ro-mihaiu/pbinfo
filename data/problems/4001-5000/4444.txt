@@ -1,0 +1,26 @@
+#4444
+puteri3_ONI
+
+Cerința
+1. Citind un număr natural n determină câte cutii au mai puțin de n bile în ele; 2. Citind un număr natural n urmat de n valori naturale x1, x2, ..., xn determină câte bile sunt, în fiecare dintre cutiile utilizate, pentru a obține cel de-al xi -lea număr din șirul lui Scortzy.
+
+Restricții
+C ∈ {1, 2}
+1 ≤ x1, x2, . . . , xn ≤ 10 18
+Pentru c = 1 , 1 ≤ n ≤ 10 18
+Pentru c = 2 , 1 ≤ n ≤ 1000 , numărul de bile dintr-o cutie nu are mai mult de 80 de cifre.
+Pentru 20 de puncte, c = 1
+Pentru 30 de puncte, c = 2 , 1 ≤ x1, x2, . . . , xn ≤ 1000
+Pentru 35 de puncte, c = 2 , numărul de bile dintr-o cutie nu este mai mare decât 10 18
+Pentru 15 de puncte, c = 2 , fără restricții suplimentare.
+
+Exemplu
+Input: 1 100
+Output: 5
+Input: 2 3
+4
+14
+9
+Output: 1 3
+1 9 27
+27

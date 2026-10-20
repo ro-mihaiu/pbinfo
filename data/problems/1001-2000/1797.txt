@@ -1,0 +1,12 @@
+#1797
+SirDiv3
+
+Cerința
+Se dă următorul şir de numere naturale: (1, 21, 321, 4321, 54321, 654321, 7654321, 87654321, 987654321, 10987654321, ...) . Al x -lea termen este format prin alipirea primelor x numere naturale nenule. Determinaţi câte din primele n numere ale şirului sunt divizibile cu 3 .
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+
+Exemplu
+Input: 3
+Output: 2

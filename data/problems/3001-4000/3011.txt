@@ -1,0 +1,14 @@
+#3011
+lastk
+
+Cerința
+Să se determine cele mai mari k numere din șir.
+
+Restricții
+1 ≤ n ≤ 5.000.000
+1 ≤ k ≤ min(100.000, n)
+1 ≤ A, B, C, D ≤ 1.000.000.000
+
+Exemplu
+Input: 10 4 13 23 47 97
+Output: 55 56 74 96

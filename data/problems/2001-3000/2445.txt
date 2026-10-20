@@ -1,0 +1,31 @@
+#2445
+turnuri1
+
+Cerința
+Ştiind că un turn poate fi format din cel puţin un cub, scrieţi un program care să determine: 1. numărul final T al turnurilor de pe bandă şi H , înălţimea celui mai înalt turn care se poate forma, exprimată în centimetri; 2. cel mai mare număr de cuburi Nmax ce pot forma un turn, dacă cele N cuburi ar putea fi rearanjate inițial pe bandă, unul lângă altul.
+
+Restricții
+1 ≤ N ≤ 10 000 şi 1≤ latura unui cub ≤ 500 000 ;
+nu există două cuburi cu laturi egale;
+Pentru rezolvarea corectă a primei cerințe se acordă 30 de puncte, pentru rezolvarea corectă a celei de-a doua cerințe se acordă 60 de puncte.
+În concurs s-au acordat 10 din oficiu. Aici se acordă 10 puncte pentru exemplele din enunț.
+
+Exemplu
+Input: 1
+6
+18 a
+13 g
+15 a
+10 a
+8 g
+2 a
+Output: 3 31
+Input: 2
+6
+18 a
+13 g
+15 a
+10 a
+8 g
+2 a
+Output: 5

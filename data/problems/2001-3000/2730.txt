@@ -1,0 +1,14 @@
+#2730
+SC
+
+Cerința
+Scrieți funcția recursivă având următorul antet:
+int SC(char s[])
+Funcția primește ca parametru un șir de caractere și returnează suma tuturor cifrelor care apar în șir.
+
+Restricții
+1 ≤ lungimea șirului ≤ 200
+Dacă șirul nu conține cifre, funcția trebuie să returneze valoarea 0 .
+Se recomandă utilizarea recursivității pentru rezolvarea acestei probleme.
+
+Exemplu

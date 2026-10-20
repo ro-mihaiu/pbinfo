@@ -1,0 +1,24 @@
+#1320
+ordonat-neordonat
+
+Cerința
+Orice şir se încadrează în următoarele categorii: șir constant , șir strict crescător , șir crescător , șir strict descrescător , șir descrescător sau șir neordonat .
+Se citește un șir cu n elemente naturale. Să se verifice în ce categorie se încadrează.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+1 2 3 4 5
+Output: sir strict crescator
+Input: 5
+5 3 3 2 1
+Output: sir descrescator
+Input: 5
+1 1 1 1 1
+Output: sir constant
+Input: 5
+1 2 3 1 5
+Output: sir neordonat

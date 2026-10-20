@@ -1,0 +1,17 @@
+#2029
+AfisareN
+
+Cerința
+Citindu-se un număr natural n şi un şir de caractere să se afişeze de n ori şirul de caractere. De fiecare dată se va trece pe rând nou.
+
+Restricții
+1 ≤ n ≤ 50
+lungimea şirului de caractere este maxim 1.000.000
+daca n = 0 nu se va afisa nimic
+
+Exemplu
+Input: 3 
+AfisareN
+Output: AfisareN 
+AfisareN 
+AfisareN

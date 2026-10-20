@@ -1,0 +1,18 @@
+#2126
+NrMaxInterv
+
+Cerința
+Se consideră n intervale de numere întregi [A i , B i ] , 1≤i≤n . Să se determine numărul maxim de intervale care se suprapun ( au cel puțin o valoare comună ).
+
+Restricții
+1 ≤ n ≤ 100.000
+-1.000.000.000 ≤ A i < B i ≤ 1.000.000.000
+
+Exemplu
+Input: 5
+1 4
+0 3
+8 12
+5 9
+5 11
+Output: 3

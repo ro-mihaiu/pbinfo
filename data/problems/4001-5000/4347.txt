@@ -1,0 +1,21 @@
+#4347
+matematica
+
+Cerința
+Scrieţi un program care să determine: 1. care este rezultatul unei expresii matematice e date. 2. valoarea maximă pe care o poate avea expresia e dacă putem schimba exact un singur operator din expresie.
+
+Restricții
+-2 50 ≤ termen ≤ 2 50 - 1 ;
+-2 63 ≤ e ≤ 2 63 - 1 ;
+3 ≤ lungimea șirului de caractere care descrie expresia ≤ 1000 ;
+Expresia e poate începe cu un operator;
+pentru 50% din teste avem c = 1 ;
+pentru 50% din teste avem c = 2 .
+
+Exemplu
+Input: 1
+3+5-2
+Output: 6
+Input: 2
+3+5-2
+Output: 10

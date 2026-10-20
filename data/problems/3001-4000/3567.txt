@@ -1,0 +1,12 @@
+#3567
+cod24
+
+Cerința
+Moș Crăciun are un seif în care ține miliardele de cadouri pregătite pentru copiii din lumea întreagă. Pentru a deschide seiful el trebuie să tasteze codul secret pe care doar el îl știe. Pentru o mai mare siguranță el schimbă codul în fiecare an. Codul este format din exact 4 cifre. Pentru a crea codul nou el crește cu 1 fiecare cifră din codul vechi și schimbă ultimele două cifre între ele. Dacă una dintre cifre este 9 și trebuie incrementată ea nu se modifică.
+
+Restricții
+1000 ≤ n ≤9999
+
+Exemplu
+Input: 9214
+Output: 9352

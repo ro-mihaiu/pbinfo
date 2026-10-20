@@ -1,0 +1,30 @@
+#4776
+plasmopara
+
+Cerința
+Cunoscând numărul de rânduri de viță de vie și numărul de butuci de pe fiecare rând, cunoscând numărul de zile ploioase și dispunerea soiurilor pe teren, să se determine: 1. numărul butucilor de soi hibrid care au rămas neafectați de plasmopara 2. ziua în care au fost afectați cei mai mulți butuci (dacă niciun butuc nu a fost afectat, rezultatul va fi 0 ; dacă sunt mai multe zile cu număr maxim de butuci afectați, se va determina prima dintre acestea).
+
+Restricții
+0 < n, m, z ≤ 200
+pentru teste valorând 50 de puncte cerința va fi C = 1 , pentru teste valorând 40 de puncte cerința va fi C = 2 și 10 puncte vor fi pentru exemple din enunț
+
+Exemplu
+Input: 1
+4 5 4
+----N
+-N---
+-----
+-N--N
+Output: 6
+Input: 2
+4 5 4
+----N
+-N---
+-----
+-N--N
+Output: 2
+Input: 1
+2 3 1
+N-N
+N--
+Output: 2

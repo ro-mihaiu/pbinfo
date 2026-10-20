@@ -1,0 +1,18 @@
+#3677
+cifrevecine
+
+Cerința
+Se dau două numere naturale n și k . Determinați cea mai mare valoare care se poate obține eliminând din numărul n exact k cifre aflate pe poziții alăturate(una după alta).
+
+Restricții
+n este un număr cuprins între 10 și 10 17 inclusiv.
+1 ≤ k < numărul de cifre ale lui n .
+pentru 50 de puncte k este 1 .
+
+Exemplu
+Input: 10002
+3
+Output: 12
+Input: 1938
+2
+Output: 38

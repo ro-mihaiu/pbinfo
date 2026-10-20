@@ -1,0 +1,18 @@
+#4296
+SumDiv
+
+Cerința
+Se dă un șir de n numere naturale nenule și de asemenea un număr natural p . Să se calculeze suma numerelor din șir care au cel puțin p divizori.
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ p ≤ 1000
+cele n numere din șir vor fi numere naturale nenule mai mici decât 1.000.000
+
+Exemplu
+Input: 5 3
+7 4 10 17 1
+Output: 14
+Input: 5 100
+5 12 24 3 72
+Output: 0

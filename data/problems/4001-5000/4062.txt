@@ -1,0 +1,18 @@
+#4062
+SezonulLamaCrima
+
+Cerința
+Se dau n intervale, să se afișeze care dintre ele includ alte intervale și care sunt incluse într-un interval. Intervalul [a,b] este inclus în intervalul [c,d] dacă c <= a și b <= d ( a < b, c < d ).
+
+Restricții
+1 ≤ n ≤ 200.000
+Capetele intervalelor sunt numere din intervalul [1, 1.000.000.000] .
+
+Exemplu
+Input: 4
+1 6
+2 4
+4 8
+3 6
+Output: 1 0 0 0
+0 1 0 1

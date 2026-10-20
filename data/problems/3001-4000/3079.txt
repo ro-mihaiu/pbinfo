@@ -1,0 +1,12 @@
+#3079
+numere-a-b
+
+Cerința
+Se citesc două numere naturale a şi b , care au acelaşi număr de cifre. Scrieți un program pentru a construi şi afişa un număr natural c cu proprietatea că fiecare cifră a acestuia este partea întreagă a mediei aritmetice a cifrelor situate in aceleaşi poziţii in numerele a şi b .
+
+Restricții
+1 ≤ a, b ≤ 2.000.000.000
+
+Exemplu
+Input: 7532 5924
+Output: 6723

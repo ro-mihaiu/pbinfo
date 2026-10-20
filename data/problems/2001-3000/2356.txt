@@ -1,0 +1,26 @@
+#2356
+pinguini
+
+Cerința
+Cunoscând N , numărul zonelor din fâșia liniară și fiecare tip de zonă: apa ( 1 ), pinguin ( 2 ) să se determine: 1) Câți pinguini trebuie să salveze Moș Crăciun; 2) Câte grupuri izolate de pinguini sunt; 3) Care este numărul maxim de pinguini care se află în același grup.
+
+Restricții
+1 ≤ n, k ≤ 10 000
+Pentru prima cerință se acordă 10 puncte
+Pentru a doua cerință se acordă 30 de puncte
+Pentru a treia cerință se acordă 50 de puncte
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă 10 puncte pentru cele trei exemple.
+
+Exemplu
+Input: 1
+12
+1 2 1 2 2 2 2 1 1 2 2 2
+Output: 8
+Input: 2
+12
+1 2 1 2 2 2 2 1 1 2 2 2
+Output: 3
+Input: 3
+12
+1 2 1 2 2 2 2 1 1 2 2 2
+Output: 4

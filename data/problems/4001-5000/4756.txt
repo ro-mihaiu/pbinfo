@@ -1,0 +1,37 @@
+#4756
+textcuv
+
+Cerința
+1) Să se afișeze n – numărul de cuvinte, precum și cuvintele din text. 2) Se se afișeze cuvântul cel mai mic din punct de vedere lexicografic. 3) Să se determine numărul de cuvinte care conțin secvența ini . 4) Să se afișeze fiecare cuvânt oglindit. 5) Să se determine câte cuvinte se termină cu litera a . 6) Să se determine lungimea minimă și lungimea maximă a unui cuvânt
+
+Restricții
+lungimea textului nu va depăși 1000
+fiecare cuvânt are lungimea cel mult 50
+Nu uitați ca după ce citiți valoarea lui T , să folosiți instrucțiunea fin.get(); pentru a trece cursorul pe linia a doua a dișierului de intrare, de unde să puteți citi textul.
+
+Exemplu
+Input: 1
+...destul de rece? desigur!
+Output: 4
+destul
+de
+rece
+desigur
+Input: 2
+avem parte de exclamatii, accente si mirari.
+Output: accente
+Input: 3
+initial, toate initiativele sunt minime.
+Output: 3
+Input: 4
+...destul de rece? desigur!
+Output: lutsed
+ed
+ecer
+rugised
+Input: 5
+este frumoasa, desteapta si devreme acasa.
+Output: 3
+Input: 6
+este frumoasa, desteapta si devreme acasa.
+Output: 2 9

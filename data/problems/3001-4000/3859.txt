@@ -1,0 +1,13 @@
+#3859
+Cai
+
+Cerința
+Se dă N , în câte moduri putem plasa 2 cai pe o tablă de șah de N pe N astfel încât să nu se atace?
+
+Restricții
+1 ≤ n ≤ 10.000 .
+Caii nu se pot afla pe același pătrat.
+
+Exemplu
+Input: 2
+Output: 6

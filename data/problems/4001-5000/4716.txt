@@ -1,0 +1,12 @@
+#4716
+vesel2
+
+Cerința
+Un număr se numește vesel dacă este format numai din cifre pare. Un număr se numește trist dacă este format numai din cifre impare. Dat un număr n trist să se transforme în cel mai mic număr vesel strict mai mare decât n .
+
+Restricții
+1 ≤ n,v ≤ 2.000.000.000
+
+Exemplu
+Input: 19
+Output: 20

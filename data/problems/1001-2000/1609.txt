@@ -1,0 +1,14 @@
+#1609
+paralele
+
+Cerința
+Se dau N drepte paralele în sistemul de axe ortogonale xOy, acestea intersectând axa Ox în N puncte de abscise întregi x1, x2, ... , xN . Determinaţi numărul maxim M de perechi de drepte dintre cele date, pentru care distanţa dintre dreptele din orice pereche este aceeaşi.
+
+Restricții
+2 ≤ N ≤ 1.000
+-1.000.000 ≤ x1,x2,...,xN ≤ 1.000.000
+
+Exemplu
+Input: 3
+1 5 9
+Output: 2

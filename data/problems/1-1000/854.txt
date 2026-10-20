@@ -1,0 +1,14 @@
+#854
+Secvente1
+
+Cerința
+Se dă un șir cu n elemente, numere naturale și un număr k . Determinați numărul minim de secvențe disjuncte în care trebuie împărțit șirul astfel încât fiecare element al șirului să aparțină unei secvențe și fiecare secvență să conțină cel mult k elemente impare.
+
+Restricții
+1 ≤ k < n ≤ 100.000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 7 2
+4 3 4 9 9 1 8
+Output: 2

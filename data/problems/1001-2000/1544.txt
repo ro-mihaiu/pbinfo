@@ -1,0 +1,13 @@
+#1544
+muzical
+
+Cerința
+Ajutați-l pe Gigel sa afle nota maximă!
+
+Restricții
+n ≤ 100.000
+
+Exemplu
+Input: 8
+do1 re mi fa sol la si do2
+Output: sol

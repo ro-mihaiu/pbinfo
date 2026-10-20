@@ -1,0 +1,13 @@
+#1128
+jucarii
+
+Cerința
+La o grădiniță, cei m copii de la grupa mică s-au trezit în fața a n jucării diferite. Cel mai isteț dintre ei vă întreabă în câte moduri ar putea să-și aleagă fiecare câte o jucărie ?
+
+Restricții
+1 ≤ n , m ≤ 100.000
+grădinița este virtuală
+
+Exemplu
+Input: 2 4
+Output: 12

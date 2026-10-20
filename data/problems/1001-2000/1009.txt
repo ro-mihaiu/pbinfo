@@ -1,0 +1,21 @@
+#1009
+Cuvinte3
+
+Cerința
+Se consideră un text alcătuit din mai multe linii, în care cuvintele sunt separate prin spatii și caractere din setul .,;:-?! . Să se determine cuvintele distincte din text care conţin subşirul ate , fără a face distincţie între litere mari şi mici.
+
+Restricții
+fiecare linie din fișierul de intrare va avea cel mult 255 de caractere
+ordinea de afișare a cuvintelor este cea din textul dat
+dacă un cuvânt apare în text de mai multe ori (fără a face distincţie între litere mari şi mici) se va afișa în fișierul de ieșire prima sa apariție
+în fișierul de intrare sunt cel mult 100 de cuvinte distincte care conține subșirul ate
+
+Exemplu
+Input: Daca satelitii nu sunt activi, GPS-ul nu functioneaza... 
+- Ai vazut cate cuvinte marcate sunt?? Poate esti si tu atent! 
+Cate sunt?
+Output: satelitii
+cate
+marcate
+Poate
+atent

@@ -1,0 +1,17 @@
+#4348
+chei
+
+Cerința
+Cunoscând primele două chei ale jocului, notate x și y , să se obțină și să se afișeze șirul format din cheile camerelor din joc, în ordinea utilizării lor, până la terminarea jocului.
+
+Restricții
+1 < x, y ≤ 999
+Pentru o cheie digitală c < 10 , prima și ultima cifră a sa sunt egale cu c
+Jocul lui Gigel are cel puțin 3 camere și cel mult 100 de camere
+Ultima cheie obținută pentru joc, care coincide cu una dintre ultimele trei chei utilizate exact înaintea ei, nu se afișează.
+
+Exemplu
+Input: 20 72
+Output: 20 72 7 24 67 21
+Input: 20 17
+Output: 20 17 1 71

@@ -1,0 +1,12 @@
+#815
+lazi
+
+Cerința
+Câte cutii cubice de latură l pot fi suprapuse într-o încăpere de înălțime h .
+
+Restricții
+1 ≤ l,h ≤ 1000000
+
+Exemplu
+Input: 2 7
+Output: 3

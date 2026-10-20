@@ -1,0 +1,25 @@
+#1084
+Tren
+
+Cerința
+Scrieţi un program care să determine pentru un număr T de trenuri care trec prin gară în perioada de studiu din acea zi:
+numărul maxim de trenuri Z care au staţionat pe aceeaşi linie;
+numărul X de trenuri pe care Rareş le vede;
+durata de timp maximă Y (exprimată în număr de minute consecutive), din perioada de studiu, în care Rareş nu a văzut niciun tren.
+
+Restricții
+2 ≤ T ≤ 100 ; 0 ≤ H ≤ 23 ; 0 ≤ M ≤ 59 ; 1 ≤ S ≤ 9 ; T , H , M , S sunt numere naturale;
+în acelaşi moment de timp nu pot pleca/sosi mai multe trenuri; * în acelaşi moment de timp nu poate pleca un tren şi altul să sosească;
+pe aceeaşi linie nu pot staţiona mai multe trenuri în acelaşi moment de timp; * pentru aflarea corectă a numărului Z se acordă 20% din punctajul pe test; * pentru aflarea corectă a numărului X se acordă 40% din punctajul pe test; * pentru aflarea corectă a numărului Y se acordă 40% din punctajul pe test.
+
+Exemplu
+Input: 8
+1 14 20 3
+2 14 21 1
+2 14 24 4
+1 14 40 8
+2 14 41 1
+2 14 43 1
+2 14 45 5
+1 14 56 1
+Output: 5 5 11

@@ -1,0 +1,16 @@
+#1357
+plusminus
+
+Cerința
+Fie n un număr natural. Să se determine toate posibilitățile de alegere a semnelor + și - pentru care n = (+|-) 1 2 + (+|-) 2 2 + ... + (+|-) n 2
+
+Restricții
+1 ≤ n ≤ 23
+șirurile se vor afișa în ordine lexicografica; caracterul - este considerat mai mic decăt caracterul +
+
+Exemplu
+Input: 9
+Output: - - + - + - + + - 
++ - - + - - + - +
++ + - - + + - - +
++ + + + - + - - +

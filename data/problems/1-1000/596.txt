@@ -1,0 +1,16 @@
+#596
+numere2
+
+Cerința
+Gigel a găsit un șir cu n numere naturale. În fiecare zi Gigel parcurge șirul și când găsește o pereche de elemente consecutive egale o elimină din șir și se oprește. Determinați în câte zile va elimina Gigel elemente din șir și care sunt valorile din șir după eliminări.
+
+Restricții
+1 ≤ n ≤ 25.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici sau egale cu 100
+la sfârșit în șir va fi cel puțin un element
+
+Exemplu
+Input: 8
+1 2 3 3 2 2 3 3
+Output: 3
+1 2

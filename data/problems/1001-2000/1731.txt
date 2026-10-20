@@ -1,0 +1,23 @@
+#1731
+Numar5
+
+Cerința
+Scrieţi un program care citeşte numărul natural nenul n , apoi numerele naturale \(x_1, x_2, …, x_n\), şi determină: a) cel mai mare număr din şir în care există cel puţin o cifră care apare de minimum două ori, iar în cazul în care în şir nu există un astfel de număr, se va afişa cel mai mare număr din şir; b) un şir \(a_1, a_2, …, a_n\) de n numere naturale pentru care un element \(a_i\)( 1≤i≤n )se calculează astfel: este egal cu \(x_i\) , dacă \(x_i\) este număr circular; este numărul cel mai apropiat de \(x_i\) (număr mai mare sau mai mic decât \(x_i\)), cu proprietatea că este număr circular; dacă pentru un număr din şir se identifică un număr circular y , \( y > x_i\) şi un număr circular z , z< \(x_i\), pentru care \( y – x_i\) = \(x_i – z\), atunci se va alege numărul y .
+
+Restricții
+0 < n < 100
+9 < \(x_i\) < 999589 , 1 ≤ i ≤ n
+
+Exemplu
+Input: 5
+15
+123
+1972
+222
+515
+Output: 515
+15 
+117
+1959
+222
+522

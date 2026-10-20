@@ -1,0 +1,13 @@
+#574
+Complet
+
+Cerința
+Să se determine câte grafuri orientate complete cu n noduri există.
+
+Restricții
+2 ≤ n ≤ 100
+numărul de grafuri poate fi destul de mare
+
+Exemplu
+Input: 4
+Output: 729

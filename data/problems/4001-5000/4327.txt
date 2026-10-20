@@ -1,0 +1,13 @@
+#4327
+Chimie
+
+Cerința
+Eroul nostru Mateo (vezi #Chimie1 ), studiind Tabelul periodic al elementelor constată că toate elementele chimice sunt aranjate în funcție de numărul lor atomic, sunt grupate în tabel pe 7 rânduri(perioade), iar aceste rânduri au pe ultima coloană(grupa 18) elementele numite și gaze nobile iar cele 7 numere atomice ale acestora sunt: 2(He), 10(Ne), 18(Ar), 36(Kr), 54(Xe), 86(Rn) și 118(Og). Mateo primește un set de elemente chimice și dorește să afle care este diferența maximă dintre numărul atomic al gazului nobil aflat pe același rând și numărul atomic al fiecărui element din setul primit și de câte ori apare acel element. Dacă există mai multe elemente distincte cu diferența maximă se va afișa cel cu numărul atomic mai mare, urmat de numărul de apariții al acestuia.
+
+Restricții
+în fișierul de intrare pot fi până la 1.000.000 de numere.
+se garantează că în fiecare test va exista cel puțin un element cu număr atomic diferit de cel al gazelor nobile.
+
+Exemplu
+Input: 79 42 82 24 82 24 42 9 18
+Output: 42 2

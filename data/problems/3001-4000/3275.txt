@@ -1,0 +1,12 @@
+#3275
+nrsumcifmax
+
+Cerința
+Se dau 3 numere naturale, fiecare având câte două cifre. Afișați-le pe acelea care au suma cifrelor maximă.
+
+Restricții
+se garantează că numerele introduse sunt de două cifre;
+
+Exemplu
+Input: 17 22 26
+Output: 17 26

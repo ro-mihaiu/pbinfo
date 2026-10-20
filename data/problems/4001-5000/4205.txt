@@ -1,0 +1,15 @@
+#4205
+SecvSumS
+
+Cerința
+Scrieți funcția care are antetul:
+int SecvSumS(vector<int> &a, int s)
+Funcția va returna lungimea minimă a unei secvențe nevide din a care are suma egală cu s . Dacă nu există nicio secvență de sumă s funcția va returna valoarea -1 .
+
+Restricții
+a conține cel puțin un element și cel mult 200.000
+elementele vectorului sunt numere întregi din intervalul [-5.000, 5.000]
+-1.000.000.000 ≤ s ≤ 1.000.000.000
+Puteți utiliza în rezolvare orice structură de date
+
+Exemplu

@@ -1,0 +1,51 @@
+#4393
+cufere
+
+Cerința
+Dându-se cele n cufere, care conțin obiectele în ordinea inițială, Alex vă roagă să realizați un program care să determine:
+pentru fiecare etichetă distinctă de obiect întâlnit în cele n cufere, numărul total al obiectelor cu acea etichetă;
+noile etichete ale compartimentelor care compun cele n cufere, după rearanjarea obiectelor.
+
+Restricții
+c ∈ {1, 2}
+1 ≤ n ≤ 10.000
+Eticheta unui obiect este cuprinsă între 10 și 99 , inclusiv.
+În cazul cerinței 2 se vor afișa etichetele pentru toate compartimentele, chiar dacă ele sunt goale sau provin din cufere complet goale.
+
+Exemplu
+Input: 1
+2
+1488 1573 1437 4465 1099 1073 0 499 765
+537 1173 4288 1273 2299 1555 1241 655 841
+1141 237 5621 199 921 621 3465 1315 4155
+1099 341 4765 6155 355 1099 6088 3988 255
+4955 155 1329 1932 3099 114 3020 855 5555
+1173 1388 673 2533 1488 1473 4033 2099 2065
+Output: 14 1
+15 13
+20 30
+21 71
+29 13
+32 19
+33 65
+37 21
+41 34
+55 241
+65 152
+73 79
+88 182
+99 107
+Input: 2
+2
+1488 1573 1437 4465 1099 1073 0 499 765
+537 1173 4288 1273 2299 1555 1241 655 841
+1141 237 5621 199 921 621 3465 1315 4155
+1099 341 4765 6155 355 1099 6088 3988 255
+4955 155 1329 1932 3099 114 3020 855 5555
+1173 1388 673 2533 1488 1473 4033 2099 2065
+Output: 114 1315 3020 6421 721 1329 1932 6433 133
+1637 537 1641 1641 241 6455 6455 6455 4955
+6465 6465 2465 1673 1673 1673 1673 1573 6488
+6488 5488 6499 4399 0 0 0 0 0
+0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0

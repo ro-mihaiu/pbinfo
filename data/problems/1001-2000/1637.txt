@@ -1,0 +1,17 @@
+#1637
+Split
+
+Cerința
+Să se determine o împărţire a şirului în patru secvenţe astfel încât suma costurilor celor patru secvenţe să fie maximă.
+
+Restricții
+8 ≤ N ≤ 5.000
+0 ≤ \(a_i\) ≤ 100.000.000 , pentru orice i = 1...N
+O secvenţă poate avea costul 0 (valoarea maximă egală cu valoarea minimă)
+Dacă există mai multe soluţii cu aceeaşi sumă maximă, atunci se va alege soluţia cu i minim. Dacă există mai multe soluții cu acelaşi i minim, se alege aceea cu j minim, iar dacă există mai multe soluții cu acelaşi i și j minim, se alege aceea cu k minim.
+
+Exemplu
+Input: 11
+9 7 3 0 2 1 8 6 0 11 4
+Output: 29
+4 7 9

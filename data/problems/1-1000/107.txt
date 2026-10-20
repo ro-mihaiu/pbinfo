@@ -1,0 +1,12 @@
+#107
+aparitii
+
+Cerința
+Să se scrie un program care să determine numărul de apariţii ale ultimei cifre în scrierea unui număr natural citit de la tastatură.
+
+Restricții
+numărul citit va fi mai mic decât 2.000.000.000
+
+Exemplu
+Input: 57015
+Output: 2

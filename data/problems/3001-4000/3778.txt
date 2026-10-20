@@ -1,0 +1,24 @@
+#3778
+Pian
+
+Cerința
+Cerința 1: Ian vrea să facă un riff (adică să apese fiecare clapă o singură dată) și vrea să știe care ar fi durata de timp a unui riff pe pianul lustruit.
+Cerința 2: Pentru că Ian nu are timp de pierdut cu lustruitul, acesta vrea o listă de instrucțiuni de lungime minimă asfel încât dupa efectuarea instrucțiunilor pianul să fie lustruit.
+
+Restricții
+C ∈ {1, 2}
+1 ≤ N ≤ 100.000
+1 ≤ v[i] ≤ 1.000.000 , pentru orice i ∈ {1, 2, ..., N}
+1 ≤ x[j] < N , pentru orice j ∈ {1, 2, ..., M}
+Daca pentru cerința 2 există mai multe soluții cu număr minim de operații se acceptă oricare.
+
+Exemplu
+Input: 1
+5
+2 4 6 8 10
+Output: 10
+Input: 2
+5
+2 4 6 8 10
+Output: 2
+2 4

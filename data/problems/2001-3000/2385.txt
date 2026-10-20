@@ -1,0 +1,23 @@
+#2385
+oaste
+
+Cerința
+Să se determine numărul maxim de soldați dintr-o regiune a statului care are cei mai mulți soldați, precum și poziția acestei regiuni în matrice (linia și coloana).
+
+Restricții
+n si m vor fi numere naturale cu valori intre 1 si 100 inclusiv;
+fiecare element al matricei va avea valori naturale cuprinse intre 0 si 9 inclusiv;
+există cel puțin o cifră nenula în matrice
+spunem ca un stat are coordonatele (i,j) în matrice dacă regiunea din poziția (i,j) aparține acestui stat și este regiunea cu cea mai mică poziție în sens lexicografic dintre regiunile statului.
+perechea (i,j) este mai mică în sens lexicografic ca perechea (x,y) dacă i<x sau dacă i=x și j<y
+dacă există două state cu același număr de soldați și același număr maxim de soldați într-o regiune, se va lua în considerare regiunea cu cea mai mică poziție din statul cu coordonatele cele mai mici în sens lexicografic
+
+Exemplu
+Input: 4 6
+0 1 1 0 2 5
+9 0 2 0 1 0
+0 1 1 0 0 2
+0 0 1 1 1 1
+Output: 2 2 3
+Input: 2 3 6
+Output: 2 3 6

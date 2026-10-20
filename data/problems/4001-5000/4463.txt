@@ -1,0 +1,33 @@
+#4463
+pcp
+
+Cerința
+Să se determine toate pătratele perfecte distincte care se obțin prin permutarea cifrelor numărului N . Exemple:
+Pentru N = 691 prin permutarea cifrelor sale se obțin numerele 169 , 196 , 619 , 691 , 916 , 961 din care 3 sunt pătrate perfecte: 169 = 13 2 , 196 = 14 2 și 961 = 31 2 .
+Pentru N = 1044 prin permutarea cifrelor sale se obțin numerele 0144 , 0414 , 0441 , 1044 , 1404 , 1440 , 4014 , 4041 , 4104 , 4140 , 4401 , 4410 din care 2 sunt pătrate perfecte: 144 = 12 2 , 441 = 21 2 .
+
+Restricții
+0 < N < 10 14
+Cifrele de 0 care prin permutarea cifrelor lui N apar la începutul unui număr, nu se iau în considerare.
+Pentru 20 de puncte, 1 ≤ N < 10.000
+Pentru 68 de puncte, 10 4 ≤ N < 10 13
+Pentru 12 de puncte, 10 13 ≤ N < 10 14
+
+Exemplu
+Input: 691
+Output: 3
+169
+196
+961
+Input: 1044
+Output: 2
+144
+441
+Input: 202050
+Output: 4
+225
+2025
+22500
+202500
+Input: 2023
+Output: nu exista

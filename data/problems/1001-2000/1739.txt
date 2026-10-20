@@ -1,0 +1,21 @@
+#1739
+Proiecte1
+
+Cerința
+Cunoscând numărul firmelor IT, numărul proiectelor, numărul de etape ale fiecărui proiect şi firmele ce execută fiecare etapă, să se determine firma/firmele care coordonează cel mai mare număr de proiecte.
+
+Restricții
+1 ≤ M ≤ 200
+1 ≤ N ≤ 1000000
+1 ≤ nri ≤ 200000 ( 1≤i≤M )
+1 ≤ M*nri ≤ 320000 ( 1≤i≤M )
+1 ≤ \(f_k\) ≤ N , ( 1≤k≤nri )
+există întotdeauna cel puţin un proiect coordonat de o firmă.
+
+Exemplu
+Input: 5 4
+2 3 3
+3 1 2 1
+5 3 4 3 3 1
+1 1
+Output: 1 3

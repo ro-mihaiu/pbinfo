@@ -1,0 +1,22 @@
+#1787
+Mapal
+
+Cerința
+Marele inginer NN, a fost numit inspector general al barajelor. În prima zi de lucru el primește un sector dintr-un baraj de lângă un lac de acumulare care conține stricăciuni și are misiunea de a realiza un plan de reparații. În plus, costurile reparațiilor trebuie să fie minime. Sectorul din baraj poate fi reprezentat ca o matrice binară de NxN . El a observat că liniile l1, l2 …, lk și coloanele c1,c2, …, cl sunt singurele care au stricăciuni. Pentru a le repara el trebuie să înlocuiască unele elemente din matrice astfel încât liniile și coloanele stricate să devină palindrom.
+Ajutați-l pe NN să găsească numărul minim de înlocuiri și să dovedească că e maestru în baraje de toate felurile.
+
+Restricții
+N ≤ 1000
+Elementele matricii aparțin mulțimii {0,1} .
+
+Exemplu
+Input: 4
+1011
+0111
+0000
+1010
+3
+1 2 4
+2
+1 4
+Output: 4

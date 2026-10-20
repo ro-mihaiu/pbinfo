@@ -1,0 +1,23 @@
+#1773
+Happy
+
+Cerința
+Lui Ionci ii place foarte mult matematica si informatica, asa ca s-a gandit sa creeze o operatie. Aceasta a numit-o "Happy" , notata cu semnul ☺ . Operatia se aplica doar numerelor naturale si dau ca rezultat tot un numar natural, conform exemplelor de mai jos:
+2010 ☺ 2005 = 5
+78 ☺ 54 = 6
+999 ☺ 543 = 3
+4 ☺ 9 = 1
+5 ☺ 6 = 1
+32 ☺ 24 = 8
+10 ☺ 2 = 2
+Profesorul de matematica, Vasy, i-a promis nota 10 pe invenție dacă pentru mai multe perechi de numere naturale veți determina cel mai mic număr rezultat cu număr par de divizori al operației Happy aplicată perechilor date și cel mai mare număr rezultat al operației Happy cu număr impar de divizori.
+
+Restricții
+1 ≤ N ≤ 20
+cele 2 * N numere citite vor fi nenule și mai mici decât 1.000.000 .
+
+Exemplu
+Input: 2
+87 87
+1 1
+Output: 87 1

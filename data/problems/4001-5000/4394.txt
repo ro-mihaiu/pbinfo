@@ -1,0 +1,23 @@
+#4394
+fotbal2
+
+Cerința
+Se cere numărul de moduri în care se poate alcătui o echipă cu K dintre cei N elevi; deoarece acest număr poate să fie foarte mare, el se va afișa modulo 1.000.000.009 .
+
+Restricții
+2 ≤ K ≤ N ≤ 100.000
+0 ≤ start i ≤ end i ≤ 1.000.000.000 , pentru orice i de la 0 la N − 1
+f i ∈ {0, 1} , pentru orice i de la 0 la N − 1
+Pentru 25 de puncte, K = 2 și 2 ≤ N ≤ 1000
+Pentru 17 de puncte, K = 2 și există cel mult 5 copii care sunt stângaci
+Pentru 33 de puncte, 2 ≤ K ≤ N ≤ 1000
+Pentru 25 de puncte, fără restricții suplimentare
+
+Exemplu
+Input: 5 2
+1 8 0
+2 5 1
+3 7 0
+0 9 1
+6 12 0
+Output: 5

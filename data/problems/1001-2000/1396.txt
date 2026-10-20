@@ -1,0 +1,24 @@
+#1396
+MDiferenta
+
+Cerința
+Se dau două matrice cu elemente numere întregi. Calculați diferența dintre prima și a doua matrice.
+
+Restricții
+1 ≤ n , m , p , q ≤ 100 ;
+valoarea absolută a elementelor fiecărei matrice vor fi mai mici decât 1.000.000.000 ;
+scăderea matricelor se poate efectua pentru fiecare test.
+
+Exemplu
+Input: 3 4
+2 1 4 6 
+5 -8 5 5 
+2 5 -2 4 
+3 4
+3 7 -5 0 
+1 -4 1 5 
+-4 2 8 7
+Output: 3 4
+-1 -6 9 6 
+4 -4 4 0 
+6 3 -10 -3

@@ -1,0 +1,14 @@
+#1510
+FCautare
+
+Cerința
+Scrieţi definiția completă a unei funcții C++ care are ca parametri un număr natural n , un șir crescător X de numere reale având n elemente și un număr real v și care returnează poziția pe care apare în șir valoarea v . În cazul în care v nu apare în șir, se va returna valoarea -1 . În cazul în care v apare în șir pe mai multe poziții, se va returna una dintre acestea.
+
+Restricții
+0 < n <= 100
+v și elementele lui X sunt numere reale – se va folosi tipul double
+numele subprogramului cerut este cautare
+parametrii sunt, în această ordine: n , X , v
+elementele tabloului X sunt indexate de la zero
+
+Exemplu

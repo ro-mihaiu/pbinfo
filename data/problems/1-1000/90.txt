@@ -1,0 +1,18 @@
+#90
+numarmaximvocale
+
+Cerința
+Să se scrie un program care citește mai multe propoziții și determină propoziția cu cele mai multe vocale.
+
+Restricții
+0<n<100
+fiecare propoziție va conține cel mult 250 de caractere
+dacă sunt mai multe propoziții cu număr maxim de vocale se poate afișa oricare
+
+Exemplu
+Input: 4
+somnoroase pasarele
+pe la cuiburi se aduna
+se ascund in ramurele
+noapte buna
+Output: pe la cuiburi se aduna

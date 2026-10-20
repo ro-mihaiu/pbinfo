@@ -1,0 +1,16 @@
+#3252
+Alphanum
+
+Cerința
+Scrieți funcția cu antetul:
+void Alphanum(char s[], char cuv[][21], int &n, int num[], int &m)
+Șirul s conține cuvinte formate din litere mici, numere formate cu cifre, iar cuvintele și numerele sunt separate prin unul sau mai multe spații. Să se memoreze cuvintele în vectorul cuv și numerele în num . Numărul de cuvinte va fi reținut în n , iar numărul de numere în m .
+
+Restricții
+numerele sunt naturale mai mici sau egale cu 2.000.000.000
+cuvintele au lungimea cel mult 20
+în șirul s va exista cel puțin un cuvânt și cel puțin un număr
+Cuvintele și numerele se memorează în ordinea în care apar în s .
+indexarea va fi de la 0 în cuv și în num
+
+Exemplu

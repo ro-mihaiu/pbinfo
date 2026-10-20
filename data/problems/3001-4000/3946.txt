@@ -1,0 +1,12 @@
+#3946
+CainiSiPisici3
+
+Cerința
+Avem la dispoziție oricâți căței și oricâte pisici, câte așezări ale acestora în linie dreaptă de lungime n există astfel incât să nu avem o pisică între 2 căței și configurația să înceapă cu un câine și să se termine cu o pisică? Răspunsul se afișează modulo \(10^9+7\).
+
+Restricții
+2 ≤ n ≤ 1.000.000 .
+
+Exemplu
+Input: 3
+Output: 2

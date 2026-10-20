@@ -1,0 +1,16 @@
+#3211
+cumparaturi1
+
+Cerința
+Gigel are S lei. O ciocolata costă c lei, iar o napolitană costă n lei. Gigel poate să cumpere fie ciocolate, fie napolitane, cu condiția să cheltuiască întreaga sumă. Scrieți un program care să citească numerele S c n și să afișeze pe ecran:
+textul CN dacă Gigel poate alege să cumpere ciocolate sau napolitane;
+textul C dacă Gigel poate să cumpere numai ciocolate;
+textul N dacă Gigel poate să cumpere numai napolitane;
+textul nimic dacă Gigel nu poate să cumpere nici ciocolate, nici napolitane.
+
+Restricții
+1 ≤ S , c , n ≤ 1.000.000.000
+
+Exemplu
+Input: 15 4 3
+Output: N

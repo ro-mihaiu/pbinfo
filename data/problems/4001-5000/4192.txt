@@ -1,0 +1,7 @@
+#4192
+Bac_Angajati
+
+Cerința
+Scrieți o secvență de instrucțiuni în urma executării căreia pentru primul angajat să se inițializeze anul nașterii cu valoarea 2000 , iar venitul cu valoarea 4000 .
+
+Exemplu

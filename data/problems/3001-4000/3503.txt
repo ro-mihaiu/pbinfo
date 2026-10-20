@@ -1,0 +1,13 @@
+#3503
+Biarbore1
+
+Cerința
+Se consideră un arbore binar în care nodurile memorează numere naturale nenule. Să se determine valorile memorate în descendenții direcți ai rădăcinii arborelui.
+
+Restricții
+se vor citi cel mult 1.111.111 numere
+numerele din fișierului de intrare vor fi mai mici decât 1.111.111.111
+
+Exemplu
+Input: 67 51 18 0 0 24 0 0 48 0 11 0 0
+Output: 51 48

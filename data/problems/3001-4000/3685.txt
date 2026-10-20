@@ -1,0 +1,27 @@
+#3685
+Primest Prime Pancakes
+
+Cerința
+Pentru a câștiga niște bani în plus, Ștefan s-a decis să deschidă un magazin nou de clătite pentru următorul sezon estival, deoarece toată lumea e înnebunită dupa clătite vara. Magazinul va vinde n tipuri de clătite, fiecare dintre ele având un cod anume(două clătite pot avea același cod), în funcție de tipul clătitei.
+Pentru a afla prețul unei clătite, Ștefan a găsit un algoritm interesant pentru a decide prețul clătitei. Pentru că numerele prime sunt favoritele sale, prețul va depinde de cât de “primă” este clătita.
+Astfel:
+Prețul inițial al clătitei e x euro, x fiind dat în datele de intrare.
+Dacă codul clătitei e un număr prim, prețul crește cu cod + p euro, unde cod e valoarea codului și p e dat în datele de intrare.
+Pentru fiecare cifră primă din cod (2, 3, 5, 7) , prețul va crește cu d[i] euro, unde valorile d[i] sunt date în datele de intrare.
+Dacă suma cifrelor codului este număr prim, prețul crește cu sc euro, unde sc e suma cifrelor codului.
+Dacă produsul cifrelor codului este număr prim, prețul crește cu pd euro, unde pd e produsul cifrelor din cod.
+Din păcate, această metodă poate să nu ducă la un profit îndeajuns de mare și acum a venit vremea să îl ajutați pe Ștefan să obțină cel mai mare profit posibil. Pentru a realiza acest obiectiv, puteți să schimbați cel mult o cifră din fiecare cod pentru a maximiza suma prețurilor clătitelor.
+Totuși, nu puteți face prima cifră egală cu 0 pentru a obține un număr cu o cifră mai puțin, chiar dacă ar putea fi cea mai profitabilă alegere.
+
+Restricții
+1 ≤ n ≤ 100 000
+1 ≤ cod[i] ≤ 999 999
+1 ≤ x, p, d[i] ≤ 1 000 000
+Pentru teste în valoare de 30 de puncte, 1 ≤ n ≤ 1000 .
+
+Exemplu
+Input: 4
+12 89 941 101
+5 7
+8 5 3 9
+Output: 1907

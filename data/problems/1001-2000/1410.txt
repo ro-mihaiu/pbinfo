@@ -1,0 +1,22 @@
+#1410
+Numere12
+
+Cerința
+Se citesc perechi de numere naturale până la citirea a două valori nule. Să se determine câte dintre perechile X Y au proprietatea că prin concatenarea lui X cu Y sau a lui Y cu X să se obțină un palindrom.
+
+Restricții
+se vor citi cel mult 40 de perechi de numere;
+ultima pereche citită nu se va lua în considerare;
+toate numerele citite vor fi mai mici decât 1.000.000 ;
+toate numerele citite sunt nenule, cu excepția ultimelor două;
+prin concatenarea a două numere înțelegem “lipirea” lor; de exemplu, 12 concatenat cu 5 este 125 , iar 5 concatenat cu 12 este 512 .
+
+Exemplu
+Input: 14 516
+14 416
+13 13
+123 321
+156 2651
+456 674
+0 0
+Output: 3

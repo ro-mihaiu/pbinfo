@@ -1,0 +1,15 @@
+#370
+SumDivK
+
+Cerința
+Se dau două numere naturale k și n și apoi n numere naturale. Calculaţi suma celor care au suma cifrelor divizibilă cu k .
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ k ≤ 10
+cele n numere citite vor avea cel mult 7 cifre
+
+Exemplu
+Input: 3 5
+480 725 72 1698 56
+Output: 2250

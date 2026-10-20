@@ -1,0 +1,27 @@
+#2129
+Prime1
+
+Cerința
+Scrieţi un program care citeşte numărul natural n şi o secvenţă de n numere naturale, apoi rezolvă următoarele cerinţe:
+determină şi afişează câte dintre numerele din secvenţa dată sunt numere prime din şirul Fibonacci;
+determină şi afişează câte dintre numerele din secvenţa dată sunt numere economice;
+determină şi afişează câte dintre numerele din secvenţa dată nu pot fi scrise ca sumă de două numere prime.
+
+Restricții
+1 < n ≤ 50
+Dacă c=1 sau c=3 numerele naturale din şir sunt mai mari decât 1 şi mai mici decât 10^7 .
+Dacă c=2 numerele naturale din şir sunt mai mari decât 1 şi mai mici decât 10^14 . Pentru rezolvarea corectă a cerinţei 1 se acordă 20 de puncte; pentru rezolvarea corectă a cerinţei 2 se acordă 50 de puncte, iar pentru rezolvarea corectă a cerinţei 3 se acordă 30 de puncte.
+
+Exemplu
+Input: 1
+5
+2 10 13 997 233
+Output: 3
+Input: 2
+4
+128 25 4374 720
+Output: 2
+Input: 3
+5
+57 30 121 11 3
+Output: 4

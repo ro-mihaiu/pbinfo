@@ -1,0 +1,44 @@
+#1132
+Defrag
+
+Cerința
+Cunoscând numărul de piste P și de sectoare S al unui platan, numărul și poziția clusterilor ocupați, să se scrie un program care determină :
+1. numărul de piste care au toți clusterii liberi; 2. numărul minim de mutări de clusteri, pentru fiecare pistă în parte, astfel încât platanul să devină defragmentat.
+
+Restricții
+1 ≤ P ≤ 100
+1 ≤ S ≤ 360
+1 ≤ C ≤ P*S
+pistele sunt numerotate de la 1 la P începând cu pista exterioară;
+sectoarele sunt numerotate de la 1 la S în sensul acelor de ceasornic începând cu sectorul 1 ;
+dacă o pistă are toți clusterii liberi, atunci valoarea cerută la a doua cerință este 0 ; 20% din teste vor avea valoarea V = 1 , iar 80% din teste vor avea valoarea V = 2 .
+
+Exemplu
+Input: 1 
+4 8
+10
+1 1
+1 3
+1 5
+1 7
+4 5
+4 1
+4 6
+4 8
+2 2
+2 4
+Output: 1
+Input: 2 
+4 8
+10
+1 1
+1 3
+1 5
+1 7
+4 5
+4 1
+4 6
+4 8
+2 2
+2 4
+Output: 2 1 0 1

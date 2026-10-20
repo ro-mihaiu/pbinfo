@@ -1,0 +1,18 @@
+#3256
+Livada_XI
+
+Cerința
+Fermierul Gigel are o livadă cu peri de forma unui triunghi dreptunghic cu laturile de câte n peri fiecare și având perii organizați pe linii și coloane. Pe prima linie este un singur păr, pe a doua doi peri, etc. Pe ultima linie sunt n peri. Pentru fiecare păr se cunoaște numărul de pere din el. Hoțul Dorel intră în livada lui Gigel prin colțul stânga jos, adică prin primul element al ultimei linii. El se poate deplasa paralel cu rândurile de peri, adică cu liniile, respectiv cu coloanele livezii. Astfel, dintr-o poziție aflată pe linia i și coloana j , Dorel poate merge pe linia i-1 și coloana j sau pe linia i și coloana j+1 . Ca să nu îl prindă Gigel, hoțul Dorel trebuie ia toate perele din perii de pe traseul pe care merge, să iasă pe la sfârșitul unei linii de peri și să fure un număr minim de pere (deoarece nu e lacom sau nu le poate duce și îl prinde Gigel).
+
+Restricții
+1 ≤ n ≤ 100
+numărul de pere din fiecare păr este mai mic decât 1000
+
+Exemplu
+Input: 5
+4
+1 4
+2 1 3
+6 4 4 4
+4 5 2 2 7
+Output: 16

@@ -1,0 +1,13 @@
+#1301
+isoscel
+
+Cerința
+Se citesc trei numere reale de la tastatură. Să se verifice dacă formează laturile unui triunghi isoscel.
+
+Restricții
+triunghiul echilateral nu este considerat isoscel
+laturile triunghiului oarecare sunt distincte două câte două
+
+Exemplu
+Input: 5 7.5 5
+Output: Formeaza triunghi isoscel

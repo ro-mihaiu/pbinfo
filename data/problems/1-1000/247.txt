@@ -1,0 +1,11 @@
+#247
+cifreord1
+
+Cerința
+Se dau mai multe numere naturale, fiecare cu cel mult 9 cifre. Să se afişeze, în ordine descrescătoare, toate cifrele care apar în numerele date.
+
+Exemplu
+Input: 301941 81912 83392
+776996 431446
+Output: 9 9 9 9 9 8 8 7 7 6 6 6 4 4 4 4 3 3 3 3 
+2 2 1 1 1 1 1 0

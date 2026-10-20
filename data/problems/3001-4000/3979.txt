@@ -1,0 +1,16 @@
+#3979
+suma37
+
+Cerința
+Se dă un număr natural nenul n . Calculați suma cifrelor lui n care sunt mai mari sau egale cu 3 și mai mici sau egale cu 7 .
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+
+Exemplu
+Input: 3590
+Output: 8
+Input: 144620
+Output: 14
+Input: 2021
+Output: 0

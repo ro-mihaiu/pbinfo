@@ -1,0 +1,16 @@
+#1444
+memory001
+
+Cerința
+Se dă o matrice cu m linii şi n coloane şi elemente numere naturale. Determinaţi coloana din matrice pentru care suma elementelor este minimă. Dacă sunt mai multe coloane cu suma minimă, se va afişa indicele minim al unei asemenea coloane.
+
+Restricții
+2 ≤ m , n ≤ 1000
+elementele matricei vor fi mai mici decât 2.000.000.000
+numerotarea liniilor și a coloanelor matricei începe de la 1
+
+Exemplu
+Input: 2 3
+1 2 3 
+7 10 5
+Output: 1

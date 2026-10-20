@@ -1,0 +1,16 @@
+#3094
+excursie0
+
+Cerința
+Un băiat și tatăl lui se decid să plece într-o excursie prin lume, fiecare de la casa lui pe același traseu. Deoarece nu au reușit să găsească destule zile libere de la serviciu încât să aibă timp să se întâlnească înainte de plecarea programată, se hotărăsc să plece separat și dacă se întâlnesc pe drum consideră excursia un succes.
+Considerăm traseul excursiei o linie dreaptă cu coordonate unidimensionale reprezentate de numere naturale (0,1,2,3…) . Tatăl parcurge exact t km/zi, după care trebuie să înnopteze la o pensiune. Băiatul parcurge exact b km/zi, după care de asemenea trebuie să înnopteze la o pensiune. Tatăl pleacă de la el de acasă(poziția pt ), iar fiul pleacă de la casa lui(poziția pb ). Amândoi pleacă în aceeași zi, merg în aceeași direcție, iar excursia durează z zile.
+Pensiunile se află la fiecare coordonată 0 , 1 , 2 , 3 , …. Tatăl și băiatul se pot întâlni numai dacă se află la aceeași coordonată în același timp.
+Se cere să se determine dacă pe parcursul celor z zile ale excursiei, băiatul și tatăl se întâlnesc. Dacă da, se afișează coordonata unde se întâlnesc, altfel se afișează -1 .
+
+Restricții
+1 ≤ z ≤ 30
+1 ≤ pb,pt,b,t ≤ 10000
+
+Exemplu
+Input: 5 0 3 4 2
+Output: 12

@@ -1,0 +1,23 @@
+#2706
+serbare2
+
+Cerința
+Cunoscând n – dimensiunea eșantionului studiat, capacitatea fiecărui copil de a relaționa cu ceilalți și k – numărul maxim de personaje din scenetă, să se determine cel mai mare număr de copii care pot fi implicați în serbare, știind ca fiecare dintre aceștia trebuie să relaționeze cu toți ceilalți copii din scenetă.
+
+Restricții
+2 ≤ n ≤ 100
+2 ≤ k ≤ 10
+Se consideră că un copil NU relaționează cu el însuși.
+
+Exemplu
+Input: 3 3
+0 1 1
+1 0 1
+1 1 0
+Output: 3
+Input: 4 3
+0 1 0 1
+1 0 1 0
+0 1 0 0
+1 0 0 0
+Output: 2

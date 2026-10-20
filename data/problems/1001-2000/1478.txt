@@ -1,0 +1,38 @@
+#1478
+EasyOCR
+
+Cerința
+Scrieţi un program care să determine:
+a) câte cifre sunt în imagine; b) numărul de apariţii ale fiecărei cifre.
+Spre exemplu, dacă imaginea scanată arată ca în figura următoare:
+atunci rezultatul va fi:
+8
+0 2 1 1 3 2 5 1 7 1 8 1.
+Explicaţie: în total sunt 8 cifre, cifra 0 apare de 2 ori, 1 apare o dată, 3 de două ori, 5 o dată, 7 o dată şi cifra 8 are o singură apariţie.
+
+Restricții
+0 ≤ n, m ≤ 1000
+0 ≤ nr ≤ 2000 , unde nr reprezintă numărul de cifre aflate în matrice.
+O parte din conturul unei cifre poate coincide cu conturul matricei (zonei dreptunghiulare).
+
+Exemplu
+Input: 17 15
+000000000000000
+011111000000000
+010000000000000
+010000000000000
+011111000000001
+000001000000011
+000001011111001
+011111000001001
+000000000001001
+011111000010001
+000001000100101
+000001000101100
+011111000100100
+000001000000100
+000001000000100
+011111000000100
+000000000000100
+Output: 5
+1 2 3 1 5 1 7 1

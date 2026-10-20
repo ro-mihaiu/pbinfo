@@ -1,0 +1,12 @@
+#4482
+PrefixSufixMax1
+
+Cerința
+Să se scrie un program care să determine cel mai lung prefix care este palindrom și cel mai lung sufix care este palindrom dintr-un cuvânt citit de la tastatură.
+
+Restricții
+un cuvânt este palindrom dacă se citește la fel în ambele direcții
+cuvântul citit este format din cel mult 100 de caractere litere mici
+dacă cuvântul citit are proprietatea că este palindrom, atunci atât cel mai lung prefix, cât și cel mai lung sufix, vor fi identice cu cuvântul citit.
+
+Exemplu

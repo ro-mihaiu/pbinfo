@@ -1,0 +1,21 @@
+#4583
+criptare2
+
+Cerința
+Să se scrie un program care citește un număr natural c , reprezentând cerința care trebuie să fie rezolvată, apoi citește un cuvânt. Programul rezolvă următoarele cerințe: 1. Dacă c = 1 , șirul citit este un cuvânt necriptat, programul va determina și va afișa cript-ul obținut conform algoritmului descris anterior. 2. Dacă c = 2 , șirul citit este un cript, programul va determina și va afișa cuvântul necriptat. 3. Dacă c = 3 , șirul citit este un cuvânt necriptat, programul va determina matricea de caractere obținută conform algoritmului descris anterior și va afișa numărul maxim de elemente dintr-o submatrice cu proprietatea că în colțurile sale se află același caracter.
+
+Restricții
+3 ≤ lungimea cuvântului aflat pe prima linie a fișierului ≤ 100
+În matricea de cuvinte liniile şi coloanele se numerotează de la 0 .
+Dacă șirul inițial apare pe mai multe linii ale matricei, se va considera că prima apariție reprezintă șirul inițial.
+
+Exemplu
+Input: 1
+ANA
+Output: NAA1
+Input: 1
+ANA
+Output: NAA1
+Input: 3
+MERE
+Output: 6

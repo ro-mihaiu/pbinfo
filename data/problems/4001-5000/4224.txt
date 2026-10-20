@@ -1,0 +1,15 @@
+#4224
+MaxMinDif1
+
+Cerința
+Scrieţi definiția completă a subprogramului C++ cu antetul:
+int MaxMinDif1(int a[], int n)
+Subprogramul returnează numărul maxim de elemente care pot fi selectate astfel încât diferența dintre valoarea maximă și valoarea minimă a numerelor alese să fie de cel mult 1 .
+
+Restricții
+-10000 ≤ a[i] ≤ 10000
+1 ≤ n ≤ 20.000
+elementele vectorului a sunt indexate de la 0
+Puteți utiliza în rezolvare orice structură de date și orice funcție predefinită.
+
+Exemplu

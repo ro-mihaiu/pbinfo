@@ -1,0 +1,16 @@
+#4294
+perechiN
+
+Cerința
+Se dă un număr natural nenul n . Afișați toate perechile x y cu proprietatea că x + y = n și 0 < x ≤ y .
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 10
+Output: 1 9
+2 8
+3 7
+4 6
+5 5

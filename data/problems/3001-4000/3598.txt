@@ -1,0 +1,25 @@
+#3598
+Beaufort
+
+Cerința
+Cifrul Beaufort este un cifre ce foloseste o matrice cu litere de marimea 26x26 iar liniile si coloanele vor avea asociata o litera (linia si coloana 1 le vom nota cu A , linia si coloana 2 cu B …, linia si coloana 26 cu Z ). Matricea se va forma asa:
+Pe linia 1 se pun literele A , B , C … Z
+Pe linia 2 se pun literele B , C , D … Z , A
+Pe linia 3 se pun literele C , D , E … Z , A , B
+linia 4 se pun literele D , E , F … Z , A , B , C
+…
+Pe linia 26 se pun literele Z , A , B , C , … Y
+Cu alte cuvinte, pentru fiecare linie i ( 1≤i≤26 ), se vor lua primele i-1 litere din alfabet si se pun la sfarsitul acestuia.
+Cifrul mai foloseste o cheie si un mesaj. Cheia o putem considera un vector C care are n litere si incepe de pe pozitia 0 iar mesajul il vom considera un vector M care incepe si el de pe pozitia 0 .
+pentru fiecare litera M[i] , cautam pe coloana M[i] litera C[i%n] si afisam pe ce linie se afla, 0 ≤ i < lungimea mesajului .
+
+Restricții
+1≤lungimea mesajului, lungimea cheii≤10000
+
+Exemplu
+Input: FORTIFICATION
+DEFENDTHEEASTWALLOFTHECASTLE
+Output: CKMPVCPVWPIWUJOGIUAPVWRIWUUK
+Input: FORTIFICATION
+CKMPVCPVWPIWUJOGIUAPVWRIWUUK
+Output: DEFENDTHEEASTWALLOFTHECASTLE

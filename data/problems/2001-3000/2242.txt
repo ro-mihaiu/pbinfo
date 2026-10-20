@@ -1,0 +1,13 @@
+#2242
+inserari
+
+Cerința
+Să se obțină șirul ordonat crescător efectuând un număr minim de operații de inserare.
+
+Restricții
+1 ≤ n ≤ 100 000
+
+Exemplu
+Input: 6
+1 2 5 3 6 4
+Output: 2

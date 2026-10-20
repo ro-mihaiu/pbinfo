@@ -1,0 +1,19 @@
+#190
+Oglindiri
+
+Cerința
+Să se afișeze elementele vectorului după realizarea, în ordine, a celor m oglindiri.
+
+Restricții
+1 ≤ n ≤ 100
+numerele de pe a doua linie a fişierului de intrare vor fi mai mici decât 1000
+1 ≤ m ≤ 100
+
+Exemplu
+Input: 10
+55 50 16 37 66 44 31 24 10 63 
+3
+5 8 
+2 6 
+6 10
+Output: 55 31 24 37 16 63 10 66 44 50

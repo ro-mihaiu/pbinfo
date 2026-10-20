@@ -1,0 +1,20 @@
+#228
+genmat15
+
+Cerința
+Scrieţi un program care citeşte de la tastatură două numere naturale n şi m şi construieşte în memorie o matrice cu n linii şi m coloane care conţine numerele naturale de la 1 la m*n , dispuse astfel:
+prima linie conţine numerele de la 1 la m , ordonate crescător;
+a doua linie conţine numerele de la m+1 la 2*m , ordonate descrescător;
+a treia linie conţine numerele de la 2*m+1 la 3*m , ordonate crescător;
+a patra linie conţine numerele de la 3*m+1 la 4*m , ordonate descrescător;
+etc.
+
+Restricții
+3≤n,m≤15
+
+Exemplu
+Input: 4 5
+Output: 1 2 3 4 5
+10 9 8 7 6
+11 12 13 14 15
+20 19 18 17 16

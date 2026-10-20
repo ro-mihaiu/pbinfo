@@ -1,0 +1,18 @@
+#4183
+bac_eroziune
+
+Cerința
+Scrieți un program C/C++ care citește de la tastatură două numere naturale L și C , apoi elementele unui tablou bidimensional cu L linii şi C coloane reprezentând nivelurile parcelelor, în ordinea dispunerii acestora pe plajă și determină cantitatea totală de nisip adăugată, măsurată în metri cubi.
+
+Restricții
+1 ≤ L, C ≤ 100
+Elementele tabloului bidimensional sunt numere naturale cuprinse între 1 și 10
+
+Exemplu
+Input: 5 4 
+5 3 4 6
+7 5 9 3
+6 8 3 9
+4 5 2 3
+3 1 4 4
+Output: 7

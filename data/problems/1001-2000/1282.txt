@@ -1,0 +1,13 @@
+#1282
+radical
+
+Cerința
+Se dă un număr. Să se afișeze rădăcina sa pătrată.
+
+Restricții
+1 ≤ n ≤ 1000
+în fiecare test numărul n va fi pătrat perfect
+
+Exemplu
+Input: 9
+Output: 3

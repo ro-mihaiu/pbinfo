@@ -1,0 +1,53 @@
+#2352
+careu
+
+Cerința
+Să se scrie un program care sa determine, pentru un careu dat, punctajul maxim și cuvintele care permit obținerea punctajului maxim. Dacă nu există astfel de cuvinte se va afișa valoarea 0 .
+
+Restricții
+2 <= n <= 50
+Cuvintele sunt scrise cu litere mari și lungimea cuvintelor din soluție trebuie să fie cel puțin 2 .
+Pentru cerința 1 se acordă 60% din punctaj, iar pentru cerința 2 se acordă 30% din punctaj
+În concurs s-au acordat 10 puncte din oficiu; aici se acordă 10 puncte pentru cele trei exemple.
+
+Exemplu
+Input: 3
+A.A
+B.A
+..C
+1
+Output: 0
+Input: 10
+VERDE.CRIN
+DANA.DDDDD
+VOI.AOQOA.
+NU.AAOTE..
+.UBOBU.AIA
+EZNGAIETAR
+ORIOATZULI
+TURN.NNNNN
+O.ZZCZZ.IU
+ELEGATEL.O
+1
+Output: 8
+AABAA
+AOQOA
+DDDDD
+EOTOE
+EZNZE
+NNNNN
+UBOBU
+ZZCZZ
+Input: 10
+VERDE.CRIN
+DANA.DDDDD
+VOI.AOQOA.
+NU.AAOTE..
+.UBOBU.AIA
+EZNGAIETAR
+ORIOATZULI
+TURN.NNNNN
+O.ZZCZZ.IU
+ELEGATEL.O
+2
+Output: 832

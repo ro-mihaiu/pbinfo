@@ -1,0 +1,17 @@
+#3271
+perechecmmdc
+
+Cerința
+Se dă un șir de n perechi de numere naturale nenule. Să se determine perechea pentru care cel mai mare divizor comun este maxim. Dacă există mai multe asemenea perechi, se va determina aceea pentru care suma valorilor este maximă. Dacă există mai multe asemenea perechi, se va determina prima din șir.
+
+Restricții
+1 ≤ n ≤ 1000
+valorile din cele n numere citite vor fi mai mici decât \(2^{31}\)
+
+Exemplu
+Input: 4
+12 18
+16 12
+18 30
+25 35
+Output: 18 30

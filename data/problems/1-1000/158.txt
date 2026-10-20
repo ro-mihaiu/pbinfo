@@ -1,0 +1,15 @@
+#158
+inserare
+
+Cerința
+Să se insereze pe poziția p în șir valoarea X .
+
+Restricții
+1 ≤ p ≤ n ≤ 25
+valoarea X și elementele șirului vor fi cuprinse între -1.000.000 și 1.000.000
+elementele șirului vor avea indici între 1 și n .
+
+Exemplu
+Input: 5 10 2
+7 3 9 1 6
+Output: 7 10 3 9 1 6

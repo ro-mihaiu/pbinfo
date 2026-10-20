@@ -1,0 +1,12 @@
+#2121
+Tan
+
+Cerința
+Cunoscând numărul n furnizat de bancă, să se determine numărul TAN obţinut de Petrică.
+
+Restricții
+• 0 < n < 18*10 18 • n are cel puţin o cifră pară • numărul TAN obţinut nu poate conţine zerouri nesemnificative
+
+Exemplu
+Input: 520
+Output: 250

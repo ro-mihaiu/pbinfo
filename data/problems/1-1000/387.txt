@@ -1,0 +1,12 @@
+#387
+suma-divizorilor-impari
+
+Cerința
+Se citește un număr natural n . Să se determine suma divizorilor impari ai săi.
+
+Restricții
+0 < n < 1.000.000.000
+
+Exemplu
+Input: 30
+Output: 24

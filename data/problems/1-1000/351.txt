@@ -1,0 +1,20 @@
+#351
+piramida
+
+Cerința
+Se citește numărul natural n . Să se afișeze următoarea piramidă de numere:
+1
+1 2
+1 2 3
+.......
+1 2 3 ... n
+
+Restricții
+1 ≤ n ≤ 20
+
+Exemplu
+Input: 4
+Output: 1
+1 2
+1 2 3
+1 2 3 4

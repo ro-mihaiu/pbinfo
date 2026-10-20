@@ -1,0 +1,19 @@
+#3507
+Fibo_gcd
+
+Cerința
+Se consideră Șirul lui Fibonacci cunoscut prin relația de recurență: \( {F}_{1} = 1 \); \( {F}_{2} = 1 \); \( {F}_{i} = {F}_{i – 2} + {F}_{i – 1}, i ≥ 3 \).
+Pentru n perechi de numere naturale x y să se afișeze numărul de perechi pentru care numerele \( {F}_{x} \) și \( {F}_{y} \) sunt prime între ele.
+
+Restricții
+1 ≤ n ≤ 50.000
+1 ≤ x, y ≤ 2.000.000.000
+
+Exemplu
+Input: 5
+8 7
+3 4
+2 1
+9 6
+10 5
+Output: 3

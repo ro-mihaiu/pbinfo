@@ -1,0 +1,27 @@
+#961
+criptare
+
+Cerința
+După dezastrul cauzat de hackerul Gigel ( #Suprasolicitare ), administratorul rețelei s-a decis să ia măsuri.
+Acesta este responsabil de o rețea cu n*n calculatoare dispuse sub forma unei matrice cu n linii și n coloane, în care fiecare calculator este conectat la calculatoarele adiacente(sus, dreapta, stânga, jos), fiecare calculator de pe rândul n este conectat la calculatorul de pe rândul 1 și aceeași coloană, și fiecare calculator de pe de pe coloana n este conectat la cel de pe coloana 1 și aceeași linie.
+În această rețea, există calculatoare criptate, care nu pot primi pachete de date corupte. Calculatoarele necriptate pot primi pachete corupte dar nu le pot prelucra. Comportamentul lor este unul aparte: când un calculator necriptat primește un pachet de date, îl transmite mai departe la următorul calculator pe aceeași direcție până întâlnesc un calculator criptat. Calculatorul care conține pachetul de date corupt poate primi apoi o comandă prin care să îl transmită mai departe în altă direcție.
+Rețeaua devine suprasolicitată dacă pachetul corupt ajunge pe o linie sau coloană care conține numai calculatoare necriptate, putându-se astfel să se transmită la infinit.
+Hackerul Gigel a profitat de această slăbiciune a rețelei și a reușit dea comenzi prin terminalele calculatoarelor astfel încât pachetul de date să se transmită la infinit între ele, suprasolicitând rețeaua, (vezi problema #Suprasolicitare ).
+Administratorul rețelei a decis să cripteze suficiente calculatoare pentru a evita orice posibilitate de suprasolicitare a rețelei. Deoarece criptarea unui singur calculator ia mult timp, administratorul dorește să afle numărul minim de calculatoare care trebuie criptate astfel încât hackerul Gigel să nu se mai poată distra cu rețeaua.
+
+Restricții
+1 ≤ n ≤ 1000
+Orice soluție cu număr minim de calculatoare criptate este corectă.
+Pentru afișarea doar a lui Sol , se acordă 20% din punctaj.
+Pentru teste în valoare de 40 de puncte, n ≤ 10 .
+
+Exemplu
+Input: 5
+0 0 0 0 0
+1 1 1 1 1
+1 0 1 1 0
+0 1 0 1 0
+0 0 0 0 0
+Output: 2
+1 1
+5 3

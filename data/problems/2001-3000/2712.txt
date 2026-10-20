@@ -1,0 +1,14 @@
+#2712
+Semne
+
+Cerința
+Fie un număr n natural nenul, determinați un număr k și o combinație de semne + sau - (mai exact o succesiune \( x_1, x_2, …, x_k \) unde \( x_i \in \left\{ -1 , 1 \right\} \), astfel încat să aibă loc relația: \( n = {x}_{1} \cdot {1}^{2}+{x}_{2}\cdot{2}^{2}+…+{x}_{k}\cdot{k}^{2} \). Să se afișeze o succesiune de k semne + sau - care să îndeplinească relația de mai sus.
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 3
+Output: -+--+
+Input: 2
+Output: ---+

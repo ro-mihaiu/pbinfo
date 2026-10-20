@@ -1,0 +1,15 @@
+#4547
+SumCnt3
+
+Cerința
+Se citesc de la tastatură numerele n k , apoi un șir de n numere naturale. Să se determine suma numerelor din șir care se divid cu k și câte dintre ele sunt pare.
+
+Restricții
+n ≤ 50
+numerele din șir vor fi mai mici decât 10000
+k > 0
+
+Exemplu
+Input: 5 3
+104 63 22 12 5
+Output: 75 3

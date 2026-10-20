@@ -1,0 +1,15 @@
+#2252
+Profu
+
+Cerința
+Alex este un copil destul de bun la informatica însă are un defect: Poate fi foarte enervant(prin enervant se înțelege ca își stresează profesorii cu mesaje pe Messenger). Profesorul de informatica s-a săturat de această situație așa ca i-a spus lui Alex ca dacă nu rezolvă următoarea problema îl va bloca pe Messenger. Alex nu vrea sa se întâmple acest lucru deoarece așa e conștient ca nu va mai avea pe cine stresa. Problema sună așa:
+Avem n cutii așezate într-o stivă astfel încât avem acces doar la prima cutie.Pentru fiecare cutie sa știe un număr A[i] reprezentând volumul cutiei i = 1,2...,n . Aceste cutii trebuie transportate din localitatea A în localitatea B știind ca se pot efectua maxim k transporturi (în cazul în care s-ar efectua mai multe mașina ar rămâne fără combustibil) și de asemenea fiind o mașina închiriată trebuie sa aibă capacitatea minimă x necesară pentru a efectua cele k transporturi. Numărul x este cel ce îi dă bătăi de cap lui Alex așa ca el vă roagă să îl ajutați!
+
+Restricții
+1 ≤ n ≤ 500.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 6 3
+7 3 2 3 1 4
+Output: 8

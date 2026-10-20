@@ -1,0 +1,17 @@
+#1664
+Palindrom_Ciclic
+
+Cerința
+Un șir de numere naturale se numește palindrom dacă se citește la fel de la stânga la dreapta și de la dreapta la stânga. De exemplu, șirul (1, 2, 3, 2, 1) este palindrom, iar șirul (1, 2, 3, 2, 4) nu este palindrom. Un șir de numere naturale se numește palindrom ciclic dacă se transformă în palindrom printr-o serie de permutări ciclice ale elementelor sale. O permutare ciclică a elementelor șirului reprezintă deplasarea lor cu o poziție spre stânga (cu excepția primului element, care trece pe ultima poziție).
+Scrieţi un program care decide dacă un șir a , având n elemente numere naturale este un palindrom ciclic sau nu . În caz afirmativ, programul va determina numărul de permutări ciclice care transformă șirul dat în palindrom.
+Se recomandă definirea și apelarea de subprograme pentru : - citirea șirului din fișier ; - afișarea mesajului corespunzător ; - verificarea proprietății de palindrom ; - determinarea numărului de permutări necesare .
+
+Restricții
+1 ≤ n ≤ 1000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000.000
+În această problemă , permutările se fac doar spre stânga
+
+Exemplu
+Input: 4
+1 1 2 2
+Output: DA 1

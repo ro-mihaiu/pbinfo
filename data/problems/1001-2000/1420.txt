@@ -1,0 +1,15 @@
+#1420
+happynewyear
+
+Cerința
+Se dau n numere naturale divizibile cu 9 . Aceste numere se scriu unul lângă altul astfel încât să formeze un singur număr. Se calculează suma cifrelor numărului obţinut, apoi suma cifrelor sumei anterioare şi se continuă procedeul până se obţine ca rezultat un număr format dintr-o singură cifră. Cifra obţinută se înmulţeşte cu 7 şi se obţine un număr m . Se cere aflarea celui de-al m lea număr triunghiular.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+cele n numere citite vor fi mai mici decât 2.000.000.000
+un număr natural nenul se numeşte triunghiular dacă este egal cu numărul elementelor dintr-o matrice pătratică, situate deasupra diagonalei principale.
+
+Exemplu
+Input: 3
+2016 2016 2016
+Output: 2016

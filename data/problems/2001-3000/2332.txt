@@ -1,0 +1,15 @@
+#2332
+primXXL
+
+Cerința
+Se dau n numere naturale şi un număr natural k . Aflaţi câte dintre numerele date îl divid pe k! ( k factorial).
+
+Restricții
+1 ≤ n ≤ 10.000
+1 ≤ k ≤ 1.000.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 3 5
+20 3 14
+Output: 2

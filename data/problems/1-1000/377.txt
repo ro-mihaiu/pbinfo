@@ -1,0 +1,15 @@
+#377
+difimin
+
+Cerința
+Se citește numărul natural nenul n . Determinați două numere naturale a , b , cu proprietatea că:
+a * b = n
+a ≤ b
+diferența b-a este minimă
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 70
+Output: 7 10

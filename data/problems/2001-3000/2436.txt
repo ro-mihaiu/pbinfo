@@ -1,0 +1,51 @@
+#2436
+castel1
+
+Cerința
+Cunoscând codificarea hărţii castelului, să se determine: 1. numărul total al camerelor din castel 2. aria maximă a unei camere 3. coordonatele colţurilor din stânga-sus, respectiv dreapta-jos a camerei cu aria maximă. Dacă există mai multe camere având aceeaşi arie maximă, atunci se vor afişa coordonatele camerei având colţul din stânga-sus (lin1, col1) cu lin1 minimă, iar la linii egale pe aceea cu col1 minimă.
+
+Restricții
+2 < n ≤ 100
+Se garantează că în castel există cel puţin o cameră;
+Testele care au C = 1 totalizează 20 de puncte;
+Testele care au C = 2 totalizează 50 de puncte;
+Testele care au C = 3 totalizează 20 de puncte;
+În concurs s-au acordat 10 puncte din oficiu. Aici se vor acorda pentru exemplele din enunț.
+
+Exemplu
+Input: 1
+9
+0  2  0  0  0  0  0  0  0 
+4 15  1  0  0  2  2  0  0 
+0 10  2  0  4 11 14  1  0 
+4  9 12  1  2 10 10  2  0 
+4  3  6  5  9  8 10 12  1 
+0 10  8  4  1  4 15  5  1 
+4 13  1  4  3  2 10  6  1 
+4  7  1  0  8  8  8  8  0 
+0  8  0  0  0  0  0  0  0
+Output: 6
+Input: 2
+9
+0  2  0  0  0  0  0  0  0 
+4 15  1  0  0  2  2  0  0 
+0 10  2  0  4 11 14  1  0 
+4  9 12  1  2 10 10  2  0 
+4  3  6  5  9  8 10 12  1 
+0 10  8  4  1  4 15  5  1 
+4 13  1  4  3  2 10  6  1 
+4  7  1  0  8  8  8  8  0 
+0  8  0  0  0  0  0  0  0
+Output: 11
+Input: 3
+9
+0  2  0  0  0  0  0  0  0 
+4 15  1  0  0  2  2  0  0 
+0 10  2  0  4 11 14  1  0 
+4  9 12  1  2 10 10  2  0 
+4  3  6  5  9  8 10 12  1 
+0 10  8  4  1  4 15  5  1 
+4 13  1  4  3  2 10  6  1 
+4  7  1  0  8  8  8  8  0 
+0  8  0  0  0  0  0  0  0
+Output: 5 5 7 8

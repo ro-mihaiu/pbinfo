@@ -1,0 +1,14 @@
+#2700
+RadixSort
+
+Cerința
+Fiind dat un șir cu n elemente, nu neapărat distincte, se cere sortarea crescătoare a acestuia folosind metoda Radix Sort .
+
+Restricții
+2 ≤ n ≤ 1.000.000 ;
+numerele de pe a doua linie a fișierului de intrare vor avea maximum 9 cifre.
+
+Exemplu
+Input: 8
+170 20 45 75 90 802 24 2
+Output: 2 20 24 45 75 90 170 802

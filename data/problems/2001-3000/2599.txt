@@ -1,0 +1,12 @@
+#2599
+a16
+
+Cerința
+Scrieți un program care cere de la tastatură un număr a (de o cifră) și care afișează valoarea expresiei \(a^{16}\). Aplicați de cât mai puține ori operatorul de înmulțire.
+
+Restricții
+0 ≤ a ≤ 9
+
+Exemplu
+Input: 2
+Output: 65536

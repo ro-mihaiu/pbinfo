@@ -1,0 +1,13 @@
+#303
+eratostene
+
+Cerința
+Se dau n numere naturale mai mici decât 1.000.000 . Determinaţi câte dintre ele sunt prime.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+
+Exemplu
+Input: 6
+12 18 19 25 29 7
+Output: 3

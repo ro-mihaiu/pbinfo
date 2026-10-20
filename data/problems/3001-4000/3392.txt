@@ -1,0 +1,25 @@
+#3392
+magazin
+
+Cerința
+Se cere să se determine numărul minim de litere (lungimea celui mai scurt prefix) de care are nevoie fiecare dintre prieteni pentru a-și construi numele. Un nume poate fi construit dacă fiecare literă din nume este cumpărată într-o cantitate mai mare sau egală. E garantat că fiecare prieten poate să-și construiască numele folosind literele din șirul de caractere s . Valorile pentru prieteni sunt independente, prietenii nu-și pot imprumuta litere între ei.
+
+Restricții
+1 ≤ n ≤ 200.000
+1 ≤ m ≤ 50.000
+\( \sum\limits_{i=1}^m strlen(t[i]) ≤ 200.000 \)
+
+Exemplu
+Input: 12
+martiaunseed
+5
+marius
+matei
+marian
+marti
+andrei
+Output: 9
+10
+8
+5
+12

@@ -1,0 +1,12 @@
+#338
+expresie5
+
+Cerința
+Să se scrie un program care citește numărul natural n și determină suma S=1 1 +2 2 + ... + n n .
+
+Restricții
+0 < n <= 15
+
+Exemplu
+Input: 4
+Output: Rezultatul este 288

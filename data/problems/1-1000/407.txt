@@ -1,0 +1,14 @@
+#407
+OglinditPrim
+
+Cerința
+Se dă un șir cu n numere naturale. Determinați suma celor care au oglinditul număr prim.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 6
+133 35 41 31 90 7
+Output: 206

@@ -1,0 +1,13 @@
+#4053
+foarfeca
+
+Cerința
+Se dă o un șir \(p\) de \(n\) numere distincte din mulțimea \({1, 2, \dots, n}\). Separați șirul într-un număr minim de subsecvențe astfel încât după o reordonare a acestora se poate obține șirul \([1, 2, \dots, n]\).
+
+Restricții
+\(1 \le n \le 10^5\)
+
+Exemplu
+Input: 6
+6 3 4 5 1 2
+Output: 1 2 2 2 3 3

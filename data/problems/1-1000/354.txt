@@ -1,0 +1,14 @@
+#354
+n-maxim
+
+Cerința
+Se dau n numere întregi. Calculaţi cel mai mare dintre cele n numere date.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor avea cel mult 9 cifre
+
+Exemplu
+Input: 5
+7 6 9 6 8
+Output: 9

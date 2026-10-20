@@ -1,0 +1,17 @@
+#647
+Subarbore2
+
+Cerința
+Se dă vectorul de tați al unui arbore cu rădăcină cu n noduri și un nod k . Fiecare nod al arborelui are asociată o valoare numerică întreagă. Determinați suma valorilor asociate nodurilor din subarborele cu rădăcina în k .
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ k ≤ n
+în vectorul de tați rădăcina este marcată cu 0
+valorile asociate nodurilor din arbore sunt numere întregi din intervalul [-1000,1000]
+
+Exemplu
+Input: 8 4
+4 3 0 3 2 1 4 1
+-3 -2 4 4 0 -3 3 2
+Output: 3

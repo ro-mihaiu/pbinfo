@@ -1,0 +1,12 @@
+#3849
+Exponentiere
+
+Cerința
+Se dă a , b și c , să se calculeze \({a}^{{b}^{c}}\) modulo \({10}^{9}+7\).
+
+Restricții
+1 ≤ a, b, c ≤ 1.000.000.000 .
+
+Exemplu
+Input: 3 4 2
+Output: 43046721

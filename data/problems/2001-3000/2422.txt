@@ -1,0 +1,16 @@
+#2422
+ProdusMaxim
+
+Cerința
+Se citesc mai multe numere naturale nenule. Fiecare astfel de număr X se va afișa, urmat de un triplet de numere a b c cu proprietatea că a+b+c=X , iar produsul lor este maxim.
+
+Restricții
+vor fi cel mult 100.000 de numere în fișierul de intrare
+numerele citite vor fi mai mici decât 10.000.000
+a ≤ b ≤ c
+fiecare rând din fișierul de intrare va conține exact patru valori, conform cerinței
+
+Exemplu
+Input: 7 5
+Output: 7 2 2 3
+5 1 2 2

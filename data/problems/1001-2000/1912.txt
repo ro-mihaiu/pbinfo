@@ -1,0 +1,16 @@
+#1912
+Becuri
+
+Cerința
+Chris vă propune un joc cu becuri.
+în joc sunt n becuri
+inițial toate cele n becuri au culoarea albastru
+fiecare bec poate avea doar două culori: roșu sau albastru
+se efectuează n parcurgeri, pentru k de la 1 la n . La parcurgerea de rang k , se schimbă culoarea fiecărui bec situat pe poziţii având indicii multipli de k , din roşu în albastru şi invers.
+Știind numărul n de becuri, să se afișeze numărul de becuri care au culoarea roșie după terminarea jocului.
+
+Restricții
+numerotarea pozițiilor becurilor începe cu 1
+1 ≤ n ≤ 10 9
+
+Exemplu

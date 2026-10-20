@@ -1,0 +1,25 @@
+#852
+Paranteze3
+
+Cerința
+Se dau n șiruri de paranteze rotunde sau pătrate. Să se stabilească, despre fiecare șir, dacă este corect parantezat – adică dacă parantezele se închid corect.
+Un șir de paranteze S rotunde este corect parantezat dacă:
+S este șirul vid, sau
+S = (T) și T este corect parantezat, sau
+S = [T] și T este corect parantezat, sau
+S = AB , iar A și B sunt corect parantezate.
+
+Restricții
+1 ≤ n ≤ 100
+fiecare șir va avea cel mult 255 de paranteze
+
+Exemplu
+Input: 4
+()[]
+)([]
+()[(()[])()]
+([)]
+Output: 1
+0
+1
+0

@@ -1,0 +1,12 @@
+#1501
+numere_norocoase
+
+Cerința
+Scrieţi în limbajul C/C++ definiţia completă a funcţiei norocoase , care primeşte ca argumente două numere naturale a şi b şi returnează câte numere norocoase se află în intervalul [a, b] .
+
+Restricții
+1 ≤ a < b ≤ 10 9
+numele funcţiei este norocoase
+parametrii sunt, în această ordine: a , b
+
+Exemplu

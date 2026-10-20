@@ -1,0 +1,22 @@
+#539
+DFS
+
+Cerința
+Să se afișeze vârfurile vizitate în urma parcurgerii în adâncime (Depth First Search) a grafului, pornind din vârful X .
+
+Restricții
+2 ≤ n ≤ 100
+1 ≤ m ≤ n*(n-1)/2
+dacă în timpul parcurgerii, la un moment dat vârful curent al grafului este Y , vecinii nevizitați ai lui Y se vor analiza în ordine crescătoare.
+
+Exemplu
+Input: 7 8 3
+1 2
+1 3
+1 6
+2 4
+2 5
+3 6
+3 7
+4 6
+Output: 3 1 2 4 6 5 7

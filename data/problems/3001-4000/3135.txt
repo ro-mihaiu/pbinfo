@@ -1,0 +1,12 @@
+#3135
+patratmagic5
+
+Cerința
+Să citește de la tastatură un număr natural n reprezentând latura pătratului. Să se determine constanta acestuia.
+
+Restricții
+3 ≤ n ≤ 1290
+
+Exemplu
+Input: 3
+Output: 15

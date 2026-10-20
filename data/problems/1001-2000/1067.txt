@@ -1,0 +1,26 @@
+#1067
+Expresie7
+
+Cerința
+Fiind dată o expresie aritmetică ponderată să se determine:
+câte numere întregi conţine expresia aritmetică;
+care este valoarea expresiei aritmetice.
+
+Restricții
+expresia se consideră corectă
+3 ≤ lungimea unei expresii ≤ 100.000
+şirul prin care se codifică expresia poate să conţină doar următoarele caractere: cifre, paranteze rotunde şi pătrate deschise şi închise, caracterul virgulă, caracterul minus
+pentru rezolvarea primei cerinţe se obţine 20% din valoarea fiecărui test
+10% dintre teste nu vor conţine paranteze
+20% dintre teste nu vor conţine paranteze imbricate
+
+Exemplu
+Input: 2,(2,-4,1,-1,5)
+Output: 6
+7
+Input: (3,-1,4),[2,3,1,8]
+Output: 7
+8
+Input: (2,-1,[1,2,3,4,5],-4,1)
+Output: 9
+4

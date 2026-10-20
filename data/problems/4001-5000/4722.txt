@@ -1,0 +1,12 @@
+#4722
+veselCifra
+
+Cerința
+Dat un număr natural n să se verifice dacă prima cifra este egal cu suma celorlalte cifre.
+
+Restricții
+1 ≤ n ≤ \({10}^{16}\)
+
+Exemplu
+Input: 945
+Output: DA

@@ -1,0 +1,19 @@
+#3638
+String Streak
+
+Cerința
+Combatanții ezoterici au ajuns intr-o nouă lume, o lume plină de probleme ce pot fi o provocare până și pentru cei mai puternici concurenți.
+Pentru prima provocare, combatanții v-au oferit un string ce conține litere mici ale alfabetului(în care se pot modifica litere) și un număr întreg n .
+După ce s-au efectuat toate modificările, putem calcula costul după cum urmează: Dacă considerăm pozițiile modificate cu 1 și cele nemodificate cu 0 , aflăm toate subsecvențele de 1 ce nu mai pot fi extinse la stânga sau dreapta, iar apoi pentru fiecare subsecvență, dacă intervalul modificat este [L, R] , costul modificării va fi \({2}^{R-L+1}\).
+De exemplu, dacă modificăm literele de pe pozițiile 1, 2, 4, 5 și 6 , costul modificării literelor va fi 4 + 8 = 12 (avem două subsecvențe de lungime 2 și 3 ).
+Avem la dispoziție cel mult n euro și vrem să modificăm litere astfel încât să avem o subsecvență de lungime maximă care să conțină aceeași literă.
+
+Restricții
+1 ≤ |s| ≤ 100000
+1 ≤ n ≤ 1000000000
+Pentru teste în valoare de 30 de puncte, 1 ≤ |s| ≤ 100
+
+Exemplu
+Input: xabaabxab
+10
+Output: 9

@@ -1,0 +1,20 @@
+#2000
+Sir9
+
+Cerința
+1) Cunoscând numărul total de numere N și ultimul număr spus U , trebuie să calculați câte șiruri diferite au exact N numere și se termină cu numărul U . 2) Cunoscând numărul total de numere N și numărul maxim de repetări R ale unei valori, trebuie să calculați câte șiruri diferite au exact N numere și fiecare valoare se repetă de cel mult R ori. Deoarece numărul de șiruri poate fi foarte mare, calculați restul împărțirii acestui număr la 20173333 .
+
+Restricții
+1 ≤ N ≤ 100.000
+X ≤ N
+testele cu P=1 vor totaliza 50% din punctaj, restul de 50% din punctaj fiind pentru P=2 ;
+pentru teste cumulând 50 de puncte valoarea lui N nu depășește 1000 ;
+Ultima valoare spusă poate să apară de mai multe ori.
+
+Exemplu
+Input: 1 5 3
+Output: 6
+Input: 2 5 2
+Output: 8
+Input: 2 10 3
+Output: 274

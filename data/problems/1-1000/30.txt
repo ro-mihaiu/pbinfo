@@ -1,0 +1,15 @@
+#30
+afisaremultipli
+
+Cerința
+Scrieți definiția completă a funcției C++ sub care primește doi parametri n și k și determină afișarea pe ecran, în ordine descrescătoare, a primelor n numere naturale nenule divizibile cu k .
+
+Restricții
+numele funcției va fi sub
+funcția va avea exact doi parametri, în ordinea: n , respectiv k
+0 < n ≤ 50 , 0 < k ≤ 20
+cele n numere vor fi afișate pe aceeași linie, separate prin câte un spațiu
+
+Exemplu
+Input: 15 10 5
+Output: None

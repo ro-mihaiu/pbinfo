@@ -1,0 +1,12 @@
+#335
+expresie3
+
+Cerința
+Să se scrie un program care citește numărul natural n și determină suma S=1*2-2*3+3*4-...±n*(n+1) .
+
+Restricții
+0 < n ≤ 100
+
+Exemplu
+Input: 4
+Output: Rezultatul este -12

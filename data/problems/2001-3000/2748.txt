@@ -1,0 +1,12 @@
+#2748
+patrula3
+
+Cerința
+Un domeniu pătrat (cu albastru), ca cel din figură trebuie apărat. Domeniul e împărțit în pătrățele. Latura domeniului este de n pătrățele, n≥7. Pe culoarele colorate patrulează 3 soldați, care încep patrularea din colțul stânga sus în același moment (poziția inițială). În exemplul de mai jos avem n=9. Cei 3 soldați (garda) se vor schimba cu alți 3 soldați în momentul în care ajung în poziția inițială, simultan. Soldații patrulează în sensul acelor de ceasornic fiecare cu aceeași viteză constantă, și fiecare pe culoarul său. Să se scrie un program care determină numărul de circuite complete pentru fiecare soldat (un circuit complet este făcut de un soldat oarecare, pe același culoar până ajunge în poziția inițială), pentru schimbarea gărzii. S1 patrulează pe culoarul galben, S2 pe gri, S3 pe roșu. Albastrul este cetatea care trebuie apărată.
+
+Restricții
+7 ≤ n ≤ 1000
+
+Exemplu
+Input: 9
+Output: 3 4 6

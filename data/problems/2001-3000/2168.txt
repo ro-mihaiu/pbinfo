@@ -1,0 +1,18 @@
+#2168
+dir
+
+Cerința
+Scrieţi un program care, cunoscând şirul de caractere ce codifică o structură de fişiere de pe disc, determină calea pentru fiecare fişier de date din structură. Prin cale a unui fişier se înţelege o succesiune de foldere, fiecare folder fiind urmat de caracterul \(backslash) , începând de la folderul aflat pe cel mai înalt nivel al structurii (primul specificat în şirul ce codifică structura de fişiere), până la subfolderul în care se află fişierul de date respectiv şi terminată cu numele fişierului. Căile determinate vor fi afişate în ordine lexicografică.
+
+Restricții
+Şirul de caractere ce codifică structura de fişiere este nevid şi conţine maxim 1600 de caractere.
+Structura de foldere conţine cel puţin un folder şi cel puţin un fişier.
+Numărul de fişiere de date este cel mult 100 .
+Lungimea căii unui fişier este de cel mult 255 caractere.
+
+Exemplu
+Input: FOLDER1(FOLDER2(),FOLDER3(FOLDER4(poveste,basm),basm))
+Output: 3
+FOLDER1\FOLDER3\FOLDER4\basm
+FOLDER1\FOLDER3\FOLDER4\poveste
+FOLDER1\FOLDER3\basm

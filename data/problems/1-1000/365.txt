@@ -1,0 +1,12 @@
+#365
+Cifre comune
+
+Cerința
+Se citesc două numere naturale n și m . Să se decidă dacă cele două numere au cel puțin o cifră comună.
+
+Restricții
+1 ≤ n, m ≤ 1.000.000.000
+
+Exemplu
+Input: 173954 889205
+Output: DA

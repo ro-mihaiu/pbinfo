@@ -1,0 +1,14 @@
+#4318
+Cifre20
+
+Cerința
+Se dă un șir cu n elemente, numere naturale. Să se determine câte elemente ale șirului au număr impar de cifre.
+
+Restricții
+n ≤ 100
+elementele șirului sunt mai mici decât 10 9
+
+Exemplu
+Input: 5
+18 215 147 1256 7
+Output: 3

@@ -1,0 +1,26 @@
+#1594
+Maraton
+
+Cerința
+Ajutați-l pe Costy să răspundă la cele Q întrebări.
+
+Restricții
+1 <= N, Q, Qi, Xi <= 100 000
+1 <= Yi <= 1000
+
+Exemplu
+Input: 5
+100 4
+12 3
+101 5 
+20 1
+44 7
+4
+20
+12
+7
+21
+Output: 3
+2
+2
+4

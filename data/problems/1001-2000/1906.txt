@@ -1,0 +1,18 @@
+#1906
+Memory007
+
+Cerința
+Agentul 007 a uitat cifrul seifului în care păstra documentele, însă ştie cum poate fi aflat. Are nişte cartonaşe pe care sunt notate n numere naturale distincte din intervalul [ a,b ]. Mai are o listă cu m numere naturale distincte care reprezintă anumite poziţii din şirul ordonat crescător al numerelor de pe cartonaşe. Însumând numerele aflate pe poziţiile din listă se determină un număr natural care reprezintă cifrul seifului. Cum Agentul 007 nu a mai programat din liceu, vă roagă pe voi să găsiţi cifrul în schimbul a 100 de … puncte.
+
+Restricții
+1 ≤ m ≤ n ≤ 500.000
+numerele de pe cartonaşe vor fi distincte şi mai mici decât 1.000.000.000
+numerele din listă vor fi naturale nenule, distincte şi mai mici sau egale cu n , ordonate crescător
+1 ≤ a ≤ b ≤ 1.000.000.000
+n ≤ b - a ≤ 700.000
+
+Exemplu
+Input: 5 3 30 80
+78 56 34 45 61
+1 2 5
+Output: 157

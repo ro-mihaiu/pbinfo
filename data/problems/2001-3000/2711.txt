@@ -1,0 +1,13 @@
+#2711
+puterebiti
+
+Cerința
+Se dă un număr n . Afișați rezultatul operației \( 2^n\).
+
+Restricții
+0 ≤ n ≤ 30
+se recomandă utilizarea operațiilor pe biți
+
+Exemplu
+Input: 2
+Output: 4

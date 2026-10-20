@@ -1,0 +1,29 @@
+#2152
+Arhipelag
+
+Cerința
+Ionienii, fiind oameni practici, doresc construirea unui far-bibliotecă (așezat pe o platformă 1•1 ), într-o zonă acoperită de apă. Poziția platformei va fi aleasă într-o celulă C astfel încât suma distanțelor dintre toate insulele și C să fie minimă. Distanța dintre o celulă C și o insulă este definită ca fiind minimul dintre distanțele Manhattan dintre C și fiecare celulă care aparține insulei (distanța poate trece atât prin alte insule, cât și prin zone acoperite de apă). Distanța Manhattan dintre două celule aflate pe linia x1 și coloana y1 , respectiv pe linia x2 și coloana y2 , este definită ca |x1 – x2| + |y1 – y2| , unde |x| reprezintă valoarea absolută a lui x .
+
+Restricții
+Pentru teste în valoare de 15 puncte, 1 <= N, M <= 50
+Pentru alte teste în valoare de 20 de puncte, 1 <= N, M <= 300 , iar numărul de insule din arhipelag nu depășește 300
+Pentru alte teste în valoare de 20 de puncte, 1 <= N, M <= 300
+Pentru restul de teste, 1 <= N, M <= 1000
+Se garantează că există cel puțin o zonă acoperită de apă
+
+Exemplu
+Input: 7 7
+0 1 0 1 0 1 1
+0 1 0 1 0 1 1
+0 0 0 1 0 0 0
+0 0 0 1 0 0 0
+0 0 0 1 0 0 0
+1 1 0 1 0 1 1
+1 1 0 1 0 1 1
+Output: 2 3
+Input: 4 4
+0 0 1 1
+0 0 1 1
+0 0 1 1
+0 0 0 0
+Output: 1 2

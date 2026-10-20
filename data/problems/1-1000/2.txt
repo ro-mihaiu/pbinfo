@@ -1,0 +1,14 @@
+#2
+suma-n
+
+Cerința
+Calculaţi suma celor n numere date.
+
+Restricții
+0 < n < 1000
+cele n numere citite vor fi mai mici decât 1000
+
+Exemplu
+Input: 5
+6 2 0 4 1
+Output: 13

@@ -1,0 +1,25 @@
+#2282
+ComponenteConexe4
+
+Cerința
+Pentru fiecare muchie eliminată trebuie să spuneți câte componente conexe are graful.
+
+Restricții
+1 ≤ n ≤ 100 000
+1 ≤ m ≤ 500 000
+Între două vârfuri va exista cel mult o muchie
+
+Exemplu
+Input: 5 6
+1 2
+3 4
+2 3
+1 5
+5 4
+4 1
+Output: 1
+2
+3
+3
+4
+5

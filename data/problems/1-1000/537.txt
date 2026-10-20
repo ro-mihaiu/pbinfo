@@ -1,0 +1,22 @@
+#537
+ComponenteConexe2
+
+Cerința
+Se dă lista muchiilor unui graf neorientat. Să se determine numărul de muchii care pot fi eliminate din graf astfel încât numărul de componente conexe ale grafului să nu se modifice.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ i , j ≤ n
+în fișierul de intrare muchiile se pot repeta
+
+Exemplu
+Input: 7
+1 4
+1 6
+2 3
+2 7
+3 7
+4 5
+4 6
+6 5
+Output: 3

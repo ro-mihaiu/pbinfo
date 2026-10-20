@@ -1,0 +1,14 @@
+#180
+sortminmax
+
+Cerința
+Să se ordoneze crescător elementele dintr-un şir dat cuprinse între elementul de valoare maximă şi cel de valoare minimă.
+
+Restricții
+0 < n ≤ 1000
+elementele şirului sunt numere naturale mai mici decât 1.000.000
+
+Exemplu
+Input: 5
+10 20 15 7 12
+Output: 10 7 15 20 12

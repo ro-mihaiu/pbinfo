@@ -1,0 +1,20 @@
+#4630
+Saturate
+
+Cerința
+Se dă un graf neorientat cu n vârfuri și m muchii. Se numește vârf saturat un vârf care are gradul mai mare sau egal cu jumatatea numărului de vărfuri. Dacă numărul de vărfuri este impar, atunci gradul trebuie să fie mai mare strict decăt jumătatea numărului de vârfuri. Să se afișeze vârfurile saturate din graful dat.
+
+Restricții
+1 ≤ n ≤ 100
+0 ≤ m ≤ n(n-1)/2
+1 ≤ i , j ≤ n
+
+Exemplu
+Input: 5 6
+1 2
+2 3
+2 4
+2 5
+4 5
+3 5
+Output: 2 5

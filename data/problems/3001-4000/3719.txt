@@ -1,0 +1,29 @@
+#3719
+SDistante
+
+Cerința
+Se dă un șir de caractere s , care poate conține doar litere mici și mari ale alfabetului englez (de la a la z și de la A la Z ). Pentru toate perechile neordonate de subsecvențe distincte ale șirului s care au lungimi egale, vrem să calculăm distanța dintre ele și să afișăm suma acestora modulo 1.000.000.007 . Formal, se cere suma valorilor dist(s(a, b), s(c, d)) , pentru toți indicii a , b , c , d cu 0 ≤ a, b, c, d < |s| , a < c , a ≤ b , c ≤ d , b - a = d - c , modulo 1.000.000.007 . |s| reprezintă lungimea șirului s , care este indexat de la 0 .
+
+Restricții
+1 ≤ |s| ≤ 4.000.000 , unde |s| este lungimea șirului s
+Pentru 11 puncte, |s| ≤ 20 și s conține doar litere mici
+Pentru alte 5 puncte, |s| ≤ 50 și s conține doar caracterele a și b
+Pentru alte 15 puncte, |s| ≤ 350 și s conține doar litere mici
+Pentru alte 6 puncte, |s| ≤ 1000 și s conține doar caracterele a și b
+Pentru alte 30 puncte, |s| ≤ 5000 și s conține doar litere mici
+Pentru alte 5 puncte, |s| ≤ 100.000 și s conține doar caracterele a și b
+Pentru alte 4 puncte, |s| ≤ 100.000 și s conține doar litere mici
+Pentru alte 6 puncte, |s| ≤ 1.000.000 și s conține doar caracterele a și b
+Pentru alte 6 puncte, fără restricții
+
+Exemplu
+Input: abc
+Output: 5
+Input: aab
+Output: 3
+Input: ABa
+Output: 5
+Input: aaaaabbbaaaa
+Output: 480
+Input: abcdefghizabcdefghiz
+Output: 7095

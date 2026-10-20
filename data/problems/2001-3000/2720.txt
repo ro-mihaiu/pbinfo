@@ -1,0 +1,21 @@
+#2720
+bucketsort
+
+Cerința
+Se dă un şir cu n numere naturale ce trebuie sortat în funcţie de d . Dacă d este 1 , şirul se va sorta descrescător, iar dacă este 0 , se va sorta crescător.
+
+Restricții
+n ≤ 10.000
+toate numerele ≤ 100.000.000
+d=0 pentru 50% din teste
+d=1 pentru 50% din teste
+
+Exemplu
+Input: 5
+10 90 5 6 101
+0
+Output: 5 6 10 90 101
+Input: 5
+10 90 5 6 101
+1
+Output: 101 90 10 6 5

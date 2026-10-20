@@ -1,0 +1,15 @@
+#806
+Generare
+
+Cerința
+Se consideră şirul definit mai jos:
+$$ f_n = \begin{cases} 1& \text{dacă } n = 1\\ 1 + f_{n-1} & \text{dacă } n \text{ par} \\ 1 + 2 \cdot f_{n-2} & \text{altfel} \end{cases} $$
+în care nu există doi termeni cu aceeași paritate aflați pe poziții consecutive: 1, 2, 3, 4, 7, 8, 15, 16 .... .
+Pentru un număr natural x , termen al şirului dat, se cere să se afișeze pe ecran, în ordine strict descrescătoare, separați prin câte un spațiu, toţi termenii şirului care sunt mai mici sau egali cu x .
+
+Restricții
+1 ≤ x ≤ 1.000.000.000
+
+Exemplu
+Input: 15
+Output: 15 8 7 4 3 2 1

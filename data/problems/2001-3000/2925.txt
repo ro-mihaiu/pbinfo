@@ -1,0 +1,12 @@
+#2925
+FactorialnHard
+
+Cerința
+Se dă numărul natural n . Să se afișeze \( {(n!)}^{n} \).
+
+Restricții
+1 ≤ n ≤ 100 .
+
+Exemplu
+Input: 3
+Output: 216

@@ -1,0 +1,14 @@
+#301
+Frecventa1
+
+Cerința
+Se dau n numere naturale cu cel mult două cifre fiecare. Afişaţi valorile distincte în ordinea descrescătoare a numărului de apariţii.
+
+Restricții
+1 ≤ n ≤ 100.000
+dacă două valori apar de acelaşi număr de ori, se va afişa mai întâi valoarea mai mică
+
+Exemplu
+Input: 8
+3 19 3 65 3 19 14 3
+Output: 3 19 14 65

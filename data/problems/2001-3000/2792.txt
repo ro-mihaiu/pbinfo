@@ -1,0 +1,8 @@
+#2792
+Interval4
+
+Cerința
+Subprogramul interval are un singur parametru, n , prin care primește un număr natural ( n∈ [3,10 6 ] ). Subprogramul returnează cel mai mic număr natural x ( n<x ) care NU este prim, cu proprietatea că în intervalul [n,x] există un singur număr prim.
+Scrieţi definiţia completă a subprogramului.
+
+Exemplu

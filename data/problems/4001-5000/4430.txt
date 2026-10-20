@@ -1,0 +1,29 @@
+#4430
+pietricele
+
+Cerința
+Fiind dat șirul de n pietricele, să se distribuie pietricelele din șir în k subsecvențe disjuncte astfel încât: 1) Cea mai mare valoare a unui raft să fie maximă. 2) Cea mai mică valoare a unui raft să fie maximă.
+
+Restricții
+c ∈ {1, 2}
+1 ≤ k ≤ n ≤ 200.000
+valorile tipurilor de pietricele sunt cuprinse în intervalul [1, 2.000.000.000] .
+o subsecvenţă a șirului p este o succesiune de pietricele aflate pe poziții consecutive: p[i] , p[i+1] , …, p[j] , 1 ≤ i ≤ j ≤ n .
+două subsecvențe sunt disjuncte dacă nu au nicio pietricică în comun.
+se recomandă folosirea tipului de date long long .
+Pentru 10 puncte, c = 1 și pentru fiecare pietricică din șir, valoare[p[i]] ≤ valoare[p[i+1]]
+Pentru 20 puncte, c = 1 , fără restricții suplimentare.
+Pentru 10 puncte, c = 2 , n ≤ 5000 și k = 3 .
+Pentru 10 puncte, c = 2 și 1 ≤ k ≤ n ≤ 100
+Pentru 10 puncte, c = 2 și valorile tuturor tipurilor de pietricele sunt egale.
+Pentru 40 puncte, fără restricții suplimentare.
+
+Exemplu
+Input: 1 12 3
+abbaacabcbaa
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+Output: 18
+Input: 2 12 3
+aabaacabcbaa
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+Output: 6

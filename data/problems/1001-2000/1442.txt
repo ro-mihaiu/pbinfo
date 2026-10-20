@@ -1,0 +1,13 @@
+#1442
+cifra_control_comuna
+
+Cerința
+Să se scrie o funcţie care primeşte ca argumente două numere naturale a şi b şi returnează numărul de elemente din intervalul [a,b] care au cifra de control egală cu a . Cifra de control a unui număr se obţine efectuând suma cifrelor sale, apoi suma cifrelor acestei sume etc. până se obţine o sumă formată dintr-o singură cifră. De exemplu, cifra de control a numărului 645 este 6 . ( 6+4+5=15 , 1+5=6 )
+
+Restricții
+numele funcţiei va fi sum_cifra_control
+funcţia va avea doi parametri, a şi b , în această ordine
+1 ≤ a ≤ 9
+a < b ≤ 10 7
+
+Exemplu

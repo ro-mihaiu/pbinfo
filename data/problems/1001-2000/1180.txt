@@ -1,0 +1,14 @@
+#1180
+FListaInserare1
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+void inserare(nod * & p, nod * q, int x);
+care inserează valoarea x înaintea elementului cu adresa memorată în q din lista pentru care primul element are adresa memorată în pointerul p .
+
+Restricții
+lista va conține cel puțin un element;
+la adresa q se află un element al listei;
+dacă q == p , primul element se va modifica. La ieșirea din apel, p va memora adresa primului element din lista modificată.
+
+Exemplu

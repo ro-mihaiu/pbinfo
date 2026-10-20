@@ -1,0 +1,23 @@
+#3374
+caroiaj
+
+Cerința
+Cunoscând numărul natural n și un caroiaj format din n linii și n coloane de litere mici ale alfabetului englez, să se determine cea mai lungă secvență de caractere situate pe poziții alăturate în șirul construit, care este simetrică. Dacă există mai multe secvențe simetrice de lungime maximă, se va determina ultima dintre ele.
+
+Restricții
+1 ≤ n ≤ 500
+literele mici din caroiaj aparțin alfabetului englez
+
+Exemplu
+Input: 5
+abcde
+bceaf
+abade
+abbad
+ffabc
+Output: abcdefedcba
+Input: 3
+abc
+def
+ghi
+Output: e

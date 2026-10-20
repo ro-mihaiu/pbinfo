@@ -1,0 +1,33 @@
+#3753
+Primar
+
+Cerința
+Care este suma ariilor tuturor regiunilor valide posibile? Rezultatul se va afișa modulo 1.000.000.007 .
+
+Restricții
+1 ≤ N ≤ 5000 , 1 ≤ x i , y i ≤ 1.000.000
+Pentru toate testele, x i ≠ x j și y i ≠ y j , pentru orice i ≠ j .
+
+Exemplu
+Input: 5
+1 4
+4 3
+2 2
+6 6
+3 9
+Output: 32
+Input: 2
+1 1
+2 3
+Output: 0
+Input: 7
+1 1
+2 5
+4 2
+3 7
+8 3
+9 6
+10 4
+52
+2
+Output: 52

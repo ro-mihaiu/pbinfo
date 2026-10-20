@@ -1,0 +1,14 @@
+#2606
+luniramase
+
+Cerința
+Se citește de la tastatură un număr natural ce reprezintă o lună a anului (dacă citim 3 ne referim la a treia lună, deci Martie ). Programul va afișa (câte unul pe rând) numele lunilor rămase în acel an după cea citită. Se garantează că se introduce de la intrare o valoare cuprinsă între 1 și 11 . Se recomandă utilizarea instrucțiunii switch .
+
+Restricții
+1 ≤ l ≤ 11
+
+Exemplu
+Input: 9
+Output: Octombrie
+Noiembrie
+Decembrie

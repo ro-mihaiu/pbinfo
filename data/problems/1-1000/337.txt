@@ -1,0 +1,19 @@
+#337
+Saritura_Calului
+
+Cerința
+Se consideră o tablă de şah cu n linii şi m coloane. La o poziţie dată se află un cal de şah, acesta putându-se deplasa pe tablă în modul specific acestei piese de şah (în L).
+Să se determine o modalitate de parcurgere integrală a tablei de către calul dat, astfel încât acesta să nu treacă de două ori prin aceeaşi poziţie.
+
+Restricții
+1 ≤ n,m ≤ 6
+1 ≤ x ≤ n
+1 ≤ y ≤ m
+pentru fiecare dintre testele propuse, există soluție
+
+Exemplu
+Input: 4 5 1 1
+Output: 1 12 7 16 3 
+6 17 2 11 8 
+13 10 19 4 15 
+18 5 14 9 20

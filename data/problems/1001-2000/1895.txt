@@ -1,0 +1,25 @@
+#1895
+Festivaluri
+
+Cerința
+Tudor este foarte indecis, deoarece a fost chemat la r festivaluri și puterea lui fizică nu îi permite să ajungă la toate. În orașul în care locuiește sunt m străzi unidirecţionale și n intersecții numerotate cu numere de la 1 până la n . Festivalurile au loc în r intersecții. El pornește din intersecția cu numărul z .
+Pentru a ajunge dintr-o intersecție în alta, folosește străzile. Când parcurge o stradă, el consumă o anumită energie, care diferă de la stradă la stradă.
+După terminarea fiecărui festival, Tudor se va reîntoarce la casa lui, adică la intersecția cu numărul z , costul drumului de această dată fiind 0 , pornind din nou la următorul festival.
+Întrucât este un om foarte dedicat muzicii, Tudor vrea să participe la cât mai multe festivaluri, dar fără să-și depășească puterea lui fizică p .
+Determinați numărul maxim de festivaluri la care poate participa.
+
+Restricții
+1 ≤ n , m , z , r ≤ 100
+1 ≤ p≤ 10.000
+numerele de pe cele m+1 linii a fișierului de intrare vor fi mai mici decât 100
+este posibil ca plecând din intersecția z să nu se poată ajunge în toate intersecțiile
+
+Exemplu
+Input: 7 5 9 2 2
+1 2 3
+2 4 1
+4 5 2
+1 4 1
+5 7 2
+3 5
+Output: 1

@@ -1,0 +1,20 @@
+#575
+Cunoscuti
+
+Cerința
+Într-un grup sunt n persoane, numerotate de la 1 la n și o persoană poate cunoaște alte persoane – relație care nu este reciprocă. Să se determine persoana cea mai cunoscută.
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 5 8
+1 3
+1 4
+3 2
+3 4
+4 2
+5 2
+5 4
+5 1
+Output: 2 4

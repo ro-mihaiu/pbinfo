@@ -1,0 +1,16 @@
+#184
+Interval1
+
+Cerința
+Se dă un şir de n numere întregi şi un număr k . Să se determine intervalul [a,b] de lungime minimă care conţine cel puţin k elemente din sir.
+
+Restricții
+1 ≤ k ≤ n ≤ 1000
+elementele şirului aparţin intervalului [-1000,1000] şi pot fi dispuse în fişierul de intrare pe mai multe linii
+dacă există mai multe intervale [a,b] de lungime minimă care conţin cel puţin k elemente din sir se va alege acela pentru care a este minim
+a ≤ b
+
+Exemplu
+Input: 10 3
+11 9 3 2 8 11 9 10 15 13
+Output: 8 9

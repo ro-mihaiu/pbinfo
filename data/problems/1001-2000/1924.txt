@@ -1,0 +1,25 @@
+#1924
+QStiva
+
+Cerința
+Se dă o stivă inițial vidă. Să se efectueze Q operații de forma:
+1 x: Se adaugă x în stivă. 2: Se șterge elementul din vârful stivei. 3 S: Se întreabă dacă se poate scrie valoarea S ca sumă de elemente aflate în stivă. Fiecare element poate fi folosit o singură dată în calcularea sumei. Răspunsul va fi 1 în caz afirmativ și 0 în caz negativ.
+
+Restricții
+1 ≤ Q ≤ 100000
+pentru o operație de tipul 1 , 1 ≤ x ≤ 1000
+pentru o operație de tipul 3 , 1 ≤ S ≤ 1000
+nu se vor efectua operații de tipul 2 sau de tipul 3 dacă stiva este goală.
+
+Exemplu
+Input: 8
+1 12
+2
+1 1
+3 2
+1 2
+1 12
+3 13
+2
+Output: 0
+1

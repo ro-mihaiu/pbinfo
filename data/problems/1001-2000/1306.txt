@@ -1,0 +1,14 @@
+#1306
+sumchef
+
+Cerința
+Fiind dat un şir cu n elemente numere naturale, să se calculeze suma cuburilor cifrelor tuturor numerelor din şir.
+
+Restricții
+1 ≤ n ≤ 2.000.000
+numerele din şir au cel mult 4 cifre
+
+Exemplu
+Input: 3
+24 120 51
+Output: 207

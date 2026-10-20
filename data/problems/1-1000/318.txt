@@ -1,0 +1,15 @@
+#318
+Cerc
+
+Cerința
+Se dau n numere naturale. Determinaţi o aranjare a acestor numere pe un cerc, astfel încât suma produselor de câte două numere vecine să fie maximă.
+
+Restricții
+1 ≤ n ≤ 10
+cele n numere vor avea cel mult 2 cifre
+dacă există mai multe modalităţi de aranjare a numerelor astfel încât să se obţină aceeaşi sumă maximă, se va determina cea lexicografic minimă
+
+Exemplu
+Input: 5
+1 2 3 4 5
+Output: 1 2 4 5 3

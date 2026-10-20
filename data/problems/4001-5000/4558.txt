@@ -1,0 +1,10 @@
+#4558
+Cifre_IX
+
+Cerința
+Se citește de la tastatură un număr natural cu cel mult nouă cifre. Să se determine dacă numărul citit are cifrele în ordine strict crescătoare, în ordine strict descrescătoare sau dacă are toate cifrele egale.
+
+Restricții
+10 ≤ n < 1.000.000.000
+
+Exemplu

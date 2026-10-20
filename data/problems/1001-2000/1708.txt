@@ -1,0 +1,16 @@
+#1708
+Cuburi3
+
+Cerința
+Scrieţi un program care citeşte numerele naturale nenule N şi K , apoi cele N numere naturale ce fac parte din şirul iniţial, şi determină: a) Numărul de piramide complete construite de Ionuţ. b) Numerele scrise pe cuburile din primele K piramide.
+
+Restricții
+6 ≤ N ≤ 100000
+Se garantează că se pot construi cel puţin K piramide complete.
+Cele N numere naturale de pe a doua linie a fişierului de intrare au minimum 4 cifre şi maximum 9 cifre.
+
+Exemplu
+Input: 31 2
+18250 9280 18250 953805 20800 6040065 24208 4405 8794 1720 98886 96400 45544 8560056 36055 60400 80200 11560 36475 26992 68320 69400 20296 72640 34048 57700 66520 47440 91232 26080 90280
+Output: 2
+10 2 10 305 20 4005 20 4 4 1 86 40 44 5005 30 40 20 10 34 22 20 40 20 20 30 50 20 40 12 20

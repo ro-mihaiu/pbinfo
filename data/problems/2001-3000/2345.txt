@@ -1,0 +1,15 @@
+#2345
+magic3
+
+Cerința
+Câți câștigatori au existat?
+
+Restricții
+1 ≤ n ≤ 1.000
+0 < v[i] ≤ 1.000.000.000
+Numerele se pot repeta în această tombolă
+
+Exemplu
+Input: 8 
+12 5 10 7 32 2 4 99
+Output: 3

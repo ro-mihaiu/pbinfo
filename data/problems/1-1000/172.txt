@@ -1,0 +1,15 @@
+#172
+difMin
+
+Cerința
+Să se scrie un program care citește un șir de n numere naturale şi determină perechea de valori consecutive în șir pentru care valoarea absolută a diferenței este minimă. Dacă există mai multe astfel de perechi se va afișa cea pentru care suma este minimă. Dacă există mai multe perechi de acest fel se va afișa prima pereche din șir.
+
+Restricții
+1 ≤ n ≤ 10000
+cele n numere citite vor fi mai mici decât 1 000 000 000
+cele două valori vor fi afișate în ordinea din șir
+
+Exemplu
+Input: 5
+72 30 12 165 725
+Output: 30 12

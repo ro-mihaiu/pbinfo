@@ -1,0 +1,20 @@
+#2007
+Numere17
+
+Cerința
+Scrieţi un program care rezolvă următoarele două cerințe:
+1. citește descrierea unui drum și afișează numărul la care se termină drumul; 2. citește un număr natural nenul K, determină un drum care se termină cu numărul K pentru care suma numerelor prin care trece drumul este maximă și afișează această sumă.
+
+Restricții
+1 ≤ n ≤ 10000
+1 ≤ K ≤ 10001*10002/2
+Pentru rezolvarea corectă a cerinţei 1 se acordă 40 de puncte; pentru rezolvarea corectă a cerinței 2 se acordă 50 de puncte. În concurs s-au acordat 10 puncte din oficiu. Pe site se acordă 10 puncte pentru exemple.
+
+Exemplu
+Input: 1 
+4
+1 2 1 2
+Output: 13
+Input: 2 
+9
+Output: 19

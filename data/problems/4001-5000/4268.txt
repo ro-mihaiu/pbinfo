@@ -1,0 +1,19 @@
+#4268
+FBaza
+
+Cerința
+Scrieți funcția cu următorul antet:
+int FBaza(const char s[])
+Parametrul s memorează un șir de caractere. Funcția trebuie să returneze:
+valoarea 2 dacă s este format numai din cifre binare
+valoarea 4 dacă s este format numai din cifre mai mici decât 4
+valoarea 8 dacă s este format numai din cifre mai mici decât 8
+valoarea 10 dacă s este format numai din cifre zecimale
+valoarea 16 dacă s este format numai din cifre zecimale și litere din mulțimea {A, B, C, D, E, F} sau {a, b, c, d, e, f}
+valoarea -1 dacă s mai conține și alte caractere
+
+Restricții
+Lungimea șirului s nu va depăși 100
+șirul s este indexat de la 0
+
+Exemplu

@@ -1,0 +1,13 @@
+#1744
+NrLipsa2
+
+Cerința
+Fișierul de intrare conține cel mult 1.000.000 de numere întregi. Se cere să se afișeze în fișierul de ieșire cel mai mic număr din intervalul [-100,100] care nu apare în fișierul de intrare.
+Dacă nu există un astfel de număr se va afișa mesajul nu exista .
+
+Restricții
+numerele din fișierul de intrare vor fi din intervalul [-1.000.000, 1.000.000]
+
+Exemplu
+Input: 80 -190 -149 165 -58 150 -8 -100 -99 65
+Output: -98

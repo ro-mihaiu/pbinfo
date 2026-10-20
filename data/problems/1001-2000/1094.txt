@@ -1,0 +1,20 @@
+#1094
+Immortal
+
+Cerința
+Se cere să se determine o succesiune a luptelor ce pot fi purtate, astfel încât la final să rămână un singur nemuritor.
+
+Restricții
+1 < n, m ≤ 20
+1 < I ≤ min{15, n*m-1}
+Pentru datele de test există întotdeauna soluţie.
+
+Exemplu
+Input: 3 4 4
+1 2
+2 1
+3 2
+3 3
+Output: 3 3 3 1
+3 1 1 1
+1 1 1 3

@@ -1,0 +1,20 @@
+#4000
+Alpinist
+
+Cerința
+Harta unui munte este reprezentată printr-o matrice cu n linii și m coloane în care fiecare element reprezintă înălțimea zonei respective. Un alpinist pleacă de la coordonatele (1,1) și dorește să ajungă la coordonatele (n,m) . Deplasarea se face pe aceeași linie sau coloană; alpinistul poate să treacă din zona curentă în zona învecinată numai dacă înălțimea zonei curente este mai mică sau egală cu cea a zonei învecinate.
+Determinați lungimea maximă a unui traseu al alpinistului.
+
+Restricții
+1 ≤ n,m ≤ 20 ;
+înălțimile zonelor fi mai mici decât 100 ;
+alpinistul nu poate părăsi muntele și nu poate trece de două ori prin aceeași zonă;
+dacă nu există niciun traseu se va afișa imposibil .
+
+Exemplu
+Input: 4 5
+4 5 3 8 9
+8 7 7 8 9
+9 7 3 9 10
+2 5 4 10 11
+Output: 10

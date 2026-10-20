@@ -1,0 +1,14 @@
+#3980
+MinPlusMax
+
+Cerința
+Se citește un număr natural nenul n și apoi se citesc n numere naturale. Calculați suma dintre valoarea minimă și valoarea maximă.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere naturale citite vor fi mai mici decât 1000
+
+Exemplu
+Input: 5
+17 12 8 52 23
+Output: 60

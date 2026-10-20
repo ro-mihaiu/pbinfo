@@ -1,0 +1,13 @@
+#920
+CifMaxMinRec
+
+Cerința
+Să se scrie o funcție C++ recursivă care să determine cifra maximă și cifra minimă a unui număr natural transmis ca parametru. Funcția va întoarce rezultatele prin intermediul unor parametri de ieșire.
+
+Restricții
+numele funcției va fi cifmaxmin
+funcția va avea trei parametri: n , numărul dat max , cifra maximă a lui n min , cifra minimă a lui n
+ordinea parametrilor este: n max min
+n va fi mai mic decât 2.000.000.000
+
+Exemplu

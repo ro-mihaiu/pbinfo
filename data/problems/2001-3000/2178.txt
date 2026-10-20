@@ -1,0 +1,15 @@
+#2178
+Furnica
+
+Cerința
+Scrieţi un program care pentru un drum dat determină cantitatea totală de firimituri mâncată de furnică, precum şi numărul pătrăţelelor prin care aceasta a trecut de cele mai multe ori.
+
+Restricții
+1 < n < 101
+0 < k < 201
+Drumul furnicii nu iese din tablou.
+
+Exemplu
+Input: 4 10
+3 6 5 3 2 6 3 6 2 3
+Output: 23 2

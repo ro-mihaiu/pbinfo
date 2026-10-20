@@ -1,0 +1,17 @@
+#3084
+cub_dinamic
+
+Cerința
+Se dă un tablou tridimensional, de dimensiune \(n\) x \(n\) x \(n\), fiecare element reprezentând o camera. \(m\) dintre acestea sunt blocate și nu pot fi traversate. Dintr-o cameră având coordonatele \((i,j,k)\) te poți deplasa in camerele de coordonate \((i+1,j,k)\), \((i,j+1,k)\) și \((i,j,k+1)\).
+Știind că pornești din camera cu coordonate \((1,1,1)\), se cere să se afișeze numărul de moduri modulo \(1234567\) de a ajunge in camera de coordonate \((n,n,n,)\).
+
+Restricții
+1 ≤ n ≤ 200
+1 ≤ coordonatele camerelor ≤ n
+0 ≤ m ≤ n*n*n
+Dacă nu se poate ajunge in camera \((n,n,n)\) sau una dintre camerele \((1,1,1)\) sau \((n,n,n)\) este blocată, atunci se va afișa 0 .
+
+Exemplu
+Input: 3 1
+2 2 2
+Output: 54

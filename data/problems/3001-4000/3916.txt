@@ -1,0 +1,14 @@
+#3916
+elim_m
+
+Cerința
+Scrieți un program care citește două numere naturale n și m și care afișează cel mai mare număr care se poate obține eliminând din n exact m cifre, unde m este mai mic decât numărul de cifre ale lui n . Cifrele rămase în n nu-și pot schimba ordinea.
+
+Restricții
+n are cel mult 17 cifre.
+m este mai mic decât numărul de cifre ale lui n .
+m este număr nenul.
+
+Exemplu
+Input: 3452234 4
+Output: 534

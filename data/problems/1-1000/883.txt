@@ -1,0 +1,22 @@
+#883
+Traversare
+
+Cerința
+Se consideră harta unei suprafețe deșertice, dată sub forma unei matrice cu n linii și m coloane, formată din n*m zone. Fiecare zonă poate fi accesibilă sau inaccesibilă. Dintr-o zonă accesibilă se poate trece în altă zonă accesibilă învecinată cu prima pe linie sau pe coloană.
+Un călător dorește să traverseze deșertul de la nord (prima linie) la sud (ultima linie). Pentru aceasta el poate sa aleagă oricare zonă accesibilă de pe prima line și dorește să ajungă pe ultima linie cu număr minim de pași.
+
+Restricții
+1 ≤ n, m ≤ 1000
+în traversarea deșertului un pas este trecerea dintr-o zonă accesibilă în altă zonă accesibilă învecinată cu prima
+la determinarea numărului de pași se numără și primul pas (intrarea în matrice)
+pentru toate datele de test este posibilă traversarea deșertului
+
+Exemplu
+Input: 6 9
+1 1 0 0 1 1 1 0 0 
+0 0 1 0 1 0 1 1 0 
+1 1 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 1 
+1 0 1 1 0 1 0 0 0 
+1 0 0 0 0 0 0 1 0
+Output: 8

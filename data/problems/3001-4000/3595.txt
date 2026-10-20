@@ -1,0 +1,33 @@
+#3595
+FourSquare1
+
+Cerința
+Dându-se cele patru matrici și un mesaj criptat, să se decodifice mesajul dat.
+
+Restricții
+mesajul va avea un număr par de litere
+1≤lungime mesaj≤10000 ;
+
+Exemplu
+Input: abcde
+fghij
+klmno
+prstu
+vwxyz
+examp
+lbcdf
+ghijk
+norst
+uvwyz
+keywo
+rdabc
+fghij
+lmnps
+tuvxz
+abcde
+fghij
+klmno
+prstu
+vwxyz
+fygmkyhobxmfkkkimd
+Output: helpmeobiwankenobi

@@ -1,0 +1,32 @@
+#3435
+foto1
+
+Cerința
+Scrieți un program care citește numerele N și M , cele N*M elemente ale tabloului T care codifică fotografia și rezolvă următoarele cerințe:
+afișează numărul maxim P de pătrate negre dispuse alăturat pe un rând în fotografie;
+afișează numărul F de fulgere și înălțimea maximă H a unui fulger din fotografie.
+
+Restricții
+N număr natural, 4 ≤ N ≤ 100
+M număr natural, 4 ≤ M ≤ 100
+În concurs, pentru rezolvarea cerinței 1 s-au acordat 20 de puncte, pentru rezolvarea cerinței 2 s-au acordat 70 de puncte. Pe site se acordă 10 puncte pentru exemple.
+
+Exemplu
+Input: 1
+6 7
+0 1 0 0 1 0 0
+1 0 0 0 1 0 0
+0 0 1 0 0 0 1
+0 1 0 0 0 1 0
+0 1 0 0 1 0 0
+0 0 1 0 1 0 1
+Output: 3
+Input: 2
+6 7
+0 1 0 0 1 0 0
+1 0 0 0 1 0 0
+0 0 1 0 0 0 1
+0 1 0 0 0 1 0
+0 1 0 0 1 0 0
+0 0 1 0 1 0 1
+Output: 5 4

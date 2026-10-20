@@ -1,0 +1,27 @@
+#1789
+3secv
+
+Cerința
+Se consideră un șir de n elemente numere naturale. O subsecvență se definește ca o succesiune de elemente ale șirului luate de pe poziții consecutive.
+De exemplu şirul 1 4 3 5 are 10 subsecvenţe:
+4 subsecvențe de lungime 1 1 4 3 5
+3 subsecvențe de lungime 2 1 4 4 3 3 5
+2 subsecvențe de lungime 3 1 4 3 4 3 5
+1 subsecvenţă de lungime 4 1 4 3 5
+Să se scrie un program care pentru un şir cunoscut determină pentru câte subsecvenţe ale şirului suma elementelor care le alcătuiesc are un anumit rest dat la împărţirea cu 3 .
+
+Restricții
+1 ≤ n ≤ 1.000.000
+r ∈ {0,1,2}
+Elementele șirului sunt numere naturale mai mici sau egale cu 32767
+
+Exemplu
+Input: 4 0
+1 4 3 5
+Output: 2
+Input: 4 1
+1 4 3 5
+Output: 4
+Input: 4 2
+1 4 3 5
+Output: 4

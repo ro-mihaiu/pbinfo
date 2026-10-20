@@ -1,0 +1,14 @@
+#275
+PerechiVocale1
+
+Cerința
+Se dă un text în care cuvintele sunt formate din litere mici ale alfabetului englez şi cifre şi sunt separate prin spaţii şi semne de punctuaţie. Să se determine perechea de vocale alăturate din text care apare de cele mai multe ori.
+
+Restricții
+cuvintele din text sunt formate din cel mult 40 caractere;
+
+Exemplu
+Input: aleea ce strabate valea
+e-o unduire de pietris scanteietor,
+de-aceea nu stii daca zboara sau doar inoata in unde aurii
+Output: ea oa

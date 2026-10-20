@@ -1,0 +1,19 @@
+#287
+VerifOrd
+
+Cerința
+Se dau n şiruri cu elemente numere întregi. Să se verifice despre fiecare dacă este ordonat crescător.
+
+Restricții
+1 ≤ n ≤ 10
+fiecare şir va avea cel mult 500 elemente, numere întregi cu cel mult 4 cifre fiecare
+
+Exemplu
+Input: 3
+9
+5 10 -5 8 -2 -7 0 -9 10
+7
+-6 -5 -4 0 2 5 8
+5
+2 7 8 10 10
+Output: 0 1 1

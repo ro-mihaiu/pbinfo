@@ -1,0 +1,14 @@
+#360
+cifra
+
+Cerința
+Se citește un număr natural n și o cifră c . Determinați numărul obținut prin eliminarea tuturor aparițiilor cifrei c din numărul n .
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+1 ≤ c ≤ 9
+dacă prin eliminarea aparițiilor lui c în n nu mai rămân cifre, se va afișa -1
+
+Exemplu
+Input: 173534 3
+Output: 1754

@@ -1,0 +1,19 @@
+#555
+Overflow
+
+Cerința
+Lui Gigel i s-a cerut să scrie un program care realizează înmulțirea dintre două numere naturale. Pentru a-i da o provocare lui Gigel, profesorul îi dă ca date de intrare un set de perechi de numere naturale pentru care produsul poate depăși 2 64 . Gigel trebuie acum să-și modifice programul pentru ca să poată detecta cazurile speciale.
+
+Restricții
+1 ≤ n ≤ 100.000
+pentru fiecare pereche, cele două numere se pot reprezenta pe 8 octeți, fără semn
+valorile care se pot reprezenta pe 8 octeți fără semn sunt cuprinse între 0 și 18.446.744.073.709.551.615
+
+Exemplu
+Input: 3
+2147483647 2147483647
+18446744073709551615 2
+666013 1
+Output: 4611686014132420609
+Overflow!
+666013

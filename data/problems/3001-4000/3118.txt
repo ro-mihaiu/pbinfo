@@ -1,0 +1,12 @@
+#3118
+torto
+
+Cerința
+Un tort dreptunghiular de dimensiuni MxN trebuie împărţit în porţii pătrate de aceeaşi mărime. Găsiţi numărul minim de porţii care se pot obţine şi dimensiunea L a acestora. Atât dimensiunile dreptunghiului cât şi ale pătratelor în care se împarte sunt numere întregi.
+
+Restricții
+1 ≤ M ≤ N ≤ 10000
+
+Exemplu
+Input: 20 24
+Output: 30 4

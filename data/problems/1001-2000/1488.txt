@@ -1,0 +1,22 @@
+#1488
+Strazi
+
+Cerința
+Pentru o intersecţie de N străzi ajutaţi-l pe Gigel să determine gradul de vizibilitate al fiecărei străzi şi să precizeze care este strada cu grad maxim de vizibilitate.
+
+Restricții
+1<=N<100
+Numărul de clădiri de pe o stradă este mai mic decât 1000 .
+Înălţimea unei clădiri nu depăşeşte 105 m.
+
+Exemplu
+Input: 4
+5 5.1 7.2 2.0 6.9 8.3 
+3 6.5 4.2 3.1
+2 3.4 5.0
+4 1.2 2.3 3.4 4.5
+Output: 0.600
+0.333
+1.000
+1.000
+3

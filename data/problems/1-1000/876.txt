@@ -1,0 +1,34 @@
+#876
+Coada
+
+Cerința
+Să se scrie un program care gestionează o coadă de numere întregi. Inițial coada este vidă. Programul va citi de la tastatură o listă de operații, care pot fi:
+push X – adaugă valoarea întreagă X în coadă;
+pop – elimină elementul din coadă;
+front – afișează elementul de la începutul cozii.
+Programul va realiza asupra cozii operațiile citite, în ordine. Afișările se fac pe ecran, câte o valoare pe linie.
+
+Restricții
+coada nu va conține la un moment dat mai mult de 1000 elemente
+elementele cozii vor fi cuprinse între -1.000.000 și 1.000.000
+dacă la un moment dat se aplică operația pop și coada nu conține niciun element, operația nu are efect
+dacă la un moment dat se aplică operația front și coada nu conține niciun element, operația nu are efect (nu se afișează nimic)
+
+Exemplu
+Input: 12
+push 5
+push 4
+front 
+push 7 
+push -5
+pop
+front
+pop
+front
+push 11
+front
+pop
+Output: 5
+4
+7
+7

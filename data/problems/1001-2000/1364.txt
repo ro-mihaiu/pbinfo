@@ -1,0 +1,14 @@
+#1364
+produs3
+
+Cerința
+Se dă un şir cu n numere naturale nenule care sunt divizibile doar cu numerele prime 2 , 3 sau 5 . Determinaţi numărul secvenţelor din şir pentru care produsul elementelor este pătrat perfect.
+
+Restricții
+1 ≤ n ≤ 1.000.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 5
+12 3 4 5 45
+Output: 6

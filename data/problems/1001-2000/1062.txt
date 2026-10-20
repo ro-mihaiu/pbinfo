@@ -1,0 +1,23 @@
+#1062
+Flori1
+
+Cerința
+Scrieţi un program care determină:
+a) un număr natural S , exprimat în centimetri, reprezentând suma înălţimilor finale ale tuturor plantelor, dacă Lizuca le-ar uda după procedeul descris, timp de n zile; b) un număr natural K , reprezentând numărul maxim de zile în care Lizuca poate uda florile după procedeul descris anterior, astfel ca la sfârşitul celei de a K -a zi, nicio plantă ornamentală să nu atingă înălţimea H .
+
+Restricții
+1 ≤ N, H ≤ 100
+1 ≤ h 1 , h 2 , ... h n < H
+O plantă poate fi udată o singură dată pe zi.
+Pentru rezolvarea corectă a cerinţei a) se acordă 30 % din punctajul total pentru fiecare test.
+Pentru rezolvarea corectă a cerinţei b) se acordă 70 % din punctajul total pentru fiecare test.
+
+Exemplu
+Input: 3 4
+2 1 1
+Output: 10
+2
+Input: 4 5
+1 3 2 1
+Output: 17
+3

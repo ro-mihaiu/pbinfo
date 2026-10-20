@@ -1,0 +1,14 @@
+#3973
+Logaritm
+
+Cerința
+Dându-se un număr real x , să se scrie un program care calculează \(ln(x)\) cu 6 zecimale exacte .
+
+Restricții
+1 ≤ x < 2.000.000.000 .
+x va avea cel mult 6 zecimale .
+Nu se vor folosi funcțiile logaritmice ale limbajului C++
+
+Exemplu
+Input: 5.12
+Output: 1.633154

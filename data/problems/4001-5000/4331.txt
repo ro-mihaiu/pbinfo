@@ -1,0 +1,14 @@
+#4331
+Cmmdc6
+
+Cerința
+Se dă un șir cu n elemente, numere naturale nenule. Să se determine cel mai mare divizor comun al celui mai mic și celui mai mare element din șir.
+
+Restricții
+1 ≤ n ≤ 1.000
+elementele șirului vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+18 25 12 40 36
+Output: 4

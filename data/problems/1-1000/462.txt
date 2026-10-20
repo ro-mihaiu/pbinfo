@@ -1,0 +1,13 @@
+#462
+DivPrimMax
+
+Cerința
+Se citesc numere de la tastatură până când se introduc două numere egale. Să se determine numărul citit cu număr maxim de divizori primi.
+
+Restricții
+numerele citite sunt numere naturale mai mici decât 1.000.000.000
+dacă există mai multe numere cu număr maxim de divizori primi, se va afişa cel mai mare dintre ele
+
+Exemplu
+Input: 15 30 24 17 84 42 108 20 20
+Output: 84 3

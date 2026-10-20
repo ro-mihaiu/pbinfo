@@ -1,0 +1,14 @@
+#367
+Eliminare Cifre
+
+Cerința
+Se dau n numere naturale. Calculaţi suma numerelor obținute prin eliminarea din fiecare număr dat a tuturor aparițiilor ultimei cifre.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor avea cel mult 6 cifre
+
+Exemplu
+Input: 5
+27 1131 4 546 112
+Output: 70

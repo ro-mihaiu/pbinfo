@@ -1,0 +1,12 @@
+#361
+cifra1
+
+Cerința
+Se citește un număr natural n . Determinați cel mai mare număr care se poate obține prin eliminarea unei singure cifre din scrierea numărului n .
+
+Restricții
+1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+Input: 423234
+Output: 43234

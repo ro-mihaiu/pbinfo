@@ -1,0 +1,18 @@
+#1603
+ComponenteConexe3
+
+Cerința
+Se dă lista muchiilor unui graf neorientat. Pentru fiecare componentă conexă numim cel mai mic vârf de ea reprezentant al componentei conexe. Determinați reprezentantul componentei conexe cu cele mai multe vârfuri și câte noduri conține aceasta.
+
+Restricții
+1 ≤ n ≤ 100
+1 ≤ i , j ≤ n
+în fișierul de intrare muchiile se pot repeta
+dacă sunt mai multe componente conexe cu număr maxim de vârfuri se va determina aceea cu reprezentantul minim
+
+Exemplu
+Input: 5
+1 5 
+3 5
+2 4
+Output: 1 3

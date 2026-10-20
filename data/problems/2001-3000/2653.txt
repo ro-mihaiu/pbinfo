@@ -1,0 +1,13 @@
+#2653
+nroot
+
+Cerința
+Scrieți un subprogram care primește doi parametri, n și x , și care returnează valoarea absolută radicalului de ordin n din x .
+
+Restricții
+Subprogramul are următorul antet: long long nroot(int n, long long x) ;
+\(1 ≤ n ≤ 1000\);
+\(-2^{60} ≤ x ≤ 2^{60}\);
+Se garantează faptul că rezultatul este întotdeauna un număr întreg.
+
+Exemplu

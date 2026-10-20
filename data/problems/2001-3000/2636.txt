@@ -1,0 +1,13 @@
+#2636
+Noduri Izolate
+
+Cerința
+Se dau două numere n și m . Aflați care este numărul minim și numărul maxim de noduri izolate într-un graf neorientat cu n noduri și m muchii în care nu există o muchie de la un nod la el însuși și între oricare două noduri diferite există cel mult o muchie.
+
+Restricții
+1 ≤ n ≤ 100.000
+\( 0 \leq m \leq \frac{n*(n-1)}{2} \)
+
+Exemplu
+Input: 4 2
+Output: 0 1

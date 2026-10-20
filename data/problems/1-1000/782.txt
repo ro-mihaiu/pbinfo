@@ -1,0 +1,18 @@
+#782
+zona1
+
+Cerința
+Se dă o matrice pătratică cu n linii și n coloane și elemente numere naturale mai mici decât 1000 . Să se afișeze în ordine strict crescătoare valorile care apar sub diagonala principală și sub diagonala secundară de cel puţin 2 ori. Fiecare valoare se va afişa o singură dată.
+
+Restricții
+1 ≤ n ≤ 200
+
+Exemplu
+Input: 6
+10 8 5 8 4 2 
+6 5 3 1 3 8 
+8 1 4 7 8 8 
+5 1 9 6 6 1 
+8 9 3 2 3 6 
+8 9 3 3 9 6
+Output: 3 9

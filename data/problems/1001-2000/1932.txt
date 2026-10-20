@@ -1,0 +1,15 @@
+#1932
+pc
+
+Cerința
+Gigel vrea un calculator nou care are prețul x . Tatăl acestuia, fiind profesor de matematica, i-a spus ca îi va cumpăra calculatorul dacă prețul x al acestuia este norocos. Un număr x este norocos dacă pătratul acestuia se poate scrie ca sumă de x numere consecutive. De exemplu, x = 7 este număr norocos deoarece, 7 * 7 = 4 + 5 + 6 + 7 + 8 + 9 + 10 .
+Gigel a obţinut T oferte de preț și dorește să știe pentru fiecare dintre acestea dacă prețul este corespunzătar restricției pe care i-a impus-o tatăl său.
+
+Restricții
+x < 2.000.000.000
+T < 10
+
+Exemplu
+Input: 3
+3 4 7
+Output: 1 0 1

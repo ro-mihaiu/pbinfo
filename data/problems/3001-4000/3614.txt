@@ -1,0 +1,8 @@
+#3614
+FSuma_Bac
+
+Cerința
+Subprogramul suma are doi parametri, a și b , prin care primește câte un număr natural din intervalul [1,10 4 ] . Subprogramul returnează suma divizorilor naturali comuni lui a și b .
+Scrieți definiția completă a subprogramului.
+
+Exemplu

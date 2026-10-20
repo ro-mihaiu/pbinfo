@@ -1,0 +1,17 @@
+#519
+Secventa1
+
+Cerința
+Se dă un vector x cu n elemente, numere naturale și un vector y cu m elemente, numere naturale. Să se verifice dacă vectorul y este secvență în vectorul x .
+
+Restricții
+1 ≤ m ≤ n ≤ 1000
+elementele celor doi vectori vor fi indexate de la 1
+dacă vectorul y este de mai multe ori secvență în x se va afișa poziția de început a primei apariții
+
+Exemplu
+Input: 10
+8 5 8 5 2 3 10 7 1 6 
+6
+8 5 2 3 10 7
+Output: 3

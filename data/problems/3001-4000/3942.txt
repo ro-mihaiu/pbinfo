@@ -1,0 +1,18 @@
+#3942
+fazan
+
+Cerința
+Se dau n cuvinte distincte formate din litere mici și un număr m . Afișați în ordine lexicografică toate șirurile de câte m cuvinte distincte dintre cele date, care respectă regula jocului Fazan . La jocul Fazan o succesiune de două cuvine a și b se consideră corectă dacă ultimele două litere din cuvântul a sunt identice cu primele două din b . De exemplu, cuvintele fazan și anterior sunt corecte în această ordine.
+
+Restricții
+1 ≤ m < n ≤ 30
+cele n cuvinte sunt formate din litere mici, au lungimea cel puțin 2 și cel mult 20 și sunt distincte.
+
+Exemplu
+Input: 11 3
+cosmin nasture repede cosmina alina interactiv ascutit anual incrementare ananas banana
+Output: alina nasture repede 
+anual alina nasture 
+banana nasture repede 
+cosmin incrementare repede 
+cosmina nasture repede

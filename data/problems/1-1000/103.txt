@@ -1,0 +1,12 @@
+#103
+curte
+
+Cerința
+Să se determine aria curţii şi lungimea gardului.
+
+Restricții
+0<a,b<10000
+
+Exemplu
+Input: 20 12
+Output: 240 64

@@ -1,0 +1,7 @@
+#4193
+Bac_Fractii
+
+Cerința
+Fără a utiliza alte variabile, scrieți o secvență de instrucțiuni care să memoreze în variabila fs fracția obținută prin scăderea din fracția \( \frac{2020}{2021} \) a fracției memorate în variabila f .
+
+Exemplu

@@ -1,0 +1,16 @@
+#3440
+Buldo
+
+Cerința
+Scrieţi un program care calculează înălțimea maximă H la care poate fi ridicată lama, astfel încât terenul să poată fi nivelat la acea înălțime.
+
+Restricții
+1 ≤ N ≤ 100.000
+Înălțimile sunt numere naturale, 1 ≤ h i ≤ 1.000.000.000 , pentru orice i , 1≤i≤N .
+Pentru teste în valoare de 50 de puncte, N ≤ 1000 și h i ≤ 1000 , pentru orice i , 1≤i≤N .
+În concurs s-au acordat 90 de puncte, și 10 punte din oficiu. Pe site se acordă 10 puncte pentru exemplu.
+
+Exemplu
+Input: 4
+5 2 1 6
+Output: 2

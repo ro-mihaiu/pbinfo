@@ -1,0 +1,17 @@
+#2682
+LungimeRandMax
+
+Cerința
+Se dă un număr natural l și un șir de cel mult 10000 de caractere ce conține cuvinte separate prin câte un spațiu. Fiecare cuvânt din șir este format din cel mult l litere mari ale alfabetului englez.
+Să se scrie un program care afișează cuvintele din text, în ordine, pe linii de cel mult l caractere, astfel încât orice linie începe și se termină cu un cuvânt și oricare două cuvinte de pe aceeași linie sunt separate printr-un singur spațiu. Fiecare linie va fi folosită la maxim, adică dacă un cuvânt are loc pe acea linie va fi pus acolo și nu va fi trecut pe linia următoare sau despărțit în silabe.
+
+Restricții
+20 ≤ l ≤ 1000
+
+Exemplu
+Input: 22
+PROBLEMA DE LA EXAMEN NU MI SE PARE FOARTE GREU DE REZOLVAT IN TIMPUL ACORDAT
+Output: PROBLEMA DE LA EXAMEN
+NU MI SE PARE FOARTE 
+GREU DE REZOLVAT IN
+TIMPUL ACORDAT

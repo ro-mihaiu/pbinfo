@@ -1,0 +1,17 @@
+#1747
+Lacusta
+
+Cerința
+Scrieţi un program care să determine suma minimă care se poate obţine pentru o astfel de traversare.
+
+Restricții
+1 ≤ m, n ≤ 100
+Valorile elementelor matricei sunt numere întregi din intervalul [1,255]
+
+Exemplu
+Input: 4 5
+3 4 5 7 9
+6 6 3 4 4
+6 3 3 9 6
+6 5 3 8 2
+Output: 28

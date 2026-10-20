@@ -1,0 +1,16 @@
+#3333
+bookface
+
+Cerința
+Se dau n numere naturale nenule. Pentru fiecare număr dat a să se calculeze suma divizorilor lui a 2 .
+
+Restricții
+1 ≤ n ≤ 50.000
+cele n numere date sunt nenule, mai mici decât 1.000.000
+
+Exemplu
+Input: 3
+2 4 3
+Output: 7
+31
+13

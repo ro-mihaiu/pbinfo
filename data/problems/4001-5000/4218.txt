@@ -1,0 +1,23 @@
+#4218
+MatrixHasYou
+
+Cerința
+Scrieţi definiția completă a subprogramului C++ cu antetul:
+void Matrix(int a[300][300], int n, int L[], int C[], int k)
+Subprogramul primește ca parametri: a – matrice cu n linii (numerotate de la 0 la n-1 ) și n coloane (numerotate de la 0 la n-1 ) n – numărul de linii și coloane L – un vector de k elemente, numere naturale cuprinse între 0 și n-1 C – un vector tot de k elemente, numere naturale cuprinse între 0 și n-1
+Inițial matricea a memorează numai valori de 0 . Se efectuează asupra matricei pe rând, în această ordine, operațiile L[0] , C[0] , L[1] , C[1] , L[2] , C[2] , …, L[k-1] , C[k-1] . Operația L[i] se efectuează asupra elementelor liniei L[i] din matrice și modifică orice valoare 0 în 1 și orice valoare 1 în 0 . Similar, operația C[i] se efectuează asupra elementelor coloanei C[i] din matrice și modifică orice valoare 0 în 1 și orice valoare 1 în 0 . Matricea a va reține în final valorile care se obțin după efectuarea tuturor operațiilor.
+De exemplu, dacă n=4 L=(1,3) și C=(2,0) , atunci, știind că matricea este inițial 0 peste tot, aceasta se va transforma astfel:
+după operația L[0]=1 : 0 0 0 0 1 1 1 1 0 0 0 0 0 0 0 0
+după operația C[0]=2 : 0 0 1 0 1 1 0 1 0 0 1 0 0 0 1 0
+după operația L[1]=3 : 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 1
+după operația C[1]=0 : 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1
+Aceasta este matricea finală.
+
+Restricții
+3 ≤ n ≤ 300
+1 ≤ k ≤ 5000
+elementele vectorilor L și C sunt indexate de la 0
+valorile din vectorii L și C nu sunt neapărat distincte
+Puteți utiliza în rezolvare orice structură de date
+
+Exemplu

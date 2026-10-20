@@ -1,0 +1,12 @@
+#2604
+schimbarecifre
+
+Cerința
+Scrieți un program care citește de la tastatură un număr natural de două cifre și care afișează pe ecran pătratul valorii obținute prin schimbarea între ele a celor două cifre.
+
+Restricții
+10 ≤ a ≤ 99
+
+Exemplu
+Input: 70
+Output: 49

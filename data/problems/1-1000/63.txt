@@ -1,0 +1,13 @@
+#63
+factorizare1
+
+Cerința
+Să se scrie un program care citeşte un număr natural n şi determină factorul care apare în descompunerea în factori primi a lui n la puterea cea mai mare.
+
+Restricții
+1 < n < 2.100.000.000
+dacă în descompunerea în factori primi a lui n apar mai mulţi factori la puterea maximă, se va afişa cel mai mare dintre ei
+
+Exemplu
+Input: 405
+Output: 3

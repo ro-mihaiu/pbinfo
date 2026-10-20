@@ -1,0 +1,20 @@
+#2013
+numere18
+
+Cerința
+Se dau două numere natural n și m . Determinați:
+1. Suma numerelor de pe linia cu numărul n din triunghiul construit ca mai sus.
+2. Linia pe care se află numărul m , precum și pe ce poziție se află el pe această linie.
+
+Restricții
+1 ≤ n ≤ 1000
+1 ≤ m ≤ 1.000.000.000
+Pentru rezolvarea corectă a cerinţei 1 se acordă 45 de puncte; pentru rezolvarea corectă a cerinței 2 se acordă 55 de puncte.
+
+Exemplu
+Input: 1
+4
+Output: 34
+Input: 2
+9
+Output: 4 3

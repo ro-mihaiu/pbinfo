@@ -1,0 +1,14 @@
+#1754
+munti
+
+Cerința
+Vrăjitorul vă cere să determinați numărul maxim de munți ce pot fi aduși la o înălțime egală.
+
+Restricții
+1 ≤ N ≤ 1.000.000
+1 ≤ înălțimea inițială ≤ 1.000.000.000
+
+Exemplu
+Input: 4
+2 6 2 2
+Output: 4

@@ -1,0 +1,19 @@
+#432
+Taxe
+
+Cerința
+Ali Baba și cei 40 de hoți stăpânesc un deșert de formă dreptunghiulară, împărțit în n linii și m coloane, care definesc n*m sectoare. Intrarea într-un sector se plătește cu o taxă cunoscută, exprimată în galbeni.
+Un călător trebuie să traverseze deșertul de la Est la Vest, trecând dintr-un sector în altul, astfel: din sectorul (i j) se poate ajunge în unul din sectoarele (i-1,j-1) , (i,j-1) sau (i+1,j-1) , dar fără a părăsi deșertul (ar fi omorât de oamenii lui Ali Baba). La trecerea printr-un sector, călătorul plătește taxa aferentă acelui sector.
+Determinați suma totală minimă pe care trebuie să o plătească călătorul la traversarea deșertului, știind că pleacă din orice sector al coloanei m (Est) și se oprește în orice sector al coloanei 1 (Vest), cu respectarea condițiilor de mai sus.
+
+Restricții
+1 ≤ n,m ≤ 200
+valoarea fiecărei taxe este un număr natural mai mic decât 100
+
+Exemplu
+Input: 4 5
+5 8 3 7 7 
+1 1 4 5 1 
+5 8 9 1 7 
+5 8 6 6 9
+Output: 8

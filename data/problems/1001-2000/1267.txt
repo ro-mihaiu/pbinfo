@@ -1,0 +1,17 @@
+#1267
+plaja
+
+Cerința
+O plajă poate fi văzută ca o matrice cu n linii și m coloane. Elementele matricei sunt codificate cu 0 , însemnând o poziție liberă, și 1 , însemnând o poziție ocupată. Să se afle aria celui mai mare dreptunghi liber din matricea dată.
+
+Restricții
+1 ≤ n, m ≤ 1000
+
+Exemplu
+Input: 5 5
+11111
+11000
+11100
+11100
+11110
+Output: 6

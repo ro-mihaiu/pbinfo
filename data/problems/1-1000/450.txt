@@ -1,0 +1,15 @@
+#450
+minicalc
+
+Cerința
+Se citesc de la tastatură 3 numere naturale, a , b , c . Să se realizeze cu a și b operația codificată prin numărul c .
+
+Restricții
+Primele două numere sunt naturale, mai mici decât 32676 .
+Primul număr este mai mare sau egal cu al doilea.
+Al doilea număr este nenul.
+Al treilea număr este din mulțimea {1,2,3,4,5} .
+
+Exemplu
+Input: 4 2 3
+Output: 8

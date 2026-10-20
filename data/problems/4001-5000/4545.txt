@@ -1,0 +1,12 @@
+#4545
+SumaCuburi
+
+Cerința
+Să se scrie un program care citește numărul natural n și determină suma primelor n cuburi perfecte nenule.
+
+Restricții
+0 < n ≤ 1000
+
+Exemplu
+Input: 4
+Output: 100

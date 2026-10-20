@@ -1,0 +1,24 @@
+#2187
+expand
+
+Cerința
+Scrieţi un program care determină numărul minim de mutări necesare pentru a obţine din litera aleasă de Ana cuvântul dat.
+
+Restricții
+1 ≤ N ≤ 15
+Toate literele sunt litere mici ale alfabetului englez.
+Lungimea cuvântului ales de Ana este cel mult 15 .
+Pentru datele de test există întotdeauna soluţie.
+
+Exemplu
+Input: a anatol
+8
+x yy
+a aa
+a ana
+a ato
+a tol
+n na
+n nat
+t tol
+Output: 3

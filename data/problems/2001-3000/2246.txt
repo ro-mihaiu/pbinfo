@@ -1,0 +1,12 @@
+#2246
+adobe
+
+Cerința
+Se dă un șir de caractere format din litere și caracterele * , + și - . Domnul Eboda trebuie să determine câte subsecvențe de lungime 5 sunt anagrame ale cuvântului ADOBE . Regulile suplimentare sunt că nu se face distincție între literele mari și cele mici și în plus, caracterul + poate suplini oricare consoană, caracterul - suplinește orice vocală, iar * suplinește orice literă. Cu aceste reguli putem spune că următoarele secvențe de cinci caractere sunt anagrame ale cuvântului adobe : aeobd , dBoAE , db--- , Ae-++ , ***** , ++--- , ad*-+ .
+
+Restricții
+Șirul va avea cel mult 100 000 de caractere și nu conține alte caractere în afara celor precizate în enunț.
+
+Exemplu
+Input: ebodaE+m***++
+Output: 4

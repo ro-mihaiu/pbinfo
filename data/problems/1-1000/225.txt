@@ -1,0 +1,17 @@
+#225
+genmat12
+
+Cerința
+Scrieţi un program care citeşte de la tastatură doua numere naturale n şi k şi construieşte în memorie o matrice cu n linii şi n coloane formată numai din valori 1 , 2 , 3 şi 4 astfel încât: elementele aflate la intersecţia primelor k linii cu primele k coloane sunt egale cu 1 , elementele aflate la intersecţia primelor k linii cu ultimele n-k coloane sunt egale cu 2 , elementele aflate la intersecţia ultimelor n-k linii cu primele k coloane sunt egale cu 3 , elementele aflate la intersecţia ultimelor n-k linii cu ultimele n-k coloane sunt egale cu 4 .
+
+Restricții
+2≤n≤24
+0<k<n
+
+Exemplu
+Input: 5 3
+Output: 1 1 1 2 2
+1 1 1 2 2
+1 1 1 2 2
+3 3 3 4 4
+3 3 3 4 4

@@ -1,0 +1,21 @@
+#2447
+forus
+
+Cerința
+Scrieţi un program care citeşte numărul natural N și cele N numere scrise pe cartoanele aduse de profesorul Forus, apoi rezolvă următoarele două cerinţe: 1. determină numărul de cartoane pe care elevii au voie să le taie de oriunde (NU conțin cifre în fața cărora NU au voie să taie); 2. determină, în ordinea strângerii cartoanelor, numerele preluate de către profesorul Forus la finalul orei.
+
+Restricții
+2 ≤ N ≤ 30
+1 ≤ numărul natural de pe carton < 1 000 000 000
+Pentru rezolvarea corectă a cerinţei 1 se acordă 20 de puncte; pentru rezolvarea corectă a cerinței 2 se acordă 70 de puncte.
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă 10 puncte pentru exemplele din enunț.
+
+Exemplu
+Input: 1
+5
+1234 25082 543 52 150
+Output: 3
+Input: 2
+5
+51 1234 50822 345 150
+Output: 15 2341 25082 453 501

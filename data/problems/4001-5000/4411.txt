@@ -1,0 +1,76 @@
+#4411
+veri
+
+Cerința
+Care este numărul minim de minute necesar, astfel încât să fie posibil ca amândoi să ajungă la destinațiile lor, în timpul alocat, în A , respectiv B ? Cu alte cuvinte, dacă cei doi veri ciclează pentru prima oară după exact t minute, apoi își continuă drumurile pentru alte tA , respectiv tB minute, vrem să aflăm valoarea minimă a lui max(t + tA, t + tB) . Există două tipuri de cerințe, reprezentate printr-un număr c :
+Dacă c = 1 , trebuie calculată valoarea minimă a lui max(t + tA, t + tB) .
+Dacă c = 2 , trebuie afișat un triplet de drumuri care poate fi urmat de cei doi veri (drumul comun din S până în Z , drum urmat ulterior de primul văr din Z până în A , drum urmat ulterior de al doilea văr din Z până în B ), astfel încât valoarea asociată drumurilor, adică max(t + tA, t + tB) să fie minimă. Orice triplet corect cu valoarea asociată minimă poate fi afișat.
+
+Restricții
+1 ≤ S, A, B, Z ≤ n ≤ 5000 .
+Nodurile sunt numerotate de la 1 la n .
+A ≠ B
+1 ≤ m ≤ n(n − 1)
+Se garantează că pentru orice test dat spre rezolvare există cel puțin o soluție.
+Nu există muchii de la un nod la el însuși. Există maxim o muchie orientată între oricare două noduri distincte.
+Dacă verii se despart în A , primul văr poate să nu mai facă nimic (drumul lui ulterior ar avea 0 muchii și l-ar conține doar pe A : vezi exemplul 3 ). Analog pentru B .
+Pentru fiecare subtask, testele cu c = 1 vor conta pentru 60% din punctaj.
+
+Exemplu
+Input: 2
+7 8
+1 3 4
+1 2
+2 5
+5 7
+7 6
+6 7
+6 5
+5 3
+7 4
+Output: 5
+1 2 5 7 6 5
+1
+5 3
+2
+5 7 4
+Input: 2
+7 8
+1 2 5
+1 3
+1 4
+3 2
+4 5
+6 4
+7 3
+3 6
+4 7
+Output: 5
+1 4 7 3 6 4
+3
+4 7 3 2
+1
+4 5
+Input: 2
+5 6
+1 3 5
+1 2
+2 3
+3 4
+4 3
+3 1
+3 5
+Output: 4
+1 2 3 4 3
+0
+3
+1
+3 5
+Input: 1
+4 4
+1 2 4
+1 3
+3 2
+2 3
+2 4
+Output: 5

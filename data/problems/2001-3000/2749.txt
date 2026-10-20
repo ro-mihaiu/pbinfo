@@ -1,0 +1,17 @@
+#2749
+tata
+
+Cerința
+Se dă un vector t=(t[1], t[2], ..., t[n]) care memorează numere naturale cuprinse între 0 și n . Să se verifice dacă t este sau nu vector de tați asociat unui arbore cu rădăcină.
+
+Restricții
+1 ≤ n ≤ 100.000
+0 ≤ t[i] ≤ n
+
+Exemplu
+Input: 5
+0 1 1 3 3
+Output: DA
+Input: 5
+2 0 2 5 4
+Output: NU

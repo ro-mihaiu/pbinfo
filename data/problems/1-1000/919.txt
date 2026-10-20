@@ -1,0 +1,13 @@
+#919
+NrCifreZeroRec1
+
+Cerința
+Să se scrie o funcție C++ recursivă care să determine numărul de cifre egale cu zero ale unui număr natural transmis ca parametru și să întoarcă rezultatul prin intermediul unui parametru de ieșire.
+
+Restricții
+numele funcției va fi nr_cif_zero
+funcția va avea doi parametri: n – reprezentând numărul dat și nr – parametrul prin care se întoarce rezultatul
+ordinea parametrilor este n , nr
+n va fi mai mic decât 2.000.000.000
+
+Exemplu

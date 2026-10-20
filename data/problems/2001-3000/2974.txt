@@ -1,0 +1,21 @@
+#2974
+Zzid
+
+Cerința
+Fie un zid perfect dreptunghiular de înălțime H și lățime W , format din cărămizi de înălțime 1 și lățime variabilă, lipite între ele.
+Să se taie acest zid pe verticală astfel încât numărul de cărămizi ce trebuie tăiate să fie minim. În cazul în care există mai multe astfel de locuri unde poate fi tăiat zidul, se dorește ca diferența lățimilor celor două bucăți obținute să fie cât mai mică.
+
+Restricții
+2 ≤ W ≤ 1.000.000.000
+2 ≤ H ≤ 100.000
+Sunt maximum 1.000.000 cărămizi
+Pentru 30% din teste H si W sunt mai mici decât 1000
+Pentru alte 20% din teste H ≤ 1000
+Zidul nu poate fi rotit
+
+Exemplu
+Input: 3 10
+1 10
+2 5 5
+3 2 3 5
+Output: 1 0

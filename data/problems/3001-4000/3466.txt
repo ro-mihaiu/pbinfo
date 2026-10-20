@@ -1,0 +1,16 @@
+#3466
+num_sum_div
+
+Cerința
+Pentru un număr natural x notăm cu S suma divizorilor săi diferiți de x . Dacă S este strict mai mică decât x , atunci x se numește număr deficient, dacă S este egală cu x , atunci x se numește număr perfect, iar dacă S este strict mai mare decât x , atunci x se numește număr abundent.
+Se dă un șir de n numere naturale. Să se calculeze câte numere sunt deficiente, perfecte, respectiv abundente.
+
+Restricții
+1 ≤ n ≤ 10.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 5.000.000.000
+punctajul pe test va fi acordat doar dacă toate cele 3 numere afișate sunt corecte
+
+Exemplu
+Input: 10
+2 6 8 20 21 13 14 15 12 24
+Output: 6 1 3

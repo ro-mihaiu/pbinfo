@@ -1,0 +1,25 @@
+#13
+prefixe
+
+Cerința
+Să se afişeze lista prefixelor şi lista sufixelor cuvântului dat.
+
+Restricții
+şirul de caractere citit va conţine cel mult 10 litere mici ale alfabetului englez
+
+Exemplu
+Input: program
+Output: program
+progra
+progr
+prog
+pro
+pr
+p
+program
+rogram
+ogram
+gram
+ram
+am
+m

@@ -1,0 +1,10 @@
+#4574
+Oglindite_IX
+
+Cerința
+Să se scrie un program care citește de la tastatură două numere naturale a și b și îl afișează pe ecran pe cel care are oglinditul mai mare. Dacă cele două numere au oglinditele egale, atunci se afișează numărul mai mic.
+
+Restricții
+numerele citite sunt mai mici decât 1.000.000.000
+
+Exemplu

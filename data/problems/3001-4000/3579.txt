@@ -1,0 +1,14 @@
+#3579
+S_maxim
+
+Cerința
+Determinați suma maximă care se poate obține prin adunarea valorilor care nu se află pe poziții consecutive în vector.
+
+Restricții
+1 ≤ n ≤ 100.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 4
+1 4 5 4
+Output: 8

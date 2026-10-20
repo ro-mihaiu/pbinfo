@@ -1,0 +1,35 @@
+#4404
+Conflicte
+
+Cerința
+RAU -Gigel își amintește cu nostalgie de momentele sale de început într-ale programării, când mai făcea și stângăcii cum ar fi să declare un nume de tipul int …. așa a apărut următoarea problemă:
+Să ne imaginăm harta politică a lumii viitorului, împărțită în țări ale căror nume sunt de fapt numere naturale nenule. Între ele există anumite relații: două țări sunt înfrățite dacă au în compunerea numelui lor aceleași cifre (nu contează numărul de apariții), în timp ce două țări se află în conflict dacă nu au nicio cifră comună în numele lor.
+Interesat de politică, RAU -Gigel ar vrea să afle câteva informații:
+întrebare de tipul 1 : câte țări sunt izolate din punct de vedere politic, în sensul că nu sunt înfrățite cu nicio altă țară?
+întrebare de tipul 2 : pentru fiecare țară dintr-o listă de țări preferate să se afle: cu câte țări este înfrățită și cu câte în conflict?
+Ajutați-l pe RAU -Gigel să afle răspunsul la cele două tipuri de întrebări ale sale !
+
+Restricții
+1 ≤ N ≤ 100.000 , 1 ≤ Q ≤ 1.000 , Q ≤ N
+Teste în valoare de 40 puncte conțin o întrebare de tipul 1
+Teste în valoare de 20 puncte conțin o întrebare de tipul 2 și N ≤ 1.000 , Q ≤ 10
+Numele țărilor sunt numere naturale nenule, au între 1 și 9 cifre (inclusiv) și nu conțin zerouri nesemnificative (la stânga)
+Țările de pe hartă sunt distincte două câte două; la întrebările de tip 2 , lista țărilor preferate ale lui RAU -Gigel nu conține duplicate și este inclusă în lista țărilor de pe hartă
+O țară aflată în conflict cu o altă țară poate să fie izolată din punct de vedere politic, în sensul că nu are aliați
+Toate țările care au în compunerea numelui lor același set de cifre formează o alianță
+
+Exemplu
+Input: 1
+1133 1356789
+3131 13
+1331 2444 
+678 42 133
+Output: 2
+Input: 2
+2 13 1356789
+1133 1356789
+3131 13
+1331 2444 
+678 42 133
+Output: 4 3
+0 2

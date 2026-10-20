@@ -1,0 +1,24 @@
+#4054
+segmax
+
+Cerința
+Vom considera un segment pe axa Ox care începe la poziția 0 și se termină la poziția L . Se vor insera pe rând N puncte pe axă, iar după fiecare punct inserat se va afișa lungimea celui mai lung segment delimitat de două puncte (inclusiv 0 și L ).
+
+Restricții
+1 ≤ N ≤ 100 000
+1 ≤ L ≤ \({10}^{18}\)
+Fiecare punct inserat se află în intervalul (0, L)
+Punctele inserate sunt distincte.
+Punctele 0 și L se consideră inserate de la început.
+În cadrul acestei probleme, vom defini lungimea unui segment ca fiind numărul de puncte cu coordonate numere naturale care se află pe segmentul dat.
+
+Exemplu
+Input: 20 4
+6
+11
+15
+4
+Output: 15
+10
+7
+6

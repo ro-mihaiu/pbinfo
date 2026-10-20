@@ -1,0 +1,17 @@
+#1945
+benzinarii
+
+Cerința
+Presat de timp, Gigel vă roagă să îl ajutați să găsească distanța minimă până la cea mai apropiată benzinărie (numărul palindromic cel mai apropiat) și cât va indica kilometrajul atunci când va sosi la benzinărie.
+
+Restricții
+1 <= n <= 100.000.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 456
+Output: 2 458
+Input: 1998
+Output: 4 2002
+Input: 4774
+Output: 110 4884

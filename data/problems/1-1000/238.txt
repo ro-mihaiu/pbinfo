@@ -1,0 +1,14 @@
+#238
+Zone
+
+Cerința
+Se dă un număr natural n şi un tablou unidimensional cu 3*n elemente, numere naturale cu cel mult 4 cifre. Tabloul este împărţit în trei zone, cu câte n elemente: prima zonă conţine primele n elemente din tablou, a doua zonă conţine următoarele n elemente din tablou, restul elementelor fiind în zona a treia.
+Se cere interschimbarea primulul element par (dacă există) al zonei unu cu ultimul element impar (dacă există) al zonei trei . În cazul în care unul dintre elementele care urmează a fi interschimbate nu există, tabloul rămâne nemodificat.
+
+Restricții
+1 ≤ n ≤ 100
+
+Exemplu
+Input: 3
+1 2 3 4 5 6 7 8 9
+Output: 1 9 3 4 5 6 7 8 2

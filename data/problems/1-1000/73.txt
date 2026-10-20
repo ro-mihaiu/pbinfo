@@ -1,0 +1,14 @@
+#73
+fsumvecmin
+
+Cerința
+Scrieţi definiția completă a subprogramului suma , care primeşte prin parametrul v un tablou unidimensional cu cel mult 100 de elemente întregi, prin parametrul n numărul efectiv de elemente din v iar prin parametrul m un număr natural nenul, m ≤ n .
+Subprogramul returnează suma celor mai mici m elemente din tabloul v .
+
+Restricții
+0 < m ≤ n ≤ 100
+numele subprogramului cerut este suma
+parametrii sunt, în această ordine: v , n , m
+indicii elementelor vectorului v sunt 0 , 1 ,… , n-1 .
+
+Exemplu

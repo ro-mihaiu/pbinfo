@@ -1,0 +1,17 @@
+#3483
+pct
+
+Cerința
+Se dau n puncte distincte în plan, de coordonate întregi. Aflați numărul maxim de puncte aflate în interiorul sau pe laturile unui pătrat de latură k , având vârfurile de coordonate întregi și laturile paralele cu axele de coordonate.
+
+Restricții
+1 ≤ n ≤ 100.000
+2 ≤ k ≤ 1000
+coordonatele punctelor sunt cuprinse între 0 și 1000 , inclusiv.
+
+Exemplu
+Input: 3 2
+1 1
+1 0
+3 4
+Output: 2

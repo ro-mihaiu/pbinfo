@@ -1,0 +1,12 @@
+#3246
+echilibrat-ab
+
+Cerința
+Se dau două numere naturale a și b . Calculați suma numerelor echilibrate din intervalul [a,b] . Un număr este echilibrat dacă are număr par de cifre si are numărul de cifre pare egal cu numărul de cifre impare. De exemplu 3427 este echilibrat, iar 2333 nu este.
+
+Restricții
+1 ≤ a ≤ b ≤ 1.000.000
+
+Exemplu
+Input: 56 71
+Output: 509

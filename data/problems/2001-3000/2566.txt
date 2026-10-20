@@ -1,0 +1,16 @@
+#2566
+Daruri
+
+Cerința
+Scrieți un program care determină numărul maxim de școli ce vor primi pachete, precum și câte tablete și laptop-uri se găsesc în fiecare pachet.
+
+Restricții
+1≤t,l≤1000
+
+Exemplu
+Input: 10 15
+Output: 5
+2 3
+Input: 12 25
+Output: 0
+0 0

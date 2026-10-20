@@ -1,0 +1,13 @@
+#2782
+prada
+
+Cerința
+Pe un câmp orizontal se află doi stâlpi perpendiculari pe sol în punctele A și B . În vârful fiecărui stâlp se află o pasăre de pradă. Pe dreapta d determinată de punctele A si B apare un șoarece în punctul C . Cele două păsări zboară spre șoarece în linie dreaptă cu aceeași viteză.
+Cunoscând HA = înălțimea primului stâlp, HB = înălțimea celui de-al doilea stâlp, D = distanța dintre cei doi stâlpi, să se afle distanța X dintre șoarece și baza stâlpului mai înalt astfel încât păsările să ajungă la șoarece în același timp și să-l împartă frățește.
+
+Restricții
+Se garantează că HA, HB, D, X sunt naturale si mai mici sau egale cu 1000
+
+Exemplu
+Input: 30 20 50
+Output: 20

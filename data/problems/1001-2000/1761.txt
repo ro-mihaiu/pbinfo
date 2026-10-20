@@ -1,0 +1,41 @@
+#1761
+Brutar
+
+Cerința
+Brutarul vă roagă să îi specificați un traseu cu număr minim de celule parcurse, ce pornește de pe prima linie și se termină pe ultima linie, pentru a nu fi blătuit (mâncat de blat).
+
+Restricții
+1 ≤ N, M ≤ 1.000
+1 ≤ x ≤ N
+1 ≤ y ≤ M
+Se garantează că mereu va există cel puțin un drum care pornește de pe prima linie și ajunge pe ultima linie a matricei.
+Dacă există mai multe soluții cu număr minim de pași, se poate afișa oricare dintre acestea.
+
+Exemplu
+Input: 14 10
+XXXXXXOXXX
+OXOOOXOOOO
+OOXXOOXOXO
+OXOOOOXXXX
+OOOOXXOXOX
+OXOXOXXOOO
+XOXOOOOXOO
+OXXXOXOOOX
+XOOXOXOXOO
+OXOXOXOXOO
+OOOOXXOOXO
+XOOOXOXOOX
+OXOOOOOOOO
+XOXXXOXXXX
+2S 1V
+2S 1E
+Output: 9
+1 7
+3 6
+5 7
+7 6
+9 5
+10 5
+12 4
+12 3
+14 2

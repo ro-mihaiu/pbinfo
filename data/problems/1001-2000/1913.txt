@@ -1,0 +1,36 @@
+#1913
+mr
+
+Cerința
+Rică se joacă în fiecare seară The MazeRunnerVladVersion, joc pe care îl vom numi pentru simplitatea problemei MR. Jocul constă în găsirea unei căi de scăpare dintr-un labirint care conține:
+ziduri prin care Rică nu va putea să treacă;
+zero sau mai multe teleporturi cu ajutorul cărora deplasarea între două puncte precizate p1(x1, y1) și p2(x2, y2) se face într-un minut, dacă se doreşte acest lucru;
+zone libere, trecerea din zona curentă într-o zonă învecinată se poate face pe direcția celor patru puncte cardinale. Deplasarea se va face într-un minut.
+Rică pleacă din colțul stânga-sus al labirintului și doreşte să ajungă în colțul dreapta-jos.
+El știe că are o teză în ziua următoare, așa că vă cere ajutorul vouă, programatorilor, și vă roagă să aflați timpul minim în care poate să ajungă din colțul stânga-sus în colțul dreapta-jos al labirintului.
+
+Restricții
+2 ≤ n, m ≤ 100
+0 ≤ T ≤ 100
+Pentru fiecare set de date de intrare există soluție.
+Pentru 50% din teste nu există teleporturi.
+
+Exemplu
+Input: 5 5
+ 0  0 -1 0 0 
+ 0 -1  0 0 0 
+ 0  0  0 0 0
+-1 -1  0 0 0
+ 0  0  0 0 0
+ 0
+Output: 8
+Input: 5 6	
+ 0  0  0  0 -1  0
+ 0  0 -1 -1  0  0
+-1  0  0  0 -1  0
+-1  0 -1  0  0  0
+-1 -1 -1  0  0  0
+2
+2 2 4 5
+4 2 2 5
+Output: 5

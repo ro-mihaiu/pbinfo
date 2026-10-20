@@ -1,0 +1,12 @@
+#12
+initiale
+
+Cerința
+Transformaţi şirul dat astfel încât prima şi ultima literă a fiecărui cuvânt să fie înlocuite cu litera mare corespunzătoare.
+
+Restricții
+şirul de caractere citit conţine cel mult 255 de caractere
+
+Exemplu
+Input: mare frig   rosu
+Output: MarE FriG   RosU

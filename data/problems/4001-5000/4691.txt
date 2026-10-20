@@ -1,0 +1,27 @@
+#4691
+Matrice19
+
+Cerința
+Se consideră o matrice pătratică cu n linii şi n coloane şi elemente numere naturale distincte. Cele două diagonale delimitează în matrice 4 zone:
+NORD – elementele situate deasupra diagonalei principale şi deasupra celei secundare
+EST – elementele situate deasupra diagonalei principale şi sub cea secundară
+SUD – elementele situate sub diagonala principală şi sub cea secundară
+VEST – elementele situate sub diagonala principală şi deasupra celei secundare
+Să se modifice matricea în felul următor: se determină cele 4 maxime din zonele determinate de cele două diagonale și se interschimbă maximele în sensul acelor de ceas. Mai exact, elementul maxim din zona nord va ajunge în locul elementului maxim din zona de est, cel din zona de est în locul celui din zona de sud, cel din zona de sud în cea de vest, iar cel din zona de vest în cea de nord.
+
+Restricții
+1 ≤ n ≤ 50
+elementele matricei sunt mai mici decât 10000 și sunt distincte
+
+Exemplu
+Input: 5
+22 10 11 16 17 
+4 19 1 8 20  
+21 12 3 5 6 
+18 7 9 24 15 
+13 23 25 14 2
+Output: 22 10 11 21 17
+4 19 1 8 16
+25 12 3 5 6
+18 7 9 24 15
+13 23 20 14 2

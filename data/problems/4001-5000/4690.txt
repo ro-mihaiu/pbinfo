@@ -1,0 +1,18 @@
+#4690
+varfuri9
+
+Cerința
+Se dă o matrice cu n linii și m coloane și elemente numere naturale. Să se determine câte elemente din matrice sunt mai mari decât suma vecinilor lor.
+
+Restricții
+1 ≤ m,n ≤ 100
+elementele matricei vor fi mai mici decât 1.000.000
+un element al matricei are cel mult patru vecini: pe linia anterioară și aceeași coloană, pe linia următoare și aceeași coloană, pe aceeași linie și coloana anterioară, pe aceeași linie și coloana următoare.
+
+Exemplu
+Input: 4 7
+1 2 4 4 2 2 2 
+8 3 4 5 1 4 3 
+3 2 0 1 6 1 2 
+9 7 4 9 2 4 1
+Output: 3

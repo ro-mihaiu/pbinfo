@@ -1,0 +1,12 @@
+#1485
+Jumatate1
+
+Cerința
+Să se determine cel mai mare divizor comun al lui x și y .
+
+Restricții
+Numărul n va avea cel mult 16 cifre.
+
+Exemplu
+Input: 88132
+Output: 44

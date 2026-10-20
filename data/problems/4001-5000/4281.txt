@@ -1,0 +1,13 @@
+#4281
+Min2Cif
+
+Cerința
+Se citesc de la tastatură numere naturale până la apariția lui zero. Să se determine cel mic număr citit care are două cifre.
+
+Restricții
+numerele citite vor fi mai mici decât 10000
+dacă niciun număr citit nu are două cifre, se va afișa NU EXISTA
+
+Exemplu
+Input: 105 63 20 4 0
+Output: 20

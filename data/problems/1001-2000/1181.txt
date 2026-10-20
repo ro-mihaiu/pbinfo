@@ -1,0 +1,9 @@
+#1181
+FListaInserare2
+
+Cerința
+Să se scrie o funcție C++ cu următorul prototip:
+void inserare(nod * p);
+care inserează după fiecare element par al unei liste pentru care primul element are adresa memorată în pointerul p dublul acelui element.
+
+Exemplu

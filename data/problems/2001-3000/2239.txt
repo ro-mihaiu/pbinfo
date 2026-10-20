@@ -1,0 +1,15 @@
+#2239
+pow2
+
+Cerința
+Să se determine câte perechi de indici (i, j) , 1 ≤ i < j ≤ n , există cu proprietatea că suma a[i] + a[j] este egală cu o putere a lui 2 .
+
+Restricții
+2 ≤ n ≤ 100.000
+1 ≤ a[i] ≤ 1.000.000.000 , pentru orice i = 1..n
+Numerele care sunt puteri ale lui 2 sunt 1 , 2 , 4 , 8 , 16 , 32 , …
+
+Exemplu
+Input: 4
+3 5 3 13
+Output: 4

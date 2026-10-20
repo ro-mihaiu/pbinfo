@@ -1,0 +1,12 @@
+#1212
+sumapatrate
+
+Cerința
+Fiind dat N , un număr natural nenul, calculați suma S=1 2 + 2 2 + 3 2 + ... + n 2 , modulo 10.234.573 .
+
+Restricții
+1 ≤ N ≤ 2.000.000.000
+
+Exemplu
+Input: 4
+Output: 30

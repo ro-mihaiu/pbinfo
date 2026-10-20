@@ -1,0 +1,14 @@
+#3367
+croseta
+
+Cerința
+Ionel este un băieţel pasionat de matematică, dar tare năzdrăvan. Într-o zi a dat cu o piatră şi a spart un geam de la casa bunicii. Ştiind pasiunea băiatului, bunica i-a spus: ”Te voi ierta dacă îmi dai răspunsul corect la următoarea problemă: Când erai mic am croşetat o “păturică specială” pentru tine. Nu îmi pot aminti cu câte ochiuri am pornit primul rând şi doresc tare mult să ştiu acest lucru. Te rog să mă ajuți! Pot să-ți spun că: - păturica are n ochiuri; - primele două rânduri croșetate au același număr de ochiuri. Ele se găsesc la mijlocul păturii și conțin cele mai multe ochiuri; - pentru a obține rânduri noi am procedat astfel: pornind din partea stângă a fiecărui rând, către dreapta, am unit câte 3 ochiuri din rândul precedent întrunul singur, obținând astfel un rând nou. Dacă la capătul din dreapta rândului rămâneau 4 sau 5 ochiuri, din acestea formam un singur ochi. Pornind de la rândul 1 , fiecare nou rând obținut se găsește deasupra celui din care a fost format, iar fiecare nou rând obținut pornind de la rândul 2 se găsește sub cel din care a fost format; - am continuat până când am ajuns la un rând cu un singur ochi; - în timp ce lucram, m-am gândit pe parcurs, dacă penultimul rând conţinea două ochiuri, să formez cu ele un singur ochi.” Ionel a desenat cum arată “păturica specială” cu 20 de ochiuri şi vă roagă să-l ajutaţi să găsească soluţia problemei.
+Se dă un număr n , natural par, reprezentând numărul total de ochiuri din care este formată păturica. Se cere să se determine un număr natural k care reprezintă numărul de ochiuri pe care îl are primul rând croşetat de bunica.
+
+Restricții
+1 ≤ n ≤ 2 000 000 000
+n număr natural par Pentru toate testele date există soluţie. Un ochi de croşetă este desenat printr-un cerculeţ.
+
+Exemplu
+Input: 30
+Output: 11

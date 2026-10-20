@@ -1,0 +1,19 @@
+#3389
+colturi_dr
+
+Cerința
+Se dă o matrice cu n linii și m coloane cu valori de 0 și 1 . Numim dreptunghi de extrem un dreptunghi ale cărui vârfuri au valori egale. Determinați numărul acestor dreptunghiuri, aria dreptunghiului de arie maximă și câte dreptunghiuri au aceeași valoare a vârfurilor ca și dreptunghiul de arie maximă.
+
+Restricții
+1 ≤ n, m ≤ 100
+numărul de dreptunghiuri de extrem cu vârfuri de 1 este diferit de numărul de dreptunghiuri de extrem cu vârfuri de 0 .
+un dreptunghi de extrem are cel puțin două linii și două coloane
+
+Exemplu
+Input: 5 5
+1  0  1  0  1
+1  1  1  1  0
+0  1  1  0  1
+0  1  0  0  1
+1  0  1  0  1
+Output: 11 25 9

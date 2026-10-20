@@ -1,0 +1,23 @@
+#2870
+Magie
+
+Cerința
+În regatul de gheață Olaf este renumit pentru spectacolele sale de magie. La o reprezentaţie de magie, Olaf invită pe scenă N persoane. Fiecare persoană îi şopteşte lui Olaf la ureche anul nașterii şi el calculează vârsta fiecărei persoane ca fiind diferența dintre 2017 și anul nașterii acesteia.
+Printr-o magie, Olaf face să apară pe scenă, câte un om de zăpadă pentru fiecare copil de 12 ani care se află printre cele N persoane.
+Olaf asociază apoi pentru fiecare persoană de pe scenă un număr magic obținut prin însumarea tuturor cifrelor ce apar în anul nașterii persoanei respective.
+Printr-o nouă magie, Olaf scoate din pălăria sa un buchet cu flori de gheață, buchet ce conține atâtea flori cât arată cel mai mare număr magic asociat de Olaf unei persoane. El dăruieşte acest buchet Elsei – prințesa regatului.
+Scrieți un program care să determine:
+a) Numărul oamenilor de zăpadă care au apărut pe scenă prin magia lui Olaf; b) Numărul florilor de gheață din buchetul pe care Olaf l-a dăruit Elsei.
+
+Restricții
+1 ≤ N ≤ 100
+
+Exemplu
+Input: 5
+1994
+2005
+1965
+2005
+2005
+Output: 3
+23

@@ -1,0 +1,12 @@
+#3270
+suma-divizorilor-pari
+
+Cerința
+Se citește un număr natural n . Să se determine suma divizorilor pari ai săi.
+
+Restricții
+\( 0 < n < 2^{31} \)
+
+Exemplu
+Input: 30
+Output: 48

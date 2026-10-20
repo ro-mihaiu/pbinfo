@@ -1,0 +1,28 @@
+#2973
+cate3cifre
+
+Cerința
+Fiind dat un număr natural N , să se determine cel mai mare număr natural mai mic sau egal cu N , care are proprietatea că se scrie în exact două baze diferite prin exact 3 simboluri identice. 1. Să se scrie numărul determinat 2. Să se scrie cele două baze determinate și valorile simbolurilor respective.
+
+Restricții
+0 < N ≤ 1000000
+Pentru rezolvarea corectă a cerinței 1 se acordă 60 de puncte. Pentru cerința 2 , se acordă 30 de puncte. Pentru 50 de puncte N ≤ 10000
+Numărul xyz (b) scris în baza b cu simbolurile x , y , z se scrie în baza 10 ca o valoare calculată astfel: x • b 2 + y • b + z (unde simbolurile x , y , z se înlocuiesc cu valorile asociate)
+Pentru fiecare test există soluție.
+În concurs s-au acordat 10 puncte din oficiu. Aici se acordă pentru exemplele din enunț.
+
+Exemplu
+Input: 1
+1000
+Output: 931
+Input: 2
+1000
+Output: 11 7
+30 1
+Input: 1
+30000
+Output: 26733
+Input: 2
+30000
+Output: 37 19
+163 1

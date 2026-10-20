@@ -1,0 +1,16 @@
+#4757
+sir_eval
+
+Cerința
+Vi se dă o expresie de forma v=a+b sau de forma v=a*b , unde v este numele unei variabile, iar a și b sunt două numere naturale. Trebuie să evaluați rezultatul expresiei.
+
+Restricții
+Numerele a și b sunt naturale de cel mult 4 cifre.
+Numele variabilei este format doar din litere mici și are lungimea cel mult 10 .
+Expresia citită nu conține spații, și de asemenea expresia afișată nu trebuie să conțină spații.
+
+Exemplu
+Input: sol=15+115
+Output: sol=130
+Input: produs=15*100
+Output: produs=1500

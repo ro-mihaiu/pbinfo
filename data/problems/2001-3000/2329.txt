@@ -1,0 +1,14 @@
+#2329
+prim007
+
+Cerința
+Se dă un șir a 1 , a 2 , …, a n format din n numere naturale. Determinați numărul de perechi de elemente din șir (a i ,a j ) cu i < j , care au suma număr prim.
+
+Restricții
+2 ≤ n ≤ 100.000
+elementele șirului vor fi mai mici decât 10.000
+
+Exemplu
+Input: 3
+2 5 9
+Output: 2

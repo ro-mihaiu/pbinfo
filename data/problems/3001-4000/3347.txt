@@ -1,0 +1,14 @@
+#3347
+Fibonacci3
+
+Cerința
+Se dă un şir format din n numere naturale. Se calculează suma elementelor oricărui subşir al şirului dat. Să se afle câte din sumele obţinute sunt termeni ai şirului lui Fibonacci.
+
+Restricții
+2 ≤ n ≤ 25
+numerele date sunt cel mult egale cu 10 17
+
+Exemplu
+Input: 2
+3 18
+Output: 2

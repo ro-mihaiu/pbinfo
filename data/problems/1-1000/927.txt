@@ -1,0 +1,12 @@
+#927
+DistantaPuncte
+
+Cerința
+Se dau coordonatele în plan a două puncte. Să se afișeze pătratul distanței dintre ele.
+
+Restricții
+Numerele din fișierul de intrare sunt întregi cuprinse între -1001 și 1001 .
+
+Exemplu
+Input: 1 0 5 4
+Output: 32

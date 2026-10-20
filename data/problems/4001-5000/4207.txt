@@ -1,0 +1,14 @@
+#4207
+SumProdRec
+
+Cerința
+Scrieți funcția recursivă cu antetul
+long long SumProdRec(int n)
+care primind ca parametru un număr natural nenul n , returnează valoarea sumei 1•2 + 2•3 + ... (n-1)•n .
+
+Restricții
+2 ≤ n ≤ 10.000
+Numele funcției este SumProdRec .
+Se recomandă utilizarea recursivității în rezolvarea problemei.
+
+Exemplu

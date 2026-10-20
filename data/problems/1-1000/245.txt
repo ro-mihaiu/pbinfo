@@ -1,0 +1,12 @@
+#245
+nrdivmax
+
+Cerința
+Se dă un număr natural n . Să se determine numărul din intervalul [1,n] care are număr maxim de divizori. Dacă există mai multe asemenea numere, se va afișa cel mai mic dintre ele.
+
+Restricții
+0 < n <= 100.000
+
+Exemplu
+Input: 20
+Output: 12

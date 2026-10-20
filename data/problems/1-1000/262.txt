@@ -1,0 +1,14 @@
+#262
+Intervale1
+
+Cerința
+Se dă un șir de n numere reale, în ordine strict crescătoare. Să se determine un număr natural x , cu proprietatea că în orice interval deschis având drept capete oricare două valori din șir se află cel puțin x numere întregi.
+
+Restricții
+1 ≤ n ≤ 100.000
+numerele reale din fișierul de intrare au valoarea absolută mai mică decât 100.000.000
+
+Exemplu
+Input: 6
+3.5 5.1 9.2 16 20.33 100
+Output: 2

@@ -1,0 +1,13 @@
+#2061
+tren-japonez
+
+Cerința
+Calculați încărcătura din fiecare vagon.
+
+Restricții
+1 ≤ n,m ≤ 1000000
+n ≤ m
+
+Exemplu
+Input: 3 6
+Output: 2

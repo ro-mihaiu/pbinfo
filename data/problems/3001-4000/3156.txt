@@ -1,0 +1,22 @@
+#3156
+perm_min_max
+
+Cerința
+Se citește o mulțime cu n numere naturale. Afișați în ordine lexicografică toate permutările mulțimii citite în care elementul minim și cel maxim nu își schimbă poziția.
+
+Restricții
+1 ≤ n ≤ 10
+cele n numere citite vor fi mai mici decât 1.000.000.000 și vor fi distincte
+
+Exemplu
+Input: 6
+8 2 7 9 4 5
+Output: 4 2 5 9 7 8 
+4 2 5 9 8 7 
+4 2 7 9 5 8 
+4 2 7 9 8 5 
+4 2 8 9 5 7
+...
+8 2 5 9 7 4 
+8 2 7 9 4 5 
+8 2 7 9 5 4

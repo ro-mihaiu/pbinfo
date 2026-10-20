@@ -1,0 +1,12 @@
+#4533
+HarapAlb4
+
+Cerința
+Scrieți un program care citește de la tastatură un număr natural și determină cel mai mare număr scris cu două cifre vecine din numărul dat.
+
+Restricții
+10 ≤ N ≤ 1.000.000.000
+
+Exemplu
+Input: 1548
+Output: 84

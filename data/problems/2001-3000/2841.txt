@@ -1,0 +1,16 @@
+#2841
+GenMat27
+
+Cerința
+Scrieţi un program care citește de la tastatură două numere naturale, m și n ( 2≤m≤20 , 2≤n≤20 ), și construiește în memorie un tablou bidimensional A , cu m linii și n coloane, astfel încât parcurgându-l linie cu linie, de sus în jos, și fiecare linie de la stânga la dreapta, să se obțină șirul primelor n·m numere naturale, pare, care NU sunt divizibile cu 5, ordonat strict crescător.
+Programul afişează pe ecran tabloul obținut, fiecare linie a tabloului pe câte o linie a ecranului, elementele de pe aceeași linie fiind separate prin câte un spațiu.
+
+Restricții
+2 ≤ m,n ≤ 20
+
+Exemplu
+Input: 4 3
+Output: 2 4 6
+8 12 14
+16 18 22
+24 26 28

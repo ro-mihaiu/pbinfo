@@ -1,0 +1,15 @@
+#3678
+palpow
+
+Cerința
+Un număr natural se numește palPow dacă oglinditul său are strict mai mulți divizori pozitivi decât are numărul. De exemplu 23 este un număr palPow deoarece 23 are doi divizori pozitivi (1 23) iar oglinditul său, 32 , are șase divizori pozitivi (1 2 4 8 16 32) . Oglinditul unui număr este valoarea obținută considerând cifrele numărului de la dreapta la stânga(de exemplu, oglinditul lui 675 este 576 iar oglinditullui 20310 este 1302 ). Pentru un șir de n numere naturale date să se determine câte numere palPow sunt în șir precum și care este cel mai mic și cel mai mare număr palPow din șir.
+
+Restricții
+1 ≤ n ≤ 1000 .
+numerele din șir sunt naturale cel mult egale cu 10 9 .
+șirul conține cel puțin un număr palPow.
+
+Exemplu
+Input: 6
+13 23 231 408 48 36
+Output: 3 23 231

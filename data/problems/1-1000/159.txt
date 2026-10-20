@@ -1,0 +1,14 @@
+#159
+inseraredupa
+
+Cerința
+Să se insereze în șir după fiecare element par dublul său.
+
+Restricții
+1 ≤ n ≤ 25
+elementele șirului vor fi cuprinse între 0 și 1.000.000
+
+Exemplu
+Input: 5
+7 3 4 1 6
+Output: 7 3 4 8 1 6 12

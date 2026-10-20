@@ -1,0 +1,31 @@
+#4127
+siruri4
+
+Cerința
+Dându-se cele N numere din șir să se determine:
+Câte numere din șirul inițial nu au nevoie de transformare (conțin doar cifre distincte)?
+Câte numere va conține șirul după realizarea tuturor operațiilor de unire?
+Care este numărul maxim de cifre ale unui număr din noul șir și câte numere au acest număr maxim de cifre?
+
+Restricții
+c ∈ {1, 2, 3}
+1 ≤ N ≤ 100.000
+1 ≤ a[i] ≤ 1.000.000.000
+a[i] conține doar cifre nenule, pentru oricare 1 ≤ i ≤ n
+Pentru 18 puncte, c = 1
+Pentru 40 puncte, c = 2
+Pentru 42 puncte, c = 3
+
+Exemplu
+Input: 1
+8
+21245 51278 869 33447 723 397897 545786 6783221
+Output: 3
+Input: 2
+8
+21245 51278 869 33447 723 397897 545786 6783221
+Output: 4
+Input: 3
+9
+21245 51278 869 33447 723 397897 545786 6783221 235788946
+Output: 8 3

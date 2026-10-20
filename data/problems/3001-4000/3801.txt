@@ -1,0 +1,13 @@
+#3801
+LsiInterclasare
+
+Cerința
+Se dau două liste în care informațiile sunt ordonate crescător. Adresele celor două liste sunt memorate în pointerii h1 și h2 . Să se scrie o funcție C++ cu următorul antet:
+void LsiInterclasare(Nod *h1, Nod *h2, Nod *&h)
+care interclasează nodurile într-o nouă listă de adresă h și care are de asemenea informațiile ordonate crescător. Atenție la faptul că nu puteți să ștergeți și să creați noi noduri, ci numai să schimbați legăturile nodurilor. Dacă există noduri de informație identică în ambele liste, mai întâi se va depune în h nodul din h1 .
+
+Restricții
+cele două liste inițiale conțin fiecare cel puțin un nod
+la ieșirea din apel h va memora adresa primului element al listei interclasate
+
+Exemplu

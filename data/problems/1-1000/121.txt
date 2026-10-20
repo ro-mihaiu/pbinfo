@@ -1,0 +1,12 @@
+#121
+ciframaxima2
+
+Cerința
+Se citeşte de la tastatură un număr natural. Să se determine cea mai mare cifră care apare în scrierea acestuia şi numărul de apariţii ale ei.
+
+Restricții
+numărul citit va fi mai mic decât 2.000.000.000
+
+Exemplu
+Input: 274705
+Output: 7 2

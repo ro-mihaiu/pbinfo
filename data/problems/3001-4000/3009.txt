@@ -1,0 +1,15 @@
+#3009
+ZTS
+
+Cerința
+Fie Z un număr natural în baza 10 . Considerăm r k r k-1 … r 1 r 0 scrierea numărului Z în baza 3 . Fie T = \( \overline{ {r}_{k}{r}_{k-1}…{r}_{1}{r}_{0} } \) numărul în baza 10 format cu cifrele r k , r k-1 , … r 1 , r 0 . Notăm cu S restul împărțirii numărului T la 7 . Se dau N numere naturale Z 1 , Z 2 , … , Z N . Pentru fiecare dintre numerele Z 1 , Z 2 , … , Z N se cere să se calculeze S 1 , S 2 , … , S N . ( S i reprezintă restul împărțirii la 7 a numărului T i iar T i reprezintă numărul format cu cifrele scrierii în baza 3 a numărului Z i ).
+
+Restricții
+1 ≤ N ≤ 40000
+Z 1 , Z 2 , … , Z N vor fi mai mici decât \( {2}^{64} \)
+
+Exemplu
+Input: 2
+19 30
+Output: 5
+2

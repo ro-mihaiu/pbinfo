@@ -1,0 +1,16 @@
+#965
+joc3
+
+Cerința
+Scrieţi un program care să citească cele trei numere naturale nenule n , x şi y , şi apoi să determine: a) numărul t al sectoarelor de pe pistă prin care nu trece niciunul din cei doi copii în urma săriturilor executate până la terminarea jocului; b) numărul s de sărituri executate de fiecare copil până la terminarea jocului; c) etichetele b şi r ale sectoarelor în care ajung cei doi copii la terminarea jocului (Bogdan ajunge la finalul jocului în sectorul cu eticheta b , iar Rareş în cel cu eticheta r ).
+
+Restricții
+20 ≤ n ≤ 30000
+1 ≤ x < n; 1 ≤ y < n
+pentru rezolvarea corectă a primei cerinţe se acordă 20% din punctaj, pentru rezolvarea corectă a celei de a doua cerinţe 40% din punctaj şi pentru rezolvarea corectă a celei de a treia cerinţe 40% din punctaj.
+
+Exemplu
+Input: 16 2 3
+Output: 4 8 1 9
+Input: 16 6 2
+Output: 12 2 13 13

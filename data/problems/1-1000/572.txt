@@ -1,0 +1,25 @@
+#572
+Arma
+
+Cerința
+Capitala imperiului este protejată de un zid de formă dreptunghiulară formată din n*m cărămizi dispuse pe n linii și m coloane, linia 1 fiind cea mai de sus, iar linia n fiind cea mai de jos. Fiecare cărămidă este alcătuită dintr-o substanță identificată printr-un număr natural nenul.
+Cuceritorul Gigel are la dispoziție o armă specială, care poate fi programată să distrugă toate cărămizile din zid care sunt formate din aceeași substanță, cunoscută, la o singură tragere. După fiecare tragere, toate cărămizile care sunt situate deasupra celor distruse cad, până ajung pe o cărămidă din zid, sau la baza acestuia.
+Solicitarea lui Gigel este să determinați structura zidului după un număr dat de trageri, k .
+
+Restricții
+1 ≤ n, m ≤ 100
+1 ≤ k ≤ 100
+substanțele din care sunt create cărămizile sunt identificate prin numere naturale nenule mai mici decât 1000
+dacă la o anumită tragere nu există în zid cărămizi de tipul utilizat la acea tragere, zidul rămâne nemodificat
+
+Exemplu
+Input: 4 5 3
+3 5 4 5 1 
+2 1 1 5 3 
+1 1 5 5 1 
+5 5 1 4 3
+1 5 1
+Output: 0 0 0 0 0 
+0 0 0 0 0 
+3 0 0 0 3 
+2 0 4 4 3

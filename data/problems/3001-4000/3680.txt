@@ -1,0 +1,20 @@
+#3680
+numereX
+
+Cerința
+1. Se dă un număr natural N . Determinați cel mai mic număr din intervalul închis [1,N] care are număr maxim de divizori proprii. 2. Se dau trei numere N , M și T . Determinați câte intervale de forma [a,b] au proprietatea că există exact M numere naturale care au T divizori proprii.
+
+Restricții
+1 ≤ N ≤ 100000
+1 ≤ M ≤ 100000
+1 ≤ T ≤ 100000
+1 ≤ a ≤ b ≤ N
+Pentru rezolvarea corectă a cerinței 1 se acordă 40 de puncte, pentru rezolvarea corectă a cerinței 2 se acordă 60 de puncte.
+
+Exemplu
+Input: 1
+20
+Output: 12
+Input: 2
+10 3 2
+Output: 6

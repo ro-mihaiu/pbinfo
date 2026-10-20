@@ -1,0 +1,12 @@
+#2674
+IncDecRec
+
+Cerința
+Scrieți funcția recursivă IncDecRec care primind ca parametru un număr natural n , returnează numărul obținut din n prin scăderea cu 1 a fiecărei cifre impare și creșterea cu 1 a fiecărei cifre pare.
+
+Restricții
+0 ≤ n ≤ 999.999.999
+Numele funcției este IncDecRec .
+Se recomandă utilizarea recursivității în rezolvarea problemei. De asemenea, se recomandă să nu se folosească alte funcții suplimentare.
+
+Exemplu

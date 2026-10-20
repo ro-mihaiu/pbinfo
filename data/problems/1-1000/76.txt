@@ -1,0 +1,12 @@
+#76
+fultimacifrapara
+
+Cerința
+Să se scrie definiția completă a funcției C++ UCP care să returneze ultima cifră pară a unui număr natural transmis ca parametru.
+
+Restricții
+numele funcției va fi UCP
+funcția va avea un parametru reprezentând numărul pentru care se calculează ultima cifră pară, număr natural mai mic decât 1.000.000.000
+dacă numărul nu conține nici o cifră pară, funcția va returna valoarea -1
+
+Exemplu

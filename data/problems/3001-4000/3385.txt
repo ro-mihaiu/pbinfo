@@ -1,0 +1,28 @@
+#3385
+lumini1
+
+Cerința
+Scrieţi un program care să determine: 1) Numărul de luminițe din bradul cu cele mai multe luminițe. 2) Numele colegului care are bradul cu cele mai multe luminițe.
+
+Restricții
+1 ≤ n ≤ 5000 , n număr natural;
+1 < NrDiv ≤ 120 , NrDiv este număr natural;
+numele oricărui coleg are maximum 23 de caractere alfabetice;
+numărul maxim de luminițe din instalația de brad va fi 65536 ( 2 16 ).
+
+Exemplu
+Input: 1
+3
+12 Tryp
+13 Mike
+14 Gymi
+Output: 4096
+Input: 2
+6
+22 Andreea
+26 Iustina
+40 Iuliana
+26 Andreia
+27 Corina
+30 Raluca
+Output: Iustina

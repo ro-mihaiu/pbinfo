@@ -1,0 +1,21 @@
+#1564
+triunghidublu
+
+Cerința
+Se dă un număr n . Afișați figura din exemplu.
+
+Restricții
+1 ≤ n ≤ 10
+
+Exemplu
+Input: 5
+Output: *
+**
+***
+****
+*****
+     *****
+      ****
+       ***
+        **
+         *

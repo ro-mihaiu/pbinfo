@@ -1,0 +1,18 @@
+#210
+chenar
+
+Cerința
+Scrieţi un program care citeşte numărul natural n şi cele n*n elemente ale tabloului şi apoi afişează elementele chenarului exterior al tabloului, separate prin câte un spaţiu. Chenarul este parcurs în sensul acelor de ceasornic începând din colţul său stânga-sus. Chenarul este format din prima şi ultima linie, prima şi ultima coloană a tabloului.
+
+Restricții
+2 ≤ n ≤ 23
+elementele tabloului sunt mai mici decât 1000
+
+Exemplu
+Input: 5
+1 2 3 4 5
+6 7 8 9 1
+2 3 4 5 6
+7 8 9 1 2
+3 4 5 6 7
+Output: 1 2 3 4 5 1 6 2 7 6 5 4 3 7 2 6

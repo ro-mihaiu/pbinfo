@@ -1,0 +1,12 @@
+#4295
+factor_exp_max
+
+Cerința
+Se dă un număr natural n . Să se determine factorul prim din descompunerea lui n care apare la puterea cea mai mare. Dacă există mai mulți factori care apar la putere maximă, se va afișa cel mai mare dintre ei.
+
+Restricții
+n este un număr natural strict mai mare decât 1 și are cel mult 12 cifre (este de tip long long )
+
+Exemplu
+Input: 7623
+Output: 11

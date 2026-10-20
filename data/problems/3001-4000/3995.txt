@@ -1,0 +1,16 @@
+#3995
+PartitiiNumar6
+
+Cerința
+Se dă un număr natural n . Determinați, în ordine lexicografică, toate modalitățile de a-l scrie pe n ca sumă de numere naturale impare distincte.
+
+Restricții
+1 ≤ n ≤ 40
+
+Exemplu
+Input: 16
+Output: 1 3 5 7 
+1 15 
+3 13 
+5 11 
+7 9

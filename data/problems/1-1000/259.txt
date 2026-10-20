@@ -1,0 +1,16 @@
+#259
+Eliminare2
+
+Cerința
+Se dau două şiruri, a şi b , cu n respectiv m elemente, numere naturale cu cel mult 9 cifre. Să se verifice dacă şirul b poate fi obţinut din şirul a , prin eliminarea unor elemente, fără a modifica ordinea inițială a elementelor.
+
+Restricții
+1 ≤ n,m ≤ 100.000
+
+Exemplu
+Input: 5 
+1 6 3 
+1 3 
+3
+6 1 3
+Output: 1

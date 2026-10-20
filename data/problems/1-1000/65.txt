@@ -1,0 +1,13 @@
+#65
+produscifreimpare
+
+Cerința
+Să se scrie un program care să determine produsul cifrelor impare ale unui număr natural citit de la tastatură.
+
+Restricții
+numărul citit va fi mai mic decât 2 31
+dacă numărul nu conţine cifre impare atunci se va afişa valoarea -1
+
+Exemplu
+Input: 2705
+Output: 35

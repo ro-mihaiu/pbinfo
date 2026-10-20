@@ -1,0 +1,19 @@
+#914
+HalfSort1
+
+Cerința
+Se dă un vector cu n elemente numere întregi, n fiind număr par. Să se ordoneze crescător elementele din prima jumătate a vectorului și descrescător elementele din a doua jumătate.
+Se vor defini și apela următoarele subprograme:
+citire , care citește valoarea lui n și cele n elemente ale tabloului
+afisare , care afișează elementele tabloului, separate prin exact un spațiu
+sortare , care ordonează elementele vectorului cuprinse între doi indici transmiși ca parametru. Criteriul de ordonare (crescător/descrescător) va fi transmis ca parametru.
+În programele C/C++ nu se vor folosi variabile globale .
+
+Restricții
+1 ≤ n ≤ 100 , n număr par
+valoarea absolută a numerelor de pe a doua linie a fişierului de intrare va fi mai mică decât 1.000.000.000
+
+Exemplu
+Input: 6
+8 2 9 4 5 7
+Output: 2 8 9 7 5 4

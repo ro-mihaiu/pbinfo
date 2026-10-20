@@ -1,0 +1,14 @@
+#3190
+Vigenere
+
+Cerința
+Se citesc două texte a și b cu lungimea maximă de 255 de caractere. Să se afișeze textul după aplicarea cifrului Vigenere la textul a cu cheia b .
+
+Restricții
+lungimea lui b ≤ Lungimea lui a ≤ 255 ;
+cele două șiruri vor conține doar litere mici din alfabetul englez.
+
+Exemplu
+Input: pbinfo
+dio
+Output: sjwqnc

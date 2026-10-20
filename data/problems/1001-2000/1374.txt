@@ -1,0 +1,17 @@
+#1374
+numere9
+
+Cerința
+Scrieţi un program care să-l ajute pe Mircea, găsindu-i cel mai mic şi cel mai mare dintre numerele consecutive schimbate de fratele său.
+
+Restricții
+0<n≤500
+Fratele lui Mircea schimbă cel puţin un număr în fişier.
+Numerele schimbate de fratele lui Mircea sunt mai mici sau cel mult egale cu 60000 .
+
+Exemplu
+Input: 3
+5 0 7
+0 0 1
+6 9 8
+Output: 2 4

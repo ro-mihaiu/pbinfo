@@ -1,0 +1,12 @@
+#109
+paritate
+
+Cerința
+Să se scrie un program care citeşte de la tastatură un număr natural şi verifică dacă numărul este par sau impar.
+
+Restricții
+0 < n < 1.000.000.000
+
+Exemplu
+Input: 2012
+Output: 2012 este par

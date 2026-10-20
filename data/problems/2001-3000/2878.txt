@@ -1,0 +1,17 @@
+#2878
+prev_perm
+
+Cerința
+Scrieți definiția completă a subprogramului C++ :
+void prev_perm(int n, int P[]);
+Subprogramul are doi parametri:
+n – prin care primește un număr natural
+P – prin care primește un tablou unidimensional cu n elemente ce reprezintă o permutare a mulțimii {1,2,...,n} .
+Subprogramul întoarce prin parametrul P permutarea anterioară din punct de vedere lexicografic.
+
+Restricții
+2 ≤ n ≤ 100000 ;
+elementele tabloului unidimensional P sunt indexate de la 1 ;
+în toate testele, pentru permutarea P există permutare anterioară.
+
+Exemplu

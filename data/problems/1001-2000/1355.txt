@@ -1,0 +1,18 @@
+#1355
+sirab
+
+Cerința
+Fie S și n două numere naturale nenule.
+Să se genereze (în ordine lexicografică) toate şirurile strict crescătoare de n numere naturale nenule cel mult egale cu S și cu proprietatea că oricare ar fi a şi b două numere dintr-un astfel de şir a-b divide a+b .
+
+Restricții
+10 ≤ S ≤ 300
+2 ≤ n ≤ 7
+Dacă nu pot fi generate astfel de șiruri atunci se va scrie valoarea 0 în fișierul de ieșire sirab.out .
+
+Exemplu
+Input: 10 4
+Output: 2 3 4 6 
+3 4 5 6 
+6 7 8 9 
+6 8 9 10

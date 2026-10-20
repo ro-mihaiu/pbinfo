@@ -1,0 +1,17 @@
+#3150
+permutari_pfp
+
+Cerința
+Se citește un număr natural n ( n<16 ). Afișați în ordine lexicografică toate permutările mulțimii {1,2,…,n} în care elementele pare sunt puncte fixe (nu își schimbă poziția).
+
+Restricții
+1 < n < 16
+
+Exemplu
+Input: 5
+Output: 1 2 3 4 5 
+1 2 5 4 3 
+3 2 1 4 5 
+3 2 5 4 1 
+5 2 1 4 3 
+5 2 3 4 1

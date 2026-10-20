@@ -1,0 +1,20 @@
+#89
+palindrompropozitie
+
+Cerința
+Să se scrie un program care citește mai multe propoziții și determină despre fiecare dacă este palindromică.
+
+Restricții
+0<n<100
+fiecare propoziție va conține cel mult 200 de caractere.
+
+Exemplu
+Input: 4
+capac
+ele fac cafele
+ale nu fac cafele
+aerare
+Output: 1
+1
+0
+0

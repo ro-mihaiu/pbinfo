@@ -1,0 +1,13 @@
+#2532
+cntcifsum
+
+Cerința
+Se dă un număr N și un număr S . Să se determine câte numere de N cifre au suma cifrelor S .
+
+Restricții
+1 ≤ N ≤ 1000
+1 ≤ S ≤ 9 * N
+
+Exemplu
+Input: 2 3
+Output: 3

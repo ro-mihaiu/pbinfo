@@ -1,0 +1,17 @@
+#3316
+Eratostene5
+
+Cerința
+Se dau n numere naturale nenule şi se notează cu P produsul acestora. Să se afle numerele prime din descompunerea lui P în factori primi, precum şi exponentul acestora.
+
+Restricții
+1 ≤ n ≤ 500.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 4
+6 10 21 56
+Output: 2 5
+3 2
+5 1
+7 2

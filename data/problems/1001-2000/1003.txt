@@ -1,0 +1,14 @@
+#1003
+Baze1
+
+Cerința
+Se dau două numere b1 b2 , reprezentând două baze de numeraţie şi două şiruri de cifre x y , reprezentând două numere: x în baza b1 , y în baza b2 . Determinaţi suma numerelor x şi y în baza 10 .
+
+Restricții
+2 ≤ b1,b2 ≤ 10
+reprezentările în baza 10 ale lui x , y şi suma lor nu depăşesc 2 000 000 000
+
+Exemplu
+Input: 2 5 
+110 213
+Output: 64

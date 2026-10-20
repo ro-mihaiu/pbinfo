@@ -1,0 +1,22 @@
+#2728
+Skyline
+
+Cerința
+Determinați care este aria celui mai mare dreptunghi care se poate înscrie în skyline.
+
+Restricții
+1 ≤ n ≤ 40.000 ;
+0 ≤ h ≤ 2.000.000.000 ;
+1 ≤ l ≤ 50.000 ;
+Dreptunghiul maximal are laturile verticale şi orizontale.
+
+Exemplu
+Input: 7
+4 3
+11 6
+8 2
+9 4
+2 2
+4 9
+8 9
+Output: 96

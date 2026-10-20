@@ -1,0 +1,14 @@
+#99
+nraparitii
+
+Cerința
+Să se determine câte elemente din şir sunt egale cu ultimul element al acestuia.
+
+Restricții
+0 < n < 100
+numerele de pe a doua linie a fişierului de intrare vor fi mai mici decât 1000
+
+Exemplu
+Input: 5
+5 3 2 4 5
+Output: 2

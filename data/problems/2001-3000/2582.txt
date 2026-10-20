@@ -1,0 +1,14 @@
+#2582
+SecvElim
+
+Cerința
+Se dă un șir de caractere care conține doar litere mici și mari ale alfabetului englez. Se parcurge șirul de la stânga la dreapta și dacă se întâlnește o secvență de litere alăturate egale, se șterge. Dacă în urma acestei operații se obține o nouă secvență de litere egale, se șterge și ea, ș. a. m. d.
+Să se afișeze șirul obținut.
+
+Restricții
+șirul dat conține maximum 255 de caractere
+nu se face diferență între literele mari și mici
+
+Exemplu
+Input: aAcboOoBcAXa
+Output: AXa

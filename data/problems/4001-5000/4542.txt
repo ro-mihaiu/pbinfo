@@ -1,0 +1,22 @@
+#4542
+InlocuireRec2
+
+Cerința
+Se dă un tablou cu n elemente, numere naturale. Să se înlocuiască fiecare element din tablou care are număr impar de cifre cu numarul obținut prin eliminarea cifrelor impare.
+Se vor defini și apela următoarele subprograme recursive :
+citire , care citește de la tastatură cele n elemente ale unui tablou
+afisare , care afișează pe ecran elementele tabloului separate prin exact un spațiu
+numar_cifre , care determină numărul de cifre ale unui număr dat ca parametru
+elim_cifre_impare , care determină pentru un număr dat ca parametru numărul obținut prin eliminarea cifrelor impare
+inloc , care realizează înlocuirile cerute.
+În programele C/C++ nu se vor folosi variabile globale .
+
+Restricții
+1 ≤ n ≤ 1000
+elementele tabloului vor fi mai mici decât 1.000.000.000
+prin eliminarea cifrelor impare dintr-un număr care conține numai cifre impare se obține 0
+
+Exemplu
+Input: 7
+73 108 217 175 2124 5209 74149
+Output: 73 8 2 0 2124 5209 44

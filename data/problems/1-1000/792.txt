@@ -1,0 +1,13 @@
+#792
+BiNefrunze1
+
+Cerința
+Se consideră un arbore binar în care nodurile memorează numere naturale nenule. Să se afișeze valorile memorate în nodurile neterminale ale arborelui, în ordine descrescătoare.
+
+Restricții
+se recomandă folosirea arborilor alocați dinamic.
+arborele nu va avea mai mult de 5000 de noduri neterminale
+
+Exemplu
+Input: 67 51 18 0 0 24 0 0 48 0 11 0 0
+Output: 67 51 48

@@ -1,0 +1,15 @@
+#428
+transfb
+
+Cerința
+Se citește un număr b , reprezentând o bază de numerație și apoi n numere naturale, reprezentând cifrele unui număr scris în baza b . Determinați transformarea acestui număr în baza 10 .
+
+Restricții
+2 ≤ b ≤ 9
+1 ≤ n ≤ 10
+cele n numere citite vor fi mai mici decât b
+
+Exemplu
+Input: 5 6
+1 0 2 2 4 1
+Output: 3446

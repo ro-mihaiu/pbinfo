@@ -1,0 +1,13 @@
+#1517
+Clatite
+
+Cerința
+Cunoscându-se N și M , numere naturale, să se determine câte clătite a mâncat Arpsod în total și numărul de clătite din fiecare tip.
+
+Restricții
+1 ≤ N, M ≤ 300.000
+
+Exemplu
+Input: 3 11
+Output: 9
+4 3 1 1 0

@@ -1,0 +1,14 @@
+#295
+Vecini
+
+Cerința
+Se dă un şir cu n elemente, numere naturale. Să se verifice dacă există în şir elemente care să aibă ambii vecini de aceeaşi paritate cu el.
+
+Restricții
+1 ≤ n ≤ 100
+elementele şirului vor avea cel mult 9 cifre
+
+Exemplu
+Input: 5
+803 60 102 408 6
+Output: DA

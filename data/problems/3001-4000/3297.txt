@@ -1,0 +1,15 @@
+#3297
+fmi_orase1
+
+Cerința
+Suntem în anul 2050. Resursele de apă de pe planeta noastră sunt limitate din cauza schimbărilor climatice. Sistemul de stocare a apei al unui oraș a evoluat în timp, ajungându-se la o configurație flexibilă formată din n pereţi verticali paraleli \( {p}_{1}, {p}_{2}, \cdots {p}_{n} \). Fiecare perete \( {p}_{i} \) are forma unui dreptunghi cu înălțimea \( {a}_{i} \) şi lăţimea de 1 km , iar oricare doi pereţi alăturaţi \( {p}_{i}, {p}_{i+1} \) se află la distanţa de 1 km , faţă în faţă. Fiecare dintre acești pereți poate fi coborât complet, prin culisare pe verticală, iar un bazin poate fi format din oricare doi pereți \( {p}_{i}, {p}_{j} \) (rămaşi după coborârea tuturor celorlalți) şi din pereţi laterali, care întregesc conturul de bazin. Capacitatea unui bazin este dată de produsul dintre înălţimea peretelui celui mai mic dintre cei doi \( {p}_{i}, {p}_{j} \) din care este format bazinul şi distanța dintre aceşti doi pereți. Sistemul de stocare poate fi descris de un șir de numere naturale \( {a}_{1}, {a}_{2}, …..{a}_{n} \)strict pozitive, unde \({a}_{1} \)reprezintă înălțimea în kilometri a peretelui \({p}_{1} \), \({a}_{2} \) reprezintă înălțimea în kilometri a peretelui \({p}_{2} \) și așa mai departe.
+Scrieți un program care primește la intrare numărul de pereți n≥2 și înălțimile acestora \( {a}_{1}, {a}_{2}, \cdots {a}_{n} \) , iar apoi determină și scrie capacitatea maximă de apă care poate fi stocată în acel oraș.
+
+Restricții
+2 ≤ n ≤ 100
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 100
+
+Exemplu
+Input: 9
+1 8 6 2 5 4 8 3 7
+Output: 49

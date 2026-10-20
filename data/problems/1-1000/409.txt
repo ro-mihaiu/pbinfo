@@ -1,0 +1,14 @@
+#409
+oglindit4
+
+Cerința
+Se dau n numere naturale. Determinați câte dintre ele au proprietatea că sunt prime cu oglinditul lor.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5
+24 50 25 81 359
+Output: 2

@@ -1,0 +1,15 @@
+#982
+puteri1
+
+Cerința
+Se dau n numere naturale. Aflați câte dintre acestea se pot scrie ca sumă de puteri distincte ale unui număr natural k .
+
+Restricții
+1 ≤ n ≤ 100.000
+2 ≤ k ≤ 10
+cele n numere citite vor fi mai mici decât 1.000.000.000
+
+Exemplu
+Input: 5 3
+6 37 12 9 5
+Output: 3

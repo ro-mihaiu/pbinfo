@@ -1,0 +1,15 @@
+#981
+secventa11
+
+Cerința
+Se dau n numere naturale. Determinaţi lungimea maximă a unei secvenţe de numere din şir cu proprietatea că în scrierea binară sunt formate doar din cifre de 1 .
+
+Restricții
+1 ≤ n ≤ 300.000
+cele n numere citite vor fi mai mici decât 1.000.000
+dacă în șir nu sunt numere formate numai din cifre de 1 în baza 2 , se va afișa 0
+
+Exemplu
+Input: 5
+4 6 7 15 88
+Output: 2

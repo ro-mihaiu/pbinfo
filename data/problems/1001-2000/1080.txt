@@ -1,0 +1,24 @@
+#1080
+Livada
+
+Cerința
+Cunoscând numerele m , n şi p , precum şi soiul fiecărui pom de pe fiecare rând al plantaţiei, ajutaţi-l pe Gigel să determine:
+pe câte rânduri din livadă există un soi majoritar;
+care este cel mai mare număr de pomi de acelaşi soi plantaţi în poziţii consecutive pe un rând.
+
+Restricții
+1 ≤ m ≤ 100
+1 ≤ n ≤ 700.000
+1 ≤ m*n ≤ 700.000
+1 ≤ p ≤ 998.560.000
+Pe fiecare rând diferenţa dintre valoarea maximă şi cea minimă este cel mult 250.000 .
+Dacă doar valoarea de pe prima linie este corectă, se acordă 40% din punctaj. Dacă doar valoarea de pe a doua linie este corectă, se acordă 60% din punctaj. Dacă ambele valori sunt corecte, se acordă 100% din punctajul testului respectiv.
+
+Exemplu
+Input: 4 7 9
+2 1 2 3 8 2 2
+4 7 2 4 9 7 4
+5 5 2 5 5 5 7
+2 3 2 3 2 3 1
+Output: 2
+3

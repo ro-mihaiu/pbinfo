@@ -1,0 +1,31 @@
+#747
+Turism
+
+Cerința
+Determinarea valorilor ce reprezintă suma încasată şi numărul de curse complete realizate.
+
+Restricții
+0 < n ≤ 200,n ≤ m ≤ 10000, 2 < k ≤ 100
+0 < numărul de staţii parcurse de un călător ≤ n
+autobuzul opreşte în fiecare staţie
+în fiecare staţie sunt cel mult k călători
+
+Exemplu
+Input: 10 8 16
+9 4 2 6 8 1 1 1 3 2
+2 1 3
+2 1 1
+2 1 2
+2 10 7
+2 10 1
+2 2 2
+2 2 2
+2 2 6
+2 4 1
+2 4 1
+4 3 1 1 1
+3 1 1 1
+8 5 7 4 10 2 3 2 5
+4 1 10 1 1
+4 1 1 1 10
+Output: 138 3

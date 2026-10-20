@@ -1,0 +1,18 @@
+#3325
+Ohoo
+
+Cerința
+Porumbeii au pornit un război crâncen împotriva ciorilor, dar ele au construit garduri defensive pe toate rutele pe care le-ar putea folosi armata porumbeilor pentru a le ataca cetatea. Pentru a ajunge la cetatea ciorilor armata trebuie sa treacă de gardurile construite de ciori. Pentru că porumbeii obosesc din cauza zborului ei trebuie sa se odihneasca pe statui, astfel armata poate merge doar pe drumurile cunoscute dintre două statui. Există n statui, iar armata se află inițial pe statuia cu numărul 1 , iar cetatea ciorilor se va afla pe cea cu numărul n . Armata porumbeilor deține un cioc bionic de putere K . Acesta poate sparge garduri cu rezistență mai mica sau egala cu K , armata putând astfel să treacă pe acel drum. Generalul armatei porumbeilor vă cere să găsiți puterea minimă pe care o poate avea ciocul bionic pentru ca armata să poată ajunge la cetatea ciorilor.
+
+Restricții
+2 ≤ n ≤ 100.000 1 ≤ m ≤ 250.000 Rezistențele gardurilor sunt numere naturale nenule și nu depășesc 1.000.000 Între două statui pot exista mai multe drumuri cu garduri de rezistențe diferite Întotdeauna există soluție Pentru 60% din teste n ≤ 1000 și K ≤ 1000 Se acordă 10 puncte pentru exemplu Atenție la numele fișirelor de intrare și de ieșire!
+
+Exemplu
+Input: 5 6
+1 2 3
+1 4 1
+2 3 2
+3 5 3
+4 5 4
+3 4 4
+Output: 3

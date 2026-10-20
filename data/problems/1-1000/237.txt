@@ -1,0 +1,17 @@
+#237
+sume
+
+Cerința
+Se dă un şir cu n numere naturale. Să se afişeze suma primilor n termeni din şir, apoi suma primilor n-1 termeni din şir, şi aşa mai departe.
+
+Restricții
+1 ≤ n ≤ 100
+numerele de pe a doua linie a fişierului de intrare vor fi mai mici decât 1000
+
+Exemplu
+Input: 4
+1 7 3 4
+Output: 15
+11
+8
+1

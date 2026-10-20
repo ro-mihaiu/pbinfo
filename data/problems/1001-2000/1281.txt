@@ -1,0 +1,17 @@
+#1281
+Regine1
+
+Cerința
+Se consideră o tablă de șah de dimensiune n . Să se plaseze pe tablă n regine astfel încât să nu existe două regine care să se atace.
+
+Restricții
+4 ≤ n ≤ 10 ;
+două regine se atacă dacă se află pe aceeași linie, aceeași coloană sau aceeași diagonală;
+orice configurație validă a tablei este acceptată.
+
+Exemplu
+Input: 4
+Output: - - * - 
+* - - - 
+- - - * 
+- * - -

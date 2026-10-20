@@ -1,0 +1,14 @@
+#486
+MinMax0
+
+Cerința
+Calculaţi valoarea minimă minim și valoarea maximă maxim a valorilor elementelor vectorului.
+
+Restricții
+0 < n < 1000
+elementele vectorului vor fi mai mici decât 1.000.000
+
+Exemplu
+Input: 5
+8 2 9 4 5
+Output: 2 9

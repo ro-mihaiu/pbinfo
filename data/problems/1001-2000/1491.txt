@@ -1,0 +1,41 @@
+#1491
+Coduri
+
+Cerința
+Fiind date numerele naturale N , H și D , reprezentând numărul de produse, numărul de cifre pentru codurile produselor, respectiv numărul de cifre pentru codurile de bare și cele N coduri, să se determine:
+a) Pentru fiecare produs pentru care se cunoaște unul dintre cele două coduri, codul care lipsește, adică codul de bare – dacă este specificat codul produsului, respectiv codul produsului – dacă este precizat codul de bare. Pentru produsele pentru care nu se cunoaște cu exactitate niciunul dintre coduri, se va determina, dacă este posibil, codul produsului. b) Numărul de coduri indescifrabile.
+
+Restricții
+1 ≤ N ≤ 60000 ; 1 ≤ H ≤ 8 ; 1 ≤ D ≤ 32
+Codurile produselor sunt cuprinse în intervalul [0,7FFFFFFF]
+Pentru reprezentarea codurilor în hexazecimal se folosesc majuscule.
+
+Exemplu
+Input: 5 2 8
+HB1
+D01011100
+D00110101
+H23
+HA3
+Output: 10110001
+5C
+35
+00100011
+10100011
+0
+Input: 7 2 8
+HB1
+D11111111
+UX00000X000
+HA3
+UBX1011X010
+UBX10110011
+UX1X0000001
+Output: 10110001
+FF
+00
+10100011
+0
+B3
+0
+2

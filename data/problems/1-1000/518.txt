@@ -1,0 +1,16 @@
+#518
+secvzero
+
+Cerința
+Se dă un vector cu n elemente numere naturale. Determinați cea mai lungă secvență de elemente nule din vector. Dacă în vector există mai multe secvențe de elemente nule de lungime maximă se va determina cea mai din stânga.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 100000
+indicii elementelor vectorului sunt cuprinși între 1 și n
+vectorul va conține cel puțin un element nul
+
+Exemplu
+Input: 10
+0 1 0 0 0 5 0 0 0 2
+Output: 3 5

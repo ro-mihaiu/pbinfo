@@ -1,0 +1,15 @@
+#958
+Povesti
+
+Cerința
+Scrieţi un program care citeşte numărul natural nenul N şi care determină: a) numărul P al paginii magice; b) numărul C reprezentând cifrul de deschidere a cărții.
+
+Restricții
+100 ≤ N ≤ 1000000000 ; N număr natural
+Pentru rezolvarea corectă a cerinţei a) se acordă 20% din punctaj, iar pentru rezolvarea corectă a ambelor cerinţe se acordă 100% din punctaj.
+
+Exemplu
+Input: 113
+Output: 3 232
+Input: 21035
+Output: 1050 94070

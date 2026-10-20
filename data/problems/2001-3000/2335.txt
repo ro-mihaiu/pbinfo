@@ -1,0 +1,14 @@
+#2335
+bibinar
+
+Cerința
+Se dau n numere naturale. Fiecare număr dat se transformă în baza 2 şi se formează toate numerele de două cifre din scrierea acestuia binară, scriind cele două cifre în ordinea în care apar în scrierea binară. Toate aceste numere de două cifre binare se trec în baza 10 şi se face suma numerelor obţinute. Să se afle, pentru fiecare dintre cele n numere naturale date, această sumă.
+
+Restricții
+1 ≤ n ≤ 100.000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000.000 şi mai mari decât 1
+
+Exemplu
+Input: 2
+5 85
+Output: 6 36

@@ -1,0 +1,15 @@
+#524
+secvegale1
+
+Cerința
+Se dă un vector cu n elemente, numere naturale. Determinați cea mai lungă secvență de elemente din vector care începe și se termină cu aceeași valoare. Dacă în vector există mai multe secvențe corecte de lungime maximă se va determina cea mai din stânga.
+
+Restricții
+1 ≤ n ≤ 1000
+cele n numere citite vor fi mai mici decât 1.000.000.000
+indexarea elementelor vectorului începe de la 1 .
+
+Exemplu
+Input: 12
+6 6 8 3 6 6 3 8 4 3 3 4
+Output: 4 11

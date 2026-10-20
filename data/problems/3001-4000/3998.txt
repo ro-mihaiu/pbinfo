@@ -1,0 +1,16 @@
+#3998
+sum-max9
+
+Cerința
+Se dau n perechi de numere naturale a , b . Să se determine cea mai mare sumă care se poate obține adunând câte un singur număr din fiecare pereche de numere citite a şi b .
+
+Restricții
+1 ≤ n ≤ 10.000
+fiecare dintre numerele a şi b au cel mult 9 cifre.
+
+Exemplu
+Input: 3
+2 69
+20 10
+19 30
+Output: 119

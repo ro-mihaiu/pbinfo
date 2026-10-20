@@ -1,0 +1,12 @@
+#871
+inlocuire2
+
+Cerința
+Fiind dat un număr natural n înlocuiți toate aparițiile cifrei c1 din numărul n cu cifra c2 .
+
+Restricții
+0 ≤ n ≤ 2.000.000.000
+
+Exemplu
+Input: 12523 2 7
+Output: 17573

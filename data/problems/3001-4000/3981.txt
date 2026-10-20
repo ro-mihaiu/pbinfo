@@ -1,0 +1,12 @@
+#3981
+DivImpRec
+
+Cerința
+Scrieți funcția recursivă DivImpRec care primind ca parametru un număr natural nenul n , returnează cel mai mare divizor impar al său.
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+Numele funcției este DivImpRec .
+Se recomandă utilizarea recursivității în rezolvarea problemei. De asemenea, se recomandă să nu se folosească alte funcții suplimentare.
+
+Exemplu

@@ -1,0 +1,17 @@
+#2766
+gradient
+
+Cerința
+Dându-se două culori valide (reprezentate fiecare prin câte 3 numere) și numărul n , calculați toate culorile prin care va trece prima pentru a deveni a doua.
+
+Restricții
+2 ≤ n ≤ 1000 ;
+Culorile inițiale sunt valide;
+Valorile primei culori nu sunt neapărat mai mici decât valorile celei de a doua.
+
+Exemplu
+Input: 0 10 20 0 40 80 4
+Output: 0, 10, 20
+0, 20, 40
+0, 30, 60
+0, 40, 80

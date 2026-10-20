@@ -1,0 +1,20 @@
+#1483
+Coronite
+
+Cerința
+Aflați dacă premierea a fost validă și de asemenea, aflați a câta coroniță a fost pusă elevului cu numărul 1 .
+
+Restricții
+1 ≤ N ≤ 100
+1 ≤ x i ≤ 2*N
+Dacă primul copil primește mai multe coronițe, se va afișa numărul de ordine al primei coronițe primite de el.
+
+Exemplu
+Input: 6
+3 1 9 4 1 2
+Output: 1
+5
+Input: 4
+1 3 4 1
+Output: 0
+2

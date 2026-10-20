@@ -1,0 +1,15 @@
+#2326
+Campionat
+
+Cerința
+La un campionat de șah participa n persoane. Știind că la fiecare rundă se fac grupe de câte 2 persoane, iar câștigătorul trece în runda următoare, aflați după câte runde se va află câștigătorul.
+
+Restricții
+n ≤ 4.444.444.444
+Dacă nu se poate realiza campionatul în conformitate cu regulile de mai sus, se va afișa -1 .
+
+Exemplu
+Input: 4
+Output: 2
+Input: 3
+Output: -1

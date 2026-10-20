@@ -1,0 +1,10 @@
+#2826
+Duplicare1
+
+Cerința
+Subprogramul duplicare are doi parametri, în această ordine:
+n , prin care primește un număr natural ( n∈[1,10 4 ] );
+d , prin care furnizează numărul obţinut prin duplicarea fiecărei cifre pare a lui n sau -1 dacă acesta nu are nicio cifră pară.
+Scrieți definiția completă a subprogramului.
+
+Exemplu

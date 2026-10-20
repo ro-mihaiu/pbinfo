@@ -1,0 +1,14 @@
+#1124
+Patrate
+
+Cerința
+Dându-se n , un număr natural, să se afle numărul de pătrate care au colţurile coordonate numere întregi cuprinse între 0 şi n inclusiv.
+
+Restricții
+1 ≤ n ≤ 2.000.000.000
+Pentru teste în valoare de 30 de puncte, n ≤ 10
+Pentru teste în valoare de 75 de puncte, n ≤ 2.000.000
+
+Exemplu
+Input: 2
+Output: 6

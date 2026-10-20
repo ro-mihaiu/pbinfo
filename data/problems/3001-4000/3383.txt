@@ -1,0 +1,17 @@
+#3383
+cifmaxmin1
+
+Cerința
+Scrieți un program care determină și afișează patru numere, în această ordine: numărul obținut de Petrică, câte cartonașe a extras Petrică, numărul obținut de Ionuț și câte cartonașe a extras Ionuț.
+
+Restricții
+1 < n ≤ 1000
+Numerele scrise pe cartonașe sunt formate din cel puțin două cifre și cel mult nouă cifre
+Toate numerele de pe cartonașe au cifrele diferite de 0
+Cartonașele sunt alese în ordinea în care au fost așezate înainte de începerea jocului
+Există cel puțin un număr par și cel puțin un număr impar între numerele de pe cartonașe
+
+Exemplu
+Input: 5
+1839 47536 28 2459 2496
+Output: 92 3 19 2

@@ -1,0 +1,15 @@
+#4222
+CautaPoz
+
+Cerința
+Scrieţi definiția completă a subprogramului C++ cu antetul:
+int CautaPoz(int a[], int n)
+Subprogramul returnează poziția p ( 0 ≤ p < n - 1 ) cu proprietatea că sumele a[0]+a[1]+...+a[p] și a[p+1]+...+a[n-1] sunt cât mai apropiate (diferența în modul a acestor sume este minimă). Dacă există mai multe astfel de poziții, se va returna cea mai din stânga. De exemplu, dacă a = (4,-3,-6,7,1) atunci funcția va returna poziția 1 , deoarece sumele 4-3 și -6+7+1 sunt cele mai apropiate.
+
+Restricții
+-100 ≤ a[i] ≤ 100
+4 ≤ n ≤ 5.000
+elementele vectorului a sunt indexate de la 0
+Puteți utiliza în rezolvare orice structură de date.
+
+Exemplu

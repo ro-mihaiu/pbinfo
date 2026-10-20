@@ -1,0 +1,16 @@
+#214
+genmat5
+
+Cerința
+Scrieţi un program care citeşte de la tastatură un număr natural nenul n cu cel mult 9 cifre şi construieşte un tablou bidimensional pătratic cu dimensiunea egală cu numărul de cifre ale lui n , completată cu cifrele lui n .
+Elementele de pe prima coloană vor fi egale cu cifra unităţilor lui n , elementele de pe a doua coloană vor fi egale cu cifra zecilor, etc.
+
+Restricții
+1 ≤ n < 1.000.000.000
+
+Exemplu
+Input: 1359
+Output: 9 5 3 1
+9 5 3 1
+9 5 3 1
+9 5 3 1

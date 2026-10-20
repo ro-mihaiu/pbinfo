@@ -1,0 +1,19 @@
+#4578
+Dodel
+
+Cerința
+Se dă o matrice cu n linii şi n coloane şi elemente numere întregi. Calculaţi cel mai mare produs care se poate obține prin înmulțirea unui element de pe diagonala principală cu unul de pe diagonala secundară.
+
+Restricții
+1 ≤ n ≤ 20 și este număr par
+elementele matricei vor din intervalul [-100000,100000] .
+Nu se știe exact cum a reușit Dodel să intre la specializare matematică-informatică și nici cum a reusit să ia legătura cu voi ca să vă ceară ajutorul.
+Problema dată este destul de ușoară, dar dacă nu doriți să il ajutați pe Dodel, atunci nu rezolvați problema.
+
+Exemplu
+Input: 4
+8 3 3 7 
+1 1 -6 5 
+-8 7 -1 1 
+9 8 7 -1
+Output: 72

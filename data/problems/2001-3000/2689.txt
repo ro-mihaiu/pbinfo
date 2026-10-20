@@ -1,0 +1,14 @@
+#2689
+palxxl
+
+Cerința
+Se dă un șir cu n cifre, reprezentând cifrele unui număr natural x . Să se afișeze numărul x , iar pe linia următoare mesajul DA dacă x este palindrom și mesajul NU în caz contrar.
+
+Restricții
+1 ≤ n ≤ 1000
+
+Exemplu
+Input: 5
+1 2 3 2 1
+Output: 12321
+DA

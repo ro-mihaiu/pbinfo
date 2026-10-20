@@ -1,0 +1,18 @@
+#4123
+changemin
+
+Cerința
+Care este valoarea lui cnt la sfârșitul algoritmului?
+Care este valoarea lui score la sfârșitul algoritmului, modulo 666.013 ?
+
+Restricții
+T ∈ {1, 2}
+1 ≤ N ≤ 1.000.000
+1 ≤ A_i ≤ 1.000.000.000 pentru oricare 1 ≤ i ≤ N
+Datorită dimensiunilor prea mari ale testelor din concurs, unele nu au fost adăugate
+
+Exemplu
+Input: 1 5 3 4 2 2 1
+Output: 11
+Input: 2 5 3 4 2 2 1
+Output: 103

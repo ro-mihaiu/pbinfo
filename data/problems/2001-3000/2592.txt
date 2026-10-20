@@ -1,0 +1,17 @@
+#2592
+AfisSimetric
+
+Cerința
+Se dau n șiruri de caractere care conțin cuvinte formate doar din litere mici și mari ale alfabetului englez, separate prin câte un singur spațiu.
+Să se afișeze un nou șir format din primul cuvânt al fiecărui șir în ordinea citirii, al doilea cuvânt al fiecărui șir în ordinea citirii, etc. Dacă șirurile nu au același număr de cuvinte, se continuă acest proces, până când fiecare șir ajunge la final, tot în ordinea citirii.
+
+Restricții
+1 ≤ n ≤ 10
+fiecare șir are maximum 1000 de caractere
+
+Exemplu
+Input: 3
+ana are mere
+el are
+ea are pere prune
+Output: ana el ea are are are mere pere prune

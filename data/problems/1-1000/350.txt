@@ -1,0 +1,12 @@
+#350
+produscartezian
+
+Cerința
+Se dau două numere naturale nenule n și m . Pentru mulțimile A={1,2,..,n} și B={1,2,...,m} , să se afișeze mulțimea A×B={(a,b) | a∈A, b∈B} – produsul cartezian al mulțimilor A și B .
+
+Restricții
+1 ≤ n,m ≤ 10
+
+Exemplu
+Input: 3 2
+Output: {(1,1),(1,2),(2,1),(2,2),(3,1),(3,2)}

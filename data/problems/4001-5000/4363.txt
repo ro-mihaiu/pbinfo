@@ -1,0 +1,25 @@
+#4363
+sequences1
+
+Cerința
+Vei primi o secvență de n numere naturale \( {a}_{1}, …, {a}_{n} \). Calculează restul impărțirii sumei tuturor subsecvențelor continue ale șirului \( {a}_{1}, …, {a}_{n} \) la 1.000.000.007 , care este egal cu:
+Cu alte cuvinte, \( S({a}_{1}, …, {a}_{n}) \) este restul împărțirii sumei valorilor \( value({a}_{i}, …, {a}_{j}) \) pentru toate 1 ≤ i ≤ j ≤ n prin împărțirea la 1.000.000.007 .
+
+Restricții
+1 ≤ n ≤ 200.000
+1 ≤ a i ≤ 1.000.000
+\( {a}_{1} + … + {a}_{n} ≤ 1.000.000 \)
+Pentru 13 puncte, a i = 1 , n ≤ 200
+Pentru 16 puncte, \( {a}_{1} + … + {a}_{n} ≤ 200 \)
+Pentru 5 puncte, n ≤ 200
+Pentru 20 puncte, n ≤ 5000
+Pentru 21 puncte, \( {a}_{1} + … + {a}_{n} ≤ 200.000 \)
+Pentru 25 puncte, fără restricții suplimentare
+
+Exemplu
+Input: 3
+1 2 3
+Output: 8
+Input: 5
+2 4 1 2 4
+Output: 25

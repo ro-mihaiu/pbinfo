@@ -1,0 +1,14 @@
+#2271
+ProdMax1
+
+Cerința
+Se dă un șir cu n numere întregi. Determinați cel mai mare număr care poate fi scris ca produs de două elemente ale șirului.
+
+Restricții
+2 ≤ n ≤ 100.000
+elementele șirului vor fi cuprinse în intervalul (-1.000.000, 1.000.000)
+
+Exemplu
+Input: 7
+-8 3 9 -1 -2 7 -10
+Output: 80

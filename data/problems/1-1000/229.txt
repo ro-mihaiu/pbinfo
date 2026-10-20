@@ -1,0 +1,15 @@
+#229
+genmat16
+
+Cerința
+Scrieţi un program care citeşte de la tastatură un număr natural n şi construieşte în memorie o matrice cu n linii şi n coloane ale cărei elemente sunt numere naturale, fiecare reprezentând ultima cifră a câte unui termen al şirului lui Fibonacci, începând de la termenul de indice 1 şi până la termenul de indice n 2 .
+
+Restricții
+3 ≤ n ≤ 24
+
+Exemplu
+Input: 4
+Output: 1 1 2 3
+5 8 3 1
+4 5 9 4
+3 7 0 7

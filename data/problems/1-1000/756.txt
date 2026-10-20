@@ -1,0 +1,12 @@
+#756
+NrNod
+
+Cerința
+Se consideră un arbore binar în care nodurile memorează numere naturale nenule. Să se determine câte noduri din arbore au un singur descendent direct.
+
+Restricții
+se recomandă folosirea arborilor alocați dinamic.
+
+Exemplu
+Input: 67 51 18 0 0 24 0 0 48 0 11 0 0
+Output: 1

@@ -1,0 +1,19 @@
+#3604
+sumcifs
+
+Cerința
+Dându-se un număr natural nenul S , să se afișeze în ordine crescătoare toate numerele naturale cu cifre distincte care au suma cifrelor egală cu S .
+
+Restricții
+1 ≤ S ≤ 44
+
+Exemplu
+Input: 4
+Output: 4
+13
+31
+40
+103
+130
+301
+310

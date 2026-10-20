@@ -1,0 +1,17 @@
+#3207
+Cercuri
+
+Cerința
+Se dau coordonatele şi razele a două cercuri. Să se determine în câte puncte se intersectează cele două cercuri.
+
+Restricții
+Numerele r1 şi r2 sunt numere reale, pozitive şi mai mici decât 100000 .
+Numerele x1 , x2 , y1 , y2 sunt numere reale cu valoarea absolută mai mică decât 10000 .
+
+Exemplu
+Input: 4 2 -2
+2 -3 1
+Output: 2
+Input: 8 0 5
+2 0 -5
+Output: 1

@@ -1,0 +1,18 @@
+#2274
+Limite
+
+Cerința
+Se dau n numere naturale. Afișați tipul de date C++ minim ca număr de octeți permite memorarea fiecărui număr. Dacă un număr încape și în tipul cu semn și în tipul fără semn, se afișează tipul cu semn.
+
+Restricții
+1 ≤ n ≤ 10000
+cele n numere citite vor fi mai mici sau egale cu 18446744073709551615
+
+Exemplu
+Input: 5
+10 18446744073709551615 32767 127 65535
+Output: char
+unsigned long long
+short
+char
+unsigned short

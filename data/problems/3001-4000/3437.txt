@@ -1,0 +1,39 @@
+#3437
+Datorii1
+
+Cerința
+Cunoscând lista cu datoriile firmelor, scrieți un program care să rezolve următoarele cerințe:
+determină numărul de firme distincte care apar în această listă;
+realizează o situație financiară a firmelor distincte din această listă, scrise în ordine lexicografică; pentru fiecare firmă se vor determina două valori SD SP , unde SD reprezintă suma totală a datoriilor pe care firma le are către alte firme, iar SP este totalul sumelor pe care firma trebuie să le primească de la alte firme.
+
+Restricții
+Există în total cel mult 6000 de firme distincte în lista menționată de datorii.
+Numele unei firme este format din maximum 20 de caractere (litere mari şi mici ale alfabetului englez, cifre, spaţii); se face distincţie între literele mari şi literele mici în numele firmelor; nu există alte restricţii referitoare la numele firmelor.
+Două firme distincte au nume distincte. O firmă nu poate avea datorii la ea însăși.
+În descrierea unei datorii ( X > Y S ) există un singur spaţiu între X și > , un singur spațiu între > și Y , respectiv un singur spațiu între Y și S .
+1 ≤ D ≤ 80000
+Sumele datorate de firme sunt numere naturale nenule ≤10 6 .
+Dacă X și Y sunt numele a două firme distincte, iar k ( k≥0 ) este valoarea maximă cu proprietatea că secvența formată din primele k caractere din X este identică cu secvența formată din primele caractere din Y , spunem că X precedă din punct de vedere lexicografic pe Y dacă X are doar k caractere sau dacă al k+1 -lea caracter din X este mai mic decât al k+1 -lea caracter din Y .
+Pentru teste valorând 30 de puncte cerinţa este 1 . Pentru teste valorând 60 de puncte cerinţa este 2 . Pentru teste valorând 40 de puncte D≤1000 . Pentru teste valorând 45 de puncte numele firmelor nu conțin spaţii.
+În concurs s-au acordat 10 puncte din oficiu. Pe site se acordă 10 puncte pentru exemple.
+
+Exemplu
+Input: 1
+4
+Vasile Inc > Anatolia 100
+ana > Anatolia 10
+ana > Vasilescu Inc 5
+Popa25 PF > Anatolia 30
+Output: 5
+Input: 2
+5
+Vasile Inc > Anatolia 100
+ana > Anatolia 10
+ana > Vasilescu Inc 5
+Popa25 PF > Anatolia 30
+Popa25 PF > ana 50
+Output: Anatolia 0 140
+Popa25 PF 80 0
+Vasile Inc 100 0
+Vasilescu Inc 0 5
+ana 15 50

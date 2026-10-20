@@ -1,0 +1,26 @@
+#3259
+SumTri_XI
+
+Cerința
+n
+2
+n
+n
+n
+se pleacă din ultimul element al ultimei linii
+se merge întotdeauna spre stânga pe aceeași linie sau pe linia de deasupra, adică de pe linia i și coloana j se merge pe linia i și coloana j-1 sau pe linia i-1 și coloana j-1 .
+parcurgerile se termină pe prima coloană.
+Să se determine cea mai mare sumă care se poate obține în acest mod.
+
+Restricții
+1 ≤ n ≤ 100
+numerele din triunghi sunt din intervalul [-1000, 1000] .
+
+Exemplu
+Input: 5
+4
+1 4
+2 -1 3
+9 4 4 3
+4 5 -2 2 1
+Output: 21

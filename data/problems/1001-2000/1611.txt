@@ -1,0 +1,25 @@
+#1611
+palindrom2
+
+Cerința
+Scrieţi un program care citind un număr natural nenul n și apoi un șir de n numere naturale determină:
+1. câte dintre cele n numere sunt palindrom 2. câte dintre cele n numere sunt aproape palindrom 3. palindromurile asociate pentru cele n numere citite.
+
+Restricții
+1 ≤ n ≤ 10 000
+1 ≤ numerele din șir ≤ 2 000 000 000
+Pentru rezolvarea corectă a primei cerinţe se acordă 20 de puncte, pentru rezolvarea corectă a celei de a doua cerințe se acordă 30 de puncte, iar pentru rezolvarea corectă a celei de a treia cerințe se acordă 50 de puncte.
+
+Exemplu
+Input: 1
+7
+1221 500 53635 505 7 4004 1410
+Output: 5
+Input: 2
+4
+5442 2445 545 39995
+Output: 3
+Input: 3
+11
+6 1411 2444 1221 505 1220 53625 14 4014 1410 22
+Output: 7 1441 2552 1331 515 1221 53635 22 4114 1441 33

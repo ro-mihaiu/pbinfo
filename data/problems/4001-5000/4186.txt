@@ -1,0 +1,15 @@
+#4186
+Monede
+
+Cerința
+Se dau n numere naturale reprezentând valorile unor monede și S reprezentând o sumă de bani. Să se afișeze numărul de modalități de a plăti suma cu cele n valori.
+
+Restricții
+1≤ S ≤ 250
+1 ≤ n ≤ 100
+cele n numere citite sunt distincte și vor fi mai mici decât 100
+
+Exemplu
+Input: 4 3
+1 2 3
+Output: 4

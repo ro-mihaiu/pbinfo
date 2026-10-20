@@ -1,0 +1,12 @@
+#4215
+Alipit
+
+Cerința
+Să se verifice dacă un număr natural n este “alipit”.
+
+Restricții
+1 ≤ n ≤ 1.000.000.000.000
+
+Exemplu
+Input: 1212
+Output: DA

@@ -1,0 +1,13 @@
+#2725
+aib
+
+Cerința
+Pentru fiecare număr a[i] trebuie să determinați câte numere mai mici decât a[i] se află la stânga sa, adică în secvența a[1], a[2], ..., a[i-1] .
+
+Restricții
+3 ≤ n ≤ 100.000
+
+Exemplu
+Input: 7
+3 1 6 5 2 7 4
+Output: 0 0 2 2 1 5 3

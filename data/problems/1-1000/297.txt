@@ -1,0 +1,16 @@
+#297
+secvsummax
+
+Cerința
+Se dă un șir cu n elemente, numere întregi. Determinați secvența de elemente cu suma maximă.
+
+Restricții
+1 ≤ n ≤ 100.000
+elementele șirului vor avea cel mult 4 cifre și sunt numerotate de la 1 la n
+dacă șirul conține mai multe secvențe de suma maximă, se va determina cea cu indicele de început cel mai mic, iar în caz de egalitate, cea mai scurtă
+șirul va conține cel puțin un element pozitiv
+
+Exemplu
+Input: 10
+-4 1 -5 1 4 -2 2 3 -4 4
+Output: 4 8

@@ -1,0 +1,14 @@
+#4646
+cb1
+
+Cerința
+Să se răspundă la Q interogări.
+
+Restricții
+1 ≤ n ≤ 50.000
+3 ≤ Q ≤ 100.000
+numerele din șir sunt în ordine crescătoare și sunt cuprinse între -1.000.000.000 și 1.000.000.000 .
+
+Exemplu
+Input: 10 -2 4 4 4 7 7 7 7 8 11 4 1 5 2 5 3 7 3 9
+Output: 4 6 4 0

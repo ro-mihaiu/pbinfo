@@ -1,0 +1,14 @@
+#2639
+radiera
+
+Cerința
+Mihnea primește o radieră și o foaie pe care este scris un șir de cifre nenule. El trebuie să șteargă cât mai puține cifre cu proprietatea că dacă lipim cifrele rămase în ordinea din șir vom avea un “număr scară”. De exemplu dacă avem șirul 2 1 1 3 4 8 5 , ștergem cifra de pe poziția 1 și cea de pe poziția 6 , lipim cifrele rămase și ne rezultă numărul 11345 care este un “număr scară”, deci numărul minim de ștergeri este 2 .
+Să se determine numărul minim de ștergeri pe care trebuie să le facă Mihnea.
+
+Restricții
+3 ≤ N ≤ 1000
+
+Exemplu
+Input: 7
+2 1 1 3 4 8 5
+Output: 2

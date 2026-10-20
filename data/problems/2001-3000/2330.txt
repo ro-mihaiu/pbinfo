@@ -1,0 +1,15 @@
+#2330
+prim023
+
+Cerința
+Dorel a scris un şir format din n numere naturale nenule. Apoi a luat fiecare subşir şi a calculat produsul termenilor săi. Aflaţi câte dintre produsele efectuate sunt numere prime.
+
+Restricții
+1 ≤ n ≤ 5000
+numerele de pe a doua linie a fișierului de intrare vor fi mai mici decât 1.000.000.000
+un subşir conţine cel puţin un termen şi se formează alegând o parte din termenii şirului
+
+Exemplu
+Input: 3
+1 2 3
+Output: 4
