@@ -31,7 +31,7 @@ const rateLimit = new Map();
 function isRateLimited(ip) {
   const now = Date.now();
   const windowMs = 60000;
-  const max = 5;
+  const max = 2;
   const entry = rateLimit.get(ip) || { count: 0, reset: now + windowMs };
   if (now > entry.reset) { entry.count = 0; entry.reset = now + windowMs; }
   entry.count += 1;
