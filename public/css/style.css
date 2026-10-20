@@ -899,3 +899,18 @@ html[data-theme='light'] .code-block { background: #1e1e24; }
   .hero-title { font-size: 1.8rem; }
   .archive-page .problem-grid { grid-template-columns: 1fr; }
 }
+
+.problem-form { width: min(100% - 32px, 680px); margin: 24px auto 48px; padding: 28px; box-sizing: border-box; }
+.problem-form form { display: flex; flex-direction: column; gap: 18px; }
+.problem-form .form-group { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.problem-form input, .problem-form textarea { display: block; width: 100%; max-width: 100%; min-width: 0; box-sizing: border-box; padding: 10px 12px; border: 1px solid var(--border); border-radius: var(--radius-sm); background: var(--bg-secondary); color: var(--text-primary); font: inherit; font-weight: 400; resize: vertical; }
+.problem-form input:focus, .problem-form textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; border-color: var(--accent); }
+.problem-form .contact-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.problem-form .description-field textarea { min-height: 140px; }
+.problem-form .code-field textarea { min-height: 260px; font-family: monospace; }
+.problem-form button[type="submit"] { align-self: flex-end; min-width: 120px; }
+@media (max-width: 600px) {
+  .problem-form { padding: 20px; }
+  .problem-form .contact-fields { grid-template-columns: minmax(0, 1fr); }
+  .problem-form button[type="submit"] { width: 100%; align-self: stretch; }
+}
