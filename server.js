@@ -316,6 +316,7 @@ app.post('/p/:id/issues', async (req, res) => {
   }
   const saved = store.saveIssue({ problemId: id, issue, email: email || null, whatsapp: whatsapp || null });
   const webhook = process.env.DISCORD_WEBHOOK_URL;
+  console.log('webhook present:', !!webhook);
   if (webhook) {
     try {
       const base = process.env.SITE_URL || 'http://localhost:3000';
