@@ -311,7 +311,7 @@ app.post('/i', async (req, res) => {
   const webhook = process.env.DISCORD_WEBHOOK_URL;
   if (webhook) {
     try {
-      const base = process.env.SITE_URL || 'http://localhost:3000';
+      const base = process.env.SITE_URL || 'https://pbinfo.ro-mihaiu.xyz';
       await fetch(webhook, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ embeds:[{ title:`Problema ${id}`, url:`${base}/p/${id}`, description: issue + (code ? `\n\n\`\`\`cpp\n${code.slice(0,1500)}\n\`\`\`` : ''), footer:{ text:`Contact: ${email || '-'} | ${whatsapp || '-'}` } }] }) });
     } catch(e){ console.error(e.message); }
   }
@@ -360,7 +360,7 @@ app.post('/p/:id/issues', async (req, res) => {
   console.log('webhook present:', !!webhook);
   if (webhook) {
     try {
-      const base = process.env.SITE_URL || 'http://localhost:3000';
+      const base = process.env.SITE_URL || 'https://pbinfo.ro-mihaiu.xyz';
       await fetch(webhook, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
