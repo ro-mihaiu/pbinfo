@@ -292,11 +292,11 @@ app.get('/terms', (req, res) => {
   });
 });
 
-app.get('/issue', (req, res) => {
-  res.render('issue', { title: 'Issue' });
+app.get('/i', (req, res) => {
+  res.render('i', { title: 'Issue' });
 });
 
-app.post('/issue', async (req, res) => {
+app.post('/i', async (req, res) => {
   const id = parseInt(req.body.problemId, 10);
   const problem = store.getProblemById(id);
   if (!problem) return res.status(404).send('Not found');

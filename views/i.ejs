@@ -1,7 +1,7 @@
 <%- include('partials/header', { title: 'Issue' }) %>
 <section class="card panel">
   <h1>Raportează o problemă</h1>
-  <form method="post" action="/issue">
+  <form method="post" action="/i">
     <label>Problema (ID)<input name="problemId" type="number" required></label>
     <label>Descrierea problemei<textarea name="issue" rows="5" required maxlength="5000"></textarea></label>
     <label>Email<input name="email" type="email" maxlength="254"></label>
