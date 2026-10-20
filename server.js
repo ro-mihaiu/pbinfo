@@ -292,6 +292,32 @@ app.get('/terms', (req, res) => {
   });
 });
 
+app.get('/issue', (req, res) => {
+  res.render('issue', { title: 'Issue' });
+});
+
+app.post('/issue', async (req, res) => {
+  const id = parseInt(req.body.problemId, 10);
+  const problem = store.getProblemById(id);
+  if (!problem) return res.status(404).send('Not found');
+  const issue = String(req.body.issue || '').trim();
+  const email = String(req.body.email || '').trim();
+  const whatsapp = String(req.body.whatsapp || '').trim();
+  const code = String(req.body.code || '').trim();
+  const emailOk = !email || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  const phoneOk = !whatsapp || /^[0-9+\s()-]{6,20}$/.test(whatsapp);
+  if (!issue || (!email && !whatsapp) || !emailOk || !phoneOk) return res.status(400).send('invalid');
+  const saved = store.saveIssue({ problemId: id, issue, email: email || null, whatsapp: whatsapp || null, code: code || null });
+  const webhook = process.env.DISCORD_WEBHOOK_URL;
+  if (webhook) {
+    try {
+      const base = process.env.SITE_URL || 'http://localhost:3000';
+      await fetch(webhook, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ embeds:[{ title:`Problema ${id}`, url:`${base}/p/${id}`, description: issue + (code ? `\n\n\`\`\`cpp\n${code.slice(0,1500)}\n\`\`\`` : ''), footer:{ text:`Contact: ${email || '-'} | ${whatsapp || '-'}` } }] }) });
+    } catch(e){ console.error(e.message); }
+  }
+  return res.redirect(`/p/${id}?issue=${saved?'sent':'error'}#issue-form`);
+});
+
 app.get('/cookies', (req, res) => {
   res.render('legal', {
     title: i18n.t('legal_cookies'),
