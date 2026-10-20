@@ -27,6 +27,18 @@ app.set('views', path.join(__dirname, 'views'));
 // --- Middleware ---
 app.use(express.json({ limit: '50kb' }));
 app.use(express.urlencoded({ extended: true }));
+const rateLimit = new Map();
+function isRateLimited(ip) {
+  const now = Date.now();
+  const windowMs = 60000;
+  const max = 5;
+  const entry = rateLimit.get(ip) || { count: 0, reset: now + windowMs };
+  if (now > entry.reset) { entry.count = 0; entry.reset = now + windowMs; }
+  entry.count += 1;
+  rateLimit.set(ip, entry);
+  return entry.count > max;
+}
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Provide shared locals to all views
@@ -306,15 +318,18 @@ app.post('/p/:id/issues', async (req, res) => {
   const problem = store.getProblemById(id);
   if (!problem) return nextNotFound(req, res);
 
+  const ip = req.ip || req.headers['x-forwarded-for'] || 'unknown';
+  if (isRateLimited(ip)) return res.status(429).redirect(`/p/${id}?issue=error#issue-form`);
   const issue = String(req.body.issue || '').trim();
   const email = String(req.body.email || '').trim();
   const whatsapp = String(req.body.whatsapp || '').trim();
+  const code = String(req.body.code || '').trim();
   const emailOk = !email || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
   const phoneOk = !whatsapp || /^[0-9+\s()-]{6,20}$/.test(whatsapp);
-  if (!issue || (!email && !whatsapp) || !emailOk || !phoneOk || issue.length > 5000 || email.length > 254 || whatsapp.length > 100) {
+  if (!issue || (!email && !whatsapp) || !emailOk || !phoneOk || issue.length > 5000 || email.length > 254 || whatsapp.length > 100 || code.length > 20000) {
     return res.status(400).redirect(`/p/${id}?issue=invalid#issue-form`);
   }
-  const saved = store.saveIssue({ problemId: id, issue, email: email || null, whatsapp: whatsapp || null });
+  const saved = store.saveIssue({ problemId: id, issue, email: email || null, whatsapp: whatsapp || null, code: code || null });
   const webhook = process.env.DISCORD_WEBHOOK_URL;
   console.log('webhook present:', !!webhook);
   if (webhook) {
@@ -327,7 +342,7 @@ app.post('/p/:id/issues', async (req, res) => {
           embeds: [{
             title: `Problema ${id}`,
             url: `${base}/p/${id}`,
-            description: issue,
+            description: issue + (code ? `\n\n\`\`\`cpp\n${code.slice(0,1500)}\n\`\`\`` : ''),
             footer: { text: `Contact: ${email || '-'} | ${whatsapp || '-'}` }
           }]
         })
