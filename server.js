@@ -76,13 +76,11 @@ app.get('/', async (req, res, next) => {
   try {
     const problems = store.getProblems();
     const totalSolutions = countSolutions();
-    const totalViews = await store.getTotalViews();
     const recent = [...problems].sort((a, b) => b.id - a.id).slice(0, 6);
 
     res.render('home', {
       totalProblems: problems.length,
       totalSolutions,
-      totalViews,
       recent
     });
   } catch (err) {
@@ -406,7 +404,6 @@ async function renderProblemById(req, res) {
     'Restricții și precizări': problem.details?.restrictii
   }).filter(([, content]) => content).map(([heading, content]) => ({ heading, content }));
   const examples = problem.details?.exemple || [];
-  const views = await store.incrementView(id);
 
   res.render('problem', {
     title: `#${problem.id} · ${problem.titles?.ro || String(id)}`,
@@ -414,7 +411,6 @@ async function renderProblemById(req, res) {
     solution,
     hasSolution: !!solution,
     statement,
-    views,
     prev,
     next,
     difficultyLabel: grades.getDifficultyLabel(problem.difficulty),
