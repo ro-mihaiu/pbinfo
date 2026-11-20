@@ -1,0 +1,47 @@
+<%- include('partials/head') %>
+<%- include('partials/nav') %>
+
+<main class="page changes-page">
+  <header class="page-head changes-head">
+    <span class="changes-kicker">Jurnalul arhivei</span>
+    <h1 class="page-title"><%= title %></h1>
+    <p class="page-sub">Noutăți scurte generate din commiturile recente ale proiectului. Fiecare postare trimite la modificarea originală de pe GitHub.</p>
+  </header>
+
+  <% if (stale) { %>
+    <p class="changes-notice">Istoricul GitHub nu s-a putut actualiza acum. Se afișează ultima versiune disponibilă.</p>
+  <% } %>
+
+  <% if (!posts.length) { %>
+    <section class="changes-empty card panel">
+      <h2>Nu s-au putut încărca schimbările</h2>
+      <p>Poți vedea istoricul complet direct pe GitHub.</p>
+      <a class="btn btn-ghost btn-sm" href="<%= sourceUrl %>" target="_blank" rel="noopener noreferrer">Deschide commiturile</a>
+    </section>
+  <% } else { %>
+    <div class="changes-list">
+      <% posts.forEach(function(post) { %>
+        <article class="change-post card">
+          <div class="change-post-meta">
+            <% if (post.date) { %>
+              <time datetime="<%= post.date %>"><%= new Date(post.date).toLocaleDateString('ro-RO', { day: 'numeric', month: 'long', year: 'numeric' }) %></time>
+            <% } %>
+            <a href="<%= post.url %>" target="_blank" rel="noopener noreferrer" aria-label="Vezi commitul <%= post.sha %>"><%= post.sha %></a>
+          </div>
+          <h2><%= post.title %></h2>
+          <p><%= post.summary %></p>
+          <details class="change-source">
+            <summary>Detalii din commit</summary>
+            <p><%= post.subject %></p>
+          </details>
+          <a class="change-link" href="<%= post.url %>" target="_blank" rel="noopener noreferrer">Vezi modificarea pe GitHub <span aria-hidden="true">→</span></a>
+        </article>
+      <% }) %>
+    </div>
+  <% } %>
+</main>
+
+<%- include('partials/footer') %>
+<script src="/js/main.js"></script>
+</body>
+</html>
