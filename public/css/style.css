@@ -283,7 +283,7 @@ html[data-theme='light'] .icon-moon { display: block; }
 /* ---------- Stats ---------- */
 .stats {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
   margin: 30px 0;
 }
@@ -1024,3 +1024,9 @@ body::before { display: none; }
   .problem-card .card-foot { grid-column: 2; grid-row: 3; justify-content: flex-start; margin-top: 5px; }
   .problem-card .card-top { grid-row: 1 / 4; }
 }
+
+/* External social SVG assets */
+.social-btn img { display: block; width: 20px; height: 20px; }
+.social-btn { border-radius: 7px; }
+.social-btn:hover { background: var(--bg-tertiary); }
+@media (max-width: 700px) { .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
