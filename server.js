@@ -186,6 +186,110 @@ app.get('/archive', (req, res) => {
   res.redirect(301, qs ? `/p?${qs}` : '/p');
 });
 
+// Problems missing a solution and/or statement
+function getUnresolvedProblemGroups() {
+  const categoryDefinitions = [
+    { key: 'both', label: 'Fără cerință și soluție' },
+    { key: 'solution', label: 'Fără soluție' },
+    { key: 'statement', label: 'Fără cerință' }
+  ];
+  const knownGrades = [...new Set([...grades.GRADES, 12])].sort((a, b) => a - b);
+  const byGrade = new Map();
+
+  function getGradeKey(value) {
+    const grade = Number(value);
+    return Number.isInteger(grade) && grade > 0 ? grade : null;
+  }
+
+  function hasStatement(problem) {
+    const parsed = store.getParsedStatement(problem.id);
+    if (Array.isArray(parsed) && parsed.some((section) => String(section.content || '').trim())) {
+      return true;
+    }
+    const details = problem.details || {};
+    return ['enunt', 'cerinta', 'date_intrare', 'date_iesire', 'restrictii']
+      .some((key) => String(details[key] || '').trim().length > 0);
+  }
+
+  for (const problem of store.getProblems()) {
+    const statementExists = hasStatement(problem);
+    const solutionExists = store.hasSolution(problem.id);
+    if (statementExists && solutionExists) continue;
+
+    const gradeKey = getGradeKey(problem.grade);
+    if (!byGrade.has(gradeKey)) {
+      byGrade.set(gradeKey, {
+        grade: gradeKey,
+        label: gradeKey === null ? 'Clasă nespecificată' : grades.getGradeLabel(gradeKey),
+        categories: categoryDefinitions.map((category) => ({
+          ...category,
+          count: 0,
+          difficulties: new Map()
+        }))
+      });
+    }
+
+    const categoryKey = !statementExists && !solutionExists
+      ? 'both'
+      : !solutionExists
+        ? 'solution'
+        : 'statement';
+    const category = byGrade.get(gradeKey).categories.find((item) => item.key === categoryKey);
+    const difficultyValue = Number(problem.difficulty);
+    const difficulty = Number.isInteger(difficultyValue) && difficultyValue >= 1 && difficultyValue <= 4
+      ? difficultyValue
+      : null;
+
+    if (!category.difficulties.has(difficulty)) {
+      category.difficulties.set(difficulty, {
+        difficulty,
+        label: difficulty === null ? 'Nespecificată' : grades.getDifficultyLabel(difficulty),
+        problems: []
+      });
+    }
+    category.difficulties.get(difficulty).problems.push(problem);
+    category.count += 1;
+  }
+
+  const gradeGroups = [...byGrade.values()].sort((a, b) => {
+    if (a.grade === null) return 1;
+    if (b.grade === null) return -1;
+    return a.grade - b.grade;
+  });
+
+  for (const group of gradeGroups) {
+    for (const category of group.categories) {
+      category.difficulties = [...category.difficulties.values()]
+        .sort((a, b) => {
+          if (a.difficulty === null) return 1;
+          if (b.difficulty === null) return -1;
+          return a.difficulty - b.difficulty;
+        })
+        .map((difficultyGroup) => ({
+          ...difficultyGroup,
+          problems: difficultyGroup.problems.sort((a, b) => a.id - b.id)
+        }));
+    }
+    group.count = group.categories.reduce((sum, category) => sum + category.count, 0);
+  }
+
+  return {
+    gradeGroups,
+    total: gradeGroups.reduce((sum, group) => sum + group.count, 0),
+    categoryTotals: categoryDefinitions.map((category) => ({
+      ...category,
+      count: gradeGroups.reduce((sum, group) => sum + group.categories.find((item) => item.key === category.key).count, 0)
+    }))
+  };
+}
+
+app.get('/n', (req, res) => {
+  res.render('unresolved', {
+    title: 'Probleme nerezolvate',
+    ...getUnresolvedProblemGroups()
+  });
+});
+
 // Homework index
 app.get('/h', (req, res) => {
   const homework = store.getAllHomework();
