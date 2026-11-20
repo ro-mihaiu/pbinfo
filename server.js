@@ -193,7 +193,6 @@ function getUnresolvedProblemGroups() {
     { key: 'solution', label: 'Fără soluție' },
     { key: 'statement', label: 'Fără cerință' }
   ];
-  const knownGrades = [...new Set([...grades.GRADES, 12])].sort((a, b) => a - b);
   const byGrade = new Map();
 
   function getGradeKey(value) {
@@ -221,34 +220,38 @@ function getUnresolvedProblemGroups() {
       byGrade.set(gradeKey, {
         grade: gradeKey,
         label: gradeKey === null ? 'Clasă nespecificată' : grades.getGradeLabel(gradeKey),
+        difficulties: new Map()
+      });
+    }
+
+    const gradeGroup = byGrade.get(gradeKey);
+    const difficultyValue = Number(problem.difficulty);
+    const difficulty = Number.isInteger(difficultyValue) && difficultyValue >= 1 && difficultyValue <= 4
+      ? difficultyValue
+      : null;
+    if (!gradeGroup.difficulties.has(difficulty)) {
+      gradeGroup.difficulties.set(difficulty, {
+        difficulty,
+        label: difficulty === null ? 'Nespecificată' : grades.getDifficultyLabel(difficulty),
+        count: 0,
         categories: categoryDefinitions.map((category) => ({
           ...category,
           count: 0,
-          difficulties: new Map()
+          problems: []
         }))
       });
     }
 
+    const difficultyGroup = gradeGroup.difficulties.get(difficulty);
     const categoryKey = !statementExists && !solutionExists
       ? 'both'
       : !solutionExists
         ? 'solution'
         : 'statement';
-    const category = byGrade.get(gradeKey).categories.find((item) => item.key === categoryKey);
-    const difficultyValue = Number(problem.difficulty);
-    const difficulty = Number.isInteger(difficultyValue) && difficultyValue >= 1 && difficultyValue <= 4
-      ? difficultyValue
-      : null;
-
-    if (!category.difficulties.has(difficulty)) {
-      category.difficulties.set(difficulty, {
-        difficulty,
-        label: difficulty === null ? 'Nespecificată' : grades.getDifficultyLabel(difficulty),
-        problems: []
-      });
-    }
-    category.difficulties.get(difficulty).problems.push(problem);
+    const category = difficultyGroup.categories.find((item) => item.key === categoryKey);
+    category.problems.push(problem);
     category.count += 1;
+    difficultyGroup.count += 1;
   }
 
   const gradeGroups = [...byGrade.values()].sort((a, b) => {
@@ -258,29 +261,32 @@ function getUnresolvedProblemGroups() {
   });
 
   for (const group of gradeGroups) {
-    for (const category of group.categories) {
-      category.difficulties = [...category.difficulties.values()]
-        .sort((a, b) => {
-          if (a.difficulty === null) return 1;
-          if (b.difficulty === null) return -1;
-          return a.difficulty - b.difficulty;
-        })
-        .map((difficultyGroup) => ({
-          ...difficultyGroup,
-          problems: difficultyGroup.problems.sort((a, b) => a.id - b.id)
-        }));
-    }
-    group.count = group.categories.reduce((sum, category) => sum + category.count, 0);
+    group.difficulties = [...group.difficulties.values()]
+      .sort((a, b) => {
+        if (a.difficulty === null) return 1;
+        if (b.difficulty === null) return -1;
+        return a.difficulty - b.difficulty;
+      })
+      .map((difficultyGroup) => ({
+        ...difficultyGroup,
+        categories: difficultyGroup.categories.map((category) => ({
+          ...category,
+          problems: category.problems.sort((a, b) => a.id - b.id)
+        }))
+      }));
+    group.count = group.difficulties.reduce((sum, difficulty) => sum + difficulty.count, 0);
   }
 
-  return {
-    gradeGroups,
-    total: gradeGroups.reduce((sum, group) => sum + group.count, 0),
-    categoryTotals: categoryDefinitions.map((category) => ({
-      ...category,
-      count: gradeGroups.reduce((sum, group) => sum + group.categories.find((item) => item.key === category.key).count, 0)
-    }))
-  };
+  const total = gradeGroups.reduce((sum, group) => sum + group.count, 0);
+  const categoryTotals = categoryDefinitions.map((definition) => ({
+    ...definition,
+    count: gradeGroups.reduce((gradeSum, group) => gradeSum + group.difficulties.reduce(
+      (difficultySum, difficulty) => difficultySum + difficulty.categories.find((item) => item.key === definition.key).count,
+      0
+    ), 0)
+  }));
+
+  return { gradeGroups, total, categoryTotals };
 }
 
 app.get('/n', (req, res) => {
