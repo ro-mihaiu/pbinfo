@@ -296,6 +296,99 @@ app.get('/n', (req, res) => {
   });
 });
 
+// Short change posts generated from recent repository commits
+const CHANGELOG_API_URL = 'https://api.github.com/repos/ro-mihaiu/pbinfo/commits?per_page=12';
+const CHANGELOG_CACHE_MS = 10 * 60 * 1000;
+let changelogCache = { expiresAt: 0, posts: null };
+let changelogFetchPromise = null;
+
+function createChangePost(commit) {
+  const message = String(commit?.commit?.message || '').trim();
+  const subject = message.split(/\r?\n/, 1)[0].trim();
+  if (!subject || !/^[a-f0-9]{40}$/i.test(String(commit.sha || ''))) return null;
+
+  const lower = subject.toLowerCase();
+  let title = 'Actualizare arhivă';
+  let summary = 'Arhiva a primit o actualizare. Deschide commitul pentru detaliile exacte ale modificării.';
+  if (/unresolved|incomplete|missing statement|missing solution/.test(lower)) {
+    title = 'Probleme incomplete, mai ușor de găsit';
+    summary = 'Am adăugat organizarea problemelor care nu au încă enunțul și/sau soluția, grupate după clasă și dificultate.';
+  } else if (/view|counter/.test(lower)) {
+    title = 'Contoarele de vizualizări au fost eliminate';
+    summary = 'Am eliminat afișarea și actualizarea contoarelor de vizualizări din paginile arhivei.';
+  } else if (/logo|svg|style|design|palette|theme|interface|interfa/.test(lower)) {
+    title = 'Interfața arhivei a fost actualizată';
+    summary = 'Am îmbunătățit aspectul și elementele vizuale ale site-ului.';
+  } else if (/license|terms|copyright|legal|restrict/.test(lower)) {
+    title = 'Regulile de utilizare au fost clarificate';
+    summary = 'Am actualizat informațiile despre drepturile asupra codului și resurselor proiectului.';
+  } else if (/add|create|introduc|new page/.test(lower)) {
+    title = 'O funcționalitate nouă în arhivă';
+    summary = 'Am adăugat o funcționalitate nouă. Commitul oferă lista exactă a fișierelor și modificărilor.';
+  } else if (/fix|correct|repair|bug/.test(lower)) {
+    title = 'O problemă a fost corectată';
+    summary = 'Am remediat o problemă de funcționare. Deschide commitul pentru detalii.';
+  } else if (/sort|group|organ/.test(lower)) {
+    title = 'Conținutul a fost reorganizat';
+    summary = 'Am îmbunătățit ordinea și gruparea informațiilor din arhivă.';
+  }
+
+  const body = message.split(/\r?\n\r?\n/).slice(1).join('\n\n').trim();
+  const date = commit.commit?.author?.date || commit.commit?.committer?.date || null;
+  return {
+    sha: commit.sha.slice(0, 7),
+    title,
+    summary: body || summary,
+    subject,
+    date,
+    url: 'https://github.com/ro-mihaiu/pbinfo/commit/' + commit.sha
+  };
+}
+
+async function getRecentChangePosts() {
+  if (changelogCache.posts && Date.now() < changelogCache.expiresAt) {
+    return { posts: changelogCache.posts, stale: false };
+  }
+  if (changelogFetchPromise) return changelogFetchPromise;
+
+  changelogFetchPromise = (async () => {
+    try {
+      const response = await fetch(CHANGELOG_API_URL, {
+        headers: {
+          Accept: 'application/vnd.github+json',
+          'User-Agent': 'pbinfo-archive-changelog'
+        },
+        signal: AbortSignal.timeout(5000)
+      });
+      if (!response.ok) throw new Error('GitHub API returned ' + response.status);
+      const commits = await response.json();
+      const posts = Array.isArray(commits)
+        ? commits.map(createChangePost).filter(Boolean)
+        : [];
+      changelogCache = { expiresAt: Date.now() + CHANGELOG_CACHE_MS, posts };
+      return { posts, stale: false };
+    } catch (err) {
+      console.error('Failed to load GitHub changelog:', err.message);
+      changelogCache.expiresAt = Date.now() + 60 * 1000;
+      return { posts: changelogCache.posts || [], stale: true };
+    } finally {
+      changelogFetchPromise = null;
+    }
+  })();
+
+  return changelogFetchPromise;
+}
+
+app.get('/s', async (req, res) => {
+  const changelog = await getRecentChangePosts();
+  res.render('changes', {
+    title: 'Schimbări',
+    posts: changelog.posts,
+    stale: changelog.stale,
+    sourceUrl: 'https://github.com/ro-mihaiu/pbinfo/commits/main'
+  });
+});
+
 // Homework index
 app.get('/h', (req, res) => {
   const homework = store.getAllHomework();
