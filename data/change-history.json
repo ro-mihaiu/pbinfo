@@ -1,0 +1,641 @@
+[
+  {
+    "sha": "9e0d354fc7d3b9f5fe9bdf0e79bed02182b7cf5b",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:50:28+02:00"
+      },
+      "message": "Use consistent difficulty labels and distinguish missing metadata"
+    }
+  },
+  {
+    "sha": "3cde7f63413855eb55c65a5392f6467d3ff891ba",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:46:22+02:00"
+      },
+      "message": "Show Nerezolvate and Schimbări once in each navigation menu"
+    }
+  },
+  {
+    "sha": "73ac9b2f5ecb61961c26f53e344485df9f5f5545",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:32:26+02:00"
+      },
+      "message": "Polish changelog freshness notice and dates"
+    }
+  },
+  {
+    "sha": "e949a46ec610df3d156573e4a9340c4feffadd66",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:31:46+02:00"
+      },
+      "message": "Add commit-based changes page"
+    }
+  },
+  {
+    "sha": "696ce6cdc0d2cc025f702afb64455f791a8ac457",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:31:44+02:00"
+      },
+      "message": "Style commit based changelog"
+    }
+  },
+  {
+    "sha": "7f201b2094d541addd9ad86d5222066c2581f7e8",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:31:43+02:00"
+      },
+      "message": "Add GitHub commit based changelog"
+    }
+  },
+  {
+    "sha": "f9ec8bbb11ca56030163436a0a5eba337f7fed03",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:31:42+02:00"
+      },
+      "message": "Add changelog navigation links"
+    }
+  },
+  {
+    "sha": "b6ff1f3799d4757d5f305bfb4373ff60ffcce9b7",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:31:41+02:00"
+      },
+      "message": "Add changelog navigation links"
+    }
+  },
+  {
+    "sha": "be693fa1b5a15430794dda439a2fa05000e13ec4",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:31:40+02:00"
+      },
+      "message": "Add changelog navigation label"
+    }
+  },
+  {
+    "sha": "30c730915f401094615e070ff1fbea2e01199b9b",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:28:33+02:00"
+      },
+      "message": "Polish difficulty and status group styles"
+    }
+  },
+  {
+    "sha": "85365cff34e7acdb3be620f431249fe0817fb804",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:28:14+02:00"
+      },
+      "message": "Group unresolved IDs by difficulty before status"
+    }
+  },
+  {
+    "sha": "3b924486d5eaccd156756829a6176ea21f2e84bf",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:28:13+02:00"
+      },
+      "message": "Sort unresolved IDs by grade then difficulty"
+    }
+  },
+  {
+    "sha": "de439ea5098306cc9dc3b07d9ec2cf0770fa512d",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:26:52+02:00"
+      },
+      "message": "Add unresolved problems index template"
+    }
+  },
+  {
+    "sha": "5c46f4c44a092f7ec7f79137c856c4b59d768e97",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:26:51+02:00"
+      },
+      "message": "Style unresolved problems index"
+    }
+  },
+  {
+    "sha": "82dab363f16db58df467856a5b3abd5fb9d74372",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:26:50+02:00"
+      },
+      "message": "Link unresolved problems page"
+    }
+  },
+  {
+    "sha": "92754383533fbc1b9ddc3490eafd663e91942804",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:26:48+02:00"
+      },
+      "message": "Link unresolved problems page"
+    }
+  },
+  {
+    "sha": "283877bd62d649f166b6b2d6de5105651ba7833c",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:26:47+02:00"
+      },
+      "message": "Add grouped unresolved problems page"
+    }
+  },
+  {
+    "sha": "72d18181d9cb27df0dce594fa10c64b07e59970e",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:26:46+02:00"
+      },
+      "message": "Add unresolved navigation label"
+    }
+  },
+  {
+    "sha": "ef2648b065463fcef42f6a810e2ca6bf6d39a897",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:22:38+02:00"
+      },
+      "message": "Add Instagram icon as standalone SVG"
+    }
+  },
+  {
+    "sha": "a843d858b78a2324134db00f216e083b7c646184",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:22:37+02:00"
+      },
+      "message": "Add Discord icon as standalone SVG"
+    }
+  },
+  {
+    "sha": "745477dab2d1b887b79c188837dbed84e402993c",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:22:36+02:00"
+      },
+      "message": "Adjust stats layout and social SVGs"
+    }
+  },
+  {
+    "sha": "57383adbbeec767b83a2676b4026ba253efe2827",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:22:34+02:00"
+      },
+      "message": "Stop tracking and displaying view counts"
+    }
+  },
+  {
+    "sha": "0f8855013efe2c6b0abc1a222395e235ff3aa6ee",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:22:33+02:00"
+      },
+      "message": "Update privacy page about view counters"
+    }
+  },
+  {
+    "sha": "1725858ed48936810b0f8c1c7aa28d298a73f350",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:22:32+02:00"
+      },
+      "message": "Remove view counts and use social SVG assets"
+    }
+  },
+  {
+    "sha": "e91a151934130e3e15a4482c0a9cb4aaa8d744da",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:22:31+02:00"
+      },
+      "message": "Remove view counts and use social SVG assets"
+    }
+  },
+  {
+    "sha": "7cb0ca10fec6eb31541a5d193bf26e9d68f6bfae",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:22:30+02:00"
+      },
+      "message": "Remove view counts and use social SVG assets"
+    }
+  },
+  {
+    "sha": "ee9e328311325ccbc53ad0b27c739bb1b101bf14",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:17:21+02:00"
+      },
+      "message": "Add custom PBInfo archive SVG logo"
+    }
+  },
+  {
+    "sha": "0028e09912dbff1112c111394a676e4c154faac3",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:17:19+02:00"
+      },
+      "message": "Clarify code and website usage terms"
+    }
+  },
+  {
+    "sha": "cc3ac2eb135adb055fe4f95f1175ecff5400c9f6",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:17:18+02:00"
+      },
+      "message": "Use new SVG brand mark"
+    }
+  },
+  {
+    "sha": "773a33632da2712035a4be602c31a3338d05d098",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:17:17+02:00"
+      },
+      "message": "Use new SVG brand mark"
+    }
+  },
+  {
+    "sha": "1d221c7cd5967d9f6aeab93863a99a37b21bd4dd",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:17:16+02:00"
+      },
+      "message": "Refresh site with GitHub Dark editorial design"
+    }
+  },
+  {
+    "sha": "c5e2b7a60646623ee5743c9aed0e5ddc85617aa6",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:17:15+02:00"
+      },
+      "message": "Use new SVG brand mark"
+    }
+  },
+  {
+    "sha": "a946e9e1ac2ea3c8a6d8da960c0e89a41574c5b9",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:17:14+02:00"
+      },
+      "message": "Restrict code and website reuse"
+    }
+  },
+  {
+    "sha": "c0802da2e9746265ef575a771446b62ce7231b47",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:10:10+02:00"
+      },
+      "message": "Add Mihai attribution to site footer"
+    }
+  },
+  {
+    "sha": "312975f51c18da9a60274993b9c63af9c369fbb3",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:10:09+02:00"
+      },
+      "message": "Replace MIT license with attribution-based usage terms"
+    }
+  },
+  {
+    "sha": "0ced326aa0a24dd786fff0cfdd457d8b795df833",
+    "commit": {
+      "committer": {
+        "date": "2026-11-20T10:10:07+02:00"
+      },
+      "message": "Clarify resource reuse and attribution terms"
+    }
+  },
+  {
+    "sha": "2ab3ff32e9b284266709f3f76333f8452b36f441",
+    "commit": {
+      "committer": {
+        "date": "2026-11-12T09:20:50+02:00"
+      },
+      "message": "updated 4483.cpp\n\nRearrange vowels in the input string in descending order."
+    }
+  },
+  {
+    "sha": "8d5fac9bfc29397159c5741f7362822fc105822a",
+    "commit": {
+      "committer": {
+        "date": "2026-11-05T10:42:42+02:00"
+      },
+      "message": "Add homework file for week 8 - class X"
+    }
+  },
+  {
+    "sha": "efa9c52eea252789e7fd71438d9de49e1f131b9c",
+    "commit": {
+      "committer": {
+        "date": "2026-10-20T12:05:20+03:00"
+      },
+      "message": "chore(config): update default SITE_URL for production environment\n\nUpdate the fallback value for `process.env.SITE_URL` from localhost to\nthe production domain to ensure webhook embed URLs are correctly\ngenerated when the environment variable is not explicitly set."
+    }
+  },
+  {
+    "sha": "7173edaddad24aa9169e54bf5c54f0ed3b72e7f0",
+    "commit": {
+      "committer": {
+        "date": "2026-10-20T12:01:40+03:00"
+      },
+      "message": "style(ui): improve layout and styling for the issue reporting form\n\n- Refactor `i.ejs` to use a more structured layout with `form-group` and `contact-fields` containers\n- Update `style.css` with responsive styles for the `.problem-form` class\n- Implement grid layout for contact information fields\n- Add specific styling for code and description textareas to improve usability"
+    }
+  },
+  {
+    "sha": "96253d06f4048946c86550f4dc4100728c98fde3",
+    "commit": {
+      "committer": {
+        "date": "2026-10-20T11:34:27+03:00"
+      },
+      "message": "Fix include paths in i.ejs"
+    }
+  },
+  {
+    "sha": "f7f01bf3e80107640a4c19b2dd4df5c06591ef03",
+    "commit": {
+      "committer": {
+        "date": "2026-10-20T11:32:32+03:00"
+      },
+      "message": "Rename /issue to /i"
+    }
+  },
+  {
+    "sha": "98794edf404db7cd6666b2346986b4e317f9d009",
+    "commit": {
+      "committer": {
+        "date": "2026-10-20T11:28:34+03:00"
+      },
+      "message": "Add /issue page"
+    }
+  },
+  {
+    "sha": "4ab466f2f1c284aedf6beb931923ee444de44935",
+    "commit": {
+      "committer": {
+        "date": "2026-10-20T11:26:21+03:00"
+      },
+      "message": "Rate limit 2 req/min"
+    }
+  },
+  {
+    "sha": "31420e3b17374d6321833cae1a2575cedde2a3fa",
+    "commit": {
+      "committer": {
+        "date": "2026-10-20T11:25:40+03:00"
+      },
+      "message": "Add code field and rate limiting to issue form"
+    }
+  },
+  {
+    "sha": "b1f2da30293bf71220c6909538b2c9c9c273783e",
+    "commit": {
+      "committer": {
+        "date": "2026-10-20T11:01:15+03:00"
+      },
+      "message": "debug webhook env"
+    }
+  },
+  {
+    "sha": "d7ce9eb4c3c798b3a51f61a1121ace52c2d0097c",
+    "commit": {
+      "committer": {
+        "date": "2026-10-20T10:52:29+03:00"
+      },
+      "message": "feat(server): add Discord webhook notifications for issue reports\n\n- Implement manual `.env` loading in `server.js`\n- Add email and WhatsApp validation to the issue reporting endpoint\n- Integrate Discord webhook to notify administrators of new issues\n- Update problem ID range in `data/store.js` to support more problems\n- Add new problem data, solutions, and documentation\n- Update `.gitignore` to include local environment files"
+    }
+  },
+  {
+    "sha": "1560a48654c2578d70483096dbb7c87b0629a875",
+    "commit": {
+      "committer": {
+        "date": "2026-10-20T08:16:09+03:00"
+      },
+      "message": "added solution 5031"
+    }
+  },
+  {
+    "sha": "5bb12a7f0647aeb0d17d6d6a7ae5ec925838bbf4",
+    "commit": {
+      "committer": {
+        "date": "2026-10-01T06:52:55Z"
+      },
+      "message": "uploaded homework"
+    }
+  },
+  {
+    "sha": "6accb5124eccdb40ea07c9d4398567ef1747c132",
+    "commit": {
+      "committer": {
+        "date": "2026-10-01T09:46:24+03:00"
+      },
+      "message": "Replace solution for problem 4250"
+    }
+  },
+  {
+    "sha": "8ce53cc9caa23ba98b7887eaf5185bf1761794eb",
+    "commit": {
+      "committer": {
+        "date": "2026-09-17T09:50:38+03:00"
+      },
+      "message": "Update 10-2.md"
+    }
+  },
+  {
+    "sha": "110186293cfbbd4ea4bdad7e183f25fb554dea47",
+    "commit": {
+      "committer": {
+        "date": "2026-09-17T09:49:35+03:00"
+      },
+      "message": "Created 10-2.md"
+    }
+  },
+  {
+    "sha": "4ad2400404faf7120d0d3789128c2d2dd5990a2a",
+    "commit": {
+      "committer": {
+        "date": "2026-09-13T19:22:19+03:00"
+      },
+      "message": "refactor(parser): prevent exercise reference parsing in note sections\n\nUpdate the parser to track the current section being rendered. Content\nwithin sections named \"note\" will no longer have numbers automatically\ntreated as exercise references, preventing accidental linking of\nmetadata or instructional text.\n\nAlso remove legacy grade-9 week files (s1, s2, s3) and clean up\nfrontmatter from grade-10 week 1 markdown."
+    }
+  },
+  {
+    "sha": "2cf98fdfededb040f141909ad2e73479aed216a2",
+    "commit": {
+      "committer": {
+        "date": "2026-09-13T19:04:42+03:00"
+      },
+      "message": "feat(homework): add grade-10 week 1 theme; support grade-week filenames (9-1.md) without frontmatter"
+    }
+  },
+  {
+    "sha": "f0399b770d17e25990197b14f17925a50cfe28b9",
+    "commit": {
+      "committer": {
+        "date": "2026-08-30T17:20:54+03:00"
+      },
+      "message": "yes"
+    }
+  },
+  {
+    "sha": "0b78cb6b1530616689e3b1d1845879ccdc753dda",
+    "commit": {
+      "committer": {
+        "date": "2026-08-30T17:16:37+03:00"
+      },
+      "message": "refactor(ui): remove delay from view tracker registration\n\nRemove the 3-second setTimeout delay when fetching view counts, allowing\nthe view counter to update immediately upon script execution."
+    }
+  },
+  {
+    "sha": "54587bd2679c91ad276be65a42b52d83dab6021a",
+    "commit": {
+      "committer": {
+        "date": "2026-08-30T16:51:55+03:00"
+      },
+      "message": "Merge pull request #1 from ro-mihaiu/vercel/install-vercel-web-analytics-gt950q\n\nInstall Vercel Web Analytics"
+    }
+  },
+  {
+    "sha": "936f1c2229eff83518ca49208282d6f270ed2560",
+    "commit": {
+      "committer": {
+        "date": "2026-08-30T13:48:01Z"
+      },
+      "message": "Install Vercel Web Analytics\n\n# Vercel Web Analytics Installation Report\n\n## Summary\nSuccessfully installed and configured Vercel Web Analytics for this Express.js project following the latest official documentation from Vercel.\n\n## Changes Made\n\n### 1. Package Installation\n- **Added dependency**: `@vercel/analytics` version `^2.0.1`\n- **Modified files**: \n  - `package.json` - Added @vercel/analytics to dependencies\n  - `package-lock.json` - Updated with new dependency lockfile entries\n\n### 2. Existing Configuration Verified\nThe project already had Vercel Analytics properly configured in the HTML templates. The implementation includes:\n\n- **Web Analytics**: Script at `/_vercel/insights/script.js` with proper initialization\n- **Speed Insights**: Script at `/_vercel/speed-insights/script.js` with proper initialization\n- **Location**: `views/partials/head.ejs`\n\nBoth scripts are:\n- Properly deferred for optimal page load performance\n- Initialized with the correct window objects (`window.va` and `window.si`)\n- Using Vercel's standard endpoints\n\n## Implementation Details\n\nFor Express.js applications using EJS templates (or any server-side rendered HTML), the recommended approach is to include the Vercel Analytics scripts directly in the HTML, which is exactly what this project does.\n\nThe analytics scripts are included in the `<head>` section of `views/partials/head.ejs`:\n\n```html\n<script>\n  window.va = window.va || function () { (window.va.q = window.va.q || []).push(arguments); };\n</script>\n<script defer src=\"/_vercel/insights/script.js\"></script>\n\n<script>\n  window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };\n</script>\n<script defer src=\"/_vercel/speed-insights/script.js\"></script>\n```\n\n## Verification\n\n✅ Package successfully installed\n✅ Server starts without errors\n✅ Analytics scripts are correctly rendered in HTML output\n✅ No breaking changes introduced\n✅ Build completes successfully\n\n## Next Steps\n\nTo enable analytics in the Vercel dashboard:\n1. Navigate to your project in the Vercel dashboard\n2. Select \"Analytics\" in the sidebar\n3. Click the \"Enable\" button\n4. Deploy the application to Vercel\n5. Analytics data will start flowing after users visit the site\n\n## Notes\n\n- The `@vercel/analytics` package is installed as requested and is available for future use if the project needs programmatic access to analytics features\n- The current implementation using script tags is the correct approach for Express.js/EJS applications according to Vercel documentation\n- Analytics only track in production mode (not in development)\n- The implementation is privacy-friendly and complies with Vercel's privacy standards\n\nCo-authored-by: Vercel <vercel[bot]@users.noreply.github.com>"
+    }
+  },
+  {
+    "sha": "2795f02eaa408537b5e9cf360ea1fe0a04f9674d",
+    "commit": {
+      "committer": {
+        "date": "2026-08-30T16:30:31+03:00"
+      },
+      "message": "chore(ui): add Vercel Web Analytics and Speed Insights scripts"
+    }
+  },
+  {
+    "sha": "b72c6f3dbe6623459b7f083d4c6f4e75f86f0e88",
+    "commit": {
+      "committer": {
+        "date": "2026-08-30T16:18:28+03:00"
+      },
+      "message": "changed how views work"
+    }
+  },
+  {
+    "sha": "77b3e59fed0e95a35b098e71cfce65a8806991dc",
+    "commit": {
+      "committer": {
+        "date": "2026-08-30T14:39:45+03:00"
+      },
+      "message": "Add working view counter with Upstash Redis"
+    }
+  },
+  {
+    "sha": "5d6682ae95e0a60f19c93ed8b2ec56b90920eb2e",
+    "commit": {
+      "committer": {
+        "date": "2026-08-29T20:30:27+03:00"
+      },
+      "message": "updating layout + solutions db"
+    }
+  },
+  {
+    "sha": "6303cd4e436e8024feb003cb1239a274abd1c4df",
+    "commit": {
+      "committer": {
+        "date": "2026-08-26T14:30:21+03:00"
+      },
+      "message": "yes."
+    }
+  },
+  {
+    "sha": "1c8e3c4fdeb86302ae143f672acc195d0dcf8225",
+    "commit": {
+      "committer": {
+        "date": "2026-08-26T14:20:49+03:00"
+      },
+      "message": "abnsaifnai"
+    }
+  },
+  {
+    "sha": "e35375852c3b6ef0b48a7e417fd61ea6e68ccaa2",
+    "commit": {
+      "committer": {
+        "date": "2026-08-26T14:09:34+03:00"
+      },
+      "message": "deleted old folder with solutions"
+    }
+  },
+  {
+    "sha": "28f76a869a1c08c851ce7ed0bca0dd0ac8a3fe4c",
+    "commit": {
+      "committer": {
+        "date": "2026-08-25T20:44:08+03:00"
+      },
+      "message": "removed grade 12"
+    }
+  },
+  {
+    "sha": "361566c891308fbad4d8237e1db009f29bd0e4f2",
+    "commit": {
+      "committer": {
+        "date": "2026-08-25T20:05:57+03:00"
+      },
+      "message": "added start support for webhost"
+    }
+  },
+  {
+    "sha": "0cc2861e7eba712a705c2f8ac2c7fc31d80922aa",
+    "commit": {
+      "committer": {
+        "date": "2026-08-25T17:59:45+03:00"
+      },
+      "message": "made views be constant"
+    }
+  },
+  {
+    "sha": "5540874085d36279578b0286d55e510097c5662c",
+    "commit": {
+      "committer": {
+        "date": "2026-08-25T17:44:48+03:00"
+      },
+      "message": "updated tags from /p"
+    }
+  },
+  {
+    "sha": "17f19dfc942f86e1b6ea4756b099edfcbce32804",
+    "commit": {
+      "committer": {
+        "date": "2026-08-25T17:31:19+03:00"
+      },
+      "message": "added pbinfo to ignored..."
+    }
+  },
+  {
+    "sha": "c37327bd2f1767788cdc7b1066e0dbbb66bf122f",
+    "commit": {
+      "committer": {
+        "date": "2026-08-25T17:30:23+03:00"
+      },
+      "message": "uploading problem codes"
+    }
+  }
+]
