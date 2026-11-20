@@ -1066,3 +1066,16 @@ body::before { display: none; }
   .unresolved-summary-card:nth-child(-n+2) { border-bottom: 1px solid var(--border); }
   .unresolved-grade-head, .unresolved-category { padding-left: 14px; padding-right: 14px; }
 }
+
+
+.unresolved-difficulty-group { padding: 16px 20px 0; }
+.unresolved-difficulty-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding-bottom: 9px; border-bottom: 1px solid var(--border); }
+.unresolved-difficulty-head h3 { color: var(--accent); font-size: 14px; font-weight: 650; }
+.unresolved-difficulty-head > span { color: var(--text-muted); font: 12px var(--mono); }
+.unresolved-category { margin: 0 -20px; padding: 14px 20px 16px; }
+.unresolved-category-head h3, .unresolved-category-head h4 { font-size: 13px; font-weight: 600; }
+.unresolved-category + .unresolved-category { border-top: 1px solid rgba(48, 54, 61, 0.6); }
+@media (max-width: 700px) {
+  .unresolved-difficulty-group { padding-left: 14px; padding-right: 14px; }
+  .unresolved-category { margin-left: -14px; margin-right: -14px; padding-left: 14px; padding-right: 14px; }
+}
