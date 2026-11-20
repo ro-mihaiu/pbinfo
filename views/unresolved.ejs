@@ -1,0 +1,70 @@
+<%- include('partials/head') %>
+<%- include('partials/nav') %>
+
+<main class="page unresolved-page">
+  <header class="page-head unresolved-head">
+    <span class="unresolved-kicker">Arhivă · verificare conținut</span>
+    <h1 class="page-title"><%= title %></h1>
+    <p class="page-sub">ID-urile problemelor care nu au încă enunțul și/sau soluția în arhivă. În fiecare grup, dificultatea este ordonată de la ușor la concurs; ID-urile sunt în ordine crescătoare.</p>
+  </header>
+
+  <section class="unresolved-summary" aria-label="Rezumat">
+    <div class="unresolved-summary-card">
+      <strong><%= total %></strong>
+      <span>probleme incomplete</span>
+    </div>
+    <% categoryTotals.forEach(function(category) { %>
+      <div class="unresolved-summary-card">
+        <strong><%= category.count %></strong>
+        <span><%= category.label %></span>
+      </div>
+    <% }) %>
+  </section>
+
+  <% if (gradeGroups.length === 0) { %>
+    <div class="unresolved-empty card panel">
+      <h2>Totul este complet</h2>
+      <p>Toate problemele din arhivă au enunț și soluție.</p>
+    </div>
+  <% } else { %>
+    <% gradeGroups.forEach(function(gradeGroup) { %>
+      <section class="unresolved-grade">
+        <header class="unresolved-grade-head">
+          <div>
+            <span class="unresolved-kicker">Clasă</span>
+            <h2><%= gradeGroup.label %></h2>
+          </div>
+          <span class="unresolved-count"><%= gradeGroup.count %> ID-uri</span>
+        </header>
+
+        <% gradeGroup.categories.forEach(function(category) { %>
+          <section class="unresolved-category">
+            <header class="unresolved-category-head">
+              <h3><%= category.label %></h3>
+              <span><%= category.count %></span>
+            </header>
+            <% if (category.count === 0) { %>
+              <p class="unresolved-none">Nicio problemă în această categorie.</p>
+            <% } else { %>
+              <% category.difficulties.forEach(function(difficultyGroup) { %>
+                <div class="unresolved-difficulty">
+                  <h4><%= difficultyGroup.label %></h4>
+                  <div class="unresolved-ids">
+                    <% difficultyGroup.problems.forEach(function(problem) { %>
+                      <a href="/p/<%= problem.id %>" aria-label="Deschide problema <%= problem.id %>">#<%= problem.id %></a>
+                    <% }) %>
+                  </div>
+                </div>
+              <% }) %>
+            <% } %>
+          </section>
+        <% }) %>
+      </section>
+    <% }) %>
+  <% } %>
+</main>
+
+<%- include('partials/footer') %>
+<script src="/js/main.js"></script>
+</body>
+</html>
