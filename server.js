@@ -297,9 +297,10 @@ app.get('/n', (req, res) => {
 });
 
 // Short change posts generated from recent repository commits
-const CHANGELOG_API_URL = 'https://api.github.com/repos/ro-mihaiu/pbinfo/commits?per_page=12';
+const CHANGELOG_API_URL = 'https://api.github.com/repos/ro-mihaiu/pbinfo/commits?sha=main&since=2026-08-24T21:00:00Z&per_page=100';
 const CHANGELOG_CACHE_MS = 10 * 60 * 1000;
-let changelogCache = { expiresAt: 0, posts: null };
+const archivedChanges = require('./data/change-history.json').map(createChangePost).filter(Boolean);
+let changelogCache = { expiresAt: 0, posts: archivedChanges, stale: true };
 let changelogFetchPromise = null;
 
 function createChangePost(commit) {
@@ -334,7 +335,7 @@ function createChangePost(commit) {
   }
 
   const body = message.split(/\r?\n\r?\n/).slice(1).join('\n\n').trim();
-  const date = commit.commit?.author?.date || commit.commit?.committer?.date || null;
+  const date = commit.commit?.committer?.date || commit.commit?.author?.date || null;
   return {
     sha: commit.sha.slice(0, 7),
     title,
@@ -347,28 +348,32 @@ function createChangePost(commit) {
 
 async function getRecentChangePosts() {
   if (changelogCache.posts && Date.now() < changelogCache.expiresAt) {
-    return { posts: changelogCache.posts, stale: false };
+    return { posts: changelogCache.posts, stale: changelogCache.stale };
   }
   if (changelogFetchPromise) return changelogFetchPromise;
 
   changelogFetchPromise = (async () => {
     try {
-      const response = await fetch(CHANGELOG_API_URL, {
-        headers: {
-          Accept: 'application/vnd.github+json',
-          'User-Agent': 'pbinfo-archive-changelog'
-        },
-        signal: AbortSignal.timeout(5000)
-      });
-      if (!response.ok) throw new Error('GitHub API returned ' + response.status);
-      const commits = await response.json();
-      const posts = Array.isArray(commits)
-        ? commits.map(createChangePost).filter(Boolean)
-        : [];
-      changelogCache = { expiresAt: Date.now() + CHANGELOG_CACHE_MS, posts };
+      const postsByUrl = new Map(archivedChanges.map(post => [post.url, post]));
+      for (let page = 1; ; page++) {
+        const response = await fetch(CHANGELOG_API_URL + '&page=' + page, {
+          headers: { Accept: 'application/vnd.github+json', 'User-Agent': 'pbinfo-archive-changelog' },
+          signal: AbortSignal.timeout(5000)
+        });
+        if (!response.ok) throw new Error('GitHub API returned ' + response.status);
+        const commits = await response.json();
+        for (const commit of commits) {
+          const post = createChangePost(commit);
+          if (post) postsByUrl.set(post.url, post);
+        }
+        if (commits.length < 100) break;
+      }
+      const posts = [...postsByUrl.values()].sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
+      changelogCache = { expiresAt: Date.now() + CHANGELOG_CACHE_MS, posts, stale: false };
       return { posts, stale: false };
     } catch (err) {
       console.error('Failed to load GitHub changelog:', err.message);
+      changelogCache.stale = true;
       changelogCache.expiresAt = Date.now() + 60 * 1000;
       return { posts: changelogCache.posts || [], stale: true };
     } finally {
