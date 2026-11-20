@@ -16,6 +16,8 @@
       <a href="/" class="<%= path === '/' ? 'active' : '' %>"><%= t('nav_home') %></a>
       <a href="/p" class="<%= path.startsWith('/p') || path.startsWith('/archive') ? 'active' : '' %>"><%= t('nav_problems') %></a>
       <a href="/h" class="<%= path.startsWith('/h') || path.startsWith('/tema') ? 'active' : '' %>"><%= t('nav_homework') %></a>
+  <a href="/n" class="<%= path === '/n' ? 'active' : '' %>"><%= t('nav_unresolved') %></a>
+      <a href="/n" class="<%= path === '/n' ? 'active' : '' %>"><%= t('nav_unresolved') %></a>
     </nav>
 
     <div class="nav-actions">
