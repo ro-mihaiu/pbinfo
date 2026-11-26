@@ -277,6 +277,10 @@ function getUnresolvedProblemGroups() {
     group.count = group.difficulties.reduce((sum, difficulty) => sum + difficulty.count, 0);
   }
 
+  return summarizeUnresolvedGroups(gradeGroups, categoryDefinitions);
+}
+
+function summarizeUnresolvedGroups(gradeGroups, categoryDefinitions) {
   const total = gradeGroups.reduce((sum, group) => sum + group.count, 0);
   const categoryTotals = categoryDefinitions.map((definition) => ({
     ...definition,
@@ -285,14 +289,42 @@ function getUnresolvedProblemGroups() {
       0
     ), 0)
   }));
-
   return { gradeGroups, total, categoryTotals };
 }
 
 app.get('/n', (req, res) => {
+  const query = String(req.query.q || '').trim();
+  const { gradeGroups } = getUnresolvedProblemGroups();
+
+  if (query) {
+    const matchesQuery = (problem) => String(problem.id).includes(query);
+    for (const gradeGroup of gradeGroups) {
+      for (const difficultyGroup of gradeGroup.difficulties) {
+        for (const category of difficultyGroup.categories) {
+          category.problems = category.problems.filter(matchesQuery);
+          category.count = category.problems.length;
+        }
+        difficultyGroup.count = difficultyGroup.categories.reduce((sum, category) => sum + category.count, 0);
+      }
+      gradeGroup.difficulties = gradeGroup.difficulties.filter((difficulty) => difficulty.count > 0);
+      gradeGroup.count = gradeGroup.difficulties.reduce((sum, difficulty) => sum + difficulty.count, 0);
+    }
+    for (let index = gradeGroups.length - 1; index >= 0; index--) {
+      if (gradeGroups[index].count === 0) gradeGroups.splice(index, 1);
+    }
+  }
+
+  const categoryDefinitions = [
+    { key: 'both', label: 'Fără cerință și soluție' },
+    { key: 'solution', label: 'Fără soluție' },
+    { key: 'statement', label: 'Fără cerință' }
+  ];
+  const groups = summarizeUnresolvedGroups(gradeGroups, categoryDefinitions);
+
   res.render('unresolved', {
     title: 'Probleme nerezolvate',
-    ...getUnresolvedProblemGroups()
+    query,
+    ...groups
   });
 });
 

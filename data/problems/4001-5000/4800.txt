@@ -1,0 +1,31 @@
+Cerinţă
+
+Se citește de la tastatură un cuvânt format din litere mici. Să se afișeze pe ecran cea mai lungă secvență palindromică din cuvântul citit. O secventă este formată din litere alăturate dintr-un cuvânt și este palidromică dacă prima literă este identică cu ultima, a doua cu penultima, etc.
+Date de intrare
+
+Programul va citi de la tastatură un cuvânt format din cel mult 100 de caractere litere mici.
+Date de ieşire
+
+Programul va afişa pe ecran cea mai lungă secvență palindromică. Dacă există mai multe secvențe palindromice ce acceeși lungime, atunci se va afișa cea care este mai mică alfabetic.
+Restricţii şi precizări
+
+    cuvântul citit este format din cel mult 100 de caractere litere mici
+    dacă cuvântul citit are proprietatea că este palindrom, atunci cea mai lungă secvență palindromică este chiar întreg cuvântul.
+
+Exemple:
+
+Intrare
+
+anna
+
+Ieşire
+
+anna
+
+Intrare
+
+anamaria
+
+Ieşire
+
+ama

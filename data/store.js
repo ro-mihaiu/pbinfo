@@ -8,26 +8,9 @@ const DATA_DIR = path.join(__dirname, '..', 'data');
 const PROBLEMS_FILE = path.join(DATA_DIR, 'problems.json');
 const PROBLEMS_JSONL_FILE = path.join(DATA_DIR, 'problems.jsonl');
 const ISSUES_FILE = path.join(DATA_DIR, 'issues.jsonl');
-const VIEWS_FILE = path.join(DATA_DIR, 'views.json');
 const SOLUTIONS_DIR = path.join(DATA_DIR, 'solutions');
 const EXERCISES_DIR = path.join(DATA_DIR, 'exercises');
 const HOMEWORK_DIR = path.join(DATA_DIR, 'homework');
-const VIEWS_KEY = 'pbinfo:views';
-
-// Vercel's filesystem is read-only between invocations. When Redis credentials
-// are present, keep counters in Upstash Redis; otherwise retain local behavior.
-const redisUrl = process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL;
-const redisToken = process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN;
-let redis = null;
-if (redisUrl && redisToken) {
-  try {
-    const { Redis } = require('@upstash/redis');
-    redis = new Redis({ url: redisUrl, token: redisToken });
-  } catch (err) {
-    console.error('Failed to load Upstash Redis:', err.message);
-  }
-}
-
 // --- Problems ---
 
 function getProblems() {
@@ -92,7 +75,21 @@ function getProblemsByIds(ids) {
 // --- Solutions ---
 
 function getSolutionPath(id) {
-  return path.join(SOLUTIONS_DIR, `${id}.cpp`);
+  const filename = `${id}.cpp`;
+  try {
+    const entries = fs.readdirSync(SOLUTIONS_DIR, { withFileTypes: true });
+    if (entries.some((entry) => entry.isFile() && entry.name === filename)) {
+      return path.join(SOLUTIONS_DIR, filename);
+    }
+    for (const entry of entries) {
+      if (!entry.isDirectory()) continue;
+      const candidate = path.join(SOLUTIONS_DIR, entry.name, filename);
+      if (fs.existsSync(candidate)) return candidate;
+    }
+  } catch (err) {
+    // Return the canonical path; callers already handle missing files.
+  }
+  return path.join(SOLUTIONS_DIR, filename);
 }
 
 function getSolution(id) {
@@ -113,19 +110,32 @@ function hasSolution(id) {
 }
 
 function listSolutionIds() {
-  try {
-    const files = fs.readdirSync(SOLUTIONS_DIR);
-    return files
-      .map((f) => parseIdFromFilename(f))
-      .filter((id) => id !== null);
-  } catch (err) {
-    return [];
+  const ids = new Set();
+  function collect(directory) {
+    let entries;
+    try { entries = fs.readdirSync(directory, { withFileTypes: true }); } catch (err) { return; }
+    for (const entry of entries) {
+      const fullPath = path.join(directory, entry.name);
+      if (entry.isDirectory()) collect(fullPath);
+      else if (entry.isFile()) {
+        const id = parseIdFromFilename(entry.name);
+        if (id !== null) ids.add(id);
+      }
+    }
   }
+  collect(SOLUTIONS_DIR);
+  return [...ids].sort((a, b) => a - b);
 }
 
 // --- Statements / Exercises ---
 
 function getExercisePath(id) {
+  const number = Number(id);
+  if (Number.isInteger(number) && number > 0) {
+    const start = Math.floor((number - 1) / 1000) * 1000 + 1;
+    const statement = path.join(DATA_DIR, 'problems', `${start}-${start + 999}`, `${number}.txt`);
+    if (fs.existsSync(statement)) return statement;
+  }
   const txt = path.join(EXERCISES_DIR, `${id}.txt`);
   const md = path.join(EXERCISES_DIR, `${id}.md`);
   return fs.existsSync(txt) ? txt : fs.existsSync(md) ? md : null;
@@ -248,62 +258,6 @@ function getGradeOfHomework(week) {
   return parseHomework(raw).grade;
 }
 
-// --- Views ---
-
-async function getViews() {
-  if (redis) {
-    try {
-      return (await redis.hgetall(VIEWS_KEY)) || {};
-    } catch (err) {
-      console.error('Failed to read views from Redis:', err.message);
-    }
-  }
-
-  try {
-    if (!fs.existsSync(VIEWS_FILE)) return {};
-    return JSON.parse(fs.readFileSync(VIEWS_FILE, 'utf-8'));
-  } catch (err) {
-    return {};
-  }
-}
-
-async function getViewCount(id) {
-  const key = String(id);
-  if (redis) {
-    try {
-      return Number(await redis.hget(VIEWS_KEY, key)) || 0;
-    } catch (err) {
-      console.error('Failed to read view count from Redis:', err.message);
-    }
-  }
-  const views = await getViews();
-  return Number(views[key]) || 0;
-}
-
-async function incrementView(id) {
-  const key = String(id);
-  if (redis) {
-    try {
-      const count = await redis.get(`views:p:${key}`);
-      if (count !== null) {
-        return Number(count);
-      }
-      const hashCount = await redis.hget(VIEWS_KEY, key);
-      return Number(hashCount) || 0;
-    } catch (err) {
-      console.error('Failed to read view count from Redis:', err.message);
-    }
-  }
-
-  const views = await getViews();
-  return Number(views[key]) || 0;
-}
-
-async function getTotalViews() {
-  const views = await getViews();
-  return Object.values(views).reduce((sum, v) => sum + (parseInt(v, 10) || 0), 0);
-}
-
 module.exports = {
   getProblems,
   getProblemMeta,
@@ -323,9 +277,5 @@ module.exports = {
   getHomeworkFile,
   getHomeworkMeta,
   getAllHomework,
-  getGradeOfHomework,
-  getViews,
-  getViewCount,
-  incrementView,
-  getTotalViews
+  getGradeOfHomework
 };

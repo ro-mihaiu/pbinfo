@@ -1,0 +1,30 @@
+Cerința
+
+Se dă un șir de caractere format din cuvinte, separate prin spații. Cuvintele conțin doar litere mici ale alfabetului englez. Afișați, în ordine lexicografică, cuvintele din șir care au proprietatea că sunt formate din litere distincte (diferite două câte două).
+
+Date de intrare
+
+Programul citește de la tastatură șirul dat.
+
+Date de ieșire
+
+Programul va afișa pe ecran cuvintele în ordinea cerută, câte un cuvânt pe o linie. Dacă în propoziție nu există cuvinte care să aibă literele diferite două câte două, atunci se afișează mesajul nu exista.
+
+Restricții și precizări
+
+șirul dat va avea cel mult 255 de caractere și va conține cel mult 100 de cuvinte
+lungimea unui cuvânt este de cel mult 15 caractere
+
+Exemplu:
+
+Intrare
+
+maria are doua pere si ana are doua mere
+
+Ieșire
+
+are
+are
+doua
+doua
+si

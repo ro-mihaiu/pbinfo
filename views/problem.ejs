@@ -17,7 +17,9 @@
           <p class="problem-en muted"><%= problem.titles.en %></p>
         <% } %>
       </div>
-      <span class="diff-badge diff-<%= problem.difficulty %>"><%= difficultyLabel %></span>
+      <div class="problem-header-actions">
+        <span class="diff-badge diff-<%= problem.difficulty %>"><%= difficultyLabel %></span>
+      </div>
     </div>
     <div class="problem-meta">
       <% if (gradeLabel) { %>
@@ -39,6 +41,7 @@
         <strong><%= t('problem_notes') %>:</strong> <%= problem.notes.ro %>
       </div>
     <% } %>
+    <a class="pbinfo-header-link" href="https://pbinfo.ro/rezolvari/<%= problem.id %>/<%= problem.titles.ro %>" target="_blank" rel="noopener noreferrer">PBInfo</a>
   </section>
 
   <div class="problem-layout">
@@ -61,6 +64,32 @@
         </section>
       <% } %>
 
+      <% if (examples.length > 0) { %>
+        <section class="card panel">
+          <h2 class="panel-title">Exemple</h2>
+          <% examples.forEach(function(example, index) { %>
+            <div class="example-block">
+              <h3 class="stmt-heading">Exemplul <%= index + 1 %></h3>
+              <div class="example-grid">
+                <% if (example.date_intrare) { %>
+                  <div class="example-field">
+                    <div class="example-field-head"><strong>Intrare</strong><button type="button" class="icon-copy-btn copy-btn" data-copy-target="example-input-<%= problem.id %>-<%= index %>" aria-label="Copiază intrarea" title="Copiază intrarea">📋</button></div>
+                    <textarea id="example-input-<%= problem.id %>-<%= index %>" class="example-editor" rows="3"><%= example.date_intrare %></textarea>
+                  </div>
+                <% } %>
+                <% if (example.date_iesire) { %>
+                  <div class="example-field">
+                    <div class="example-field-head"><strong>Ieșire</strong><button type="button" class="icon-copy-btn copy-btn" data-copy-target="example-output-<%= problem.id %>-<%= index %>" aria-label="Copiază ieșirea" title="Copiază ieșirea">📋</button></div>
+                    <textarea id="example-output-<%= problem.id %>-<%= index %>" class="example-editor" rows="3"><%= example.date_iesire %></textarea>
+                  </div>
+                <% } %>
+              </div>
+              <% if (example.explicatie) { %><p class="stmt-line"><%= example.explicatie %></p><% } %>
+            </div>
+          <% }) %>
+        </section>
+      <% } %>
+
       <% if (hasSolution) { %>
         <section class="card panel">
           <div class="code-head">
@@ -77,6 +106,21 @@
     </div>
 
     <aside class="problem-side">
+      <section class="card panel issue-panel" id="issue-form">
+        <h2 class="panel-title">Raportează o problemă</h2>
+        <% if (issueStatus === 'sent') { %><p class="form-success">Mesajul a fost trimis. Vei fi contactat după rezolvare.</p><% } %>
+        <% if (issueStatus === 'invalid' || issueStatus === 'error') { %><p class="form-error">Completează problema și cel puțin o metodă de contact.</p><% } %>
+        <form method="post" action="/p/<%= problem.id %>/issues">
+          <input type="hidden" name="problemId" value="<%= problem.id %>">
+          <label>Problema<input type="text" value="#<%= problem.id %>" readonly></label>
+          <label for="issue">Descrierea problemei<textarea id="issue" name="issue" rows="5" required maxlength="5000" placeholder="Ce trebuie verificat?"></textarea></label>
+          <label for="email">Email<input id="email" name="email" type="email" maxlength="254" placeholder="nume@exemplu.ro"></label>
+          <label for="whatsapp">WhatsApp username / telefon<input id="whatsapp" name="whatsapp" type="text" maxlength="100" placeholder="@username sau +40..."></label>
+          <label for="code">Cod C++<textarea id="code" name="code" rows="8" maxlength="20000" placeholder="Codul tău C++"></textarea></label>
+          <button type="submit" class="btn btn-primary">Trimite sesizarea</button>
+        </form>
+      </section>
+
       <div class="card panel nav-panel">
 <h3 class="panel-title"><%= t('nav_problems') %></h3>
         <div class="prev-next">
@@ -102,6 +146,7 @@
   </div>
 
 </main>
+
 
 <%- include('partials/footer') %>
 <script src="/js/main.js"></script>

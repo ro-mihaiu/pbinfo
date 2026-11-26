@@ -6,6 +6,12 @@
     <span class="unresolved-kicker">Arhivă · verificare conținut</span>
     <h1 class="page-title"><%= title %></h1>
     <p class="page-sub">ID-urile problemelor care nu au încă enunțul și/sau soluția în arhivă. În fiecare clasă, dificultatea este ordonată de la ușor la concurs, iar ID-urile sunt în ordine crescătoare.</p>
+    <form class="unresolved-search" method="get" action="/n" role="search">
+      <label class="sr-only" for="unresolvedSearch">Caută după ID-ul problemei</label>
+      <input id="unresolvedSearch" type="search" name="q" value="<%= query %>" placeholder="Caută un ID, de exemplu 4798" autocomplete="off">
+      <button class="btn btn-primary btn-sm" type="submit">Caută</button>
+      <% if (query) { %><a class="btn btn-ghost btn-sm" href="/n">Resetează</a><% } %>
+    </form>
   </header>
 
   <section class="unresolved-summary" aria-label="Rezumat">
@@ -23,8 +29,13 @@
 
   <% if (gradeGroups.length === 0) { %>
     <div class="unresolved-empty card panel">
-      <h2>Totul este complet</h2>
-      <p>Toate problemele din arhivă au enunț și soluție.</p>
+      <% if (query) { %>
+        <h2>Niciun ID nu a fost găsit</h2>
+        <p>Nu există probleme incomplete cu ID-ul care conține „<%= query %>”. Încearcă alt număr.</p>
+      <% } else { %>
+        <h2>Totul este complet</h2>
+        <p>Toate problemele din arhivă au enunț și soluție.</p>
+      <% } %>
     </div>
   <% } else { %>
     <% gradeGroups.forEach(function(gradeGroup) { %>
