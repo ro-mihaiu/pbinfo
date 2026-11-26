@@ -530,32 +530,6 @@ app.get('/terms', (req, res) => {
   });
 });
 
-app.get('/i', (req, res) => {
-  res.render('i', { title: 'Issue' });
-});
-
-app.post('/i', async (req, res) => {
-  const id = parseInt(req.body.problemId, 10);
-  const problem = store.getProblemById(id);
-  if (!problem) return res.status(404).send('Not found');
-  const issue = String(req.body.issue || '').trim();
-  const email = String(req.body.email || '').trim();
-  const whatsapp = String(req.body.whatsapp || '').trim();
-  const code = String(req.body.code || '').trim();
-  const emailOk = !email || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-  const phoneOk = !whatsapp || /^[0-9+\s()-]{6,20}$/.test(whatsapp);
-  if (!issue || (!email && !whatsapp) || !emailOk || !phoneOk) return res.status(400).send('invalid');
-  const saved = store.saveIssue({ problemId: id, issue, email: email || null, whatsapp: whatsapp || null, code: code || null });
-  const webhook = process.env.DISCORD_WEBHOOK_URL;
-  if (webhook) {
-    try {
-      const base = process.env.SITE_URL || 'https://pbinfo.ro-mihaiu.xyz';
-      await fetch(webhook, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ embeds:[{ title:`Problema ${id}`, url:`${base}/p/${id}`, description: issue + (code ? `\n\n\`\`\`cpp\n${code.slice(0,1500)}\n\`\`\`` : ''), footer:{ text:`Contact: ${email || '-'} | ${whatsapp || '-'}` } }] }) });
-    } catch(e){ console.error(e.message); }
-  }
-  return res.redirect(`/p/${id}?issue=${saved?'sent':'error'}#issue-form`);
-});
-
 app.get('/cookies', (req, res) => {
   res.render('legal', {
     title: i18n.t('legal_cookies'),
@@ -577,29 +551,56 @@ app.post('/client-log', (req, res) => {
 });
 
 // Problem issue reports
+async function sendIssueEmail(to, subject, text, replyTo) {
+  const key = process.env.RESEND_API_KEY;
+  if (!key) return false;
+  const response = await fetch('https://api.resend.com/emails', {
+    method: 'POST',
+    signal: AbortSignal.timeout(10000),
+    headers: { Authorization: `Bearer ${key}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      from: process.env.ISSUE_EMAIL_FROM || 'PBInfo Archive <dev@ro-mihaiu.xyz>',
+      to: [to],
+      subject,
+      text,
+      ...(replyTo ? { reply_to: replyTo } : {})
+    })
+  });
+  if (!response.ok) {
+    console.error('Issue email failed:', response.status, await response.text());
+    return false;
+  }
+  return true;
+}
+
 app.post('/p/:id/issues', async (req, res) => {
   const id = parseInt(req.params.id, 10);
   const problem = store.getProblemById(id);
   if (!problem) return nextNotFound(req, res);
 
   const ip = req.ip || req.headers['x-forwarded-for'] || 'unknown';
-  if (isRateLimited(ip)) return res.status(429).redirect(`/p/${id}?issue=error#issue-form`);
+  if (isRateLimited(ip)) return res.redirect(`/p/${id}?issue=rate-limit#issue-form`);
   const issue = String(req.body.issue || '').trim();
   const email = String(req.body.email || '').trim();
   const whatsapp = String(req.body.whatsapp || '').trim();
   const code = String(req.body.code || '').trim();
   const emailOk = !email || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-  const phoneOk = !whatsapp || /^[0-9+\s()-]{6,20}$/.test(whatsapp);
-  if (!issue || (!email && !whatsapp) || !emailOk || !phoneOk || issue.length > 5000 || email.length > 254 || whatsapp.length > 100 || code.length > 20000) {
-    return res.status(400).redirect(`/p/${id}?issue=invalid#issue-form`);
-  }
+  const phone = whatsapp.replace(/[\s().-]/g, '');
+  const phoneOk = !whatsapp || /^@?[A-Za-z][A-Za-z0-9._]{2,31}$/.test(whatsapp) || /^(?:\+40|0040|0)7\d{8}$/.test(phone);
+  let invalid = '';
+  if (!issue) invalid = 'missing-description';
+  else if (!email && !whatsapp) invalid = 'missing-contact';
+  else if (!emailOk || email.length > 254) invalid = 'invalid-email';
+  else if (!phoneOk || whatsapp.length > 100) invalid = 'invalid-whatsapp';
+  else if (issue.length > 5000 || code.length > 20000) invalid = 'too-long';
+  if (invalid) return res.redirect(`/p/${id}?issue=${invalid}#issue-form`);
   const saved = store.saveIssue({ problemId: id, issue, email: email || null, whatsapp: whatsapp || null, code: code || null });
   const webhook = process.env.DISCORD_WEBHOOK_URL;
-  console.log('webhook present:', !!webhook);
+  let delivered = false;
   if (webhook) {
     try {
       const base = process.env.SITE_URL || 'https://pbinfo.ro-mihaiu.xyz';
-      await fetch(webhook, {
+      const response = await fetch(webhook, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -611,9 +612,32 @@ app.post('/p/:id/issues', async (req, res) => {
           }]
         })
       });
+      delivered = response.ok;
+      if (!response.ok) console.error('discord webhook failed', response.status);
     } catch (e) { console.error('discord webhook failed', e.message); }
   }
-  return res.redirect(`/p/${id}?issue=${saved ? 'sent' : 'error'}#issue-form`);
+  let ownerEmailed = false;
+  let senderEmailed = false;
+  const problemUrl = `${process.env.SITE_URL || 'https://pbinfo.ro-mihaiu.xyz'}/p/${id}`;
+  try {
+    ownerEmailed = await sendIssueEmail(
+      'dev@ro-mihaiu.xyz',
+      `[PBInfo] Raport pentru problema #${id}`,
+      `A fost trimis un raport pentru problema #${id} (${problem.titles.ro}).\n\nPagina: ${problemUrl}\n\nDescriere:\n${issue}\n\nContact: ${email || 'fără email'}${whatsapp ? ` | WhatsApp: ${whatsapp}` : ''}${code ? `\n\nCod C++:\n${code}` : ''}`,
+      email || undefined
+    );
+    if (email && (saved || delivered || ownerEmailed)) {
+      senderEmailed = await sendIssueEmail(
+        email,
+        `Am primit raportul tău pentru problema #${id}`,
+        `Salut!\n\nAm primit raportul tău pentru problema #${id} (${problem.titles.ro}). Îți mulțumim că ne-ai ajutat să îmbunătățim arhiva.\n\nPagina: ${problemUrl}\n\nMesajul tău:\n${issue}\n\nVom verifica problema și îți vom răspunde la această adresă dacă avem nevoie de detalii.\n\nEchipa PBInfo Archive\ndev@ro-mihaiu.xyz`
+      );
+    }
+  } catch (err) {
+    console.error('Issue email failed:', err.message);
+  }
+  if (email && ownerEmailed && !senderEmailed) console.error('Issue acknowledgment email was not delivered');
+  return res.redirect(`/p/${id}?issue=${delivered || saved || ownerEmailed ? 'sent' : 'error'}#issue-form`);
 });
 
 // Problem detail renderer

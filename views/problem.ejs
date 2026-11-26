@@ -109,7 +109,8 @@
       <section class="card panel issue-panel" id="issue-form">
         <h2 class="panel-title">Raportează o problemă</h2>
         <% if (issueStatus === 'sent') { %><p class="form-success">Mesajul a fost trimis. Vei fi contactat după rezolvare.</p><% } %>
-        <% if (issueStatus === 'invalid' || issueStatus === 'error') { %><p class="form-error">Completează problema și cel puțin o metodă de contact.</p><% } %>
+        <% const issueErrors = { 'missing-description': 'Descrie problema înainte de trimitere.', 'missing-contact': 'Adaugă un email sau un contact WhatsApp.', 'invalid-email': 'Adresa de email nu este validă.', 'invalid-whatsapp': 'Folosește un număr ca 07xx xxx xxx sau +40 7xx xxx xxx, ori un username WhatsApp.', 'too-long': 'Descrierea sau codul este prea lung.', 'rate-limit': 'Ai trimis prea multe rapoarte. Încearcă din nou peste un minut.', error: 'Raportul nu a putut fi trimis. Încearcă din nou.' }; %>
+        <% if (issueErrors[issueStatus]) { %><p class="form-error"><%= issueErrors[issueStatus] %></p><% } %>
         <form method="post" action="/p/<%= problem.id %>/issues">
           <input type="hidden" name="problemId" value="<%= problem.id %>">
           <label>Problema<input type="text" value="#<%= problem.id %>" readonly></label>
