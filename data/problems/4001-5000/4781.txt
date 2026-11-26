@@ -1,0 +1,38 @@
+#4781
+ComponenteConexe6
+Sursa: https://www.pbinfo.ro/probleme/4781/componenteconexe6
+
+Cerința
+
+Se dă lista muchiilor unui graf neorientat. Să se afișeze componentele conexe ale acestui graf.
+
+Date de intrare
+
+Fişierul de intrare componenteconexe6.in conţine pe prima linie numărul n, reprezentând numărul de vârfuri ale grafului. Fiecare dintre următoarele linii conține câte o pereche de numere i j, cu semnificația că există muchie între i și j.
+
+Date de ieșire
+
+Fişierul de ieşire componenteconexe6.out va conţine pe prima linie numărul de componente conexe nrc. Fiecare dintre următoarele nrc linii va conține în ordine crescătoare, separate printr-un spațiu, vârfurile din componenta conexă curentă.
+
+Ordinea de afișare a componentelor conexe va fi cea crescătoare a vârfului cu eticheta minimă din fiecare componentă.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 100
+- 1 ≤ i , j ≤ n
+- în fișierul de intrare muchiile se pot repeta
+
+Exemplu
+
+componenteconexe6.in
+
+5
+1 4
+3 5
+2 4
+
+componenteconexe6.out
+
+2
+1 2 4
+3 5

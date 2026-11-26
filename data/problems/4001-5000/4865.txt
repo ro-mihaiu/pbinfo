@@ -1,0 +1,30 @@
+#4865
+Copacul
+Sursa: https://www.pbinfo.ro/probleme/4865/copacul
+
+Cerința
+
+Un copac face două tipuri de fructe: mere și pere. Inițial în copac sunt a mere și b pere. Un hoț vine în fiecare seară și fură două fructe. Dacă sunt identice, atunci în locul lor apare o pară, dacă sunt diferite, apare un măr. După câte zile se golește copacul și care este ultimul fruct care apare?
+
+Date de intrare
+
+Programul citește de la tastatură numerele a și b.
+
+Date de ieșire
+
+Programul va afișa pe ecran numărul de zile z, iar pe linia urmatoare mesajul mar sau para.
+
+Restricții și precizări
+
+- 1 ≤ a, b ≤ 1.000.000.000
+
+Exemplu
+
+**Intrare**
+
+3 4
+
+**Ieșire**
+
+6
+mar

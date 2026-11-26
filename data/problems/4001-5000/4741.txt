@@ -1,0 +1,49 @@
+#4741
+Desert
+Sursa: https://www.pbinfo.ro/probleme/4741/desert
+
+Cerința
+
+Ali Baba și cei 40 de hoți stăpânesc un deșert de formă dreptunghiulară, împărțit în n linii și m coloane, care definesc n*m sectoare. Intrarea într-un sector se plătește cu o taxă cunoscută, exprimată în galbeni.
+
+Un călător trebuie să traverseze deșertul de la Nord la Sud, trecând dintr-un sector în altul, astfel: din sectorul (i j) se poate ajunge în unul din sectoarele (i+1,j-1), (i+1,j) sau (i+1,j+1), dar fără a părăsi deșertul (ar fi omorât de oamenii lui Ali Baba). La trecerea printr-un sector, călătorul plătește taxa aferentă acelui sector.
+
+Determinați suma totală minimă pe care trebuie să o plătească călătorul la traversarea deșertului, știind că pleacă din orice sector al liniei 1 (Nord) și se oprește în orice sector al liniei n (Sud), cu respectarea condițiilor de mai sus.
+
+Date de intrare
+
+Fişierul de intrare desert.in conţine pe prima linie numerele n m. Următoarele n linii conțin câte m numere naturale, reprezentând valorile taxelor pentru fiecare sector.
+
+Date de ieșire
+
+Fişierul de ieşire desert.out va conţine pe prima linie numărul S, reprezentând suma minimă care trebuie plătită.
+
+Restricții și precizări
+
+- 1 ≤ n,m ≤ 200
+- valoarea fiecărei taxe este un număr natural mai mic decât 100
+
+Exemplu
+
+desert.in
+
+4 5
+5 8 3 7 7
+1 1 4 5 1
+5 8 9 1 7
+5 8 6 6 9
+
+desert.out
+
+14
+
+Explicație
+
+Un traseu în care se plătesc 14 galbeni este:
+
+|     |     |     |     |     |
+| --- | --- | --- | --- | --- |
+| 5 | 8 | 3 | 7 | 7 |
+| 1 | 1 | 4 | 5 |  |
+| 5 | 8 | 9 | 1 | 7 |
+| 5 | 8 | 6 | 6 | 9 |

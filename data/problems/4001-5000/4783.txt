@@ -1,0 +1,30 @@
+#4783
+Transformare
+Sursa: https://www.pbinfo.ro/probleme/4783/transformare
+
+Cerința
+
+Se dă un șir de caractere. Să se transforme în literă mare toate vocalele din șir care sunt precedate de o consoană.
+
+Date de intrare
+
+Programul citește de la tastatură un sir de caractere.
+
+Date de ieșire
+
+Programul va afișa pe ecran șirul transformat.
+
+Restricții și precizări
+
+- șirul va avea cel mult 255 caractere
+- șirul nu va conține litere mari
+
+Exemplu
+
+**Intrare**
+
+doi lei grei
+
+**Ieșire**
+
+dOi lEi grEi

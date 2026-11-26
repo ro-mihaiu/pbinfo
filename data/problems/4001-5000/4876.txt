@@ -1,0 +1,32 @@
+#4876
+Combinari1N
+Sursa: https://www.pbinfo.ro/probleme/4876/combinari1n
+
+Cerința
+
+Se citesc două numere naturale nenule n și k. Să se afişeze, în ordine lexicografică, submulțimile de câte k elemente ale mulţimii {1,2,..,n} care au pe prima poziție valoarea 1 și pe ultima poziție valoarea n.
+
+Date de intrare
+
+Fişierul de intrare combinari1n.in conţine pe prima linie numerele n și k, separate printr-un spatiu.
+
+Date de ieșire
+
+Fişierul de ieşire combinari1n.out va conţine pe fiecare linie câte k valori, separate prin câte un spaţiu, reprezentând elementele unei submulțimi cu condițiia din enunț.
+
+Restricții și precizări
+
+- 2 ≤ k ≤ n ≤ 20
+- elementele fiecărei submulţimi vor fi afişate în ordine crescătoare
+
+Exemplu
+
+combinari1n.in
+
+5 4
+
+combinari1n.out
+
+1 2 3 5
+1 2 4 5
+1 3 4 5

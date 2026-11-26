@@ -1,0 +1,38 @@
+#4809
+nota10
+Sursa: https://www.pbinfo.ro/probleme/4809/nota10
+
+Dorel este elev în clasa a X-a G și a luat nota 4 în testul de la informatică. Acestuia i-a fost oferită șansa de a-și mări punctajul dacă rezolvă o problemă. Însă nu reușește să o rezolve și apelează la voi să îl ajutați.
+
+Cerința
+
+Se dă un număr n și apoi un șir cu n elemente, numere naturale nenule. Să se determine câte dintre numerele din șir sunt strict mai mari decât precedentele lor.
+
+Date de intrare
+
+Programul citește de la tastatură numărul n, iar apoi n numere naturale, reprezentând elementele șirului.
+
+Date de ieșire
+
+Programul va afișa pe ecran numărul C, reprezentând valoarea cerută.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 1.000.000
+- cele n numere citite vor fi mai mici decât 1.000.000.000
+- se recomandă citirea rapidă de la consolă (ios::sync_with_stdio(false); cin.tie(0);)
+
+Exemplu
+
+**Intrare**
+
+7
+1 2 6 7 7 2 10
+
+**Ieșire**
+
+5
+
+### Explicație
+
+S-au citit 7 numere, cele care sunt strict mai mari decât cele anterioare sunt 1, 2, 6, 7, 10

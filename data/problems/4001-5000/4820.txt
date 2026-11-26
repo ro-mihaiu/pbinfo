@@ -1,0 +1,72 @@
+#4820
+Bomboane6
+Sursa: https://www.pbinfo.ro/probleme/4820/bomboane6
+
+RAU-Gigel își sărbătorește ziua de naștere și dorește să împartă bomboane colegilor săi de la cercul de informatică. Sărbătoritul speră că are un număr suficient de bomboane și ar vrea ca fiecare coleg să primească cel puțin una.
+
+RAU-Gigel nu își amintește exact câți colegi are, dar își amintește un detaliu important: la lecția despre divizibilitate, profesorul le-a cerut elevilor să se așeze într-un șir indian, pe poziții numerotate de la 1 în sus, respectând regula ca toți elevii să ocupe poziții **coprime cu Q**. RAU-Gigel, fiind ultimul în șir, a primit (ce surpriză!) un număr de ordine egal cu numărul său norocos.
+
+Cerința
+
+Date fiind numerele Q reprezentând constanta din enunț, N numărul norocos al lui RAU-Gigel, și M numărul total de bomboane disponibile, să se răspundă la întrebările:
+
+1\. Câți elevi sunt la cercul de informatică? Știm că RAU-Gigel și colegii lui nu lipsesc niciodată de la întâlnirile cercului.
+
+2\. Îi ajung lui RAU-Gigel bomboanele pentru toți colegii? Dacă da, să se afle în cate moduri poate împărți **toate** cele M bomboane colegilor săi, astfel încât fiecare coleg să primească cel puțin o bomboană. RAU-Gigel, deși tare pofticios, nu gustă nici măcar una.
+
+Date de intrare
+
+Fișierul de intrare bomboane.in va conține pe prima linie trei numere naturale nenule Q, N și M, separate prin câte un spațiu.
+
+Date de ieșire
+
+Fișierul de ieșire bomboane.out va conține pe prima linie numărul de elevi de la cercul de informatică, iar pe a doua linie numărul de moduri în care RAU-Gigel poate împărți bomboanele colegilor săi, modulo 10^9+7, dacă are suficiente bomboane pentru colegi, respectiv NU, în caz contrar.
+
+Restricții și precizări
+
+- 2 ≤ Q, N, M ≤ 106
+- Pentru teste în valoare de 10 de puncte: Q = 2, N ≤ 100, M este egal cu numărul de colegi ai lui RAU-Gigel
+- Pentru alte teste în valoare de 10 de puncte: Q = 30, N ≤ 100, M este egal cu numărul de colegi ai lui RAU-Gigel
+- Pentru alte teste în valoare de 10 de puncte: Q, N fără restricții suplimentare, M este egal cu numărul de colegi ai lui RAU-Gigel
+- Pentru alte teste în valoare de 20 de puncte: Q≤30, N fără restricții suplimentare, M este cu 1 mai mare decât numărul de colegi ai lui RAU-Gigel
+- Pentru alte teste în valoare de 10 de puncte: Q≤30, M este mai mic decât numărul de colegi ai lui RAU-Gigel
+- Pentru restul testelor se păstrează restricțiile inițiale din enunț
+- Se garantează că N este coprim cu Q
+
+Exemplu
+
+bomboane.in
+
+30 23 7
+
+bomboane.out
+
+7
+6
+
+### Explicație
+
+Avem Q=30, N=23, M=7. Numărul norocos al lui RAU-Gigel este 23, deci la exercițiul propus la cerc, elevii au stat în șir indian pe pozițiile: 1,7,11,13,17,19,23. Sunt, așadar, 7 elevi.
+
+Cele 7 bomboane pot fi împărțite în 6 moduri astfel:
+
+\- primul coleg poate primi 2 bomboane, iar restul colegilor câte una;
+
+\- cel de-al doilea coleg poate primi 2 bomboane, iar restul colegilor câte una;
+
+\- șamd.
+
+Exemplu
+
+bomboane.in
+
+30 23 5
+
+bomboane.out
+
+7
+NU
+
+### Explicație
+
+Sunt 7 elevi la cercul de informatică, iar cele 5 bomboane nu sunt suficiente pentru colegii lui RAU-Gigel.

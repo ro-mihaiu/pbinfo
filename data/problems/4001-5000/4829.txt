@@ -1,0 +1,91 @@
+#4829
+cartonase4
+Sursa: https://www.pbinfo.ro/probleme/4829/cartonase4
+
+Maria inventează mereu câte ceva și îl provoacă la joacă pe fratele ei mai mic Petru. De data aceasta alege N cartonașe, pe care sunt înscrise valorile naturale distincte de la 1 la N (fiecare astfel de număr apare pe câte un singur cartonaș), le amestecă și le așează unul lângă altul într-un șir. După amestecare numerotează cartonașele cu valori de la 1 la N, după ordinea așezării în șir. Apoi îi formulează diverse cerințe lui Petru. Petru a învățat să programeze și acum dorește să scrie un program pentru a-i răspunde Mariei repede și fără să se mai gândească mult.
+
+Cerința
+
+Maria formulează lui Petru cerințe de următoarele tipuri:
+
+1) Îți spun un număr poz și trebuie să determini cartonașul numerotat cu cea mai mare valoare r astfel încât primele r cartonașe din șir au înscrisă o valoare strict mai mică decât cea scrisă pe cartonașul numerotat cu poz. Dacă nu există niciun astfel de cartonaș, pentru r se stabilește valoarea 0.
+
+2) Determină toate valorile p cu proprietatea că pe primele p cartonașe se află înscrise toate numerele naturale de la 1 la p.
+
+3) Determină toate valorile p cu proprietatea că pe primele p cartonașe se află înscrise exact p-1 dintre numerele naturale de la 1 la p.
+
+Date de intrare
+
+Fișierul de intrare cartonase.in conține:
+
+- pe prima linie numărul C, reprezentând cerința de rezolvat (1, 2 sau 3);
+- pe linia a doua se află numărul N, cu semnificația din enunț;
+- pe linia a treia, se află, separate prin câte un spațiu, N valori naturale distincte, cuprinse între 1 și N, reprezentând valorile înscrise pe cartonașe în ordinea din șir, după amestecare;
+- dacă C = 1, pe linia a patra se află valoarea poz.
+
+Numerele aflate pe aceeași linie sunt separate prin câte un spațiu. spații.
+
+Date de ieșire
+
+Fișierul de ieșire cartonase.out va conține:
+
+- Dacă C = 1, în fișierul de ieșire se va afla valoarea r cu semnificația din enunț.
+- Dacă C = 2 sau C = 3, în fișierul de ieșire se vor afișa, separate prin câte un spațiu, valorile lui p care îndeplinesc condițiile din cerința corespunzătoare, în ordine crescătoare. Se garantează că există cel puțin o astfel de valoare.
+
+Restricții și precizări
+
+- 1 ≤ C ≤ 3
+- 1 ≤ N ≤ 100.000
+- 1 ≤ poz ≤ N
+- Pentru 23 de puncte, C = 1
+- Pentru 41 de puncte, C = 2
+- Pentru 36 de puncte, C = 3
+
+Exemplu
+
+cartonase.in
+
+1
+6
+3 1 6 2 4 5
+5
+
+cartonase.out
+
+2
+
+### Explicație
+
+C = 1, poz = 5, pe cartonașul 5 se află valoarea 4. Primele două cartonașe din șirul dat au înscrise valori mai mici decât 4 iar al treilea are o valoare mai mare.
+
+Exemplu
+
+cartonase.in
+
+2
+6
+3 1 2 6 4 5
+
+cartonase.out
+
+3 6
+
+### Explicație
+
+C = 2, pe primele 3 cartonașe se află valorile 1, 2, 3 și, de asemenea, pe primele 6 cartonașe se află valorile 1, 2, 3, 4, 5, 6.
+
+Exemplu
+
+cartonase.in
+
+3
+6
+3 1 2 6 5 4
+
+cartonase.out
+
+1 2 4 5
+
+### Explicație
+
+C = 3, pe primul cartonaș (p = 1) se află p - 1 = 0 valori conform cerinței. Pe primele p = 2 cartonașe se află p - 1 = 1 valori conform cerinței (1). Pe primele p = 3 cartonașe se află 3 valori conform cerinței (1, 2, 3). Pe primele p = 4 cartonașe se află p - 1 = 3 valori conform cerinței (1, 2, 3). Pe primele p = 5 cartonașe se află p - 1 = 4 valori conform cerinței (1, 2, 3, 5). Pe primele p = 6 cartonașe se află 6 valori conform cerinței (1, 2, 3, 4, 5, 6).

@@ -128,6 +128,37 @@ a:hover { color: var(--accent-hover); }
 .nav-links a.active { color: var(--text-primary); background: var(--accent-soft); }
 
 .nav-actions { margin-left: auto; display: flex; align-items: center; gap: 12px; }
+.language-picker { position: relative; flex: 0 0 auto; }
+.language-picker summary {
+  cursor: pointer;
+  padding: 7px 9px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-tertiary);
+  font-size: 13px;
+}
+.language-picker ul {
+  position: absolute;
+  z-index: 2;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 130px;
+  padding: 4px;
+  margin: 0;
+  list-style: none;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+.language-picker a { display: flex; align-items: center; gap: 8px; padding: 6px 10px; color: var(--text-primary); }
+.language-flag { display: inline-block; flex: none; width: 20px; height: 10px; vertical-align: 1px; }
+.language-picker a:hover, .language-picker a[aria-current] { background: var(--bg-hover); }
+@media (max-width: 420px) {
+  .nav-inner { padding-inline: 10px; gap: 8px; }
+  .nav-actions { gap: 6px; }
+  .brand { gap: 6px; }
+  .nav-actions .social-links { display: none; }
+}
 
 .theme-toggle {
   background: var(--bg-tertiary);

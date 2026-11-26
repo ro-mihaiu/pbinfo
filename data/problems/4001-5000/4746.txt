@@ -1,0 +1,40 @@
+#4746
+Arme4
+Sursa: https://www.pbinfo.ro/probleme/4746/arme4
+
+Cerința
+
+Gigel joacă jocul lui preferat, cu împușcaturi. El are n arme, fiecare având o putere cunoscută. De asemenea, a aflat de la prietenul său, Vasile, o magie: se aleg două arme și puterea uneia se înlocuiește cu puterea celeilalte. Gigel poate aplica această magie de cel mult p ori, dar o armă poate fi folosită la o singură magie.
+
+Determinați suma maximă a puterilor armelor lui Gigel după ce acesta aplică magia de cel mult p ori.
+
+Date de intrare
+
+Programul citește de la tastatură numărul n, iar apoi puterile celor n arme, apoi numarul p.
+
+Date de ieșire
+
+Programul va afișa pe ecran numărul S, reprezentând suma maximă determinată.
+
+Restricții și precizări
+
+- 1 ≤ n, p ≤ 100.000
+- puterile armelor sunt naturale, mai mici decât 1.000.000
+
+Exemplu
+
+**Intrare**
+
+5
+5 2 3 1 1
+2
+
+**Ieșire**
+
+18
+
+### Explicație
+
+Gigel aplică prima magie armelor cu puterile 5 și 1, iar șirul puterilor devine 5 2 3 1 5. Apoi aplică magia armelor cu puterile 3 și 1, iar șirul puterilor este 5 2 3 3 5.
+
+Suma puterilor devine 5 + 2 + 3 + 3 + 5 = 18

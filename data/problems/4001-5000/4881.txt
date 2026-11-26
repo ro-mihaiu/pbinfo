@@ -1,0 +1,18 @@
+#4881
+Plus1
+Sursa: https://www.pbinfo.ro/probleme/4881/plus1
+
+Cerința
+
+Subprogramul Plus are un singur parametru, n, prin care primește un număr natural (n∊[10,109)). Subprogramul înlocuiește în n fiecare secvență 25 cu câte o secvență 26 și furnizează, prin același parametru, numărul obținut. Dacă nu se înlocuiește nicio secvență, subprogramul furnizează numărul nemodificat.\
+\
+Scrieți definiția completă a subprogramului C/C++.\
+\
+Exemplu\
+\
+Dacă n=202535250, după apel n=202635260.\
+\
+Important\
+\
+Soluția propusă va conține definiția subprogramului cerut. Prezența în soluție a altor instrucțiuni poate duce erori de compilare sau de execuție care vor avea ca efect depunctarea soluției.\
+\

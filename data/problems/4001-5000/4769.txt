@@ -1,0 +1,46 @@
+#4769
+zaruri
+Sursa: https://www.pbinfo.ro/probleme/4769/zaruri
+
+Să considerăm n zaruri, numerotate de la 1 la n. La aruncarea celor n zaruri obţinem o succesiune de n numere naturale cuprinse între 1 și 6. Suma unei aruncări va fi egală cu suma numerelor obţinute. Câte aruncări de n zaruri au suma cuprinsă între st și dr?
+
+Cerința
+
+Scrieți un program ce calculează răspunsul pentru mai multe întrebări de forma celei de mai sus. Pentru că numărul de aruncări poate fi destul de mare, calculați răspunsul modulo 1.000.003.
+
+Date de intrare
+
+Fișierul de intrare zaruri.in conţine pe prima linie numărul de întrebări q. Pe următoarele q linii se află parametrii ce definesc întrebările: triplete de numere naturale n st dr separate prin câte un spațiu.
+
+Date de ieșire
+
+Fișierul de ieșire zaruri.out va conţine q linii. Pe cea de a i-a linie va fi scris răspunsul la cea de a i-a întrebare din fişierul de intrare, modulo 1.000.003.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 3000
+- 1 ≤ q ≤ 100.000
+- 1 ≤ st ≤ dr ≤ 100.000
+- Pentru 21 de puncte, 1 ≤ valoarea maximă pentru n < 10, 1 ≤ q < 10
+- Pentru 42 de puncte, 10 ≤ valoarea maximă pentru n ≤ 600, 20 ≤ q ≤ 50000
+- Pentru 27 de puncte, fără restricții suplimentare
+- 10 puncte se acordă pentru testul din enunț
+
+Exemplu
+
+zaruri.in
+
+3
+2 4 5
+100 123 321
+7 20 30
+
+zaruri.out
+
+7
+97790
+215259
+
+### Explicație
+
+Pentru prima întrebare există două zaruri, numerotate 1 şi 2. Se cere să determinăm numărul de aruncări pentru care suma este cuprinsă între 4 şi 5 (deci suma aruncărilor poate fi 4 sau 5). Răspunsul pentru această întrebare este 7, cele 7 aruncări fiind: 1+3, 1+4, 2+2, 2+3, 3+1, 3+2, 4+1.

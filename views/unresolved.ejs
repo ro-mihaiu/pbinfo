@@ -3,21 +3,20 @@
 
 <main class="page unresolved-page">
   <header class="page-head unresolved-head">
-    <span class="unresolved-kicker">Arhivă · verificare conținut</span>
     <h1 class="page-title"><%= title %></h1>
-    <p class="page-sub">ID-urile problemelor care nu au încă enunțul și/sau soluția în arhivă. În fiecare clasă, dificultatea este ordonată de la ușor la concurs, iar ID-urile sunt în ordine crescătoare.</p>
+    <p class="page-sub"><%= t('unresolved_intro') %></p>
     <form class="unresolved-search" method="get" action="/n" role="search">
-      <label class="sr-only" for="unresolvedSearch">Caută după ID-ul problemei</label>
-      <input id="unresolvedSearch" type="search" name="q" value="<%= query %>" placeholder="Caută un ID, de exemplu 4798" autocomplete="off">
-      <button class="btn btn-primary btn-sm" type="submit">Caută</button>
-      <% if (query) { %><a class="btn btn-ghost btn-sm" href="/n">Resetează</a><% } %>
+      <label class="sr-only" for="unresolvedSearch"><%= t('unresolved_search') %></label>
+      <input id="unresolvedSearch" type="search" name="q" value="<%= query %>" placeholder="<%= t('unresolved_search') %>" autocomplete="off">
+      <button class="btn btn-primary btn-sm" type="submit"><%= t('search') %></button>
+      <% if (query) { %><a class="btn btn-ghost btn-sm" href="/n"><%= t('reset') %></a><% } %>
     </form>
   </header>
 
   <section class="unresolved-summary" aria-label="Rezumat">
     <div class="unresolved-summary-card">
       <strong><%= total %></strong>
-      <span>probleme incomplete</span>
+      <span><%= t('unresolved_title') %></span>
     </div>
     <% categoryTotals.forEach(function(category) { %>
       <div class="unresolved-summary-card">

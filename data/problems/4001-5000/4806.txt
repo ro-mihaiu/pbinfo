@@ -1,0 +1,68 @@
+#4806
+EscapeLight
+Sursa: https://www.pbinfo.ro/probleme/4806/escapelight
+
+Cerința
+
+Labirintul EscapeLight este reprezentat printr-o matrice de dimensiuni N x M, unde fiecare celulă reprezintă o cameră. Fiecare cameră poate fi de unul dintre următoarele tipuri:
+
+- Tipul 0: cameră cu bec stins
+- Tipul 1: cameră cu bec aprins
+- Tipul 2: cameră fără bec
+- Tipul 3: cameră echipată cu un întrerupător
+
+Camerele de tip 3 sunt conectate la becuri din alte camere de tip 0 sau 1. Când cineva intră într-o cameră cu întrerupător, poate alege să apese sau nu întrerupătorul. Apăsarea întrerupătorului inversează starea tuturor becurilor conectate (becurile aprinse se sting, iar cele stinse se aprind).
+
+Andrei pornește dintr-o cameră aflată la coordonatele (x_start, y_start) și trebuie să ajungă la o cameră situată la coordonatele (x_stop, y_stop) deplasându-se exclusiv prin camere luminoase (adică, camerele în care becul este aprins). Scopul este de a găsi drumul de distanță minimă, măsurat în numărul de camere parcurse, ținând cont de posibilitatea de a utiliza întrerupătoarele.
+
+Date de intrare
+
+Fișierul de intrare escapelight.in conține prima linie două numere N și M, numărul de linii și coloane ale labirintului.
+
+Următoarele N linii conțin câte M numere separate prin spațiu, reprezentând tipul fiecărei camere: 0 — cameră cu bec stins, 1 — cameră cu bec aprins, 2 — cameră fără bec, 3 — cameră cu întrerupător.
+
+Pe următoarea linie, patru numere întregi x_start, y_start, x_stop și y_stop, reprezentând coordonatele de start și de final.
+
+Următoarea linie conține două numere K și P, reprezentând numărul de conexiuni și numărul de camere cu întrerupătoare.
+
+Fiecare din următoarele K linii conține câte patru numere x_switch, y_switch, x_light și y_light, indicând că întrerupătorul din camera (x_switch, y_switch) este conectat la becul din camera (x_light, y_light).
+
+Date de ieșire
+
+Fișierul de ieșire escapelight.out va conține pe prima linie un număr — numărul minim de camere parcurse pentru a ajunge de la poziția de start la poziția de destinație.
+
+Restricții și precizări
+
+- 1 ≤ N, M ≤ 150
+- 0 ≤ K ≤ 100.000
+- 0 ≤ P ≤ 10
+- 1 ≤ x_start, x_stop ≤ N, 1 ≤ y_start, y_stop ≤ M
+- Pentru fiecare conexiune: 1 ≤ x_switch, x_light ≤ N, 1 ≤ y_switch, y_light ≤ M
+- Camerele de tip 3 sunt considerate mereu luminoase.
+- Se garantează existența unei soluții.
+- Pentru 10 puncte, K = 0.
+- Pentru 10 puncte, K = 1.
+- Pentru 10 puncte, P = 1, K > 1.
+- Pentru 15 puncte, P = 2.
+- Pentru restul testelor se respectă restricțiile generale.
+
+Exemplu
+
+escapelight.in
+
+3 3
+1 0 2
+3 1 0
+2 0 1
+1 1 3 3
+2 1
+2 1 1 2
+2 1 3 2
+
+escapelight.out
+
+5
+
+### Explicație
+
+În exemplul de mai sus, Andrei trebuie să utilizeze întrerupătorul din camera (2,1) pentru a aprinde becurile din camerele (1,2) și (3,2), permițându-i să găsească un drum minim de lungime 5.

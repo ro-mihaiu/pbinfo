@@ -1,0 +1,114 @@
+#4833
+conturi1
+Sursa: https://www.pbinfo.ro/probleme/4833/conturi1
+
+Alina, managerul unui lanț de magazine, este responsabilă de gestiunea tranzacțiilor bancare din cadrul acestora. Ea lucrează cu conturi bancare și cunoaște sumele de bani (soldul) existente în fiecare dintre acestea. După ce a ales banca cu care va colabora, stabilește următoarele reguli:
+
+- tranzacțiile trebuie efectuate în ordinea în care apar;
+- trebuie să deschidă cât mai puține conturi;
+- fiecărui cont nou deschis i se asociază un cod unic egal cu numărul conturilor care au fost deschise de Alina până atunci;
+- la o tranzacție de **depunere** suma trebuie depusă în întregime într-un singur cont; contul se alege astfel încât această sumă să fie strict mai mare decât ultima sumă depusă în acest cont. Dacă există mai multe astfel de conturi se alege cel pentru care ultima sumă depusă este maximă, iar dacă există mai multe astfel de conturi se alege cel care are codul asociat minim. Dacă în niciunul dintre conturile existente nu poate fi depusă suma conform precizărilor, se deschide un nou cont și se depune suma în acesta.
+- la o tranzacție de **retragere** suma necesară se poate obține din unul sau mai multe conturi. Se alege pentru retragere contul care are soldul cel mai mic, iar dacă aceasta este mai mare decât suma necesară se actualizează soldul (prin scăderea din acesta a sumei necesare), iar procesul se încheie. Dacă soldul este insuficient, se actualizează suma necesară (prin scăderea din aceasta a soldului), iar contul respectiv se închide și procesul se reia cu alegerea unui alt cont adecvat. Dacă există mai multe conturi cu același sold minim se alege pentru retragere cel în care ultima sumă depusă este maximă; dacă sunt mai multe astfel de conturi se alege cel care are codul asociat maxim.
+
+Se cunosc N, numărul tranzacțiilor și N numere întregi nenule a[1], a[2], …, a[N], reprezentând, în această ordine, sumele de tranzacționat (un număr pozitiv indică o sumă care urmează a fi depusă, iar un număr negativ reprezintă o sumă care urmează a fi retrasă).
+
+Cerința
+
+După procesarea celor N tranzacții, ajutați-o pe Alina să determine:
+
+1) numărul de conturi rămase active.
+
+2) soldul maxim care se găsește într-un cont dintre cele rămase active.
+
+Date de intrare
+
+Fișierul de intrare conturi.in conține pe prima linie două numere naturale, C și N, unde C este numărul cerinței care trebuie rezolvată (care poate fi doar 1 sau 2), iar N are semnificația din enunț. Pe a doua linie, separate prin câte un spațiu se află cele N valori întregi nenule a[1], a[2], …, a[N] cu semnificația din enunț.
+
+Date de ieșire
+
+Fișierul de ieșire conturi.out conține numărul determinat pentru cerința C.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 100.000
+- -1018≤ a[i] ≤ 1018, pentru oricare 1 ≤ i ≤ N
+- a[i] ≠ 0, pentru oricare 1 ≤ i ≤ N
+- sumele care trebuie retrase nu depășesc totalul soldurilor din conturile active la momentul retragerii
+- sunt cel mult 10 retrageri
+- Pentru 39 de puncte, C=1
+- Pentru 61 de puncte, C=2
+
+Exemplu
+
+conturi.in
+
+1 5
+10 15 5 10 20
+
+conturi.out
+
+2
+
+### Explicație
+
+În contul cu codul 1 se depun sumele: 10, 15, 20, deci acesta are soldul 10 + 15 + 20 = 45, iar în contul cu codul 2 se depun sumele 5, 10, deci acesta are soldul 5 + 10 = 15. Sunt 2 conturi active.
+
+Exemplu
+
+conturi.in
+
+2 5
+10 15 5 10 20
+
+conturi.out
+
+45
+
+### Explicație
+
+Tranzacțiile sunt conform descrierii de mai sus, iar soldul maxim este 45, în contul 1.
+
+Exemplu
+
+conturi.in
+
+1 7
+10 15 5 10 20 -15 35
+
+conturi.out
+
+1
+
+### Explicație
+
+Până în momentul tranzacției de retragere, se procedează ca la exemplul 1. Suma 15 se retrage din contul al doilea care astfel se închide (15 - 15 = 0), iar în singurul cont rămas activ se depune suma 35.
+
+Exemplu
+
+conturi.in
+
+2 7
+10 15 5 10 20 -15 35
+
+conturi.out
+
+80
+
+### Explicație
+
+Se procedează ca la exemplul 3 deci în contul activ soldul devine 45 + 35 = 80.
+
+Exemplu
+
+conturi.in
+
+2 7
+10 15 5 10 20 -45 35
+
+conturi.out
+
+50
+
+### Explicație
+
+Până în momentul tranzacției de retragere, se procedează ca la exemplul 1. Pentru a retrage suma 45 se efectuează o retragere din contul 2 (cu soldul 15) care se închide; suma de retras actualizată (45 - 15 = 30) este extrasă în continuare din contul 1 (cu soldul 45), iar după depunerea următoare (de 35) soldul final al acestuia va fi 50.

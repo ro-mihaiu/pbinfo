@@ -1,0 +1,20 @@
+#4846
+Consecutiv
+Sursa: https://www.pbinfo.ro/probleme/4846/consecutiv
+
+Cerința
+
+Subprogramul consecutiv are doi parametri:
+
+- n, prin care primește un număr natural (n∈[1,104]);
+- f , prin care furnizează un număr natural cu proprietatea: (f-1)∙f < n ≤ f∙(f+1).
+
+Scrieți definiția completă a subprogramului C++.
+
+Exemplu
+
+Dacă n=19 atunci f=4 (3∙4 < 19 ≤ 4∙5).
+
+Important
+
+Soluția propusă va conține definiția subprogramului cerut. Prezența în soluție a altor instrucțiuni poate duce erori de compilare sau de execuție care vor avea ca efect depunctarea soluției.

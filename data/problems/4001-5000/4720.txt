@@ -1,0 +1,53 @@
+#4720
+MaxDistincte
+Sursa: https://www.pbinfo.ro/probleme/4720/maxdistincte
+
+Fie un șir de n numere naturale și un număr natural k.
+
+Cerința
+
+Să se determine numărul maxim de numere distincte care pot rămâne după eliminarea unei secvențe de k elemente din șir.
+
+Date de intrare
+
+Programul citește de la tastatură numerele n și k, iar apoi șirul de n numere naturale, separate prin spații.
+
+Date de ieșire
+
+Programul va afișa pe ecran numărul maxim de numere distincte care pot rămâne după eliminarea unei secvențe de k elemente din șir.
+
+Restricții și precizări
+
+- 3 ≤ n ≤ 100.000
+- 0 ≤ k ≤ n
+- cele n numere din șir sunt naturale și mai mici decât 100.000
+
+Exemplu
+
+**Intrare**
+
+8 2
+2 2 4 4 2 1 1 1
+
+**Ieșire**
+
+3
+
+### Explicație
+
+Eliminăm secvența de două elemente 2 4 și rămâne șirul 2 4 2 1 1 1, care are 3 numere distincte.
+
+Exemplu
+
+**Intrare**
+
+4 0
+3 1 1 1
+
+**Ieșire**
+
+2
+
+### Explicație
+
+k=0, deci nu se elimină nimic, iar șirul inițial are 2 numere distincte.

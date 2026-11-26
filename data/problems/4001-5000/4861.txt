@@ -1,0 +1,47 @@
+#4861
+pal3
+Sursa: https://www.pbinfo.ro/probleme/4861/pal3
+
+Cerința
+
+Se citește de la tastatură un număr natural n de 3 cifre. Să se verifice dacă numărul citit este un palindrom.
+
+Date de intrare
+
+Programul citește de la tastatură numărul n.
+
+Date de ieșire
+
+Programul va afișa pe ecran numărul DA,dacă n este palindrom. În caz contrar, va afișa mesajul NU.
+
+Restricții și precizări
+
+- 100 ≤ n ≤ 999
+
+Exemplu
+
+**Intrare**
+
+123
+
+**Ieșire**
+
+NU
+
+### Explicație
+
+Prima și ultima cifră a lui n sunt distincte.
+
+Exemplu
+
+**Intrare**
+
+535
+
+**Ieșire**
+
+DA
+
+### Explicație
+
+Prima și ultima cifră a lui n sunt identice.

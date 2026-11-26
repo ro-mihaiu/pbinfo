@@ -1,0 +1,48 @@
+#4874
+anagrameXI
+Sursa: https://www.pbinfo.ro/probleme/4874/anagramexi
+
+Cerința
+
+Se citește de la tastatură un cuvânt s format din cel mult 10 litere mici distincte. Să se genereze în ordine alfabetică și să se afișeze toate anagramele cuvântului s în care literele alăturate nu au fost alăturate în cuvântul s.
+
+Date de intrare
+
+Programul citește de la tastatură cuvântul s.
+
+Date de ieșire
+
+Programul va afișa pe ecran pe rânduri separate anagramele cuvântului citit în care literele alăturate nu au fost alăturate în cuvântul citit.
+
+În cazul în care nu se pot genera anagramele cerute, se va afișa pe ecran mesajul imposibil.
+
+Restricții și precizări
+
+- cuvântul s are cel mult 10 caractere și este format din litere mici distincte
+
+Exemplu
+
+**Intrare**
+
+doris
+
+**Ieșire**
+
+diosr
+drsoi
+idrso
+iosdr
+iosrd
+oidrs
+oidsr
+osrdi
+rdios
+rdsoi
+rsdio
+rsoid
+soidr
+srdio
+
+### Explicație
+
+Anagramele sunt afișate în ordine lexicografică, iar literele d și o, o și r, r și i și respectiv i și s nu apar alăturate deaorece au fost alăturate în sirul doris.

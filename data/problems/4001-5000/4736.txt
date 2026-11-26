@@ -1,0 +1,37 @@
+#4736
+SCLM\_Pare
+Sursa: https://www.pbinfo.ro/probleme/4736/sclm-pare
+
+Cerința
+
+Se dă un șir cu n elemente, numere naturale. Determinați un cel mai lung subșir crescător (nu neapărat strict crescător) al șirului, format numai din elemente pare.
+
+Date de intrare
+
+Programul citește de la tastatură numărul n, apoi n numere naturale separate prin spaţii, reprezentând elementele șirului.
+
+Date de ieșire
+
+Programul va afișa pe ecran numărul L, reprezentând lungimea maximă a unui subșir crescător. Pe linia următoare va afișa L numere cu valori între 1 și n, ordonate crescător, reprezentând indicii elementelor din șirul dat care dau subșirul crescător de lungime maximă cerut.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 1000
+- elementele șirului vor fi cel mult egale cu 1.000.000
+- orice șir de indici care duce la subșir crescător de lungime maximă este corect
+
+Exemplu
+
+**Intrare**
+
+10
+5 10 7 4 5 8 9 8 10 2
+
+**Ieșire**
+
+4
+4 6 8 9
+
+Explicație
+
+Elementele șirului care corespund acestor indici sunt: 4 8 8 10.

@@ -1,0 +1,29 @@
+#4843
+Semioglindit
+Sursa: https://www.pbinfo.ro/probleme/4843/semioglindit
+
+Cerința
+
+Un cuvânt semioglindit se obţine dintr-un cuvânt cu 2·k (k∈[1,100]) litere, prin interschimbarea în acesta a secvenței formate din primele k litere cu secvența formată din ultimele k litere.
+
+**Exemplu:** din cuvântul platim se obţine cuvântul semioglindit timpla.
+
+Într-un text de cel mult 200 de caractere, cuvintele sunt formate din litere mici ale alfabetului englez și sunt separate prin câte un spaţiu. Scrieţi un program care citeşte de la tastatură un text de tipul precizat, pe care îl transformă în memorie, prin înlocuirea fiecărui cuvânt cu număr par de litere, cu cel semioglindit obținut din acesta. Programul afișează pe ecran textul obținut, sau mesajul nu exista, dacă toate cuvintele au număr impar de litere.
+
+Date de intrare
+
+Programul citește de la tastatură un text de tipul menționat mai sus.
+
+Date de ieșire
+
+Programul afișează pe ecran textul obținut, sau mesajul nu exista, dacă toate cuvintele au număr impar de litere.
+
+Exemplu
+
+**Intrare**
+
+am facut fotografii unei flori mari
+
+**Ieșire**
+
+ma facut rafiifotog eiun flori rima

@@ -1,0 +1,110 @@
+#4793
+bitsir
+Sursa: https://www.pbinfo.ro/probleme/4793/bitsir
+
+Considerăm numerele naturale N, X, Y, M[1], M[2], ..., M[N]. Șirul de numere naturale A[1], A[2], ..., A[N] este numit **bun** dacă următoarele condiții sunt satisfăcute simultan:
+
+- A[1] OR A[2] OR ... OR A[N] = X, unde OR reprezintă operația **sau pe biți**.
+- A[1] XOR A[2] XOR ... XOR A[N] = Y, unde XOR reprezintă operația **sau exclusiv pe biți**.
+- A[i] AND M[i] = M[i], pentru 1 ≤ i ≤ N, unde AND reprezintă operația **și pe biți**.
+
+Se dau N, X, Y și M[1], M[2], ..., M[N], cu semnificația din enunț.
+
+Cerința
+
+Să se determine dacă există șiruri bune, respectiv să se determine numărul de șiruri bune, modulo 1.000.000.007.
+
+Date de intrare
+
+Fișierul de intrare bitsir.in conține pe prima linie trei numere naturale N, X și Y, și pe a doua linie numerele naturale M[1], M[2], ..., M[N]. Numerele aflate pe aceeași linie a fișierului sunt separate prin câte un spațiu.
+
+Date de ieșire
+
+Fișierul de ieșire bitsir.out conține **exact** două linii. Fișierul conține pe prima linie mesajul DA, dacă există șiruri bune, sau mesajul NU în caz contrar, iar pe a doua linie numărul de șiruri bune determinat. Valoarea de pe a doua linie a fișierului trebuie să fie un număr natural cuprins în intervalul [0, 1.000.000.006].
+
+Restricții și precizări
+
+- 1 ≤ N ≤ 100.000
+- 0 ≤ X, Y ≤ 230- 1
+- 0 ≤ M[i] ≤ X
+- Dacă prima linie a fișierului de ieșire este corectă, dar a doua linie a fișierului de ieșire nu este corectă, se acordă 50% din punctajul corespunzător testului respectiv.
+- **Dacă prima linie a fișierului de ieșire nu este corectă**, se acordă 0% din punctajul corespunzător testului respectiv.
+- Operația OR este reprezentată în C/C++ prin |. Spre exemplu, 12 OR 10 = 14.
+- Operația XOR este reprezentată în în C/C++ prin ^. Spre exemplu, 12 XOR 10 = 6.
+- Operația AND este reprezentată în C/C++ prin &. Spre exemplu, 12 AND 10 = 8.
+- Pentru 9 puncte, X = Y = M[1] = M[2] = ... = M[N] = 0
+- Pentru 9 puncte, X = 1, Y = M[1] = M[2] = ... = M[N] = 0
+- Pentru 9 puncte, N * X ≤ 20
+- Pentru 18 puncte, X = 0
+- Pentru 12 puncte, N ≤ 4,  X ≤ 63
+- Pentru 15 puncte, N = 2, X ≤ 223- 1
+- Pentru 12 puncte, 0 ≤ X, Y, M[1], M[2], ..., M[N] ≤ 1
+- Pentru 16 puncte, fără restricții suplimentare.
+
+Exemplu
+
+bitsir.in
+
+3 11 10
+8 2 0
+
+bitsir.out
+
+DA
+12
+
+### Explicație
+
+Șirurile bune sunt:
+
+1\. 8, 3, 1
+
+2\. 8, 11, 9
+
+3\. 9, 2, 1
+
+4\. 9, 3, 0
+
+5\. 9, 10, 9
+
+6\. 9, 11, 8
+
+7\. 10, 3, 3
+
+8\. 10, 11, 11
+
+9\. 11, 2, 3
+
+10\. 11, 3, 2
+
+11\. 11, 10, 11
+
+12\. 11, 11, 10
+
+Exemplu
+
+bitsir.in
+
+3 7 5
+2 3 6
+
+bitsir.out
+
+NU
+0
+
+### Explicație
+
+Nu există șiruri bune.
+
+Exemplu
+
+bitsir.in
+
+10 31 24
+5 17 1 6 0 30 12 15 8 23
+
+bitsir.out
+
+DA
+8388608

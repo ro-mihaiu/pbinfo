@@ -1,0 +1,47 @@
+#4862
+2n
+Sursa: https://www.pbinfo.ro/probleme/4862/2n
+
+Cerința
+
+Se citește de la tastatură un număr natural n de 8 cifre. Să se verifice dacă numărul format din primele 4 cifre ale lui n este egal cu numărul format din ultimele 4 cifre ale lui n.
+
+Date de intrare
+
+Programul citește de la tastatură numărul n.
+
+Date de ieșire
+
+Programul va afișa pe ecran mesajul DA, dacă numărul format din primele 4 cifre ale lui n este egal cu numărul format din ultimele 4 cifre ale lui n. În caz contrar va afișa mesajul NU.
+
+Restricții și precizări
+
+- 10000000 ≤ n ≤ 99999999
+
+Exemplu
+
+**Intrare**
+
+12344321
+
+**Ieșire**
+
+NU
+
+### Explicație
+
+Cele două numere formate din n, 1234 și 4321, sunt distincte.
+
+Exemplu
+
+**Intrare**
+
+81278127
+
+**Ieșire**
+
+DA
+
+### Explicație
+
+Cele două numere formate din n, 8127 și 8127, sunt egale.

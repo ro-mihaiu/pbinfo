@@ -1,0 +1,44 @@
+#4877
+numereXI
+Sursa: https://www.pbinfo.ro/probleme/4877/numerexi
+
+Cerința
+
+Se citește un număr natural n având cifrele diferite două câte două. Afișați în ordine crescătoare numerele care se pot obține din cifrele lui n care au tot atâtea cifre ca numărul n și care nu au două cifre prime alăturate.
+
+Date de intrare
+
+Programul citește de la tastatură numerul n.
+
+Date de ieșire
+
+Programul va afișa pe ecran numerele cerute, câte unul pe fiecare rând.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 10.000.000
+- n are cifrele distincte
+
+Exemplu
+
+**Intrare**
+
+234
+
+**Ieșire**
+
+242
+243
+244
+342
+343
+344
+424
+434
+442
+443
+444
+
+**Explicație**
+
+Cifrele prime sunt 2 și 3 și nu apar alăturate în numerel generate

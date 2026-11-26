@@ -1,0 +1,99 @@
+#4786
+teren1
+Sursa: https://www.pbinfo.ro/probleme/4786/teren1
+
+Lordul John a decis că a venit vremea să însămânțeze terenul său. Terenul a fost împărțit în parcele organizate în N linii, pe fiecare linie fiind câte N parcele pătrate, fiecare cu suprafața de un metru pătrat. Liniile au fost numerotate de sus în jos de la 1 la N, iar coloanele de la stânga la dreapta de la 1 la N. Fiind un aviator pasionat, a folosit avionul său pentru a survola terenul în vederea însămânțării. Când se află în zbor deasupra câte unei parcele, aruncă în aceasta o singură sămânță. Lordul realizează M zboruri deasupra terenului, iar în fiecare astfel de zbor se deplasează în câte o singură direcție, paralelă cu laturile sau cu diagonalele terenului. Fiecare zbor i (cu 1 ≤ i ≤ M) este definit printr-un set de patru valori, LSiCSiLFiCFi, unde (LSi, CSi) sunt coordonatele (linia și coloana) primei parcele în care a aruncat o sămânță și (LFi, CFi) sunt coordonatele parcelei în care a aruncat ultima sămânță, în cadrul acestui zbor.
+
+La final, după însămânțare, Lordul John dorește să împrejmuiască cu gard parcelele însămânțate, pentru a le separa de cele rămase neînsămânțate sau de marginea terenului. Se cunosc N, M precum și valorile (LS1, CS1, LF1, CF1), (LS2, CS2, LF2, CF2), …, (LSM, CSM, LFM, CFM) cu semnificația din enunț.
+
+Cerința
+
+1\. Determinați numărul semințelor care sunt aruncate.
+
+2\. Determinați numărul de parcele care sunt însămânțate.
+
+3\. Determinați lungimea gardului care trebuie să separe suprafețele însămânțate de cele neînsămânțate sau de marginea terenului.
+
+Date de intrare
+
+Fișierul de intrare teren.in conține pe prima linie trei numere naturale, C, N și M, unde C este numărul cerinței care trebuie rezolvată (care poate fi doar 1, 2 sau 3), iar N și M au semnificația din enunț. Pe următoarele M linii se află câte patru numere naturale, reprezentând seturile de valori care definesc zborurile, în ordinea realizării lor. Numerele aflate pe aceeași linie a fișierului sunt separate prin câte un spațiu.
+
+Date de ieșire
+
+Fișierul de ieșire teren.out va conține numărul determinat pentru cerința C.
+
+Restricții și precizări
+
+- 1 ≤ N, LS, LF, CS, CF ≤ 1.000.
+- 1 ≤ M ≤ 100.000
+- Pentru 20 de puncte, C = 1, iar avionul se deplasează numai de la stânga la dreapta sau de sus în jos
+- Pentru 15 de puncte, C = 1, iar avionul se poate deplasa în orice direcție
+- Pentru 20 de puncte, C = 2, iar avionul se deplasează numai de la stânga la dreapta sau de sus în jos
+- Pentru 15 de puncte, C = 2, iar avionul se poate deplasa în orice direcție
+- Pentru 30 de puncte, C = 3
+
+Exemplu
+
+teren.in
+
+1 7 6
+2 2 2 4
+1 3 5 3
+1 2 4 5
+3 5 6 2
+5 4 5 1
+7 5 5 7
+
+teren.out
+
+23
+
+### Explicație
+
+Se rezolvă cerința C = 1. Primul zbor este marcat de săgeata roșie; se survolează parcelele de la coordonatele (2, 2), (2, 3) și (2, 4); la acest zbor se aruncă 3 semințe. Al doilea zbor este marcat de săgeata albastru-deschis; la acest zbor se aruncă 5 semințe. În total, în cele 6 zboruri sunt aruncate 3 + 5 + 4 + 4 + 4 + 3 = 23 de semințe.
+
+
+
+Exemplu
+
+teren.in
+
+2 7 6
+2 2 2 4
+1 3 5 3
+1 2 4 5
+3 5 6 2
+5 4 5 1
+7 5 5 7
+
+teren.out
+
+19
+
+### Explicație
+
+Se rezolvă cerința C = 2. Parcelele însămânțate sunt colorate cu galben.
+
+
+
+Exemplu
+
+teren.in
+
+3 7 6
+2 2 2 4
+1 3 5 3
+1 2 4 5
+3 5 6 2
+5 4 5 1
+7 5 5 7
+
+teren.out
+
+36
+
+### Explicație
+
+Se rezolvă cerința C = 3. Gardurile folosite sunt marcate cu culoarea roșie, aflate la marginea unor parcele
+
+colorate cu galben.

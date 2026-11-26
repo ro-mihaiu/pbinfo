@@ -1,0 +1,47 @@
+#4750
+GOT\_S9
+Sursa: https://www.pbinfo.ro/probleme/4750/got-s9
+
+Cerința
+
+La cererea telespectatorilor, producătorii filmului Game of Thrones au decis să o învie pe Daenerys și să filmeze sezonul 9! Stați așa! Chiar ați crezut? Ce ușor e păcălită lumea în ziua de azi! Dar nu părăsiți pagina, deoarece vă puteți întâlni cu personajele preferate sub forma unei probleme de programare. E mai bine decât nimic, nu-i așa? Așadar, harta tărâmului Westeros seamănă cu o matrice cu n linii și m coloane în care elementele pot avea următoarele valori:
+
+- 0 – zonă cu apă.
+- 1 – zonă cu uscat, care face parte dintr-o insulă. Două zone cu uscat fac parte din aceeași insulă dacă se învecinează pe linie sau pe coloană.
+- 2 – zonă cu uscat în care se găsește Daenerys (înviată, binențeles).
+- 3 – zonă cu uscat în care se găsește John Snow.
+- 4 – zonă cu uscat în care se găsește un dragon.
+
+Scrieți un program care să determine diferența dintre numărul dragoni care se află pe aceeași insulă cu John Snow și numărul dragoni care se află pe aceeași insulă cu Daenerys.
+
+Date de intrare
+
+Fișierul de intrare got_s9.in conține pe prima linie numerele n m. Următoarele n linii conțin câte m elemente, 0, 1, 2, 3 sau 4, cu semnificația din enunț.
+
+Date de ieșire
+
+Fișierul de ieșire got_s9.out va conține pe prima linie numărul x, reprezentând diferența dintre numărul dragoni care se află pe aceeași insulă cu John Snow și numărul dragoni care se află pe aceeași insulă cu Daenerys.
+
+Restricții și precizări
+
+- 1 ≤ n , m ≤ 100
+- Daenerys și John Snow nu se află pe aceeași insulă
+- valorile egale cu 2 si 3 sunt unice
+
+Exemplu
+
+got_s9.in
+
+4 6
+4 1 3 0 4 0
+0 0 1 0 1 4
+1 4 4 0 0 2
+0 4 0 1 0 4
+
+got_s9.out
+
+1
+
+## Explicație
+
+Pe insula pe care se află John Snow se află 4 dragoni, iar pe cea pe care se află Daenerys sunt 3 dragoni.

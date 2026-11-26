@@ -1,0 +1,67 @@
+#4898
+Stana
+Sursa: https://www.pbinfo.ro/probleme/4898/stana
+
+Cerința
+
+La o stână sunt n ciobani și m oi. Gigel, stăpânul stânii, dorește să distribuie cele m oi în mod egal celor n ciobani.
+
+Dacă acest lucru este posibil, atunci să se determine câte oi primește în grijă fiecare cioban.
+
+Dacă acest lucru nu este posibil, atunci Gigel dorește ca numarul de oi ale oricăror doi ciobani să difere prin cel mult o oaie. În acest caz, să se determine care este numărul maxim și care este numărul minim de oi pe care le primește în grijă fiecare cioban.
+
+În cazul în care numărul de oi este mai mic decât numărul de ciobani, atunci se va afișa mesajul Sunt prea multi ciobani.
+
+Date de intrare
+
+Programul citește două valori n și m.
+
+Date de ieșire
+
+Programul afișează o valoare în primul caz, două valori separate printr-un spațiu în al doilea caz, respectiv mesajul Sunt prea multi ciobani în cel de-al treilea caz.
+
+Restricții și precizări
+
+- 1 ≤ n, m ≤ 1.000.000.000
+
+Exemplu
+
+**Intrare**
+
+5 3
+
+**Ieșire**
+
+Sunt prea multi ciobani
+
+Explicație
+
+Numărul de oi este mai mic decât numărul de ciobani.
+
+Exemplu 2:
+
+**Intrare**
+
+3 5
+
+**Ieșire**
+
+2 1
+
+Explicație
+
+Cele 5 oi nu se pot împărți în mod egal celor 3 ciobani. În acest caz, pentru ca diferența de oi să fie cel mult egală cu 1, doi ciobani vor primi câte două oi, iar unul o oaie.
+
+Exemplu 2:
+
+**Intrare**
+
+4 20
+
+**Ieșire**
+
+5
+
+Explicație
+
+Cele 20 oi se pot împărți în mod egal celor 4 ciobani. În acest caz, fiecare cioban va primi în grijă câte 5 oi.

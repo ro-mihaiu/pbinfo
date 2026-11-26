@@ -1,0 +1,111 @@
+#4777
+sponsor
+Sursa: https://www.pbinfo.ro/probleme/4777/sponsor
+
+A devenit o obișnuință ca orice competiție să aibă un număr de sponsori. De exemplu, JBOI 2022, Balcaniada de Informatică pentru juniori, desfășurată în România, la Botoșani, a beneficiat de sprijinul a șapte importanți sponsori. Lista acestor sponsori este publicată în orice material publicitar care se referă la competiția respectivă. Și competiția noastră OMI 2025 beneficiază de sprijinul a N sponsori. Parcurgând lista de sponsori, am constat că, selectând anumiți sponsori din listă și aranjându-i într-o anumită ordine, primele litere din numele sponsorilor selectați formează cuvintele “OLIMPIADADE”, iar ultimele litere cuvântul “INFORMATICA”.
+
+Cerința
+
+Scrieți un program care să determine numărul de posibilități de selectare din lista de sponsori a acelora care respectă această proprietate, precum și soluția minimă lexicografic.
+
+Date de intrare
+
+Fișierul de intrare sponsor.in are pe prima linie două valori naturale C și N separate printr-un spațiu, reprezentând cerința (1 sau 2) respectiv numărul de sponsori. Pe următoarele N linii se află numele celor N sponsori, câte un sponsor pe linie.
+
+Date de ieșire
+
+Fișierul de ieșire sponsor.out conține pe prima linie, dacă cerința este 1, numărul M de posibilități de a selecta dintre cei N sponsori o listă care să respecte proprietatea descrisă. Dacă cerința este 2, fișierul de ieșire va conține o listă de 11 sponsori care respectă proprietatea descrisă, scrisă corect, câte un sponsor pe linie.
+
+Restricții și precizări
+
+- 11 ≤ N ≤ 50
+- orice nume de sponsor are maximum 30 de caractere și apare o singură dată în listă
+- numele sponsorilor conține numai litere mari și alte caractere imprimabile (cod ASCII din mulțimea [32, 127]); primul și ultimul caracter al numelui sunt litere
+- pentru toate testele există cel puțin o soluție
+- pentru cerința 1 se acordă 49 puncte, iar pentru cerința 2 se acordă 41 puncte; 10 puncte se acordă pentru exemplele din enunț
+
+Exemplu
+
+sponsor.in
+
+1 12
+ICONOGRAF
+OCHELARI PENTRU OCHI
+LAN
+ASTAZI
+MANGO
+PAR
+IMPRESIONISM
+ABBA
+DECAPOTAT
+DEMISEC
+ELBA
+IF
+
+sponsor.out
+
+2
+
+### Explicație
+
+Cerința 1, sunt 12 sponsori, există 2 posibilități de a selecta lista. Cele 2 posibilități sunt:
+
+OCHELARI PENTRU OCHI	OCHELARI PENTRU OCHI
+
+LAN			LAN
+
+ICONOGRAF		IF
+
+MANGO			MANGO
+
+PAR			PAR
+
+IMPRESIONISM		IMPRESIONISM
+
+ABBA			ABBA
+
+DECAPOTAT		DECAPOTAT
+
+AMANDOI			AMANDOI
+
+DEMI_SEC		DEMI_SEC
+
+ELBA			ELBA
+
+Exemplu
+
+sponsor.in
+
+2 12
+ICONOGRAF
+OCHELARI PENTRU OCHI
+LAN
+AMANDOI
+MANGO
+PAR
+IMPRESIONISM
+ABBA
+DECAPOTAT
+DEMI_SEC
+ELBA
+IF
+
+sponsor.out
+
+OCHELARI PENTRU OCHI
+LAN
+ICONOGRAF
+MANGO
+PAR
+IMPRESIONISM
+ABBA
+DECAPOTAT
+AMANDOI
+DEMI_SEC
+ELBA
+
+### Explicație
+
+Cerința 2, a fost afișată soluția minimă lexicografic dintre cele 2 posibilități de a selecta sponsorii
+
+ICONOGRAF < IF deoarece litera C < litera F

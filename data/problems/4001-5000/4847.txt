@@ -1,0 +1,29 @@
+#4847
+ParcareMall
+Sursa: https://www.pbinfo.ro/probleme/4847/parcaremall
+
+Cerința
+
+Parcarea unui mall are locuri de parcare dispuse pe nr rânduri, câte np pe fiecare rând, unul lângă altul. Trei prieteni vin cu câte o mașină la mall și caută un triplet de locuri libere alăturate, plasate toate trei doar pe primul sau toate trei doar pe ultimul rând al parcării.
+
+Scrieţi un program care citeşte de la tastatură două numere naturale din intervalul [3,50], nr și np, reprezentând numărul de rânduri din parcare, respectiv numărul de locuri de pe fiecare rând, apoi nr∙np valori din mulțimea {0,1}, elemente ale unui tablou bidimensional cu nr linii și np coloane, reprezentând, în ordinea dispunerii lor pe rânduri, starea locurilor de parcare (0, pentru loc liber, sau 1, pentru loc ocupat).
+
+Programul afișează pe ecran numărul de triplete de locuri libere pe care le pot găsi prietenii.
+
+Exemplu
+
+**Intrare**
+
+4 5
+1 0 0 0 1
+0 0 0 1 0
+0 1 0 0 0
+0 0 0 0 1
+
+**Ieșire**
+
+3
+
+## Explicație
+
+Pe prima linie pot găsi tripletul format din al doilea, al treilea și al patrulea loc, iar pe ultima linie pot găsi tripletul format din primul, al doilea și al treilea loc sau tripletul format din al doilea, al treilea, și al patrulea loc.

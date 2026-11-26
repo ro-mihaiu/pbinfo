@@ -1,0 +1,96 @@
+#4839
+minish
+Sursa: https://www.pbinfo.ro/probleme/4839/minish
+
+Se va prezenta în continuare un limbaj minimal de programare: **minishell**.
+
+**Documentație**
+
+**Variabile**
+
+Acest limbaj admite 26 de variabile, notate: a, b, …, z.
+
+La începutul unui program, toate variabilele sunt inițializate cu 0.
+
+Într-un program valid, variabilele pot reține doar valori întregi din intervalul [0, 231).\
+\
+**Operații**\
+\
+| Operație | Explicație | Exemple | Restricții |\
+| --- | --- | --- | --- |\
+| Atribuire constantă | Atribuie unei variabile o valoare constantă. | a=6<br>t=0<br>z=2147483647 | Valoarea constantă atribuită trebuie să fie cuprinsă în intervalul \[0,231) |\
+| Atribuire și adunare | Schimbă valoare unei variabile cu suma dintre aceasta și o altă variabilă la alegere. | a+=b<br>t+=c<br>m+=m | Variabilele folosite în această operație trebuie să aparțină celor 26 menționate mai sus. |\
+\
+**Exemplu de program**\
+\
+a=1\
+c+=a\
+b=2\
+b+=c\
+c+=c\
+a=7\
+\
+După rularea acestui program, a conține valoarea 7, b conține valoarea 3, c conține valoarea 2, și variabilele d, …, z conțin valoarea 0.\
+\
+Cerința\
+\
+Se dă un vector val[a], …, val[z]. Să se construiască un program **minishell** care folosește cât mai puține atribuiri constante și care, prin rularea sa, face ca variabilele a, …, z să conțină valorile val[a], …, val[z].\
+\
+Date de intrare\
+\
+Fișierul de intrare minish.in va conține numerele val[a], …, val[z].\
+\
+Date de ieșire\
+\
+Fișierul de ieșire minish.out va conține un program **minishell** corect alcătuit, care rezolvă cerința. Programul afișat poate conține linii goale, dar nu are voie să conțină spații.\
+\
+Restricții și precizări\
+\
+- 0 ≤ val[a], ..., val[z] < 231.\
+- Fiecare linie afișată trebuie sa conțină **exact** o singură operație. De asemenea, ea trebuie să nu conțină spații.\
+- Se garantează că cel puțin o valoare dintre val[a], …, val[z] este nenulă.\
+- Se poate demonstra că întotdeauna există o soluție validă care respectă restricțiile.\
+- Notăm cu cnt numărul de elemente nenule din vectorul val[].\
+- Pentru 5 puncte, 0 ≤ val[a], ..., val[z] ≤ 1\
+- Pentru 15 puncte, cel puțin una dintre valorile val[a], ..., val[z] este 1\
+- Pentru 10 puncte, 0 ≤ val[a], ..., val[z] < 212, cnt = 2\
+- Pentru 10 puncte, cnt = 2\
+- Pentru 10 puncte, 0 ≤ val[a], ..., val[z] < 220\
+- Pentru 15 puncte, val[a] = val[b] - 1\
+- Pentru 35 de puncte, fără restricții suplimentare\
+\
+Punctare\
+\
+Problema admite punctaje parțiale. Punctajul procentual pentru un test este dat de formula\
+\
+1KK×{0,N>10000,20+120×(10000−N),2000<N≤10000,60+4167×(2000−N),330<N≤2000,100,N≤330\
+\
+unde K reprezintă numărul de atribuiri constante din program, și N reprezintă numărul de linii de cod al programului din output.\
+\
+Veți primi punctaj pe un test numai dacă:\
+\
+- Programul este corect alcătuit.\
+- După execuția întregului program, variabilele conțin valorile cerute.\
+\
+Exemplu:\
+\
+minish.in\
+\
+1 2 3 0 0 0 0 0 0 0\
+0 0 0 0 0 0 0 0 0 0\
+0 0 0 0 0 1\
+\
+minish.out\
+\
+a=1\
+b+=a\
+b+=a\
+c+=a\
+c+=a\
+c+=a\
+z+=a\
+\
+### Explicație\
+\
+Acesta reprezintă un program valid care rezolvă problema.\
+\

@@ -1,0 +1,65 @@
+#4837
+succes1
+Sursa: https://www.pbinfo.ro/probleme/4837/succes1
+
+Se consideră șirul S = S[1], S[2], ..., S[N] format din N mulțimi de numere naturale cuprinse între 1 și M. De asemenea, se consideră două șiruri de câte M numere întregi A = A[1], A[2], ..., A[M] și B = B[1], B[2], ..., B[M]. Numim secvență de mulțimi (i, j) (1 ≤ i ≤ j ≤ N) succesiunea de mulțimi S[i], S[i+1], ..., S[j].
+
+Pentru o secvență de mulțimi (i, j) (1 ≤ i ≤ j ≤ N), se determină **factorul de succes** pe baza șirului A, respectiv **factorul de insucces**, pe baza șirului B în modul următor:
+
+1) se efectuează reuniunea mulțimilor din secvența de mulțimi (i, j);
+
+2) **factorul de succes** al secvenței de mulțimi (i, j) este suma valorilor din șirul A situate pe pozițiile date de elementele reuniunii;
+
+3) **factorul de insucces** al secvenței de mulțimi (i, j) este suma valorilor din șirul B situate pe pozițiile date de elementele reuniunii.
+
+O secvență (i, j) (1 ≤ i ≤ j ≤ N) este **câștigătoare** dacă îndeplinește următoarele condiții:
+
+1) **factorul de insucces** al secvenței este cel mult egal cu un număr natural K dat;
+
+2) **factorul de succes** al secvenței este cel mai mare dintre factorii de succes corespunzători tuturor secvențelor ce respectă condiția 1.
+
+Cerința
+
+Determinați **factorul de succes** al unei secvențe **câștigătoare**.
+
+Date de intrare
+
+Fișierul de intrare succes.in conține pe prima linie numerele naturale N, M, K. Pe a doua linie din fișier se găsesc M numere întregi, reprezentând elementele șirului A. Pe a treia linie din fișier se găsesc M numere întregi, reprezentând elementele șirului B. Pe ultimele N linii sunt descrise cele N mulțimi din șirul S, câte o mulțime pe o linie. O linie care descrie o mulțime conține nr, numărul de elemente din mulțime, urmat de cele nr elemente ale mulțimii. Valorile scrise pe aceeași linie sunt separate prin câte un spațiu.
+
+Date de ieșire
+
+Fișierul de ieșire succes.out conține o singură linie pe care este scris factorul de succes al unei secvențe câștigătoare.
+
+Restricții și precizări
+
+- 1 ≤ N ≤ 200.000
+- 1 ≤ M ≤ 100
+- Numărul total de elemente din cele N mulțimi este ≤ 1.000.000
+- 0 ≤ K, |A[i]|, |B[i]| ≤ 1.000.000.000, pentru 1 ≤ i ≤ M
+- Se garantează că există cel puțin o secvență câștigătoare.
+- Pentru 15 puncte, 1 ≤ N ≤ 100
+- Pentru 20 de puncte, 100 < N ≤ 1000
+- Pentru 21 de puncte, numerele din șirurile A și B sunt pozitive.
+- Pentru 44 de puncte, fără restricții suplimentare
+
+Exemplu
+
+succes.in
+
+4 3 3
+3 2 -2
+1 2 1
+3 1 2 3
+2 1 2
+1 1
+2 3 2
+
+succes.out
+
+5
+
+### Explicație
+
+N=4, M=3, K=3. O secvență câștigătoare este (2, 3). Reuniunea mulțimilor pentru secvența (2, 3) este {1,2} U {1} = {1,2}. Factorul de insucces pentru secvența (2, 3) este B[1] + B[2] = 1 + 2 = 3 ≤ K.
+
+Factorul de succes pentru secvența (2, 3) este A[1] + A[2] = 3 + 2 = 5, valoare maximă pentru toate secvențele pentru care factorul de insucces este ≤ K.

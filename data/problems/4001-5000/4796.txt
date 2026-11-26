@@ -1,0 +1,41 @@
+#4796
+eliminarepu
+Sursa: https://www.pbinfo.ro/probleme/4796/eliminarepu
+
+Cerinţă
+
+Se citește de la tastatură un cuvânt. Să se afișeze pe ecran cuvântul citit și cuvintele obținute din el prin eliminarea repetată a primei și a ultimei litere.
+
+Date de intrare
+
+Programul va citi de la tastatură un cuvânt format din cel mult 100 de caractere litere mici.
+
+Date de ieșire
+
+Programul va afişa pe ecran pe rânduri separate, cuvântul citit și cuvintele obținute din el prin eliminarea repetată a primei și a ultimei litere.
+
+Restricții și precizări
+
+- cuvântul citit este format din cel mult 100 de caractere litere mici
+
+Exemple:
+
+Intrare
+
+cosmin
+
+Ieşire
+
+cosmin
+osmi
+sm
+
+Intrare
+
+dorel
+
+Ieşire
+
+dorel
+ore
+r

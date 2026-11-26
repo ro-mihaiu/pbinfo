@@ -41,11 +41,19 @@
         <strong><%= t('problem_notes') %>:</strong> <%= problem.notes.ro %>
       </div>
     <% } %>
-    <a class="pbinfo-header-link" href="https://pbinfo.ro/rezolvari/<%= problem.id %>/<%= problem.titles.ro %>" target="_blank" rel="noopener noreferrer">PBInfo</a>
+    <% if (!officialPageMissing) { %>
+      <a class="pbinfo-header-link" href="<%= officialProblemUrl %>" target="_blank" rel="noopener noreferrer">PBInfo</a>
+    <% } %>
   </section>
 
   <div class="problem-layout">
     <div class="problem-main">
+      <% if (officialPageMissing) { %>
+        <section class="card panel empty-panel">
+          <p class="muted" lang="ro">Problema #<%= problem.id %> nu are o pagină oficială pe pbInfo.</p>
+          <% if (locale !== 'ro') { %><p class="muted"><%= t('problem_official_missing').replace('{id}', problem.id) %></p><% } %>
+        </section>
+      <% } %>
       <% if (statement && statement.length > 0) { %>
         <section class="card panel">
           <h2 class="panel-title"><%= t('problem_statement') %></h2>
@@ -58,7 +66,7 @@
             <% }) %>
           <% }) %>
         </section>
-      <% } else { %>
+      <% } else if (!officialPageMissing) { %>
         <section class="card panel empty-panel">
           <p class="muted"><%= t('problem_no_statement') %></p>
         </section>

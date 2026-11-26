@@ -1,0 +1,75 @@
+#4804
+graunte
+Sursa: https://www.pbinfo.ro/probleme/4804/graunte
+
+Cerința
+
+Fermierul Ion, cândva cunoscut pentru porumbul său de înaltă calitate, a intrat în faliment. Acum, el se mulțumește să crească roșii pe un câmp pătratic împărțit în N × N parcele. La început, câmpul era gol, dar de-a lungul timpului, Ion a efectuat mai multe plantări respectând o regulă specială, numită formula roșiilor gustoase:
+
+- se alege un număr v;
+- se alege o porțiune a câmpului definită de colțul stânga-sus (a, b) și colțul dreapta-jos (c, d. Cu alte cuvinte, pentru orice 1 ≤ i, j ≤ N, porțiunea câmpului conține parcela de pe linia i și coloana j dacă a ≤ i ≤ c și b ≤ j ≤ d.
+- în fiecare parcelă din porțiune se plantează un număr de roșii egal cu suma modulo 1789 a numerelor mai mici decât v care sunt coprime cu v.
+
+Din cauza dificultăților financiare, fermierul trebuie să recolteze câteva roșii. Pentru a ușura procesul de recoltare, Ion va culege în întregime toate liniile de pe care culege cel puțin o roșie. El dorește să aleagă un număr maxim posibil de linii consecutive, astfel încât numărul total de roșii culese să nu depășească o anumită valoare k. Ajută-l să afle, pentru mai multe valori posibile ale lui k, de pe care linii trebuie să culeagă roșiile.
+
+Date de intrare
+
+- Fișierul de intrare graunte.in conține pe prima linie trei numere întregi, despărțite prin câte un spațiu: N (dimensiunea câmpului), Q1(numărul de plantări) și Q2 (numărul de valori k).
+- Următoarele Q1 linii conțin câte 5 valori întregi, despărțite prin câte un spațiu: a b c d v, reprezentând o plantare efectuată conform formulei roșiilor gustoase.
+- Următoarele Q2 linii conțin câte un număr întreg k, pentru care trebuie determinată cea mai lungă secvență de linii consecutive care conține cel mult k roșii.
+
+Date de ieșire
+
+- Se vor afișa în fișierul graunte.outQ2 linii, fiecare conținând două numere a b, despărțite printr-un spațiu, unde a și b sunt capetele celei mai lungi secvențe de linii consecutive care conține cel mult k roșii.
+- Dacă există mai multe secvențe de lungime maximă, se va alege cea mai de sus.
+- Dacă nicio secvență nu îndeplinește condiția, se va afișa −1 −1.
+
+Restricții și precizări
+
+- 1 ≤ N ≤ 10⁶
+- 1 ≤ Q1 ≤ 10⁵
+- 1 ≤ Q2 ≤ 10
+- 1 ≤ a, b, c, d ≤ N, pentru toate cele Q1 plantări de roșii
+- 0 ≤ v ≤ 10⁶, pentru toate cele Q1 plantări de roșii
+- 0 ≤ k ≤ 10¹⁸, pentru toate cele Q2 valori pe care le ia k
+
+Se garantează că numărul total de roșii de pe câmp nu va depăși 10¹⁸.
+
+După efectuarea mai multor plantări, numărul de roșii aflate într-o parcelă poate să atingă și să depășească 1789.
+
+Exemplu
+
+graunte.in
+
+2 3 4
+1 1 1 2 91
+1 2 2 2 12
+1 1 2 2 24
+216
+210
+3500
+3400
+
+graunte.out
+
+2 2
+-1 -1
+1 2
+1 1
+
+### Explicație
+
+N = 2, deci câmpul are 2 linii și 2 coloane. Pentru prima plantare, a = b = c = 1, d = 2, v = 91. Suma numerelor coprime cu 91 care sunt mai mici decât 91 este 3276. Prin urmare, în cele două parcele de pe prima linie se vor planta 3276 mod 1789 = 1487 roșii.
+
+În timpul celei de-a doua plantări, în parcelele de pe a doua coloană se plantează 1 + 5 + 7 + 11 = 24 roșii.
+
+În timpul celei de-a treia plantări, în toate parcelele se plantează 1 + 5 + 7 + 11 + 13 + 17 + 19 + 23 = 96 roșii. Astfel, numerele finale de roșii din fiecare parcelă vor fi cele de mai jos.
+
+|     |     |
+| --- | --- |
+| 1583 | 1607 |
+| 96 | 120 |
+
+Prima valoare pe care o ia k este 216. A doua linie este singura în care numărul de roșii este ≤ 216, așadar a doua linie este singura care poate fi inclusă în secvența cerută, deci răspunsul este 2 2.
+
+A doua valoare pe care o ia k este 210. Pe nicio linie nu avem cel mult ≤ 210 roșii, așadar nicio linie nu poate fi inclusă în secvența cerută, deci răspunsul este −1 −1.

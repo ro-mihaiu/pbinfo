@@ -1,0 +1,45 @@
+#4751
+InlocuireRec10
+Sursa: https://www.pbinfo.ro/probleme/4751/inlocuirerec10
+
+Cerința
+
+Se dă un tablou cu n elemente, numere naturale. Să se înlocuiască fiecare element din tablou cu numărul de apariții al primei cifre în elementul din tablou.
+
+Se vor defini și apela următoarele subprograme **recursive**:
+
+- citire, care citește de la tastatură cele n elemente ale unui tablou
+- afisare, care afișează pe ecran elementele tabloului separate prin exact un spațiu
+- nr_ap, care determină de câte ori pare o cifră c intr-un număr n (n și c dați ca parametri)
+- prima_cifra, care determină prima cifră a unui număr dat ca parametru
+- inloc, care realizează înlocuirile cerute.
+
+**În programele C/C++ nu se vor folosi variabile globale**.
+
+Date de intrare
+
+Se citește de la tastatură numărul n, iar apoi cele n elemente ale tabloului.
+
+Date de ieșire
+
+Se vor afișa pe ecran elementele tabloului obținut, separate prin exact un spațiu.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 1000
+- elementele tabloului vor fi mai mici decât 1.000.000.000
+
+Exemplu
+
+**Intrare**
+
+7
+7373 418 218 75 2124 5209 44994
+
+**Ieșire**
+
+2 1 1 1 2 1 3
+
+Explicație:
+
+În numărul 7373 cifra 7 apare de 2 ori, în 418 cifra 4 apare o dată, … în 44994 cifra 4 apare de 3 ori

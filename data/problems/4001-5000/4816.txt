@@ -1,0 +1,80 @@
+#4816
+experimente
+Sursa: https://www.pbinfo.ro/probleme/4816/experimente
+
+Dexter și-a deschis un laborator nou în care vrea să efectueze o serie de experimente pe șoareci pentru a descoperi leacul pentru cancer. În laborator există N șoareci, care se află așezați într-un cerc și sunt numerotați în ordine de la 0 la N-1.
+
+Dexter efectuează, pe rând, M experimente. Pentru fiecare experiment șoarecii care participă la al i-lea experiment formează întotdeauna un interval continuu, exprimat sub forma unei perechi de numere (S[i], F[i]), având semnificația:
+
+- dacă S[i] ≤ F[i], atunci șoarecii S[i], S[i]+1, ..., F[i] participă la experimentul i;
+- dacă S[i] > F[i], atunci șoarecii S[i], S[i]+1, ..., N-2, N-1, 0, ..., F[i] participă la experimentul i.
+
+Cerința
+
+La fiecare pas, Dexter vrea să știe câți din cei N șoareci au participat la toate experimentele efectuate până atunci. Altfel spus, după fiecare al i-lea experiment efectuat, să se determine numărul de șoareci care au participat la toate experimentele 1, 2, ..., i.
+
+Date de intrare
+
+Fișierul de intrare experimente.in conține pe prima linie două numere N și M. Fiecare din următoarele M linii conține două numere A[i] și B[i], având următoarea semnificație:
+
+- dacă i = 1, atunci S[i] = A[i] și F[i] = B[i];
+- dacă i > 1 și notând cu R[i-1] răspunsul pentru cel de al (i-1)-lea experiment, atunci S[i] = (R[i-1] + A[i]) mod N și F[i] = (R[i-1] + B[i]) mod N.
+
+Date de ieșire
+
+Fișierul de ieșire experimente.out trebuie să conțină M linii. Pe cea de a i-a linie se va afișa un singur număr reprezentând numărul de șoareci care au participat la toate experimentele 1, 2, ..., i.
+
+% numărul de șoareci care participă la primele i experimente.
+
+Restricții și precizări
+
+- 1 ≤ N ≤ 1.000.000.000;
+- 1 ≤ M ≤ 100.000;
+- 0 ≤ A[i], B[i] < N.
+- Pentru 18 puncte, S[i] ≤ F[i] pentru 1 ≤ i ≤ M
+- Pentru 20 de puncte, 1 ≤ N, M ≤ 1000
+- Pentru 22 de puncte, 1 ≤ N ≤ 100.000, 1 ≤ M ≤ 1000
+- Pentru 20 de puncte, 1 ≤ N, M ≤ 100.000
+- Pentru 20 de puncte, fără restricţii suplimentare
+
+Exemplu
+
+experimente.in
+
+5 3
+1 4
+3 0
+2 0
+
+experimente.out
+
+4
+3
+2
+
+### Explicație
+
+Pentru primul experiment S[1] = 1 și F[1] = 4; participă șoarecii 1, 2, 3 și 4, deci R[1] = 4.
+
+Pentru al doilea experiment, S[2] = (3 + 4) mod 5 = 2, iar F[2] = (0 + 4) mod 5 = 4. La primele două experimente participă șoarecii 2, 3 și 4, deci R[2] = 3.
+
+Pentru al treilea experiment, S[3] = (2 + 3) mod 5 = 0, iar F[3] = (0 + 3) mod 5 = 3. La primele trei experimente participă șoarecii 2 și 3, deci R[3] = 2.
+
+Exemplu
+
+experimente.in
+
+6 2
+4 1
+2 5
+
+experimente.out
+
+4
+2
+
+### Explicație
+
+Pentru primul experiment S[1] = 4 și F[1] = 1; participă șoarecii 0, 1, 4 și 5, deci R[1] = 4.
+
+Pentru al doilea experiment, S[2] = (2 + 4) mod 6 = 0, iar F[2] = (5 + 4) mod 6 = 3. La primele două experimente participă șoarecii 0 și 1, deci R[2] = 2.

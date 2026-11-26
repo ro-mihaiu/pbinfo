@@ -1,0 +1,49 @@
+#4897
+Pal1234
+Sursa: https://www.pbinfo.ro/probleme/4897/pal1234
+
+Cerința
+
+Un număr se numește **palindrom** dacă prima lui cifră este egală cu ultima, a doua cu penultima și așa mai departe. De exemplu numerele 1221, 505 și 7 sunt palindromuri, în vreme ce 500, 1410 și 2424 nu sunt palindromuri.
+
+Se citește de la tastatură un număr natural n cu cel mult 4 cifre. Să se verifice dacă numărul citit este un palindrom.
+
+Date de intrare
+
+Programul citește de la tastatură numărul n.
+
+Date de ieșire
+
+Programul va afișa pe ecran numărul DA,dacă n este palindrom. În caz contrar, va afișa mesajul NU.
+
+Restricții și precizări
+
+- 0 ≤ n ≤ 9999
+
+Exemplu
+
+**Intrare**
+
+123
+
+**Ieșire**
+
+NU
+
+### Explicație
+
+Prima și ultima cifră a lui n sunt distincte.
+
+Exemplu
+
+**Intrare**
+
+5335
+
+**Ieșire**
+
+DA
+
+### Explicație
+
+Prima și ultima cifră a lui n sunt identice, la fel cea de-a doua cu cea de-a treia.

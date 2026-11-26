@@ -1,0 +1,51 @@
+#4870
+Banal
+Sursa: https://www.pbinfo.ro/probleme/4870/banal
+
+Cerința
+
+Un număr se numește **norocos** dacă este format din grupe consecutive de k cifre identice. Se citește un număr natural n. Să se verifice dacă este **norocos**. Dacă este norocos se va afișa k numită constanta numărului, iar dacă nu este **norocos** se va afișa mesajul nenorocos.
+
+Date de intrare
+
+Programul citește de la tastatură numărul n.
+
+Date de ieșire
+
+Programul va afișa pe ecran numărul k, sau mesajul nenorocos.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 1.000.000.000;
+- 2 ≤ k ≤ 9;
+- dacă există mai multe valori posibile pentru k, se va afișa cea mai mare.
+
+Exemplu
+
+**Intrare**
+
+224422
+
+**Ieșire**
+
+2
+
+Exemplu 2:
+
+**Intrare**
+
+224412
+
+**Ieșire**
+
+nenorocos
+
+Exemplu 3:
+
+**Intrare**
+
+224444
+
+**Ieșire**
+
+2

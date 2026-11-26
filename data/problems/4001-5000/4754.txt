@@ -1,0 +1,27 @@
+#4754
+Sufixrec
+Sursa: https://www.pbinfo.ro/probleme/4754/sufixrec
+
+Cerința
+
+Să se scrie o **funcție C++ recursivă** care primește ca paramentru un număr natural n și care calculează și returnează cel mai mare sufix al lui n care are proprietatea că are toate cifrele egale.
+
+Restricții și precizări
+
+- numele funcției va fi sufmax
+- funcția un singur parametru: n – reprezentând numărul dat
+- n va fi mai mic decât 2.000.000.000
+
+Exemple
+
+Dacă n=459000, atunci sufmax(n) returnează 0.
+
+Dacă n=45955, atunci sufmax(n) returnează 55.
+
+Dacă n=45953, atunci sufmax(n) returnează 3.
+
+Dacă n=777, atunci sufmax(n) returnează 777
+
+Important
+
+Soluţia propusă va conţine doar definiţia funcţiei cerute. Prezenţa în soluţie a altor instrucţiuni poate duce erori de compilare sau de execuţie care vor avea ca efect depunctarea soluţiei.

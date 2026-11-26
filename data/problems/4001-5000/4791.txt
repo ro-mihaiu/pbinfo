@@ -1,0 +1,87 @@
+#4791
+semafoare
+Sursa: https://www.pbinfo.ro/probleme/4791/semafoare
+
+Un dispozitiv de tip semafor are trei culori, roșu, galben și verde, și funcționează ciclic, astfel încât, în fiecare moment, să fie aprinsă o singură culoare. Într-o serie, culorile se succed întotdeauna în ordinea următoare: roșu, galben, verde, galben. Astfel, la pornire se aprinde roșu, iar după ce se stinge această culoare se aprinde galben, apoi verde și apoi, din nou, galben, apoi seria culorilor se reia ciclic, în succesiunea precizată. Pentru două semafoare se testează acum modul de funcționare. La primul semafor, într-o serie roșu stă aprins R1 secunde, apoi se aprinde galben, pentru G1 secunde, apoi se aprinde verde, pentru V1 secunde, apoi din nou galben, pentru G1 secunde. La al doilea semafor, într-o serie roșu stă aprins R2 secunde, apoi se aprinde galben, pentru G2 secunde, apoi se aprinde verde, pentru V2 secunde, și din nou galben, pentru G2 secunde. În acest moment, au trecut T1 secunde de la pornirea primului semafor și T2 secunde de la pornirea celui de-al doilea semafor.
+
+Cerințe
+
+1) Știind că în acest moment la niciunul dintre semafoare nu este aprins verde, determinați numărul minim de secunde care trebuie să treacă, din acest moment, până când se aprinde verde la cel puțin unul dintre ele.
+
+2) Determinați numărul minim de secunde care trebuie să treacă, din acest moment, până când ambele semafoare au aprinsă aceeași culoare.
+
+Date de intrare
+
+Fișierul de intrare semafoare.in conține:
+
+- pe prima linie, un număr natural C, reprezentând numărul cerinței, care poate avea valorile 1 sau 2;
+- pe a doua linie, trei numere naturale, R1, G1, V1, în această ordine, cu semnificația din enunț;
+- pe a treia linie, trei numere naturale, R2, G2, V2, în această ordine, cu semnificația din enunț;
+- pe a patra linie, două numere naturale, T1 și T2, în această ordine, cu semnificația din enunț.
+
+Numerele aflate pe aceeași linie sunt separate prin câte un spațiu.
+
+Date de ieșire
+
+Fișierul de ieșire semafoare.out va conține pe prima linie, un număr natural, reprezentând rezultatul determinat conform cerinței C.
+
+Restricții și precizări
+
+- R1, G1, V1, R2, G2, V2 sunt numere naturale nenule, cu cel mult 5 cifre fiecare
+- 0 ≤ T1, T2 ≤ 1.000.000.000
+- Pentru datele furnizate, se garantează că există întotdeauna soluție.
+- Pentru 33 de puncte, T1 = 0 și T2 = 0
+- Pentru 35 de puncte, T1 + T2 > 0
+- Pentru 13 puncte, 1 ≤ T1, T2 ≤ 100.000
+- Pentru 19 puncte, 100.001 ≤ T1, T2 ≤ 1.000.000.000
+
+Exemplu
+
+semafoare.in
+
+1
+2 4 2
+3 1 3
+0 0
+
+semafoare.out
+
+4
+
+### Explicație
+
+Primul semafor pornește în acest moment cu roșu, care stă aprins 2 secunde, apoi galben 4 secunde și verde 2 secunde. Trec 2 + 4 = 6 secunde până când se aprinde verde. Al doilea semafor pornește în acest moment cu roșu, care stă aprins 3 secunde, galben 1 secundă și verde 3 secunde. Trec 3 + 1 = 4 secunde până când se aprinde verde. Numărul minim de secunde care trebuie să treacă din acest moment până când se aprinde verde la unul dintre semafoare este egal cu 4.
+
+Exemplu
+
+semafoare.in
+
+1
+2 4 2
+3 1 3
+4 1
+
+semafoare.out
+
+2
+
+### Explicație
+
+Primul semafor a pornit de 4 secunde, deci în acest moment este deja aprins galben, de 2 secunde, iar peste 2 secunde urmează verde. Al doilea semafor a pornit de 1 secundă, deci în acest moment este deja aprins roșu, de 1 secundă, iar peste 2 secunde urmează galben, apoi peste încă o secundă urmează verde (în total peste 3 secunde). Numărul minim de secunde care trebuie să treacă din acest moment până când se aprinde verde la unul dintre semafoare este egal cu 2.
+
+Exemplu
+
+semafoare.in
+
+2
+2 4 2
+3 1 3
+3 2
+
+semafoare.out
+
+1
+
+### Explicație
+
+Primul semafor a pornit de 3 secunde, deci în acest moment este deja aprins galben, de 1 secundă, care stă aprins încă 3 secunde. Al doilea semafor a pornit de 2 secunde, deci în acest moment este deja aprins roșu, de 2 secunde, iar peste 1 secundă urmează galben. După o secundă din acest moment este aprins galben, la ambele semafoare.

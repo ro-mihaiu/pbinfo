@@ -1,0 +1,23 @@
+#4853
+Teren2
+Sursa: https://www.pbinfo.ro/probleme/4853/teren2
+
+Un fermier are un teren de formă dreptunghiulară, pe care vrea să îl împartă în parcele de arie egală, astfel încât numărul de parcele și aria să fie valori naturale, iar numărul de parcele să fie par și strict mai mic decât aria unei parcele.
+
+Subprogramul teren are doi parametri, x și y, prin care primește două numere naturale din intervalul [2,100], reprezentând lungimea și lățimea terenului, măsurate în metri. Subprogramul afișează toate soluțiile posibile de împărțire a terenului, fiecare soluție pe câte o linie a ecranului, sub forma a două numere, separate prin mesajul parcele de arie și spații adecvate, unde primul număr reprezintă numărul de parcele obținute, iar al doilea aria unei parcele corespunzătoare, ca în exemplu. Soluțiile se vor afișa în ordinea crescătoare a numărului de parcele obținute. Dacă nu există nicio astfel de soluție, subprogramul afișează pe ecran mesajul nu exista.
+
+Cerința
+
+Scrieți definiția completă a subprogramului teren.
+
+Exemplu
+
+Dacă x=6 și y = 8 subprogramul va afișa:
+
+2 parcele de arie 24
+4 parcele de arie 12
+6 parcele de arie 8
+
+Important
+
+Soluția propusă va conține definiția subprogramului cerut. Prezența în soluție a altor instrucțiuni poate duce erori de compilare sau de execuție care vor avea ca efect depunctarea soluției.

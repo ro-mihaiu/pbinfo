@@ -1,0 +1,50 @@
+#4710
+eliminareX
+Sursa: https://www.pbinfo.ro/probleme/4710/eliminarex
+
+Considerăm şirul numerelor naturale nenule: 1, 2, 3, 4, ... Din acest şir se elimină N numere naturale distincte. De exemplu, dacă eliminăm 3 numere, fie acestea 2, 7, 9, atunci şirul este acum: 1, 3, 4, 5, 6, 8, 10, 11, 12, ...
+
+Cerința
+
+Trebuie să răspundeţi la Q întrebări de forma: Pe ce poziţie se află numărul x în şir după eliminarea celor N numere?
+
+Date de intrare
+
+Fișierul de intrare eliminarex.in conține pe prima linie numerele naturale N şi Q separate printr-un spaţiu, pe a doua linie se găsesc, separate prin spaţii şi în ordine crescătoare, cele N numere naturale care se elimină din şirul numerelor naturale. Pe următoarele Q linii se află câte un număr natural xi ce reprezintă o întrebare: “Pe ce poziţie se află numărul xi în şir după eliminarea celor N numere?”
+
+Date de ieșire
+
+Fișierul de ieșire eliminarex.out va conține exact Q linii. Pe linia i se află un singur număr natural pi reprezentând poziţia pe care se află xi. Dacă xi a fost eliminat din şir, atunci poziţia afişată va fi 0.
+
+Restricții și precizări
+
+- 1 ≤ N ≤ 100.000
+- 1 ≤ Q ≤ 100.000
+- numerele care se elimină din şirul numerelor naturale sunt numere naturale mai mici sau egale cu 2.000.000.000
+- 0 < xi≤ 2.000.000.000, pentru orice i între 1 şi Q
+
+Exemplu
+
+eliminarex.in
+
+3 5
+2 7 9
+3
+2
+70
+4
+10000
+
+eliminarex.out
+
+2
+0
+67
+3
+9997
+
+### Explicație
+
+Se elimină din şirul numerelor naturale valorile 2, 7, 9. Deci acum şirul este: 1, 3, 4, 5, 6, 8, 10, 11, 12, 13, ...
+
+Sunt cinci întrebări. Prima întrebare este: Pe ce poziţie se află numărul 3 în şir? Răspunsul este 2. A doua întrebare este: Pe ce poziţie se află numărul 2 în şir? Răspunsul este 0, pentru că 2 a fost eliminat din şir. Celelalte întrebări se referă la numerele 70, 4, 10000, iar răspunsurile sunt 67, 3, respectiv 9997.

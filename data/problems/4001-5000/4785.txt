@@ -1,0 +1,53 @@
+#4785
+summat
+Sursa: https://www.pbinfo.ro/probleme/4785/summat
+
+Se consideră şirul crescător 1, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, ..., în care fiecare număr natural nenul i apare de 2i-1 ori. Elementele unei matrice A cu M linii şi N coloane au valori astfel încât, parcurgând matricea de sus în jos, pe linii, și de la stânga la dreapta pe fiecare linie, se obțin primii M x N termeni ai șirului precizat. De exemplu, dacă M = 5 şi N = 8, matricea este:
+
+
+
+O submatrice a lui A este definită de patru valori, l1, c1, l2, c2 şi este formată din elementele Ai,j cu proprietatea că l1 ≤ i ≤ l2 și c1 ≤ j ≤ c2.
+
+Cerința
+
+Determinaţi suma elementelor pentru fiecare dintre Q submatrice date ale lui A.
+
+Date de intrare
+
+Fișierul de intrare summat.in conține conţine pe prima linie numerele naturale nenule M, N, Q cu semnificaţia din enunţ, iar pe următoarele Q linii câte patru numere naturale l1 c1 l2 c2 care definesc câte o submatrice a lui A. Numerele aflate pe aceeaşi linie a fişierului sunt separate prin câte un spaţiu.
+
+Date de ieșire
+
+Fișierul de ieșire summat.out va conține pe Q linii sumele determinate pentru cele Q submatrice, câte un singur număr pe linie, în ordinea în care submatricele sunt definite în fişierul de intrare.
+
+Restricții și precizări
+
+- 1 ≤ M, N ≤ 100.000.000
+- 1 ≤ Q ≤ 100.000
+- 1 ≤ l1 ≤ l2 ≤ M
+- 1 ≤ c1 ≤ c2 ≤ N
+- Pentru 24 de puncte, 1 ≤ M, N ≤ 20
+- Pentru 14 puncte, M = 1, 1 ≤ N ≤ 100.000
+- Pentru 19 puncte, 1 ≤ M, N ≤ 1.000
+- Pentru 11 puncte, M = 1
+- Pentru 15 puncte, 0 ≤ l2 - l1 ≤ 100, Q ≤ 1.000
+- Pentru 17 puncte, fără alte restricții
+
+Exemplu
+
+summat.in
+
+5 8 3
+1 1 2 4
+2 3 5 7
+1 4 3 8
+
+summat.out
+
+24
+100
+62
+
+### Explicație
+
+Matricea generată este cea din enunţ. Submatricele corespunzătoare celor trei cerinţe sunt date mai jos.

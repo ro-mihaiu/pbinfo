@@ -1,0 +1,49 @@
+#4768
+raspandaci
+Sursa: https://www.pbinfo.ro/probleme/4768/raspandaci
+
+De câte ori trebuie să transmită un mesaj URGENT!!! directorul şcolii noastre are o mare problemă. Indiferent de canalul de comunicare pe care îl foloseşte (e-mail, what’s app, site-ul şcolii etc.), întotdeauna vor exista elevi la care mesajul nu ajunge sau nu ajunge în timp util. După multe încercări, a decis să numeroteze cei n elevi din şcoală cu numere distincte de la 1 la n şi să studieze relaţiile de comunicare dintre elevi. Apoi, bazându-se pe aceste relaţii de comunicare, să aleagă un număr minim de elevi-răspândaci cărora să le transmită mesajul direct, urmând ca aceasta să fie transmis la absolut toţi elevii, prin relaţiile de comunicare dintre aceştia.
+
+Cerința
+
+Să se scrie un program care, cunoscând relaţiile de comunicare dintre elevi, determină numărul minim de răspândaci necesari pentru ca mesajul directorului să ajungă în timp util la toţi elevii din şcoală.
+
+Date de intrare
+
+Fișierul de intrare raspandaci.in conţine pe prima linie numărul natural n, reprezentând numărul de elevi din şcoală. Pe următoarele linii se află perechi de numere naturale x y (1 ≤ x, y ≤ n) cu semnificaţia că elevul x transmite imediat elevului y orice mesaj primit.
+
+Date de ieșire
+
+Fișierul de ieșire raspandaci.out va conţine o singură linie pe care va fi scris numărul minim de răspândaci, necesari pentru ca mesajul directorului să ajungă în timp util la toţi elevii din şcoală.
+
+Restricții și precizări
+
+- 2 ≤ n ≤ 100.000
+- Numărul de relaţii de comunicare între elevi din fişierul de intrare este ≤ 400.000.
+- Un elev poate să comunice mesajul chiar şi lui însuşi.
+- Pentru 30 de puncte, 2 ≤ n ≤ 100
+- Pentru 11 puncte, 100 < n ≤ 1000
+- Pentru 49 de puncte, fără restricții suplimentare.
+- Pentru exemplul din enunț se acodră 10 puncte
+
+Exemplu
+
+raspandaci.in
+
+6
+2 1
+1 6
+3 4
+4 1
+3 5
+4 3
+5 1
+6 5
+
+raspandaci.out
+
+2
+
+### Explicație
+
+Cei doi răspândaci ar putea fi elevii 2 şi 3. Dacă directorul transmite mesajul elevului 2, aceasta va ajunge şi la elevii 1, 5, şi 6. Dacă în plus transmite mesajul şi elevului 3, acesta va ajunge şi la elevul 4. O altă soluţie posibilă ar fi ca directorul să transmită mesajul elevilor 2 şi 4.

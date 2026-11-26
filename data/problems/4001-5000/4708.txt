@@ -1,0 +1,47 @@
+#4708
+subsets1
+Sursa: https://www.pbinfo.ro/probleme/4708/subsets1
+
+Pentru un număr natural N, considerăm toate submulțimile nevide ale mulțimii {1, 2, 3, ..., N}. De exemplu, pentru N = 3, submulțimile nevide ale mulțimii {1, 2, 3} sunt: {1}, {2}, {3}, {1,2}, {1,3}, {2,3} și {1,2,3}. Pentru fiecare submulțime se ordonează mai întâi descrescător elementele sale, apoi valoarea maximă primește semnul +, valoarea următoare are semnul –, următoarea valoare + ș.a.m.d, apoi se determină suma lor. De exemplu, submulțimea {1, 2, 5, 8, 10} are asociată suma +10-8+5-2+1=6, submulțimea {4,7} are suma +7-4=3, iar submulțimea {3} are suma 3.
+
+Cerința
+
+Să se determine valoarea totală a sumelor asociate tuturor submulțimilor mulțimii {1, 2, 3, ..., N}.
+
+Date de intrare
+
+Fișierul de intrare subsets.in conține pe prima linie numărul natural N.
+
+Date de ieșire
+
+Fișierul de ieșire subsets.out va conține un singur număr natural reprezentând suma totală a sumelor asociate tuturor sumbulțimilor mulțimii {1, 2, 3, ..., N}.
+
+Restricții și precizări
+
+- 1 ≤ N ≤ 30.000
+- Pentru 40% din teste, N ≤ 25
+- Pentru alte 40% din teste, 25 < N ≤ 1000
+
+Exemplu
+
+subsets.in
+
+3
+
+subsets.out
+
+12
+
+### Explicație
+
+Submulțimile nevide ale mulțimii {1, 2, 3} sunt:
+
+- {1} cu suma asociată 1
+- {2} cu suma asociată 2
+- {3} cu suma asociată 3
+- {1,2} cu suma asociată 2-1=1
+- {1,3} cu suma asociată 3-1=2
+- {2,3} cu suma asociată 3–2=1
+- {1,2,3} cu suma asociată 3-2+1=2
+
+Suma totală obținută este 1+2+3+1+2+1+2=12

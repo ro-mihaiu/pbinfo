@@ -1,0 +1,59 @@
+#4872
+SiruriBinare
+Sursa: https://www.pbinfo.ro/probleme/4872/siruribinare
+
+Se dau două șiruri binare a și b, ambele de lungime n.
+
+Cerința
+
+Să se determine două poziții i și j, cu i ≤ j, aflate la distanță maximă (adică j - i = maxim posibil) și cu proprietatea că numărul de valori de 1 din secvența a[i], a[i+1], ..., a[j] este egal cu numărul de valori de 1 din secvența b[i], b[i+1], ..., b[j]. Dacă există mai multe astfel de perechi aflate la distanță maximă, se va determina aceea pentru care i este minim.
+
+Date de intrare
+
+Fișierul de intrare siruribinare.in conține pe prima linie numărul n, pe a doua linie n valori binare separate prin spații, reprezentând șirul a, iar pe a treia linie n valori binare separate prin spații, reprezentând șirul b.
+
+Date de ieșire
+
+Fișierul de ieșire siruribinare.out va conține pe prima linie cei doi indici i și j cu semnificația din cerință.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 100.000
+- Cele două șiruri binare sunt indexate de la 1 la n.
+- Dacă nu există două secvențe care să îndeplinească cerința, se vor afișa două valori de 0.
+
+Exemplu
+
+siruribinare.in
+
+8
+1 1 1 0 0 0 1 1
+0 0 1 0 0 1 0 0
+
+siruribinare.out
+
+2 6
+
+Exemplu
+
+siruribinare.in
+
+4
+1 1 1 1
+0 0 0 0
+
+siruribinare.out
+
+0 0
+
+Exemplu
+
+siruribinare.in
+
+4
+1 1 1 1
+0 0 1 0
+
+siruribinare.out
+
+3 3

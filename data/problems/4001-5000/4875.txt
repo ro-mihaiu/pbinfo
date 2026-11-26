@@ -1,0 +1,39 @@
+#4875
+submultimiXI
+Sursa: https://www.pbinfo.ro/probleme/4875/submultimixi
+
+Cerința
+
+Se citește un număr natural n. Afișați în ordine lexicografică toate submulțimile mulțimii {1, 2, ..., n} care au proprietatea că oricare două elemente alăturate au parități diferite.
+
+Date de intrare
+
+Programul citește de la tastatură numărul n.
+
+Date de ieșire
+
+Programul va afișa pe ecran submulțimile cerute, câte una pe fiecare rand și având elementele separate prin câte un spaţiu.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 20
+
+Exemplu
+
+**Intrare**
+
+4
+
+**Ieșire**
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 4
+2
+2 3
+2 3 4
+3
+3 4
+4

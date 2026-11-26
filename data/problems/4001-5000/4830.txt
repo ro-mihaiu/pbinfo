@@ -1,0 +1,97 @@
+#4830
+casute
+Sursa: https://www.pbinfo.ro/probleme/4830/casute
+
+Există N căsuțe (pătrățele), așezate în ordine, de la stânga la dreapta, numerotate de la 1 la N. În interiorul fiecărei căsuțe putem scrie câte un număr natural. Inițial, în fiecare căsuță scriem același număr 0. Executăm, în ordine, Q operații, care pot fi de trei tipuri:
+
+- Primul tip de operație se codifică prin 1 st dr nr și înseamnă că în fiecare căsuță cu indicii între st inclusiv și dr exclusiv ștergem numerele care existau înainte și scriem în locul lor același număr nr.
+- Al doilea tip de operație se codifică prin 2 poz și rezultatul operației este numărul aflat în căsuța cu indicele poz.
+- Al treilea tip de operație se codifică prin 3 st dr și rezultatul operației este numărul de apariții al valorii celei mai mari din căsuțele cu indicii între st inclusiv și dr exclusiv.
+
+Cerința
+
+Determinați rezultatele tuturor operațiilor de tip 2 sau 3, în ordinea executării acestora.
+
+Date de intrare
+
+Fișierul de intrare casute.in conține pe prima linie două numere naturale N și Q separate printr-un spațiu, cu semnificația din enunț. Pe fiecare dintre următoarele Q linii se află codificările celor Q operații. Fiecare linie care codifică o operație începe cu un număr natural, reprezentând tipul operației, care poate fi 1, 2 sau 3 și este urmat de un spațiu.
+
+- Dacă tipul operației este 1, atunci urmează trei numere naturale separate prin câte un spațiu: st, dr și nr, cu semnificația din enunț.
+- Dacă tipul operației este 2, atunci urmează un singur număr natural poz, cu semnificația din enunț.
+- Dacă tipul operației este 3, atunci urmează două numere naturale separate printr-un spațiu st și dr, cu semnificația din enunț.
+
+Date de ieșire
+
+Fișierul de ieșire casute.out conține, pentru fiecare operație de tip 2 sau 3, în ordinea în care acestea se regăsesc în fișierul de intrare, pe linii separate, câte un număr natural reprezentând rezultatul operației corespunzătoare.
+
+Restricții și precizări
+
+- Q ≤ 3000;
+- N ≤ 1.000.000.000;
+- 1 ≤ st < dr ≤ N+1 pentru orice operație de tipul 1 și 3;
+- 1 ≤ poz ≤ N pentru orice operație de tipul 2;
+- 1 ≤ nr ≤ 3000 pentru orice operație de tipul 1;
+- în tabelul de mai jos, notăm Op = {1, 2} dacă există numai operații de tipul 1 și 2, sau Op = {1, 2, 3} dacă există operații de toate tipurile (1, 2 și 3);
+- în tabelul de mai jos, notăm D = 1 dacă oricare dintre valorile st, dr și poz apar într-o singură operație, sau D = 0 dacă se pot și repeta.
+- Pentru 25 de puncte, N ≤ 3000, D = 0, Op = {1, 2}
+- Pentru 25 de puncte, N ≤ 3000, D = 0, Op = {1, 2, 3}
+- Pentru 25 de puncte, N ≤ 1.000.000.000, D = 1, Op = {1, 2}
+- Pentru 15 puncte, N ≤ 1.000.000.000, D = 1, Op = {1, 2, 3}
+- Pentru 10 puncte, N ≤ 1.000.000.000, D = 0, Op = {1, 2, 3}
+
+Exemplu
+
+casute.in
+
+9 12
+1 3 7 4
+1 2 4 5
+1 6 10 3
+2 1
+2 2
+2 3
+2 9
+3 1 10
+3 5 8
+3 1 2
+1 1 4 1
+2 1
+
+casute.out
+
+0
+5
+5
+3
+2
+1
+1
+1
+
+### Explicație
+
+Sunt N = 9 căsuțe. Inițial numerele din cele 9 căsuțe sunt: 0 0 0 0 0 0 0 0 0 (scriem 0 pe toate pozițiile).
+
+După prima operație: 1 3 7 4, numerele devin: 0 0 4 4 4 4 0 0 0 (scriem 4 pe pozițiile 3, 4, 5 și 6).
+
+După a doua operație: 1 2 4 5, numerele devin: 0 5 5 4 4 4 0 0 0 (scriem 5 pe pozițiile 2 și 3).
+
+După a treia operație: 1 6 10 3, numerele devin: 0 5 5 4 4 3 3 3 3 (scriem 3 pe pozițiile 6, 7, 8 și 9).
+
+Rezultatul pentru a patra operație: 2 1 este 0.
+
+Rezultatul pentru a cincea operație: 2 2 este 5.
+
+Rezultatul pentru a șasea operație: 2 3 este 5.
+
+Rezultatul pentru a șaptea operație: 2 9 este 3.
+
+Rezultatul pentru a opta operație: 3 1 10 este 2, deoarece maximul din toate căsuțele este 5 iar acesta apare de două ori.
+
+Rezultatul pentru a noua operație: 3 5 8 este 1, deoarece maximul din căsuțele cu valorile: 4 3 3 este 4 iar acesta apare o dată.
+
+Rezultatul pentru a zecea operație: 3 1 2 este 1, deoarece maximul din căsuțele cu valorile: 0 este 0 iar acesta apare o dată.
+
+După a unsprezecea operație: 1 1 4 1, numerele devin: 1 1 1 4 4 3 3 3 3 (scriem 1 pe pozițiile 1, 2 și 3).
+
+Rezultatul pentru a doisprezecea operație: 2 1 este 1.

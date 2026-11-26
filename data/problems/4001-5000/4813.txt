@@ -1,0 +1,93 @@
+#4813
+cresc
+Sursa: https://www.pbinfo.ro/probleme/4813/cresc
+
+Se dă un șir a1, a2, …, an de numere naturale.
+
+Cerința
+
+Trebuie să răspundeți la două cerințe:
+
+1) Să se verifice dacă șirul este ordonat crescător sau nu.
+
+2) Să se verifice dacă prin eliminarea unui singur element, șirul rămas este ordonat crescător sau nu.
+
+Date de intrare
+
+Fișierul de intrare cresc.in conține pe prima linie numerele T și n (unde T = 1 sau T = 2), iar pe a doua linie, separate prin câte un spațiu, cele n elemente ale șirului.
+
+Date de ieșire
+
+Fișierul de ieșire este cresc.out.
+
+\- Dacă T = 1, atunci veți verifica dacă șirul este ordonat crescător. Dacă este, atunci veți afișa DA, iar dacă nu este ordonat crescător veți afișa NU.
+
+\- Dacă T = 2, atunci veți verifica dacă prin eliminarea a exact un element șirul rămas este sau nu ordonat crescător. Veți afișa DA dacă șirul rămas este ordonat, sau veți afișa NU dacă șirul rămas nu este ordonat.
+
+Restricții și precizări
+
+- 4 ≤ n ≤ 100.000
+- 0 ≤ a[i] ≤ 1.000.000.000, i = 1..n
+- La cerința a doua, după eliminarea unui element, celelalte n - 1 rămân în aceeași ordine
+- Pentru 25 de puncte, T = 1
+- Pentru 75 de puncte, T = 2
+
+Exemplu
+
+cresc.in
+
+1 6
+2 3 3 4 4 5
+
+cresc.out
+
+DA
+
+### Explicație
+
+Se rezolvă doar prima cerință. Șirul este ordonat crescător, deci se afișează DA.
+
+Exemplu
+
+cresc.in
+
+2 6
+2 3 3 8 6 7
+
+cresc.out
+
+DA
+
+### Explicație
+
+Se rezolvă doar a doua cerință. Dacă eliminăm valoarea 8, atunci șirul rămas este 2,3,3,6,7 și este ordonat crescător.
+
+Exemplu
+
+cresc.in
+
+2 6
+4 6 4 1 7 9
+
+cresc.out
+
+NU
+
+### Explicație
+
+Se rezolvă doar a doua cerință. Indiferent ce număr eliminăm, șirul rămas nu este ordonat crescător.
+
+Exemplu
+
+cresc.in
+
+2 5
+2 4 4 5 6
+
+cresc.out
+
+DA
+
+### Explicație
+
+Se rezolvă doar a doua cerință. Indiferent ce număr eliminăm, șirul rămas este ordonat crescător.

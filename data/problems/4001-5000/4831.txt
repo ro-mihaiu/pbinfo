@@ -1,0 +1,83 @@
+#4831
+perechi4
+Sursa: https://www.pbinfo.ro/probleme/4831/perechi4
+
+Gigel a primit o sarcină interesantă: se dă un șir de N numere numere naturale și un număr natural K. Ajutați-l pe Gigel să rezolve următoarele două cerințe.
+
+Cerința
+
+1) Fie X primul număr din șir. Determinați poziția celui mai mic număr Y care aparține șirului, astfel încât suma celor două numere X și Y să fie divizibilă cu K. Dacă valoarea Y, cu proprietatea precizată, apare de mai multe ori în șir, se ia în considerare poziția cea mai din dreapta. Există cel puțin un astfel de număr Y, care aparține șirului.
+
+2) Determinați numărul minim de elemente care trebuie eliminate din șir astfel încât elementele rămase să poată fi grupate în perechi disjuncte (fiecare element rămas aparține unei singure perechi), cu proprietatea că suma celor două valori din fiecare pereche este divizibilă cu K.
+
+Date de intrare
+
+Fișierul de intrare perechi.in conține:
+
+- pe prima linie, un număr natural C reprezentând cerința de rezolvat (C = 1 sau C = 2);
+- pe cea de-a doua linie, două numere naturale N și K, cu semificația din enunț;
+- pe cea de-a treia linie, N numere naturale, reprezentând elementele șirului.
+
+Numerele aflate pe aceeași linie sunt separate prin câte un spațiu.
+
+Date de ieșire
+
+Fișierul de ieșire perechi.out conține pe prima linie un număr natural, reprezentând numărul determinat conform cerinței C.
+
+Restricții și precizări
+
+- 2 ≤ N ≤ 100.000;
+- 1 ≤ K ≤ 100.000;
+- toate elementele șirului au valori cuprinse între 0 și 1.000.000.000;
+- pentru C = 1, poziția primului element X nu coincide cu poziția lui Y;
+- o pereche este formată din exact două elemente.
+- Pentru 31 de puncte, C = 1
+- Pentru 69 de puncte, C = 2
+
+Exemplu
+
+perechi.in
+
+1
+7 3
+2 3 4 5 1 1 2
+
+perechi.out
+
+6
+
+### Explicație
+
+C = 1, N = 7, K = 3, șirul este [2, 3, 4, 5, 1, 1, 2], iar X = 2. Valorile lui Y din șir pentru care (X + Y) % 3 = 0 sunt: 4 (poziția 3, deoarece 2 + 4 = 6) și 1 (pozițiile 5 și 6, deoarece 2 + 1 = 3). Astfel, valoarea minimă cerută cu proprietatea precizată este Y = 1, iar cea mai din dreapta poziție a sa este 6.
+
+Exemplu
+
+perechi.in
+
+2
+4 4
+1 2 3 4
+
+perechi.out
+
+2
+
+### Explicație
+
+C = 2, N = 4, K = 4, șirul este [1, 2, 3, 4]. Dacă eliminăm elementele 2 și 4 rămân 1 și 3, care formează o pereche cu suma 1 + 3 = 4, divizibilă cu 4. Astfel, răspunsul este 2.
+
+Exemplu
+
+perechi.in
+
+2
+6 2
+2 4 6 8 10 12
+
+perechi.out
+
+0
+
+### Explicație
+
+C = 2, N = 6, K = 2, șirul este [2, 4, 6, 8, 10, 12]. Se pot forma perechile (2, 4), (6, 8), (10, 12), cu sumele 6, 14, 22, fiecare divizibilă cu 2. O alta modalitate de a forma perechi este: (2, 8), (4, 10), (6, 12), cu sumele 10, 14, 18, fiecare divizibilă cu 2. Astfel, răspunsul este 0.

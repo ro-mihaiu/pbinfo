@@ -1,0 +1,54 @@
+#4842
+sudoku diagonal
+Sursa: https://www.pbinfo.ro/probleme/4842/sudoku-diagonal
+
+Cerința
+
+Se dă o matrice 9x9, reprezentând un puzzle **Sudoku Diagonal** incomplet. Determinați soluția acestui puzzle, știind că trebuie să completați spațiile libere astfel încât să se respecte următoarele condiții:
+
+1. fiecare linie conține toate cifrele de la 1 la 9, fără să se repete;
+2. fiecare coloana conține toate cifrele de la 1 la 9, fără să se repete;
+3. diagonala principală și diagonala secundară a matricei (căsuțele albastre) conțin toate cifrele de la 1 la 9, fără să se repete;
+4. fiecare submatrice 3x3, marcată prin linii îngroșate, conține toate cifrele de la 1 la 9, fără să se repete.
+
+Un exemplu de puzzle SudokuDiagonal completat corect:
+
+
+
+Date de intrare
+
+Fișierul de intrare sudokudiagonal.in conține 9 linii, fiecare linie având 9 cifre separate printr-un spațiu, reprezentând un puzzle Sudoku Diagonal, în care **pozițiile** **necompletate** **au** **valoarea**0.
+
+Date de ieșire
+
+Fișierul de ieșire sudokudiagonal.out va conține 9 linii, fiecare linie având 9 cifre separate print-un spațiu, reprezentând soluția cerută.
+
+Restricții și precizări
+
+- se garantează că puzzle-ul SudokuDiagonal din fișierul de intrare are **soluție** **unică**, pentru toate testele de evaluare
+
+Exemplu
+
+sudokudiagonal.in
+
+0 6 0 0 0 1 0 0 7
+0 5 0 0 0 0 0 0 4
+0 0 0 0 0 0 0 5 0
+5 0 7 8 9 0 0 3 0
+8 0 0 5 4 0 7 1 0
+4 0 0 2 0 0 5 9 0
+0 7 5 0 0 0 2 0 3
+0 0 0 0 0 0 0 6 0
+0 8 0 0 2 0 9 0 1
+
+sudokudiagonal.out
+
+9 6 8 4 5 1 3 2 7
+7 5 1 9 3 2 6 8 4
+2 4 3 7 6 8 1 5 9
+5 1 7 8 9 6 4 3 2
+8 2 9 5 4 3 7 1 6
+4 3 6 2 1 7 5 9 8
+6 7 5 1 8 9 2 4 3
+1 9 2 3 7 4 8 6 5
+3 8 4 6 2 5 9 7 1

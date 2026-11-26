@@ -16,6 +16,7 @@ const store = require('./data/store');
 const i18n = require('./lib/i18n');
 const grades = require('./lib/grades');
 const parser = require('./lib/parser');
+const pbinfo = require('./lib/pbinfo');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -43,7 +44,21 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Provide shared locals to all views
 app.use((req, res, next) => {
-  res.locals.t = i18n.t;
+  const selected = req.query.lang;
+  const saved = req.headers.cookie?.match(/(?:^|;\s*)pbinfo_lang=(ro|en|fr|de)(?:;|$)/)?.[1];
+  const hasSelection = typeof selected === 'string' && Object.hasOwn(i18n.languages, selected);
+  const locale = hasSelection ? selected : saved || 'ro';
+  if (hasSelection && saved !== locale) {
+    res.cookie('pbinfo_lang', locale, { maxAge: 365 * 86400_000, httpOnly: true, sameSite: 'lax', secure: req.secure });
+  }
+  res.vary('Cookie');
+  res.locals.locale = locale;
+  res.locals.t = (key) => i18n.t(key, locale);
+  res.locals.languageUrl = (language) => {
+    const query = new URLSearchParams(req.originalUrl.split('?').slice(1).join('?'));
+    query.set('lang', language);
+    return `?${query}`;
+  };
   res.locals.i18n = i18n;
   res.locals.grades = grades;
   res.locals.path = req.path;
@@ -161,7 +176,7 @@ function renderArchive(req, res) {
   }
 
   res.render('archive', {
-    title: i18n.t('archive_title'),
+    title: res.locals.t('archive_title'),
     problems: pagedProblems,
     totalResults,
     query: req.query.q || '',
@@ -187,12 +202,7 @@ app.get('/archive', (req, res) => {
 });
 
 // Problems missing a solution and/or statement
-function getUnresolvedProblemGroups() {
-  const categoryDefinitions = [
-    { key: 'both', label: 'Fără cerință și soluție' },
-    { key: 'solution', label: 'Fără soluție' },
-    { key: 'statement', label: 'Fără cerință' }
-  ];
+function getUnresolvedProblemGroups(categoryDefinitions) {
   const byGrade = new Map();
 
   function getGradeKey(value) {
@@ -277,7 +287,7 @@ function getUnresolvedProblemGroups() {
     group.count = group.difficulties.reduce((sum, difficulty) => sum + difficulty.count, 0);
   }
 
-  return summarizeUnresolvedGroups(gradeGroups, categoryDefinitions);
+  return gradeGroups;
 }
 
 function summarizeUnresolvedGroups(gradeGroups, categoryDefinitions) {
@@ -294,7 +304,11 @@ function summarizeUnresolvedGroups(gradeGroups, categoryDefinitions) {
 
 app.get('/n', (req, res) => {
   const query = String(req.query.q || '').trim();
-  const { gradeGroups } = getUnresolvedProblemGroups();
+  const categoryDefinitions = ['both', 'solution', 'statement'].map((key) => ({
+    key,
+    label: res.locals.t(`unresolved_${key}`)
+  }));
+  const gradeGroups = getUnresolvedProblemGroups(categoryDefinitions);
 
   if (query) {
     const matchesQuery = (problem) => String(problem.id).includes(query);
@@ -314,15 +328,10 @@ app.get('/n', (req, res) => {
     }
   }
 
-  const categoryDefinitions = [
-    { key: 'both', label: 'Fără cerință și soluție' },
-    { key: 'solution', label: 'Fără soluție' },
-    { key: 'statement', label: 'Fără cerință' }
-  ];
   const groups = summarizeUnresolvedGroups(gradeGroups, categoryDefinitions);
 
   res.render('unresolved', {
-    title: 'Probleme nerezolvate',
+    title: res.locals.t('unresolved_title'),
     query,
     ...groups
   });
@@ -419,7 +428,7 @@ async function getRecentChangePosts() {
 app.get('/s', async (req, res) => {
   const changelog = await getRecentChangePosts();
   res.render('changes', {
-    title: 'Schimbări',
+    title: res.locals.t('nav_changes'),
     posts: changelog.posts,
     stale: changelog.stale,
     sourceUrl: 'https://github.com/ro-mihaiu/pbinfo/commits/main'
@@ -430,7 +439,7 @@ app.get('/s', async (req, res) => {
 app.get('/h', (req, res) => {
   const homework = store.getAllHomework();
   res.render('homework', {
-    title: i18n.t('homework_title'),
+    title: res.locals.t('homework_title'),
     homework
   });
 });
@@ -443,7 +452,7 @@ app.get('/h/clasa-:grade', (req, res) => {
   }
   const homework = store.getAllHomework().filter((h) => h.grade === grade);
   res.render('homework', {
-    title: i18n.t('homework_title'),
+    title: res.locals.t('homework_title'),
     homework,
     activeGrade: grade
   });
@@ -491,8 +500,8 @@ function renderHomeworkWeek(res, week, gradeFilter) {
   if (!raw) {
     return res.status(404).render('error', {
       code: 404,
-      title: i18n.t('error_404_title'),
-      text: i18n.t('error_404_text')
+      title: res.locals.t('error_404_title'),
+      text: res.locals.t('error_404_text')
     });
   }
 
@@ -505,7 +514,7 @@ function renderHomeworkWeek(res, week, gradeFilter) {
   const allHomeworks = store.getAllHomework();
 
   res.render('homework-week', {
-    title: `${i18n.t('homework_title')} - ${week}`,
+    title: `${res.locals.t('homework_title')} - ${week}`,
     week,
     grade: parsed.grade,
     html,
@@ -518,21 +527,21 @@ function renderHomeworkWeek(res, week, gradeFilter) {
 // Legal pages
 app.get('/privacy', (req, res) => {
   res.render('legal', {
-    title: i18n.t('legal_privacy'),
+    title: res.locals.t('legal_privacy'),
     pageKey: 'privacy'
   });
 });
 
 app.get('/terms', (req, res) => {
   res.render('legal', {
-    title: i18n.t('legal_terms'),
+    title: res.locals.t('legal_terms'),
     pageKey: 'terms'
   });
 });
 
 app.get('/cookies', (req, res) => {
   res.render('legal', {
-    title: i18n.t('legal_cookies'),
+    title: res.locals.t('legal_cookies'),
     pageKey: 'cookies'
   });
 });
@@ -668,6 +677,7 @@ async function renderProblemById(req, res) {
     'Restricții și precizări': problem.details?.restrictii
   }).filter(([, content]) => content).map(([heading, content]) => ({ heading, content }));
   const examples = problem.details?.exemple || [];
+  const officialPageMissing = (!statement.length || !solution) && await pbinfo.isOfficialPageMissing(id);
 
   res.render('problem', {
     title: `#${problem.id} · ${problem.titles?.ro || String(id)}`,
@@ -675,6 +685,8 @@ async function renderProblemById(req, res) {
     solution,
     hasSolution: !!solution,
     statement,
+    officialPageMissing,
+    officialProblemUrl: pbinfo.problemUrl(id),
     prev,
     next,
     difficultyLabel: grades.getDifficultyLabel(problem.difficulty),
@@ -712,8 +724,8 @@ app.get('/:id', (req, res) => {
 function nextNotFound(req, res) {
   res.status(404).render('error', {
     code: 404,
-    title: i18n.t('error_404_title'),
-    text: i18n.t('error_404_text')
+    title: res.locals.t('error_404_title'),
+    text: res.locals.t('error_404_text')
   });
 }
 
@@ -724,8 +736,8 @@ app.use((err, req, res, next) => {
   console.error('Server error:', err);
   res.status(500).render('error', {
     code: 500,
-    title: i18n.t('error_500_title'),
-    text: i18n.t('error_500_text')
+    title: res.locals.t('error_500_title'),
+    text: res.locals.t('error_500_text')
   });
 });
 

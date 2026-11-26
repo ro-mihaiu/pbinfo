@@ -1,0 +1,39 @@
+#4734
+InlocuireRec4
+Sursa: https://www.pbinfo.ro/probleme/4734/inlocuirerec4
+
+Cerința
+
+Se dă un tablou cu n elemente, numere naturale. Să se înlocuiască fiecare element par al tabloului cu diferența dintre valoarea acestuia și valoarea primului element.
+
+Se vor defini și apela următoarele subprograme **recursive**:
+
+- citire, care citește de la tastatură cele n elemente ale unui tablou
+- afisare, care afișează pe ecran elementele tabloului separate prin exact un spațiu
+- inloc, care realizează înlocuirile cerute.
+
+**În programele C/C++ nu se vor folosi variabile globale**.
+
+Date de intrare
+
+Se citește de la tastatură numărul n, iar apoi cele n elemente ale tabloului.
+
+Date de ieșire
+
+Se vor afișa pe ecran elementele tabloului obținut, separate prin exact un spațiu.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 1000
+- elementele tabloului vor fi mai mici decât 1.000.000.000
+
+Exemplu
+
+**Intrare**
+
+7
+30 108 2147 1275 2000 529 740
+
+**Ieșire**
+
+0 78 2147 1275 1970 529 710

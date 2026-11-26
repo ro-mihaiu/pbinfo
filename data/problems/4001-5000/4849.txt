@@ -1,0 +1,160 @@
+#4849
+Trixie2
+Sursa: https://www.pbinfo.ro/probleme/4849/trixie2
+
+Enunț
+
+Cu ocazia intrării în sezonul 8 al competiției de robotică FTC, Trixie se decide să își ajute echipa și să curețe terenul pe care au loc sesiunile de antrenament ale echipei. Tema sezonului acesta implică un teren de dimensiuni nemaivăzute până acum, care poate fi reprezentat sub forma de matrice cu n linii și m coloane, matrice cu n * m tile-uri (bucăți de teren cu o formă asemănătoare unei piese de puzzle) pe care Trixie scrie n * m numere naturale notate t[i][j], câte unul pentru fiecare tile. De asemenea, este important să menționăm că terenul este prevăzut cu pereți laterali pe toate cele 4 laturi, astfel încât Trixie nu poate ieși din perimetrul terenului.
+
+Pentru a începe curățenia, aceasta folosește o dronă de ultimă generație care plutește deasupra terenului și efectuează q scanări. O scanare este descrisă prin colțul stânga-sus de coordonate (is, js) și colțul dreapta-jos de coordonate (ij, jj). Din cauza unui defect, drona adaugă 1 la fiecare element din submatricea scanată.
+
+**ATENȚIE!** Trixie poate să greșească și să aleagă colțul dreapta-jos în afara terenului. În acest caz, scanarea se aplică doar pe intersecția cu terenul:
+
+i2 = min(ij, n), j2 = min(jj, m);
+
+se adaugă 1 tuturor celulelor (i, j) cu is ≤ i ≤ i2 și js ≤ j ≤ j2;
+
+dacă după tăiere rezultă un dreptunghi vid (adică is > i2 sau js > j2), scanarea nu are efect.
+
+După ce toate scanările au fost aplicate, Trixie parcurge terenul și, pentru fiecare pereche de linii consecutive (i, i+1), cu 1 ≤ i ≤ n-1, procedează astfel: ia tile-urile **alunecoase** de pe linia i și tile-urile **super-alunecoase** de pe linia i+1, apoi înmulțește fiecare număr de pe tile-urile **alunecoase** cu fiecare număr de pe tile-urile **super-alunecoase**. Fiecare astfel de produs se numește **nivel de alunecare** și corespunde unui **OMEGA-tile**.
+
+Un tile **alunecos** este definit ca un tile pe care este scris un număr **prim**. (Numerele 0 și 1 nu sunt prime.)
+
+Un tile **super-alunecos** este definit ca un tile pe care este scris un număr **aprim**. Numim un număr **aprim** dacă acesta se poate scrie **exact** ca produsul a **două** numere prime **distincte**: x = p * q, unde p și q sunt prime și p ≠ q. (De exemplu 6=2*3 și 10=2*5 sunt aprime, dar 4=2*2 nu este aprim, iar 12=2*2*3 nu este aprim.)
+
+Pentru o pereche de linii (i, i+1), notăm cu P mulțimea valorilor prime din linia i și cu S mulțimea valorilor aprime din linia i+1. Trixie formează toate **OMEGA-tile-urile** posibile, alegând orice p ∈ P și orice s ∈ S. Nivelul de alunecare este p * s.
+
+**Important:** dacă există mai multe perechi (p, s) care dau același produs, acel produs apare de mai multe ori (se lucrează cu un multiset de produse).
+
+Trixie își pune n - 1 întrebări (o întrebare pentru fiecare pereche de linii consecutive), de tipul:
+
+**„Care este nivelul de alunecare pentru al k-lea cel mai puțin alunecos OMEGA-tile?”**
+
+(adică al k-lea produs în ordine crescătoare).
+
+Cerința
+
+Din pricina unei actualizări neșteptate ale sistemului pe care operează Trixie, aceasta uită de **OMEGA-tile-urile** căutate. Aceasta vă roagă să scrieți un algoritm care:
+
+aplică cele q scanări asupra matricei;
+
+pentru fiecare pereche de linii consecutive (i, i+1), cu 1 ≤ i ≤ n-1, afișează răspunsul la întrebarea corespunzătoare.
+
+Dacă pentru o pereche de linii numărul de **OMEGA-tile-uri** este insuficient (adică k > |P| * |S|), se afișează „-”.
+
+**Caz special:** dacă n = 1 nu există nicio pereche de linii și deci nu există întrebări; în acest caz se afișează o singură linie cu textul nu exista.
+
+Date de intrare
+
+Fișierul de intrare "trixie2.in" va conține pe prima linie n și m cu semnificația din enunț. Pe următoarele n linii se află matricea de n * m elemente. Pe următoarea linie se află q cu semnificația din enunț. Pe următoarele q linii se află is, js, ij, jj, însemnând că se scanează submatricea cu colțul stânga-sus (is, js) și colțul dreapta-jos (ij, jj). Iar pe următoarele n - 1 linii se citește câte un k (în ordine, pentru perechile (1,2), (2,3), ..., (n-1,n)).
+
+p. Coordonatele sunt 1-indexate.
+
+Date de ieșire
+
+Fișierul de ieșire "trixie2.out":
+
+dacă n = 1, conține o singură linie: nu exista
+
+altfel, conține n - 1 linii; pe linia i se află un singur număr sau „-” ce reprezintă răspunsul pentru întrebarea asociată perechii de linii (i, i+1).
+
+Restricții și precizări
+
+1 ≤ n ≤ 1000
+
+1 ≤ m ≤ 1000
+
+0 ≤ q ≤ 200 000
+
+fiecare număr din matrice este 0 ≤ t[i][j] < 1 000 000 000
+
+pentru scanări: 1 ≤ is ≤ n, 1 ≤ js ≤ m, is ≤ ij, js ≤ jj (dar ij poate depăși n și/sau jj poate depăși m)
+
+pentru fiecare pereche de linii se dă un k cu 1 ≤ k ≤ m * m + 1; dacă k depășește numărul de **OMEGA-tiles** se afișează „-”
+
+**Atenție:** răspunsurile pot depăși 2^31 - 1, folosiți tipuri pe **64 de biți**.
+
+Exemplu
+
+trixie2.in
+
+3 4
+3 5 7 9
+6 10 16 18
+2 3 4 5
+1
+2 4 3 4
+5
+6
+
+trixie2.out
+
+50
+-
+
+### Explicație
+
+Valorile terenului după scanarea efectuată de dronă:
+3 5 7 9
+6 10 16 19
+2 3 4 6
+Pentru perechea (1,2):
+Valorile ordonate scrise pe tile-urile alunecoase (prime), respectiv super-alunecoase (aprime):
+3 5 7
+6 10
+Șirul ordonat cu nivelul de alunecare de pe OMEGA-tiles:
+18 30 30 42 50 70
+Al 5-lea cel mai puțin alunecos OMEGA-tile este cel cu nivelul de alunecare 50.
+Pentru perechea (2,3):
+Prime în linia 2: 19
+Aprime în linia 3: 6
+Există doar 1 OMEGA-tile, deci nu există al 6-lea; se afișează „-”.
+
+Exemplu
+
+trixie2.in
+
+5 6
+0 1 4 19 19 19
+19 26 0 1 2 2
+1 5 13 29 61 61
+7 11 0 6 24 24
+4 8 11 18 30 30
+3
+1 1 7 7
+1 1 7 7
+1 1 7 7
+1
+1
+1
+1
+
+trixie2.out
+
+66
+-
+-
+42
+
+### Explicație
+
+Valorile terenului după scanări:
+3 4 7 22 22 22
+22 29 3 4 5 5
+4 8 16 32 64 64
+10 14 3 9 27 27
+7 11 14 21 33 33
+Pentru perechea (1,2):
+Tile-uri alunecoase (prime) în linia 1: 3 7
+Tile-uri super-alunecoase (aprime) în linia 2: 22
+Produsele posibile: 66 154
+Cel mai puțin alunecos este 66.
+Pentru perechea (2,3):
+În linia 3 nu există aprime, deci nu există OMEGA-tiles -> „-”.
+Pentru perechea (3,4):
+În linia 3 nu există prime, deci nu există OMEGA-tiles -> „-”.
+Pentru perechea (4,5):
+Prime în linia 4: 3
+Aprime în linia 5: 14 21 33 33
+Produsele: 42 63 99 99
+Cel mai puțin alunecos este 42.

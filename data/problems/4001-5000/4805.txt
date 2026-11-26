@@ -1,0 +1,90 @@
+#4805
+corsa
+Sursa: https://www.pbinfo.ro/probleme/4805/corsa
+
+Cerința
+
+Te-ai decis să ieși la o plimbare cu Opelozaurul pe un traseu care conține, la fiecare kilometru, un indicator cu numerele naturale din intervalul [1, N], în ordine crescătoare. Îți începi traseul în dreptul indicatorului cu numărul 1 și îl termini la indicatorul cu numărul N.
+
+În mod normal, reușești să parcurgi orice kilometru cu mașina în 100 de secunde, dar, înainte să începi cursa, drumul a fost afectat de precipitații.
+
+Prima dată a fost afectat de ninsori, fiecare ninsoare fiind descrisă printr-un triplet L R k, care arată că ninsoarea a afectat drumul în intervalul delimitat de indicatoarele L și R, iar acum, în acel interval, numărul de secunde necesare pentru a parcurge un kilometru crește cu k, indiferent de valoarea lui precedentă.
+
+După ninsori, drumul este afectat de ploi, care sunt descrise și ele prin triplete L R k și limitează timpul în care mașina poate să parcurgă un kilometru în intervalul delimitat de indicatoarele L și R la k secunde.
+
+Se dau Q numere întregi p din intervalul [1, N], iar pentru fiecare trebuie să determini numărul de secunde necesare să ajungi în dreptul panoului p.
+
+Date de intrare
+
+Fișierul de intrare corsa.in conține pe prima linie un număr întreg N — lungimea traseului.
+
+Pe a doua linie se citesc trei numere întregi, s r q — numărul de ninsori, numărul de ploi și numărul de întrebări.
+
+Următoarele S linii conțin câte un triplet L R k, reprezentând o ninsoare.
+
+Următoarele R linii conțin câte un triplet L R k, reprezentând o ploaie.
+
+Ultimele Q linii conțin câte un număr întreg p, reprezentând poziția unui panou pentru care trebuie calculat timpul de parcurs.
+
+Date de ieșire
+
+Se vor afișa în fișierul corsa.outQ linii, fiecare linie conținând un număr întreg, reprezentând timpul necesar pentru a ajunge la indicatorul cu numărul p.
+
+Restricții și precizări
+
+L < R
+
+2 ≤ N ≤ 1010
+
+0 ≤ s, r, q, k ≤ 105
+
+Punctaj
+
+**5 puncte** — N, s, r, q, k ≤ 500
+
+**5 puncte** — Nu există ploi și N ≤ 1010
+
+**10 puncte** — Nu există ninsori și N, S, R, Q, k ≤ 105
+
+**10 puncte** — Nu există ninsori și N ≤ 1010
+
+**20 puncte** — N ≤ 106
+
+**50 puncte** — Fără alte restricții.
+
+Exemplu
+
+corsa.in
+
+10
+1 2 2
+3 6 15
+5 8 110
+7 10 107
+5
+9
+
+corsa.out
+
+430
+872
+
+### Explicație
+
+Inițial, fiecare segment al traseului poate fi parcurs în 100 secunde.
+
+După aplicarea ninsorilor, timpul pe fiecare segment devine:
+
+100 100 115 115 115 100 100 100 100
+
+După aplicarea primei ploi (5 8 110), timpul maxim pe segmentele afectate este limitat la:
+
+100 100 115 115 115 110 110 100 100
+
+După aplicarea ultimei ploi (7 10 107), timpul maxim pe segmentele afectate devine:
+
+100 100 115 115 115 110 110 107 107
+
+Pentru întrebarea p = 5, timpul necesar pentru a ajunge la panou este 430 secunde.
+
+Pentru întrebarea p = 9, timpul necesar pentru a ajunge la panou este 872 secunde.

@@ -1,0 +1,33 @@
+#4899
+minn3
+Sursa: https://www.pbinfo.ro/probleme/4899/minn3
+
+Cerința
+
+Să se scrie un program care citește de la tastatură două numere naturale n și m cu exact 3 cifre fiecare și care calculează si afișează pe ecran 3 numere calculate astfel: primul număr este cel mai mic număr care se poate forma cu cifrele sutelor din numerele n și m, al doilea număr este cel mai mic număr care se poate forma cu cifrele zecilor din numerele n și m, iar al treilea număr este cel mai mic număr care se poate forma cu cifrele unităților din numerele n și m.
+
+Date de intrare
+
+Programul va citi de la tastatură două numere naturale n și m, având câte trei cifre fiecare.
+
+Date de ieșire
+
+Programul va afişa pe ecran cele 3 numere cerute, separate prin câte un spațiu.
+
+Restricții și precizări
+
+- n și m au exact 3 cifre fiecare
+
+Exemplu
+
+**Intrare**
+
+342 871
+
+**Ieşire**
+
+38 47 12
+
+Explicație:
+
+Cu cifrele sutelor se formează numărul 38, cu cifrele zecilor numărul 47, iar cu cifrele unităților numărul 12.

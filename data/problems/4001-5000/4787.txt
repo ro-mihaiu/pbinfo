@@ -1,0 +1,114 @@
+#4787
+prietenie
+Sursa: https://www.pbinfo.ro/probleme/4787/prietenie
+
+Elevii celor două clase de a șaptea din școală merg în excursie. În fiecare clasă sunt câte N elevi. Ovidiu și Mihnea, fiind liderii celor două clase din care fac parte, doresc să analizeze reușita excursiei, în funcție de gradul de compatibilitate dintre elevii participanți la excursie. Pentru a determina acest grad, fiecărui elev din cele două clase îi este atribuit un coeficient de amabilitate. Astfel, elevii din clasa lui Ovidiu au, în ordinea din catalog, coeficienții a1, a2, …, aN, iar elevii din clasa lui Mihnea au, în ordinea din catalog, coeficienții b1, b2, …, bN.
+
+**Gradul de compatibilitate dintre doi elevi** din clase diferite este definit ca pătratul diferenței dintre coeficienții de amabilitate atribuiți fiecăruia. Astfel, gradul de compatibilitate Gi,j dintre
+
+al i-lea elev din clasa lui Ovidiu și al j-lea elev din clasa lui Mihnea este egal cu (ai − bj)2, cu 1 ≤ i ≤ N și 1 ≤ j ≤ N.
+
+**Gradul de compatibilitate dintre cele două clase** este suma tuturor gradelor de compatibilitate dintre oricare doi elevi din clase diferite, adică suma tuturor valorilor Gi,j cu 1 ≤ i ≤ N și 1 ≤ j ≤ N.
+
+Pentru a lega o **prietenie durabilă** doi elevi din clase diferite trebuie să aibă gradul de compatibilitate
+
+fie mai mic sau egal cu X, fie mai mare sau egal cu Y, unde X și Y sunt valori date (adică Gi,j≤ X sau Y ≤ Gi,j).
+
+Se cunosc N, coeficienții a1, a2, …, aN și b1, b2, …, bN, precum și valorile X și Y, cu semnificația din enunț.
+
+Cerința
+
+1\. Determinați gradul de compatibilitate dintre cele două clase.
+
+2\. Determinați, pentru fiecare elev din clasa lui Ovidiu, numărul de elevi din clasa lui Mihnea cu care acesta poate lega o prietenie durabilă.
+
+Date de intrare
+
+Fișierul de intrare prietenie.in conține pe prima linie un singur număr natural C, reprezentând cerința
+
+care trebuie rezolvată (care poate fi doar 1 sau 2). Pe a doua linie se găsesc trei numere naturale N X Y, cu semnificația din enunț. Pe a treia linie se găsesc N numere naturale a1, a2, …, aN, cu semnificația din enunț. Pe a patra linie se găsesc N numere naturale b1, b2, …, bN, cu semnificația din enunț. Numerele aflate pe aceeași linie a fișierului sunt separate prin câte un spațiu.
+
+Date de ieșire
+
+Fișierul de ieșire prietenie.out va conține:
+
+- dacă C = 1, numărul natural determinat pentru cerința 1;
+- dacă C = 2, N numere naturale, separate prin câte un spațiu, reprezentând numerele determinate pentru cerința 2, corespunzătoare ordinii în care elevii apar în catalogul clasei.
+
+Restricții și precizări
+
+- 1 ≤ N ≤ 200.000
+- 0 ≤ ai, bj≤ 30.000
+- 0 ≤ X ≤ Y ≤ 900.000.000
+- Ovidiu a observat că (ai-bj)2 se poate scrie și sub forma ai2+ bj2- 2 * ai* bj.
+- Pentru 25 de puncte, C = 1 și 1 ≤ N ≤ 2.500
+- Pentru 10 puncte, C = 1 și 2.500 < N ≤ 200.000 și 0 ≤ ai, bj≤ 5.000, pentru orice 1 ≤ i, j ≤ N
+- Pentru 10 puncte, C = 1 și 2.500 < N ≤ 200.000
+- Pentru 25 de puncte, C = 2 și 1 ≤ N ≤ 2.500
+- Pentru 15 puncte, C = 2 și și 2.500 < N ≤ 200.000 și 0 ≤ ai, bj≤ 5.000, pentru orice 1 ≤ i, j ≤ N
+- Pentru 15 puncte, C = 2 și 2.500 < N ≤ 200.000
+
+Exemplu
+
+prietenie.in
+
+1
+4 3 10
+1 3 5 7
+5 1 4 2
+
+prietenie.out
+
+136
+
+### Explicație
+
+Se rezolvă cerința C = 1. Avem N = 4.
+
+G11 = (a1 − b1)^2 = (1 − 5)^2 = 16;
+
+G12 = (a1 − b2)^2 = (1 − 1)^2 = 0;
+
+. . .
+
+Gradul de compatibilitate dintre cele două clase este egal cu:
+
+(1 − 5)^2 + (1 − 1)^2 + (1 − 4)^2 + (1 − 2)^2 +
+
+(3 − 5)^2 + (3 − 1)^2 + (3 − 4)^2 + (3 − 2)^2 +
+
+(5 − 5)^2 + (5 − 1)^2 + (5 − 4)^2 + (5 − 2)^2 +
+
+(7 − 5)^2 + (7 − 1)^2 + (7 − 4)^2 + (7 − 2)^2 =
+
+16 + 0 + 9 + 1 + 4 + 4 + 1 + 1 + 0 + 16 + 1 + 9 + 4 + 36 + 9 + 25 = 136
+
+Exemplu
+
+prietenie.in
+
+2
+4 3 10
+1 3 5 7
+5 1 4 2
+
+prietenie.out
+
+3 2 3 2
+
+### Explicație
+
+Se rezolvă cerința C = 2, pentru care N = 4, X = 3 și Y = 10. Pentru primul elev din clasa lui Ovidiu,
+
+care are coeficientul a1 = 1, gradele de compatibilitate cu elevii din cealaltă clasă sunt:
+
+- (𝑎1 − 𝑏1)^2 = (1 − 5)^2 = 16, iar 16 ≥ Y;
+- (𝑎1 − 𝑏2)^2 = (1 − 1)^2 = 0, iar 0 ≤ X;
+- (𝑎1 − 𝑏3)^2 = (1 − 4)^2 = 9, iar X < 9 < Y;
+- (𝑎1 − 𝑏4)^2 = (1 − 2)^2 = 1, iar 1 ≤ X;
+
+Astfel, el poate lega o prietenie de lungă durata cu 3 elevi din clasa lui Mihnea: cu primul, cu al doilea și cu al patrulea.
+
+Al doilea elev din clasa lui Ovidiu poate lega o prietenie de lungă durata cu doi elevi din clasa lui Mihnea: cu al treilea și cu al patrulea.
+
+Analog, al treilea și al patrulea elev din clasa lui Ovidiu pot lega o prietenie de lungă durată cu 3 elevi, respectiv cu 2 elevi din clasa lui Mihnea.

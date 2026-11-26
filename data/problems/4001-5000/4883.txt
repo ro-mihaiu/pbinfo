@@ -1,0 +1,35 @@
+#4883
+F26
+Sursa: https://www.pbinfo.ro/probleme/4883/f26
+
+Cerința
+
+Se dă un număr natural, n (n∊[1,109]), și se cere să determine cel mai mare număr natural p cu proprietatea că numărul 26p este divizor al numărului obținut prin calcularea produsului 1∙2∙3∙...∙n.
+
+Proiectați un algoritm eficient din punctul de vedere al timpului de executare și al memoriei utilizate.
+
+Date de intrare
+
+Fișierul de intrare bac.in conține pe prima linie numărul n.
+
+Date de ieșire
+
+Fișierul de ieșire bac.out va conține pe prima linie numărul cerut p.
+
+Restricții și precizări
+
+- 2 ≤ n ≤ 109
+
+Exemplu
+
+**Date de intrare**
+
+28
+
+**Date de ieșire**
+
+2
+
+## Explicație
+
+262=676 este divizor al lui 1∙2∙3∙..∙28 = 304888344611713860501504000000.

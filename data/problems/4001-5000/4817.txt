@@ -1,0 +1,124 @@
+#4817
+cromatic
+Sursa: https://www.pbinfo.ro/probleme/4817/cromatic
+
+Fie a = (a[1], a[2], ..., a[n]) un șir de n numere întregi. Pentru fiecare k ∈ {1,2, ...,n}, definim min[k] = min{a[1], a[2], ... ,a[k]} și max[k] = max{a[1], a[2], ...,a[k]}. Astfel, asociem șirului a un alt șir de intervale închise minmax = ([min[1], max[1]], [min[2], max[2]], ..., [min[n], max[n]]).
+
+Vom spune că șirul a este un **șir cromatic** dacă și numai dacă elementele șirului minmax sunt distincte două câte două, adică nu există două intervale identice în șir.
+
+De exemplu, dacă a = (7, 4, 9), atunci șirul minmax este ([7, 7], [4, 7], [4, 9]). Cum nu există două intervale identice în minmax, șirul a este cromatic. În schimb, dacă a = (4, 9, 7), atunci șirul minmax este ([4, 4], [4, 9], [4, 9]). Intervalul [4, 9] se repetă, deci șirul a **nu** este cromatic.
+
+Considerăm toate șirurile cromatice distincte ce se pot forma prin rearanjarea elementelor șirului a și le ordonăm lexicografic. Notăm cu NSC numărul de șiruri astfel obținute. De exemplu, dintre cele 6 permutări ale șirului a = (7,4,9), numai NSC = 4 sunt cromatice:
+
+1) (4, 7, 9);
+
+2) (7, 4, 9);
+
+3) (7, 9, 4);
+
+4) (9, 7, 4).
+
+Cerința
+
+Dându-se un șir a, nu neapărat cromatic, să se determine:
+
+- Numărul de șiruri cromatice NSC ce se pot forma prin rearanjarea elementelor șirului a. Întrucât acest număr poate fi foarte mare, se cere NSC modulo 1.000.000.007.
+- Știind că șirul a este cromatic, să se determine poziția p ∈ {1, 2, ..., NSC} a șirului a în lista ordonată lexicografic a tuturor permutărilor cromatice ale lui a.
+- Dat fiind q ∈ {1, 2, ..., NSC}, să se determine cel de-al q-lea șir cromatic în ordine lexicografică ce se poate obține prin rearanjarea elementelor șirului a.
+
+Date de intrare
+
+Fișierul de intrare cromatic.in conține pe prima linie un număr natural c ∈ {1, 2, 3}, reprezentând numărul cerinței de rezolvat:
+
+- Dacă c = 1, pe linia a doua vom avea un număr natural n, iar pe linia a treia vom avea n numere naturale separate prin spații, reprezentând un șir **nu neapărat cromatic**.
+- Dacă c = 2, pe linia a doua vom avea un număr natural n, iar pe linia a treia vom avea n numere naturale separate prin spații, reprezentând un șir cromatic.
+- Dacă c = 3, linia a doua va conține numerele n și p separate prin spații, iar linia a treia va conține n numere distincte separate prin spații, reprezentând un șir **nu neapărat cromatic**.
+
+Date de ieșire
+
+Fișierul de ieșire cromatic.out trebuie să conțină o singură linie, pe care se va afișa, în funcție de numărul cerinței de rezolvat:
+
+- Dacă c = 1, numărul natural NSC modulo 1.000.000.007;
+- Dacă c = 2, numărul natural p, ce reprezintă poziția șirului a în lista ordonată lexicografic a tuturor șirurilor cromatice obținute prin rearanjarea elementelor șirului citit;
+- Dacă c = 3, un șir de n numere naturale, separate prin spații, ce reprezintă cel de-al q-lea șir cromatic în ordine lexicografică care se poate obține prin rearanjarea elementelor șirului a.
+
+Restricții și precizări
+
+- 2  ≤ n ≤ 300.000;
+- -1.000.000.000 ≤ a[i] ≤ 1.000.000.000;
+- 1 ≤ p, q ≤ 1.000.000.000;
+- p, q ∈ {1, 2, ..., NSC}.
+- Pentru 9 puncte, c=1, n ≤ 20
+- Pentru 7 puncte, c=1, 21 ≤ n ≤ 300.000
+- Pentru 10 puncte, c=2, 1 ≤ p ≤ n
+- Pentru 10 puncte, c=2, NSC - p ≤ n
+- Pentru 10 puncte, c=2, n ≤ 20
+- Pentru 12 puncte, c=2, 21 ≤ n ≤ 300.000
+- Pentru 10 puncte, c=3, 1 ≤ q ≤ n
+- Pentru 10 puncte, c=3, NSC - q ≤ n
+- Pentru 10 puncte, c=3, n ≤ 20
+- Pentru 12 puncte, c=3, 21 ≤ n ≤ 300.000
+
+Exemplu
+
+cromatic.in
+
+1
+4
+1 5 3 8
+
+cromatic.out
+
+8
+
+### Explicație
+
+Avem 8 șiruri cromatice distincte:
+
+1: 1 3 5 8
+
+2: 3 1 5 8
+
+3: 3 5 1 8
+
+4: 3 5 8 1
+
+5: 5 3 1 8
+
+6: 5 3 8 1
+
+7: 5 8 3 1
+
+8: 8 5 3 1
+
+Exemplu
+
+cromatic.in
+
+2
+4
+5 3 1 8
+
+cromatic.out
+
+5
+
+### Explicație
+
+În lista ordonată lexicografic, șirul citit se găsește pe poziția 5.
+
+Exemplu
+
+cromatic.in
+
+3
+4 7
+5 3 1 8
+
+cromatic.out
+
+5 8 3 1
+
+### Explicație
+
+A șaptea soluție în ordine lexicografică este 5 8 3 1

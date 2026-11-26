@@ -1,0 +1,91 @@
+#4790
+palindrom1
+Sursa: https://www.pbinfo.ro/probleme/4790/palindrom1
+
+**Oglinditul** unui număr natural este obținut din cifrele acestuia, citite de la dreapta la stânga. Un număr natural este **palindrom** dacă este egal cu oglinditul său. De exemplu, numărul 121 este palindrom deoarece oglinditul său este tot 121, iar numărul 124 nu este palindrom deoarece oglinditul său este 421.
+
+**Inserarea** unei cifre într-un număr natural se poate face înainte de prima cifră a numărului (numai dacă cifra inserată este nenulă), după ultima cifră a numărului sau între oricare două cifre învecinate.
+
+Se dă un număr natural N și apoi N numere naturale, toate având același număr de cifre.
+
+Cerințe
+
+1) Determinați câte dintre cele N numere sunt palindrom.
+
+2) Determinați câte dintre cele N numere pot deveni palindrom prin inserarea în acestea a câte unei cifre.
+
+3) Determinați câte dintre cele N numere pot deveni palindrom prin inserarea în acestea a câte două cifre.
+
+Date de intrare
+
+Fișierul de intrare palindrom.in conține
+
+- pe prima linie un număr natural C, reprezentând numărul cerinței, care poate avea valorile 1, 2 sau 3;
+- pe a doua linie un număr natural N, având semnificația din enunț;
+- pe a treia linie N numere naturale, despărțite prin câte un spațiu, având semnificația din enunț.
+
+Date de ieșire
+
+În fișierul de ieșire palindrom.out se afișează, pe prima linie, un număr natural reprezentând rezultatul determinat conform cerinței C.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 100.000
+- Toate numerele de pe a treia linie au același număr de cifre, notat cu X
+- 2 ≤ X ≤ 9
+- Pentru 41 de puncte, C = 1
+- Pentru 11 puncte, C = 2, X ≤ 3
+- Pentru 18 puncte, C = 2, X > 3
+- Pentru 11 puncte, C = 3, X ≤ 4
+- Pentru 19 puncte, C = 3, X > 4
+
+Exemplu
+
+palindrom.in
+
+1
+3
+12321 10301 10331
+
+palindrom.out
+
+2
+
+### Explicație
+
+12321 și 10301 sunt palindrom. 10331 nu este palindrom.
+
+Exemplu
+
+palindrom.in
+
+2
+4
+232 233 243 990
+
+palindrom.out
+
+2
+
+### Explicație
+
+232 devine 2332 prin inserarea unei cifre, care este palindrom. 233 devine 2332 prin inserarea unei cifre, care este palindrom. 243 nu poate deveni palindrom prin inserarea unei singure cifre. 990 nu poate deveni palindrom prin inserarea unei singure cifre (nu se permite inserarea cifrei 0 înainte de prima cifră
+
+a numărului).
+
+Exemplu
+
+palindrom.in
+
+3
+5
+1221 1231 3112 9880
+9890
+
+palindrom.out
+
+4
+
+### Explicație
+
+1221 devine 123321, care este palindrom. 1231 devine 123321, care este palindrom. 3112 devine 231132, care este palindrom. 9880 devine 908809, care este palindrom. 9890 nu poate deveni palindrom prin inserarea a două cifre.

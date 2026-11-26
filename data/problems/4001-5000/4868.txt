@@ -1,0 +1,35 @@
+#4868
+Echilibru
+Sursa: https://www.pbinfo.ro/probleme/4868/echilibru
+
+Cerința
+
+Un număr se numește in **echilibru** dacă are număr par de cifre și suma cifrelor din prima jumătate de număr este egală cu suma cifrelor din a doua jumătate a numărului.
+
+Dat un număr n să se verifice dacă este in **echilibru** sau nu, afișând suma cifrelor din prima jumătate a numărului sau mesajul NU altfel.
+
+Date de intrare
+
+Programul citește de la tastatură numărul n.
+
+Date de ieșire
+
+Programul va afișa pe ecran numărul S dacă este in **echilibru** sau mesajul NU altfel.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 1.000.000.000
+
+Exemplu
+
+**Intrare**
+
+123231
+
+**Ieșire**
+
+6
+
+### Explicație
+
+S-a citit 123231 . Acest număr are suma cifrelor din prima jumătate egala cu 6 , iar suma cifrelor din a doua jumătate tot 6.

@@ -1,0 +1,48 @@
+#4856
+cb\_0
+Sursa: https://www.pbinfo.ro/probleme/4856/cb-0
+
+Cerința
+
+Se consideră un șir x cu n elemente numere naturale, ordonate crescător, și un număr natural y. Scrieți un program care citește numerele y, n și șirul x, apoi verifică, aplicând algoritmul de căutare binară, dacă y apare în șirul x.
+
+Date de intrare
+
+Programul citește de la tastatură numerele y și n, de pe aceeași linie, separate printr-un spațiu, apoi, de pe linia următoare, cele n numere din șirul x, separate prin câte un spațiu.
+
+Date de ieșire
+
+Dacă y apare în șirul x, atunci programul va afișa pe ecran mesajul Da urmat de poziția pe care se află y în x, altfel va afișa mesajul Nu exista.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 100, n număr natural;
+- y și numerele din șirul x sunt mai mici decât 1000;
+- șirul x este indexat de la 0;
+- se recomandă folosirea căutării binare.
+
+Exemplu
+
+**Intrare**
+
+9 7
+1 2 4 7 8 10 11
+
+**Ieșire**
+
+Nu exista
+
+Exemplu
+
+**Intrare**
+
+4 7
+1 2 4 7 8 10 11
+
+**Ieșire**
+
+Da 2
+
+### Explicație:
+
+Numărul 4 apare în șirul x pe poziția 2

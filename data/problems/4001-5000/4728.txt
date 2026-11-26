@@ -1,0 +1,62 @@
+#4728
+Inlocuire\_X
+Sursa: https://www.pbinfo.ro/probleme/4728/inlocuire-x
+
+Cerința
+
+Se dă un tablou cu n elemente, numere naturale mai mari decât 1. Să se înlocuiască fiecare element din tablou astfel:
+
+\- dacă are număr par de cifre, atunci se înlocuiește cu suma divizorilor săi
+
+\- dacă are număr impar de cifre, atunci se înlocuiește cu suma factorilor primi
+
+Apoi să se ordoneze crescător tabloul obținut și afișeze elementele tabloului.
+
+Se vor defini și apela următoarele subprograme:
+
+- citire, care citește de la tastatură valoarea lui n și cele n elemente ale tabloului
+- afisare, care afișează pe ecran elementele tabloului separate prin exact un spațiu
+- nrcif, care determină numărul de cifre ale număr dat
+- sumdiv, care determină suma divizorilor unui număr dat
+- sumfact, care determină suma factorilor primi ai unui număr dat
+- ordonare, care ordonează crescător elementele unui tablou
+
+**În programele C/C++ nu se vor folosi variabile globale**.
+
+Date de intrare
+
+Se citește de la tastatură numărul n, iar apoi cele n elemente ale tabloului.
+
+Date de ieșire
+
+Se vor afișa pe ecran elementele tabloului după modificarea cerută, separate prin exact un spațiu.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 1000
+- elementele tabloului vor fi mai mici sau egale cu 1.000.000
+
+Exemplu
+
+**Intrare**
+
+7
+7 18 18 5 14 20 4
+
+**Ieșire**
+
+2 5 7 24 39 39 42
+
+### Explicație
+
+Modificările efectuate sunt:
+
+7 se înlocuiește cu 7 deoarece are are număr impar de cifre si are pe 7 ca factor prim.
+
+18 se înlocuiește cu 39 deoarece are număr par de cifre și are suma divizorilor 1+2+3+6+9+18=39.
+
+…
+
+4 se înlocuiește 2 deoarece are număr impar de cifre și suma factorilor primi este 2.
+
+La final, se ordonează crescător și se afișează elementele tabloului.

@@ -1,0 +1,43 @@
+#4764
+CuvintePrefixe
+Sursa: https://www.pbinfo.ro/probleme/4764/cuvinteprefixe
+
+Se dau două texte x și y. Textele sunt formate din cuvinte (litere mici), separate prin spațiu sau caracterele .,!?:;.
+
+Cerința
+
+Să se determine câte cuvinte din x sunt prefixe ale vreunui cuvânt din y.
+
+Date de intrare
+
+Programul citește de de pe prima linie textul x, iar de pe linia a doua textul y.
+
+Date de ieșire
+
+Programul va afișa pe ecran numărul nr, reprezentând numărul cuvintelor din x care sunt prefixe ale unor cuvinte din y.
+
+Restricții și precizări
+
+- x și y au lungimea cel mult 1000
+- Lungimea oricărui cuvânt este cel mult 20.
+- Un cuvânt este considerat prefix și pentru el însuși, de exemplu, car este prefix pentru cuvintele car, carte, carne.
+
+Exemplu
+
+**Intrare**
+
+ana are si mere, pere, caise.
+arealul ursului este mereu analizat, viata este perena.
+
+**Ieșire**
+
+4
+
+### Explicație
+
+Cele patru cuvinte sunt:
+
+- ana – prefix al lui analizat
+- are – prefix al lui arealul
+- mere – prefix al lui mereu
+- pere – prefix al lui perena

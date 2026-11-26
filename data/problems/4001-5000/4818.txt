@@ -1,0 +1,119 @@
+#4818
+Golf
+Sursa: https://www.pbinfo.ro/probleme/4818/golf
+
+
+
+Privit din satelit, Golful Biscayne (Florida) este format din n × m celule pătratice, fiecare celulă fiind umplută fie cu pământ, fie cu apă. Celulele umplute cu pământ sunt grupate în insule: două celule umplute cu pământ fac parte din aceeași insulă dacă și numai dacă se poate ajunge de la una la cealaltă prin deplasare (în sus, jos, stânga sau dreapta) doar pe pământ.
+
+Golful poate fi văzut, astfel, ca o matrice A cu n linii și m coloane (numerotate de la 1), unde A[i][j] = 1 dacă celula de pe linia i și coloana j este umplută cu pământ și A[i][j] = 0 dacă este umplută cu apă.
+
+Spunem că o insulă se află la stânga unei coloane c dacă și numai dacă toate celulele ce intră în alcătuirea insulei sunt strict la stânga coloanei c, adică sunt situate pe coloane strict mai mici decât c. Analog, stabilim dacă o insulă se află la dreapta unei coloane c, respectiv deasupra sau dedesubtul unei linii l. De exemplu, în desenul de mai sus, insulele A, B și C sunt la stânga coloanei 7, insula E este la dreapta coloanei 7, iar insula D nu este nici la stânga, nici la dreapta coloanei 7. De asemenea, insulele A și B sunt deasupra liniei 3, iar insulele C, D și E sunt dedesubtul liniei 4. Mai mult, insulele C, D și E nu sunt nici deasupra, nici dedesubtul liniei 5.
+
+Cerința
+
+Problema are trei cerințe, cerința de rezolvat fiind dată de T ∈ {1, 2, 3}.
+
+- T = 1. Determinați numărul de celule din golf ce sunt umplute cu pământ.
+- T = 2. Determinați numărul de insule din golf ce conțin un număr maxim de celule. Dacă nu există nicio insulă, atunci valoarea acestui număr este 0.
+- T = 3. Se dau, în ordine, Q interogări, fiecare fiind descrisă printr-o literă și un număr natural
+
+
+nenul p. Determinați valoarea produsului a × b, știind că:
+
+  - Dacă litera este C, atunci a reprezintă numărul de celule din toate insulele ce se află la stânga coloanei p (1 ≤ p ≤ m) și b numărul de celule din toate insulele ce se află la dreapta coloanei p.
+  - Dacă litera este L, atunci a reprezintă numărul de celule din toate insulele ce se află deasupra liniei p (1 ≤ p ≤ n) și b numărul de celule din toate insulele ce se află dedesubtul liniei p.
+
+Date de intrare
+
+Fișierul de intrare golf.in conține pe prima linie, separate prin câte un spațiu, numerele T n m, unde T reprezintă numărul cerinței care trebuie rezolvată, iar N și m au semnificația din enunț.
+
+Pe următoarele n linii se află valorile matricei A; în cadrul unei linii a matricei, valorile nu sunt separate între ele prin spații. Dacă T = 3, următoarea linie conține numărul natural nenul Q, iar pe fiecare dintre următoarele Q linii se află câte o literă și un număr natural nenul, separate prin câte un spațiu, reprezentând descrierile celor Q interogări.
+
+Date de ieșire
+
+Conținutul fișierului de ieșire golf.out depinde de T . Dacă T ∈ {1, 2}, fișierul conține doar numărul determinat pentru cerința T. Dacă T = 3, fișierul conține Q numere, fiecare pe câte o linie, reprezentând, în ordine, valorile produselor determinate pentru interogările date.
+
+Restricții și precizări
+
+- 1 ≤ n,m ≤ 1000
+- A[i][j] ∈ {0, 1}, pentru fiecare (i, j): 1 ≤ i ≤ n și 1 ≤ j ≤ m.
+- Dacă T = 3, atunci 1 ≤ Q ≤ 600 000.
+- O insulă poate fi formată dintr-o singură celulă.
+
+- pentru 27 de puncte, T =1
+- pentru 7 puncte, T = 2 și există o singură insulă în golf
+- pentru 15 puncte, T =2
+- pentru 14 puncte T = 3 și n, m, Q ≤ 200
+- pentru 9 puncte, T = 3 și Q ≤ 2 000
+- pentru 28 de puncte T = 3
+- datorită dimensiunilor mari ale fișierelor, nu au fost adăugate toate testele folosite în concurs
+
+Exemplu
+
+golf.in
+
+1 7 11
+11110000000
+01101100000
+00000000000
+00000000000
+11100111011
+01000100001
+01000000000
+
+golf.out
+
+20
+
+### Explicație
+
+Exemplul corespunde cu desenul de mai sus. Golful Biscayne are 20 de celule umplute cu pământ.
+
+Exemplu
+
+golf.in
+
+2 7 11
+11110000000
+01101100000
+00000000000
+00000000000
+11100111011
+01000100001
+01000000000
+
+golf.out
+
+20
+
+### Explicație
+
+Insula A conține 6 celule, iar toate celelalte insule conțin cel mult 5 celule, așadar răspunsul este 1.
+
+Exemplu
+
+golf.in
+
+3 7 11
+11110000000
+01101100000
+00000000000
+00000000000
+11100111011
+01000100001
+01000000000
+2
+C 7
+L 4
+
+golf.out
+
+39
+96
+
+### Explicație
+
+Pentru prima interogare, insulele A, B și C, cu 13 celule (în total), sunt la stânga coloanei 7, iar insula E, cu 3 celule, este la dreapta coloanei 7. Deci, produsul cerut este 13 × 3 = 39.
+
+Pentru a doua interogare, insulele A și B, cu 8 celule, sunt deasupra liniei 4, iar insulele C, D și E, cu 12 celule, sunt dedesubtul liniei. Deci, produsul cerut este 8 × 12 = 96.

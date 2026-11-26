@@ -1,0 +1,40 @@
+#4823
+Cladire6
+Sursa: https://www.pbinfo.ro/probleme/4823/cladire6
+
+Cerința
+
+Se consideră un număr natural nenul N și o matrice cu N linii și coloane, numerotate de la 1 la N. Determinați numărul de modalități în care se poate ajunge de la elementul de coordonate (1,1) la cel de coordonate (N,N), cu condiția că, din elementul (i,j) se poate trece în ordice element (iv, jv), pentru care iv ≥ i, jv ≥ j.
+
+Date de intrare
+
+Programul citește de la tastatură numărul N, cu semnificația din enunț.
+
+Date de ieșire
+
+Programul va afisa pe ecran numărul de astfel de drumuri, modulo 666.013.
+
+Restricții și precizări
+
+- 1 ≤ N ≤ 1000
+- Pentru teste în valoare de 60 de puncte, 1 ≤ N ≤ 50
+
+Exemplu
+
+**Intrare**
+
+3
+
+**Ieșire**
+
+26
+
+Exemplu
+
+**Intrare**
+
+4
+
+**Ieșire**
+
+252

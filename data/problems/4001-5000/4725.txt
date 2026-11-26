@@ -1,0 +1,36 @@
+#4725
+f\_prod\_max
+Sursa: https://www.pbinfo.ro/probleme/4725/f-prod-max
+
+Cerința
+
+Subprogramul produsmaxim primește prin parametrul n un număr natural și determină o modalitate de a tăia numărul n în două alte numere care să aibă produsul maxim. De exemplu, numărul 2244 poare fi tăiat în următoarele feluri: 2 și 244, 22 și 44, respectiv 224 și 4. Produsul maxim obținut este 968 prin înmulțirea numerelor 22 și 44. Subprogramul furnizează prin parametrul pmax valoarea maximă a produsului și prin parametrii st și dr cele două numere în care a fost împărțit numărul n pentru avea produsul maxim. Parametrul st va reține partea stângă a numărului (prefixul), iar parametrul dr partea dreaptă conform tăierii numărului dat (sufixul). Scrieți definiția completă a subprogramului produsmaxim.
+
+Restricții și precizări
+
+- 10 ≤ n < 1.000.000.000
+- Numele funcției va fi produsmaxim
+- Funcția va primi următorii parametri:
+
+
+\- n numărul dat
+
+
+\- pmax prin care furnizează produsul maxim obținut
+
+
+\- st prin care furnizează partea stângă a numărului n
+
+
+\- dr prin care furnizează partea dreaptă a numărului n
+- Dacă există mai multe modalități de a tăia numărul astfel încât produsul să fie maxim, atunci va fi aleasă cea în care valoare st să fie maximă.
+
+Exemple:
+
+Dacă n=2244, atunci, după apel, pmax=968, st=22, și dr=44.
+
+Dacă n=111, atunci, după apel, pmax=11, st=11, și dr=1. Același produs maxim de obține și pentru perechea st=1 și dr=11, dar s-a ales cea în care st este maxim.
+
+Important
+
+Soluția propusă va conține doar definiția funcției cerute. Prezența în soluție a altor instrucțiuni poate duce la erori de compilare sau de execuție care vor avea ca efect depunctarea soluției.

@@ -1,0 +1,26 @@
+#4848
+Loterie
+Sursa: https://www.pbinfo.ro/probleme/4848/loterie
+
+Cerința
+
+La o loterie se generează aleatoriu un șir de numere naturale și pentru fiecare număr generat, se inversează ordinea cifrelor. Dintre valorile distincte obținute se extrag trei numere, în această ordine: cel mai mic, cel mai mare dintre cele rămase, apoi cel mai mic dintre cele rămase.
+
+Fișierul text bac.in conține cel mult 106 numere naturale din intervalul [1001,9999], cu cifra unităților nenulă, separate prin câte un spațiu, reprezentând termenii șirului generat aleatoriu în vederea extragerii.
+
+Scrieți un program care afișează în fișierul bac.out cele trei numere, în ordinea extragerii acestora. Numerele afișate sunt separate prin câte un spațiu, iar dacă nu există trei astfel de numere distincte, se afișează mesajul nu exista.
+
+Restricții și precizări
+
+- Pentru determinarea numerelor cerute se utilizează un algoritm eficient din punctul de vedere al memoriei necesare și al timpului de executare.
+- Se recomandă evitarea memorării elementelor șirului într-un tablou sau în altă structură de date similară.
+
+Exemplu
+
+bac.in
+
+1114 3212 3217 2855 7309 2131 2131 1238 7893
+
+bac.out
+
+1312 9037 2123

@@ -1,0 +1,35 @@
+#4871
+NextPrime
+Sursa: https://www.pbinfo.ro/probleme/4871/nextprime
+
+Cerința
+
+Se dă un șir de n numere naturale. Pentru fiecare din numerele din șir trebuie să afișați următorul număr natural, strict mai mare, care este prim.
+
+Date de intrare
+
+Fișierul de intrare nextprime.in conține pe prima linie numărul n, iar pe următoarele n linii se află câte un număr natural reprezentând valorile din șir.
+
+Date de ieșire
+
+Fișierul de ieșire nextprime.out va conține n linii. Pe fiecare linie i se află câte un număr reprezentând următorul număr prim strict mai mare decât al i-lea număr din șir.
+
+Restricții și precizări
+
+- 2 ≤ n ≤ 100
+- numerele din șir sunt naturale și sunt mai mici decât 1012.
+
+Exemplu
+
+nextprime.in
+
+3
+5
+20
+98
+
+nextprime.out
+
+7
+23
+101

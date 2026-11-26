@@ -1,0 +1,46 @@
+#4714
+sprime
+Sursa: https://www.pbinfo.ro/probleme/4714/sprime
+
+Se consideră un număr natural impar S.
+
+Cerința
+
+Să se determine numărul posibilitătilor de a-l scrie pe S ca sumă de trei numere prime.
+
+Date de intrare
+
+Fișierul de intrare sprime.in conține pe prima linie numărul natural impar S.
+
+Date de ieșire
+
+Fișierul de ieșire sprime.out va conține pe prima linie un singur număr natural reprezentând numărul posibilitătilor de a-l scrie pe S ca sumă de trei numere prime.
+
+Restricții și precizări
+
+- 21 ≤ S < 100.000
+- S este număr natural impar
+
+Exemplu
+
+sprime.in
+
+21
+
+sprime.out
+
+5
+
+### Explicație
+
+Cele 5 posibilități sunt:
+
+2+2+17
+
+3+5+13
+
+3+7+11
+
+5+5+11
+
+7+7+7

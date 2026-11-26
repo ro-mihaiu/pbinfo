@@ -1,0 +1,32 @@
+#4797
+Cuvinte21
+Sursa: https://www.pbinfo.ro/probleme/4797/cuvinte21
+
+Cerința
+
+Se dă o propoziție care conține numai litere mici ale alfabetului englez și spații. Să se ordoneze alfabetic literele din fiecare cuvânt și să se afișeze cuvintele astfel obținute.
+
+Date de intrare
+
+Programul citește de la tastatură șirul dat.
+
+Date de ieșire
+
+Programul va afișa pe ecran cuvintele modificate conform cerinței, în ordinea din propoziție, câte un cuvânt pe linie.
+
+Restricții și precizări
+
+- propoziția va conține cel mult 255 de caractere
+- fiecare cuvânt din propoziție este format din cel mult 10 litere
+
+Exemplu
+
+**Intrare**
+
+ana are mere
+
+**Ieșire**
+
+aan
+aer
+eemr

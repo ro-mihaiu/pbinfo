@@ -1,0 +1,31 @@
+#4795
+eliminaremijloc
+Sursa: https://www.pbinfo.ro/probleme/4795/eliminaremijloc
+
+Cerinţă
+
+Se citește de la tastatură un cuvânt cu număr par de litere. Să se afișeze pe ecran cuvântul citit și cuvintele obținute din el prin eliminarea repetată a celor două litere din mijlocul său.
+
+Date de intrare
+
+Programul va citi de la tastatură un cuvânt format din cel mult 100 de caractere litere mici, având număr par de caractere.
+
+Date de ieșire
+
+Programul va afişa pe ecran pe rânduri separate, cuvântul citit și cuvintele obținute din el el prin eliminarea repetată a celor două litere din mijlocul său.
+
+Restricții și precizări
+
+- cuvântul citit este format din cel mult 100 de caractere litere mici
+
+Exemplu
+
+Intrare
+
+cosmin
+
+Ieşire
+
+cosmin
+coin
+cn

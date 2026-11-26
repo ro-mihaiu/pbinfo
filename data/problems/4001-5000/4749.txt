@@ -1,0 +1,22 @@
+#4749
+puterealui2rec
+Sursa: https://www.pbinfo.ro/probleme/4749/puterealui2rec
+
+Cerința
+
+Să se scrie o funcție C++ recursivă PDoi care primește prin parametrul n un număr natural și care returnează valoarea 1 dacă numărul n este puterea lui 2, respectiv 0 în caz contrar.
+
+Restricții și precizări
+
+- 1 ≤ n < 2.000.000.000
+- Numele funcției va fi PDoi
+
+Exemple:
+
+Dacă n=2244, atunci funcția returneză 0.
+
+Dacă n=128, atunci funcția returneză 1.
+
+Important
+
+Soluția propusă va conține doar definiția funcției cerute. Prezența în soluție a altor instrucțiuni poate duce la erori de compilare sau de execuție care vor avea ca efect depunctarea soluției.

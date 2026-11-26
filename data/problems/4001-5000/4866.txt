@@ -1,0 +1,39 @@
+#4866
+MEX
+Sursa: https://www.pbinfo.ro/probleme/4866/mex
+
+Se dă un șir a = a1, a2, …, an de numere naturale și un număr natural k. Putem efectua de câte ori dorim operația următoare: se alege o poziție i, cu 1 ≤ i ≤ n și se modifică valoarea a[i] în orice număr natural din intervalul [0, n].
+
+Cerința
+
+Să se determine numărul minim de operații care trebuie efectuate în șir astfel încât valoarea minimă nenulă care **nu** apare în șir să fie k.
+
+Date de intrare
+
+Fișierul de intrare mex.in conține pe prima linie numerele n și k, iar pe a doua linie se află n numere naturale separate prin spații, reprezentând elementele șirului.
+
+Date de ieșire
+
+Fișierul de ieșire mex.out va conține pe prima linie numărul minim M al operațiilor pentru a obține cerința.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 100.000
+- 1 ≤ k ≤ n
+- 0 ≤ a[i] ≤ n
+- MEX (Minimum Excluded) înseamnă cel mai mic număr natural nenul care nu apare într-un șir.
+
+Exemplu
+
+mex.in
+
+6 3
+5 3 3 3 4 1
+
+mex.out
+
+3
+
+### Explicație
+
+Primul 3 se modifică în 2, al doilea 3 se modifică în 4, ultimul 3 se modifică în 5. Șirul obținut este a = 5,2,4,5,4,1. S-au efectuat 3 operații și acum cel mai mic număr natural nenul care nu apare în șir este 3.

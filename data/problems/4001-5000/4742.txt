@@ -1,0 +1,49 @@
+#4742
+Desert1
+Sursa: https://www.pbinfo.ro/probleme/4742/desert1
+
+Cerința
+
+Ali Baba și cei 40 de hoți stăpânesc un deșert de formă dreptunghiulară, împărțit în n linii și m coloane, care definesc n*m sectoare. În fiecare sector se află o comoară ascunsă de Ali Baba. Se cunoaște valoarea în galbeni a fiecărei comori.
+
+Un călător trebuie să traverseze deșertul de la Vest spre Est, trecând dintr-un sector în altul, astfel: din sectorul (i j) se poate ajunge în unul din sectoarele (i-1,j+1), (i,j+1) sau (i+1,j+1), dar fără a părăsi deșertul (ar fi omorât de oamenii lui Ali Baba). La trecerea printr-un sector, călătorul colectează comoara din acel sector.
+
+Determinați valoarea totală maximă a comorilor pe care le poate colecta călătorul la traversarea deșertului, știind că pleacă din orice sector al coloanei 1 (Vest) și se oprește în orice sector al coloanei m (Est), cu respectarea condițiilor de mai sus.
+
+Date de intrare
+
+Fişierul de intrare desert1.in conţine pe prima linie numerele n m. Următoarele n linii conțin câte m numere naturale, reprezentând valorile comorilor din fiecare sector.
+
+Date de ieșire
+
+Fişierul de ieşire desert1.out va conţine pe prima linie numărul V, reprezentând valoarea maximă a comorilor care pot fi colectate.
+
+Restricții și precizări
+
+- 1 ≤ n,m ≤ 200
+- valoarea fiecărei comori este un număr natural mai mic decât 100
+
+Exemplu
+
+desert1.in
+
+4 5
+4 9 3 7 7
+1 1 4 5 1
+2 8 9 1 7
+3 8 1 6 3
+
+desert1.out
+
+33
+
+Explicație
+
+Un traseu prin care se colectează comori în valoare de 33 galbeni este:
+
+|     |     |     |     |     |
+| --- | --- | --- | --- | --- |
+| 4 | 9 | 3 | 7 | 7 |
+| 1 | 1 | 4 | 5 | 1 |
+| 2 | 8 | 9 | 1 | 7 |
+| 3 | 8 | 1 | 6 | 3 |

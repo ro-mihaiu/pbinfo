@@ -1,0 +1,38 @@
+#4743
+Arme2
+Sursa: https://www.pbinfo.ro/probleme/4743/arme2
+
+Cerința
+
+Gigel joacă jocul lui preferat, cu împușcaturi. El are n arme, fiecare având o putere cunoscută. De asemenea, a aflat de la prietenul său, Vasile, o magie: cu ajutorul unui număr special, k, puterea unei arme devine k. Gigel poate aplica această magie de cel mult p ori.
+
+Determinați suma maximă a puterilor armelor lui Gigel după ce acesta aplică magia de cel mult p ori.
+
+Date de intrare
+
+Programul citește de la tastatură numărul n, iar apoi puterile celor n arme, apoi numerele k p.
+
+Date de ieșire
+
+Programul va afișa pe ecran numărul S, reprezentând suma maximă determinată.
+
+Restricții și precizări
+
+- 1 ≤ n, p ≤ 100.000
+- puterile armelor și numărul k sunt naturale, mai mici decât 1.000.000
+
+Exemplu
+
+**Intrare**
+
+5
+5 2 3 1 1
+3 2
+
+**Ieșire**
+
+16
+
+### Explicație
+
+Gigel va aplica magia celor două arme de putere 1. Suma puterilor devine 5 + 2 + 3 + 3 + 3 = 16

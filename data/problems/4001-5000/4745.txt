@@ -1,0 +1,40 @@
+#4745
+qscol
+Sursa: https://www.pbinfo.ro/probleme/4745/qscol
+
+Cerința
+
+Se dă o matrice a cu n linii și n coloane care memorează numere întregi. Să se reordoneze coloanele matricii astfel încât acestea să se afle ordonate lexicografic.
+
+Date de intrare
+
+Fișierul de intrare qscol.in conține pe prima linie numărul n, iar pe următoarele n linii se găsesc câte n numere întregi reprezentând câte o linie din matrice.
+
+Date de ieșire
+
+Fișierul de ieșire qscol.out va conține pe n linii matricea după reordonarea coloanelor.
+
+Restricții și precizări
+
+- 3 ≤ n ≤ 800
+- numerele din matrice sunt cuprinse între -1.000.000.000 și 1.000.000.000.
+- coloana j este mai mică lexicografic decât coloana k dacă există o valoare p = 1..n astfel încât a[1][j] = a[1][k], a[2][j] = a[2][k], …, a[p-1][j] = a[p-1][k] și a[p][j] < a[p][k].
+
+Exemplu
+
+qscol.in
+
+5
+1 2 1 1 1
+3 2 3 3 3
+4 4 4 4 4
+7 5 5 5 5
+1 3 7 2 4
+
+qscol.out
+
+1 1 1 1 2
+3 3 3 3 2
+4 4 4 4 4
+5 5 5 7 5
+2 4 7 1 3

@@ -1,0 +1,25 @@
+#4844
+Ascendent
+Sursa: https://www.pbinfo.ro/probleme/4844/ascendent
+
+Cerința
+
+Numărul natural an este **ascendent** al numărului natural n, dacă oricare dintre cifrele lui an este mai mare sau egală cu cifra unităților lui n.
+
+**Exemplu:** oricare dintre numerele 7, 9, 98 sau 7998 este ascendent al lui 827, dar numărul 857 nu este ascendent al lui 827.
+
+Subprogramul ascendent are trei parametri:
+
+- n, prin care primește un număr natural (n∈[0,1000));\
+- x și y, prin care primește câte un număr natural din intervalul [0,1000) (x<y).\
+\
+Subprogramul returnează suma ascendenților lui n din intervalul [x,y], sau valoarea 0, dacă nu există niciun astfel de ascendent. Scrieți definiția completă a subprogramului C++.\
+\
+Exemplu\
+\
+Dacă n=827, x=9, y=800, subprogramul returnează 7893 (9+77+78+79+87+88+89+97+98+99+777+778+779+787+788+789+797+798+799=7893).\
+\
+Important\
+\
+Soluția propusă va conține definiția subprogramului cerut. Prezența în soluție a altor instrucțiuni poate duce erori de compilare sau de execuție care vor avea ca efect depunctarea soluției.\
+\

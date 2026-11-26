@@ -1,0 +1,105 @@
+#4835
+vnoroc
+Sursa: https://www.pbinfo.ro/probleme/4835/vnoroc
+
+Pentru avea succes la Olimpiada de Jocuri pe Internet (OJI), Vasilică a cumpărat de la Baba Yaga un talisman norocos. Talismanul norocos este un șir care îndeplineşte următoarele două condiţii:
+
+- toate elementele șirului sunt cifre mai mici sau egale cu magicul 7;
+- oricare două elemente aflate pe poziții consecutive în șir au cel puţin un divizor comun strict mai mare decât 1.
+
+De exemplu, (7, 7, 7), (6, 0, 0, 4, 0) și (2, 6, 3) sunt talismane norocoase, dar (1, 2, 3), (2, 4, 7) și (5, 6, 5) nu sunt.
+
+Cel mai mare rival al lui Vasilică, pe nume Acilisav, a aflat de planul lui de a folosi magie pentru a câștiga competiția de jocuri şi s-a furișat în noaptea de dinainte de OJI în casa lui Vasilică și i-a modificat talismanul, adăugând cifre mai mici sau egale cu 7. Vasilică vrea să elimine cifre din șir, astfel încât șirul să redevină un talisman norocos.
+
+Cerința
+
+Cunoscând șirul V modificat de Acilisav:
+
+1\. determinaţi numărul minim de cifre care trebuie să fie eliminate din șirul V, astfel încât acesta să devină talisman norocos;
+
+2\. determinaţi talismanul norocos minim lexicografic, care se obţine eliminând din șirul V un număr minim de cifre.
+
+Date de intrare
+
+Fișierul de intrare vnoroc.in conţine pe prima linie numerele naturale C și N, reprezentând cerința care trebuie să fie rezolvată (1 sau 2), respectiv numărul de elemente din șirul V. Pe a doua linie se află N cifre separate prin câte un spațiu, reprezentând elementele șirului V.
+
+Date de ieșire
+
+Fișierul de ieșire vnoroc.out conţine o singură linie, pe care este scris:
+
+- dacă C = 1, un număr natural nr, reprezentând numărul minim determinat pentru cerința 1;
+- dacă C = 2, (N-nr) cifre separate prin câte un spaţiu, reprezentând talismanul norocos minim lexicografic, determinat pentru cerința 2.
+
+Restricții și precizări
+
+- 2 ≤ N ≤ 1.000.000
+- Cifrele din șirul V sunt mai mici sau egale cu 7
+- Spunem că șirul a[1], a[2], …, a[N] este mai mic strict din punctul de vedere lexicografic decât șirul b[1], b[2], … b[N] dacă există k (1 ≤ k ≤ N), astfel încât a[i] = b[i], pentru orice 1 ≤ i < k şi a[k] < b[k]
+- Pentru 6 puncte, C=1, toate cifrele sunt prime
+- Pentru 12 puncte, C=1, 1 ≤ N ≤ 100
+- Pentru 12 puncte, C=1, 100 < N ≤ 1000
+- Pentru 14 puncte, C=1, 1000 < N ≤ 1.000.000
+- Pentru 6 puncte, C=2, toate cifrele sunt prime
+- Pentru 16 puncte, C=2, 1 ≤ N ≤ 100
+- Pentru 16 puncte, C=2, 100 < N ≤ 1000
+- Pentru 18 puncte, C=2, 1000 < N ≤ 1.000.000
+
+Exemplu
+
+vnoroc.in
+
+1 5
+4 4 3 6 2
+
+vnoroc.out
+
+1
+
+### Explicație
+
+Pentru ca șirul să devină norocos, este suficient să eliminăm cifra 3.
+
+Exemplu
+
+vnoroc.in
+
+2 5
+4 4 3 6 2
+
+vnoroc.out
+
+4 4 6 2
+
+### Explicație
+
+Singura soluţie care se poate obţine eliminând un număr minim de cifre (1) este 4 4 6 2.
+
+Exemplu
+
+vnoroc.in
+
+2 6
+5 7 5 7 5 7
+
+vnoroc.out
+
+5 5 5
+
+### Explicație
+
+Numărul minim de cifre care trebuie să fie eliminate este 3. Se pot obţine două talismane norocoase prin eliminarea a câte 3 cifre: (5, 5, 5) și (7, 7, 7). Se afișează talismanul norocos minim lexicografic 5 5 5.
+
+Exemplu
+
+vnoroc.in
+
+2 9
+2 3 5 3 7 0 0 5 1
+
+vnoroc.out
+
+3 3 0 0 5
+
+### Explicație
+
+Numărul minim de cifre care trebuie să fie eliminate este 4. Se poate obţine un singur talisman norocos (3, 3, 0, 0, 5) prin eliminarea a 4 cifre.

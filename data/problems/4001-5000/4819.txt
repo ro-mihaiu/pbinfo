@@ -1,0 +1,73 @@
+#4819
+aventura
+Sursa: https://www.pbinfo.ro/probleme/4819/aventura
+
+Gușteru’ a descoperit într-un dulap un vechi joc de aventură, numit _Ijnamuj_. Jocul inițial pornește de la nivelul 1, iar scopul este completarea a cât mai multor nivele. Fiecare nivel i are asociată o listă L(i) care conține alte nivele din joc. Pentru a completa nivelul i, Gușteru’ va trebui mai întâi să completeze toate nivelele din lista L(i), în orice ordine dorește el. După completarea oricărui nivel, el poate să completeze orice alt nivel a cărui listă conține numai nivele completate. Pentru că jocul începe de la nivelul 1, lista L(1) va fi mereu vidă, adică completarea lui nu este restricționată de niciun alt nivel.
+
+Cerința
+
+Care este numărul maxim de nivele pe care le poate completa Gușteru’?
+
+Date de intrare
+
+Pe primul rând din fișierul de intrare aventura.in se va afla numărul T, care reprezintă numărul de scenarii distincte din test.
+
+Pentru fiecare dintre cele T scenarii, intrarea va fi de forma următoare:
+
+- pe primul rând se va afla N, numărul de nivele din scenariu;
+- pe următoarele N rânduri, se vor afla descrierile celor N liste: fiecare rând va începe cu k[i] (1 ≤ i ≤ N), care reprezintă numărul de nivele din lista nivelului i, urmat de k[i] numere, care reprezintă indicele nivelelor.
+
+Date de ieșire
+
+Pe linia i din fișierul de ieșire aventura.out se va afișa răspunsul la al i-lea scenariu (1 ≤ i ≤ T).
+
+Restricții și precizări
+
+- 1 ≤ T ≤ 5;
+- 1 ≤ 𝑁 ≤ 500.000;
+- k[1 ] = 0;
+- 0 ≤ k[i] ≤ N − 1;
+- i ∉ L(i), pentru oricare 1 ≤ i ≤ N;
+- Într-un scenariu, k[1] + k[2] + . . . + k[N] ≤ 4×N;
+- Per totalul celor T scenarii, suma tuturor sumelor k[1] + k[2] + . . . + k[N] nu depășește 5.000.000;
+- Definim o _dependență circulară_ un șir de nivele a[1], a[2], ... , a[p] , 2 ≤ p ≤ N , cu proprietatea că a[1] ∈ L(a[2]), a[2] ∈ L(a[3]), … , a[p−1] ∈ L(a[p]), a[p] ∈ L(a[1]).
+- datorită dimensiunilor mari ale fișierelor, nu au fost adăugate toate testele folosite în concurs!
+
+Subtaskuri:
+
+- pentru anumite teste, 1 ≤ N ≤ 10
+- pentru anumite teste, dependențele circulare sunt de lungime exact 2, N ≤ 2.000
+- pentru anumite teste, 1 ≤ N ≤ 2.000
+- pentru restul testelor, fără restricții suplimentare
+
+Exemplu
+
+aventura.in
+
+2
+5
+0
+1 1
+1 2
+2 3 5
+1 4
+6
+0
+2 4 6
+2 2 5
+1 3
+1 1
+1 5
+
+aventura.out
+
+3
+3
+
+### Explicație
+
+T = 2 deci se rezolvă două scenarii.
+
+În primul scenariu, singurul nivel în care putem ajunge necondiționat este nivelul 1. Nivelul 1 deblochează nivelul 2, care la rândul său deblochează nivelul 3. Nu mai putem debloca nimic, pentru că nivelul 4 este condiționat și de nivelul 3, dar și de nivelul 5, care, la rândul său, este condiționat de nivelul 4. Astfel, putem debloca doar 3 nivele, respectiv nivelele 1, 2 și 3.
+
+Al doilea scenariu se rezolvă similar cu primul. În acest caz putem debloca 3 nivele, respectiv nivele 1, 5 și 6.

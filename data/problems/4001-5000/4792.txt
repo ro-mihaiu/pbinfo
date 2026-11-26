@@ -1,0 +1,67 @@
+#4792
+natatie
+Sursa: https://www.pbinfo.ro/probleme/4792/natatie
+
+Prințul Mugurel trebuie să organizeze un nou spectacol pentru locuitorii din Imperiul Rațelor de Cauciuc. De data aceasta s-a gândit la ceva inedit: o cursă de natație pe Râul Macilor. Mugurel a adunat cele mai bune N raţe din imperiu, numerotate de la 1 la N, fiecare rață fiind caracterizată prin viteză şi nivel de rezistenţă.
+
+Pe Râul Macilor s-au amenajat M culoare de înot, numerotate de la 1 la M; pe fiecare culoar este câte o baliză, situată la o anumită distanță (în metri) față de linia de start, iar această distanță este strict mai mare decât distanța balizei de pe culoarul anterior. Mugurel alege M rațe dintre cele N, care sunt așezate adecvat la linia de start, fiecare pe câte un culoar de înot. Apoi, toate aceste rațe alese pornesc simultan, fiecare rață înoată pe culoarul ei, până la baliza corespunzătoare, și se întoarce înapoi la linia de start, pe același culoar. Durata cursei se măsoară de la pornirea simultană a rațelor, până la momentul când toate rațele ajung înapoi la linia de start.
+
+Deoarece Mugurel ține la sănătatea locuitorilor săi, nu dezavantajează raţele mai puţin rezistente. Așadar, rața care înoată până la baliza de pe culoarul ei trebuie să aibă nivelul de rezistență **mai mare sau egal** cu al celei de pe culoarul alăturat, numerotat cu o valoare mai mică.
+
+Mugurel dorește să ofere un show de neuitat tuturor spectatorilor, așa că vrea să obțină un nou record imperial, alegând rațele corespunzător, astfel încât cursa să se încheie cât mai repede.
+
+Cerința
+
+Determinați durata minimă pe care o poate avea cursa.
+
+Date de intrare
+
+Fișierul de intrare natatie.in conține:
+
+- pe prima linie două numere naturale, N și M , cu semnificația din enunț;
+- pe a doua linie N numere naturale, reprezentând vitezele rațelor (măsurate în metri pe secundă), în ordinea numerotării acestora;
+- pe a treia linie N numere naturale, reprezentând nivelurile de rezistență ale rațelor, în ordinea numerotării acestora.
+- pe a patra linie M numere naturale, în ordine strict crescătoare, reprezentând distanțele balizelor față de linia de start, în ordinea numerotării culoarelor de înot corespunzătoare.
+
+Numerele aflate pe aceeași linie a fișierului sunt separate prin câte un spațiu.
+
+Date de ieșire
+
+Pe prima linie a fișierului de ieșire natatie.out se va afișa un singur număr, reprezentând durata minimă a cursei (măsurată în secunde). Răspunsul este considerat corect dacă valoarea absolută (în modul) a diferenței dintre durata reală a cursei și cea afișată este ≤ 0.001.
+
+Restricții și precizări
+
+- 1 ≤ M ≤ N ≤ 3.000
+- 1 ≤ v[i], r[i] ≤ 1.000.000.000, 1 ≤ i ≤ N
+- 1 ≤ d[j] ≤ 1.000.000.000, 1 ≤ j ≤ M
+- d[j] < d[j+1], 1 ≤ j < M
+- Timpul în care o rață cu viteza v parcurge distanța d este d / v.
+- Pentru 17 puncte, vitezele tuturor rațelor sunt egale
+- Pentru 16 puncte, nivelul de rezistență al tuturor rațelor este acelaşi.
+- Pentru 15 puncte, N - M = 1
+- Pentru 18 puncte, 1 ≤ M ≤ N ≤ 100 și nivelul de rezistenţă al raţei i are valoarea i, 1 ≤ i ≤ N
+- Pentru 11 puncte, 1 ≤ d[j] ≤ 3.000, 1 ≤ j ≤ M și rezultatul este un număr natural
+- Pentru 13 puncte, rezultatul este un număr natural
+- Pentru 10 puncte, fără restricții suplimentare.
+
+Exemplu
+
+natatie.in
+
+3 2
+4 5 3
+5 2 2
+3 7
+
+natatie.out
+
+2.8
+
+### Explicație
+
+Perechile de rațe care pot participa în cursă sunt: (2, 1), (2, 3), (3, 2), (3, 1). Timpii obținuți pentru fiecare cursă sunt:
+
+- (2, 1): max((3+3)/5, (7+7)/4) = 3.5
+- (2, 3): max((3+3)/5, (7+7)/3) = 4.666
+- (3, 2): max((3+3)/3, (7+7)/5) = 2.8
+- (3, 1): max((3+3)/3 + (7+7)/4) = 3.5

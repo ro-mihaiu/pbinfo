@@ -1,0 +1,38 @@
+#4739
+Lacomie1
+Sursa: https://www.pbinfo.ro/probleme/4739/lacomie1
+
+Gigel a găsit o matrice cu n linii și m coloane și elemente numere întregi. Neștiind ce să facă cu ea, dorește o coloană cu care să plece acasă. Fiind lacom, o vrea pe aceea cu suma elementelor maximă. Ajuați-l să o aleagă și va fi fericit!
+
+Cerința
+
+Să se afișeze elementele de pe coloana din matrice cu suma elementelor maximă
+
+Date de intrare
+
+Programul citește de la tastatură numerele n și m, apoi n × m numere întregi, reprezentând elementele matricei.
+
+Date de ieșire
+
+Programul afișează n valori, separate prin spații, reprezentând elementele de pe coloana cu suma elementelor maximă
+
+Restricții și precizări
+
+- 1 ≤ n,m ≤ 25
+- elementele matricei aparțin intervalului [-1000,1000]
+- dacă sunt mai multe coloane cu suma elementelor maximă, se va considera coloana cu indicele mai mic
+- elementele coloanei rezultat se afișează de sus în jos
+
+Exemplu
+
+**Intrare**
+
+4 5
+-2 -9 7 9 -7
+1 -7 -8 -1 4
+8 2 5 7 2
+8 -9 -7 10 -9
+
+**Ieșire**
+
+9 -1 7 10

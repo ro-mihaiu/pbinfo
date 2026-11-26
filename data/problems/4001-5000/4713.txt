@@ -1,0 +1,53 @@
+#4713
+sir2dif
+Sursa: https://www.pbinfo.ro/probleme/4713/sir2dif
+
+Se consideră un sir de numere naturale a1, a2, …, an.
+
+Cerința
+
+Să se determine suma maximă a unei expresii ai- aj+ ak- ap, unde 1 ≤ i < j < k < p ≤ n.
+
+Date de intrare
+
+Fișierul de intrare sir2dif.in conține pe prima linie numărul natural n. Pe a doua linie, separate prin câte un spatiu, se află numerele naturale a1, a2, …, an.
+
+Date de ieșire
+
+Fișierul de ieșire sir2dif.out va conține pe prima linie un singur număr natural reprezentând suma maximă posibilă a unei expresii ai- aj+ ak- ap, unde i < j < k < p.
+
+Restricții și precizări
+
+- 4 ≤ n ≤ 100.000
+- 0 ≤ ai ≤ 1.000.000, pentru orice i = 1..n
+- pentru 50% din teste, n <= 5000
+
+Exemplu
+
+sir2dif.in
+
+8
+1 8 5 3 7 4 6 9
+
+sir2dif.out
+
+8
+
+### Explicație
+
+Luând cele patru elemente de la pozitiile i = 2, j = 4, k = 5, p = 6 se obține suma maximă: 8 - 3 + 7 - 4 = 8.
+
+Exemplu
+
+sir2dif.in
+
+4
+3 2 1 4
+
+sir2dif.out
+
+-2
+
+### Explicație
+
+(3 - 2) + (1 - 4) = -2

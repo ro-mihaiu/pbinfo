@@ -1,0 +1,45 @@
+#4824
+PartitiiMultime5
+Sursa: https://www.pbinfo.ro/probleme/4824/partitiimultime5
+
+Cerința
+
+Se dau Q query-uri de forma n k. Pentru fiecare query să se afișeze numărul de partiții ale unei mulțimi cu n elemente în n/k submulțimi neordonate cu câte k elemente.
+
+Date de intrare
+
+Programul citește de la tastatură numărul Q, urmat de Q perechi de numere n k, separate prin spații, fiecare pe câte o linie.
+
+Date de ieșire
+
+Programul va afișa pe ecran Q linii, reprezentând răspunsurile query-urilor date, modulo 1.000.000.007.
+
+Restricții și precizări
+
+- 1 ≤ Q ≤ 100.000
+- 1 ≤ k ≤ n ≤ 100.000
+- Nu contează ordinea elementelor a unei submulțimi ({1, 2, 3} = {1, 3, 2}).
+- Nu contează ordinea în care sunt luate submulțimile ({1, 2} U {3, 4} = {3, 4} U {1, 2}).
+- Pentru teste în valoare de 20 de puncte: 1 ≤ Q ≤ 5
+- Se recomandă folosirea fastio.
+
+Exemplu
+
+**Intrare**
+
+1
+4 2
+
+**Ieșire**
+
+3
+
+### Explicație
+
+S = {1, 2, 3, 4}
+
+Partițiile lui S în submulțimi de marime k sunt urmatoarele:
+
+- {1, 2} U {3, 4};
+- {1, 3} U {2, 4};
+- {1, 4} U {2, 3}.

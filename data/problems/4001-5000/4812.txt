@@ -1,0 +1,41 @@
+#4812
+Amadeus
+Sursa: https://www.pbinfo.ro/probleme/4812/amadeus
+
+La ferma din Valea Vinului trăiesc n ciori care stau pe n sperietori (pe fiecare sperietoare poate sta o singură cioară). Fermierul Amadeus, supărat că acestea îi fură porumbul, decide să le alunge folosindu-și pușca, însă el ratează ciorile și nimerește un geam care se sparge. Astfel, ciorile se sperie, dar neștiind de unde vine glonțul, doar își schimbă sperietoarea pe care stă fiecare.
+
+Cerința
+
+Dându-se n cu valoarea din enunț, în câte moduri distincte se pot așeza ciorile după tragerea glonțului, astfel încât niciuna să nu stea pe sperietoarea inițială? Pentru că numărul de soluții poate fi foarte mare, răspunsul va fi afișat modulo 1.000.000.007.
+
+Date de intrare
+
+Fișierul de intrare amadeus.in conține numărul natural n.
+
+Date de ieșire
+
+Fișierul de ieșire amadeus.out va conține numărul de moduri distincte în care se pot așeza ciorile.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 1.000.000
+
+Exemplu
+
+amadeus.in
+
+3
+
+amadeus.out
+
+2
+
+Exemplu
+
+amadeus.in
+
+5
+
+amadeus.out
+
+44

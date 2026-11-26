@@ -1,0 +1,107 @@
+#4832
+alvn
+Sursa: https://www.pbinfo.ro/probleme/4832/alvn
+
+Veverițele ALVN și prietenii săi Simon și Theodore au fost afectați de noua criză de ghinde, așa că au plecat de acasă în căutarea hranei. Din fericire, după o perioadă de căutări, au descoperit o grădină cu N rânduri de stejari cu câte M stejari pe fiecare rând. Fiecare stejar are alocată câte o parcelă de formă pătrată și de dimensiuni identice. Fiecare stejar este bătrân și are ramuri mari, astfel încât produce ghinde care pot cădea nu doar în parcela în care se află, ci și în parcelele adiacente. Fiecare stejar are un coeficient de producție al ghindelor C și va produce ghinde conform următoarei distribuții:
+
+- Produce un număr x[1] * C de ghinde în parcela proprie (centru).
+- Un număr x[2] * C de ghinde ajung în parcelele din inelul imediat exterior (parcelele adiacente direct), ca în desenul alăturat.
+- Un număr x[3] * C de ghinde ajung în celulele din al doilea inel și așa mai departe, pentru fiecare inel exterior.
+
+
+
+Acest model continuă până la cel mai îndepărtat inel. Fiecare stejar are cel mult k inele, incluzând parcela în care se află, iar șirul x[1], x[2], ... x[k] este ordonat descrescător astfel încât stejarul produce cele mai multe ghinde în parcela în care se află, iar numărul scade treptat în parcelele din inelele mai îndepărtate.
+
+Inelele sunt pătratice și concentrice, putând fi incomplete, în funcție de poziția stejarului în grădină. Dacă în grădină este doar grupul format din ALVN și prietenii săi, aleg pentru grup parcela cu numărul maxim de ghinde. Dacă în grădină sunt două grupuri de veverițe, acestea decid, pentru a nu exista supărări, ca ambele grupuri să aleagă propriile parcele, respectând următoarele reguli:
+
+- Pot mânca doar din copaci ale căror inele nu au nicio parcelă în comun.
+- Vor încerca să maximizeze numărul total de ghinde pe care le consumă.
+
+De exemplu, în imaginea de mai jos, dacă sunt două grupuri de veverițe, ele se pot așeza pe parcelele (1,1) și (4,2), întrucât
+
+inelele copacilor (reprezentate cu verde) doar se ating, nu au parcele comune. În schimb, veverițele nu se pot așeza în parcelele (4,6) și (6,6), deoarece inelele au în comun parcelele din pozițiile (5,5) și (5,6) (în imagine sunt reprezentate cu roșu, inclusiv cele comune).
+
+
+
+Se cunosc N, M, coeficienții fiecărui stejar din grădină, k, și valorile x[1], x[2], ... x[k], cu semnificația din enunț.
+
+Cerința
+
+1\. Determinați S, numărul maxim de ghinde pe care le poate consuma grupul lui ALVN, când ei sunt singuri în grădină.
+
+2\. Determinați T, numărul total de ghinde consumate de două grupuri de veverițe aflate în grădină.
+
+Date de intrare
+
+Pe prima linie a fișierului alvn.in se află un număr natural p, care reprezintă cerința (1 sau 2). Pe a doua linie se află două numere naturale N și M, cu semnificația din enunț. Următoarele N linii conțin câte M valori, reprezentând coeficienții de ghinde produse de fiecare stejar, în ordine, rând după rând și pentru fiecare rând, în ordinea parcelelor pe care se află. Pe linia N+3 se află valoarea k, cu semnificația din enunț. Pe linia următoare, se află k valori, reprezentând coeficienții x[1], x[2], ..., x[k], cu semnificația din enunț.
+
+Date de ieșire
+
+Fișierul de ieșire alvn.out va conține un singur număr natural, astfel:
+
+- Dacă p=1, atunci se va afișa numărul S, determinat la cerința 1.
+- Dacă p=2, se va afișa numărul T, determinat la cerința 2.
+
+Restricții și precizări
+
+- 1 ≤ N, M ≤ 700
+- 1 ≤ K ≤ min(N, M, 200)
+- 0 ≤ x[k] ≤ 100, pentru orice k ∈ {1, 2, ..., K}
+- 0 ≤ coeficientul fiecărui stejar ≤ 100
+- Valorile x[1], x[2], ..., x[k] respectă relația x[1] ≥ x[2] ≥ x[3] ≥ ... ≥ x[k]
+- Pentru 10 puncte, p=1 și N, M ≤ 100, K ≤ 10
+- Pentru 35 de puncte, p=1 și nu există restricții suplimentare
+- Pentru 20 de puncte, p=2 și K ≤ 10
+- Pentru 35 de puncte, p=2 și nu există restricții suplimentare
+
+Exemplu
+
+alvn.in
+
+1
+4 4
+1 0 1 0
+0 2 0 1
+1 0 3 0
+0 1 0 1
+3
+4 2 1
+
+alvn.out
+
+25
+
+### Explicație
+
+Numărul de ghinde din fiecare celulă este:
+
+13 13 15 9
+
+13 23 18 16
+
+15 18 25 14
+
+9 16 14 14
+
+În parcela (3, 3) sunt ghinde din următorii stejari, din parcelele: (3, 3): 3 * 4 = 12, (2, 2): 2 * 2 = 4, (2, 4): 2 * 1 = 2, (4, 2): 2 * 1 = 2, (4, 4): 2 * 1 = 2, (1, 1): 1 * 1 = 1, (1, 3): 1 * 1 = 1, (3, 1): 1 * 1 = 1. Deci, în total sunt 25 de ghinde.
+
+Exemplu
+
+alvn.in
+
+2
+4 4
+1 0 1 0
+0 2 0 1
+1 0 3 0
+0 1 0 1
+2
+2 1
+
+alvn.out
+
+11
+
+### Explicație
+
+Veverițele se vor așeza în parcelele (1,3) și (4,2). Inelele acestor copaci nu se vor intersecta. Parcelele din inelele stejarului din (1, 3) sunt verzi, iar cele ale stejarului din (4, 2) sunt mov. Parcela (1,3) va avea valoarea 5, iar parcela (4,2) va avea valoarea 6.

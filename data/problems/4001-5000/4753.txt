@@ -1,0 +1,49 @@
+#4753
+InlocuireRec11
+Sursa: https://www.pbinfo.ro/probleme/4753/inlocuirerec11
+
+Cerința
+
+Se dă un tablou cu n elemente, numere naturale. Să se înlocuiască fiecare element al tabloului cu produsul dintre cifra sa maximă și suma cifrelor sale.
+
+Se vor defini și apela următoarele subprograme **recursive**:
+
+- citire, care citește de la tastatură cele n elemente ale unui tablou
+- afisare, care afișează pe ecran elementele tabloului separate prin exact un spațiu
+- sumcif, care calculează și returnează suma cifrelor numărului primit ca parametru
+- cifmax, care calculează și returnează cifra maximă a numărului primit ca parametru
+- inloc, care realizează înlocuirile cerute.
+
+**În programele C/C++ nu se vor folosi variabile globale**.
+
+Date de intrare
+
+Se citește de la tastatură numărul n, iar apoi cele n elemente ale tabloului.
+
+Date de ieșire
+
+Se vor afișa pe ecran elementele tabloului obținut, separate prin exact un spațiu.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 1000
+- elementele tabloului vor fi mai mici decât 1.000.000.000
+
+Exemplu
+
+**Intrare**
+
+3
+30 108 2147
+
+**Ieșire**
+
+9 72 98
+
+Explicație
+
+Pentru numărul 30, cifra maximă este 3, iar suma cifrelor este 3, deci el se înlocuiește cu 9.
+
+Pentru numărul 108, cifra maximă este 8, iar suma cifrelor este 9, deci el se înlocuiește cu 72.
+
+Pentru numărul 2147, cifra maximă este 7, iar suma cifrelor este 14, deci el se înlocuiește cu 98.

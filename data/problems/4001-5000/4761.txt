@@ -1,0 +1,55 @@
+#4761
+bambusi
+Sursa: https://www.pbinfo.ro/probleme/4761/bambusi
+
+Eroul nostru, Mao, a ajuns în Crângul cu Bambuși din Universul Paralel unde înălțimile tulpinilor de bambus sunt amețitoare. În crângul din acest univers se află n tulpini de înălțimi h[1], h[2], …, h[n]. Mao are nevoie să taie cel puțin M metri de bambus, așa că el procedează astfel: își alege o înălțime H și trece pe la fiecare tulpină în parte. Dacă bambusul i are înălțimea h[i] mai mare decât H, atunci taie din el partea de sus astfel încât să rămână exact H metri, iar dacă bambusul are cel mult H metri, atunci nu taie deloc. De exemplu, dacă bambușii au înălțimile 9,7,5,2,8 și H = 5, atunci după tăiere înălțimile vor fi 5,5,5,2,5 și se obțin 4+2+0+0+3=9 metri cu care Mao va pleca acasă.
+
+Cerința
+
+Să se determine înălțimea maximă H pe care o poate fixa Mao astfel încât după tăiere să poată pleca acasă cu cel puțin M metri de bambus.
+
+Date de intrare
+
+Fișierul de intrare bambusi.in conține pe prima linie numerele naturale n și M, iar pe a doua linie valorile h[1], h[2], …, h[n], separate prin câte un spațiu.
+
+Date de ieșire
+
+Fișierul de ieșire bambusi.out va conține pe prima linie un singur număr natural H reprezentând înălțimea maximă la care vor fi tăiați bambușii astfel încât Mao să poată pleca acasă cu cel puțin M metri de bambus.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 100.000
+- 1 ≤ M ≤ 2.000.000.000
+- 1 ≤ h[i] ≤ 1.000.000.000, i=1..n
+- Pentru datele de test va exista mereu soluție, deci Mao poate pleca acasă cu cel puțin M metri.
+- Cum se va întoarce Mao în Universul nostru, e treaba lui.
+
+Exemplu
+
+bambusi.in
+
+5 8
+9 7 5 2 8
+
+bambusi.out
+
+5
+
+### Explicație
+
+Dacă ar fi tăiat la înălțimea H = 6, atunci ar fi obținut 3 + 1 + 0 + 0 + 2 = 6 metri de bambus, insuficient, deoarece Mao vrea 8 metri. Așa că taie la înălțimea H = 5 și obține chiar mai mult, 9 metri. Deci H = 5 este înălțimea maximă căutată.
+
+Exemplu
+
+bambusi.in
+
+5 10
+2 1 1 2 4
+
+bambusi.out
+
+0
+
+### Explicație
+
+Mao are doar o soluție, anume să taie toți bambușii de tot, adică de la înălțimea 0, astfel încât să obțină 2 + 1 + 1 + 2 + 4 = 10 metri.

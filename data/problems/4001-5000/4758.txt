@@ -1,0 +1,65 @@
+#4758
+MatrixBeauty
+Sursa: https://www.pbinfo.ro/probleme/4758/matrixbeauty
+
+Se dă o matrice cu N linii și N coloane. Trebuie să aflăm cea mai frumoasă submatrice pătratică din matrice. Dacă notăm cu A suma elementelor aflate pe diagonala principală din submatrice și cu B suma elementelor aflate pe diagonala secundară din submatrice, atunci **frumusețea** submatricei este dată de valoarea A - B.
+
+Cerința
+
+Să se determine frumusețea maximă a unei submatrice pătratice.
+
+Date de intrare
+
+Fișierul de intrare matrixbeauty.in conține pe prima linie numărul N, iar fiecare din următoarele N linii conține câte N numere reprezentând o linie din matrice.
+
+Date de ieșire
+
+Fișierul de ieșire matrixbeauty.out va conține pe prima linie un singur număr reprezentând frumusețea maximă a unei submatrice pătratice.
+
+Restricții și precizări
+
+- 2 ≤ N ≤ 400
+- Valorile din matrice sunt numere întregi din intervalul [-1000, 1000]
+- Submatricea cu o linie și o coloană are frumusețea 0
+
+Exemplu
+
+matrixbeauty.in
+
+2
+1 -2
+4 5
+
+matrixbeauty.out
+
+4
+
+### Explicație
+
+Submatricea de frumusețe maximă este chiar întreaga matrice: 1 + 5 - (4 - 2) = 4.
+
+Exemplu
+
+matrixbeauty.in
+
+3
+1 2 3
+4 5 6
+7 8 9
+
+matrixbeauty.out
+
+0
+
+Exemplu
+
+matrixbeauty.in
+
+3
+-3 4 5
+7 9 -2
+1 0 -6
+
+matrixbeauty.out
+
+5

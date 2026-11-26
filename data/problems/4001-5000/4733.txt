@@ -1,0 +1,21 @@
+#4733
+NrCifK
+Sursa: https://www.pbinfo.ro/probleme/4733/nrcifk
+
+Cerința
+
+Scrieți funcția recursivă NrCif care primește ca parametri numerele naturale n și k și returnează numărul cifrelor lui n care sunt egale cu k.
+
+Restricții și precizări
+
+- 0 ≤ n ≤ 2.147.000.000
+- Numele funcției este NrCif.
+- Se recomandă utilizarea recursivității în rezolvarea problemei.
+
+Exemplu
+
+NrCif(413711, 1) = 3, NrCif(43711, 1) = 2, NrCif(2222, 3) = 0.
+
+Important
+
+Soluția propusă va conține doar funcția cerută. Introducerea în soluție a altor instrucțiuni poate duce la erori de compilare sau de execuție, care vor duce la depunctarea soluției.

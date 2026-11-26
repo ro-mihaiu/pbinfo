@@ -1,0 +1,62 @@
+#4760
+AdMuchii
+Sursa: https://www.pbinfo.ro/probleme/4760/admuchii
+
+**Notă**: enunțul a fost modificat față de original, pentru a fi mai ușor de citit. De asemenea, restricțiile sunt modificate.
+
+Se dă un graf neorientat, nu neapărat conex. În unele componente conexe este posibil să fie un nod special. Acest lucru înseamnă că nu există lanț între două noduri speciale.
+
+Cerința
+
+Să se adauge un număr maxim de muchii astfel încât în continuare, orice două noduri speciale am alege, nu există lanț între ele.
+
+Date de intrare
+
+Fișierul de intrare admuchii.in conține pe prima linie numărul n m k, unde n este numărul de noduri din graf, m este numărul de muchii, iar k este numărul de noduri speciale. Pe a doua linie se află k numere naturale separate prin câte un spațiu, reprezentând nodurile speciale. Pe următoarele m linii se află câte două numere naturale i j reprezentând o muchie din graf.
+
+Date de ieșire
+
+Fișierul de ieșire admuchii.out va conține pe prima linie numărul maxim de muchii care pot fi adăugate astfel încât nodurile speciale să se afle în continuare în componente conexe diferite.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 50.000
+- 0 ≤ m ≤ 200.000
+- 1 ≤ k ≤ n
+- Este garantat că în toate datele de intrare nu există două noduri speciale în aceeași componentă conexă.
+
+Exemplu
+
+admuchii.in
+
+4 1 2
+1 3
+1 2
+
+admuchii.out
+
+2
+
+### Explicație
+
+Graful corespunde imaginii de mai jos. Noduri speciale sunt 1 și 3. Putem adăuga muchiile (1,4) și (2,4).
+
+
+
+Exemplu
+
+admuchii.in
+
+3 3 1
+2
+1 2
+1 3
+2 3
+
+admuchii.out
+
+0
+
+### Explicație
+
+Graful este conex și mai mult, este complet. Singurul nod special este 2. Nu se mai poate adăuga nicio muchie.

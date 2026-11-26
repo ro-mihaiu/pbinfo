@@ -1,0 +1,69 @@
+#4788
+reducere1
+Sursa: https://www.pbinfo.ro/probleme/4788/reducere1
+
+O **operaţie de reducere** aplicată asupra unui șir constă în selectarea unui număr prim p şi a unor elemente din șirul dat care sunt divizibile cu p şi împărţirea acestora la p.
+
+Asupra unui șir format din n numere naturale nenule se aplică o succesiune de operaţii de reducere, până când toate elementele șirului devin egale. Valoarea finală a elementelor șirului este denumită **valoare de egalitate**.
+
+**Valoarea de reducere** a unui șir este cea mai mare dintre valorile de egalitate care se pot obţine în urma aplicării unor operaţii de reducere asupra acestui șir.
+
+Cerința
+
+1) Determinați valoarea de reducere pentru un șir dat.
+
+2) Determinați numărul minim de operaţii de reducere care trebuie să fie aplicate șirului dat pentru a obţine valoarea de reducere.
+
+Date de intrare
+
+Fișierul de intrare reducere.in conţine pe prima linie un număr natural C, reprezentând cerința care trebuie să fie rezolvată (1 sau 2), pe a doua linie un număr natural n, iar pe următoarele n linii câte un număr natural, reprezentând câte un element al șirului.
+
+Date de ieșire
+
+Fișierul de ieșire reducere.out va conține o singură linie, pe care va fi scris numărul determinat pentru cerinţa C din fișierul de intrare.
+
+Restricții și precizări
+
+- 2 ≤ n ≤ 2000
+- Elementele șirului sunt numere naturale nenule ≤ 1012
+- Pentru 34 de puncte, C = 1
+- Pentru 37 de puncte, C = 2, iar valorile din șir sunt ≤ 106
+- Pentru 29 de puncte, C = 2, fără restricții suplimentare
+
+Exemplu
+
+reducere.in
+
+1
+3
+10
+6
+12
+
+reducere.out
+
+2
+
+### Explicație
+
+Operaţia de reducere 1: împărţim prin 3 pe 6 şi pe 12 =\> 10 2 4.
+
+Operaţia de reducere 2: împărţim prin 5 pe 10 =\> 2 2 4
+
+Operaţia de reducere 3: împărţim prin 2 pe 4 =\> 2 2 2
+
+Valoarea de reducere este 2, aceasta fiind cea mai mare dintre valorile de egalitate posibile.
+
+Exemplu
+
+reducere.in
+
+2
+3
+10
+6
+12
+
+reducere.out
+
+3

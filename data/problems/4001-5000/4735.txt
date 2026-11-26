@@ -1,0 +1,49 @@
+#4735
+MosCraciun6
+Sursa: https://www.pbinfo.ro/probleme/4735/moscraciun6
+
+Cerința
+
+Moș Crăciun locuiește la polul nord și pregătește cadouri pentru fetele și băieții cuminți din clasa a X-a A. Datorită încălzirii globale, gheața se topește, formându-se mai multe banchize. Harta polului nord seamănă cu o matrice cu n linii și m coloane în care elementele pot avea următoarele valori:
+
+- 0 – zonă cu apă, în care gheața s-a topit;
+- număr natural nenul; o zonă care contine gheață. În fiecare asemenea zonă se află un cadou, iar numărul din matrice reprezintă valoarea acestui cadou:
+  - dacă numărul este par, cadoul este pentru fete,
+  - dacă numărul este impar, cadoul este pentru băieți!
+
+Scrieți un program care să determine care este suma valorilor cadourilor pentru fete sau pentru băieți aflate pe banchiza lui Moș Crăciun. Acesta se află pe banchiza care conține elementul aflat pe linia 1 și coloana 1.
+
+Date de intrare
+
+Fișierul de intrare moscraciun6.in conține pe prima linie numerele n m. Următoarele n linii conțin câte m elemente, cu semnificația din enunț.
+
+Ultima linie conține un număr natural p, care poate fi doar 1 sau 2. Dacă p = 1 veți calcula suma valorilor cadourilor pentru fete, iar dacă p = 2 veți calcula suma valorilor cadourilor pentru băieți.
+
+Date de ieșire
+
+Fișierul de ieșire moscraciun6.out va conține pe prima linie numărul S, reprezentând valoarea calculată.
+
+Restricții și precizări
+
+- 1 ≤ n , m ≤ 100
+- valorile cadourilor sunt numere naturale mai mici sau egale cu 10
+- Moș Crăciun vă asigură că elementul aflat pe linia 1 și coloana 1 nu conține apă.
+
+Exemplu
+
+moscraciun6.in
+
+4 6
+4 2 1 0 3 0
+0 0 1 0 9 9
+1 3 6 0 0 0
+0 3 0 1 3 7
+1
+
+moscraciun6.out
+
+12
+
+## Explicație:
+
+p=1, deci se determină suma valorilor cadourilor pentru fete: 4 + 2 + 6 = 12.

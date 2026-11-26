@@ -1,0 +1,40 @@
+#4747
+Arme5
+Sursa: https://www.pbinfo.ro/probleme/4747/arme5
+
+Cerința
+
+Gigel joacă jocul lui preferat, cu împușcaturi. El are n arme, fiecare având o putere cunoscută. Dușmanul lui tradițional, Vasile, are o magie: alege două arme ale lui Gigel și puterea uneia se înlocuiește cu puterea celeilalte. Vasile poate aplica această magie de cel mult p ori, dar o armă poate fi folosită la o singură magie.
+
+Determinați suma minimă a puterilor armelor lui Gigel după ce Vasile aplică magia de cel mult p ori.
+
+Date de intrare
+
+Programul citește de la tastatură numărul n, iar apoi puterile celor n arme, apoi numărul p.
+
+Date de ieșire
+
+Programul va afișa pe ecran numărul S, reprezentând suma minimă determinată.
+
+Restricții și precizări
+
+- 1 ≤ n, p ≤ 100.000
+- puterile armelor sunt numere naturale, mai mici decât 1.000.000
+
+Exemplu
+
+**Intrare**
+
+5
+5 2 4 1 1
+2
+
+**Ieșire**
+
+6
+
+### Explicație
+
+Vasile aplică prima magie armelor cu puterile 5 și 1, iar șirul puterilor devine 1 2 4 1 1. Apoi aplică magia armelor cu puterile 4 și 1, iar șirul puterilor este 1 2 1 1 1.
+
+Suma puterilor devine 1 + 2 + 1 + 1 + 1 = 6

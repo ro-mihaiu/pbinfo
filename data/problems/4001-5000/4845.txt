@@ -1,0 +1,35 @@
+#4845
+Muzeu
+Sursa: https://www.pbinfo.ro/probleme/4845/muzeu
+
+Cerința
+
+Un tânăr pasionat de călătorii are o listă cu muzee virtuale și, pentru fiecare, câte un singur interval orar, în care acesta poate fi vizitat online, gratuit. Tânărul dispune zilnic de același interval orar pentru vizite; un muzeu este **convenabil** dacă poate fi vizitat online gratuit în timpul disponibil și dacă pentru vizită îi poate aloca cel puțin o oră. Muzeele din listă sunt numerotate cu valori naturale consecutive, începând cu 1, și cel puțin unul este convenabil.
+
+Fișierul text bac.in conține cel mult 105 linii, iar pe fiecare linie câte o pereche de numere, reprezentând limitele câte unui interval orar: pe prima linie intervalul orar de care tânărul dispune zilnic, iar pe fiecare dintre următoarele linii, intervalul orar de vizitare gratuită pentru câte un muzeu, în ordinea din listă. Limitele intervalelor sunt ore fixe, numere naturale din intervalul [8,22], iar cele aflate pe aceeași linie a fișierului sunt în ordine strict crescătoare și sunt separate printr-un spațiu.
+
+Se cere să se afișeze în fișierul bac.out, separate printr-un spațiu, două valori, reprezentând numărul de muzee convenabile, respectiv numărul de ordine al ultimului astfel de muzeu din lista tânărului.
+
+Restricții și precizări
+
+- Pentru determinarea numerelor cerute se utilizează un algoritm eficient din punctul de vedere al memoriei necesare și al timpului de executare.
+- Se recomandă evitarea memorării elementelor șirului într-un tablou sau în altă structură de date similară.
+
+Exemplu
+
+bac.in
+
+16 19
+15 18
+17 21
+19 21
+18 20
+12 13
+
+bac.out
+
+3 4
+
+## Explicație
+
+Pot fi vizitate trei muzee cu numerele de ordine 1, 2 și 4, în intervalele 16-18, 17-19, respectiv 18-19.

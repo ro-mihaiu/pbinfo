@@ -1,0 +1,43 @@
+#4867
+Asociat
+Sursa: https://www.pbinfo.ro/probleme/4867/asociat
+
+Cerința
+
+Două numere naturale se numesc asociate dacă sumele cifrelor lor se împart exact la 2 sau la 3 sau la 5. Date două numere naturale a și b, să se verifice dacă sunt asociate.
+
+Date de intrare
+
+Programul citește de la tastatură numerele a și b.
+
+Date de ieșire
+
+Programul va afișa pe ecran mesajul DA dacă cele două sunt asociate sau mesajul NU în caz contrar.
+
+Restricții și precizări
+
+- 1 ≤ a,b ≤ 1.000.000.000
+
+Exemplu
+
+**Intrare**
+
+12 14
+
+**Ieșire**
+
+DA
+
+### Explicație
+
+Suma cifrelor primului numer este 3, iar suma cifrelor celui de-al doilea este 5.
+
+Exemplu 2:
+
+**Intrare**
+
+12 10
+
+**Ieșire**
+
+NU

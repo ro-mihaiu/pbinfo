@@ -1,0 +1,39 @@
+#4869
+sumeSubsecv
+Sursa: https://www.pbinfo.ro/probleme/4869/sumesubsecv
+
+Se dă un șir a = a1, a2, …, an de numere naturale. Spunem că o subsecvență nevidă ai, ai+1, …, aj din șir este **valoroasă** dacă orice două valori aflate pe poziții consecutive în subsecvență au diferența în modul egală cu 1. De exemplu, 3,4,5,4,3,2,1,0 sau 8 sau 9,10,9 sunt valoroase, pe când 2,3,5,4 nu este pentru că diferența în modul dintre 3 și 5 este diferită de 1.
+
+Costul unei secvențe este dat de suma elementelor din acea secvență.
+
+Cerința
+
+Pentru șirul dat, să se determine suma costurilor tuturor subsecvențelor valoroase. Pentru că acest număr poate fi foarte mare, se va calcula modulo 1.000.000.007.
+
+Date de intrare
+
+Fișierul de intrare sumesubsecv.in conține pe prima linie numărul n, iar pe a doua linie n numere naturale separate prin spații.
+
+Date de ieșire
+
+Fișierul de ieșire sumesubsecv.out va conține pe prima linie numărul S, reprezentând suma modulo 1.000.000.007 a costurilor tuturor secvențelor valoroase.
+
+Restricții și precizări
+
+- 1 ≤ n ≤ 100.000
+- numerele de pe a doua linie a fișierului de intrare vor fi naturale și mai mici decât 200.000
+
+Exemplu
+
+sumesubsecv.in
+
+4
+4 5 4 10
+
+sumesubsecv.out
+
+54
+
+### Explicație
+
+Secvențele valoroase sunt: 4, 5, 4, 10, 4 5, 5 4, 4 5 4. Suma costurilor este 4+5+4+10+9+9+13 = 54.

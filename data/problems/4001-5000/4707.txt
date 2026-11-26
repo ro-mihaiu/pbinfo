@@ -1,0 +1,45 @@
+#4707
+nkd
+Sursa: https://www.pbinfo.ro/probleme/4707/nkd
+
+Cerința
+
+Se consideră trei numere naturale n, k și d. Să se determine cel mai mic număr natural care se poate obține prin interschimbarea ultimelor k cifre ale lui n astfel încât numărul obținut să fie divizibil cu d.
+
+Date de intrare
+
+Fișierul de intrare nkd.in conține pe prima linie numărul natural n, pe linia a doua numărul k și pe a treia linie numărul d.
+
+Date de ieșire
+
+Fișierul de ieșire nkd.out va conține pe prima linie un singur număr natural reprezentând numărul minim divizibil cu d obținut prin interschimbarea ultimelor k cifre ale lui n. Dacă acest lucru nu este posibil, afișați valoarea –1.
+
+Restricții și precizări
+
+- n este un număr natural nenul cu cel mult 10.010 de cifre
+- 1 ≤ k ≤ 11, k < n
+- 1 < d < 200.000
+
+Exemplu
+
+nkd.in
+
+68281092
+4
+15
+
+nkd.out
+
+68281290
+
+Exemplu
+
+nkd.in
+
+68281092
+4
+25
+
+nkd.out
+
+-1
