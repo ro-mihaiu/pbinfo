@@ -1,0 +1,10 @@
+Enunț reformulat pe baza sursei: https://rezolvari.netlify.app/rezolvare-820-factorialrec
+
+Cerința
+Implementați factorial(n) în C++, folosind recursivitatea. Funcția întoarce produsul numerelor de la 1 la n; pentru n = 0 întoarce 1.
+
+Restricții și precizări
+Parametrul n este natural și aparține intervalului [0, 10]. Se trimite numai definiția funcției factorial, fără program principal.
+
+Exemplu
+factorial(4) = 24

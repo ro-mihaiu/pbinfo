@@ -7,6 +7,7 @@ const { parseStatement, parseHomework, parseMarkdownBlocks, parseIdFromFilename 
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const PROBLEMS_FILE = path.join(DATA_DIR, 'problems.json');
 const PROBLEMS_JSONL_FILE = path.join(DATA_DIR, 'problems.jsonl');
+const RECOVERED_PROBLEMS_FILE = path.join(DATA_DIR, 'recovered-problems.jsonl');
 const ISSUES_FILE = path.join(DATA_DIR, 'issues.jsonl');
 const SOLUTIONS_DIR = path.join(DATA_DIR, 'solutions');
 const EXERCISES_DIR = path.join(DATA_DIR, 'exercises');
@@ -15,7 +16,8 @@ const HOMEWORK_DIR = path.join(DATA_DIR, 'homework');
 
 function getProblems() {
   try {
-    const raw = fs.readFileSync(PROBLEMS_JSONL_FILE, 'utf-8');
+    const raw = [PROBLEMS_JSONL_FILE, RECOVERED_PROBLEMS_FILE]
+      .map((file) => fs.readFileSync(file, 'utf-8')).join('\n');
     const difficultyMap = { usoara: 1, ușoară: 1, usoară: 1, medie: 2, dificil: 3, dificila: 3, dificilă: 3, concurs: 4 };
     const problems = raw.split(/\r?\n/).filter(Boolean).map((line) => {
       try {
@@ -25,7 +27,7 @@ function getProblems() {
           titles: { ro: row.title || `Problema ${row.id}`, en: '' },
           difficulty: typeof row.dificultate === 'number' ? row.dificultate : (difficultyMap[String(row.dificultate || '').toLowerCase()] || null),
           grade: row.clasa ?? null,
-          tags: Array.isArray(row.tags) ? row.tags : [], notes: {},
+          tags: Array.isArray(row.tags) ? row.tags : [], notes: row.notes || {},
           details: { enunt: row.enunt || '', cerinta: row.cerinta || '', date_intrare: row.date_intrare || '', date_iesire: row.date_iesire || '', restrictii: row.restrictii || '', exemple: Array.isArray(row.exemple) ? row.exemple : [] }
         };
       } catch (err) { return null; }
@@ -53,7 +55,7 @@ function getProblemMeta() {
 
 function getProblemById(id) {
   const idNum = parseInt(id, 10);
-  if (isNaN(idNum) || idNum < 1 || idNum > 5040) return null;
+  if (!Number.isSafeInteger(idNum) || idNum < 1) return null;
   return getProblems().find((p) => p.id === idNum) || null;
 }
 

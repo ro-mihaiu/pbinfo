@@ -50,8 +50,12 @@
     <div class="problem-main">
       <% if (officialPageMissing) { %>
         <section class="card panel empty-panel">
-          <p class="muted" lang="ro">Problema #<%= problem.id %> nu are o pagină oficială pe pbInfo.</p>
-          <% if (locale !== 'ro') { %><p class="muted"><%= t('problem_official_missing').replace('{id}', problem.id) %></p><% } %>
+          <p class="muted"><%= t('problem_official_missing').replace('{id}', problem.id) %></p>
+        </section>
+      <% } else { %>
+        <section class="card panel">
+          <p><%= t('problem_report_help') %></p>
+          <a class="btn btn-primary btn-sm" href="#issue-form"><%= t('problem_report_action') %></a>
         </section>
       <% } %>
       <% if (statement && statement.length > 0) { %>

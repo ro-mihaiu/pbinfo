@@ -1,0 +1,25 @@
+Enunț reformulat pe baza sursei: https://rezolvari.netlify.app/rezolvare-2835-genmat26
+
+Cerința
+Construiți o matrice pătratică de ordin n pornind de la prima sa linie. Pentru fiecare linie următoare, deplasați circular spre dreapta cu o poziție valorile liniei precedente: ultimul element devine primul.
+
+Date de intrare
+Se citesc n și apoi cele n valori ale primei linii, în ordinea lor.
+
+Date de ieșire
+Afișați matricea pe n linii, separând valorile aceleiași linii prin spații.
+
+Restricții și precizări
+2 ≤ n ≤ 20
+Valorile inițiale sunt numere naturale între 0 și 10000, inclusiv.
+
+Exemplu
+Intrare
+4
+1 1 3 2
+
+Ieșire
+1 1 3 2
+2 1 1 3
+3 2 1 1
+1 3 2 1

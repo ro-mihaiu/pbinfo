@@ -677,7 +677,7 @@ async function renderProblemById(req, res) {
     'Restricții și precizări': problem.details?.restrictii
   }).filter(([, content]) => content).map(([heading, content]) => ({ heading, content }));
   const examples = problem.details?.exemple || [];
-  const officialPageMissing = (!statement.length || !solution) && await pbinfo.isOfficialPageMissing(id);
+  const officialPageMissing = await pbinfo.isOfficialPageMissing(id);
 
   res.render('problem', {
     title: `#${problem.id} · ${problem.titles?.ro || String(id)}`,

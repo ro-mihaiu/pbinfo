@@ -1,0 +1,97 @@
+{
+  "solutions": [
+    {
+      "id": 5065,
+      "url": "https://github.com/itsiamdev/pbinfo/blob/f3b4da4fe218fe863a23a0c86ffbd80f63dd46fb/rezolvari%20pbinfo/5065.cpp",
+      "validation": "C++17 compilation only; not judge-verified"
+    },
+    {
+      "id": 4360,
+      "url": "https://github.com/itsiamdev/pbinfo/blob/f3b4da4fe218fe863a23a0c86ffbd80f63dd46fb/rezolvari%20pbinfo/4360.cpp",
+      "validation": "C++17 compilation only; not judge-verified"
+    },
+    {
+      "id": 5036,
+      "url": "https://github.com/itsiamdev/pbinfo/blob/f3b4da4fe218fe863a23a0c86ffbd80f63dd46fb/rezolvari%20pbinfo/5036.cpp",
+      "validation": "C++17 compilation only; not judge-verified"
+    },
+    {
+      "id": 5026,
+      "url": "https://github.com/itsiamdev/pbinfo/blob/f3b4da4fe218fe863a23a0c86ffbd80f63dd46fb/rezolvari%20pbinfo/5026.cpp",
+      "validation": "C++17 compilation only; not judge-verified"
+    },
+    {
+      "id": 4940,
+      "url": "https://github.com/itsiamdev/pbinfo/blob/f3b4da4fe218fe863a23a0c86ffbd80f63dd46fb/rezolvari%20pbinfo/4940.cpp",
+      "validation": "C++17 compilation only; not judge-verified"
+    },
+    {
+      "id": 5061,
+      "url": "https://github.com/itsiamdev/pbinfo/blob/f3b4da4fe218fe863a23a0c86ffbd80f63dd46fb/rezolvari%20pbinfo/5061.cpp",
+      "validation": "C++17 compilation only; not judge-verified"
+    },
+    {
+      "id": 4811,
+      "url": "https://github.com/itsiamdev/pbinfo/blob/f3b4da4fe218fe863a23a0c86ffbd80f63dd46fb/rezolvari%20pbinfo/4811.cpp",
+      "validation": "C++17 compilation only; not judge-verified"
+    },
+    {
+      "id": 4947,
+      "url": "https://github.com/itsiamdev/pbinfo/blob/f3b4da4fe218fe863a23a0c86ffbd80f63dd46fb/rezolvari%20pbinfo/4947.cpp",
+      "validation": "C++17 compilation only; not judge-verified"
+    },
+    {
+      "id": 4791,
+      "url": "https://github.com/itsiamdev/pbinfo/blob/f3b4da4fe218fe863a23a0c86ffbd80f63dd46fb/rezolvari%20pbinfo/4791.cpp",
+      "validation": "C++17 compilation only; not judge-verified"
+    },
+    {
+      "id": 5064,
+      "url": "https://github.com/itsiamdev/pbinfo/blob/f3b4da4fe218fe863a23a0c86ffbd80f63dd46fb/rezolvari%20pbinfo/5064.cpp",
+      "validation": "C++17 compilation only; not judge-verified"
+    },
+    {
+      "id": 4921,
+      "url": "https://github.com/itsiamdev/pbinfo/blob/f3b4da4fe218fe863a23a0c86ffbd80f63dd46fb/rezolvari%20pbinfo/4921.cpp",
+      "validation": "C++17 compilation only; not judge-verified"
+    },
+    {
+      "id": 5037,
+      "url": "https://github.com/itsiamdev/pbinfo/blob/f3b4da4fe218fe863a23a0c86ffbd80f63dd46fb/rezolvari%20pbinfo/5037.cpp",
+      "validation": "C++17 compilation only; not judge-verified"
+    },
+    {
+      "id": 5060,
+      "url": "https://github.com/itsiamdev/pbinfo/blob/f3b4da4fe218fe863a23a0c86ffbd80f63dd46fb/rezolvari%20pbinfo/5060.cpp",
+      "validation": "C++17 compilation only; not judge-verified"
+    }
+  ],
+  "statements": [
+    {
+      "id": 820,
+      "url": "https://rezolvari.netlify.app/rezolvare-820-factorialrec",
+      "format": "Paraphrased statement; original constraints and examples preserved"
+    },
+    {
+      "id": 1335,
+      "url": "https://rezolvari.netlify.app/rezolvare-1335-caractere.html",
+      "format": "Paraphrased statement; original constraints and examples preserved"
+    },
+    {
+      "id": 2835,
+      "url": "https://rezolvari.netlify.app/rezolvare-2835-genmat26",
+      "format": "Paraphrased statement; original constraints and examples preserved"
+    },
+    {
+      "id": 4912,
+      "url": "https://codulluiandrei.ro/rezolvari/pbinfo/4912",
+      "format": "Paraphrased statement; original constraints and examples preserved"
+    }
+  ],
+  "deferred": [
+    {
+      "id": 4212,
+      "reason": "Only a summary was accessible; full constraints/examples not recovered."
+    }
+  ]
+}

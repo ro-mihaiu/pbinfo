@@ -1,0 +1,21 @@
+Enunț reformulat pe baza sursei: https://rezolvari.netlify.app/rezolvare-1335-caractere.html
+
+Cerința
+Parcurgeți primul dintre două texte și afișați fiecare caracter al său care apare și în al doilea text. Păstrați ordinea din primul text.
+
+Date de intrare
+Cele două texte se citesc de la tastatură, pe linii separate.
+
+Date de ieșire
+Afișați caracterele selectate, consecutiv, fără separatori suplimentari.
+
+Restricții și precizări
+Lungimea fiecărui text este de maximum 250 de caractere.
+
+Exemplu
+Intrare
+asD'";*]!
+da';h
+
+Ieșire
+a';

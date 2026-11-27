@@ -1,0 +1,12 @@
+Enunț reformulat pe baza sursei: https://codulluiandrei.ro/rezolvari/pbinfo/4912
+
+Cerința
+Definiți funcția recursivă C++ FPareImpare(n). Rezultatul trebuie să fie zero când n conține tot atâtea cifre pare câte cifre impare; în celelalte cazuri trebuie să fie nenul.
+
+Restricții și precizări
+n este natural, 1 ≤ n ≤ 2.000.000.000.
+Trimiteți numai definiția funcției solicitate, fără main sau alte instrucțiuni ale unui program complet.
+
+Exemplu
+FPareImpare(1234) întoarce 0.
+FPareImpare(13508) întoarce o valoare nenulă.
